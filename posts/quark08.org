@@ -1,0 +1,9 @@
+#+BEGIN_COMMENT
+.. title: Quark'08 !
+.. date: 2008/02/11 02:28:00
+.. tags: fest, ology, quark
+.. slug: quark08
+#+END_COMMENT
+
+
+

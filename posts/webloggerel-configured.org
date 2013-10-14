@@ -1,0 +1,15 @@
+#+BEGIN_COMMENT
+.. title: Weblogger.el configured!
+.. date: 2009/03/19 17:22:00
+.. tags: emacs, ology
+.. slug: webloggerel-configured
+#+END_COMMENT
+
+
+
+
+If you see this post, it means weblogger has been successfully
+configured in emacs.  Emacs Rocks. \m/
+
+*UPDATE [2010-09-02]*: I now use org2blog, a small extension to
+ emacs orgmode to post to my blog.

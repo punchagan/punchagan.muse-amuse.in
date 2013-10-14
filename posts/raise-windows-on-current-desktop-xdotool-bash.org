@@ -1,0 +1,50 @@
+#+BEGIN_COMMENT
+.. title: Raise windows (on current desktop) xdotool & bash
+.. date: 2010/11/06 14:30:00
+.. tags: code, hack
+.. slug: raise-windows-on-current-desktop-xdotool-bash
+#+END_COMMENT
+
+
+
+:CLOCK:
+:END:
+
+I posted a snippet [fn:pysnip] of python code that used xdotool to
+raise windows.  I got one patch from dusual [fn:dusual] that
+enabled raising of windows in the current workspace only.
+
+More importantly, Jordan gave a one-liner [fn:one-liner] in bash,
+that could do the same thing as my long and elaborate python
+snippet.  I had a feeling that this would be much shorter in bash,
+but I don't feel comfortable writing bash scripts. :P
+
+Below is a bash snippet that tries to incorporates both the
+changes. :)
+
+#+begin_src sh :export code
+  found=0
+
+  for win in `xdotool search --class $1`;
+  do
+  if [ `xdotool get_desktop_for_window $win` -eq `xdotool get_desktop` ];
+  then found=1; break;
+  fi;
+  done
+
+  if [ $found -eq 1 ]; then xdotool windowactivate $win; else $1; fi
+#+end_src
+
+*Note*: When you've visual effects enabled (the default option on
+Ubuntu), getting the current desktop/workspace doesn't work,
+probably because Root Window properties are being messed around by
+it.
+
+*Note2*: =search= takes an option =--screen=. It'd be nice if it
+ also had an option =--desktop=.  This task could then be done in
+ a one-liner.
+
+
+[fn:dusual] dusual on twitter
+[fn:one-liner] Jordan's one liner
+[fn:pysnip] My python snippet

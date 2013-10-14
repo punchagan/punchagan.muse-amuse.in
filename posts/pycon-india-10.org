@@ -1,0 +1,22 @@
+#+BEGIN_COMMENT
+.. title: PyCon India '10
+.. date: 2010/08/16 09:28:00
+.. tags: conference, event, note, python
+.. slug: pycon-india-10
+#+END_COMMENT
+
+
+
+:CLOCK:
+:END:
+
+Looks like PyCon India 2010 is going to be great fun!  With 80
+talk submissions, quite a few interesting ones, this time's PyCon
+should be much better than last year's.  Also, David Goodger of
+docutils and ReST fame will be the keynote speaker!
+
++ Dates: [2010-09-25 Sat]--[2010-09-26 Sun]
++ Venue: MSRIT, Bangalore
++ RSVP here!
+
+http://in.pycon.org/2010/static/images/badges/supporter-small.png
