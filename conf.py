@@ -65,6 +65,8 @@ NAVIGATION_LINKS = {
         ('/archive.html', 'Archives', 'icon-folder-open-alt'),
         ('/categories/index.html', 'Tags', 'icon-tags'),
         ('/rss.xml', 'RSS', 'icon-rss'),
+        ('https://twitter.com/punchagan', 'Twitter profile', 'icon-twitter'),
+        ('https://github.com/punchagan', 'GitHub profile', 'icon-github'),
     ),
 }
 
