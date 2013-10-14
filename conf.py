@@ -196,9 +196,8 @@ DEPLOY_COMMANDS = [
     'nikola build',
     'git stash',
     'git push origin master',
-    'git checkout --orphan gh-pages',
-    'git add output',
-    'git commit -m "Initial commit."',
+    #fixme: I don't like the output folder being version controlled on master!
+    'git subtree split --prefix output -b gh-pages',
     'git push -f origin gh-pages:gh-pages',
     'git checkout master',
     'git branch -D gh-pages',
