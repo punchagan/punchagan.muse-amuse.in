@@ -300,7 +300,10 @@ THEME = "zen"
 # READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
 
 # A HTML fragment describing the license, for the sidebar.
-LICENSE = ""
+LICENSE = """
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+Creative Commons Attribution 3.0 Unported License</a>
+"""
 # I recommend using the Creative Commons' wizard:
 # http://creativecommons.org/choose/
 # LICENSE = """
@@ -311,11 +314,16 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="http://getnikola.com">Nikola</a>         {license}'
+CONTENT_FOOTER = """&copy; {date}
+<a href="mailto:{email}">{author}</a> -
+<a href="http://getnikola.com">Nikola</a> powered -
+{license} -
+<a href="http://themes.getnikola.com/#{theme}">{theme}</a> theme"""
 CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
                                        author=BLOG_AUTHOR,
                                        date=time.gmtime().tm_year,
-                                       license=LICENSE)
+                                       license=LICENSE,
+                                       theme=THEME)
 
 # To use comments, you can choose between different third party comment
 # systems, one of "disqus", "livefyre", "intensedebate", "moot",
