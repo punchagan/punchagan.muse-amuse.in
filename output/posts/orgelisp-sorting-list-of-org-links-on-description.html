@@ -1,0 +1,162 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="punchagan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>org/elisp - sorting list of org-links on description | Noetic Nought</title>
+    
+            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+    
+
+
+
+    
+</head>
+
+<body>
+    <section class="social">
+        <ul>
+<!--        <h1 id="blog-title">
+            <a href="/" title="Noetic Nought">Noetic Nought</a>
+        </h1>
+        
+         -->
+        
+            <li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
+            <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+            <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+            <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+            <li><a href="https://twitter.com/punchagan" title="Twitter profile"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://github.com/punchagan" title="GitHub profile"><i class="icon-github"></i></a></li>
+
+<!--         -->
+        </ul>
+    </section>
+    <section class="page-content">
+        <div class="content" rel="main">
+            
+    <div class="post">
+    
+    <h1>org/elisp - sorting list of org-links on description</h1>
+
+        <div class="meta">
+            <div class="authordate">
+                <time class="timeago" datetime="2010-08-20T00:23:00">2010-08-20 00:23</time>
+            </div>
+            
+
+            
+          |  
+        <a href="orgelisp-sorting-list-of-org-links-on-description.org" id="sourcelink">Source</a>
+
+            
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="../categories/code.html">code</a></li>
+            <li><a class="tag" href="../categories/elisp.html">elisp</a></li>
+            <li><a class="tag" href="../categories/note.html">note</a></li>
+            <li><a class="tag" href="../categories/orgmode.html">orgmode</a></li>
+        </ul>
+    </div>
+
+        </div>
+        <div class="body">
+            <p>
+A small utility function that I used to sort the names of people
+who commented on my blog.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(defun org-get-link-desc-from-list ()
+  """ Get link description of a list item containing just links """
+  (let* ((item-beg (point))
+       (item-end (org-end-of-item))
+       (cur-item (buffer-substring-no-properties
+		  item-beg item-end)))
+    (goto-char item-beg)
+    (org-columns-compact-links cur-item)))
+</pre>
+</div>
+
+<p>
+<code>sort-lines</code> wasn't good enough for me, since it was sorting
+alphabetically and it ended up being the sorted order of the urls
+and not the names. This function, when used with
+<code>org-sort-entries-or-items</code> gave me what I wanted.
+</p>
+
+<p>
+Thanks to benny (on #org-mode), I also learnt the difference
+between <code>let</code> and <code>let*</code>.
+</p>
+        </div>
+        
+    <ul class="pager">
+        <li class="previous">
+            <a href="contributing-to-foss.html">← Previous post</a>
+        </li>
+        <li class="next">
+            <a href="first-100.html">Next post →</a>
+        </li>
+    </ul>
+
+            
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        var disqus_shortname ="rusticreverie";
+            var disqus_url="http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html";
+        var disqus_title="org/elisp - sorting list of org-links on description";
+        var disqus_identifier="cache/posts/orgelisp-sorting-list-of-org-links-on-description.html";
+        var disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        
+
+    </div>
+
+            © 2013
+<a href="mailto:punchagan%5B@T%5Dmuse-amuse.in">punchagan</a> -
+<a href="http://getnikola.com">Nikola</a> powered -
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+Creative Commons Attribution 3.0 Unported License</a>
+ -
+<a href="http://themes.getnikola.com/#zen">zen</a> theme
+            
+	
+
+        </div>
+    </section>
+    
+            <script src="../assets/js/all-nocdn.js" type="text/javascript"></script>
+
+    
+        <script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+        </script>
+    
+    
+</body>
+</html>

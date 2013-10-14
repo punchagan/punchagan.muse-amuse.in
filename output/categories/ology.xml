@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (ology)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/ology.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Mon, 14 Oct 2013 15:23:28 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Augmented assignment in Python</title><link>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</link><description>&lt;p&gt;
+If you are new to &lt;code&gt;Python&lt;/code&gt;, you should probably stop reading here.
+But, if you have used &lt;code&gt;Python&lt;/code&gt; and &lt;code&gt;numpy&lt;/code&gt;, then read on. Before, that
+try these bits of code.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-python"&gt;import numpy
+a = numpy.array([1,2])
+a = a + 0.5j
+print a
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+The "same thing", in a slightly different way.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-python"&gt;import numpy
+a = numpy.array([1,2])
+a += 0.5j
+print a
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Both the code blocks, look really the same, until you look carefully.
+Under normal circumstances &lt;code&gt;a = a + b&lt;/code&gt; and &lt;code&gt;a += b&lt;/code&gt; behave exactly
+similarly, and we really don't need to bother about the differences
+between them.
+&lt;/p&gt;
+
+&lt;p&gt;
+But, &lt;code&gt;+=&lt;/code&gt;, which is an augmented assignment operator, actually tries
+to perform the operation in-place, unlike the other statement where
+&lt;code&gt;+&lt;/code&gt; actually returns a new object which is again being referenced by
+the name &lt;code&gt;a&lt;/code&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+But, when dealing with &lt;code&gt;numpy&lt;/code&gt; arrays, this will lead to trouble.
+When assigning to an array, it's &lt;code&gt;dtype&lt;/code&gt; is not changed and hence the
+trouble.
+&lt;/p&gt;
+
+&lt;p&gt;
+The right way to use the augmented assignment operator, would be:
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-python"&gt;import numpy
+a = numpy.array([1,2], dtype=complex)
+a += 0.5j
+print a
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+The same thing is explained in this thread.  Also, Thanks to
+Bhanukiran for asking me this.
+&lt;/p&gt;</description><author></author><category>note</category><category>numpy</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</guid><pubDate>Mon, 04 Oct 2010 22:49:00 GMT</pubDate></item><item><title>A GNU and a friend</title><link>http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html</link><description>&lt;p&gt;
+I now have a GNU! I bought it (a GNU soft toy) in memory of my friend
+swathanthran from #emacs-in.  RIP swathanthran
+&lt;/p&gt;
+
+&lt;p&gt;
+As a bonus, I got the chance to have a photograph with just RMS and
+me. Also, hoping the monetary contribution will be of some use to
+FSF-India.
+&lt;/p&gt;
+
+&lt;p&gt;
+The thrill of getting the GNU (and the GNU itself) and shaking hands,
+getting photographed with RMS is dedicated to all the lafoots and
+specially to Voodoo, who taught me the meaning of the word "hacker".
+&lt;/p&gt;
+
+&lt;p&gt;
+Happy Hacking!
+&lt;/p&gt;
+
+&lt;p&gt;
+ps: I just hope and pray nobody else does anything as stupid and
+shocking as what swathanthran did.
+&lt;/p&gt;</description><author></author><category>blab</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html</guid><pubDate>Tue, 07 Sep 2010 00:50:00 GMT</pubDate></item><item><title>org2blog on the web</title><link>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</link><description>&lt;p&gt;
+Well, it's been a week of lull on my blog.  Not that I'm very
+busy.  But, just didn't have anything to post.  I was feeling jobless
+today and searched the web for org2blog users.  Here is what I found.
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;This is a test post from org2blog
+&lt;/li&gt;
+
+&lt;li&gt;Posting from emacs and org-mode
+&lt;/li&gt;
+
+&lt;li&gt;Vim vs Emacs, or why it really doesn’t matter
+&lt;/li&gt;
+
+&lt;li&gt;Posting subtree from org-mode buffer (take 2)
+&lt;/li&gt;
+
+&lt;li&gt;Here’s a test post to wordpress for Org2blog – an Emacs plugin
+&lt;/li&gt;
+
+&lt;li&gt;Primeiro post usando org2blog
+&lt;/li&gt;
+
+&lt;li&gt;Emacs中绘图－ ditaa篇
+&lt;/li&gt;
+
+&lt;li&gt;org2blog on identi.ca
+&lt;/li&gt;
+
+&lt;li&gt;Marcel van der Boom – StatusNet
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>blab</category><category>list</category><category>ology</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</guid><pubDate>Sun, 29 Aug 2010 20:57:00 GMT</pubDate></item><item><title>Vimperator and Firemacs!</title><link>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</link><description>&lt;p&gt;
+ For the uninitiated, vimperator is an emacs plugin to get Firefox
+working with vim keybindings and firemacs &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; is for emacs keybindings.
+&lt;/p&gt;
+
+&lt;p&gt;
+I'm obsessed with emacs (as should already be evident) and can't
+really edit text without it's key-bindings. There are others like me,
+and hence the firemacs plugin. It's a blessing for my tribe.
+&lt;/p&gt;
+
+&lt;p&gt;
+Firemacs is great, except for the one great feature that it lacks -
+being able to jump to links/textareas without using the mouse.  I've
+seen Nishanth do it with ease, using Vimperator. I wanted to add this
+feature to Firemacs, by copying some code from Vimperator to
+Firemacs.  I directly started looking at the code, but couldn't make
+head or tail of it. I got a few doubts about how Vimperator works,
+since I'd never used it. Nishanth asked me to simply install it and
+try it out.
+&lt;/p&gt;
+
+&lt;p&gt;
+And then we had our EUREKA! moment. Vimperator and Emacs both
+enabled together work seamlessly well. Two obsessed people are happy
+and satisfied! And hopefully many more. :D
+&lt;/p&gt;
+&lt;div id="footnotes"&gt;
+&lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
+&lt;div id="text-footnotes"&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+Key-bindings are a religious thing, in the world of editors!
+&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;</description><author></author><category>emacs</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</guid><pubDate>Wed, 28 Jul 2010 16:38:00 GMT</pubDate></item><item><title>Sage Days 25, Mumbai, India</title><link>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</link><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
+&lt;h2 id="sec-1"&gt;What is 'Sage Days'?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;p&gt;
+Sage Days is a confluence of present and prospective SAGE Users and
+Developers. It is an opportunity to come together to share ideas,
+brainstorm and hack on Sage. Sage Days 25 is the 25th version of Sage
+Days, and is being organized in Mumbai, India. In order to cater to an
+Indian audience and scenario, this version has been tweaked
+slightly. Sage Days 25 has beginner level tutorials, in addition to
+the usual talks and sprints, to help new users get started with Sage
+and help promote the use of Sage in India.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2" class="outline-2"&gt;
+&lt;h2 id="sec-2"&gt;What is Sage?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;p&gt;
+Sage is a free, open-source mathematics software system licensed under
+the GPL. It combines the power of numerous existing open-source
+packages into a common Python-based interface. It's mission is to
+create a "viable free open source alternative to Magma, Maple,
+Mathematica and Matlab". Sage has tools for a broad range of
+mathematical areas like Linear Algebra, Calculus, Symbolic Math,
+Plotting, Rings &amp;amp; Groups, Graph Theory, Number Theory and
+Cryptography. Essentially, "it can do anything from mapping a
+12-dimensional object to calculating rainfall patterns under global
+warming" - as Science Daily puts it . Eager to get started? Start
+here. Apart from being feature rich, it's usability is one of it's
+greatest strengths. Sage Notebook, a web-interface for all the math
+you'll ever want to do, is really the killer feature! As the Sage
+Marketing page says, "The SAGE GUI surely works on your computer box,
+because it just runs in Firefox!". Try it Now!
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-3" class="outline-2"&gt;
+&lt;h2 id="sec-3"&gt;Why should you attend?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-3"&gt;
+&lt;p&gt;
+Sage Days 25 is being attended by the creator and lead developer of
+Sage, Prof. William Stein. It will also be attended by other
+developers of Sage. This would be a great opportunity to meet and
+interact with them! The conference will be attended by a plethora of
+enthusiastic people from all over the country who use Sage or are
+interested in doing so. The conference will also see the presence of
+many mathematicians interested in software. Who knows, you may run
+into someone you'd want to collaborate with, for your future work!
+This event will be a great learning experience, if you are even
+remotely interested in math and software for it!
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-4" class="outline-2"&gt;
+&lt;h2 id="sec-4"&gt;When and Where?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-4"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Venue: IIT-Bombay, Mumbai, India
+&lt;/li&gt;
+&lt;li&gt;Dates: August 9-12, 2010
+&lt;/li&gt;
+&lt;li&gt;Tentative Schedule
+&lt;/li&gt;
+&lt;li&gt;Register Here
+&lt;/li&gt;
+&lt;li&gt;Click here for more info
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><author></author><category>event</category><category>math</category><category>ology</category><category>python</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</guid><pubDate>Wed, 21 Jul 2010 19:41:00 GMT</pubDate></item><item><title>talk at GNUnify' 10</title><link>http://punchagan.muse-amuse.in/posts/talk-at-gnunify-10.html</link><description>&lt;p&gt;
+Shantanu and I conducted a workshop on Scipy at GNUnify '10. It
+was intended to be an introduction to Scipy and Numpy through
+Image processing. We expected an audience which was python
+literate. But GNUnify's schedule wasn't too favorable for us. Ours
+was the first talk scheduled and we ended up getting people who
+only "heard" of Python, the language.
+&lt;/p&gt;
+
+&lt;p&gt;
+We had planned quite a bit of stuff expecting a python literate
+audience. But unfortunately, we had to start almost from scratch
+and couldn't do all of what we planned. Still, the workshop wasn't
+too bad. Nobody left mid-way during the 2 hour workshop; nobody
+was dozing either.  I would have liked my first talk at a FOSS
+event to be better, though.
+&lt;/p&gt;
+
+&lt;p&gt;
+Slides and Images that we used.  Shantanu's post on the talk is
+here.
+&lt;/p&gt;</description><author></author><category>image_processing</category><category>ology</category><category>python</category><category>scipy</category><guid>http://punchagan.muse-amuse.in/posts/talk-at-gnunify-10.html</guid><pubDate>Sun, 28 Feb 2010 20:58:00 GMT</pubDate></item><item><title>Monikers and the Internet</title><link>http://punchagan.muse-amuse.in/posts/monikers-and-the-internet.html</link><description>&lt;p&gt;
+Like most bloggers, I keep looking at my blogs hits once in a
+while. (Sometimes inspires to write better; and more often.) The
+post that gets most hits these days is my post on mailman,
+postfix, et al. But the search term that's increasingly bringing
+people to my blog is "punchagan".
+&lt;/p&gt;
+
+&lt;p&gt;
+This scares me. What makes people search for me? What makes people
+search more often these days? Why am I scared?
+&lt;/p&gt;
+
+&lt;p&gt;
+Why do people use monikers or online identities? I started off
+with the idea of anonymity and privacy; keeping my online identify
+separate from my real one. But it, obviously, is a folly to have
+you email id with the same handle. Now, almost anybody who knows
+me, also knows my online handle. They can find me anywhere and
+everywhere with just a few keystrokes (and Google). Also, the
+uniqueness of my handle doesn't help one bit. Any search returns
+over 90% relevant results.
+&lt;/p&gt;
+
+&lt;p&gt;
+Is it time to get lost in the crowd with a new handle? ;) Probably
+not. I don't have much to hide under the covers. Let the world see
+– who I am, who I have been; where I am, where I have been.
+&lt;/p&gt;
+
+&lt;p&gt;
+Peace.
+&lt;/p&gt;</description><author></author><category>internet</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/monikers-and-the-internet.html</guid><pubDate>Sat, 27 Feb 2010 18:28:00 GMT</pubDate></item><item><title>numpy, pacman and me</title><link>http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html</link><description>&lt;p&gt;
+I'm now officially a part of the Arch Linux community! Arch Linux
+is a lightweight and flexible Linux® distribution that tries to
+Keep It Simple.
+&lt;/p&gt;
+
+&lt;p&gt;
+I have started using arch from less than a week or so. It took me
+a while, not too long, to realize the beauty of this distro. I was
+trying to tweak the settings of my org-mode's remember (on
+Karmic), trying to make it work the way I liked it. After breaking
+my head with .emacs and lisp for a while, I realized the version
+of my org-mode was way different from the version of the docs, I
+was reading. It didn't take long to figure out, which version of
+org-mode to get. As a matter of curiosity, I checked AUR for the
+version, and true to Arch's reputation it was bleeding edge! I was
+still using Karmic, since I hadn't got my Arch installation
+working the way I like it, yet. Out of laziness. sudo reboot; to
+hell with laziness!
+&lt;/p&gt;
+
+&lt;p&gt;
+I was setting up things I regularly use, tweaking my way
+around. After a day or so, I find python-numpy is out of date. And
+to top it, an orphaned package! I didn't feel one bit good about
+this. After some futile attempts to suppress my discomfort, I sat
+down to work.
+&lt;/p&gt;
+
+&lt;p&gt;
+After an afternoon of effort, I created my first PKGBUILD. :) I
+now have python-numpy installed using pacman! Pleasure to join the
+Arch User Community! Also, thanks to lifeeth and Lynus Vaz, for
+the sparks.
+&lt;/p&gt;
+
+&lt;p&gt;
+PS: I'm using Arch with Openbox. It's neat! PPS: org-mode is
+really awesome! It's a world in itself. life in plain text,
+truly!]
+&lt;/p&gt;</description><author></author><category>linux</category><category>numpy</category><category>ology</category><category>orgmode</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html</guid><pubDate>Sun, 31 Jan 2010 01:14:00 GMT</pubDate></item><item><title>Stress and us</title><link>http://punchagan.muse-amuse.in/posts/stress-and-us.html</link><description>&lt;p&gt;
+&lt;i&gt;[Cross-posted on the FOSSEE Blog]&lt;/i&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Don't tell me I didn't warn you, if you walk into our lab sometime
+and mistake it for a game zone in your neighbourhood. You are
+indeed in "the" lab. If you came looking for Prof. Prabhu you'll
+have to return. You'll only find PR vowing to see the end of
+baali, for having a nice time pawning him. You won't find me
+around - I'm cloaked and busy creating havoc. Unless, of course,
+you are the seer KD. Watch your step extremely carefully or you
+won't know when and how fuchmed's GM hit you. And don't dare
+venture anywhere near madrazr, jumping all around with a
+shockwave, unless you are capable enjoying some real nasty
+shocks. Well, the team is busy in one of it's two SB sessions per
+day. SB (short for Stress Buster) sessions are intense 15 minute
+rounds of bzflag - 3D first person tank battle game.
+&lt;/p&gt;
+
+&lt;p&gt;
+Hope you didn't start thinking, I'm just goofing off here, doing
+nothing at all. If it's not already clear, SB sessions are exactly
+what they are called - Stress Busters. Just to refresh ourselves
+and get back to work, with greater force. What then, am I doing
+for the rest of my time?
+&lt;/p&gt;
+
+&lt;p&gt;
+Mainly I've been developing course content that we have been
+working on, called Software Tools, Techniques and Practices. I
+have been working on a session for elementary LaTeX and basic
+Linux tools. I've also been attending classes of Digital Control
+and trying to Python-ize the Matlab/Scilab code that the course
+uses.
+&lt;/p&gt;
+
+&lt;p&gt;
+But, that's not all. I've helped a guy restore a Joomla site on
+Day-1. I screwed up a brand new installation of a server with some
+real skill; then expect to be screwed but get some encouragement
+with the words, "It was a good learning experience for us." Seen a
+Debian server upgrade from Etch to Lenny in under 10
+minutes. Installed an instance of twiki and struggled to configure
+it. Helped a Humanities Scholar with LaTeX. Attended a workshop on
+Instruction Design. Restored Qmail on an old Fedora 3
+server. Goofed around in gimp, for a CD cover and a T-shirt
+design. Chipped in with bits, for mutating Ubuntu into
+"LivePython". Did a bit of css and javascript tweaking… The list
+goes on!
+&lt;/p&gt;
+
+&lt;p&gt;
+Now, don't you think we deserve the SB's? ;)
+&lt;/p&gt;</description><author></author><category>blab</category><category>ology</category><category>stress</category><guid>http://punchagan.muse-amuse.in/posts/stress-and-us.html</guid><pubDate>Fri, 25 Sep 2009 03:36:00 GMT</pubDate></item><item><title>Postfix + Mailman for Multiple Domains.</title><link>http://punchagan.muse-amuse.in/posts/postfix-mailman-for-multiple-domains.html</link><description>&lt;p&gt;
+Well, there are a hazaar tutorials on setting up Postfix and
+Mailman for Debian for a single domain. There were a few for doing
+that for multiple domains also, but nothing comprehensive, if I
+could say so. This link is pretty comprehensive and details all
+the steps for setting up Postfix for a single domain.  Here is all
+you'll want to know about setting up Virtual domains in Postfix.
+&lt;/p&gt;
+
+&lt;p&gt;
+You only need to make a few changes for adding a second (or more)
+domain. You just need to add the &lt;code&gt;virtual_alias_domains&lt;/code&gt; and add
+&lt;code&gt;virtual_alias_maps&lt;/code&gt;. Here is a glimpse of how my &lt;code&gt;main.cf&lt;/code&gt; looks:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+myhostname = mail.abc.in
+mydomain = abc.in
+mydestination = $myhostname, $mydomain, localhost.$mydomain
+myorigin = /etc/mailname
+virtual_alias_maps =
+                hash:/etc/postfix/virtual-xyz,
+                hash:/etc/postfix/virtual-abc,
+                hash:/var/lib/mailman/data/virtual-mailman
+virtual_alias_domains = xyz.in, mail.xyz.in
+&lt;/pre&gt;
+
+&lt;p&gt;
+&lt;code&gt;virtual-xyz&lt;/code&gt; and &lt;code&gt;virtual-abc&lt;/code&gt; contain the virtual aliases for
+each domain. Note that Postfix expects hash files and hence you
+need to run &lt;code&gt;postmap /etc/postfix/virtual-abc&lt;/code&gt; each
+time the file is changed, to keep the hash file in sync with the
+text file that you edit. Also, you need to run &lt;code&gt;postfix reload&lt;/code&gt;,
+each time you make changes to &lt;code&gt;main.cf&lt;/code&gt; or &lt;code&gt;master.cf&lt;/code&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Fairly straight forward, right? But it took me quite sometime to
+get it all right, since this was the first time I was doing
+anything with Mail Transfer Agents or the like.
+&lt;/p&gt;
+
+&lt;p&gt;
+Now, onto Mailman. Well the Installation Manual of Mailman,
+literally has it all. Here is a look at how my
+&lt;code&gt;mm_cfg.py&lt;/code&gt; looks:
+&lt;/p&gt;
+
+&lt;pre class="example"&gt;
+DEFAULT_EMAIL_HOST = 'abc.in'
+DEFAULT_URL_HOST   = 'mail.abc.in'
+add_virtualhost(DEFAULT_URL_HOST, DEFAULT_EMAIL_HOST)
+POSTFIX_STYLE_VIRTUAL_DOMAINS=['xyz.in']
+add_virtualhost('mail.xyz.in', 'xyz.in')
+MTA='Postfix'
+&lt;/pre&gt;
+
+&lt;p&gt;
+The only trouble was to get mailing lists with same names on both
+the domains (which I couldn't get working). I experimented with
+multiple mailman instances but that won't work because the MTA
+can't differentiate between the two instances of mailman. The
+alternative is probably to have two instances of postfix running
+too. But that I felt was like going too far, and gave up. [What if
+we wanted to add another domain to the list?!]
+&lt;/p&gt;
+
+&lt;p&gt;
+Also, I had to make a few alterations to the Apache file to allow
+access to the mailman pages without breaking the Zope redirection
+that was already set-up.
+&lt;/p&gt;
+
+&lt;p&gt;
+[Thanks to Shantanu and Vattam (and all the hazaar people using
+Postfix and Mailman and cared to document things for the sake of
+others, and of course Google)]
+&lt;/p&gt;</description><author></author><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/postfix-mailman-for-multiple-domains.html</guid><pubDate>Wed, 05 Aug 2009 01:23:00 GMT</pubDate></item></channel></rss>

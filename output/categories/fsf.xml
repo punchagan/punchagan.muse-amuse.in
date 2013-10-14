@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (fsf)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/fsf.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Mon, 14 Oct 2013 15:23:28 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>CHAGANTI 635888 Emacs</title><link>http://punchagan.muse-amuse.in/posts/chaganti-635888-emacs.html</link><description>&lt;blockquote&gt;
+&lt;p&gt;
+Puneeth Chaganti, hereby agrees as follows:
+&lt;/p&gt;
+
+&lt;p&gt;
+Developer hereby agrees to assign and does hereby assign to FSF
+Developer's copyright in changes and/or enhancements to the suite
+of programs known as GNU EMACS, including any accompanying
+documentation files and supporting files as well as the actual
+program code.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+Yay! I can now write code, that can go into Org-mode and Emacs!
+I'm looking forward to this!
+&lt;/p&gt;</description><author></author><category>contribute</category><category>emacs</category><category>fsf</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/chaganti-635888-emacs.html</guid><pubDate>Thu, 03 Feb 2011 03:46:00 GMT</pubDate></item><item><title>A "Free Software" Hack!!</title><link>http://punchagan.muse-amuse.in/posts/a-free-software-hack.html</link><description>&lt;div class="figure"&gt;
+&lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/freesoftware.hack.jpg" alt="freesoftware.hack.jpg"&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;pre class="example"&gt;
+Date: Sun, 31 Aug 2003 23:45:42 -0500
+From: "Harley D. Eades III"
+To: rms@gnu.org
+Subject: Tribute to freedom.
+
+Hello,
+
+One late rainy night I had an idea. There is a hill on IL route 29
+in Peoria IL, that people climb and write a small message across
+this hill for everyone to view from a far. What would be better
+than spreading my two most favorite words across this hill. So we
+set out with a little over 200 garbage bags and nearly 400
+nails. 12:30am and rainy so you can figure that a hill of that
+size is going to be slippery (lol) nearly falling down hill with
+every step we start building each letter. At around 2:30am we have
+finished and now the sun will rise over a hill which spreads the
+words Free Software to every person that passes by. This is by far
+a vary small non-complex hack but I beleve it is a hack in it
+self. This is a tribute to Free Software [and the GNU Project].
+
+Happy Hacking
+Harley D. Eades III
+FSF Associate Member
+Hacker
+&lt;/pre&gt;</description><author></author><category>blab</category><category>fsf</category><category>hack</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/a-free-software-hack.html</guid><pubDate>Tue, 10 Oct 2006 17:40:00 GMT</pubDate></item></channel></rss>

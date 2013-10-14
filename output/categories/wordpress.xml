@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (wordpress)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/wordpress.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Mon, 14 Oct 2013 15:23:27 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>What's up with org2blog?</title><link>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</link><description>&lt;p&gt;
+Another post on &lt;code&gt;org2blog&lt;/code&gt;.  Yes, the project is still alive. ;)
+Well, frankly quite a few people seem to be using it, and I
+regularly get bug-reports and feature requests.  I'm happy. :)
+&lt;/p&gt;
+
+&lt;p&gt;
+Actually, this post is to announce a change in the namespace of
+&lt;b&gt;my&lt;/b&gt; org2blog.  It turns out that there is another package that is
+called org2blog, but it posts to blogger.  Tehom, the author of
+the other package got in touch with me, and we tried to clean up a
+few things.  In this process, we decided to use two different
+namespaces, to avoid conflicts if a particular user has both the
+packages loaded.  I am going to use &lt;code&gt;org2blog/wp&lt;/code&gt; as my namespace
+prefix, instead of the older &lt;code&gt;org2blog&lt;/code&gt;.  So, if you are posting a
+sub-tree, you'll need to use the &lt;code&gt;org2blog/wp-post-subtree&lt;/code&gt;
+function, instead of &lt;code&gt;org2blog-post-subtree&lt;/code&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+We, Tehom and I, did discuss the possibility of merging the two
+packages into a single huge package, but we think the amount of
+work is far greater than the payoffs.  So, the packages continue
+to be called &lt;code&gt;org2blog&lt;/code&gt; but we reference each others packages, to
+reduce the confusion, amongst users.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;code&gt;org2blog/wp&lt;/code&gt; version 0.4 comes with the new namespace.
+&lt;/p&gt;</description><author></author><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</guid><pubDate>Sat, 15 Jan 2011 11:10:00 GMT</pubDate></item><item><title>WP to org-mode + hyde + disqus</title><link>http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html</link><description>&lt;p&gt;
+Hello World!
+&lt;/p&gt;
+
+&lt;p&gt;
+My first post at my new home.  Obviously, it was going to be about the
+move.  You knew it, didn't you? ;)
+&lt;/p&gt;
+
+&lt;p&gt;
+Well, I got some space on the web, along with a few friends.  Thanks to
+my org-mode fanboyism, I now use it to maintain my homepage.  I've
+successfully completed import of my Wordpress posts and comments. :)
+&lt;/p&gt;
+
+&lt;div id="outline-container-sec-1" class="outline-2"&gt;
+&lt;h2 id="sec-1"&gt;I now use&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Emacs and Org-mode &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; to write my posts.
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;org-hyde.el&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; to publish &lt;code&gt;html&lt;/code&gt; in a &lt;code&gt;hyde&lt;/code&gt;
+parse-able format.
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hyde&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; to convert the &lt;code&gt;html&lt;/code&gt; pages into a blog.
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;org-publish&lt;/code&gt; to publish other pages in my home page.
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.4" name="fnr.4" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.4"&gt;4&lt;/a&gt;&lt;/sup&gt; and a &lt;code&gt;bash&lt;/code&gt; script for publishing.
+&lt;/li&gt;
+&lt;li&gt;Disqus &lt;sup&gt;&lt;a id="fnr.5" name="fnr.5" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.5"&gt;5&lt;/a&gt;&lt;/sup&gt; for the comment system.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;
+Yes, I know it sounds rather complicated. :) But, now that I
+have it set up, it's not all that difficult to make a post.
+It's just a matter of one &lt;code&gt;git commit&lt;/code&gt; and &lt;code&gt;push&lt;/code&gt;.  I need to
+fine-tune the shell script a bit, though.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2" class="outline-2"&gt;
+&lt;h2 id="sec-2"&gt;How I moved&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;p&gt;
+The move definitely wasn't trivial.  I guess, I could've started
+afresh but, what fun would that have been? ;)
+&lt;/p&gt;
+
+&lt;p&gt;
+This roughly how I did things – in the order that I did them.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-sec-2-1" class="outline-3"&gt;
+&lt;h3 id="sec-2-1"&gt;Choosing &lt;code&gt;hyde&lt;/code&gt;&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-1"&gt;
+&lt;p&gt;
+I looked at a handful of options to maintain a blog, using
+org-mode — &lt;code&gt;blorg&lt;/code&gt;, &lt;code&gt;org-jekyll&lt;/code&gt;, &lt;code&gt;blorgit&lt;/code&gt;, &lt;code&gt;ikiwiki&lt;/code&gt;.
+After some assessment, I decided upon &lt;code&gt;org-jekyll&lt;/code&gt; and
+&lt;code&gt;jekyll&lt;/code&gt;.  But then, I accidentally stumbled upon &lt;code&gt;hyde&lt;/code&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+I decided to go with &lt;code&gt;hyde&lt;/code&gt; instead of &lt;code&gt;jekyll&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.6" name="fnr.6" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.6"&gt;6&lt;/a&gt;&lt;/sup&gt;
+since
+&lt;/p&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;It's in Python.  I didn't want to start figuring out Ruby,
+now.
+&lt;/li&gt;
+&lt;li&gt;It uses Django templates &lt;sup&gt;&lt;a id="fnr.7" name="fnr.7" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.7"&gt;7&lt;/a&gt;&lt;/sup&gt;.  And Django is
+something, I wish to learn.  I've started with that. :)
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2-2" class="outline-3"&gt;
+&lt;h3 id="sec-2-2"&gt;Clean up &lt;code&gt;org-jekyll&lt;/code&gt; to work with &lt;code&gt;hyde&lt;/code&gt;.&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-2"&gt;
+&lt;p&gt;
+I then "ported" &lt;code&gt;org-jekyll.el&lt;/code&gt; into &lt;code&gt;org-hyde.el&lt;/code&gt;.
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;removed stuff like categories and languages, that I was not
+going to use.
+&lt;/li&gt;
+&lt;li&gt;Added some code w.r.t timestamps, from org2blog, to it, so
+that my older &lt;code&gt;org2blog&lt;/code&gt; posts could be easily ported.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2-3" class="outline-3"&gt;
+&lt;h3 id="sec-2-3"&gt;Clean up older org2blog posts&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-3"&gt;
+&lt;p&gt;
+&lt;code&gt;org2blog&lt;/code&gt; can post either buffers or subtrees.  I had posts in
+both formats.  I converted all of them into subtrees of one
+tree, using some Python.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2-4" class="outline-3"&gt;
+&lt;h3 id="sec-2-4"&gt;Import older posts&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-4"&gt;
+&lt;p&gt;
+This was the most painful posts.  Importing all the old posts
+from Wordpress.  &lt;code&gt;org-mode&lt;/code&gt; really needs a XHTML/XML importer!
+&lt;/p&gt;
+
+&lt;p&gt;
+I did all sorts of crazy stuff to get this done.
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;used pandoc to convert html to &lt;code&gt;markdown&lt;/code&gt;
+&lt;/li&gt;
+&lt;li&gt;wrote some throw away regex code to convert &lt;code&gt;markdown&lt;/code&gt; to
+      &lt;code&gt;org-mode&lt;/code&gt;.
+&lt;/li&gt;
+&lt;li&gt;wrote more regex code to convert &lt;code&gt;html&lt;/code&gt; to &lt;code&gt;org-mode&lt;/code&gt;.
+&lt;/li&gt;
+&lt;li&gt;hacked up a lot of stuff and finally got all the posts into
+      &lt;code&gt;org&lt;/code&gt; format! :)
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-sec-2-5" class="outline-3"&gt;
+&lt;h3 id="sec-2-5"&gt;A workflow for publishing&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-5"&gt;
+&lt;p&gt;
+Set up &lt;code&gt;git&lt;/code&gt; along with some &lt;code&gt;bash&lt;/code&gt; code, to have a mechanism
+to minimize the effort in making a blog post.  All this is
+still a lot of work, compared to the ease with which I used to
+use &lt;code&gt;org2blog&lt;/code&gt;.  That's partly due to &lt;code&gt;ssh&lt;/code&gt; restrictions in my
+hostel.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2-6" class="outline-3"&gt;
+&lt;h3 id="sec-2-6"&gt;CSS clean-up&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-6"&gt;
+&lt;p&gt;
+I'm using the same CSS for &lt;code&gt;org-mode&lt;/code&gt; published files and
+&lt;code&gt;hyde&lt;/code&gt; published files. I had to clean up my &lt;code&gt;hyde&lt;/code&gt; templates
+and the CSS to make both of them look similar.
+&lt;/p&gt;
+
+&lt;p&gt;
+My first tryst with CSS hasn't been all that bad. :)
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2-7" class="outline-3"&gt;
+&lt;h3 id="sec-2-7"&gt;Installing disqus and importing comments&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-2-7"&gt;
+&lt;p&gt;
+Using disqus was one thing, I wasn't sure I wanted to do.  I
+would've loved it if comments could be managed with org-mode
+too. ;) &lt;sup&gt;&lt;a id="fnr.8" name="fnr.8" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.8"&gt;8&lt;/a&gt;&lt;/sup&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Anyway, I finally decided to go with it, and I'm quite happy
+with it. :)
+&lt;/p&gt;
+
+&lt;p&gt;
+I loved the ease with which comments could be imported.
+&lt;/p&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Import Wordpress comments using the export &lt;code&gt;xml&lt;/code&gt; file.
+&lt;/li&gt;
+&lt;li&gt;Generate a CSV file containing the URL map – mapping the
+newer urls to the older ones.
+&lt;/li&gt;
+&lt;li&gt;Upload the CSV file and tada!
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-3" class="outline-2"&gt;
+&lt;h2 id="sec-3"&gt;Conclusion&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-3"&gt;
+&lt;p&gt;
+I got to learn quite a few things, during all of this.  I also
+have some bits of code, that I can share with you, in case you
+are interested.  Leave a comment, if you wish. :)
+&lt;/p&gt;
+
+&lt;p&gt;
+I'm just hoping to reduce the additional steps required in
+publishing to ensure it doesn't add to my already erratic
+blogging habits.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="footnotes"&gt;
+&lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
+&lt;div id="text-footnotes"&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+Org-mode - Homepage
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+Org-hyde is a &lt;i&gt;port&lt;/i&gt; of org-jekyll.el
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+Hyde - Github
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.4" name="fn.4" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.4"&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+Git - Homepage
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.5" name="fn.5" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.5"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+Disqus - Homepage
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.6" name="fn.6" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.6"&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+Github - Jekyll
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.7" name="fn.7" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.7"&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+Documentation - Django Templates
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.8" name="fn.8" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.8"&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+I feel it is capable of doing that.  It's just my
+incapability that prevented me from trying it out.
+&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;</description><author></author><category>orgmode</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html</guid><pubDate>Fri, 22 Oct 2010 14:49:00 GMT</pubDate></item><item><title>Lesson with RSS feeds &amp; Wordpress</title><link>http://punchagan.muse-amuse.in/posts/lesson-with-rss-feeds-wordpress.html</link><description>&lt;p&gt;
+In a world of (RSS &amp;amp; Atom) feeds, deleting your posts is not the
+way to do it.
+&lt;/p&gt;
+
+&lt;p&gt;
+First re-post using no content and give the post some time for it
+to be caught by the feed aggregators. Then, delete your post.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Update&lt;/b&gt;:
+ This
+ post also has similar advice.
+&lt;/p&gt;</description><author></author><category>note</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/lesson-with-rss-feeds-wordpress.html</guid><pubDate>Wed, 04 Aug 2010 09:07:00 GMT</pubDate></item><item><title>org2blog annoyance</title><link>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</link><description>&lt;p&gt;
+I hate it when I'm trying out things with org2blog - fixing bugs
+or adding features - and my testing buffer gets posted. Why do I
+keep passing the prefix argument with C-u? I should probably
+work with a local instance of WordPress.
+&lt;/p&gt;</description><author></author><category>note</category><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</guid><pubDate>Tue, 03 Aug 2010 03:14:00 GMT</pubDate></item><item><title>Update Script</title><link>http://punchagan.muse-amuse.in/posts/update-script.html</link><description>&lt;p&gt;
+Well, this isn't an update of how I'm doing on my sabbatical. Its
+just been 3 days and I'm doing pretty fine.  I just finished
+writing a script to keep my blogs page in sync with my
+google-reader (well not exactly). The script parses an xml export
+of my google-reader-subscriptions and updates the edits the html
+of my unnought-blogs page. period.
+&lt;/p&gt;
+
+&lt;p&gt;
+There are a couple of things I don't like about this script.
+&lt;/p&gt;
+
+&lt;p&gt;
+Firstly, I don't want to keep exporting my
+google-reader-subscription each time I make changes. The script
+should be able to directly sync with my google-reader without me
+having to export the file.  [I have read about the atom
+subscriptions feed of Google Reader, but haven't been able to get
+it right.] Hopefully, I'll be able to do it in the near future.
+&lt;/p&gt;
+
+&lt;p&gt;
+Secondly, The blog author's name is non-existent. I can't do
+anything about this though.
+&lt;/p&gt;
+
+&lt;p&gt;
+Also, In the process, I had the chance to look a geeky ad. I found
+it at the weirdest of places!
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+header: X-hacker: If you're reading this, you should visit
+automattic.com/jobs and apply to join the fun, mention this
+header.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+ps :
+&lt;/p&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;The source is GPLv2 licensed.
+&lt;/li&gt;
+&lt;li&gt;Get in touch, if you'd like to have a look.
+&lt;/li&gt;
+&lt;/ol&gt;</description><author></author><category>ology</category><category>python</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/update-script.html</guid><pubDate>Tue, 08 Jul 2008 20:39:00 GMT</pubDate></item><item><title>A Second Blog...</title><link>http://punchagan.muse-amuse.in/posts/a-second-blog.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;It can't really be called a Second Blog… because I won't be
+posting any new stuff there…
+&lt;/li&gt;
+&lt;li&gt;I just started it to have a Wordpress experience…
+&lt;/li&gt;
+&lt;li&gt;I started it to know.. to compare… and to choose…
+&lt;/li&gt;
+&lt;li&gt;I started it just for fun…
+&lt;/li&gt;
+&lt;li&gt;I started it because Blogspot may soon be blocked on campus!!!
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>ology</category><category>posts</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/a-second-blog.html</guid><pubDate>Wed, 04 Apr 2007 11:46:00 GMT</pubDate></item></channel></rss>

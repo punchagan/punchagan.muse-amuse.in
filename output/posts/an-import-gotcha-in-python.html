@@ -1,0 +1,209 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="punchagan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An import gotcha in Python | Noetic Nought</title>
+    
+            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+    
+
+
+
+    
+</head>
+
+<body>
+    <section class="social">
+        <ul>
+<!--        <h1 id="blog-title">
+            <a href="/" title="Noetic Nought">Noetic Nought</a>
+        </h1>
+        
+         -->
+        
+            <li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
+            <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+            <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+            <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+            <li><a href="https://twitter.com/punchagan" title="Twitter profile"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://github.com/punchagan" title="GitHub profile"><i class="icon-github"></i></a></li>
+
+<!--         -->
+        </ul>
+    </section>
+    <section class="page-content">
+        <div class="content" rel="main">
+            
+    <div class="post">
+    
+    <h1>An import gotcha in Python</h1>
+
+        <div class="meta">
+            <div class="authordate">
+                <time class="timeago" datetime="2012-08-20T14:46:00">2012-08-20 14:46</time>
+            </div>
+            
+
+            
+          |  
+        <a href="an-import-gotcha-in-python.org" id="sourcelink">Source</a>
+
+            
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="../categories/python.html">python</a></li>
+        </ul>
+    </div>
+
+        </div>
+        <div class="body">
+            <p>
+Pankaj and I were stuck with this weird bug recently.  We had
+a class <code>A</code> and a subclass <code>B</code> and an instance of B, b, was
+returning False for <code>isinstance(b, A)</code>.
+</p>
+
+<p>
+After some debugging, we found that it was a problem with
+imports, and the same module was being imported twice, using
+two different names – <code>bar</code> and <code>baz.bar</code>.
+</p>
+
+<p>
+Here's a cooked-up example to demonstrate the "bug".  We
+create a package baz, as shown below.
+</p>
+
+
+<pre class="example">
+$ tree baz
+baz
+├── bar.py
+├── foo.py
+└── __init__.py
+</pre>
+
+<p>
+We have our two classes, <code>A</code> and <code>B</code> defined in the <code>bar</code>
+module.
+</p>
+
+<div class="org-src-container">
+<label class="org-src-name">bar.py</label>
+<pre class="src src-python">class A(object):
+    pass
+
+class B(A):
+    pass
+</pre>
+</div>
+
+<p>
+We run <code>foo.py</code> and scratch our heads for a while, before
+figuring out what's wrong…
+</p>
+
+<div class="org-src-container">
+<label class="org-src-name">foo.py</label>
+<pre class="src src-python"># We add the directory containing out package 'baz' to sys.path to be
+# able to import using the package name.
+import sys
+sys.path.insert(1, '/tmp')
+
+# We import A from bar module present in the same directory as foo
+from bar import A
+# We import B from bar, but refer to it, as a submodule of baz
+from baz.bar import B
+
+a = A()
+b = B()
+
+print "isinstance(b, A) --&gt;", isinstance(b, A)
+
+for cls in (A, B):
+    print "%s --&gt;" %cls, cls
+
+for module in sys.modules:
+    if 'bar' in module:
+	print module, sys.modules[module]
+</pre>
+</div>
+
+<pre class="example">
+isinstance(b, A) --&gt; False
+&lt;class 'bar.A'&gt; --&gt; &lt;class 'bar.A'&gt;
+&lt;class 'baz.bar.B'&gt; --&gt; &lt;class 'baz.bar.B'&gt;
+baz.bar &lt;module 'baz.bar' from '/tmp/baz/bar.pyc'&gt;
+bar &lt;module 'bar' from 'bar.pyc'&gt;
+</pre>
+        </div>
+        
+    <ul class="pager">
+        <li class="previous">
+            <a href="selling-temples-a-how-to.html">← Previous post</a>
+        </li>
+        <li class="next">
+            <a href="a-git-diff-tip.html">Next post →</a>
+        </li>
+    </ul>
+
+            
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        var disqus_shortname ="rusticreverie";
+            var disqus_url="http://punchagan.muse-amuse.in/posts/an-import-gotcha-in-python.html";
+        var disqus_title="An import gotcha in Python";
+        var disqus_identifier="cache/posts/an-import-gotcha-in-python.html";
+        var disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        
+
+    </div>
+
+            © 2013
+<a href="mailto:punchagan%5B@T%5Dmuse-amuse.in">punchagan</a> -
+<a href="http://getnikola.com">Nikola</a> powered -
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+Creative Commons Attribution 3.0 Unported License</a>
+ -
+<a href="http://themes.getnikola.com/#zen">zen</a> theme
+            
+	
+
+        </div>
+    </section>
+    
+            <script src="../assets/js/all-nocdn.js" type="text/javascript"></script>
+
+    
+        <script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+        </script>
+    
+    
+</body>
+</html>

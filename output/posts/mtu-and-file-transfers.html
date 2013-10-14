@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="punchagan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTU and file transfers | Noetic Nought</title>
+    
+            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+    
+
+
+
+    
+</head>
+
+<body>
+    <section class="social">
+        <ul>
+<!--        <h1 id="blog-title">
+            <a href="/" title="Noetic Nought">Noetic Nought</a>
+        </h1>
+        
+         -->
+        
+            <li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
+            <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+            <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+            <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+            <li><a href="https://twitter.com/punchagan" title="Twitter profile"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://github.com/punchagan" title="GitHub profile"><i class="icon-github"></i></a></li>
+
+<!--         -->
+        </ul>
+    </section>
+    <section class="page-content">
+        <div class="content" rel="main">
+            
+    <div class="post">
+    
+    <h1>MTU and file transfers</h1>
+
+        <div class="meta">
+            <div class="authordate">
+                <time class="timeago" datetime="2010-12-06T13:04:00">2010-12-06 13:04</time>
+            </div>
+            
+
+            
+          |  
+        <a href="mtu-and-file-transfers.org" id="sourcelink">Source</a>
+
+            
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="../categories/ssh.html">ssh</a></li>
+        </ul>
+    </div>
+
+        </div>
+        <div class="body">
+            <p>
+A note to self, but may benefit someone facing a similar problem.
+</p>
+
+<dl class="org-dl">
+<dt> <b>Problem</b> </dt><dd>SSH-ing to our server was working well.  But, file
+transfers like <code>scp</code>, <code>git push</code> were failing.
+</dd>
+
+<dt> <b>Diagnosis</b> </dt><dd>I had been thinking it was a problem with our
+campus network on the first night and was too
+sleepy to try and fix it.  But things didn't
+improve even after one full day.  Then I asked a
+friend of mine, and he confirmed that he has been
+facing the same problem for a couple of days.  I
+then tried file transfers to another server and
+it was working fine.  Then I tried file transfers
+between the two servers and even that worked fine!
+</dd>
+
+<dt> <b>Solution</b> </dt><dd>After some googling, I figured that the problem
+was with a machine between me and the server.
+Changing the <code>mtu</code> to 1492 from 1500 on the
+server, fixed the problem. :)
+</dd>
+</dl>
+        </div>
+        
+    <ul class="pager">
+        <li class="previous">
+            <a href="pandoc-can-now-do-org.html">← Previous post</a>
+        </li>
+        <li class="next">
+            <a href="my-talk-at-scipyin-2010.html">Next post →</a>
+        </li>
+    </ul>
+
+            
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        var disqus_shortname ="rusticreverie";
+            var disqus_url="http://punchagan.muse-amuse.in/posts/mtu-and-file-transfers.html";
+        var disqus_title="MTU and file transfers";
+        var disqus_identifier="cache/posts/mtu-and-file-transfers.html";
+        var disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        
+
+    </div>
+
+            © 2013
+<a href="mailto:punchagan%5B@T%5Dmuse-amuse.in">punchagan</a> -
+<a href="http://getnikola.com">Nikola</a> powered -
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+Creative Commons Attribution 3.0 Unported License</a>
+ -
+<a href="http://themes.getnikola.com/#zen">zen</a> theme
+            
+	
+
+        </div>
+    </section>
+    
+            <script src="../assets/js/all-nocdn.js" type="text/javascript"></script>
+
+    
+        <script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+        </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (git)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/git.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Mon, 14 Oct 2013 15:23:28 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A git-diff tip</title><link>http://punchagan.muse-amuse.in/posts/a-git-diff-tip.html</link><description>&lt;p&gt;
+One of the things with git that you can mess-up, if you are not
+used to, is git diff.  A friend of mine was trying to add a couple
+of new files, and changes to existing files.  But, he was on the
+wrong branch, and wanted to change to a different branch, before
+committing.  Being new to git, he wanted to take a patch.  Reset
+the changes, apply the patch back.
+&lt;/p&gt;
+
+&lt;p&gt;
+This is what he did
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;git add new_file.txt
+git add old_file1.txt old_file2.txt # don't add old_file3.txt
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Oh, damn, I want to change the branch.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;git diff &amp;gt; a.patch
+git reset --hard
+git checkout other-branch
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Let me commit my changes…
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;git apply a.patch
+git commit -m
+git show
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Oh crap!  Where are my new files?  They aren't commited!  Lemme
+add them.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;ls new_file.txt
+ls: cannot access new_file.txt: No such file or directory
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Dammit!  Where are my changes gone?
+&lt;/p&gt;
+
+&lt;p&gt;
+The problem was with &lt;code&gt;git diff&lt;/code&gt;.  It gives only the only the
+un-staged changes.  &lt;code&gt;--cached&lt;/code&gt; option has to specified, to get the
+staged changes in the diff output.  &lt;code&gt;git diff HEAD&lt;/code&gt; shows diff
+output with both staged and un-staged changes.
+&lt;/p&gt;
+
+&lt;p&gt;
+But the whole workflow above is a beginners workflow.  A user
+comfortable with git would've committed and then moved the commit
+around using cherry-pick or the like.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;git add &amp;lt;all-files&amp;gt;
+git commit -m "My awesome changes."  #committed on branch1
+git checkout other-branch
+git cherry-pick branch1
+&lt;/pre&gt;
+&lt;/div&gt;</description><author></author><category>git</category><category>version_control</category><guid>http://punchagan.muse-amuse.in/posts/a-git-diff-tip.html</guid><pubDate>Wed, 22 Aug 2012 23:06:00 GMT</pubDate></item><item><title>GetHub: Chrome Notifications for Github updates</title><link>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</link><description>&lt;p&gt;
+Over the last two days, I hacked up my first Chrome extension.
+I've been using Chrome only for the past couple of weeks or so and
+I begin to like it, though some of the extensions aren't as mature
+as I would've liked.
+&lt;/p&gt;
+
+&lt;p&gt;
+The original idea was floated by my friend,  Madhu, and Lee helped
+me quite a bit, while I was working on it.
+&lt;/p&gt;
+
+&lt;div id="outline-container-sec-1" class="outline-2"&gt;
+&lt;h2 id="sec-1"&gt;What does it do?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;p&gt;
+It is a simple extension, that shows pop-ups, whenever there is
+an update in your GitHub "Wall" (yes, this is a Facebook world)
+or News Feed as they call it.
+&lt;/p&gt;
+
+&lt;p&gt;
+After installation, you will need to save your &lt;code&gt;username&lt;/code&gt; and
+&lt;code&gt;token&lt;/code&gt; for the extension to work.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2" class="outline-2"&gt;
+&lt;h2 id="sec-2"&gt;Where to get it?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;p&gt;
+Presently, you will need to get it from GitHub.
+&lt;/p&gt;
+
+&lt;p&gt;
+I might add it to the Chrome Web Store, once I see more people
+using it.  I couldn't justify, to myself, paying the initial
+one-time verification fee that Google asks for.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;UPDATE&lt;/b&gt;: &lt;span class="timestamp-wrapper"&gt;&lt;span class="timestamp"&gt;[2011-03-04 Fri]&lt;/span&gt;&lt;/span&gt; Added GetHub to the store
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-3" class="outline-2"&gt;
+&lt;h2 id="sec-3"&gt;Comments and Feedback&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-3"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Feel free to write to me at &lt;code&gt;punchagan+gethub@jeemail.com&lt;/code&gt;
+&lt;/li&gt;
+&lt;li&gt;Or file issues at GitHub.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;
+Happy GitHubbing!
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><author></author><category>chrome</category><category>code</category><category>first</category><category>git</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</guid><pubDate>Wed, 02 Mar 2011 00:34:00 GMT</pubDate></item><item><title>Git powered wikis improved: My bit</title><link>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</link><description>&lt;p&gt;
+I accidentally came across the blog-post Git-powered wikis
+improved - GitHub. And this particular paragraph caught my
+eye:
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+The new editor has the capability to support every markup
+language that GitHub Wikis support. If you're a fan of Markdown,
+Textile, pod or RDoc, the function bar buttons (e.g. bold,
+italic, underline, etc.) will now work. We've even written brand
+new inline help for many of GitHub Wiki's supported markup
+languages.
+&lt;/p&gt;
+
+&lt;p&gt;
+The language definitions the editor uses are JSON-based and easy
+to edit. If you'd like us to support a markup language that we
+don't currently support, Gollum, GitHub's wiki software, is
+entirely open source – fork our code and send us a pull request
+with changes that support your choice language.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+I sent a quick patch for org-mode in the function bar, and it has
+been accepted.  :)
+&lt;/p&gt;
+
+&lt;p&gt;
+If not anything more, I hope, at least a couple of curious people
+will explore org-mode and find it useful.
+&lt;/p&gt;</description><author></author><category>code</category><category>contribute</category><category>emacs</category><category>foss</category><category>git</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</guid><pubDate>Fri, 04 Feb 2011 17:55:00 GMT</pubDate></item><item><title>git vs. mercurial</title><link>http://punchagan.muse-amuse.in/posts/git-vs-mercurial.html</link><description>&lt;p&gt;
+At work, we use hg and to be frank, I haven't really got the
+hang of using it well. I've recently started using git for my own
+work and I'm loving it.
+&lt;/p&gt;
+
+&lt;p&gt;
+I chose git because
+&lt;/p&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;github seems to be a nice place to hang around, as compared to
+bit-bucket.
+&lt;/li&gt;
+&lt;li&gt;org-mode uses git and I need to learn to use git, if I intend
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+contribute anything to org-mode.
+&lt;/p&gt;
+
+&lt;p&gt;
+But after using git for a month or so, I'm totally loving using
+git. The way it handles merges is awesome. People go gaga over
+it's speed.
+&lt;/p&gt;
+
+&lt;p&gt;
+But for me, it's the way it handles branches. I can have any
+number of branches on my machine, while pushing only changes in
+the master branch, upstream. I can easily merge changes from one
+branch to another. After putting up a lot of fight, I couldn't
+make hg do this. Not as well as git does it!
+&lt;/p&gt;
+
+&lt;p&gt;
+I've now decided to convert my personal repositories to git.
+&lt;/p&gt;
+
+&lt;p&gt;
+This blog post shows how to.
+&lt;/p&gt;</description><author></author><category>git</category><guid>http://punchagan.muse-amuse.in/posts/git-vs-mercurial.html</guid><pubDate>Sun, 01 Aug 2010 19:58:00 GMT</pubDate></item></channel></rss>

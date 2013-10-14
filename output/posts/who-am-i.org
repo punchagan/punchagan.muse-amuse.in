@@ -1,0 +1,40 @@
+#+BEGIN_COMMENT
+.. title: who am I?
+.. date: 2008/12/02 16:14:00
+.. tags: blab, life, poem
+.. slug: who-am-i
+#+END_COMMENT
+
+
+
+
+#+begin_verse
+dead and lifeless, in a box I lie
+just my size, to be buried deep somewhere,
+arranged with flowers, bright and fragrant
+more alive than dead, are they
+the final goodbye I have said,
+gone am I, never to return--but
+who am I, who am I, who am I?
+
+am I --
+the knowledge I arduously gained,
+from all the books I read and re-read.
+the wealth and riches I made,
+at the cost of sweat, often also blood.
+the skill with utmost care I groomed,
+for that, today, has me world-renowned.
+the numerous battles I braved,
+where win or loss never, only a fight mattered.
+all those dreams I dared to dream,
+and the goals I never, or have, reached.
+
+None of it, I realised, am I,
+but, who am I, who am I, who am I
+deep and loud, for one last time I wonder
+"the difference, you make to the world,
+is who you are", my Master answered,
+"Life's fragrance is in service,
+it grows and unfurls, far and wide,
+long after you are lifeless and dead"
+#+end_verse

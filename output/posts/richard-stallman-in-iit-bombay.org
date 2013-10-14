@@ -1,0 +1,20 @@
+#+BEGIN_COMMENT
+.. title: Richard Stallman in IIT-Bombay
+.. date: 2010/09/01 15:48:00
+.. tags: rms, software
+.. slug: richard-stallman-in-iit-bombay
+#+END_COMMENT
+
+
+
+:CLOCK:
+:END:
+RMS will be in IIT-Bombay on the 6th of this month. He will "speak
+about the goals and philosophy of the Free Software Movement, and
+the status and history of the GNU operating system, which in
+combination with the kernel Linux is now used by tens of millions
+of users world-wide. "
+
++ *Date:* 6th September, 2010
++ *Time:* 8:30 P.M
++ *Venue:* PC Saxena Auditorium, IIT Bombay

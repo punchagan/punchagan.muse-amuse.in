@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (code)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/code.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Mon, 14 Oct 2013 15:23:28 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>GitHub Cue: Recommendations for GitHub Repos</title><link>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</link><description>&lt;p&gt;
+If you aren't already aware of it, I'm one of those people who
+goes around saying, "GitHub is my Facebook".  I spend quite a lot
+of time on GitHub, browsing the work of various people, looking at
+loads of interesting stuff that people built.  I keep jumping
+between people pages and projects using the Watchers/Watching &amp;amp;
+Followers/Following pages.  This way, I do come across interesting
+people and projects, but the SNR is too low.  I wanted a better
+way to be able to see stuff, that I find interesting.  That's how
+the idea for this Chromium app – GitHub Cue – was born.
+&lt;/p&gt;
+
+&lt;p&gt;
+@baali and I hacked on this, during the last few days and got it
+working.  It works as follows, (from the README) —
+&lt;/p&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Scrapes all the descriptions of the repositories being watched
+by the user.
+&lt;/li&gt;
+&lt;li&gt;Key terms are extracted from this description text using the
+Yahoo Term Extractor.
+&lt;/li&gt;
+&lt;li&gt;A list of languages is obtained, based on the languages of the
+repositories, the user if watching.
+&lt;/li&gt;
+&lt;li&gt;GitHub searches are performed for a combination of 3 randomly
+chosen languages and 5 random key terms.
+&lt;/li&gt;
+&lt;li&gt;10 random repositories out of all these, are shown.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;
+This is a very simplistic algorithm, but works decently for my
+purposes.  Ideally, I would've liked to use a Collaborative
+Filtering algorithm, but I found the data to be too sparse, and
+the amount of computation to be too much to be done on the fly.  I
+wasn't really interested in pre-computing stuff and putting it
+onto my server.  I settled down to the next best thing I could
+think of.
+&lt;/p&gt;
+
+&lt;p&gt;
+I would appreciate any further ideas and suggestions.  Thanks!
+&lt;/p&gt;</description><author></author><category>app</category><category>chrome</category><category>code</category><category>github</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</guid><pubDate>Fri, 05 Aug 2011 18:51:00 GMT</pubDate></item><item><title>GetHub: Chrome Notifications for Github updates</title><link>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</link><description>&lt;p&gt;
+Over the last two days, I hacked up my first Chrome extension.
+I've been using Chrome only for the past couple of weeks or so and
+I begin to like it, though some of the extensions aren't as mature
+as I would've liked.
+&lt;/p&gt;
+
+&lt;p&gt;
+The original idea was floated by my friend,  Madhu, and Lee helped
+me quite a bit, while I was working on it.
+&lt;/p&gt;
+
+&lt;div id="outline-container-sec-1" class="outline-2"&gt;
+&lt;h2 id="sec-1"&gt;What does it do?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;p&gt;
+It is a simple extension, that shows pop-ups, whenever there is
+an update in your GitHub "Wall" (yes, this is a Facebook world)
+or News Feed as they call it.
+&lt;/p&gt;
+
+&lt;p&gt;
+After installation, you will need to save your &lt;code&gt;username&lt;/code&gt; and
+&lt;code&gt;token&lt;/code&gt; for the extension to work.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2" class="outline-2"&gt;
+&lt;h2 id="sec-2"&gt;Where to get it?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;p&gt;
+Presently, you will need to get it from GitHub.
+&lt;/p&gt;
+
+&lt;p&gt;
+I might add it to the Chrome Web Store, once I see more people
+using it.  I couldn't justify, to myself, paying the initial
+one-time verification fee that Google asks for.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;UPDATE&lt;/b&gt;: &lt;span class="timestamp-wrapper"&gt;&lt;span class="timestamp"&gt;[2011-03-04 Fri]&lt;/span&gt;&lt;/span&gt; Added GetHub to the store
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-3" class="outline-2"&gt;
+&lt;h2 id="sec-3"&gt;Comments and Feedback&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-3"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Feel free to write to me at &lt;code&gt;punchagan+gethub@jeemail.com&lt;/code&gt;
+&lt;/li&gt;
+&lt;li&gt;Or file issues at GitHub.
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;
+Happy GitHubbing!
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><author></author><category>chrome</category><category>code</category><category>first</category><category>git</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</guid><pubDate>Wed, 02 Mar 2011 00:34:00 GMT</pubDate></item><item><title>Git powered wikis improved: My bit</title><link>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</link><description>&lt;p&gt;
+I accidentally came across the blog-post Git-powered wikis
+improved - GitHub. And this particular paragraph caught my
+eye:
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+The new editor has the capability to support every markup
+language that GitHub Wikis support. If you're a fan of Markdown,
+Textile, pod or RDoc, the function bar buttons (e.g. bold,
+italic, underline, etc.) will now work. We've even written brand
+new inline help for many of GitHub Wiki's supported markup
+languages.
+&lt;/p&gt;
+
+&lt;p&gt;
+The language definitions the editor uses are JSON-based and easy
+to edit. If you'd like us to support a markup language that we
+don't currently support, Gollum, GitHub's wiki software, is
+entirely open source – fork our code and send us a pull request
+with changes that support your choice language.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+I sent a quick patch for org-mode in the function bar, and it has
+been accepted.  :)
+&lt;/p&gt;
+
+&lt;p&gt;
+If not anything more, I hope, at least a couple of curious people
+will explore org-mode and find it useful.
+&lt;/p&gt;</description><author></author><category>code</category><category>contribute</category><category>emacs</category><category>foss</category><category>git</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</guid><pubDate>Fri, 04 Feb 2011 17:55:00 GMT</pubDate></item><item><title>Raise windows (on current desktop) xdotool &amp; bash</title><link>http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html</link><description>&lt;p&gt;
+I posted a snippet &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; of python code that used xdotool to
+raise windows.  I got one patch from dusual &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; that
+enabled raising of windows in the current workspace only.
+&lt;/p&gt;
+
+&lt;p&gt;
+More importantly, Jordan gave a one-liner &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; in bash,
+that could do the same thing as my long and elaborate python
+snippet.  I had a feeling that this would be much shorter in bash,
+but I don't feel comfortable writing bash scripts. :P
+&lt;/p&gt;
+
+&lt;p&gt;
+Below is a bash snippet that tries to incorporates both the
+changes. :)
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;found=0
+
+for win in `xdotool search --class $1`;
+do
+if [ `xdotool get_desktop_for_window $win` -eq `xdotool get_desktop` ];
+then found=1; break;
+fi;
+done
+
+if [ $found -eq 1 ]; then xdotool windowactivate $win; else $1; fi
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&lt;b&gt;Note&lt;/b&gt;: When you've visual effects enabled (the default option on
+Ubuntu), getting the current desktop/workspace doesn't work,
+probably because Root Window properties are being messed around by
+it.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;b&gt;Note2&lt;/b&gt;: &lt;code&gt;search&lt;/code&gt; takes an option &lt;code&gt;--screen&lt;/code&gt;. It'd be nice if it
+ also had an option &lt;code&gt;--desktop&lt;/code&gt;.  This task could then be done in
+ a one-liner.
+&lt;/p&gt;
+&lt;div id="footnotes"&gt;
+&lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
+&lt;div id="text-footnotes"&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+My python snippet
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+dusual on twitter
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+Jordan's one liner
+&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;</description><author></author><category>code</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html</guid><pubDate>Sat, 06 Nov 2010 14:30:00 GMT</pubDate></item><item><title>A couple of counting functions</title><link>http://punchagan.muse-amuse.in/posts/a-couple-of-counting-functions.html</link><description>&lt;p&gt;
+I had a strict character limit of 180 chars for something I was
+writing. I just wrote a simple function to count characters in a
+region or a buffer. Another function to count the words.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-emacs-lisp"&gt;(defun count-chars ()
+  "Count the number of chars in a buffer or region."
+  (interactive)
+  (let* ((beg (if (region-active-p) (region-beginning) (point-min)))
+	 (end (if (region-active-p) (region-end) (point-max))))
+	 (message (number-to-string (- end beg)))))
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-emacs-lisp"&gt;(defun count-words ()
+  "Count the number of words in a buffer or region."
+  (interactive)
+  (let* ((beg (if (region-active-p) (region-beginning) (point-min)))
+	 (end (if (region-active-p) (region-end) (point-max)))
+	 (count 0))
+    (save-excursion
+      (goto-char beg)
+      (while (&amp;lt; (point) end)
+	(forward-word)
+	(setq count (1+ count))))
+    (message (int-to-string count))))
+&lt;/pre&gt;
+&lt;/div&gt;</description><author></author><category>code</category><category>elisp</category><category>emacs</category><guid>http://punchagan.muse-amuse.in/posts/a-couple-of-counting-functions.html</guid><pubDate>Fri, 17 Sep 2010 19:40:00 GMT</pubDate></item><item><title>org/elisp - sorting list of org-links on description</title><link>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</link><description>&lt;p&gt;
+A small utility function that I used to sort the names of people
+who commented on my blog.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-emacs-lisp"&gt;(defun org-get-link-desc-from-list ()
+  """ Get link description of a list item containing just links """
+  (let* ((item-beg (point))
+       (item-end (org-end-of-item))
+       (cur-item (buffer-substring-no-properties
+		  item-beg item-end)))
+    (goto-char item-beg)
+    (org-columns-compact-links cur-item)))
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+&lt;code&gt;sort-lines&lt;/code&gt; wasn't good enough for me, since it was sorting
+alphabetically and it ended up being the sorted order of the urls
+and not the names. This function, when used with
+&lt;code&gt;org-sort-entries-or-items&lt;/code&gt; gave me what I wanted.
+&lt;/p&gt;
+
+&lt;p&gt;
+Thanks to benny (on #org-mode), I also learnt the difference
+between &lt;code&gt;let&lt;/code&gt; and &lt;code&gt;let*&lt;/code&gt;.
+&lt;/p&gt;</description><author></author><category>code</category><category>elisp</category><category>note</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</guid><pubDate>Fri, 20 Aug 2010 00:23:00 GMT</pubDate></item><item><title>Thanks Sacha</title><link>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</link><description>&lt;p&gt;
+I just wanted to thank Sacha Chua for bearing with my newbie elisp
+code and trying out org2blog.
+&lt;/p&gt;
+
+&lt;p&gt;
+Also, thanks for the two patches she sent.
+&lt;/p&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Feature addition - Posting sub-trees instead of whole buffers.
+I had this feature in mind, and had started working on it after
+her request, but she was too quick for me! ;)
+&lt;/li&gt;
+&lt;li&gt;Cleaning up of the code that uploads images.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+I'm loving it!
+&lt;/p&gt;</description><author></author><category>code</category><category>elisp</category><category>note</category><category>org2blog</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</guid><pubDate>Fri, 30 Jul 2010 06:59:00 GMT</pubDate></item><item><title>Refile to date-tree</title><link>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</link><description>&lt;p&gt;
+Useful to refile notes to the journal file, which is a
+date-tree. &lt;code&gt;org-refile&lt;/code&gt; isn't convenient to refile stuff to a
+date-tree.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-emacs-lisp"&gt;(defun my/org-refile-to-journal ()
+  "Refile an entry to journal file's date-tree"
+  (interactive)
+  (require 'org-datetree)
+  (let ((journal (expand-file-name "journal.org" org-directory))
+	post-date)
+    (setq post-date (or (org-entry-get (point) "TIMESTAMP_IA")
+			(org-entry-get (point) "TIMESTAMP")))
+    (setq post-date (nthcdr 3 (parse-time-string post-date)))
+    (setq post-date (list (cadr post-date)
+			  (car post-date)
+			  (caddr post-date)))
+    (org-cut-subtree)
+    (with-current-buffer (or (find-buffer-visiting journal)
+			     (find-file-noselect journal))
+      (save-excursion
+	(org-datetree-file-entry-under (current-kill 0) post-date)
+	(bookmark-set "org-refile-last-stored")))
+    (message "Refiled to %s" journal)))
+
+(defun my/org-agenda-refile-to-journal ()
+  "Refile the item at point to journal."
+  (interactive)
+  (let* ((marker (or (org-get-at-bol 'org-hd-marker)
+		     (org-agenda-error)))
+	 (buffer (marker-buffer marker))
+	 (pos (marker-position marker)))
+    (with-current-buffer buffer
+      (save-excursion
+	(save-restriction
+	  (widen)
+	  (goto-char marker)
+	  (org-remove-subtree-entries-from-agenda)
+	  (my/org-refile-to-journal)))))
+  (org-agenda-redo))
+
+(org-defkey org-agenda-mode-map (kbd "C-c C-S-w") 'my/org-agenda-refile-to-journal)
+(org-defkey org-mode-map (kbd "C-c C-S-w") 'my/org-refile-to-journal)
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Enjoy!
+&lt;/p&gt;</description><author></author><category>code</category><category>elisp</category><category>emacs</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</guid><pubDate>Fri, 30 Jul 2010 05:33:00 GMT</pubDate></item></channel></rss>

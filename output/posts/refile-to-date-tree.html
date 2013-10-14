@@ -1,0 +1,185 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="punchagan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refile to date-tree | Noetic Nought</title>
+    
+            <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+
+    
+
+
+
+    
+</head>
+
+<body>
+    <section class="social">
+        <ul>
+<!--        <h1 id="blog-title">
+            <a href="/" title="Noetic Nought">Noetic Nought</a>
+        </h1>
+        
+         -->
+        
+            <li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
+            <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+            <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+            <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+            <li><a href="https://twitter.com/punchagan" title="Twitter profile"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://github.com/punchagan" title="GitHub profile"><i class="icon-github"></i></a></li>
+
+<!--         -->
+        </ul>
+    </section>
+    <section class="page-content">
+        <div class="content" rel="main">
+            
+    <div class="post">
+    
+    <h1>Refile to date-tree</h1>
+
+        <div class="meta">
+            <div class="authordate">
+                <time class="timeago" datetime="2010-07-30T05:33:00">2010-07-30 05:33</time>
+            </div>
+            
+
+            
+          |  
+        <a href="refile-to-date-tree.org" id="sourcelink">Source</a>
+
+            
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="../categories/code.html">code</a></li>
+            <li><a class="tag" href="../categories/elisp.html">elisp</a></li>
+            <li><a class="tag" href="../categories/emacs.html">emacs</a></li>
+            <li><a class="tag" href="../categories/orgmode.html">orgmode</a></li>
+        </ul>
+    </div>
+
+        </div>
+        <div class="body">
+            <p>
+Useful to refile notes to the journal file, which is a
+date-tree. <code>org-refile</code> isn't convenient to refile stuff to a
+date-tree.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-emacs-lisp">(defun my/org-refile-to-journal ()
+  "Refile an entry to journal file's date-tree"
+  (interactive)
+  (require 'org-datetree)
+  (let ((journal (expand-file-name "journal.org" org-directory))
+	post-date)
+    (setq post-date (or (org-entry-get (point) "TIMESTAMP_IA")
+			(org-entry-get (point) "TIMESTAMP")))
+    (setq post-date (nthcdr 3 (parse-time-string post-date)))
+    (setq post-date (list (cadr post-date)
+			  (car post-date)
+			  (caddr post-date)))
+    (org-cut-subtree)
+    (with-current-buffer (or (find-buffer-visiting journal)
+			     (find-file-noselect journal))
+      (save-excursion
+	(org-datetree-file-entry-under (current-kill 0) post-date)
+	(bookmark-set "org-refile-last-stored")))
+    (message "Refiled to %s" journal)))
+
+(defun my/org-agenda-refile-to-journal ()
+  "Refile the item at point to journal."
+  (interactive)
+  (let* ((marker (or (org-get-at-bol 'org-hd-marker)
+		     (org-agenda-error)))
+	 (buffer (marker-buffer marker))
+	 (pos (marker-position marker)))
+    (with-current-buffer buffer
+      (save-excursion
+	(save-restriction
+	  (widen)
+	  (goto-char marker)
+	  (org-remove-subtree-entries-from-agenda)
+	  (my/org-refile-to-journal)))))
+  (org-agenda-redo))
+
+(org-defkey org-agenda-mode-map (kbd "C-c C-S-w") 'my/org-agenda-refile-to-journal)
+(org-defkey org-mode-map (kbd "C-c C-S-w") 'my/org-refile-to-journal)
+</pre>
+</div>
+
+<p>
+Enjoy!
+</p>
+        </div>
+        
+    <ul class="pager">
+        <li class="previous">
+            <a href="vimperator-and-firemacs.html">← Previous post</a>
+        </li>
+        <li class="next">
+            <a href="competition-and-population.html">Next post →</a>
+        </li>
+    </ul>
+
+            
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        var disqus_shortname ="rusticreverie";
+            var disqus_url="http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html";
+        var disqus_title="Refile to date-tree";
+        var disqus_identifier="cache/posts/refile-to-date-tree.html";
+        var disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        
+
+    </div>
+
+            © 2013
+<a href="mailto:punchagan%5B@T%5Dmuse-amuse.in">punchagan</a> -
+<a href="http://getnikola.com">Nikola</a> powered -
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+Creative Commons Attribution 3.0 Unported License</a>
+ -
+<a href="http://themes.getnikola.com/#zen">zen</a> theme
+            
+	
+
+        </div>
+    </section>
+    
+            <script src="../assets/js/all-nocdn.js" type="text/javascript"></script>
+
+    
+        <script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+        </script>
+    
+    
+</body>
+</html>

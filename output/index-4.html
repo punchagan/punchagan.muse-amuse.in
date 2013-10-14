@@ -1,0 +1,919 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="punchagan's home on the web.">
+    <meta name="author" content="punchagan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noetic Nought (old posts page 4) | Noetic Nought</title>
+    
+            <link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+
+    
+    
+    
+</head>
+
+<body>
+    <section class="social">
+        <ul>
+<!--        <h1 id="blog-title">
+            <a href="/" title="Noetic Nought">Noetic Nought</a>
+        </h1>
+        
+         -->
+        
+            <li><a href="index.html" title="Home"><i class="icon-home"></i></a></li>
+            <li><a href="archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+            <li><a href="categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+            <li><a href="rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+            <li><a href="https://twitter.com/punchagan" title="Twitter profile"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://github.com/punchagan" title="GitHub profile"><i class="icon-github"></i></a></li>
+
+<!--         -->
+        </ul>
+    </section>
+    <section class="page-content">
+        <div class="content" rel="main">
+            
+        <div class="post">
+            <h1 class="title"><a href="posts/quark08.html">Quark'08 !</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2008-02-11T02:28:00">2008-02-11 02:28</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/quark08.html#disqus_thread" data-disqus-identifier="cache/posts/quark08.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/fest.html">fest</a></li>
+            <li><a class="tag" href="categories/ology.html">ology</a></li>
+            <li><a class="tag" href="categories/quark.html">quark</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/not-so-floppix.html">Not so Floppix...</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2007-12-11T00:28:00">2007-12-11 00:28</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/not-so-floppix.html#disqus_thread" data-disqus-identifier="cache/posts/not-so-floppix.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/emacs.html">emacs</a></li>
+            <li><a class="tag" href="categories/lafootgiri.html">lafootgiri</a></li>
+            <li><a class="tag" href="categories/ology.html">ology</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <p>
+<b>Disambiguation:</b> The original Linux on 2 Floppies is here.
+</p>
+
+<p>
+I, post this from a remastered version of Knoppix that we named
+Floppix!
+</p>
+
+<p>
+It all actually began, with me deciding to do a bit of Emacs-ing
+at home during the winter hols but I don't have a Linux box at
+home. Live-CD is the way to go! But then Emacs doesn't \*usually\*
+go with Live-CDs. So I decided to get around making my own. :)
+[Dunnet "Dunnet Game"),
+an Adventure game in Emacs, played a crucial role in motivating me
+to go ahead!] The rest as they say is history….
+</p>
+
+<p>
+Actually, I tried a debootstrap from my Debian etch but I couldn't
+manage to get the initrd working. [[<a href="http://avudem.blogspot.com">http://avudem.blogspot.com</a>
+"Voodoo"][I ain't this geekish, its only that I am incapable of
+putting these terms in a simpler language.] After numerous futile
+attempt, I gave up for the time being and that's when the genius
+of [Voodoo]] came in, he took a different route. Remastering
+Knoppix.[Modifying an existing Live-CD of Knoppix]
+</p>
+
+<p>
+I won't get into the exact details of how we got about it. There's
+a lot of online help available for that.
+</p>
+
+<p>
+A few highlights, for the curious reader…
+</p>
+
+<ul class="org-ul">
+<li>got rid of the default KDE and replaced it with
+Fluxbox. [actually Floppix = Fluxbox + Knoppix :P]
+</li>
+<li>added emacs, cmucl, slime, octave, linuxdcpp, vlc and others.
+</li>
+<li>got rid of other packages which we weren't going to use.
+</li>
+<li>changed the boot message
+</li>
+<li>changed the default background image.
+</li>
+<li>removed the default boot image [ couldn't change it as the image
+we chose wasn't being properly converted to lss16 format ]
+</li>
+<li>tested the CD with Qemu [size of the iso got more than 700MB]
+</li>
+<li>removed a few other not so regularly used packages [including
+wine!]
+</li>
+<li>burnt the CD
+</li>
+<li>Logged in!
+</li>
+</ul>
+
+<p>
+Now, that I've logged in, I realize we managed to quite a decent
+job. Obviously we weren't perfect. It was the first time and done
+in quite a hurry. [btw, we have our end-sems going on; I've no
+exam tomorrow though] I was able to listen to music, connect to
+the DC, play a game of dunnet and make a blogpost! We also missed
+a few packages, for instance a screen shot capture program! But it
+ain't too bad, still a long way to go though!
+</p>
+
+<p>
+Just hoping we manage to make it better, as we get better at it!
+;)
+</p>
+
+<p>
+Here comes FloppixV0.1!
+</p>
+
+
+<hr>
+
+<p>
+Update [3/1/08]: I never knew that GIMP could capture screenshots!
+ImageMagick can do that too. I had two programs at hand and
+thought I had none! Here's a Screenshot of the Floppix Desktop.
+</p>
+
+
+<div class="figure">
+<p><img src="images/floppix_desktop.jpg" alt="floppix_desktop.jpg">
+</p>
+</div>
+
+<p>
+Picture Source [for the Background Image] : 9
+</p>
+
+<hr>
+
+<p>
+Update 2 [4/1/08]: There is already a floppy distro of Linux
+called Floppix. I knew about this only when some one searching for
+it reached my blog. Guess I should do something about this. [I'll
+be able to do it only after getting back to campus,though]
+</p>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/life-in-gen.html">Life "In-gen"</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2007-11-21T17:37:00">2007-11-21 17:37</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/life-in-gen.html#disqus_thread" data-disqus-identifier="cache/posts/life-in-gen.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/blab.html">blab</a></li>
+            <li><a class="tag" href="categories/exams.html">exams</a></li>
+            <li><a class="tag" href="categories/lafootgiri.html">lafootgiri</a></li>
+            <li><a class="tag" href="categories/quark.html">quark</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <p>
+Another post, with nothing concrete to say…
+</p>
+
+<ul class="org-ul">
+<li>These are just a few random musings, for those curious about my
+life and for the good health of my Blog which is so close to its
+death..
+</li>
+<li>College (+ Hostel) is amongst few places, that everyone on
+Earth(&amp; elsewhere) \*must\* get the chance to be in. There's a
+whole new world out here, with hell a lotuva things you can do,
+Here and Only Here… [I am not, by any means, talking of
+acads!]
+</li>
+<li>Projects. Yes they are a part of almost all my random
+stuff… cos I just Love them, when they are self-assigned and
+off-hand. They get even more exciting, when the learning curve
+is Steep!
+</li>
+<li>Deadlines can be wonderful things, if only I learn to respect
+them.
+</li>
+<li>Lab-Tests, i guess, are amongst the most hyped tests in the
+World! They aren't worth all that fuss.
+</li>
+<li>Grades ain't everything in Life. Not even if you are doing
+Engineering!
+</li>
+<li>I live amidst /wonderful* singers, <b>marvelous</b> music composers,
+<b>facile</b> lyric writers, <b>cool</b> Hackers, <b>amazing</b> photographers,
+<b>inspiring</b> poets and what not. [Why the hell do people then,
+look just for the *"industrious"/ grade scorers?]
+</li>
+<li>Music and Sleep are Great Healers. Laughter, too, is a close
+competitor.
+</li>
+<li>GNU/Linux is addictive. More n more people getting addicted,
+everyday!
+</li>
+<li>RHCE's got a pretty interesting test. Its rare to be interested
+in undergoing the torture of a test, ain't it?
+</li>
+<li>Rules seem to be total crap, until you get the chance to look at
+them from above.
+</li>
+<li>Quark'08 coming up! Gottu gear up for it!
+</li>
+<li>Comprees?? They don't bother me so much any more.
+</li>
+<li>Finally, for those who found all the above stuff boring and
+dumb… here's some food for thought &gt; The Best things in Life
+aren't Things…
+</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="images/bestthingsinlife.jpg" alt="bestthingsinlife.jpg">
+</p>
+</div>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/a-teen-no-more.html">A Teen, No more.</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2007-10-16T14:32:00">2007-10-16 14:32</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/a-teen-no-more.html#disqus_thread" data-disqus-identifier="cache/posts/a-teen-no-more.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/birthday.html">birthday</a></li>
+            <li><a class="tag" href="categories/blab.html">blab</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <p>
+As I start this post, the rear-part of my body aches, after a nice
+thrashing from the hostel junta. Apparently this is my gift on
+having incremented my account of revolutions, around a big ball of
+gases. (The total now moves on to 20) [isn't this apparent credit,
+really a debit?] It was more than compensated for, with a lovely
+cake though.
+</p>
+
+<p>
+I just want to thank all the junta, [relatives and friends and
+enemies and everyone else], who love me for what I am, even if all
+they get back is stupidity, imperfection, insincerity, hypocrisy
+and all sorts of crap. Thanks to everyone who pray for me to grow,
+up and not just old. Thanks a Million.
+</p>
+
+<p>
+A couple of decades through, and still no idea where life's taking
+me. Isn't LIFE an opportunity that we need to make the most out
+of?
+</p>
+
+<p>
+Just hoping, this year gives me some wisdom, a little courage and
+a lot more love to make the most of this opportunity.
+</p>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/lost-control.html">Lost Control??</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2007-09-22T13:22:00">2007-09-22 13:22</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/lost-control.html#disqus_thread" data-disqus-identifier="cache/posts/lost-control.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/blab.html">blab</a></li>
+            <li><a class="tag" href="categories/exams.html">exams</a></li>
+            <li><a class="tag" href="categories/lafootgiri.html">lafootgiri</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <p>
+<b>Caution</b>: This post is just some arbit crap, that arose from some
+ internal probing. Its utterly worthless for any reader other than
+ myself. This could possibly even be classified narcissistic or
+ whatever that's called.
+</p>
+
+<p>
+Presently, I've got tests going on and they are half way
+through. Considering this and the fact that its been over a month
+since I last posted, writing a post now doesn't make much sense,
+does it?[If my blog's been dormant so long, can't it be so for a
+couple of days more?] But things I've been up to off-late, don't
+make much sense. [in the past, at least they made sense to me if
+not to others.] This post is just about that, going from being
+senseless to at least being less sense [and hopefully, to being
+sensible]
+</p>
+
+<p>
+I've screwed up the tests so far, and don't think will be doing
+much better in the others too. Even otherwise, I haven't done
+anything good, anything that feels great, anything that feels
+right, in the past couple of months (years?? decades??) [except
+for one video with 'the gang', i didn't contribute much
+though]. Let alone accomplishing something nice, I haven't even
+been attempting anything decent enough. My priorities have gone
+haywire, or may be not, may be I'm just doing things that are very
+low on the scale or may be I'm not doing anything, things are just
+hapenning.
+</p>
+
+<ul class="org-ul">
+<li>I've slept through 'n' classes both inside and outside the
+classroom
+</li>
+<li>I've stayed awake all night downloading some crap for my comp.
+</li>
+<li>I had been worrying about keeping my blog alive. Made numerous
+attempts to post something, even if its no big deal not posting
+regularly.
+</li>
+<li>Changed 4 different OSes in a couple of days!
+</li>
+<li>been ages since I last visited the Library.
+</li>
+<li>Slept through the morning lotsa times, even if I enjoy EBER-ing
+</li>
+<li>Bunked bathing just because i'll have more clothes to wash!
+</li>
+</ul>
+
+<p>
+The list is pretty long. It ain't sensible to be putting down the
+whole thing here.&lt;/ul&gt; I guess I've just been trying to escape
+things. Running from doing important stuff. I've had enough. Its
+high time I do something about it. I've decided to get in control
+of my life, rather than being controlled by arbit stuff like
+sleep, a blog, a grade, an addiction, a song, a cricket match, a
+rain, a meal, a game of carrom, a prof's accent, a course, a test
+or other such trivialities.
+</p>
+
+<p>
+I wish to get back on track!!
+</p>
+
+<p>
+..to get back into the habit of doing things I love, at the time
+and place I like.
+</p>
+
+<p>
+..to doing things that give me joy, in the true sense. Not
+momentary, passing pleasures.
+</p>
+
+<p>
+Hopefully, with some effort, I will. (A nudge is all it takes.)
+</p>
+
+<p>
+btw, if this post was a total bouncer, this is for you….
+</p>
+
+<blockquote>
+<p>
+Time is the wisest Counselor.  Exams come in a close second! –
+punchagan
+</p>
+</blockquote>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/unitedly-independent.html">Unitedly Independent!?</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2007-08-15T08:45:00">2007-08-15 08:45</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/unitedly-independent.html#disqus_thread" data-disqus-identifier="cache/posts/unitedly-independent.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/blab.html">blab</a></li>
+            <li><a class="tag" href="categories/india.html">india</a></li>
+            <li><a class="tag" href="categories/politics.html">politics</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <p>
+First things first…
+</p>
+
+<p>
+स्वतंत्रता दिनोत्सव की शुभकामनायें
+</p>
+
+<p>
+Wish You All a Happy Independence Day..
+</p>
+
+<p>
+స్వాతంత్ర  దినోత్సవ  శుభాకాంక్షలు…
+</p>
+
+<p>
+[yes, I know just three of the eighteen… and no foreign ones.. ]
+</p>
+
+<p>
+Every year, during this time of the year, the papers and news and
+blogs and all other such media, are filled with analyses,
+comments, opinions and all sorts of things on the progress made
+(and not made) by Independent India…. the flavour of patriotism
+that was only subtle all this while, tends to grow upon us as the
+Day arrives and I'm no exception.
+</p>
+
+<p>
+Being an average Indian, just one amongst the Billion, the
+progress (or non-) is a very big issue for me to comment on and I
+would leave that job for the better qualified or the more
+courageous ones. But I wonder, I (just) wonder…..
+</p>
+
+<p>
+Come August and its the beginning of a new semester, bringing
+along "Elections" in campus. This time is no different… I can
+see people gearing up…. campaigning has begun even before the
+announcement of elections or nominations… and what goes on here?
+</p>
+
+<ul class="org-ul">
+<li>"Dude.. I don't need to campaign.. there's enough guys from our state in our hostel.. so contesting= winning.. don't worry!"
+</li>
+<li>"Look dude.. both of us are from the same state.. so I know you will be obviously voting for me.. but still if you want, you can have a look at my Agenda… "
+</li>
+<li>"Hey, its not important for me to tell you my agenda… its sufficient for you to know that my opponent hails from the other half of the country (North-South)where we hail from..
+</li>
+<li>"People.. we need to make sure that only one person, belonging to our state contests for this post… or the votes will get divided"
+</li>
+</ul>
+
+<p>
+Where are those ideals of unity and brotherhood? Isn't it
+important that the best person be chosen? Shouldn't the abilities
+of a candidate be considered rather than where (s)he hails from or
+what tongue (s)he speaks? Isn't it an irony, that all this happens
+precisely during this time, when the whole nation is celebrating
+the birth of an Independent India?? Shouldn't at least the
+celebrations be able to evoke the emotions of brotherhood, love
+and equality amongst us?? Shouldn't the fact that all of us are
+here with a purpose, a common goal of education, enough to get
+over the differences of language and origin? Shouldn't the
+interests of the College and the Students overpower such minor
+issues??
+</p>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/posts-2.html">Posts.. 2</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2007-07-26T20:43:00">2007-07-26 20:43</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/posts-2.html#disqus_thread" data-disqus-identifier="cache/posts/posts-2.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/blab.html">blab</a></li>
+            <li><a class="tag" href="categories/posts.html">posts</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <p>
+These days my strolls, in the blog-o-sphere, have grown manifold
+both in their numbers and lengths. And with every passing
+step… self doubts mount up. I begin to wonder if my blogs even
+worth its w8 in 'seconds'. Like the thousands of others in this
+world, I could post something in one of these genres but..
+</p>
+
+<ul class="org-ul">
+<li>Techno Blog. [On various latest hardware, softwares, gadgets et
+al..] But I ain't a geek to be able to post such stuff. If I
+ever posted something of this genre.. it would just be a
+copy-paste job.. isn't of any great value, given the readership
+of my blog.
+</li>
+<li>Scientific Blog. [With the latest advances in various
+disciplines of Science] Again a case similar to the previous
+one. Not of much use
+</li>
+<li>Literary Blog.[Stories n Poems n other Creations.] I ain't a
+creative being and rarely indulge in such creative acts. Would
+be foolish
+</li>
+<li>PhotoBlog.[Creative Pics/Paintings, Worthy of Display] I own no
+camera and don't borrow one too often. Also haven't got a very
+Creative eye to capture magic from the ordinary. Un-healthy
+</li>
+<li>Daily Diary. [An account of my day-to-day tidings] My life ain't
+overflowing with adventures. I am presently leading a
+non-adventurous, pretty monotonous life that would be
+uninteresting to readers of all classes. Ruled out for the lack
+of utility.
+</li>
+<li>Current-affairs Blog. [An account of today's, this week's
+happenings] Not interested in being a Journalist, there's
+already lotsa people who can handle the job better.
+</li>
+<li>Humour Blog. [Laugh and Let Laugh!] Again there's a lot of it
+already online, and with a sense of humour like mine, the
+difference made would be Nought.
+</li>
+<li>Inspirational Blog. [Inspire others to do their best.] Its
+pointless preaching what I don't practice. That would be
+hypocrisy.
+</li>
+<li>Information Blog. [Any info possibly..from pet-care to ethnic
+goan recipes…] I haven't yet crammed in so much into the
+super-computer on my top-floor to beat Google.
+</li>
+<li>A Mixed Bag. [Posts of multiple genres] Impossible. The bag's
+already empty for every item of it has already been ruled out.
+</li>
+</ul>
+
+<p>
+Do I still need a BLOG?
+</p>
+
+<p>
+ps: Prevention of boredom-induced-insanity is the one and only
+genuine reason(known to me) for the continued existence of my
+blog.
+</p>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/ps-ramblings.html">PS Ramblings</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2007-07-18T08:00:00">2007-07-18 08:00</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/ps-ramblings.html#disqus_thread" data-disqus-identifier="cache/posts/ps-ramblings.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/blab.html">blab</a></li>
+            <li><a class="tag" href="categories/ps.html">ps</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <p>
+Note: This post isn't of much use to others (may be the same with
+other posts too.. :P) Just a few ramblings of the 2 month stay @
+Delhi…. (allegedly doing a Project!)
+</p>
+
+<ul class="org-ul">
+<li>All Scientists ain't <i>Scientists</i>
+</li>
+<li>There's nothing <b>BIG</b> about Research papers… [You can do
+all sorts of things in there… something like the TOI
+comparison of Sachin and the Sensex… ;)]
+</li>
+<li>The "Hacker Culture" ought to be adopted (or atleast something
+closer to it..) at <b>Research</b> organisations.. [I thoroughly
+hated the hypocritical behaviour of the people at my PS.. ]
+</li>
+<li>Of all the people, the guy I found closest to being a
+<b>hacker</b> [w.r.t technical skills] was the guy operating the
+Photocopier… [this could well be a case of poor observation or
+under-estimation, but that's what I feel right now.. ]
+</li>
+<li>Perfectionists manage to be <i>imperfect at the perfect</i>
+time…
+</li>
+<li>Need to develop the ability to <b>talk</b> crap!(not just type
+in.. ) [comes in quite handy.. ]
+</li>
+<li>I loved EBERing all these days.. got to keep it
+going. [jaanees.. need some help in this.. ;) ]
+</li>
+<li>Loooong walks are great fun… [anybody game??]
+</li>
+<li>I ain't a very Creative being…
+</li>
+<li>I ought to learn to be more tolearant to using Windows, I
+guess.. [It was a real pain using it…]
+</li>
+<li>My Will power (for doing stuff that I hate.. ) has tremendously
+increased!! Thanks to the one and only….
+</li>
+<li>Any project that's not <b>my</b> choice will inevitably turn out to
+be a <i>Projest</i> [can't say much abt the others.. ;)]
+</li>
+<li>Hostel in Coll is ulti cool.. don't ever dare compare any other
+one with it..
+</li>
+<li>and found this cool pic… [I guess I need to follow him.. ;)]
+</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="images/ny_barking.gif" alt="ny_barking.gif">
+</p>
+</div>
+
+<p>
+ps: there's a lot more… but it ain't coming up here..  :P
+</p>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/telugu-rendering-in-ubuntu.html">Telugu Rendering in Ubuntu...</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2007-07-11T12:11:00">2007-07-11 12:11</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/telugu-rendering-in-ubuntu.html#disqus_thread" data-disqus-identifier="cache/posts/telugu-rendering-in-ubuntu.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/ology.html">ology</a></li>
+            <li><a class="tag" href="categories/ubuntu.html">ubuntu</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <p>
+I had problems with this and tried quite a few things to get it
+working…  [uninstalling and re-installing
+packages… downloading fonts.. etc.. ] but couldn't until I found
+help here…
+</p>
+
+<p>
+[Apparently there's a bug in the Pothana font (in Feisty)]
+</p>
+
+<p>
+[ Don't worry if you can't figure out what's the big deal in
+linking to an already existing post.. :P]
+</p>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/busy-without-business.html">Busy without Business...</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2007-06-30T01:19:00">2007-06-30 01:19</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/busy-without-business.html#disqus_thread" data-disqus-identifier="cache/posts/busy-without-business.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/blab.html">blab</a></li>
+            <li><a class="tag" href="categories/freedom.html">freedom</a></li>
+            <li><a class="tag" href="categories/ps.html">ps</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <p>
+Yes, that's what my PS's been like.. It hasn't turned out to be as
+great a learning experience as one would imagine it to be..  [or
+atleast I hoped, it would be…] On the contrary, its turning out
+to be bad…
+</p>
+
+<blockquote>
+<p>
+Nowadays, there's a certain danger of the same thing
+happening, even in the famous field of physics. I was shocked to
+hear of an experiment being done at the big accelerator at the
+National Accelerator Laboratory, where a person used deuterium. In
+order to compare his heavy hydrogen results to what might happen
+with light hydrogen, he had to use data from someone else's
+experiment on light hydrogen, which was done on a different
+apparatus. When asked why, he said it was because he couldn't get
+time on the program (because there's so little time and it's such
+expensive apparatus) to do the experiment with light hydrogen on
+this apparatus because there wouldn't be any new result. And so
+the men in charge of programs at NAL are so anxious for new
+results, in order to get more money to keep the thing going for
+public relations purposes, they are destroying – possibly – the
+value of the experiments themselves, which is the whole purpose of
+the thing. It is often hard for the experimenters there to
+complete their work as their scientific integrity
+demands.
+</p>
+</blockquote>
+
+<p>
+When I first read this {from Feynman's Cargo Cult Science [Adapted
+from a Caltech commencement address in 1974]}, I couldn't quite
+figure out what or how exactly things are happening and what
+exactly Feynman meant by "losing the value of experiments". But,
+now I know.. thanks to my PS. A lot of stuff that goes on
+here..[at least from what I can see..] is quite similar to (in
+fact worse than) this. PS's been absolutely disappointing.. I
+don't think I've learnt anything here that's worth the effort of
+spending my hols (too), away from home…  [except for Awe-TEM] I
+don't think I will be taking back anything with me..  other than
+may be, a knowledge of stuff that I shouldn't learn, stuff that I
+should keep away for the rest of my life…
+</p>
+
+<p>
+Feynman is saying this to <b>me</b>, Right now!
+</p>
+
+<blockquote>
+<p>
+… I have just one wish for you – the good luck to be somewhere
+where you are free to maintain the kind of integrity I have
+described, and where you do not feel forced by a need to maintain
+your position in the organization, or financial support, or so on,
+to lose your integrity. May you have that freedom.
+</p>
+</blockquote>
+            </div>
+        </div>
+    
+<div>
+<ul class="pager">
+    <li class="previous">
+        <a href="index-5.html">← Newer posts</a>
+    </li>
+    <li class="next">
+        <a href="index-3.html">Older posts →</a>
+    </li>
+</ul>
+</div>
+
+    
+        
+       <script type="text/javascript">var disqus_shortname="rusticreverie";(function(){var a=document.createElement("script");a.async=true;a.type="text/javascript";a.src="http://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("HEAD")[0]||document.getElementsByTagName("BODY")[0]).appendChild(a)}());</script>
+
+
+    
+
+
+            © 2013
+<a href="mailto:punchagan%5B@T%5Dmuse-amuse.in">punchagan</a> -
+<a href="http://getnikola.com">Nikola</a> powered -
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+Creative Commons Attribution 3.0 Unported License</a>
+ -
+<a href="http://themes.getnikola.com/#zen">zen</a> theme
+            
+	
+
+        </div>
+    </section>
+    
+            <script src="assets/js/all-nocdn.js" type="text/javascript"></script>
+
+    
+        <script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+        </script>
+    
+    
+</body>
+</html>

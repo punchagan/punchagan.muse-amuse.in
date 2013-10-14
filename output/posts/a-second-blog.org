@@ -1,0 +1,16 @@
+#+BEGIN_COMMENT
+.. title: A Second Blog...
+.. date: 2007/04/04 11:46:00
+.. tags: ology, posts, wordpress
+.. slug: a-second-blog
+#+END_COMMENT
+
+
+
+
+- It can't really be called a Second Blog... because I won't be
+  posting any new stuff there...
+- I just started it to have a Wordpress experience...
+- I started it to know.. to compare... and to choose...
+- I started it just for fun...
+- I started it because Blogspot may soon be blocked on campus!!!

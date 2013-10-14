@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (death)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/death.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Mon, 14 Oct 2013 15:23:28 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Talks at PyCon India 2012</title><link>http://punchagan.muse-amuse.in/posts/talks-at-pycon-india-2012.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;State "DONE"       from ""           &lt;span class="timestamp-wrapper"&gt;&lt;span class="timestamp"&gt;[2012-11-17 Sat 17:00]&lt;/span&gt;&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+PyCon is back to Bangalore for the 4th edition.  I've been to all
+the previous three editions, and I'm looking forward to this one.
+&lt;/p&gt;
+
+&lt;p&gt;
+I haven't spoken at any of the previous editions, and hadn't
+even really considered speaking at the previous editions.
+But, this time, I proposed a couple of talks, and both of them
+have been accepted! Woot! Lots of work ahead of me, but I'm
+really looking forward to give good talks.  I'll be talking
+about Enaml, and showing a brief demo of all the wonderful
+things it makes possible.  In the other talk, I'll give a
+brief overview of the latest happenings in the SciPy community
+and the projects to look forward to and contribute to.  Pankaj
+and I will be talking together on this.
+&lt;/p&gt;
+
+
+&lt;p&gt;
+Also, Kenneth (lawgon) will be deeply missed at this edition
+of PyCon.
+&lt;/p&gt;
+
+&lt;p&gt;
+Sadly, John Hunter, the lead author of matplotlib, also passed
+away last week.  RIP. :(
+&lt;/p&gt;</description><author></author><category>death</category><category>python</category><category>scipy</category><guid>http://punchagan.muse-amuse.in/posts/talks-at-pycon-india-2012.html</guid><pubDate>Sun, 02 Sep 2012 23:12:00 GMT</pubDate></item></channel></rss>
