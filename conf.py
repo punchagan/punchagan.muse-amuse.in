@@ -191,7 +191,18 @@ COMPILERS = {
 # "rsync -rav output/* joe@my.site:/srv/www/site"
 # And then do a backup, or ping pingomatic.
 # To do manual deployment, set it to []
-# DEPLOY_COMMANDS = []
+DEPLOY_COMMANDS = [
+    'git checkout master',
+    'nikola build',
+    'git stash',
+    'git push origin master',
+    'git checkout --orphan gh-pages',
+    'git add output',
+    'git commit -m "Initial commit."',
+    'git push -f origin gh-pages:gh-pages',
+    'git checkout master',
+    'git branch -D gh-pages',
+]
 
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
