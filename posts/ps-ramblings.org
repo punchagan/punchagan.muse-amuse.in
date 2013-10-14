@@ -41,6 +41,6 @@ Delhi.... (allegedly doing a Project!)
   one with it..
 - and found this cool pic... [I guess I need to follow him.. ;)]
 
-file:./files/ny_barking.gif
+file:../images/ny_barking.gif
 
 ps: there's a lot more... but it ain't coming up here..  :P

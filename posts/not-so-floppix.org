@@ -68,7 +68,7 @@ Update [3/1/08]: I never knew that GIMP could capture screenshots!
 ImageMagick can do that too. I had two programs at hand and
 thought I had none! Here's a Screenshot of the Floppix Desktop.
 
-file:./files/floppix_desktop.jpg
+file:../images/floppix_desktop.jpg
 
 Picture Source [for the Background Image] : 9
 

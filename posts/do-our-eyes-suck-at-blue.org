@@ -102,7 +102,7 @@ things.
   Here are a few images.  (View them in their original size)
 
   #+ATTR_HTML: alt="channels image" title="R G B Channels" align="center" width="400"
-  file:./files/channels.png
+  file:../images/channels.png
 
   #+ATTR_HTML: alt="sub-sampled image" title="Sub-sampled Channels" align="center" width="400"
-  file:./files/subsample.png
+  file:../images/subsample.png

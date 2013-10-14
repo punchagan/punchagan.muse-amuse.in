@@ -8,7 +8,7 @@
 
 
 
-file:./files/freesoftware.hack.jpg
+file:../images/freesoftware.hack.jpg
 
 #+begin_example
 Date: Sun, 31 Aug 2003 23:45:42 -0500

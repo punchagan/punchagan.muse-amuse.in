@@ -71,7 +71,7 @@ Here's a pic of one of the very few cool things I could get my
 comp to do..... [ I accessed the Remote Desktop Server on my own
 system.....]
 
-file:./files/fav.png
+file:../images/fav.png
 
 The Hacker Ethic : Access to computers and anything which might
 teach you something about the way the world works should be

@@ -8,7 +8,7 @@
 
 
 
-file:./files/macaulay.jpg
+file:../images/macaulay.jpg
 
 /The National Ideals of India are Renunciation and
 Service. Intensify her in those channels and the rest will take
