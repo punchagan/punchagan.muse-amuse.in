@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/04/23 23:59:59
+.. title: Bookmarks [2011/04/23]
+.. slug: bookmarks-2011-04-23
+#+END_COMMENT
+
+
+- [[http://kezhound.deviantart.com/art/How-Kez-Makes-Comics-I-121372129][How Kez Makes Comics I by ~Kezhound on deviantART]]
+
+  tags: howto, drawing, tutorial
+  
+
+
+
+- [[http://www.timshowers.com/2008/08/visualization-strategies-text-documents/][Visualization Strategies: Text & Documents » Tim Showers – Web Development, Design, and Data Visualization» Blog Archive]]
+
+  tags: visualization, howto, collection
+  
+
+
+
+- [[http://www.indiatogether.org/2007/aug/ivw-sainath.htm][India Together: "Invisible India is the elephant in your bedroom" - Interview with P. Sainath - 01 August 2007]]
+
+  tags: interview, politics, india
+  
+
+
+
+- [[http://www.qotile.net/blog/wp/?p=600][Conway's Game of Life]]
+
+  tags: python, code, hack
+  
+
+
+
+- [[http://tvmtalkies.com/archives/911][Listening to P Sainath | T a l k i e s]]
+
+  tags: interview, society, india, development
+  
+
+

@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2010/11/19 23:59:59
+.. title: Bookmarks [2010/11/19]
+.. slug: bookmarks-2010-11-19
+#+END_COMMENT
+
+
+- [[http://publishmydata.com/][Publish My Data | A Linked Data Publishing Platform]]
+
+  tags: data, programming, idea, web
+  
+
+
+
+- [[http://news.ycombinator.com/item?id=1916801][Hacker News | Ask HN: How do you come up with new project ideas?]]
+
+  tags: startup, advice, howto
+  
+
+
+
+- [[http://www.chicagoreader.com/chicago/yung-tae-kim-tony-hawk-shred-game-physics/Content?oid=2699227][The Way of Dr. Tae | Feature | Chicago Reader]]
+
+  tags: education, physics
+  
+
+
+
+- [[http://www.technologyreview.com/blog/arxiv/25952/][The Evolutionary Origin Of Laughter - Technology Review]]
+
+  tags: brain, science
+  
+
+
+
+- [[http://lifehacker.com/5691647/how-to-make-a-functioning-trackpad-out-of-paper][How to Make a Functioning Trackpad Out of Paper]]
+
+  tags: hardware, DIY
+  
+
+

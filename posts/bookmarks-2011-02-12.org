@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/02/12 23:59:59
+.. title: Bookmarks [2011/02/12]
+.. slug: bookmarks-2011-02-12
+#+END_COMMENT
+
+
+- [[http://resume.github.com/][Github Résumé]]
+
+  tags: fun, git, hack, idea, github
+  
+
+
+
+- [[http://www.gurus.org/dougdeb/Courses/Happy/Conquest/outline.html][Outline of The Conquest of Happiness]]
+
+  tags: thought, life, book, people
+  
+
+
+
+- [[http://math-blog.com/2011/02/10/great-math-books/][Great Math Books]]
+
+  tags: books, list, reading, math
+  
+
+
+
+- [[https://help.ubuntu.com/10.10/serverguide/C/jabberd2-server.html][Jabber Instant Messaging Server]]
+
+  tags: howto, software
+  
+
+
+
+- [[http://www.sorting-algorithms.com/selection-sort][Selection Sort - Sorting Algorithm Animations]]
+
+  tags: computer_science, visualization, algorithms
+  
+
+

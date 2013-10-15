@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2010/12/01 23:59:59
+.. title: Bookmarks [2010/12/01]
+.. slug: bookmarks-2010-12-01
+#+END_COMMENT
+
+
+- [[http://lemire.me/blog/archives/2010/11/22/why-you-may-not-like-your-job-even-though-everyone-envies-you/?refer=hn][Why you may not like your job, even though everyone envies you]]
+
+  tags: society, life, DIY, hack, job, writing
+  
+
+
+
+- [[http://stackoverflow.com/questions/1673583/the-practical-haskell-tutorial-for-a-programmer-coming-from-the-imperative-univer][The practical Haskell tutorial for a programmer coming from the imperative universe - Stack Overflow]]
+
+  tags: haskell, programming, book, reference
+  
+
+
+
+- [[http://www.joelonsoftware.com/articles/StrategyLetterV.html][Strategy Letter V - Joel on Software]]
+
+  tags: software, startup, ideas, writing
+  
+
+
+
+- [[http://blog.makezine.com/archive/2010/11/minority_report-style_web_surfing_w.html?][Minority Report-style web surfing with Kinect @Makezine.com blog]]
+
+  tags: awesome, idea
+  
+
+
+
+- [[http://blog.penelopetrunk.com/2010/11/30/5-reasons-to-stop-trying-to-be-happy/][5 Reasons to stop trying to be happy | Penelope Trunk's Brazen Careerist]]
+
+  tags: life, writing
+  
+
+

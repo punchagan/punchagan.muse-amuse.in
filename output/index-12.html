@@ -41,16 +41,16 @@
         <div class="content" rel="main">
             
         <div class="post">
-            <h1 class="title"><a href="posts/mtu-and-file-transfers.html">MTU and file transfers</a></h1>
+            <h1 class="title"><a href="posts/bookmarks-2010-11-05.html">Bookmarks [2010/11/05]</a></h1>
             <div class="meta">
                 <div class="authordate">
-                    <time class="timeago" datetime="2010-12-06T13:04:00">2010-12-06 13:04</time>
+                    <time class="timeago" datetime="2010-11-05T23:59:59">2010-11-05 23:59</time>
                 </div>
                 <div class="stats">
                     
         
     <p>
-        <a href="posts/mtu-and-file-transfers.html#disqus_thread" data-disqus-identifier="cache/posts/mtu-and-file-transfers.html">Comments</a>
+        <a href="posts/bookmarks-2010-11-05.html#disqus_thread" data-disqus-identifier="cache/posts/bookmarks-2010-11-05.html">Comments</a>
 
 
                 </p></div>
@@ -58,357 +58,68 @@
     <div class="tags">
         <ul>
         More posts about:  
-            <li><a class="tag" href="categories/ssh.html">ssh</a></li>
+            <li><a class="tag" href="categories/bookmarks.html">bookmarks</a></li>
         </ul>
     </div>
 
             </div>
             <div class="body">
-                <p>
-A note to self, but may benefit someone facing a similar problem.
-</p>
-
-<dl class="org-dl">
-<dt> <b>Problem</b> </dt><dd>SSH-ing to our server was working well.  But, file
-transfers like <code>scp</code>, <code>git push</code> were failing.
-</dd>
-
-<dt> <b>Diagnosis</b> </dt><dd>I had been thinking it was a problem with our
-campus network on the first night and was too
-sleepy to try and fix it.  But things didn't
-improve even after one full day.  Then I asked a
-friend of mine, and he confirmed that he has been
-facing the same problem for a couple of days.  I
-then tried file transfers to another server and
-it was working fine.  Then I tried file transfers
-between the two servers and even that worked fine!
-</dd>
-
-<dt> <b>Solution</b> </dt><dd>After some googling, I figured that the problem
-was with a machine between me and the server.
-Changing the <code>mtu</code> to 1492 from 1500 on the
-server, fixed the problem. :)
-</dd>
-</dl>
-            </div>
-        </div>
-        <div class="post">
-            <h1 class="title"><a href="posts/pandoc-can-now-do-org.html">Pandoc can now do Org</a></h1>
-            <div class="meta">
-                <div class="authordate">
-                    <time class="timeago" datetime="2010-12-06T12:52:00">2010-12-06 12:52</time>
-                </div>
-                <div class="stats">
-                    
-        
-    <p>
-        <a href="posts/pandoc-can-now-do-org.html#disqus_thread" data-disqus-identifier="cache/posts/pandoc-can-now-do-org.html">Comments</a>
-
-
-                </p></div>
-                
-    <div class="tags">
-        <ul>
-        More posts about:  
-            <li><a class="tag" href="categories/emacs.html">emacs</a></li>
-            <li><a class="tag" href="categories/haskell.html">haskell</a></li>
-            <li><a class="tag" href="categories/orgmode.html">orgmode</a></li>
-        </ul>
-    </div>
-
-            </div>
-            <div class="body">
-                <p>
-Pandoc is a haskell library and a command line tool, that can
-convert markup from one to another and it does it pretty well.
-Until now it supported quite a few markups, but not orgmode.  But
-now, Orgmode support has been added! Yay!
-</p>
+                <ul class="org-ul">
+<li><a href="http://datasyndrome.com/post/1474842339/exercise-more-to-hack-better">Data Syndrome: Exercise More to Hack Better</a>
 
 <p>
-But, it can only read from other formats and write to org-mode
-format.  The other way around, is not possible, but you can do
-that straight from org-mode, right?
+tags: tips, life, hack
 </p>
-
-<p>
-I've often felt the need for an org-importer and hence decided to
-do something about it.  I stumbled upon Pandoc, when I was moving
-my blog, and found it pretty neat.  After, yet another request for
-an importer, on the org-mode mailing list, I decided to look at
-Pandoc.  I was somehow under the impression that it was written in
-Python.  But it turned out, I had to learn Haskell!  A good excuse
-to learn a new language, eh?  I brushed through a tutorial for a
-couple of days (and was blown off by the paradigm of the language)
-and was able to port the RST writer in Pandoc, to an Org
-writer.  :)
-</p>
-
-<p>
-You can get the latest version from here
-</p>
-            </div>
-        </div>
-        <div class="post">
-            <h1 class="title"><a href="posts/do-our-eyes-suck-at-blue.html">Do our eyes suck at blue?</a></h1>
-            <div class="meta">
-                <div class="authordate">
-                    <time class="timeago" datetime="2010-11-13T13:26:00">2010-11-13 13:26</time>
-                </div>
-                <div class="stats">
-                    
-        
-    <p>
-        <a href="posts/do-our-eyes-suck-at-blue.html#disqus_thread" data-disqus-identifier="cache/posts/do-our-eyes-suck-at-blue.html">Comments</a>
-
-
-                </p></div>
-                
-    <div class="tags">
-        <ul>
-        More posts about:  
-            <li><a class="tag" href="categories/fun.html">fun</a></li>
-            <li><a class="tag" href="categories/hack.html">hack</a></li>
-            <li><a class="tag" href="categories/image_processing.html">image_processing</a></li>
-            <li><a class="tag" href="categories/python.html">python</a></li>
-        </ul>
-    </div>
-
-            </div>
-            <div class="body">
-                <p>
-This is some fun I had, trying to replicate what was written in
-this post. I had been trying to understand what was happening
-here, and found this post on Hacker News very helpful.
-</p>
-
-<p>
-It is a known fact that our eyes have more cones for green and
-red as compared to blue.  The Bayer filter used for digital camera
-lenses is based upon this principle.  This post tries to
-illustrate that using the following two arguments.
-</p>
-<ul class="org-ul">
-<li>Looking at only the blue channel of an image looks very dark.
-</li>
-<li>Tripling the pixel size of blue channel doesn't cause much
-distortion in the final image.
 </li>
 </ul>
-<p>
-Hence, our eyes suck at blue.
-</p>
+
+
+
+
+<ul class="org-ul">
+<li><a href="http://www.sellsbrothers.com/Posts/Details/12395">If Richard Feynman applied for a job at Microsoft - sellsbrothers.com</a>
 
 <p>
-Their argument is flawed, but we could try and improve a few
-things.
+tags: interview, awesome, humour
 </p>
+</li>
+</ul>
 
-<div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">Looking at the blue channel.</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-This is definitely flawed, since the intensity of blue in the
-image they have taken may be less and hence giving us a false
-positive.
-</p>
+
+
+
+<ul class="org-ul">
+<li><a href="http://scientopia.org/blogs/goodmath/2010/11/02/fractals-without-a-computer/">Fractals without a Computer! | Good Math, Bad Math</a>
 
 <p>
-We could instead gray-scale the image and use these pixel values
-in the 3 channels and look at the images.
+tags: fractals, computer, video, awesome, hack
 </p>
+</li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li><a href="http://www.youtube.com/user/IanOzsvald#p/a/u/1/bTrInlHAcLQ">YouTube - IanOzsvald's Channel</a>
 
 <p>
-This also eliminates the problem of the image being captured
-through a Bayer filter.
+tags: opencv, video, demo
 </p>
+</li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li><a href="https://github.com/arunchaganty/newsline">arunchaganty's newsline at master - GitHub</a>
 
 <p>
-Here's some <code>python</code> code to do the same. (uses <code>matplotlib</code>)
+tags: project, awesome, hack
 </p>
-<div class="org-src-container">
-
-<pre class="src src-python">def show_channels(I):
-    for i in range(3):
-	J = zeros_like(I)
-	J[:, :, i] = I[:, :, i]
-	figure(i)
-	imshow(J)
-
-def show_grey_channels(I):
-    K = average(I, axis=2)
-    for i in range(3):
-	J = zeros_like(I)
-	J[:, :, i] = K
-	figure(i+10)
-	imshow(J)
-</pre>
-</div>
-</div>
-</div>
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">Pixelating the blue channel</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-Again, there was this argument of use of Bayer filter affecting
-the image and the like.
-</p>
-
-<p>
-What I did was to swap the channels, and then look at the
-images. However I swapped the channels, the image where the
-green channel was pixelated always looked the worst.  The
-difference between blue and red was less noticeable, I feel.
-</p>
-
-<p>
-Here's the code.
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-python">def zoom(x, factor=2):
-    rows, cols = x.shape
-    row_stride, col_stride = x.strides
-    view = np.lib.stride_tricks.as_strided(x,
-			(rows, factor, cols, factor),
-			(row_stride, 0, col_stride, 0))
-    return view.reshape((rows*factor, cols*factor))
-
-def subsample(I):
-    for i in range(3):
-	J = I.copy()
-	J[:, :, i] = zoom(I[::4, ::4, i], 4)
-	figure(i)
-	title("%s channel subsampled" %colors[i])
-	imshow(J)
-
-def swap_subsample(I, k=1):
-    for c, color in enumerate(colors):
-	print "%s &lt;-- %s" %(colors[c], colors[(c+k)%3])
-    for i in range(3):
-	J = zeros_like(I)
-	for j in range(3):
-	    J[:, :, j] = I[:, :, (j+k)%3]
-	J[:, :, i] = zoom(I[::4, ::4, (i+k)%3], 4)
-	figure(i+10)
-	title("%s channel subsampled" %colors[i])
-	imshow(J)
-</pre>
-</div>
-</div>
-</div>
-<div id="outline-container-sec-3" class="outline-2">
-<h2 id="sec-3">Images</h2>
-<div class="outline-text-2" id="text-3">
-<p>
-Here are a few images.  (View them in their original size)
-</p>
-
-
-<div class="figure">
-<p><img src="images/channels.png" alt="channels.png">
-</p>
-</div>
-
-
-<div class="figure">
-<p><img src="images/subsample.png" alt="subsample.png">
-</p>
-</div>
-</div>
-</div>
-            </div>
-        </div>
-        <div class="post">
-            <h1 class="title"><a href="posts/raise-windows-on-current-desktop-xdotool-bash.html">Raise windows (on current desktop) xdotool &amp; bash</a></h1>
-            <div class="meta">
-                <div class="authordate">
-                    <time class="timeago" datetime="2010-11-06T14:30:00">2010-11-06 14:30</time>
-                </div>
-                <div class="stats">
-                    
-        
-    <p>
-        <a href="posts/raise-windows-on-current-desktop-xdotool-bash.html#disqus_thread" data-disqus-identifier="cache/posts/raise-windows-on-current-desktop-xdotool-bash.html">Comments</a>
-
-
-                </p></div>
-                
-    <div class="tags">
-        <ul>
-        More posts about:  
-            <li><a class="tag" href="categories/code.html">code</a></li>
-            <li><a class="tag" href="categories/hack.html">hack</a></li>
-        </ul>
-    </div>
-
-            </div>
-            <div class="body">
-                <p>
-I posted a snippet <sup><a id="fnr.1" name="fnr.1" class="footref" href="posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.1">1</a></sup> of python code that used xdotool to
-raise windows.  I got one patch from dusual <sup><a id="fnr.2" name="fnr.2" class="footref" href="posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.2">2</a></sup> that
-enabled raising of windows in the current workspace only.
-</p>
-
-<p>
-More importantly, Jordan gave a one-liner <sup><a id="fnr.3" name="fnr.3" class="footref" href="posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.3">3</a></sup> in bash,
-that could do the same thing as my long and elaborate python
-snippet.  I had a feeling that this would be much shorter in bash,
-but I don't feel comfortable writing bash scripts. :P
-</p>
-
-<p>
-Below is a bash snippet that tries to incorporates both the
-changes. :)
-</p>
-
-<div class="org-src-container">
-
-<pre class="src src-sh">found=0
-
-for win in `xdotool search --class $1`;
-do
-if [ `xdotool get_desktop_for_window $win` -eq `xdotool get_desktop` ];
-then found=1; break;
-fi;
-done
-
-if [ $found -eq 1 ]; then xdotool windowactivate $win; else $1; fi
-</pre>
-</div>
-
-<p>
-<b>Note</b>: When you've visual effects enabled (the default option on
-Ubuntu), getting the current desktop/workspace doesn't work,
-probably because Root Window properties are being messed around by
-it.
-</p>
-
-<p>
-<b>Note2</b>: <code>search</code> takes an option <code>--screen</code>. It'd be nice if it
- also had an option <code>--desktop</code>.  This task could then be done in
- a one-liner.
-</p>
-<div id="footnotes">
-<h2 class="footnotes">Footnotes: </h2>
-<div id="text-footnotes">
-
-<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.1">1</a></sup> <p class="footpara">
-My python snippet
-</p></div>
-
-<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.2">2</a></sup> <p class="footpara">
-dusual on twitter
-</p></div>
-
-<div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.3">3</a></sup> <p class="footpara">
-Jordan's one liner
-</p></div>
-
-
-</div>
-</div>
+</li>
+</ul>
             </div>
         </div>
         <div class="post">
@@ -745,6 +456,173 @@ shape.
 </p>
 </div>
 </div>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/bookmarks-2010-11-04.html">Bookmarks [2010/11/04]</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2010-11-04T23:59:59">2010-11-04 23:59</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/bookmarks-2010-11-04.html#disqus_thread" data-disqus-identifier="cache/posts/bookmarks-2010-11-04.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/bookmarks.html">bookmarks</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <ul class="org-ul">
+<li><a href="http://www.nytimes.com/2010/11/03/opinion/03friedman.html?_r=1">Do Believe the Hype - NYTimes.com</a>
+
+<p>
+tags: india
+</p>
+</li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li><a href="http://ycombinator.com/lib.html">Y Combinator: Startup Library</a>
+
+<p>
+tags: tips, work, startup, awesome
+</p>
+</li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li><a href="http://www.plenz.com/tunnel-everything">Julius Plenz - Tunnel everything through SSH</a>
+
+<p>
+tags: awesome, ssh
+</p>
+</li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li><a href="http://blog.jozilla.net/2008/06/27/fun-with-python-opencv-and-face-detection/">In Traction » Blog Archive » Fun with Python, OpenCV and face detection</a>
+
+<p>
+tags: python, opencv, fun
+</p>
+</li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li><a href="https://help.ubuntu.com/community/LiveCDCustomization">LiveCDCustomization - Community Ubuntu Documentation</a>
+
+<p>
+tags: ubuntu
+</p>
+</li>
+</ul>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/bookmarks-2010-11-03.html">Bookmarks [2010/11/03]</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2010-11-03T23:59:59">2010-11-03 23:59</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/bookmarks-2010-11-03.html#disqus_thread" data-disqus-identifier="cache/posts/bookmarks-2010-11-03.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/bookmarks.html">bookmarks</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <ul class="org-ul">
+<li><a href="http://labs.codecomputerlove.com/FlashVsHtml5/">Flash Vs HTML5</a>
+
+<p>
+tags: web, computers, hack
+</p>
+</li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li><a href="http://www.scottporad.com/2010/11/01/cheezburger-network-doesnt-show-its-new-employees-the-bathroom-until-theyve-checked-in-code/">Cheezburger Network Doesn’t Show Its New Employees the Bathroom Until They’ve Checked In Code at Scott Porad</a>
+
+<p>
+tags: tips, work
+</p>
+</li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li><a href="http://kottke.org/10/11/living-in-a-photoshop-world">Living in a Photoshop world</a>
+
+<p>
+tags: computers, video, humour
+</p>
+</li>
+</ul>
+
+
+
+
+<ul class="org-ul">
+<li><a href="http://alexgaynor.net/2010/nov/02/continuous-integration-i-want/%20A">Alex Gaynor – The continuous integration I want</a>
+
+<p>
+tags: python, code, software
+    swarm to run tests for Django Apps for example.  For a Django:ideas:software:solutions:
+  application that wants to work on Django 1.1, 1.2, and all of those
+  interpreters, databases, and operating systems you've got over 100
+  configurations.
+</p>
+</li>
+</ul>
+
+
+
+<ul class="org-ul">
+<li><a href="http://dreamerofyourdreams.com/wp-content/uploads/2010/09/The-Holstee-Manifesto2.png">The-Holstee-Manifesto2.png (JPEG Image, 710x950 pixels) - Scaled (70%)</a>
+
+<p>
+tags: life, love, tips, awesome
+</p>
+</li>
+</ul>
             </div>
         </div>
         <div class="post">
@@ -1413,6 +1291,103 @@ want any of the content removed, I will do so.
 &lt;punchagan&gt; I hope you don't mind, if I make this anecdote public?
 </p>
 </blockquote>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/bloggerstock-do-over.html">Bloggerstock: Do-over</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2010-09-30T19:22:00">2010-09-30 19:22</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/bloggerstock-do-over.html#disqus_thread" data-disqus-identifier="cache/posts/bloggerstock-do-over.html">Comments</a>
+
+
+                </p></div>
+                
+
+            </div>
+            <div class="body">
+                <p>
+This post is by Dominick Mills, coming to us, thanks to
+Bloggerstock.  Dominick aka Lije blogs at Lije's Mindstate.  My post
+on this month's Bloggerstock topic will appear at That Ain't Kosher.
+</p>
+
+<p>
+And here is Dominick's post for you
+</p>
+<hr>
+
+<p>
+Hello world..today I'll be talking about a period in time I would like
+to do-over, however I couldn't think of anything so I went in another
+direction….I'd like to thank Bloggerstock and punchagan for
+the opportunity leak my thoughts on this page….
+</p>
+
+<p>
+I hope the readers understand that my views does not reflect those of
+the host's page..before I get started though Let me take the time out
+to explain what Bloggerstock is all about.  Bloggerstock is the
+brainchild of a small group of bloggers who connected on 20SB. The
+idea comes from the concept of a blog-swap in that maybe we could
+create our own kind of event where we all wrote posts to be posted on
+the next person’s blog. Essentially forming a blog-ring.
+</p>
+
+<p>
+There's a lot of things in life everyone would like to relive and do
+differently..I've been giving it some thought and it's been racking my
+brain for the whole month now…I came to the conclusion that I have
+nothing I'd like to really do-over…
+</p>
+
+<p>
+My reason for this is that I wouldn't be this person I am…and I
+wouldn't alter it in anyway…I love what I've become…if it weren't
+for all the good and bad that occurred during my life time..I wouldn't
+even be here writing this….or I wouldn't even have the same goals
+and all my aspirations would be small…I know this all sounds weird
+but giving the fact that I am a weird person, those who know me, this
+is expected…I believe in things happening for a reason and without
+these occurrences we'd be something totally different, and
+</p>
+
+<p>
+maybe not becoming what we're suppose to be in life…sometimes we
+look at situations and think, " Just maybe if I had done this… or
+maybe if I hadn't…" even if my decisions had made into a bum on the
+streets I think I would feel the same way…truth is we all have
+regrets..learning to live with them is the hardest thing to do..we
+tend to get caught up in the moment and want to relive those
+things..either for the good or the bad…but we fail to realize that
+it is those things that build character not for today but for our
+tomorrows.
+</p>
+
+<p>
+Whether it's falling for the wrong person, being back stabbed from a
+friend, getting hoodwinked from a stranger, or missing out on an
+opportunity….all of these are just life's lessons being taught..with
+that being said you should never sulk over a decision we've made…in
+the end we're our own cause of grief or happiness so don't whine about
+it stuff that's happened….accept what has happened and move
+forward…don't hold on to them, but don't forget them either…these
+are turning points in our lives so appreciate them..
+</p>
+
+<p>
+Well that's all I have to conjure up on the matter..though it kind of
+went against the topic a bit but hey am stubborn lol.. once again I'd
+like to thank punchagan for allowing me to feature on Rustic
+Reverie and also Bloggerstock for providing me with the opportunity to
+express myself on a fellow blogger's page.. here's a link to my page
+to view my featured blog post
+</p>
             </div>
         </div>
     

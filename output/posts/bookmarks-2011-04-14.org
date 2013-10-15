@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/04/14 23:59:59
+.. title: Bookmarks [2011/04/14]
+.. slug: bookmarks-2011-04-14
+#+END_COMMENT
+
+
+- [[http://cleveralgorithms.com/nature-inspired/index.html][Clever Algorithms: Nature-Inspired Programming Recipes]]
+
+  tags: algorithms, programming
+  
+
+
+
+- [[http://ontwik.com/haskell/simon-peyton-jones-a-taste-of-haskell/][Simon Peyton-Jones - A Taste of Haskell Part I]]
+
+  tags: haskell, video, tutorial
+  
+
+
+
+- [[http://www.whitakerblackall.com/blog/first-six-months/][Whitaker Blackall – Music and Sound FX for Video Games » My First Six Months of Programming: From Man-Rodent to Partyman]]
+
+  tags: python, programming, learning
+  
+
+
+
+- [[http://benjisimon.blogspot.com/2011/04/10-concepts-emacs-newbie-should-master.html][Ben's Journal: 11 Concepts The Emacs Newbie Should Master]]
+
+  tags: emacs, computer, newbie, software
+  
+
+
+
+- [[http://vandelaydesign.com/blog/design/wacom-tablets-tutorials/][35 Tutorials and Guides for Working With Wacom Tablets | Vandelay Design Blog]]
+
+  tags: howto, drawing, tutorial
+  
+
+

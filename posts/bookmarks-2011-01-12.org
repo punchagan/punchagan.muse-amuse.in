@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/01/12 23:59:59
+.. title: Bookmarks [2011/01/12]
+.. slug: bookmarks-2011-01-12
+#+END_COMMENT
+
+
+- [[http://www.smashrobot.com/marketing/medium/][Medium, Please | Smash Robot]]
+
+  tags: thought, howto
+  
+
+
+
+- [[http://daemianmack.com/magit-cheatsheet.html][Magit Cheatsheet]]
+
+  tags: emacs, howto
+  
+
+
+
+- [[http://www.onlinedegreeprograms.com/blog/2011/25-works-of-fiction-every-philosophy-student-should-read/][25 Works of Fiction Every Philosophy Student Should Read | Online Degree Programs.com]]
+
+  tags: books, list, reading, collection
+  
+
+
+
+- [[http://troy-sobotka.blogspot.com/2011/01/why-gimp-is-inadequate.html][The Driblet of an Aphorism: Why GIMP is Inadequate]]
+
+  tags: foss, programming, writing
+  
+
+
+
+- [[http://artofmanliness.com/2009/06/07/30-days-to-a-better-man-day-8-start-a-journal/][How and Why to Start a Journal | The Art of Manliness]]
+
+  tags: life, writing
+  
+
+

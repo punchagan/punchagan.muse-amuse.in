@@ -1,0 +1,52 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2012/04/12 23:59:59
+.. title: Bookmarks [2012/04/12]
+.. slug: bookmarks-2012-04-12
+#+END_COMMENT
+
+
+- [[http://briancarper.net/blog/248/][briancarper.net (λ) - Keeping bash history in sync on disk and between multiple terminals]]
+
+  tags: tips, hack
+  
+    ="history -n; history -a"
+
+
+
+- [[http://wiki.python.org/moin/UnicodeEncoding][UnicodeEncoding - PythonInfo Wiki]]
+
+  tags: python, advice, programming, tips
+  
+
+
+
+- [[http://effbot.org/zone/unicode-objects.htm][Python Unicode Objects]]
+
+  tags: python, advice, programming, notes
+  
+
+
+
+- [[http://www.lettersofnote.com/2012/04/c-s-lewis-on-writing.html][Letters of Note: C. S. Lewis on Writing]]
+
+  tags: advice, howto, writing
+  
+    In writing. Don't use adjectives which merely tell us how you want
+    us to feel about the thing you are describing. I mean, instead of
+    telling us a thing was "terrible," describe it so that we'll be
+    terrified. Don't say it was "delightful"; make us say "delightful"
+    when we've read the description. You see, all those words
+    (horrifying, wonderful, hideous, exquisite) are only like saying
+    to your readers, "Please will you do my job for me."
+
+
+
+- [[http://rodrigohaenggi.com/posts/waking-up-early-10-tips-that-work/][Waking up early, 10 tips that work]]
+
+  tags: life, howto, advice
+  
+
+

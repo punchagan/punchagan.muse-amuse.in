@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2010/11/05 23:59:59
+.. title: Bookmarks [2010/11/05]
+.. slug: bookmarks-2010-11-05
+#+END_COMMENT
+
+
+- [[http://datasyndrome.com/post/1474842339/exercise-more-to-hack-better][Data Syndrome: Exercise More to Hack Better]]
+
+  tags: tips, life, hack
+  
+
+
+
+- [[http://www.sellsbrothers.com/Posts/Details/12395][If Richard Feynman applied for a job at Microsoft - sellsbrothers.com]]
+
+  tags: interview, awesome, humour
+  
+
+
+
+- [[http://scientopia.org/blogs/goodmath/2010/11/02/fractals-without-a-computer/][Fractals without a Computer! | Good Math, Bad Math]]
+
+  tags: fractals, computer, video, awesome, hack
+  
+
+
+
+- [[http://www.youtube.com/user/IanOzsvald#p/a/u/1/bTrInlHAcLQ][YouTube - IanOzsvald's Channel]]
+
+  tags: opencv, video, demo
+  
+
+
+
+- [[https://github.com/arunchaganty/newsline][arunchaganty's newsline at master - GitHub]]
+
+  tags: project, awesome, hack
+  
+
+

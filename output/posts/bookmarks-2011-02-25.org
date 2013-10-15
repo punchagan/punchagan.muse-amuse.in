@@ -1,0 +1,45 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/02/25 23:59:59
+.. title: Bookmarks [2011/02/25]
+.. slug: bookmarks-2011-02-25
+#+END_COMMENT
+
+
+- [[http://www.codelord.net/2011/02/22/you-owe-it-to-yourself-to-be-old-school/][The Code Dump » Blog Archive » You Owe it to Yourself to be Old-School - A place a coder rants at…]]
+
+  tags: hacking, programming, advice, software
+  
+
+
+
+- [[http://www.chiark.greenend.org.uk/~sgtatham/bugs.html][How to Report Bugs Effectively]]
+
+  tags: advice, foss, software
+  
+
+
+
+- [[http://injekt.net/blog/tell-me-why-i-suck][Tell me why I suck]]
+
+  tags: interview, rants
+  
+
+
+
+- [[http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html#other-languages-have-variables][Code Like a Pythonista: Idiomatic Python]]
+
+  tags: python, advice, howto, learn
+  
+
+
+
+- [[http://swombat.com/2011/2/25/kevin-mcdonagh-how-to-attend-a-conference][Kevin McDonagh on: How to attend a conference - swombat.com]]
+
+  tags: conference, advice, howto
+  
+    Conferences are the best way to quickly extend a business network and, if done correctly, attendance and the follow up is an arduous but rewarding endeavour
+
+

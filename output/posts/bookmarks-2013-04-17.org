@@ -1,0 +1,41 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2013/04/17 23:59:59
+.. title: Bookmarks [2013/04/17]
+.. slug: bookmarks-2013-04-17
+#+END_COMMENT
+
+
+- [[http://www.reddit.com/r/ultimate/comments/1allhe/good_practice_tips/][Good practice tips? : ultimate]]
+
+  tags: advice, tips, ultimate
+  
+
+
+
+- [[http://codeschool.org/][code school]]
+
+  tags: programming, code, video, tutorial
+  
+
+
+
+- [[https://news.ycombinator.com/item?id=5511466][Ask HN: What's the best technical talk you've heard? | Hacker News]]
+
+  tags: talks, programming, technology, videos, collection
+  
+
+
+
+- [[http://www.t-nation.com/readArticle.do?id=5294773][T NATION | Figuring Out Your Life and Lifting Goals]]
+
+  tags: failure, life, goals, success, advice, sport, exercise
+  
+    Those who fail to make their goals turn to coaching, writing, or
+    other forms to continue expressing their goals in other
+    mediums. Or, they take those lessons learned and parlay them into
+    a successful life, but they don't just drop them and walk away.
+
+

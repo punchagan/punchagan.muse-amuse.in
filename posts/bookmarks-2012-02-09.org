@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2012/02/09 23:59:59
+.. title: Bookmarks [2012/02/09]
+.. slug: bookmarks-2012-02-09
+#+END_COMMENT
+
+
+- [[http://youngvoldemort.wordpress.com/][Essentially More Human ~]]
+
+  tags: blog
+  
+
+
+
+- [[http://matt.might.net/articles/programmers-resolutions/][12 resolutions for programmers]]
+
+  tags: advice, programming
+  
+
+
+
+- [[http://www.youtube.com/user/StanfordUniversity/videos?view=pl][StanfordUniversity's Channel - YouTube]]
+
+  tags: video, education, technology, collection
+  
+
+
+
+- [[https://spreadsheets.google.com/pub?key=pjGlYH-8AK8ffDa6o2bYlXg&gid=0][TEDTalks as of 01.03.12]]
+
+  tags: education, video, collection
+  
+
+
+
+- [[http://stackoverflow.com/questions/923486/what-are-the-best-google-tech-talks][video - What are the best Google Tech Talks? - Stack Overflow]]
+
+  tags: video, technology, collection
+  
+
+

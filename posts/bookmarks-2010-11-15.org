@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2010/11/15 23:59:59
+.. title: Bookmarks [2010/11/15]
+.. slug: bookmarks-2010-11-15
+#+END_COMMENT
+
+
+- [[https://github.com/blog/744-today-s-outage][Today's Outage - GitHub]]
+
+  tags: writing, letter, software
+  
+
+
+
+- [[http://www.adafruit.com/blog/2010/11/14/hacked-kinect-is-now-a-3d-video-capture-tool/][Hacked Kinect is now a 3D video capture tool « adafruit industries blog]]
+
+  tags: awesome, video, augmented_reality
+  
+
+
+
+- [[http://mako.cc/copyrighteous/20101114-00][Between the Bars :: Copyrighteous]]
+
+  tags: startup, idea
+  
+
+
+
+- [[http://devcheatsheet.com/][Cheat Sheets & Quick Reference Cards for Developers | DevCheatSheet.com]]
+
+  tags: writing, reference, software
+  
+
+
+
+- [[http://blog.programmableweb.com/2010/11/10/twitter-goes-json-only-with-one-api-more-to-come/][Twitter Goes JSON-Only With One API, More to Come?]]
+
+  tags: note, software
+  
+
+

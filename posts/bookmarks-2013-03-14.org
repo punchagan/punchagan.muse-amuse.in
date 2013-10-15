@@ -1,0 +1,45 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2013/03/14 23:59:59
+.. title: Bookmarks [2013/03/14]
+.. slug: bookmarks-2013-03-14
+#+END_COMMENT
+
+
+- [[http://net.tutsplus.com/tutorials/tools-and-tips/git-tips-from-the-pros/][Git Tips From the Pros | Nettuts+]]
+
+  tags: version_control, advice, git, tips
+  
+
+
+
+- [[http://thoughtcatalog.com/2013/22-things-to-do-when-youre-heartbroken/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ThoughtCatalog+%28Thought+Catalog%29&utm_content=Google+Reader][22 Things To Do When You’re Heartbroken | Thought Catalog]]
+
+  tags: life, love, advice
+  
+
+
+
+- [[http://www.npr.org/templates/story/story.php?storyId=90645072][Google, Apple Go Head to Head in Ultimate Frisbee : NPR]]
+
+  tags: fun, frisbee, sport, ultimate
+  
+    It's a hybrid sport, like football mashed up with soccer, played with a Frisbee. Plus, it's self-refereed, appealing to the libertarian ethos of most computer engineers.
+
+
+
+- [[http://www.brown.edu/Athletics/Mens_Ultimate/media/zipstips/][Brownian Motion - Brown Mens Ultimate :]]
+
+  tags: advice, sport, ultimate, tips
+  
+
+
+
+- [[http://lurnq.com/lesson/Getting-started-with-Python-Tips-Tools-and-Resources/][Getting started with Python: Tips, Tools and Resources - Lesson in Programming]]
+
+  tags: python, programming, tutorial, collection
+  
+
+

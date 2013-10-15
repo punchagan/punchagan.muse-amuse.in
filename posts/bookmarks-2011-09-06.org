@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/09/06 23:59:59
+.. title: Bookmarks [2011/09/06]
+.. slug: bookmarks-2011-09-06
+#+END_COMMENT
+
+
+- [[http://zachholman.com/posts/how-github-works-asynchronous/][How GitHub Works: Be Asynchronous]]
+
+  tags: work, startup, github
+  
+
+
+
+- [[http://gettingreal.37signals.com/ch07_Meetings_Are_Toxic.php][Getting Real: Meetings Are Toxic (by 37signals)]]
+
+  tags: advice, work
+  
+
+
+
+- [[http://sachachua.com/blog/2010/05/dear-future-sacha/][Dear future Sacha, | sacha chua :: living an awesome life]]
+
+  tags: life, advice
+  
+
+
+
+- [[http://www.cs.utexas.edu/users/EWD/][E.W.Dijkstra Archive: Home page]]
+
+  tags: computer_science, notes, programming, advice
+  
+
+
+
+- [[http://scipy-central.org/][SciPy Central]]
+
+  tags: scipy, code, numpy, collection
+  
+
+

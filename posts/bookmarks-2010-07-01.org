@@ -1,0 +1,54 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2010/07/01 23:59:59
+.. title: Bookmarks [2010/07/01]
+.. slug: bookmarks-2010-07-01
+#+END_COMMENT
+
+
+- [[http://soundofmusig.wordpress.com][Soung of Musig]]
+
+  tags: blog, poetry
+  
+    Shares stuff and observations on to Music, Sports, Economics,
+    Growth, Traffic, Society and the like.
+
+
+
+- [[http://eeshan.wordpress.com][The Preposterous Dossier]]
+
+  tags: blog, rants, poetry, writing
+  
+    Insightful. Linux, Code, Coffee, Life.
+
+
+
+- [[http://baffledmind.blogspot.com/][?]]
+
+  tags: blog, thought, poetry
+  
+    A lovely blog with lots of poetry. Aptly used to be called the
+    baffled mind. It's now password protected too. :-(
+
+
+
+- [[http://goaetc.wordpress.com][Adventures in Goa]]
+
+  tags: blog, thought, adventure, poetry
+  
+    Niku's blog. Some brilliant pieces of writing - most of which
+    have been removed. Life, College, Education, Adventure, Books,
+    etc.
+
+
+
+- [[http://ntveem.blogspot.com][musings]]
+
+  tags: blog, rants, life, education, thought
+  
+    Tejaswi's blog - one of the blogs which inspired me to start one
+    of my own. Some really memorable pieces of writing.
+
+

@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2010/11/09 23:59:59
+.. title: Bookmarks [2010/11/09]
+.. slug: bookmarks-2010-11-09
+#+END_COMMENT
+
+
+- [[http://symbo1ics.com/blog/?p=275][Lisp has too many parentheses… : Symbo1ics Blog]]
+
+  tags: lisp, awesome
+  
+
+
+
+- [[http://jeffbail.com/first-impressions-of-python-from-a-java-devel][First Impressions of Python (from a Java developer) - Jeff Bail]]
+
+  tags: python
+  
+
+
+
+- [[http://lukeplant.me.uk/blog/posts/why-learning-haskell-python-makes-you-a-worse-programmer/][Why learning Haskell/Python makes you a worse programmer « All Unkept]]
+
+  tags: python, advice, haskell, tips
+  
+
+
+
+- [[https://github.com/github/gitignore][github's gitignore at master - GitHub]]
+
+  tags: git
+  
+
+
+
+- [[http://1week1project.com/post/925649367/prologue][1 week. 1 project. • Prologue]]
+
+  tags: project, life, ideas, awesome, tips
+  
+
+

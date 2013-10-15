@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2012/04/24 23:59:59
+.. title: Bookmarks [2012/04/24]
+.. slug: bookmarks-2012-04-24
+#+END_COMMENT
+
+
+- [[http://drtechniko.wordpress.com/2012/04/09/how-to-train-your-robot/][How To Train Your Robot « Dr. Techniko's Children's Stories]]
+
+  tags: fun, kids, programming
+  
+
+
+
+- [[http://www.legalnomads.com/2012/04/tips-world-travel.html][Practical Tips from Four Years of Worldwide Travel | Legal Nomads]]
+
+  tags: advice, travel, howto, life, tips
+  
+
+
+
+- [[http://blog.getspool.com/2012/04/18/fake-s3-save-time-money-and-develop-offline/][Fake S3 – Save time, money, and develop offline «]]
+
+  tags: time, programming, hack
+  
+
+
+
+- [[http://reprap.org/wiki/Main_Page][RepRap - RepRapWiki]]
+
+  tags: howto, hack
+  
+
+
+
+- [[http://dotfiles.github.com/][GitHub does dotfiles - dotfiles.github.com]]
+
+  tags: git, github, linux
+  
+
+

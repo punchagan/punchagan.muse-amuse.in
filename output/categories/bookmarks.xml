@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 15 Oct 2013 09:55:38 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013/04/17]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-04-17.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.reddit.com/r/ultimate/comments/1allhe/good_practice_tips/"&gt;Good practice tips? : ultimate&lt;/a&gt;
+
+&lt;p&gt;
+tags: advice, tips, ultimate
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://codeschool.org/"&gt;code school&lt;/a&gt;
+
+&lt;p&gt;
+tags: programming, code, video, tutorial
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="https://news.ycombinator.com/item?id=5511466"&gt;Ask HN: What's the best technical talk you've heard? | Hacker News&lt;/a&gt;
+
+&lt;p&gt;
+tags: talks, programming, technology, videos, collection
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.t-nation.com/readArticle.do?id=5294773"&gt;T NATION | Figuring Out Your Life and Lifting Goals&lt;/a&gt;
+
+&lt;p&gt;
+tags: failure, life, goals, success, advice, sport, exercise
+&lt;/p&gt;
+
+&lt;p&gt;
+Those who fail to make their goals turn to coaching, writing, or
+other forms to continue expressing their goals in other
+mediums. Or, they take those lessons learned and parlay them into
+a successful life, but they don't just drop them and walk away.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-04-17.html</guid><pubDate>Wed, 17 Apr 2013 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2013/03/14]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-03-14.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://net.tutsplus.com/tutorials/tools-and-tips/git-tips-from-the-pros/"&gt;Git Tips From the Pros | Nettuts+&lt;/a&gt;
+
+&lt;p&gt;
+tags: version&lt;sub&gt;control&lt;/sub&gt;, advice, git, tips
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://thoughtcatalog.com/2013/22-things-to-do-when-youre-heartbroken/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+ThoughtCatalog+%28Thought+Catalog%29&amp;amp;utm_content=Google+Reader"&gt;22 Things To Do When You’re Heartbroken | Thought Catalog&lt;/a&gt;
+
+&lt;p&gt;
+tags: life, love, advice
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.npr.org/templates/story/story.php?storyId=90645072"&gt;Google, Apple Go Head to Head in Ultimate Frisbee : NPR&lt;/a&gt;
+
+&lt;p&gt;
+tags: fun, frisbee, sport, ultimate
+&lt;/p&gt;
+
+&lt;p&gt;
+It's a hybrid sport, like football mashed up with soccer, played with a Frisbee. Plus, it's self-refereed, appealing to the libertarian ethos of most computer engineers.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.brown.edu/Athletics/Mens_Ultimate/media/zipstips/"&gt;Brownian Motion - Brown Mens Ultimate :&lt;/a&gt;
+
+&lt;p&gt;
+tags: advice, sport, ultimate, tips
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://lurnq.com/lesson/Getting-started-with-Python-Tips-Tools-and-Resources/"&gt;Getting started with Python: Tips, Tools and Resources - Lesson in Programming&lt;/a&gt;
+
+&lt;p&gt;
+tags: python, programming, tutorial, collection
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-03-14.html</guid><pubDate>Thu, 14 Mar 2013 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2013/01/22]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-01-22.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://stevepulec.com/freezegun/"&gt;FreezeGun&lt;/a&gt;
+
+&lt;p&gt;
+tags: python, testing, code
+&lt;/p&gt;
+
+&lt;p&gt;
+FreezeGun is a library that allows your python tests to travel through time by mocking the datetime module.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="https://graphics.stanford.edu/wikis/cs448b-12-fall/"&gt;CourseWiki - CS 448B&lt;/a&gt;
+
+&lt;p&gt;
+tags: visualization, course, software
+&lt;/p&gt;
+
+&lt;p&gt;
+In this course we will study techniques and algorithms for creating effective visualizations based on principles from graphic design, visual art, perceptual psychology, and cognitive science. The course is targeted both towards students interested in using visualization in their own work, as well as students interested in building better visualization tools and systems.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.quora.com/What-are-some-useful-technical-skills-I-can-learn-within-a-day"&gt;What are some useful technical skills I can learn within a day? - Quora&lt;/a&gt;
+
+&lt;p&gt;
+tags: programming, collection, learn
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://thenextweb.com/shareables/2012/12/31/mom-presents-18-point-contract-with-rules-of-use-to-teenage-son-would-you-be-tempted/"&gt;This mom gave her son an 18-point contract with his iPhone. Would you be tempted? - The Next Web&lt;/a&gt;
+
+&lt;p&gt;
+tags: life, kids, technology, advice
+&lt;/p&gt;
+
+&lt;p&gt;
+You will mess up.  I will take away your phone.  We will sit down and talk about it.  We will start over again.  You &amp;amp; I, we are always learning.  I am on your team.  We are in this together.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.deccanherald.com/content/306814/its-all-bike.html"&gt;It’s all about the bike&lt;/a&gt;
+
+&lt;p&gt;
+tags: travel, india, adventure, bicycling
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-01-22.html</guid><pubDate>Tue, 22 Jan 2013 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2012/12/12]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-12-12.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://kingsly.net/tmp/qtr-life.txt"&gt;Kingsly on Life&lt;/a&gt;
+
+&lt;p&gt;
+tags: quote, life, reading
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://physics.stackexchange.com/questions/6157/list-of-freely-available-physics-books"&gt;education - List of freely available physics books - Physics&lt;/a&gt;
+
+&lt;p&gt;
+tags: books, physics, reading, collection
+&lt;/p&gt;
+
+&lt;p&gt;
+a list of physics books with open-source licenses, like Creative Commons, GPL, etc. The books can be about a particular field in physics or about physics in general.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.gaussianprocess.org/gpml/"&gt;Gaussian Processes for Machine Learning: Book webpage&lt;/a&gt;
+
+&lt;p&gt;
+tags: machine&lt;sub&gt;learning&lt;/sub&gt;, book, reading
+&lt;/p&gt;
+
+&lt;p&gt;
+The book deals with the supervised-learning problem for both regression and classification, and includes detailed algorithms. A wide variety of covariance (kernel) functions are presented and their properties discussed. Model selection is discussed both from a Bayesian and a classical perspective. Many connections to other well-known techniques from machine learning and statistics are discussed, including support-vector machines, neural networks, splines, regularization networks, relevance vector machines and others. Theoretical issues including learning curves and the PAC-Bayesian framework are treated, and several approximation methods for learning with large datasets are discussed. The book contains illustrative examples and exercises, and code and datasets are available on the Web. Appendixes provide mathematical background and a discussion of Gaussian Markov processes.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://human.io/"&gt;human.io&lt;/a&gt;
+
+&lt;p&gt;
+tags: development, phone, android, app, software
+&lt;/p&gt;
+
+&lt;p&gt;
+Easily create and instantly deploy tiny bits of interactive code to your army of followers via their mobile devices.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.bicicleting.com/information-on-getting-visas-in-an-overland-trip-from-india-to-europethrough-central-asia/"&gt;Information on getting visas in an overland trip from India to Europe(through central asia) « Asia by bike | Un viaje en bicicleta&lt;/a&gt;
+
+&lt;p&gt;
+tags: travel, visa, advice, bicycling
+&lt;/p&gt;
+
+&lt;p&gt;
+If you are going in an overland trip from Asia to Europe,through central asia , here is my experience with the visas.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-12-12.html</guid><pubDate>Wed, 12 Dec 2012 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2012/09/18]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-09-18.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://david-bieber.tumblr.com/post/30907535147/collapsible-blog-posts"&gt;David Bieber&lt;/a&gt;
+
+&lt;p&gt;
+tags: hack, blogging, css, js
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read"&gt;resources - What is the single most influential book every programmer should read? - Stack Overflow&lt;/a&gt;
+
+&lt;p&gt;
+tags: books, reading, programming, collection
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.cs.yale.edu/homes/perlis-alan/quotes.html"&gt;Perlisisms - "Epigrams in Programming" by Alan J. Perlis&lt;/a&gt;
+
+&lt;p&gt;
+tags: epigrams, reading, programming, collection
+&lt;/p&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Syntactic sugar causes cancer of the semicolon.
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://fhtr.org/BasicsOfThreeJS/#51"&gt;Introduction to Three.js&lt;/a&gt;
+
+&lt;p&gt;
+tags: javascript, programming, three, tutorial, js
+&lt;/p&gt;
+
+&lt;p&gt;
+Three.js
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+github.com/mrdoob/three.js
+JavaScript library for 3D graphics
+Easy to use
+Efficient
+Nice feature set
+&lt;/p&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.codinghorror.com/blog/2004/02/recommended-reading-for-developers.html"&gt;Coding Horror: Recommended Reading for Developers&lt;/a&gt;
+
+&lt;p&gt;
+tags: recommended, books, programming, reading, collection
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-09-18.html</guid><pubDate>Tue, 18 Sep 2012 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2012/08/28]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-28.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.llvmpy.org/"&gt;QuickStart — llvmpy&lt;/a&gt;
+
+&lt;p&gt;
+tags: llvmpy, python, numpy, software
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.aaronsw.com/weblog/dweck"&gt;Believe you can change (Aaron Swartz's Raw Thought)&lt;/a&gt;
+
+&lt;p&gt;
+tags: lessons, life, advice
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://blog.stackoverflow.com/2012/08/stack-exchange-machine-learning-contest/"&gt;Stack Exchange Machine Learning Contest « Blog – Stack Exchange&lt;/a&gt;
+
+&lt;p&gt;
+tags: machine&lt;sub&gt;learning&lt;/sub&gt;, programming
+&lt;/p&gt;
+
+&lt;p&gt;
+The idea is simple: we’ve prepared a dataset with all the questions on Stack Overflow, including everything we knew about them right before they were posted, and whether they finally ended up closed or not.  You grab the data, build your brilliant classifier, run it against some leaderboard data and submit your results.  Rinse and repeat until the contest ends, when we’ll grab the most promising classifiers and run them against fresh data to choose winners.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://jacquesmattheij.com/first-employee-or-cofounder/"&gt;First employee or co-founder? - Jacques Mattheij&lt;/a&gt;
+
+&lt;p&gt;
+tags: job, startup, advice
+&lt;/p&gt;
+
+&lt;p&gt;
+think twice before you join a company as a first (or very early) employee, and if you do decide to join negotiate for as large a chunk of stock as you think your position/commitment/drop in pay justifies and be prepared to walk if that is not possible.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;[[- State "DONE"       from ""           &lt;span class="timestamp-wrapper"&gt;&lt;span class="timestamp"&gt;[2012-11-17 Sat 21:48]&lt;/span&gt;&lt;/span&gt;][GNU Emacs Lisp Reference Manual]]
+
+&lt;p&gt;
+tags: elisp, programming, emacs
+    &lt;a href="http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Lists"&gt;http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Lists&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+This is the GNU Emacs Lisp Reference Manual, corresponding to Emacs version 24.1.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-28.html</guid><pubDate>Tue, 28 Aug 2012 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2012/08/21]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-21.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://peebs.org/we-underestimate-kids"&gt;We Consistently Underestimate Kids - PEEBS.ORG&lt;/a&gt;
+
+&lt;p&gt;
+tags: awesome, kids, programming
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.saylor.org/majors/computer-science/"&gt;Computer Science « The Saylor Foundation&lt;/a&gt;
+
+&lt;p&gt;
+tags: computer&lt;sub&gt;science&lt;/sub&gt;, courses, programming, learn
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.theatlantic.com/national/archive/2012/07/what-my-sons-disabilities-taught-me-about-having-it-all/260479/"&gt;What My Son's Disabilities Taught Me About 'Having It All' - Marie Myung-Ok Lee - The Atlantic&lt;/a&gt;
+
+&lt;p&gt;
+tags: lessons, life
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://ureddit.com/archive"&gt;University of Reddit : Archive&lt;/a&gt;
+
+&lt;p&gt;
+tags: courses, collection, learning
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://queue.acm.org/detail.cfm?id=2349257&amp;amp;ref=fullrss"&gt;A Generation Lost in the Bazaar - ACM Queue&lt;/a&gt;
+
+&lt;p&gt;
+tags: reading, programming, analysis
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-21.html</guid><pubDate>Tue, 21 Aug 2012 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2012/08/06]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-06.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://7fff.com/2012/07/14/the-most-important-social-network-github/"&gt;The Most Important Social Network: GitHub&lt;/a&gt;
+
+&lt;p&gt;
+tags: computer&lt;sub&gt;science&lt;/sub&gt;, github, programming
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://us4.campaign-archive2.com/home/?u=9735795484d2e4c204da82a29&amp;amp;id=64134e0a27"&gt;pycoders&lt;/a&gt;
+
+&lt;p&gt;
+tags: python, reading, collection
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.livestrong.com/article/445971-bike-frame-size-based-on-leg-length/"&gt;Bike Frame Size Based On Leg Length | LIVESTRONG.COM&lt;/a&gt;
+
+&lt;p&gt;
+tags: advice, bicycling
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.rei.com/expertadvice/articles/bike+fit.html"&gt;Fitting Your Bike: Expert Advice from REI&lt;/a&gt;
+
+&lt;p&gt;
+tags: advice, bicycling
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;dl class="org-dl"&gt;
+&lt;dt&gt; [[&lt;a href="http://sachachua.com/blog/2012/07/work-is-love-made-visible/%5D%5BWork"&gt;http://sachachua.com/blog/2012/07/work-is-love-made-visible/][Work&lt;/a&gt; is love made visible | sacha chua &lt;/dt&gt;&lt;dd&gt;living an awesome life]]
+
+&lt;p&gt;
+tags: poem, life, work, love, advice
+&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-06.html</guid><pubDate>Mon, 06 Aug 2012 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2012/07/15]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-07-15.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://ninjasandrobots.com/you-need-some-experience"&gt;I have no idea what I'm doing by Nathan Kontny&lt;/a&gt;
+
+&lt;p&gt;
+tags: life, advice
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://ryanleecarson.tumblr.com/post/21707432562/i-dont-have-nice-stuff-anymore"&gt;The Naive Optimist, I don't have nice stuff anymore&lt;/a&gt;
+
+&lt;p&gt;
+tags: money, life, advice
+&lt;/p&gt;
+
+&lt;p&gt;
+Real friends will make you happy, because genuine friendships are special.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://lifehacker.com/281626/jerry-seinfelds-productivity-secret"&gt;Jerry Seinfeld's Productivity Secret&lt;/a&gt;
+
+&lt;p&gt;
+tags: life, productivity, advice
+&lt;/p&gt;
+
+&lt;p&gt;
+He said for each day that I do my task of writing, I get to put a big red X over that day. "After a few days you'll have a chain. Just keep at it and the chain will grow longer every day. You'll like seeing that chain, especially when you get a few weeks under your belt. Your only job next is to not break the chain."
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://mittermayr.tumblr.com/post/26699540226/the-power-of-photos"&gt;Roman Mittermayr: On My Way • The Power of Photos&lt;/a&gt;
+
+&lt;p&gt;
+tags: life, death
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.federicopereiro.com/masters/"&gt;» Read the masters :federicopereiro.com&lt;/a&gt;
+
+&lt;p&gt;
+tags: advice, reading, programming
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-07-15.html</guid><pubDate>Sun, 15 Jul 2012 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2012/05/12]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-05-12.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.paulgraham.com/hamming.html"&gt;Richard Hamming: You and Your Research&lt;/a&gt;
+
+&lt;p&gt;
+tags: life, reading, advice, research
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://online.wsj.com/article/SB10001424052702304811304577366332400453796.html?fb_ref=wsj_share_FB&amp;amp;fb_source=home_oneline"&gt;What They Don't Tell You at Graduation - WSJ.com&lt;/a&gt;
+
+&lt;p&gt;
+tags: life, howto, advice
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list"&gt;The Definitive C++ Book Guide and List - Stack Overflow&lt;/a&gt;
+
+&lt;p&gt;
+tags: book, programming, collection
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://steelcityrubyconf.org/blog/2012/05/04/why-you-shouldnt-code-alone/"&gt;Why You Shouldn't Code Alone | Steel City Ruby Conf&lt;/a&gt;
+
+&lt;p&gt;
+tags: advice, programming, life
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.stallman.org/articles/asked_to_lie.html"&gt;My Doctor's Office Asked me to Lie         :&lt;/a&gt;
+
+&lt;p&gt;
+tags: 
+&lt;/p&gt;
+
+&lt;p&gt;
+The substance of the issue probably doesn't matter much. There is
+no real confidentiality of medical records in the US, since the
+police can get them under very easy conditions. Nonetheless, it is
+a dishonest proceeding, systematically asking patients to accept
+policies they have not seen and then make false statements.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-05-12.html</guid><pubDate>Sat, 12 May 2012 23:59:59 GMT</pubDate></item></channel></rss>

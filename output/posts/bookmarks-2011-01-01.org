@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/01/01 23:59:59
+.. title: Bookmarks [2011/01/01]
+.. slug: bookmarks-2011-01-01
+#+END_COMMENT
+
+
+- [[http://www.switched.com/2010/12/30/best-technology-writing-of-2010/][The Best Tech Writing of 2010]]
+
+  tags: technology, writing
+  
+
+
+
+- [[http://tomayko.com/writings/the-thing-about-git][The Thing About Git]]
+
+  tags: awesome, git, tutorial, reference
+  
+
+
+
+- [[http://patrickthomson.tumblr.com/post/2499755681/the-best-debugging-story-ive-ever-heard][The Best Debugging Story I've Ever Heard]]
+
+  tags: story, programming, awesome
+  
+
+
+
+- [[http://www.hilarymason.com/blog/twitter-succeeds-because-it-fails/][Twitter Succeeds Because it Fails]]
+
+  tags: society, experiments
+  
+
+
+
+- [[https://github.com/hmason/gitmarks][hmason/gitmarks - GitHub]]
+
+  tags: git
+  
+
+
