@@ -14,9 +14,9 @@ But, I have a feeling this mechanism, is here to stay!
 We've been using Nikola quite regularly for our [[http://ultimatesport.in][Ultimate site]], and I
 quite like it.  I've also contributed a bunch of features to Nikola to
 get it to work the way I would like it to.  This weekend I ported my
-blog from [[][o-blog]] to [[http://getnikola.com][Nikola]].  The only thing that was stopping me
+blog from [[https://github.com/renard/o-blog][o-blog]] to [[http://getnikola.com][Nikola]].  The only thing that was stopping me
 from doing it, until now is the fact that all my posts are in
-org-syntax and porting them over to one of the formats that Nikola
+org markup and porting them over to one of the formats that Nikola
 supports would be a PITA.  So, I wrote a [[http://plugins.getnikola.com/#orgmode][pretty simple plugin]] to
 Nikola to support posting from org files.  And then with a [[https://gist.github.com/punchagan/6970578][little
 Python]], I was able to move everything over to use Nikola.

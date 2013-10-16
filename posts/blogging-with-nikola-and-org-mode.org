@@ -14,7 +14,7 @@ But, I have a feeling this mechanism, is here to stay!
 We've been using Nikola quite regularly for our [[http://ultimatesport.in][Ultimate site]], and I
 quite like it.  I've also contributed a bunch of features to Nikola to
 get it to work the way I would like it to.  This weekend I ported my
-blog from [[https://encrypted.google.com/url?sa=t&rct=j&q=o-blog%20github&source=web&cd=1&cad=rja&ved=0CCkQFjAA&url=https%3A%2F%2Fgithub.com%2Frenard%2Fo-blog&ei=k8xeUsWgF8mGrAeq9IHYBg&usg=AFQjCNHJVTceW_GFD9-zFixqDLwHfgAkmw&sig2=Bde7yH4mwcYQ-g03EjAqsQ&bvm=bv.54176721,d.bmk][o-blog]] to [[http://getnikola.com][Nikola]].  The only thing that was stopping me
+blog from [[https://github.com/renard/o-blog][o-blog]] to [[http://getnikola.com][Nikola]].  The only thing that was stopping me
 from doing it, until now is the fact that all my posts are in
 org markup and porting them over to one of the formats that Nikola
 supports would be a PITA.  So, I wrote a [[http://plugins.getnikola.com/#orgmode][pretty simple plugin]] to
