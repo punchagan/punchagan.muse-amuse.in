@@ -202,6 +202,9 @@ DEPLOY_COMMANDS = [
     'git checkout master',
     'git branch -D gh-pages',
 ]
+import subprocess
+if subprocess.check_output(['git', 'diff']) != '':
+    DEPLOY_COMMANDS.insert(0, 'git gui')
 
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
