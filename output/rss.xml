@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 16 Oct 2013 14:41:44 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-10-16]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-16.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 16 Oct 2013 22:57:03 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blogging with Nikola and Org-mode</title><link>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</link><description>&lt;p&gt;
+Sigh! I made yet another change to the way this blog gets published.
+But, I have a feeling this mechanism, is here to stay!
+&lt;/p&gt;
+
+&lt;p&gt;
+We've been using Nikola quite regularly for our &lt;a href="http://ultimatesport.in"&gt;Ultimate site&lt;/a&gt;, and I
+quite like it.  I've also contributed a bunch of features to Nikola to
+get it to work the way I would like it to.  This weekend I ported my
+blog from [[][o-blog]] to &lt;a href="http://getnikola.com"&gt;Nikola&lt;/a&gt;.  The only thing that was stopping me
+from doing it, until now is the fact that all my posts are in
+org-syntax and porting them over to one of the formats that Nikola
+supports would be a PITA.  So, I wrote a &lt;a href="http://plugins.getnikola.com/#orgmode"&gt;pretty simple plugin&lt;/a&gt; to
+Nikola to support posting from org files.  And then with a &lt;a href="https://gist.github.com/punchagan/6970578"&gt;little
+Python&lt;/a&gt;, I was able to move everything over to use Nikola.
+&lt;/p&gt;
+
+&lt;p&gt;
+Hopefully, I'll keep my blog more updated, from here on!
+&lt;/p&gt;</description><author></author><category>blog</category><category>orgmode</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</guid><pubDate>Wed, 16 Oct 2013 22:40:47 GMT</pubDate></item><item><title>Bookmarks [2013-10-16]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-16.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://superuser.com/questions/162092/how%20can%20i%20register%20a%20custom%20protocol%20with%20xdg/309343#309343"&gt;linux   How can I register a custom protocol with xdg?   Super User&lt;/a&gt;
 
 &lt;p&gt;
@@ -735,72 +754,4 @@ and when tackling particularly tricky problems
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>advice</category><category>programming</category><category>science</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</guid><pubDate>Mon, 24 Dec 2012 16:21:00 GMT</pubDate></item><item><title>Bookmarks [2012/12/12]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-12-12.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://kingsly.net/tmp/qtr-life.txt"&gt;Kingsly on Life&lt;/a&gt;
-
-&lt;p&gt;
-tags: quote, life, reading
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://physics.stackexchange.com/questions/6157/list-of-freely-available-physics-books"&gt;education - List of freely available physics books - Physics&lt;/a&gt;
-
-&lt;p&gt;
-tags: books, physics, reading, collection
-&lt;/p&gt;
-
-&lt;p&gt;
-a list of physics books with open-source licenses, like Creative Commons, GPL, etc. The books can be about a particular field in physics or about physics in general.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.gaussianprocess.org/gpml/"&gt;Gaussian Processes for Machine Learning: Book webpage&lt;/a&gt;
-
-&lt;p&gt;
-tags: machine&lt;sub&gt;learning&lt;/sub&gt;, book, reading
-&lt;/p&gt;
-
-&lt;p&gt;
-The book deals with the supervised-learning problem for both regression and classification, and includes detailed algorithms. A wide variety of covariance (kernel) functions are presented and their properties discussed. Model selection is discussed both from a Bayesian and a classical perspective. Many connections to other well-known techniques from machine learning and statistics are discussed, including support-vector machines, neural networks, splines, regularization networks, relevance vector machines and others. Theoretical issues including learning curves and the PAC-Bayesian framework are treated, and several approximation methods for learning with large datasets are discussed. The book contains illustrative examples and exercises, and code and datasets are available on the Web. Appendixes provide mathematical background and a discussion of Gaussian Markov processes.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://human.io/"&gt;human.io&lt;/a&gt;
-
-&lt;p&gt;
-tags: development, phone, android, app, software
-&lt;/p&gt;
-
-&lt;p&gt;
-Easily create and instantly deploy tiny bits of interactive code to your army of followers via their mobile devices.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.bicicleting.com/information-on-getting-visas-in-an-overland-trip-from-india-to-europethrough-central-asia/"&gt;Information on getting visas in an overland trip from India to Europe(through central asia) « Asia by bike | Un viaje en bicicleta&lt;/a&gt;
-
-&lt;p&gt;
-tags: travel, visa, advice, bicycling
-&lt;/p&gt;
-
-&lt;p&gt;
-If you are going in an overland trip from Asia to Europe,through central asia , here is my experience with the visas.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-12-12.html</guid><pubDate>Wed, 12 Dec 2012 23:59:59 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><author></author><category>advice</category><category>programming</category><category>science</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</guid><pubDate>Mon, 24 Dec 2012 16:21:00 GMT</pubDate></item></channel></rss>

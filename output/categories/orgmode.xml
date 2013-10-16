@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (orgmode)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/orgmode.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 15 Oct 2013 09:50:30 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Org-mode Workshop</title><link>http://punchagan.muse-amuse.in/posts/org-mode-workshop.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (orgmode)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/orgmode.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 16 Oct 2013 22:57:03 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blogging with Nikola and Org-mode</title><link>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</link><description>&lt;p&gt;
+Sigh! I made yet another change to the way this blog gets published.
+But, I have a feeling this mechanism, is here to stay!
+&lt;/p&gt;
+
+&lt;p&gt;
+We've been using Nikola quite regularly for our &lt;a href="http://ultimatesport.in"&gt;Ultimate site&lt;/a&gt;, and I
+quite like it.  I've also contributed a bunch of features to Nikola to
+get it to work the way I would like it to.  This weekend I ported my
+blog from [[][o-blog]] to &lt;a href="http://getnikola.com"&gt;Nikola&lt;/a&gt;.  The only thing that was stopping me
+from doing it, until now is the fact that all my posts are in
+org-syntax and porting them over to one of the formats that Nikola
+supports would be a PITA.  So, I wrote a &lt;a href="http://plugins.getnikola.com/#orgmode"&gt;pretty simple plugin&lt;/a&gt; to
+Nikola to support posting from org files.  And then with a &lt;a href="https://gist.github.com/punchagan/6970578"&gt;little
+Python&lt;/a&gt;, I was able to move everything over to use Nikola.
+&lt;/p&gt;
+
+&lt;p&gt;
+Hopefully, I'll keep my blog more updated, from here on!
+&lt;/p&gt;</description><author></author><category>blog</category><category>orgmode</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</guid><pubDate>Wed, 16 Oct 2013 22:40:47 GMT</pubDate></item><item><title>Org-mode Workshop</title><link>http://punchagan.muse-amuse.in/posts/org-mode-workshop.html</link><description>&lt;p&gt;
 Well, I'm not sure if it's worth writing about.  I conducted my
 first org-mode workshop along with Prof. Venkatesh Choppella at
 IIIT-Hyderabad.  It was a 3 hour demo+talk kind of a thing, with a
@@ -544,55 +563,4 @@ and not the names. This function, when used with
 &lt;p&gt;
 Thanks to benny (on #org-mode), I also learnt the difference
 between &lt;code&gt;let&lt;/code&gt; and &lt;code&gt;let*&lt;/code&gt;.
-&lt;/p&gt;</description><author></author><category>code</category><category>elisp</category><category>note</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</guid><pubDate>Fri, 20 Aug 2010 00:23:00 GMT</pubDate></item><item><title>Refile to date-tree</title><link>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</link><description>&lt;p&gt;
-Useful to refile notes to the journal file, which is a
-date-tree. &lt;code&gt;org-refile&lt;/code&gt; isn't convenient to refile stuff to a
-date-tree.
-&lt;/p&gt;
-
-&lt;div class="org-src-container"&gt;
-
-&lt;pre class="src src-emacs-lisp"&gt;(defun my/org-refile-to-journal ()
-  "Refile an entry to journal file's date-tree"
-  (interactive)
-  (require 'org-datetree)
-  (let ((journal (expand-file-name "journal.org" org-directory))
-	post-date)
-    (setq post-date (or (org-entry-get (point) "TIMESTAMP_IA")
-			(org-entry-get (point) "TIMESTAMP")))
-    (setq post-date (nthcdr 3 (parse-time-string post-date)))
-    (setq post-date (list (cadr post-date)
-			  (car post-date)
-			  (caddr post-date)))
-    (org-cut-subtree)
-    (with-current-buffer (or (find-buffer-visiting journal)
-			     (find-file-noselect journal))
-      (save-excursion
-	(org-datetree-file-entry-under (current-kill 0) post-date)
-	(bookmark-set "org-refile-last-stored")))
-    (message "Refiled to %s" journal)))
-
-(defun my/org-agenda-refile-to-journal ()
-  "Refile the item at point to journal."
-  (interactive)
-  (let* ((marker (or (org-get-at-bol 'org-hd-marker)
-		     (org-agenda-error)))
-	 (buffer (marker-buffer marker))
-	 (pos (marker-position marker)))
-    (with-current-buffer buffer
-      (save-excursion
-	(save-restriction
-	  (widen)
-	  (goto-char marker)
-	  (org-remove-subtree-entries-from-agenda)
-	  (my/org-refile-to-journal)))))
-  (org-agenda-redo))
-
-(org-defkey org-agenda-mode-map (kbd "C-c C-S-w") 'my/org-agenda-refile-to-journal)
-(org-defkey org-mode-map (kbd "C-c C-S-w") 'my/org-refile-to-journal)
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-Enjoy!
-&lt;/p&gt;</description><author></author><category>code</category><category>elisp</category><category>emacs</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</guid><pubDate>Fri, 30 Jul 2010 05:33:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><author></author><category>code</category><category>elisp</category><category>note</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</guid><pubDate>Fri, 20 Aug 2010 00:23:00 GMT</pubDate></item></channel></rss>

@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (blog)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/blog.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 15 Oct 2013 09:50:29 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Changes to Blog</title><link>http://punchagan.muse-amuse.in/posts/changes-to-blog.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (blog)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/blog.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 16 Oct 2013 22:57:03 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blogging with Nikola and Org-mode</title><link>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</link><description>&lt;p&gt;
+Sigh! I made yet another change to the way this blog gets published.
+But, I have a feeling this mechanism, is here to stay!
+&lt;/p&gt;
+
+&lt;p&gt;
+We've been using Nikola quite regularly for our &lt;a href="http://ultimatesport.in"&gt;Ultimate site&lt;/a&gt;, and I
+quite like it.  I've also contributed a bunch of features to Nikola to
+get it to work the way I would like it to.  This weekend I ported my
+blog from [[][o-blog]] to &lt;a href="http://getnikola.com"&gt;Nikola&lt;/a&gt;.  The only thing that was stopping me
+from doing it, until now is the fact that all my posts are in
+org-syntax and porting them over to one of the formats that Nikola
+supports would be a PITA.  So, I wrote a &lt;a href="http://plugins.getnikola.com/#orgmode"&gt;pretty simple plugin&lt;/a&gt; to
+Nikola to support posting from org files.  And then with a &lt;a href="https://gist.github.com/punchagan/6970578"&gt;little
+Python&lt;/a&gt;, I was able to move everything over to use Nikola.
+&lt;/p&gt;
+
+&lt;p&gt;
+Hopefully, I'll keep my blog more updated, from here on!
+&lt;/p&gt;</description><author></author><category>blog</category><category>orgmode</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</guid><pubDate>Wed, 16 Oct 2013 22:40:47 GMT</pubDate></item><item><title>Changes to Blog</title><link>http://punchagan.muse-amuse.in/posts/changes-to-blog.html</link><description>&lt;p&gt;
 Well, as you can see, I've changed my blog a bit.  I had been
 trying to make it gel well with org-mode and looking for ways to
 allow me to share arbit stuff with separate feeds for tags,
