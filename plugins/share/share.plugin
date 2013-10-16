@@ -1,0 +1,10 @@
+[Core]
+Name = share
+Module = share
+
+[Documentation]
+Author = Puneeth Chaganti
+Version = 0.1
+Website = '#'
+Description = Command to make a new post from captured bookmarks/quotes.
+
