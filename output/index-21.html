@@ -41,6 +41,57 @@
         <div class="content" rel="main">
             
         <div class="post">
+            <h1 class="title"><a href="posts/cstringio-and-unicode.html">cStringIO and unicode</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2012-12-03T21:11:00">2012-12-03 21:11</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="posts/cstringio-and-unicode.html#disqus_thread" data-disqus-identifier="cache/posts/cstringio-and-unicode.html">Comments</a>
+
+
+                </p></div>
+                
+    <div class="tags">
+        <ul>
+        More posts about:  
+            <li><a class="tag" href="categories/bug.html">bug</a></li>
+            <li><a class="tag" href="categories/note.html">note</a></li>
+            <li><a class="tag" href="categories/python.html">python</a></li>
+        </ul>
+    </div>
+
+            </div>
+            <div class="body">
+                <p>
+StringIO in the cStringIO module in Python 2.7.2 doesn't handle
+unicode strings properly.  This bug has bitten me on a couple of
+occasions, in the recent past.
+</p>
+
+<p>
+Just making a note for myself:
+</p>
+
+<ol class="org-ol">
+<li>Use StringIO if speed doesn't matter so much.
+</li>
+<li>Whenever possible, just convert the input to StringIO to a
+string, if what you are doing doesn't really require unicode
+strings.
+</li>
+</ol>
+
+
+<p>
+Or may be it's just time to move up to Python 2.7.3
+</p>
+            </div>
+        </div>
+        <div class="post">
             <h1 class="title"><a href="posts/3-tips-for-those-shipping-commercial-apps.html">3 tips for those shipping (commercial) apps</a></h1>
             <div class="meta">
                 <div class="authordate">

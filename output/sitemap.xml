@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://punchagan.muse-amuse.in/</loc>
-  <lastmod>2013-10-15</lastmod>
+  <lastmod>2013-10-16</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -96,7 +96,7 @@
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/categories/</loc>
-  <lastmod>2013-10-15</lastmod>
+  <lastmod>2013-10-16</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -141,7 +141,7 @@
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/categories/bookmarks.html</loc>
-  <lastmod>2013-10-15</lastmod>
+  <lastmod>2013-10-16</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -701,7 +701,7 @@
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/index-21.html</loc>
-  <lastmod>2013-10-15</lastmod>
+  <lastmod>2013-10-16</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -741,7 +741,7 @@
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/index.html</loc>
-  <lastmod>2013-10-15</lastmod>
+  <lastmod>2013-10-16</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -1210,6 +1210,11 @@
   <priority>0.5000</priority>
  </url>
  <url>
+  <loc>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-16.html</loc>
+  <lastmod>2013-10-16</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
   <loc>http://punchagan.muse-amuse.in/posts/browsing-the-streets-with-firefox.html</loc>
   <lastmod>2013-10-15</lastmod>
   <priority>0.5000</priority>
@@ -1596,7 +1601,7 @@
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/posts/quotes-20131014.html</loc>
-  <lastmod>2013-10-15</lastmod>
+  <lastmod>2013-10-16</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>

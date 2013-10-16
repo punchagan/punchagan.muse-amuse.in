@@ -1,5 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 15 Oct 2013 09:55:38 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Quotes [2013/10/14]</title><link>http://punchagan.muse-amuse.in/posts/quotes-20131014.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 16 Oct 2013 14:41:44 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-10-16]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-16.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://superuser.com/questions/162092/how%20can%20i%20register%20a%20custom%20protocol%20with%20xdg/309343#309343"&gt;linux   How can I register a custom protocol with xdg?   Super User&lt;/a&gt;
+
+&lt;p&gt;
+:orgmode:emacs:capture:xdg:
+&lt;/p&gt;
+
+&lt;p&gt;
+Finally found a solution for using org-protocol with chrome,
+without dirty hacks in xdg-open!
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://millionshort.com/"&gt;MillionShort&lt;/a&gt;
+
+&lt;p&gt;
+:internet:browsing:search:
+&lt;/p&gt;
+
+&lt;p&gt;
+Imagine a search engine that simply removed the top 1 million most
+popular web sites from its index. What would you discover?
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.aeonmagazine.com/world%20views/do%20you%20want%20a%20meaningful%20life%20or%20a%20happy%20one/"&gt;Do you want a meaningful or a happy life? – Roy F Baumeister – Aeon&lt;/a&gt;
+
+&lt;p&gt;
+:life:happiness:meaning:
+&lt;/p&gt;
+
+&lt;p&gt;
+People ask what is the meaning of life, as if there is a single
+answer. There is no one answer: there are thousands of different
+ones. A life will be meaningful if it finds responses to the four
+questions of purpose, value, efficacy, and self-worth. It is these
+questions, not the answers, that endure and unify.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://typicalprogrammer.com/?p=249"&gt;Typical Programmer   How to develop unmaintainable software&lt;/a&gt;
+
+&lt;p&gt;
+:programming:maintenance:advice:
+&lt;/p&gt;
+
+&lt;p&gt;
+I get paid to take on technical debt. Here are some things you can
+do in your own software projects to keep me in business.
+&lt;/p&gt;
+
+&lt;p&gt;
+(via Chaitu)
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.boredpanda.com/modern%20art%20vs%20toddler%20art/"&gt;QUIZ: Modern Art or Children’s Drawings? | Bored Panda&lt;/a&gt;
+
+&lt;p&gt;
+:art:
+&lt;/p&gt;
+
+&lt;p&gt;
+Art, and what we do and do not consider to be art, has changed a lot
+over the last century. It has become an increasingly difficult thing
+to define for the average person, and sometimes even art historians
+and experts can’t seem to keep up.
+&lt;/p&gt;
+
+&lt;p&gt;
+This was illustrated in a 2005 survey done by ABC News in which
+modern masters’ works were mixed into a series with paintings done
+by children and toddlers. Regular people and art critics alike were
+asked to choose from the series – which of these works belong in a
+museum and which ones don’t? Now, Buzzfeed has released a similar
+survey as well, which we’ve expanded on a bit.
+&lt;/p&gt;
+
+&lt;p&gt;
+The results of that survey indicate that either we have a long way
+to go before we can define what is and isn’t modern art, or that
+there’s no need to define it so strictly in the first
+place. Whatever the case may be, let’s see if you’re any better at
+telling modern art from children’s drawings than the experts are!
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-16.html</guid><pubDate>Wed, 16 Oct 2013 14:41:36 GMT</pubDate></item><item><title>Quotes [2013/10/14]</title><link>http://punchagan.muse-amuse.in/posts/quotes-20131014.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;In everyone's life, at some time, our inner fire goes out. It is
 then burst into flame by an encounter with another human being. We
 should all be thankful for those people who rekindle the inner
@@ -717,26 +803,4 @@ tags: travel, visa, advice, bicycling
 If you are going in an overland trip from Asia to Europe,through central asia , here is my experience with the visas.
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-12-12.html</guid><pubDate>Wed, 12 Dec 2012 23:59:59 GMT</pubDate></item><item><title>cStringIO and unicode</title><link>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</link><description>&lt;p&gt;
-StringIO in the cStringIO module in Python 2.7.2 doesn't handle
-unicode strings properly.  This bug has bitten me on a couple of
-occasions, in the recent past.
-&lt;/p&gt;
-
-&lt;p&gt;
-Just making a note for myself:
-&lt;/p&gt;
-
-&lt;ol class="org-ol"&gt;
-&lt;li&gt;Use StringIO if speed doesn't matter so much.
-&lt;/li&gt;
-&lt;li&gt;Whenever possible, just convert the input to StringIO to a
-string, if what you are doing doesn't really require unicode
-strings.
-&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;p&gt;
-Or may be it's just time to move up to Python 2.7.3
-&lt;/p&gt;</description><author></author><category>bug</category><category>note</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</guid><pubDate>Mon, 03 Dec 2012 21:11:00 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-12-12.html</guid><pubDate>Wed, 12 Dec 2012 23:59:59 GMT</pubDate></item></channel></rss>
