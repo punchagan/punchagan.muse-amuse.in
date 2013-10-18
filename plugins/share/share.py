@@ -81,7 +81,7 @@ def success(tag):
     shutil.move(infile, bkfile)
 
 
-def new_post(tag, entries, site):
+def new_post(tag, entries, site, dry_run=False):
     """ Make a new post with the given entries. """
 
     post_format = get_default_compiler(
@@ -105,18 +105,22 @@ def new_post(tag, entries, site):
         with codecs.open(post_file, 'w', encoding='utf8') as f:
             f.write('\n'.join(text))
 
-    signal('new_post').connect(write_content)
+    if dry_run:
+        [print(entry['title']) for entry in entries]
 
-    site.commands['new_post'].execute({
-        'title': title,
-        'tags': tag,
-        'onefile': True,
-        'twofile': False,
-        'post_format': post_format,
-        'schedule': None,
-    })
+    else:
+        signal('new_post').connect(write_content)
 
-    success(tag)
+        site.commands['new_post'].execute({
+            'title': title,
+            'tags': tag,
+            'onefile': True,
+            'twofile': False,
+            'post_format': post_format,
+            'schedule': None,
+        })
+
+        success(tag)
 
 
 class CommandShare(Command):
@@ -132,7 +136,16 @@ class CommandShare(Command):
             'default': '',
             'type': str,
             'help': 'Tag to fetch, for sharing.'
+        },
+        {
+            'name': 'dry-run',
+            'long': 'dry-run',
+            'short': 'n',
+            'default': False,
+            'type': bool,
+            'help': 'Dry run.'
         }
+
     ]
 
     def _execute(self, options, args):
@@ -146,7 +159,7 @@ class CommandShare(Command):
         entries = get_entries(tag)
 
         if len(entries) >= self.site.config.get('SHARE_ENTRY_COUNT', 5):
-            new_post(tag, entries, self.site)
+            new_post(tag, entries, self.site, options['dry-run'])
         else:
             print('Only {} entries available'.format(len(entries)))
 
