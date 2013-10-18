@@ -194,7 +194,6 @@ COMPILERS = {
 DEPLOY_COMMANDS = [
     'git checkout master',
     'nikola build',
-    'git stash',
     'git push origin master',
     #fixme: I don't like the output folder being version controlled on master!
     'git subtree split --prefix output -b gh-pages',
@@ -203,8 +202,8 @@ DEPLOY_COMMANDS = [
     'git branch -D gh-pages',
 ]
 import subprocess
-if subprocess.check_output(['git', 'diff']) != '':
-    DEPLOY_COMMANDS.insert(0, 'git gui')
+if subprocess.check_output(['git', 'diff', 'HEAD']) != '':
+    DEPLOY_COMMANDS.insert(2, 'git gui')
 
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
