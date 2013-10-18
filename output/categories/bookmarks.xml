@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 16 Oct 2013 14:41:44 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-10-16]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-16.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 18 Oct 2013 23:43:34 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-10-18]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://voices.canonical.com/jussi.pakkanen/2012/09/25/the%20code%20documentation%20fallacy/"&gt;The code documentation fallacy | Jussi's development blog&lt;/a&gt;
+
+&lt;p&gt;
+:code:documentation:
+&lt;/p&gt;
+
+&lt;p&gt;
+As a rough estimate, 95% of functions in any code base should be so
+simple and specific that their signature is all you need to use
+them. If they are not, API design has failed: back to the drawing
+board.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://neurotheory.columbia.edu/~ken/cargo_cult.html"&gt;"Cargo Cult Science"   by Richard Feynman&lt;/a&gt;
+
+&lt;p&gt;
+:science:research:integrity:values:
+&lt;/p&gt;
+
+&lt;p&gt;
+So I have just one wish for you–the good luck to be somewhere where
+you are free to maintain the kind of integrity I have described, and
+where you do not feel forced by a need to maintain your position in
+the organization, or financial support, or so on, to lose your
+integrity. May you have that freedom.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.relevantmagazine.com/life/whole%20life/20%20things%20every%20twentysomething%20should%20know%20how%20do"&gt;20 Things Every Twentysomething Should Know How to Do | RELEVANT Magazine&lt;/a&gt;
+
+&lt;p&gt;
+:life:advice:twentysomething:
+&lt;/p&gt;
+
+&lt;p&gt;
+Your twenties are a prime time to explore and grow, without all the
+baggage that comes with settling down and making your mark.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.oreilly.com/biocoder/"&gt;BioCoder – A quarterly newsletter for DIYbio, synthetic bio, and anything related – O’Reilly Media&lt;/a&gt;
+
+&lt;p&gt;
+:bio:reading:DIY:
+&lt;/p&gt;
+
+&lt;p&gt;
+BioCoder is a quarterly newsletter for DIYbio, synthetic bio, and
+anything related.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://thoughtcatalog.com/kate%20bartolotta/2013/10/do%20you%20know%20what%20it%20means%20to%20be%20an%20introvert/"&gt;Do You Know What It Means To Be An Introvert? | Thought Catalog&lt;/a&gt;
+
+&lt;p&gt;
+The best explanation I was ever given (and maybe one of the biggest
+“aha!” moments of my adult life) was that while extroverts are
+energized by connecting and spending time with others, introverts
+need inward-focused, alone time to recharge.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</guid><pubDate>Fri, 18 Oct 2013 23:22:53 GMT</pubDate></item><item><title>Bookmarks [2013-10-16]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-16.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://superuser.com/questions/162092/how%20can%20i%20register%20a%20custom%20protocol%20with%20xdg/309343#309343"&gt;linux   How can I register a custom protocol with xdg?   Super User&lt;/a&gt;
 
 &lt;p&gt;
@@ -571,65 +634,4 @@ tags: advice, bicycling
 tags: poem, life, work, love, advice
 &lt;/p&gt;
 &lt;/dd&gt;
-&lt;/dl&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-06.html</guid><pubDate>Mon, 06 Aug 2012 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2012/07/15]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-07-15.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://ninjasandrobots.com/you-need-some-experience"&gt;I have no idea what I'm doing by Nathan Kontny&lt;/a&gt;
-
-&lt;p&gt;
-tags: life, advice
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://ryanleecarson.tumblr.com/post/21707432562/i-dont-have-nice-stuff-anymore"&gt;The Naive Optimist, I don't have nice stuff anymore&lt;/a&gt;
-
-&lt;p&gt;
-tags: money, life, advice
-&lt;/p&gt;
-
-&lt;p&gt;
-Real friends will make you happy, because genuine friendships are special.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://lifehacker.com/281626/jerry-seinfelds-productivity-secret"&gt;Jerry Seinfeld's Productivity Secret&lt;/a&gt;
-
-&lt;p&gt;
-tags: life, productivity, advice
-&lt;/p&gt;
-
-&lt;p&gt;
-He said for each day that I do my task of writing, I get to put a big red X over that day. "After a few days you'll have a chain. Just keep at it and the chain will grow longer every day. You'll like seeing that chain, especially when you get a few weeks under your belt. Your only job next is to not break the chain."
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://mittermayr.tumblr.com/post/26699540226/the-power-of-photos"&gt;Roman Mittermayr: On My Way • The Power of Photos&lt;/a&gt;
-
-&lt;p&gt;
-tags: life, death
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.federicopereiro.com/masters/"&gt;» Read the masters :federicopereiro.com&lt;/a&gt;
-
-&lt;p&gt;
-tags: advice, reading, programming
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-07-15.html</guid><pubDate>Sun, 15 Jul 2012 23:59:59 GMT</pubDate></item></channel></rss>
+&lt;/dl&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-06.html</guid><pubDate>Mon, 06 Aug 2012 23:59:59 GMT</pubDate></item></channel></rss>
