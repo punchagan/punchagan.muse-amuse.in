@@ -1,0 +1,6 @@
+cache/*
+.doit.db
+.idea
+
+*.pyc
+*~
