@@ -29,6 +29,9 @@ from __future__ import unicode_literals, print_function
 
 import codecs
 import datetime
+
+from blinker import signal
+
 from nikola.plugin_categories import Command
 from nikola.plugins.command.new_post import get_default_compiler
 
@@ -81,6 +84,15 @@ def success(tag):
     shutil.move(infile, bkfile)
 
 
+def git_add(*args, **kwargs):
+    """ Add the new post to git. """
+
+    import subprocess
+
+    post_file = kwargs['path']
+    subprocess.check_call(['git', 'add', post_file])
+
+
 def new_post(tag, entries, site, dry_run=False):
     """ Make a new post with the given entries. """
 
@@ -90,8 +102,6 @@ def new_post(tag, entries, site, dry_run=False):
     title = '%s [%s]' % (
         tag.capitalize(), datetime.datetime.now().strftime('%Y-%m-%d')
     )
-
-    from blinker import signal
 
     def write_content(_, **kwargs):
         post_file = kwargs['path']
@@ -144,8 +154,14 @@ class CommandShare(Command):
             'default': False,
             'type': bool,
             'help': 'Dry run.'
+        },
+        {
+            'name': 'no-git-add',
+            'long': 'no-git-add',
+            'default': False,
+            'type': bool,
+            'help': 'Add the new post input file to git.'
         }
-
     ]
 
     def _execute(self, options, args):
@@ -157,6 +173,9 @@ class CommandShare(Command):
             tag = options['tag']
 
         entries = get_entries(tag)
+
+        if not options['no-git-add']:
+            signal('new_post').connect(git_add)
 
         if len(entries) >= self.site.config.get('SHARE_ENTRY_COUNT', 5):
             new_post(tag, entries, self.site, options['dry-run'])
