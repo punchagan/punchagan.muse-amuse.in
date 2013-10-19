@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (orgmode)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/orgmode.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:03:19 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blogging with Nikola and Org-mode</title><link>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (orgmode)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/orgmode.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
+I used to have a separate page for bookmarks and quotes on the old
+blog.  They will now be shared as regular posts with 5 or more
+bookmarks/quotes.  I use a bookmarklet in my browser to capture links
+to an org-file using org-capture protocol and then I have a small
+plugin to Nikola, that looks at such captured bookmarks and quotes and
+makes new posts out of them.  This workflow is inspired by Brett
+Trepestra's &lt;a href="http://brettterpstra.com/2013/01/15/a-web-excursions-system-for-static-blogs/"&gt;web excursions&lt;/a&gt; plugin.
+&lt;/p&gt;
+
+&lt;p&gt;
+The plugin is currently a part of my blog source, and not published to
+Nikola's plugin repository since it is very specific to my setup.  But
+if anybody is interested, I can publish the code somewhere public.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you are interested to get these links and bookmarks into your feed
+reader, you can subscribe to their feed: &lt;a href="http://punchagan.muse-amuse.in/categories/quotes.xml"&gt;quotes&lt;/a&gt;, &lt;a href="http://punchagan.muse-amuse.in/categories/bookmarks.xml"&gt;bookmarks&lt;/a&gt;.  These
+posts will also make it to the main feed, though.
+&lt;/p&gt;</description><author></author><category>blog</category><category>code</category><category>nikola</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</guid><pubDate>Sat, 19 Oct 2013 20:26:13 GMT</pubDate></item><item><title>Blogging with Nikola and Org-mode</title><link>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</link><description>&lt;p&gt;
 Sigh! I made yet another change to the way this blog gets published.
 But, I have a feeling this mechanism, is here to stay!
 &lt;/p&gt;
@@ -535,32 +555,4 @@ want any of the content removed, I will do so.
 &lt;p&gt;
 &amp;lt;punchagan&amp;gt; I hope you don't mind, if I make this anecdote public?
 &lt;/p&gt;
-&lt;/blockquote&gt;</description><author></author><category>IRC</category><category>emacs</category><category>note</category><category>org2blog</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</guid><pubDate>Sat, 02 Oct 2010 20:26:00 GMT</pubDate></item><item><title>org/elisp - sorting list of org-links on description</title><link>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</link><description>&lt;p&gt;
-A small utility function that I used to sort the names of people
-who commented on my blog.
-&lt;/p&gt;
-
-&lt;div class="org-src-container"&gt;
-
-&lt;pre class="src src-emacs-lisp"&gt;(defun org-get-link-desc-from-list ()
-  """ Get link description of a list item containing just links """
-  (let* ((item-beg (point))
-       (item-end (org-end-of-item))
-       (cur-item (buffer-substring-no-properties
-		  item-beg item-end)))
-    (goto-char item-beg)
-    (org-columns-compact-links cur-item)))
-&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-&lt;code&gt;sort-lines&lt;/code&gt; wasn't good enough for me, since it was sorting
-alphabetically and it ended up being the sorted order of the urls
-and not the names. This function, when used with
-&lt;code&gt;org-sort-entries-or-items&lt;/code&gt; gave me what I wanted.
-&lt;/p&gt;
-
-&lt;p&gt;
-Thanks to benny (on #org-mode), I also learnt the difference
-between &lt;code&gt;let&lt;/code&gt; and &lt;code&gt;let*&lt;/code&gt;.
-&lt;/p&gt;</description><author></author><category>code</category><category>elisp</category><category>note</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</guid><pubDate>Fri, 20 Aug 2010 00:23:00 GMT</pubDate></item></channel></rss>
+&lt;/blockquote&gt;</description><author></author><category>IRC</category><category>emacs</category><category>note</category><category>org2blog</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</guid><pubDate>Sat, 02 Oct 2010 20:26:00 GMT</pubDate></item></channel></rss>
