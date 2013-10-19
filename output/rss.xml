@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 18 Oct 2013 23:43:34 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-10-18]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:06:02 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Quotes [2013-10-19]</title><link>http://punchagan.muse-amuse.in/posts/quotes-2013-10-19.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;Somewhere in the world someone is training when you are not. When
+you race him, he will win. – &lt;i&gt;Tom Fleming&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Because when something happens, she’s the person I want to tell. The
+most basic indicator of love. – &lt;i&gt;David Levithan&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;If you are not embarrassed by the first version of your product,
+you've launched too late. – &lt;i&gt;Reid Hoffman&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;“Nothing of me is original. I am the combined effort of everyone
+I've ever known.” ― &lt;i&gt;Chuck Palahniuk&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;"I fell in love with the way you sleep; slowly then all at once"
+  &lt;i&gt;John Green&lt;/i&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-2013-10-19.html</guid><pubDate>Sat, 19 Oct 2013 20:05:52 GMT</pubDate></item><item><title>Bookmarks [2013-10-18]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://voices.canonical.com/jussi.pakkanen/2012/09/25/the%20code%20documentation%20fallacy/"&gt;The code documentation fallacy | Jussi's development blog&lt;/a&gt;
 
 &lt;p&gt;
@@ -552,68 +572,4 @@ tags: advice, sport, ultimate, tips
 tags: python, programming, tutorial, collection
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-03-14.html</guid><pubDate>Thu, 14 Mar 2013 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2013/01/22]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-01-22.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://stevepulec.com/freezegun/"&gt;FreezeGun&lt;/a&gt;
-
-&lt;p&gt;
-tags: python, testing, code
-&lt;/p&gt;
-
-&lt;p&gt;
-FreezeGun is a library that allows your python tests to travel through time by mocking the datetime module.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="https://graphics.stanford.edu/wikis/cs448b-12-fall/"&gt;CourseWiki - CS 448B&lt;/a&gt;
-
-&lt;p&gt;
-tags: visualization, course, software
-&lt;/p&gt;
-
-&lt;p&gt;
-In this course we will study techniques and algorithms for creating effective visualizations based on principles from graphic design, visual art, perceptual psychology, and cognitive science. The course is targeted both towards students interested in using visualization in their own work, as well as students interested in building better visualization tools and systems.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.quora.com/What-are-some-useful-technical-skills-I-can-learn-within-a-day"&gt;What are some useful technical skills I can learn within a day? - Quora&lt;/a&gt;
-
-&lt;p&gt;
-tags: programming, collection, learn
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://thenextweb.com/shareables/2012/12/31/mom-presents-18-point-contract-with-rules-of-use-to-teenage-son-would-you-be-tempted/"&gt;This mom gave her son an 18-point contract with his iPhone. Would you be tempted? - The Next Web&lt;/a&gt;
-
-&lt;p&gt;
-tags: life, kids, technology, advice
-&lt;/p&gt;
-
-&lt;p&gt;
-You will mess up.  I will take away your phone.  We will sit down and talk about it.  We will start over again.  You &amp;amp; I, we are always learning.  I am on your team.  We are in this together.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.deccanherald.com/content/306814/its-all-bike.html"&gt;It’s all about the bike&lt;/a&gt;
-
-&lt;p&gt;
-tags: travel, india, adventure, bicycling
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-01-22.html</guid><pubDate>Tue, 22 Jan 2013 23:59:59 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-03-14.html</guid><pubDate>Thu, 14 Mar 2013 23:59:59 GMT</pubDate></item></channel></rss>

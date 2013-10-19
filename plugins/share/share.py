@@ -38,7 +38,6 @@ from nikola.plugins.command.new_post import get_default_compiler
 
 ENTRY_FORMAT = """\
 - %(title)s
-
   %(content)s
 """
 
@@ -181,4 +180,3 @@ class CommandShare(Command):
             new_post(tag, entries, self.site, options['dry-run'])
         else:
             print('Only {} entries available'.format(len(entries)))
-
