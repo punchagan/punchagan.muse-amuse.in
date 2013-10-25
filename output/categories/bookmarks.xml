@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-10-18]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 25 Oct 2013 11:07:08 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-10-25]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-25.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://filecalledlife.wordpress.com/2013/08/24/basic%20stuff%20i%20should%20be%20able%20to/"&gt;Basic stuff I should be able to… | music muse amuse&lt;/a&gt;
+I, for one, should be able to dance shamelessly and if possible,
+infect others as well
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://crickettalket.blogspot.in/2013/10/playing%20against%20rahul%20dravid.html"&gt;Cricket Talket: Playing Against Rahul Dravid&lt;/a&gt;
+it is not every day that you get to play against someone with 13000
+Test runs. It is not every day that you get to play against someone
+you have adored and idolised since the first time you saw him. It is
+not every day that you play against Rahul Dravid!
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://metarabbit.wordpress.com/2013/10/18/why%20python%20is%20better%20than%20matlab%20for%20scientific%20software/"&gt;Why Python is Better than Matlab for Scientific Software | Meta Rabbit&lt;/a&gt;
+If you have legacy code in MATLAB, then it may make sense to just
+continue using it. If it works, don’t fix it. However, if your
+Matlab code keeps causing you pain, Python might be a solution.
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="https://plus.google.com/116160612483689327039/posts/WnwqbgAqewP"&gt;Jason Roberts   Google+   My New Strategy for Teaching Kids How to Code &lt;/a&gt;
+We're one month into the second year of Catalyst, an after-school
+tech/computer class that I run for kids aged 9-13, and this year
+I've decided to try something different. [Last year, I had the kids
+learn in a browser-based / console-like IDE that I created - kind of
+like CodeAcademy, but ultimately it was just too much work to
+maintain and too limiting]. My new plan is to teach the kids how to
+build their own interactive websites from scratch using HTML, CSS
+and Javascript, and to do it on their own Linux VPS (CentOS 6) using
+Vim. I know it probably sounds crazy, but if the preliminary
+reception and results are any indication, I think it's going to be a
+success.
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.thrillophilia.com/blog/50%20places%20to%20visit%20in%20india%20before%20you%20turn%2030/"&gt;50 Places to Visit in India Before You Turn 30   Activities, Experiences and Things To Do&lt;/a&gt;
+Here is a fun bucket list of the places you simply have to visit
+before you turn thirty. They are not just destinations but also
+crazy experiences that will go down the book of your memory
+lane. From treading on Living Root Bridges in Cherrapunji to a bike
+ride through Ladakh, trekking through the valley of flowers in
+Himalayas to surfing in Orissa, here are some insane experiences.
+&lt;/li&gt;
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-25.html</guid><pubDate>Fri, 25 Oct 2013 11:06:57 GMT</pubDate></item><item><title>Bookmarks [2013-10-18]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://voices.canonical.com/jussi.pakkanen/2012/09/25/the%20code%20documentation%20fallacy/"&gt;The code documentation fallacy | Jussi's development blog&lt;/a&gt;
 
 &lt;p&gt;
@@ -579,59 +620,4 @@ tags: courses, collection, learning
 tags: reading, programming, analysis
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-21.html</guid><pubDate>Tue, 21 Aug 2012 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2012/08/06]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-06.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://7fff.com/2012/07/14/the-most-important-social-network-github/"&gt;The Most Important Social Network: GitHub&lt;/a&gt;
-
-&lt;p&gt;
-tags: computer&lt;sub&gt;science&lt;/sub&gt;, github, programming
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://us4.campaign-archive2.com/home/?u=9735795484d2e4c204da82a29&amp;amp;id=64134e0a27"&gt;pycoders&lt;/a&gt;
-
-&lt;p&gt;
-tags: python, reading, collection
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.livestrong.com/article/445971-bike-frame-size-based-on-leg-length/"&gt;Bike Frame Size Based On Leg Length | LIVESTRONG.COM&lt;/a&gt;
-
-&lt;p&gt;
-tags: advice, bicycling
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.rei.com/expertadvice/articles/bike+fit.html"&gt;Fitting Your Bike: Expert Advice from REI&lt;/a&gt;
-
-&lt;p&gt;
-tags: advice, bicycling
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;dl class="org-dl"&gt;
-&lt;dt&gt; [[&lt;a href="http://sachachua.com/blog/2012/07/work-is-love-made-visible/%5D%5BWork"&gt;http://sachachua.com/blog/2012/07/work-is-love-made-visible/][Work&lt;/a&gt; is love made visible | sacha chua &lt;/dt&gt;&lt;dd&gt;living an awesome life]]
-
-&lt;p&gt;
-tags: poem, life, work, love, advice
-&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-06.html</guid><pubDate>Mon, 06 Aug 2012 23:59:59 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><author></author><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-08-21.html</guid><pubDate>Tue, 21 Aug 2012 23:59:59 GMT</pubDate></item></channel></rss>
