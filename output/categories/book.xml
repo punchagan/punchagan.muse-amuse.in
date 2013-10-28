@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (book)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/book.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pehli Nazar</title><link>http://punchagan.muse-amuse.in/posts/pehli-nazar.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (book)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/book.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pehli Nazar</title><link>http://punchagan.muse-amuse.in/posts/pehli-nazar.html</link><description>&lt;p&gt;
 This post is my attempt to start a travelogue. I hope to capture
 the "All India Tour" phase of my life (as people have started to
 call it).  I'll try to keep these posts from becoming travel
@@ -78,7 +78,7 @@ from the West gate.
 &lt;p&gt;
 It's time to stop writing when all you can see is proportionality
 between totally unrelated things.  Here are a few pics
-&lt;/p&gt;</description><author></author><category>book</category><category>camera</category><category>india</category><category>nomadic</category><category>photo</category><category>travel</category><guid>http://punchagan.muse-amuse.in/posts/pehli-nazar.html</guid><pubDate>Tue, 02 Mar 2010 02:07:00 GMT</pubDate></item><item><title>A Byte of Python</title><link>http://punchagan.muse-amuse.in/posts/a-byte-of-python.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>book</category><category>camera</category><category>india</category><category>nomadic</category><category>photo</category><category>travel</category><guid>http://punchagan.muse-amuse.in/posts/pehli-nazar.html</guid><pubDate>Tue, 02 Mar 2010 02:07:00 GMT</pubDate></item><item><title>A Byte of Python</title><link>http://punchagan.muse-amuse.in/posts/a-byte-of-python.html</link><description>&lt;p&gt;
 This post's been inspired by a wonderful book, "A Byte of
 Python"&lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/a-byte-of-python.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; by Swaroop C H. The book has been revised after a
 gap of nearly 4 years and the wait is worth it! I thoroughly loved
@@ -144,4 +144,4 @@ Book updated for Python 3000 – Swaroop CH
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>book</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/a-byte-of-python.html</guid><pubDate>Sun, 07 Sep 2008 17:08:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>book</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/a-byte-of-python.html</guid><pubDate>Sun, 07 Sep 2008 17:08:00 GMT</pubDate></item></channel></rss>

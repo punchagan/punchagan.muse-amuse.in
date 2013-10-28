@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (wordpress)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/wordpress.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>What's up with org2blog?</title><link>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (wordpress)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/wordpress.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>What's up with org2blog?</title><link>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</link><description>&lt;p&gt;
 Another post on &lt;code&gt;org2blog&lt;/code&gt;.  Yes, the project is still alive. ;)
 Well, frankly quite a few people seem to be using it, and I
 regularly get bug-reports and feature requests.  I'm happy. :)
@@ -28,7 +28,7 @@ reduce the confusion, amongst users.
 
 &lt;p&gt;
 &lt;code&gt;org2blog/wp&lt;/code&gt; version 0.4 comes with the new namespace.
-&lt;/p&gt;</description><author></author><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</guid><pubDate>Sat, 15 Jan 2011 11:10:00 GMT</pubDate></item><item><title>WP to org-mode + hyde + disqus</title><link>http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</guid><pubDate>Sat, 15 Jan 2011 11:10:00 GMT</pubDate></item><item><title>WP to org-mode + hyde + disqus</title><link>http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html</link><description>&lt;p&gt;
 Hello World!
 &lt;/p&gt;
 
@@ -274,7 +274,7 @@ incapability that prevented me from trying it out.
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>orgmode</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html</guid><pubDate>Fri, 22 Oct 2010 14:49:00 GMT</pubDate></item><item><title>Lesson with RSS feeds &amp; Wordpress</title><link>http://punchagan.muse-amuse.in/posts/lesson-with-rss-feeds-wordpress.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>orgmode</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html</guid><pubDate>Fri, 22 Oct 2010 14:49:00 GMT</pubDate></item><item><title>Lesson with RSS feeds &amp; Wordpress</title><link>http://punchagan.muse-amuse.in/posts/lesson-with-rss-feeds-wordpress.html</link><description>&lt;p&gt;
 In a world of (RSS &amp;amp; Atom) feeds, deleting your posts is not the
 way to do it.
 &lt;/p&gt;
@@ -288,12 +288,12 @@ to be caught by the feed aggregators. Then, delete your post.
 &lt;b&gt;Update&lt;/b&gt;:
  This
  post also has similar advice.
-&lt;/p&gt;</description><author></author><category>note</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/lesson-with-rss-feeds-wordpress.html</guid><pubDate>Wed, 04 Aug 2010 09:07:00 GMT</pubDate></item><item><title>org2blog annoyance</title><link>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/lesson-with-rss-feeds-wordpress.html</guid><pubDate>Wed, 04 Aug 2010 09:07:00 GMT</pubDate></item><item><title>org2blog annoyance</title><link>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</link><description>&lt;p&gt;
 I hate it when I'm trying out things with org2blog - fixing bugs
 or adding features - and my testing buffer gets posted. Why do I
 keep passing the prefix argument with C-u? I should probably
 work with a local instance of WordPress.
-&lt;/p&gt;</description><author></author><category>note</category><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</guid><pubDate>Tue, 03 Aug 2010 03:14:00 GMT</pubDate></item><item><title>Update Script</title><link>http://punchagan.muse-amuse.in/posts/update-script.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</guid><pubDate>Tue, 03 Aug 2010 03:14:00 GMT</pubDate></item><item><title>Update Script</title><link>http://punchagan.muse-amuse.in/posts/update-script.html</link><description>&lt;p&gt;
 Well, this isn't an update of how I'm doing on my sabbatical. Its
 just been 3 days and I'm doing pretty fine.  I just finished
 writing a script to keep my blogs page in sync with my
@@ -341,7 +341,7 @@ ps :
 &lt;/li&gt;
 &lt;li&gt;Get in touch, if you'd like to have a look.
 &lt;/li&gt;
-&lt;/ol&gt;</description><author></author><category>ology</category><category>python</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/update-script.html</guid><pubDate>Tue, 08 Jul 2008 20:39:00 GMT</pubDate></item><item><title>A Second Blog...</title><link>http://punchagan.muse-amuse.in/posts/a-second-blog.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;/ol&gt;</description><category>ology</category><category>python</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/update-script.html</guid><pubDate>Tue, 08 Jul 2008 20:39:00 GMT</pubDate></item><item><title>A Second Blog...</title><link>http://punchagan.muse-amuse.in/posts/a-second-blog.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;It can't really be called a Second Blog… because I won't be
 posting any new stuff there…
 &lt;/li&gt;
@@ -353,4 +353,4 @@ posting any new stuff there…
 &lt;/li&gt;
 &lt;li&gt;I started it because Blogspot may soon be blocked on campus!!!
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>ology</category><category>posts</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/a-second-blog.html</guid><pubDate>Wed, 04 Apr 2007 11:46:00 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>ology</category><category>posts</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/a-second-blog.html</guid><pubDate>Wed, 04 Apr 2007 11:46:00 GMT</pubDate></item></channel></rss>

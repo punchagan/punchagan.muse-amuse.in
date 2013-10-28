@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (IRC)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/irc.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Some fun from #org-mode</title><link>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (IRC)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/irc.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Some fun from #org-mode</title><link>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</link><description>&lt;p&gt;
 This is a conversation from #org-mode, published without
 permission from &lt;code&gt;plovs&lt;/code&gt;, &lt;code&gt;BerntH&lt;/code&gt; and &lt;code&gt;bremner&lt;/code&gt;. If any of you
 want any of the content removed, I will do so.
@@ -113,7 +113,7 @@ want any of the content removed, I will do so.
 &lt;p&gt;
 &amp;lt;punchagan&amp;gt; I hope you don't mind, if I make this anecdote public?
 &lt;/p&gt;
-&lt;/blockquote&gt;</description><author></author><category>IRC</category><category>emacs</category><category>note</category><category>org2blog</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</guid><pubDate>Sat, 02 Oct 2010 20:26:00 GMT</pubDate></item><item><title>A sabbatical</title><link>http://punchagan.muse-amuse.in/posts/a-sabbatical.html</link><description>&lt;p&gt;
+&lt;/blockquote&gt;</description><category>IRC</category><category>emacs</category><category>note</category><category>org2blog</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</guid><pubDate>Sat, 02 Oct 2010 20:26:00 GMT</pubDate></item><item><title>A sabbatical</title><link>http://punchagan.muse-amuse.in/posts/a-sabbatical.html</link><description>&lt;p&gt;
 This post, is a different one in a couple of ways.
 &lt;/p&gt;
 
@@ -154,7 +154,7 @@ Chaitu - Poetic Paradigm
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>IRC</category><category>blab</category><category>emacs</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/a-sabbatical.html</guid><pubDate>Fri, 04 Jul 2008 19:33:00 GMT</pubDate></item><item><title>Lafoot or Lafoobot!</title><link>http://punchagan.muse-amuse.in/posts/lafoot-or-lafoobot.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>IRC</category><category>blab</category><category>emacs</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/a-sabbatical.html</guid><pubDate>Fri, 04 Jul 2008 19:33:00 GMT</pubDate></item><item><title>Lafoot or Lafoobot!</title><link>http://punchagan.muse-amuse.in/posts/lafoot-or-lafoobot.html</link><description>&lt;p&gt;
 Summer'08! I'm at home, doing nothing practically. :| No
 Internships, No Projects, No GRE plans (a little pushing for GRE
 has just started from the junta around.)
@@ -204,4 +204,4 @@ why) Hoping to have some more action this summer!
 &lt;p&gt;
 PS: There's a Big discussion presently on whether lafoobot is a he
 or a she. ;) What do you think?
-&lt;/p&gt;</description><author></author><category>IRC</category><category>lafootgiri</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/lafoot-or-lafoobot.html</guid><pubDate>Mon, 26 May 2008 16:39:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>IRC</category><category>lafootgiri</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/lafoot-or-lafoobot.html</guid><pubDate>Mon, 26 May 2008 16:39:00 GMT</pubDate></item></channel></rss>

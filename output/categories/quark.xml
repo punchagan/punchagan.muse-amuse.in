@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (quark)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/quark.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Post-Q,W,A Post</title><link>http://punchagan.muse-amuse.in/posts/post-qwa-post.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (quark)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/quark.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Post-Q,W,A Post</title><link>http://punchagan.muse-amuse.in/posts/post-qwa-post.html</link><description>&lt;p&gt;
 Back again with another khichdi of a post.
 &lt;/p&gt;
 
@@ -113,7 +113,7 @@ lazier or because of something else.
 &lt;li&gt;I don't like posting accounts of events from the recent/distant
 past, but I'm doing it just to prevent my blog's death.
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>blab</category><category>fest</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/post-qwa-post.html</guid><pubDate>Sun, 23 Mar 2008 12:17:00 GMT</pubDate></item><item><title>Quark'08 !</title><link>http://punchagan.muse-amuse.in/posts/quark08.html</link><description></description><author></author><category>fest</category><category>ology</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/quark08.html</guid><pubDate>Mon, 11 Feb 2008 02:28:00 GMT</pubDate></item><item><title>Life "In-gen"</title><link>http://punchagan.muse-amuse.in/posts/life-in-gen.html</link><description>&lt;p&gt;
+&lt;/ul&gt;</description><category>blab</category><category>fest</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/post-qwa-post.html</guid><pubDate>Sun, 23 Mar 2008 12:17:00 GMT</pubDate></item><item><title>Quark'08 !</title><link>http://punchagan.muse-amuse.in/posts/quark08.html</link><description></description><category>fest</category><category>ology</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/quark08.html</guid><pubDate>Mon, 11 Feb 2008 02:28:00 GMT</pubDate></item><item><title>Life "In-gen"</title><link>http://punchagan.muse-amuse.in/posts/life-in-gen.html</link><description>&lt;p&gt;
 Another post, with nothing concrete to say…
 &lt;/p&gt;
 
@@ -173,7 +173,7 @@ aren't Things…
 &lt;div class="figure"&gt;
 &lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/bestthingsinlife.jpg" alt="bestthingsinlife.jpg"&gt;
 &lt;/p&gt;
-&lt;/div&gt;</description><author></author><category>blab</category><category>exams</category><category>lafootgiri</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/life-in-gen.html</guid><pubDate>Wed, 21 Nov 2007 17:37:00 GMT</pubDate></item><item><title>Revelations....</title><link>http://punchagan.muse-amuse.in/posts/revelations.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>blab</category><category>exams</category><category>lafootgiri</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/life-in-gen.html</guid><pubDate>Wed, 21 Nov 2007 17:37:00 GMT</pubDate></item><item><title>Revelations....</title><link>http://punchagan.muse-amuse.in/posts/revelations.html</link><description>&lt;p&gt;
 Revelations..Revelations…Revelations.
 &lt;/p&gt;
 
@@ -235,7 +235,7 @@ prepared mind –Louis Pasteur
 &lt;p&gt;
 Quotes are nothing but inspiration for the uninspired.  – Richard
 Kemph
-&lt;/p&gt;</description><author></author><category>blab</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/revelations.html</guid><pubDate>Sun, 18 Mar 2007 18:46:00 GMT</pubDate></item><item><title>Quark 07</title><link>http://punchagan.muse-amuse.in/posts/quark-07.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/revelations.html</guid><pubDate>Sun, 18 Mar 2007 18:46:00 GMT</pubDate></item><item><title>Quark 07</title><link>http://punchagan.muse-amuse.in/posts/quark-07.html</link><description>&lt;p&gt;
 This post is to promote QUARK'07… This post is here… little
 due to my desire.. and almost totally bcos somebody [the ppl here
 at coll..] expect "us" to do it..
@@ -260,4 +260,4 @@ and… blocks coming up too :(…
 
 &lt;p&gt;
 [But why Blogspot???]
-&lt;/p&gt;</description><author></author><category>fest</category><category>ology</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/quark-07.html</guid><pubDate>Mon, 05 Mar 2007 19:28:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>fest</category><category>ology</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/quark-07.html</guid><pubDate>Mon, 05 Mar 2007 19:28:00 GMT</pubDate></item></channel></rss>

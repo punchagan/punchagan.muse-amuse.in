@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (linux)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/linux.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>numpy, pacman and me</title><link>http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (linux)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/linux.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>numpy, pacman and me</title><link>http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html</link><description>&lt;p&gt;
 I'm now officially a part of the Arch Linux community! Arch Linux
 is a lightweight and flexible Linux® distribution that tries to
 Keep It Simple.
@@ -39,4 +39,4 @@ the sparks.
 PS: I'm using Arch with Openbox. It's neat! PPS: org-mode is
 really awesome! It's a world in itself. life in plain text,
 truly!]
-&lt;/p&gt;</description><author></author><category>linux</category><category>numpy</category><category>ology</category><category>orgmode</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html</guid><pubDate>Sun, 31 Jan 2010 01:14:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>linux</category><category>numpy</category><category>ology</category><category>orgmode</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html</guid><pubDate>Sun, 31 Jan 2010 01:14:00 GMT</pubDate></item></channel></rss>

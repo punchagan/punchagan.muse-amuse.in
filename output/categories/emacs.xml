@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (emacs)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/emacs.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Org-mode Workshop</title><link>http://punchagan.muse-amuse.in/posts/org-mode-workshop.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (emacs)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/emacs.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Org-mode Workshop</title><link>http://punchagan.muse-amuse.in/posts/org-mode-workshop.html</link><description>&lt;p&gt;
 Well, I'm not sure if it's worth writing about.  I conducted my
 first org-mode workshop along with Prof. Venkatesh Choppella at
 IIIT-Hyderabad.  It was a 3 hour demo+talk kind of a thing, with a
@@ -31,7 +31,7 @@ one of the participants, gets hooked to Org-mode.
 
 &lt;p&gt;
 The talk outline is here.
-&lt;/p&gt;</description><author></author><category>emacs</category><category>hyderabad</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/org-mode-workshop.html</guid><pubDate>Wed, 22 Jun 2011 21:04:00 GMT</pubDate></item><item><title>Git powered wikis improved: My bit</title><link>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>emacs</category><category>hyderabad</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/org-mode-workshop.html</guid><pubDate>Wed, 22 Jun 2011 21:04:00 GMT</pubDate></item><item><title>Git powered wikis improved: My bit</title><link>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</link><description>&lt;p&gt;
 I accidentally came across the blog-post Git-powered wikis
 improved - GitHub. And this particular paragraph caught my
 eye:
@@ -64,7 +64,7 @@ been accepted.  :)
 &lt;p&gt;
 If not anything more, I hope, at least a couple of curious people
 will explore org-mode and find it useful.
-&lt;/p&gt;</description><author></author><category>code</category><category>contribute</category><category>emacs</category><category>foss</category><category>git</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</guid><pubDate>Fri, 04 Feb 2011 17:55:00 GMT</pubDate></item><item><title>CHAGANTI 635888 Emacs</title><link>http://punchagan.muse-amuse.in/posts/chaganti-635888-emacs.html</link><description>&lt;blockquote&gt;
+&lt;/p&gt;</description><category>code</category><category>contribute</category><category>emacs</category><category>foss</category><category>git</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</guid><pubDate>Fri, 04 Feb 2011 17:55:00 GMT</pubDate></item><item><title>CHAGANTI 635888 Emacs</title><link>http://punchagan.muse-amuse.in/posts/chaganti-635888-emacs.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;
 Puneeth Chaganti, hereby agrees as follows:
 &lt;/p&gt;
@@ -81,7 +81,7 @@ program code.
 &lt;p&gt;
 Yay! I can now write code, that can go into Org-mode and Emacs!
 I'm looking forward to this!
-&lt;/p&gt;</description><author></author><category>contribute</category><category>emacs</category><category>fsf</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/chaganti-635888-emacs.html</guid><pubDate>Thu, 03 Feb 2011 03:46:00 GMT</pubDate></item><item><title>Why I like Org as a markup</title><link>http://punchagan.muse-amuse.in/posts/why-i-like-org-as-a-markup.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>contribute</category><category>emacs</category><category>fsf</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/chaganti-635888-emacs.html</guid><pubDate>Thu, 03 Feb 2011 03:46:00 GMT</pubDate></item><item><title>Why I like Org as a markup</title><link>http://punchagan.muse-amuse.in/posts/why-i-like-org-as-a-markup.html</link><description>&lt;p&gt;
 Org-mode, as a mode, is obviously awesome.  The ability to move
 around whole blocks of text, for re-organizing documents and the
 usability of tables are just two brilliant features.
@@ -95,7 +95,7 @@ your headings are, what level your current sub-heading is at, etc.
 org-addict. ;)).  With org-mode it's so intuitive!  It's so easy
 to find out, with just one quick look!  I don't think any other
 markup has this coolness! Org-mode FTW!
-&lt;/p&gt;</description><author></author><category>emacs</category><category>orgmode</category><category>writing</category><guid>http://punchagan.muse-amuse.in/posts/why-i-like-org-as-a-markup.html</guid><pubDate>Wed, 12 Jan 2011 18:00:00 GMT</pubDate></item><item><title>Pandoc can now do Org</title><link>http://punchagan.muse-amuse.in/posts/pandoc-can-now-do-org.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>emacs</category><category>orgmode</category><category>writing</category><guid>http://punchagan.muse-amuse.in/posts/why-i-like-org-as-a-markup.html</guid><pubDate>Wed, 12 Jan 2011 18:00:00 GMT</pubDate></item><item><title>Pandoc can now do Org</title><link>http://punchagan.muse-amuse.in/posts/pandoc-can-now-do-org.html</link><description>&lt;p&gt;
 Pandoc is a haskell library and a command line tool, that can
 convert markup from one to another and it does it pretty well.
 Until now it supported quite a few markups, but not orgmode.  But
@@ -123,7 +123,7 @@ writer.  :)
 
 &lt;p&gt;
 You can get the latest version from here
-&lt;/p&gt;</description><author></author><category>emacs</category><category>haskell</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/pandoc-can-now-do-org.html</guid><pubDate>Mon, 06 Dec 2010 12:52:00 GMT</pubDate></item><item><title>Some fun from #org-mode</title><link>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>emacs</category><category>haskell</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/pandoc-can-now-do-org.html</guid><pubDate>Mon, 06 Dec 2010 12:52:00 GMT</pubDate></item><item><title>Some fun from #org-mode</title><link>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</link><description>&lt;p&gt;
 This is a conversation from #org-mode, published without
 permission from &lt;code&gt;plovs&lt;/code&gt;, &lt;code&gt;BerntH&lt;/code&gt; and &lt;code&gt;bremner&lt;/code&gt;. If any of you
 want any of the content removed, I will do so.
@@ -237,7 +237,7 @@ want any of the content removed, I will do so.
 &lt;p&gt;
 &amp;lt;punchagan&amp;gt; I hope you don't mind, if I make this anecdote public?
 &lt;/p&gt;
-&lt;/blockquote&gt;</description><author></author><category>IRC</category><category>emacs</category><category>note</category><category>org2blog</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</guid><pubDate>Sat, 02 Oct 2010 20:26:00 GMT</pubDate></item><item><title>A couple of counting functions</title><link>http://punchagan.muse-amuse.in/posts/a-couple-of-counting-functions.html</link><description>&lt;p&gt;
+&lt;/blockquote&gt;</description><category>IRC</category><category>emacs</category><category>note</category><category>org2blog</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</guid><pubDate>Sat, 02 Oct 2010 20:26:00 GMT</pubDate></item><item><title>A couple of counting functions</title><link>http://punchagan.muse-amuse.in/posts/a-couple-of-counting-functions.html</link><description>&lt;p&gt;
 I had a strict character limit of 180 chars for something I was
 writing. I just wrote a simple function to count characters in a
 region or a buffer. Another function to count the words.
@@ -269,7 +269,7 @@ region or a buffer. Another function to count the words.
 	(setq count (1+ count))))
     (message (int-to-string count))))
 &lt;/pre&gt;
-&lt;/div&gt;</description><author></author><category>code</category><category>elisp</category><category>emacs</category><guid>http://punchagan.muse-amuse.in/posts/a-couple-of-counting-functions.html</guid><pubDate>Fri, 17 Sep 2010 19:40:00 GMT</pubDate></item><item><title>Advice - Programming in Elisp</title><link>http://punchagan.muse-amuse.in/posts/advice-programming-in-elisp.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>code</category><category>elisp</category><category>emacs</category><guid>http://punchagan.muse-amuse.in/posts/a-couple-of-counting-functions.html</guid><pubDate>Fri, 17 Sep 2010 19:40:00 GMT</pubDate></item><item><title>Advice - Programming in Elisp</title><link>http://punchagan.muse-amuse.in/posts/advice-programming-in-elisp.html</link><description>&lt;p&gt;
 Below is a mail sent by Eric Schulte to the org-mode mailing list
 answering a query on how to write elisp for org-mode. I am
 reproducing it here, since it is useful advice for me. The actual
@@ -326,7 +326,7 @@ although I haven't used it myself.
 &lt;p&gt;
 Hope this helps.  Happy Hacking – Eric
 &lt;/p&gt;
-&lt;hr&gt;</description><author></author><category>advice</category><category>emacs</category><category>note</category><category>programming</category><guid>http://punchagan.muse-amuse.in/posts/advice-programming-in-elisp.html</guid><pubDate>Fri, 06 Aug 2010 14:37:00 GMT</pubDate></item><item><title>Refile to date-tree</title><link>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</link><description>&lt;p&gt;
+&lt;hr&gt;</description><category>advice</category><category>emacs</category><category>note</category><category>programming</category><guid>http://punchagan.muse-amuse.in/posts/advice-programming-in-elisp.html</guid><pubDate>Fri, 06 Aug 2010 14:37:00 GMT</pubDate></item><item><title>Refile to date-tree</title><link>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</link><description>&lt;p&gt;
 Useful to refile notes to the journal file, which is a
 date-tree. &lt;code&gt;org-refile&lt;/code&gt; isn't convenient to refile stuff to a
 date-tree.
@@ -377,7 +377,7 @@ date-tree.
 
 &lt;p&gt;
 Enjoy!
-&lt;/p&gt;</description><author></author><category>code</category><category>elisp</category><category>emacs</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</guid><pubDate>Fri, 30 Jul 2010 05:33:00 GMT</pubDate></item><item><title>Vimperator and Firemacs!</title><link>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>code</category><category>elisp</category><category>emacs</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</guid><pubDate>Fri, 30 Jul 2010 05:33:00 GMT</pubDate></item><item><title>Vimperator and Firemacs!</title><link>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</link><description>&lt;p&gt;
  For the uninitiated, vimperator is an emacs plugin to get Firefox
 working with vim keybindings and firemacs &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; is for emacs keybindings.
 &lt;/p&gt;
@@ -414,4 +414,4 @@ Key-bindings are a religious thing, in the world of editors!
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>emacs</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</guid><pubDate>Wed, 28 Jul 2010 16:38:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>emacs</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</guid><pubDate>Wed, 28 Jul 2010 16:38:00 GMT</pubDate></item></channel></rss>

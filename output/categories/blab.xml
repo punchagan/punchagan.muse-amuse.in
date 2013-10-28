@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (blab)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/blab.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Unread (8,762)</title><link>http://punchagan.muse-amuse.in/posts/unread-8762.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (blab)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/blab.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Unread (8,762)</title><link>http://punchagan.muse-amuse.in/posts/unread-8762.html</link><description>&lt;p&gt;
 I am unread.  Unlike you, who classify yourselves as well-read or
 not, I am classified as unread or not.  Well, you could call me
 not well-read too, I guess.  I was looked at once, my innards
@@ -32,7 +32,7 @@ attention I deserved, today!  Reply, ASAP!
 &lt;p&gt;
 PS: Apologies for all those emails that are still starred and
 unread, in my Inbox…
-&lt;/p&gt;</description><author></author><category>blab</category><category>fiction</category><category>wait</category><guid>http://punchagan.muse-amuse.in/posts/unread-8762.html</guid><pubDate>Mon, 03 Jun 2013 20:46:00 GMT</pubDate></item><item><title>Who I am</title><link>http://punchagan.muse-amuse.in/posts/who-i-am.html</link><description>&lt;p class="verse"&gt;
+&lt;/p&gt;</description><category>blab</category><category>fiction</category><category>wait</category><guid>http://punchagan.muse-amuse.in/posts/unread-8762.html</guid><pubDate>Mon, 03 Jun 2013 20:46:00 GMT</pubDate></item><item><title>Who I am</title><link>http://punchagan.muse-amuse.in/posts/who-i-am.html</link><description>&lt;p class="verse"&gt;
 I'm not the body that dies&lt;br&gt;
 on missing a beat or one breath.&lt;br&gt;
 I'm not the mind, so fickle,&lt;br&gt;
@@ -55,7 +55,7 @@ and all of it that I spread.&lt;br&gt;
 &lt;br&gt;
 Don't cry, when I die,&lt;br&gt;
 for I never really will.&lt;br&gt;
-&lt;/p&gt;</description><author></author><category>blab</category><category>life</category><category>poem</category><guid>http://punchagan.muse-amuse.in/posts/who-i-am.html</guid><pubDate>Mon, 04 Oct 2010 19:31:00 GMT</pubDate></item><item><title>A GNU and a friend</title><link>http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>life</category><category>poem</category><guid>http://punchagan.muse-amuse.in/posts/who-i-am.html</guid><pubDate>Mon, 04 Oct 2010 19:31:00 GMT</pubDate></item><item><title>A GNU and a friend</title><link>http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html</link><description>&lt;p&gt;
 I now have a GNU! I bought it (a GNU soft toy) in memory of my friend
 swathanthran from #emacs-in.  RIP swathanthran
 &lt;/p&gt;
@@ -79,7 +79,7 @@ Happy Hacking!
 &lt;p&gt;
 ps: I just hope and pray nobody else does anything as stupid and
 shocking as what swathanthran did.
-&lt;/p&gt;</description><author></author><category>blab</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html</guid><pubDate>Tue, 07 Sep 2010 00:50:00 GMT</pubDate></item><item><title>org2blog on the web</title><link>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html</guid><pubDate>Tue, 07 Sep 2010 00:50:00 GMT</pubDate></item><item><title>org2blog on the web</title><link>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</link><description>&lt;p&gt;
 Well, it's been a week of lull on my blog.  Not that I'm very
 busy.  But, just didn't have anything to post.  I was feeling jobless
 today and searched the web for org2blog users.  Here is what I found.
@@ -112,7 +112,7 @@ today and searched the web for org2blog users.  Here is what I found.
 
 &lt;li&gt;Marcel van der Boom – StatusNet
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>blab</category><category>list</category><category>ology</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</guid><pubDate>Sun, 29 Aug 2010 20:57:00 GMT</pubDate></item><item><title>Another 60 ...</title><link>http://punchagan.muse-amuse.in/posts/another-60.html</link><description>&lt;p&gt;
+&lt;/ul&gt;</description><category>blab</category><category>list</category><category>ology</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</guid><pubDate>Sun, 29 Aug 2010 20:57:00 GMT</pubDate></item><item><title>Another 60 ...</title><link>http://punchagan.muse-amuse.in/posts/another-60.html</link><description>&lt;p&gt;
 &lt;del&gt;I'd&lt;/del&gt; We had been on a 60 km long trip today. My second one, and
 Ritesh's first. The map of our route is here. On the whole the ride
 was wonderful! A thoroughly enjoyable one. It was near perfect, with
@@ -234,7 +234,7 @@ photos were on the Godbander Road.
 &lt;div class="figure"&gt;
 &lt;p&gt;&lt;img src="http://punchagan.files.wordpress.com/2010/07/dsc02898.jpg" alt="dsc02898.jpg"&gt;
 &lt;/p&gt;
-&lt;/div&gt;</description><author></author><category>blab</category><category>cycling</category><category>herohawk</category><category>mumbai</category><category>nomadic</category><guid>http://punchagan.muse-amuse.in/posts/another-60.html</guid><pubDate>Sun, 18 Jul 2010 18:00:00 GMT</pubDate></item><item><title>I'm back</title><link>http://punchagan.muse-amuse.in/posts/im-back.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>blab</category><category>cycling</category><category>herohawk</category><category>mumbai</category><category>nomadic</category><guid>http://punchagan.muse-amuse.in/posts/another-60.html</guid><pubDate>Sun, 18 Jul 2010 18:00:00 GMT</pubDate></item><item><title>I'm back</title><link>http://punchagan.muse-amuse.in/posts/im-back.html</link><description>&lt;p&gt;
 After a short break, I'm back to blogging!
 A few things have changed meanwhile. A lot haven't.
 &lt;/p&gt;
@@ -276,7 +276,7 @@ by having their resumes and letters of recommendations and other
 client that I hacked up. Emacs and Org-mode all the way! This is the
 first post by me (and probably anybody) from org2blog!
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>blab</category><category>first</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/im-back.html</guid><pubDate>Sat, 17 Jul 2010 18:00:00 GMT</pubDate></item><item><title>Hibernation</title><link>http://punchagan.muse-amuse.in/posts/hibernation.html</link><description>&lt;p&gt;
+&lt;/ul&gt;</description><category>blab</category><category>first</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/im-back.html</guid><pubDate>Sat, 17 Jul 2010 18:00:00 GMT</pubDate></item><item><title>Hibernation</title><link>http://punchagan.muse-amuse.in/posts/hibernation.html</link><description>&lt;p&gt;
 I, Noetic Nought, shall remain shut for the next few months.
 &lt;/p&gt;
 
@@ -288,7 +288,7 @@ me. I hope, he does.
 
 &lt;p&gt;
 Bye all.
-&lt;/p&gt;</description><author></author><category>blab</category><guid>http://punchagan.muse-amuse.in/posts/hibernation.html</guid><pubDate>Mon, 26 Apr 2010 22:34:00 GMT</pubDate></item><item><title>Blogs, Feeds and Readers</title><link>http://punchagan.muse-amuse.in/posts/blogs-feeds-and-readers.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><guid>http://punchagan.muse-amuse.in/posts/hibernation.html</guid><pubDate>Mon, 26 Apr 2010 22:34:00 GMT</pubDate></item><item><title>Blogs, Feeds and Readers</title><link>http://punchagan.muse-amuse.in/posts/blogs-feeds-and-readers.html</link><description>&lt;p&gt;
 I want to be a part of the "reader-space" of blogs or web-sites
 rather than a part of the Google-reader ecosystem.
 &lt;/p&gt;
@@ -331,7 +331,7 @@ remembering, it's not worth reading.
  mine). But then, there are blogs, that have over 1000 comments on
  a single post, too. Should the above quote could be changed to
  read - "If it's not worth reading, it's not worth remembering." ?
-&lt;/p&gt;</description><author></author><category>blab</category><guid>http://punchagan.muse-amuse.in/posts/blogs-feeds-and-readers.html</guid><pubDate>Tue, 20 Apr 2010 22:29:00 GMT</pubDate></item><item><title>Just another bunch</title><link>http://punchagan.muse-amuse.in/posts/just-another-bunch.html</link><description>&lt;p class="verse"&gt;
+&lt;/p&gt;</description><category>blab</category><guid>http://punchagan.muse-amuse.in/posts/blogs-feeds-and-readers.html</guid><pubDate>Tue, 20 Apr 2010 22:29:00 GMT</pubDate></item><item><title>Just another bunch</title><link>http://punchagan.muse-amuse.in/posts/just-another-bunch.html</link><description>&lt;p class="verse"&gt;
 Come spring -&lt;br&gt;
 a fresh lease of green&lt;br&gt;
 drapes the bare branches.&lt;br&gt;
@@ -358,7 +358,7 @@ Until silence falls upon, when all&lt;br&gt;
 of them are gone. The tree, knowing well,&lt;br&gt;
 watches on - it won't be long before&lt;br&gt;
 a new bunch springs up to sing the song.&lt;br&gt;
-&lt;/p&gt;</description><author></author><category>blab</category><category>life</category><category>poem</category><guid>http://punchagan.muse-amuse.in/posts/just-another-bunch.html</guid><pubDate>Thu, 18 Mar 2010 00:41:00 GMT</pubDate></item><item><title>Super Power Play</title><link>http://punchagan.muse-amuse.in/posts/super-power-play.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>life</category><category>poem</category><guid>http://punchagan.muse-amuse.in/posts/just-another-bunch.html</guid><pubDate>Thu, 18 Mar 2010 00:41:00 GMT</pubDate></item><item><title>Super Power Play</title><link>http://punchagan.muse-amuse.in/posts/super-power-play.html</link><description>&lt;p&gt;
 My first Cricket match in a stadium. I regret that it was a
 T-20. I'm happy, though, to have got the darshan of bhaiyya a.k.a
 Sachin. Also, I did enjoy the energy of being in a stadium.
@@ -413,4 +413,4 @@ this season.
 &lt;p&gt;
 ps: Trying out new wordpress features of Twitter, Facebook
 announces.
-&lt;/p&gt;</description><author></author><category>blab</category><category>cricket</category><category>money</category><guid>http://punchagan.muse-amuse.in/posts/super-power-play.html</guid><pubDate>Sat, 13 Mar 2010 17:52:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>blab</category><category>cricket</category><category>money</category><guid>http://punchagan.muse-amuse.in/posts/super-power-play.html</guid><pubDate>Sat, 13 Mar 2010 17:52:00 GMT</pubDate></item></channel></rss>

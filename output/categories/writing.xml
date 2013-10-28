@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (writing)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/writing.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:50 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Why I like Org as a markup</title><link>http://punchagan.muse-amuse.in/posts/why-i-like-org-as-a-markup.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (writing)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/writing.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Why I like Org as a markup</title><link>http://punchagan.muse-amuse.in/posts/why-i-like-org-as-a-markup.html</link><description>&lt;p&gt;
 Org-mode, as a mode, is obviously awesome.  The ability to move
 around whole blocks of text, for re-organizing documents and the
 usability of tables are just two brilliant features.
@@ -13,4 +13,4 @@ your headings are, what level your current sub-heading is at, etc.
 org-addict. ;)).  With org-mode it's so intuitive!  It's so easy
 to find out, with just one quick look!  I don't think any other
 markup has this coolness! Org-mode FTW!
-&lt;/p&gt;</description><author></author><category>emacs</category><category>orgmode</category><category>writing</category><guid>http://punchagan.muse-amuse.in/posts/why-i-like-org-as-a-markup.html</guid><pubDate>Wed, 12 Jan 2011 18:00:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>emacs</category><category>orgmode</category><category>writing</category><guid>http://punchagan.muse-amuse.in/posts/why-i-like-org-as-a-markup.html</guid><pubDate>Wed, 12 Jan 2011 18:00:00 GMT</pubDate></item></channel></rss>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (internet)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/internet.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Error: Missing one hebrew character</title><link>http://punchagan.muse-amuse.in/posts/error-missing-one-hebrew-character.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (internet)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/internet.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Error: Missing one hebrew character</title><link>http://punchagan.muse-amuse.in/posts/error-missing-one-hebrew-character.html</link><description>&lt;p&gt;
 Dear owner-of-a-random-web-startup,
 &lt;/p&gt;
 
@@ -18,7 +18,7 @@ show the arbitrary rules you enforce on me, at the login prompt too!
 &lt;p&gt;
 Sincerely,
 A frustrated-web-monkey
-&lt;/p&gt;</description><author></author><category>internet</category><category>passwords</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/error-missing-one-hebrew-character.html</guid><pubDate>Wed, 21 Nov 2012 21:01:00 GMT</pubDate></item><item><title>Monikers and the Internet</title><link>http://punchagan.muse-amuse.in/posts/monikers-and-the-internet.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>internet</category><category>passwords</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/error-missing-one-hebrew-character.html</guid><pubDate>Wed, 21 Nov 2012 21:01:00 GMT</pubDate></item><item><title>Monikers and the Internet</title><link>http://punchagan.muse-amuse.in/posts/monikers-and-the-internet.html</link><description>&lt;p&gt;
 Like most bloggers, I keep looking at my blogs hits once in a
 while. (Sometimes inspires to write better; and more often.) The
 post that gets most hits these days is my post on mailman,
@@ -50,7 +50,7 @@ not. I don't have much to hide under the covers. Let the world see
 
 &lt;p&gt;
 Peace.
-&lt;/p&gt;</description><author></author><category>internet</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/monikers-and-the-internet.html</guid><pubDate>Sat, 27 Feb 2010 18:28:00 GMT</pubDate></item><item><title>The 'Academic' Internet</title><link>http://punchagan.muse-amuse.in/posts/the-academic-internet.html</link><description>&lt;blockquote&gt;
+&lt;/p&gt;</description><category>internet</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/monikers-and-the-internet.html</guid><pubDate>Sat, 27 Feb 2010 18:28:00 GMT</pubDate></item><item><title>The 'Academic' Internet</title><link>http://punchagan.muse-amuse.in/posts/the-academic-internet.html</link><description>&lt;blockquote&gt;
 &lt;p&gt;
 &lt;b&gt;Notice for the Internet Usage&lt;/b&gt;
 &lt;/p&gt;
@@ -142,7 +142,7 @@ I appreciate the efforts being made to improve the network
 situation here and also help the students get the most (
 'academically' ) out of their college experience, but I feel the
 situation deserves more careful handling.
-&lt;/p&gt;</description><author></author><category>internet</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/the-academic-internet.html</guid><pubDate>Fri, 10 Oct 2008 22:39:00 GMT</pubDate></item><item><title>Mid-Term 'Psycho'Analysis</title><link>http://punchagan.muse-amuse.in/posts/mid-term-psychoanalysis.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>internet</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/the-academic-internet.html</guid><pubDate>Fri, 10 Oct 2008 22:39:00 GMT</pubDate></item><item><title>Mid-Term 'Psycho'Analysis</title><link>http://punchagan.muse-amuse.in/posts/mid-term-psychoanalysis.html</link><description>&lt;p&gt;
 Its been 10 days on my sabbatical. I have done reasonably well
 during the first week, but now its getting on my nerves. I have
 realized how addicted I am to chat, IRC and the Internet. I have
@@ -364,4 +364,4 @@ DF: Talk to you later.
 On a more serious note, the Internet has become an &lt;b&gt;Integral&lt;/b&gt; part
 of my life. I do sometimes think, a bit too much, but then…. the
 internet is "The Internet"!
-&lt;/p&gt;</description><author></author><category>blab</category><category>emacs</category><category>internet</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/mid-term-psychoanalysis.html</guid><pubDate>Tue, 15 Jul 2008 19:23:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>blab</category><category>emacs</category><category>internet</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/mid-term-psychoanalysis.html</guid><pubDate>Tue, 15 Jul 2008 19:23:00 GMT</pubDate></item></channel></rss>

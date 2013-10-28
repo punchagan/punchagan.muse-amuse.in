@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (ps)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/ps.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PS Ramblings</title><link>http://punchagan.muse-amuse.in/posts/ps-ramblings.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (ps)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/ps.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>PS Ramblings</title><link>http://punchagan.muse-amuse.in/posts/ps-ramblings.html</link><description>&lt;p&gt;
 Note: This post isn't of much use to others (may be the same with
 other posts too.. :P) Just a few ramblings of the 2 month stay @
 Delhi…. (allegedly doing a Project!)
@@ -58,7 +58,7 @@ one with it..
 
 &lt;p&gt;
 ps: there's a lot more… but it ain't coming up here..  :P
-&lt;/p&gt;</description><author></author><category>blab</category><category>ps</category><guid>http://punchagan.muse-amuse.in/posts/ps-ramblings.html</guid><pubDate>Wed, 18 Jul 2007 08:00:00 GMT</pubDate></item><item><title>Busy without Business...</title><link>http://punchagan.muse-amuse.in/posts/busy-without-business.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>ps</category><guid>http://punchagan.muse-amuse.in/posts/ps-ramblings.html</guid><pubDate>Wed, 18 Jul 2007 08:00:00 GMT</pubDate></item><item><title>Busy without Business...</title><link>http://punchagan.muse-amuse.in/posts/busy-without-business.html</link><description>&lt;p&gt;
 Yes, that's what my PS's been like.. It hasn't turned out to be as
 great a learning experience as one would imagine it to be..  [or
 atleast I hoped, it would be…] On the contrary, its turning out
@@ -115,7 +115,7 @@ described, and where you do not feel forced by a need to maintain
 your position in the organization, or financial support, or so on,
 to lose your integrity. May you have that freedom.
 &lt;/p&gt;
-&lt;/blockquote&gt;</description><author></author><category>blab</category><category>freedom</category><category>ps</category><guid>http://punchagan.muse-amuse.in/posts/busy-without-business.html</guid><pubDate>Sat, 30 Jun 2007 01:19:00 GMT</pubDate></item><item><title>Summer or Awe-TEM!! Whatever... Forever</title><link>http://punchagan.muse-amuse.in/posts/summer-or-awe-tem-whatever-forever.html</link><description>&lt;p&gt;
+&lt;/blockquote&gt;</description><category>blab</category><category>freedom</category><category>ps</category><guid>http://punchagan.muse-amuse.in/posts/busy-without-business.html</guid><pubDate>Sat, 30 Jun 2007 01:19:00 GMT</pubDate></item><item><title>Summer or Awe-TEM!! Whatever... Forever</title><link>http://punchagan.muse-amuse.in/posts/summer-or-awe-tem-whatever-forever.html</link><description>&lt;p&gt;
 Writing from Delhi, doing my PS at NPL! One would imagine, that I
 am here enjoying myself; that I am enjoying thoroughly the
 exposure I am getting to the world of Physics at a Research Level;
@@ -156,7 +156,7 @@ the training period, I don't mind doing any kind-of mechanical
 work, I don't mind not getting any results from my work,
 whatever… it doesn't matter any more. This one moment; that's
 all that matters.
-&lt;/p&gt;</description><author></author><category>blab</category><category>ology</category><category>ps</category><guid>http://punchagan.muse-amuse.in/posts/summer-or-awe-tem-whatever-forever.html</guid><pubDate>Wed, 13 Jun 2007 18:29:00 GMT</pubDate></item><item><title>The PS-1 Ballyhoo...</title><link>http://punchagan.muse-amuse.in/posts/the-ps-1-ballyhoo.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>ology</category><category>ps</category><guid>http://punchagan.muse-amuse.in/posts/summer-or-awe-tem-whatever-forever.html</guid><pubDate>Wed, 13 Jun 2007 18:29:00 GMT</pubDate></item><item><title>The PS-1 Ballyhoo...</title><link>http://punchagan.muse-amuse.in/posts/the-ps-1-ballyhoo.html</link><description>&lt;p&gt;
 PS stands for Practice School…
 &lt;/p&gt;
 
@@ -251,4 +251,4 @@ wheel.  – E.B.White&lt;/i&gt;
 &lt;p&gt;
 &lt;i&gt;Achievement is largely the product of steadily raising one's
 levels of aspiration and expectation.  – Jack Nicklaus&lt;/i&gt;
-&lt;/p&gt;</description><author></author><category>blab</category><category>ps</category><guid>http://punchagan.muse-amuse.in/posts/the-ps-1-ballyhoo.html</guid><pubDate>Fri, 06 Apr 2007 17:58:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>blab</category><category>ps</category><guid>http://punchagan.muse-amuse.in/posts/the-ps-1-ballyhoo.html</guid><pubDate>Fri, 06 Apr 2007 17:58:00 GMT</pubDate></item></channel></rss>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (ology)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/ology.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Augmented assignment in Python</title><link>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (ology)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/ology.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Augmented assignment in Python</title><link>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</link><description>&lt;p&gt;
 If you are new to &lt;code&gt;Python&lt;/code&gt;, you should probably stop reading here.
 But, if you have used &lt;code&gt;Python&lt;/code&gt; and &lt;code&gt;numpy&lt;/code&gt;, then read on. Before, that
 try these bits of code.
@@ -63,7 +63,7 @@ print a
 &lt;p&gt;
 The same thing is explained in this thread.  Also, Thanks to
 Bhanukiran for asking me this.
-&lt;/p&gt;</description><author></author><category>note</category><category>numpy</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</guid><pubDate>Mon, 04 Oct 2010 22:49:00 GMT</pubDate></item><item><title>A GNU and a friend</title><link>http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>numpy</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</guid><pubDate>Mon, 04 Oct 2010 22:49:00 GMT</pubDate></item><item><title>A GNU and a friend</title><link>http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html</link><description>&lt;p&gt;
 I now have a GNU! I bought it (a GNU soft toy) in memory of my friend
 swathanthran from #emacs-in.  RIP swathanthran
 &lt;/p&gt;
@@ -87,7 +87,7 @@ Happy Hacking!
 &lt;p&gt;
 ps: I just hope and pray nobody else does anything as stupid and
 shocking as what swathanthran did.
-&lt;/p&gt;</description><author></author><category>blab</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html</guid><pubDate>Tue, 07 Sep 2010 00:50:00 GMT</pubDate></item><item><title>org2blog on the web</title><link>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html</guid><pubDate>Tue, 07 Sep 2010 00:50:00 GMT</pubDate></item><item><title>org2blog on the web</title><link>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</link><description>&lt;p&gt;
 Well, it's been a week of lull on my blog.  Not that I'm very
 busy.  But, just didn't have anything to post.  I was feeling jobless
 today and searched the web for org2blog users.  Here is what I found.
@@ -120,7 +120,7 @@ today and searched the web for org2blog users.  Here is what I found.
 
 &lt;li&gt;Marcel van der Boom – StatusNet
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>blab</category><category>list</category><category>ology</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</guid><pubDate>Sun, 29 Aug 2010 20:57:00 GMT</pubDate></item><item><title>Vimperator and Firemacs!</title><link>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</link><description>&lt;p&gt;
+&lt;/ul&gt;</description><category>blab</category><category>list</category><category>ology</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</guid><pubDate>Sun, 29 Aug 2010 20:57:00 GMT</pubDate></item><item><title>Vimperator and Firemacs!</title><link>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</link><description>&lt;p&gt;
  For the uninitiated, vimperator is an emacs plugin to get Firefox
 working with vim keybindings and firemacs &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; is for emacs keybindings.
 &lt;/p&gt;
@@ -157,7 +157,7 @@ Key-bindings are a religious thing, in the world of editors!
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>emacs</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</guid><pubDate>Wed, 28 Jul 2010 16:38:00 GMT</pubDate></item><item><title>Sage Days 25, Mumbai, India</title><link>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</link><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
+&lt;/div&gt;</description><category>emacs</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</guid><pubDate>Wed, 28 Jul 2010 16:38:00 GMT</pubDate></item><item><title>Sage Days 25, Mumbai, India</title><link>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</link><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
 &lt;h2 id="sec-1"&gt;What is 'Sage Days'?&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;p&gt;
@@ -227,7 +227,7 @@ remotely interested in math and software for it!
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>event</category><category>math</category><category>ology</category><category>python</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</guid><pubDate>Wed, 21 Jul 2010 19:41:00 GMT</pubDate></item><item><title>talk at GNUnify' 10</title><link>http://punchagan.muse-amuse.in/posts/talk-at-gnunify-10.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>event</category><category>math</category><category>ology</category><category>python</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</guid><pubDate>Wed, 21 Jul 2010 19:41:00 GMT</pubDate></item><item><title>talk at GNUnify' 10</title><link>http://punchagan.muse-amuse.in/posts/talk-at-gnunify-10.html</link><description>&lt;p&gt;
 Shantanu and I conducted a workshop on Scipy at GNUnify '10. It
 was intended to be an introduction to Scipy and Numpy through
 Image processing. We expected an audience which was python
@@ -248,7 +248,7 @@ event to be better, though.
 &lt;p&gt;
 Slides and Images that we used.  Shantanu's post on the talk is
 here.
-&lt;/p&gt;</description><author></author><category>image_processing</category><category>ology</category><category>python</category><category>scipy</category><guid>http://punchagan.muse-amuse.in/posts/talk-at-gnunify-10.html</guid><pubDate>Sun, 28 Feb 2010 20:58:00 GMT</pubDate></item><item><title>Monikers and the Internet</title><link>http://punchagan.muse-amuse.in/posts/monikers-and-the-internet.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>image_processing</category><category>ology</category><category>python</category><category>scipy</category><guid>http://punchagan.muse-amuse.in/posts/talk-at-gnunify-10.html</guid><pubDate>Sun, 28 Feb 2010 20:58:00 GMT</pubDate></item><item><title>Monikers and the Internet</title><link>http://punchagan.muse-amuse.in/posts/monikers-and-the-internet.html</link><description>&lt;p&gt;
 Like most bloggers, I keep looking at my blogs hits once in a
 while. (Sometimes inspires to write better; and more often.) The
 post that gets most hits these days is my post on mailman,
@@ -280,7 +280,7 @@ not. I don't have much to hide under the covers. Let the world see
 
 &lt;p&gt;
 Peace.
-&lt;/p&gt;</description><author></author><category>internet</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/monikers-and-the-internet.html</guid><pubDate>Sat, 27 Feb 2010 18:28:00 GMT</pubDate></item><item><title>numpy, pacman and me</title><link>http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>internet</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/monikers-and-the-internet.html</guid><pubDate>Sat, 27 Feb 2010 18:28:00 GMT</pubDate></item><item><title>numpy, pacman and me</title><link>http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html</link><description>&lt;p&gt;
 I'm now officially a part of the Arch Linux community! Arch Linux
 is a lightweight and flexible Linux® distribution that tries to
 Keep It Simple.
@@ -320,7 +320,7 @@ the sparks.
 PS: I'm using Arch with Openbox. It's neat! PPS: org-mode is
 really awesome! It's a world in itself. life in plain text,
 truly!]
-&lt;/p&gt;</description><author></author><category>linux</category><category>numpy</category><category>ology</category><category>orgmode</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html</guid><pubDate>Sun, 31 Jan 2010 01:14:00 GMT</pubDate></item><item><title>Stress and us</title><link>http://punchagan.muse-amuse.in/posts/stress-and-us.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>linux</category><category>numpy</category><category>ology</category><category>orgmode</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html</guid><pubDate>Sun, 31 Jan 2010 01:14:00 GMT</pubDate></item><item><title>Stress and us</title><link>http://punchagan.muse-amuse.in/posts/stress-and-us.html</link><description>&lt;p&gt;
 &lt;i&gt;[Cross-posted on the FOSSEE Blog]&lt;/i&gt;
 &lt;/p&gt;
 
@@ -374,7 +374,7 @@ goes on!
 
 &lt;p&gt;
 Now, don't you think we deserve the SB's? ;)
-&lt;/p&gt;</description><author></author><category>blab</category><category>ology</category><category>stress</category><guid>http://punchagan.muse-amuse.in/posts/stress-and-us.html</guid><pubDate>Fri, 25 Sep 2009 03:36:00 GMT</pubDate></item><item><title>Postfix + Mailman for Multiple Domains.</title><link>http://punchagan.muse-amuse.in/posts/postfix-mailman-for-multiple-domains.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>ology</category><category>stress</category><guid>http://punchagan.muse-amuse.in/posts/stress-and-us.html</guid><pubDate>Fri, 25 Sep 2009 03:36:00 GMT</pubDate></item><item><title>Postfix + Mailman for Multiple Domains.</title><link>http://punchagan.muse-amuse.in/posts/postfix-mailman-for-multiple-domains.html</link><description>&lt;p&gt;
 Well, there are a hazaar tutorials on setting up Postfix and
 Mailman for Debian for a single domain. There were a few for doing
 that for multiple domains also, but nothing comprehensive, if I
@@ -451,4 +451,4 @@ that was already set-up.
 [Thanks to Shantanu and Vattam (and all the hazaar people using
 Postfix and Mailman and cared to document things for the sake of
 others, and of course Google)]
-&lt;/p&gt;</description><author></author><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/postfix-mailman-for-multiple-domains.html</guid><pubDate>Wed, 05 Aug 2009 01:23:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/postfix-mailman-for-multiple-domains.html</guid><pubDate>Wed, 05 Aug 2009 01:23:00 GMT</pubDate></item></channel></rss>

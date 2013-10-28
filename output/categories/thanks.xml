@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (thanks)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/thanks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>One Hundred</title><link>http://punchagan.muse-amuse.in/posts/one-hundred.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (thanks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/thanks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>One Hundred</title><link>http://punchagan.muse-amuse.in/posts/one-hundred.html</link><description>&lt;p&gt;
 The previous post, was the &lt;b&gt;One Hundredth&lt;/b&gt; post on this blog. As 9
 suggested, I just want to say Yay! and thank my readers!
 &lt;/p&gt;
@@ -105,7 +105,7 @@ Thanks to everybody who took the time to comment here.
 Special thanks to niku, Rini, and ntveem for inspiring me with their
 blogs. [All three of them have moved on to better things than
 blogging.]
-&lt;/p&gt;</description><author></author><category>note</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/one-hundred.html</guid><pubDate>Tue, 17 Aug 2010 20:18:00 GMT</pubDate></item><item><title>Thanks Sacha</title><link>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/one-hundred.html</guid><pubDate>Tue, 17 Aug 2010 20:18:00 GMT</pubDate></item><item><title>Thanks Sacha</title><link>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</link><description>&lt;p&gt;
 I just wanted to thank Sacha Chua for bearing with my newbie elisp
 code and trying out org2blog.
 &lt;/p&gt;
@@ -124,7 +124,7 @@ her request, but she was too quick for me! ;)
 
 &lt;p&gt;
 I'm loving it!
-&lt;/p&gt;</description><author></author><category>code</category><category>elisp</category><category>note</category><category>org2blog</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</guid><pubDate>Fri, 30 Jul 2010 06:59:00 GMT</pubDate></item><item><title>Andharu Mahanubhavule... Andariki Vandanamulu..</title><link>http://punchagan.muse-amuse.in/posts/andharu-mahanubhavule-andariki-vandanamulu.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>code</category><category>elisp</category><category>note</category><category>org2blog</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</guid><pubDate>Fri, 30 Jul 2010 06:59:00 GMT</pubDate></item><item><title>Andharu Mahanubhavule... Andariki Vandanamulu..</title><link>http://punchagan.muse-amuse.in/posts/andharu-mahanubhavule-andariki-vandanamulu.html</link><description>&lt;p&gt;
 There's a post already with 'exactly' this name…. by 9… here…
 But this post doesn't have much to do with his post… [or may be it does??]
 &lt;/p&gt;
@@ -210,7 +210,7 @@ spirit.  – Albert Schweitzer
 &lt;p&gt;
 Sometimes it not the wealth you have but what's inside you that
 others need.  – Anonymous
-&lt;/p&gt;</description><author></author><category>blab</category><category>life</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/andharu-mahanubhavule-andariki-vandanamulu.html</guid><pubDate>Tue, 27 Mar 2007 17:43:00 GMT</pubDate></item><item><title>Happy gNew Year!!</title><link>http://punchagan.muse-amuse.in/posts/happy-gnew-year.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>life</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/andharu-mahanubhavule-andariki-vandanamulu.html</guid><pubDate>Tue, 27 Mar 2007 17:43:00 GMT</pubDate></item><item><title>Happy gNew Year!!</title><link>http://punchagan.muse-amuse.in/posts/happy-gnew-year.html</link><description>&lt;p&gt;
 Hi! I'm a bit late…(courtesy:lightning quick network speeds
 @coll…{I started this post a couple of weeks back, at
 home… and its been rotting all this while, in my drafts!} ) [Its
@@ -300,4 +300,4 @@ The Hacker Ethic : Access to computers and anything which might
 teach you something about the way the world works should be
 unlimited and total. Always yield to the Hands-On Imperative! –
 Steven Levy's "Hackers : The Heroes of The Computer Revolution"
-&lt;/p&gt;</description><author></author><category>blab</category><category>lafootgiri</category><category>ology</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/happy-gnew-year.html</guid><pubDate>Mon, 01 Jan 2007 14:38:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>blab</category><category>lafootgiri</category><category>ology</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/happy-gnew-year.html</guid><pubDate>Mon, 01 Jan 2007 14:38:00 GMT</pubDate></item></channel></rss>

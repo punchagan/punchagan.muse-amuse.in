@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (science)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/science.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Best Practices for Scientific Computing</title><link>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (science)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/science.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Best Practices for Scientific Computing</title><link>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</link><description>&lt;p&gt;
 Shantanu and I gave a short talk titled "Software Carpentry for
 Scientists" for the graduate students of Chemical Engineering
 department, IISc, this Friday.  We gave a short introduction to
@@ -200,7 +200,7 @@ and when tackling particularly tricky problems
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>advice</category><category>programming</category><category>science</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</guid><pubDate>Mon, 24 Dec 2012 16:21:00 GMT</pubDate></item><item><title>Awe[ful] @ Science !!?!??!</title><link>http://punchagan.muse-amuse.in/posts/aweful-science.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>advice</category><category>programming</category><category>science</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</guid><pubDate>Mon, 24 Dec 2012 16:21:00 GMT</pubDate></item><item><title>Awe[ful] @ Science !!?!??!</title><link>http://punchagan.muse-amuse.in/posts/aweful-science.html</link><description>&lt;p&gt;
 I was at the B.M Birla Science Musuem yesterday… it was calm
 with no one in there.. the only people i could see were the
 sweepers and cleaners.. the place was dull and lifeless… I dint
@@ -292,4 +292,4 @@ Rabindranath Tagore
 &lt;p&gt;
 &lt;i&gt;Science is a wonderful thing if one does not have to earn one's
 living at it&lt;/i&gt; –Albert Einstein
-&lt;/p&gt;</description><author></author><category>blab</category><category>kids</category><category>life</category><category>ology</category><category>science</category><guid>http://punchagan.muse-amuse.in/posts/aweful-science.html</guid><pubDate>Thu, 21 Dec 2006 18:20:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>blab</category><category>kids</category><category>life</category><category>ology</category><category>science</category><guid>http://punchagan.muse-amuse.in/posts/aweful-science.html</guid><pubDate>Thu, 21 Dec 2006 18:20:00 GMT</pubDate></item></channel></rss>

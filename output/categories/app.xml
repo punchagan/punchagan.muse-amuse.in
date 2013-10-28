@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (app)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/app.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>GitHub Cue: Recommendations for GitHub Repos</title><link>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (app)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/app.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>GitHub Cue: Recommendations for GitHub Repos</title><link>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</link><description>&lt;p&gt;
 If you aren't already aware of it, I'm one of those people who
 goes around saying, "GitHub is my Facebook".  I spend quite a lot
 of time on GitHub, browsing the work of various people, looking at
@@ -46,4 +46,4 @@ think of.
 
 &lt;p&gt;
 I would appreciate any further ideas and suggestions.  Thanks!
-&lt;/p&gt;</description><author></author><category>app</category><category>chrome</category><category>code</category><category>github</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</guid><pubDate>Fri, 05 Aug 2011 18:51:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>app</category><category>chrome</category><category>code</category><category>github</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</guid><pubDate>Fri, 05 Aug 2011 18:51:00 GMT</pubDate></item></channel></rss>

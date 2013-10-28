@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (advice)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/advice.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Best Practices for Scientific Computing</title><link>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (advice)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/advice.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Best Practices for Scientific Computing</title><link>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</link><description>&lt;p&gt;
 Shantanu and I gave a short talk titled "Software Carpentry for
 Scientists" for the graduate students of Chemical Engineering
 department, IISc, this Friday.  We gave a short introduction to
@@ -200,7 +200,7 @@ and when tackling particularly tricky problems
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>advice</category><category>programming</category><category>science</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</guid><pubDate>Mon, 24 Dec 2012 16:21:00 GMT</pubDate></item><item><title>Advice - Programming in Elisp</title><link>http://punchagan.muse-amuse.in/posts/advice-programming-in-elisp.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>advice</category><category>programming</category><category>science</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</guid><pubDate>Mon, 24 Dec 2012 16:21:00 GMT</pubDate></item><item><title>Advice - Programming in Elisp</title><link>http://punchagan.muse-amuse.in/posts/advice-programming-in-elisp.html</link><description>&lt;p&gt;
 Below is a mail sent by Eric Schulte to the org-mode mailing list
 answering a query on how to write elisp for org-mode. I am
 reproducing it here, since it is useful advice for me. The actual
@@ -257,4 +257,4 @@ although I haven't used it myself.
 &lt;p&gt;
 Hope this helps.  Happy Hacking – Eric
 &lt;/p&gt;
-&lt;hr&gt;</description><author></author><category>advice</category><category>emacs</category><category>note</category><category>programming</category><guid>http://punchagan.muse-amuse.in/posts/advice-programming-in-elisp.html</guid><pubDate>Fri, 06 Aug 2010 14:37:00 GMT</pubDate></item></channel></rss>
+&lt;hr&gt;</description><category>advice</category><category>emacs</category><category>note</category><category>programming</category><guid>http://punchagan.muse-amuse.in/posts/advice-programming-in-elisp.html</guid><pubDate>Fri, 06 Aug 2010 14:37:00 GMT</pubDate></item></channel></rss>

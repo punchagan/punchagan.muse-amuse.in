@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (software)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/software.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Best Practices for Scientific Computing</title><link>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (software)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/software.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Best Practices for Scientific Computing</title><link>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</link><description>&lt;p&gt;
 Shantanu and I gave a short talk titled "Software Carpentry for
 Scientists" for the graduate students of Chemical Engineering
 department, IISc, this Friday.  We gave a short introduction to
@@ -200,7 +200,7 @@ and when tackling particularly tricky problems
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>advice</category><category>programming</category><category>science</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</guid><pubDate>Mon, 24 Dec 2012 16:21:00 GMT</pubDate></item><item><title>3 tips for those shipping (commercial) apps</title><link>http://punchagan.muse-amuse.in/posts/3-tips-for-those-shipping-commercial-apps.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>advice</category><category>programming</category><category>science</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</guid><pubDate>Mon, 24 Dec 2012 16:21:00 GMT</pubDate></item><item><title>3 tips for those shipping (commercial) apps</title><link>http://punchagan.muse-amuse.in/posts/3-tips-for-those-shipping-commercial-apps.html</link><description>&lt;p&gt;
 Here are some very generic (and paraphrased) notes from a short
 talk today, by Deepankar Sharma.
 &lt;/p&gt;
@@ -221,7 +221,7 @@ more code path to maintain.
 &lt;/li&gt;
 &lt;li&gt;(Bonus) Beware of too much extensibility
 &lt;/li&gt;
-&lt;/ol&gt;</description><author></author><category>enthought</category><category>programming</category><category>software</category><category>tips</category><guid>http://punchagan.muse-amuse.in/posts/3-tips-for-those-shipping-commercial-apps.html</guid><pubDate>Wed, 28 Nov 2012 20:56:00 GMT</pubDate></item><item><title>GetHub: Chrome Notifications for Github updates</title><link>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</link><description>&lt;p&gt;
+&lt;/ol&gt;</description><category>enthought</category><category>programming</category><category>software</category><category>tips</category><guid>http://punchagan.muse-amuse.in/posts/3-tips-for-those-shipping-commercial-apps.html</guid><pubDate>Wed, 28 Nov 2012 20:56:00 GMT</pubDate></item><item><title>GetHub: Chrome Notifications for Github updates</title><link>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</link><description>&lt;p&gt;
 Over the last two days, I hacked up my first Chrome extension.
 I've been using Chrome only for the past couple of weeks or so and
 I begin to like it, though some of the extensions aren't as mature
@@ -281,7 +281,7 @@ one-time verification fee that Google asks for.
 Happy GitHubbing!
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>chrome</category><category>code</category><category>first</category><category>git</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</guid><pubDate>Wed, 02 Mar 2011 00:34:00 GMT</pubDate></item><item><title>Richard Stallman in IIT-Bombay</title><link>http://punchagan.muse-amuse.in/posts/richard-stallman-in-iit-bombay.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>chrome</category><category>code</category><category>first</category><category>git</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</guid><pubDate>Wed, 02 Mar 2011 00:34:00 GMT</pubDate></item><item><title>Richard Stallman in IIT-Bombay</title><link>http://punchagan.muse-amuse.in/posts/richard-stallman-in-iit-bombay.html</link><description>&lt;p&gt;
 RMS will be in IIT-Bombay on the 6th of this month. He will "speak
 about the goals and philosophy of the Free Software Movement, and
 the status and history of the GNU operating system, which in
@@ -296,7 +296,7 @@ of users world-wide. "
 &lt;/li&gt;
 &lt;li&gt;&lt;b&gt;Venue:&lt;/b&gt; PC Saxena Auditorium, IIT Bombay
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>rms</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/richard-stallman-in-iit-bombay.html</guid><pubDate>Wed, 01 Sep 2010 15:48:00 GMT</pubDate></item><item><title>Sage Days 25, Mumbai, India</title><link>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</link><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
+&lt;/ul&gt;</description><category>rms</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/richard-stallman-in-iit-bombay.html</guid><pubDate>Wed, 01 Sep 2010 15:48:00 GMT</pubDate></item><item><title>Sage Days 25, Mumbai, India</title><link>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</link><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
 &lt;h2 id="sec-1"&gt;What is 'Sage Days'?&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;p&gt;
@@ -366,7 +366,7 @@ remotely interested in math and software for it!
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>event</category><category>math</category><category>ology</category><category>python</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</guid><pubDate>Wed, 21 Jul 2010 19:41:00 GMT</pubDate></item><item><title>Software Freedom Day</title><link>http://punchagan.muse-amuse.in/posts/software-freedom-day.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>event</category><category>math</category><category>ology</category><category>python</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</guid><pubDate>Wed, 21 Jul 2010 19:41:00 GMT</pubDate></item><item><title>Software Freedom Day</title><link>http://punchagan.muse-amuse.in/posts/software-freedom-day.html</link><description>&lt;p&gt;
 Three Cheers to 'Free Software'!
 &lt;/p&gt;
 
@@ -464,4 +464,4 @@ The GNU Project by Richard Stallman
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>blab</category><category>freedom</category><category>ology</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/software-freedom-day.html</guid><pubDate>Sun, 21 Sep 2008 18:23:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>blab</category><category>freedom</category><category>ology</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/software-freedom-day.html</guid><pubDate>Sun, 21 Sep 2008 18:23:00 GMT</pubDate></item></channel></rss>

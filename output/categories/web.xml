@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (web)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/web.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Error: Missing one hebrew character</title><link>http://punchagan.muse-amuse.in/posts/error-missing-one-hebrew-character.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (web)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/web.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Error: Missing one hebrew character</title><link>http://punchagan.muse-amuse.in/posts/error-missing-one-hebrew-character.html</link><description>&lt;p&gt;
 Dear owner-of-a-random-web-startup,
 &lt;/p&gt;
 
@@ -18,7 +18,7 @@ show the arbitrary rules you enforce on me, at the login prompt too!
 &lt;p&gt;
 Sincerely,
 A frustrated-web-monkey
-&lt;/p&gt;</description><author></author><category>internet</category><category>passwords</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/error-missing-one-hebrew-character.html</guid><pubDate>Wed, 21 Nov 2012 21:01:00 GMT</pubDate></item><item><title>org2blog on the web</title><link>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>internet</category><category>passwords</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/error-missing-one-hebrew-character.html</guid><pubDate>Wed, 21 Nov 2012 21:01:00 GMT</pubDate></item><item><title>org2blog on the web</title><link>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</link><description>&lt;p&gt;
 Well, it's been a week of lull on my blog.  Not that I'm very
 busy.  But, just didn't have anything to post.  I was feeling jobless
 today and searched the web for org2blog users.  Here is what I found.
@@ -51,7 +51,7 @@ today and searched the web for org2blog users.  Here is what I found.
 
 &lt;li&gt;Marcel van der Boom – StatusNet
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>blab</category><category>list</category><category>ology</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</guid><pubDate>Sun, 29 Aug 2010 20:57:00 GMT</pubDate></item><item><title>I'm back</title><link>http://punchagan.muse-amuse.in/posts/im-back.html</link><description>&lt;p&gt;
+&lt;/ul&gt;</description><category>blab</category><category>list</category><category>ology</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</guid><pubDate>Sun, 29 Aug 2010 20:57:00 GMT</pubDate></item><item><title>I'm back</title><link>http://punchagan.muse-amuse.in/posts/im-back.html</link><description>&lt;p&gt;
 After a short break, I'm back to blogging!
 A few things have changed meanwhile. A lot haven't.
 &lt;/p&gt;
@@ -93,4 +93,4 @@ by having their resumes and letters of recommendations and other
 client that I hacked up. Emacs and Org-mode all the way! This is the
 first post by me (and probably anybody) from org2blog!
 &lt;/li&gt;
-&lt;/ul&gt;</description><author></author><category>blab</category><category>first</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/im-back.html</guid><pubDate>Sat, 17 Jul 2010 18:00:00 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>blab</category><category>first</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/im-back.html</guid><pubDate>Sat, 17 Jul 2010 18:00:00 GMT</pubDate></item></channel></rss>

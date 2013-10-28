@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (python)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/python.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:50 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>cStringIO and unicode</title><link>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (python)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/python.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>cStringIO and unicode</title><link>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</link><description>&lt;p&gt;
 StringIO in the cStringIO module in Python 2.7.2 doesn't handle
 unicode strings properly.  This bug has bitten me on a couple of
 occasions, in the recent past.
@@ -21,7 +21,7 @@ strings.
 
 &lt;p&gt;
 Or may be it's just time to move up to Python 2.7.3
-&lt;/p&gt;</description><author></author><category>bug</category><category>note</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</guid><pubDate>Mon, 03 Dec 2012 21:11:00 GMT</pubDate></item><item><title>Talks at PyCon India 2012</title><link>http://punchagan.muse-amuse.in/posts/talks-at-pycon-india-2012.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;/p&gt;</description><category>bug</category><category>note</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</guid><pubDate>Mon, 03 Dec 2012 21:11:00 GMT</pubDate></item><item><title>Talks at PyCon India 2012</title><link>http://punchagan.muse-amuse.in/posts/talks-at-pycon-india-2012.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;State "DONE"       from ""           &lt;span class="timestamp-wrapper"&gt;&lt;span class="timestamp"&gt;[2012-11-17 Sat 17:00]&lt;/span&gt;&lt;/span&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -52,7 +52,7 @@ of PyCon.
 &lt;p&gt;
 Sadly, John Hunter, the lead author of matplotlib, also passed
 away last week.  RIP. :(
-&lt;/p&gt;</description><author></author><category>death</category><category>python</category><category>scipy</category><guid>http://punchagan.muse-amuse.in/posts/talks-at-pycon-india-2012.html</guid><pubDate>Sun, 02 Sep 2012 23:12:00 GMT</pubDate></item><item><title>An import gotcha in Python</title><link>http://punchagan.muse-amuse.in/posts/an-import-gotcha-in-python.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>death</category><category>python</category><category>scipy</category><guid>http://punchagan.muse-amuse.in/posts/talks-at-pycon-india-2012.html</guid><pubDate>Sun, 02 Sep 2012 23:12:00 GMT</pubDate></item><item><title>An import gotcha in Python</title><link>http://punchagan.muse-amuse.in/posts/an-import-gotcha-in-python.html</link><description>&lt;p&gt;
 Pankaj and I were stuck with this weird bug recently.  We had
 a class &lt;code&gt;A&lt;/code&gt; and a subclass &lt;code&gt;B&lt;/code&gt; and an instance of B, b, was
 returning False for &lt;code&gt;isinstance(b, A)&lt;/code&gt;.
@@ -130,7 +130,7 @@ isinstance(b, A) --&amp;gt; False
 &amp;lt;class 'baz.bar.B'&amp;gt; --&amp;gt; &amp;lt;class 'baz.bar.B'&amp;gt;
 baz.bar &amp;lt;module 'baz.bar' from '/tmp/baz/bar.pyc'&amp;gt;
 bar &amp;lt;module 'bar' from 'bar.pyc'&amp;gt;
-&lt;/pre&gt;</description><author></author><category>python</category><guid>http://punchagan.muse-amuse.in/posts/an-import-gotcha-in-python.html</guid><pubDate>Mon, 20 Aug 2012 14:46:00 GMT</pubDate></item><item><title>Changes to Blog</title><link>http://punchagan.muse-amuse.in/posts/changes-to-blog.html</link><description>&lt;p&gt;
+&lt;/pre&gt;</description><category>python</category><guid>http://punchagan.muse-amuse.in/posts/an-import-gotcha-in-python.html</guid><pubDate>Mon, 20 Aug 2012 14:46:00 GMT</pubDate></item><item><title>Changes to Blog</title><link>http://punchagan.muse-amuse.in/posts/changes-to-blog.html</link><description>&lt;p&gt;
 Well, as you can see, I've changed my blog a bit.  I had been
 trying to make it gel well with org-mode and looking for ways to
 allow me to share arbit stuff with separate feeds for tags,
@@ -163,7 +163,7 @@ in case you've something to say to me.
 
 &lt;p&gt;
 Adios.
-&lt;/p&gt;</description><author></author><category>blog</category><category>orgmode</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/changes-to-blog.html</guid><pubDate>Wed, 02 Feb 2011 23:41:00 GMT</pubDate></item><item><title>My talk at SciPy.in 2010</title><link>http://punchagan.muse-amuse.in/posts/my-talk-at-scipyin-2010.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blog</category><category>orgmode</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/changes-to-blog.html</guid><pubDate>Wed, 02 Feb 2011 23:41:00 GMT</pubDate></item><item><title>My talk at SciPy.in 2010</title><link>http://punchagan.muse-amuse.in/posts/my-talk-at-scipyin-2010.html</link><description>&lt;p&gt;
 I gave a short talk titled, &lt;i&gt;Pictures, Songs and Python&lt;/i&gt; in this
 year's edition of SciPy India.  The talk was a beginner level
 talk, mainly intended to get newbies excited about Python.  My
@@ -176,7 +176,7 @@ Prof. Jayant Kirtane for the Bournville!
 
 &lt;p&gt;
 Here are the talk slides
-&lt;/p&gt;</description><author></author><category>python</category><category>scipy</category><guid>http://punchagan.muse-amuse.in/posts/my-talk-at-scipyin-2010.html</guid><pubDate>Mon, 20 Dec 2010 18:17:00 GMT</pubDate></item><item><title>Do our eyes suck at blue?</title><link>http://punchagan.muse-amuse.in/posts/do-our-eyes-suck-at-blue.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>python</category><category>scipy</category><guid>http://punchagan.muse-amuse.in/posts/my-talk-at-scipyin-2010.html</guid><pubDate>Mon, 20 Dec 2010 18:17:00 GMT</pubDate></item><item><title>Do our eyes suck at blue?</title><link>http://punchagan.muse-amuse.in/posts/do-our-eyes-suck-at-blue.html</link><description>&lt;p&gt;
 This is some fun I had, trying to replicate what was written in
 this post. I had been trying to understand what was happening
 here, and found this post on Hacker News very helpful.
@@ -317,7 +317,7 @@ Here are a few images.  (View them in their original size)
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>fun</category><category>hack</category><category>image_processing</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/do-our-eyes-suck-at-blue.html</guid><pubDate>Sat, 13 Nov 2010 13:26:00 GMT</pubDate></item><item><title>Raising Windows using Python</title><link>http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>fun</category><category>hack</category><category>image_processing</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/do-our-eyes-suck-at-blue.html</guid><pubDate>Sat, 13 Nov 2010 13:26:00 GMT</pubDate></item><item><title>Raising Windows using Python</title><link>http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html</link><description>&lt;p&gt;
 Posting a small snippet of code, that I've been using for months
 now, on the request of a friend &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt;.
 &lt;/p&gt;
@@ -393,7 +393,7 @@ xdotool - Homepage
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><author></author><category>python</category><guid>http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html</guid><pubDate>Wed, 03 Nov 2010 23:06:00 GMT</pubDate></item><item><title>Augmented assignment in Python</title><link>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>python</category><guid>http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html</guid><pubDate>Wed, 03 Nov 2010 23:06:00 GMT</pubDate></item><item><title>Augmented assignment in Python</title><link>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</link><description>&lt;p&gt;
 If you are new to &lt;code&gt;Python&lt;/code&gt;, you should probably stop reading here.
 But, if you have used &lt;code&gt;Python&lt;/code&gt; and &lt;code&gt;numpy&lt;/code&gt;, then read on. Before, that
 try these bits of code.
@@ -457,7 +457,7 @@ print a
 &lt;p&gt;
 The same thing is explained in this thread.  Also, Thanks to
 Bhanukiran for asking me this.
-&lt;/p&gt;</description><author></author><category>note</category><category>numpy</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</guid><pubDate>Mon, 04 Oct 2010 22:49:00 GMT</pubDate></item><item><title>Notes from Pycon</title><link>http://punchagan.muse-amuse.in/posts/notes-from-pycon.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>numpy</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</guid><pubDate>Mon, 04 Oct 2010 22:49:00 GMT</pubDate></item><item><title>Notes from Pycon</title><link>http://punchagan.muse-amuse.in/posts/notes-from-pycon.html</link><description>&lt;p&gt;
 Just back after attending PyCon India '10. It was not as exciting
 as I hoped it would be.  That's generally the case with any
 conference I attend.  (I guess, I expect too much from them. :P)
@@ -491,7 +491,7 @@ to catch-up with people.  Conferences should have only lightning
 talks of 10 mins and sprints.  Talks, with an extensive
 explanation of stuff that can be easily found on the web, are a
 waste of time.
-&lt;/p&gt;</description><author></author><category>event</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/notes-from-pycon.html</guid><pubDate>Wed, 29 Sep 2010 00:32:00 GMT</pubDate></item><item><title>PyCon India '10</title><link>http://punchagan.muse-amuse.in/posts/pycon-india-10.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>event</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/notes-from-pycon.html</guid><pubDate>Wed, 29 Sep 2010 00:32:00 GMT</pubDate></item><item><title>PyCon India '10</title><link>http://punchagan.muse-amuse.in/posts/pycon-india-10.html</link><description>&lt;p&gt;
 Looks like PyCon India 2010 is going to be great fun!  With 80
 talk submissions, quite a few interesting ones, this time's PyCon
 should be much better than last year's.  Also, David Goodger of
@@ -511,4 +511,4 @@ docutils and ReST fame will be the keynote speaker!
 &lt;div class="figure"&gt;
 &lt;p&gt;&lt;img src="http://in.pycon.org/2010/static/images/badges/supporter-small.png" alt="supporter-small.png"&gt;
 &lt;/p&gt;
-&lt;/div&gt;</description><author></author><category>conference</category><category>event</category><category>note</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/pycon-india-10.html</guid><pubDate>Mon, 16 Aug 2010 09:28:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>conference</category><category>event</category><category>note</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/pycon-india-10.html</guid><pubDate>Mon, 16 Aug 2010 09:28:00 GMT</pubDate></item></channel></rss>

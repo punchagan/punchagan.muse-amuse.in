@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (song)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/song.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:50 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Gustaakh Dil</title><link>http://punchagan.muse-amuse.in/posts/gustaakh-dil.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (song)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/song.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Gustaakh Dil</title><link>http://punchagan.muse-amuse.in/posts/gustaakh-dil.html</link><description>&lt;p&gt;
 I really liked this song, गुस्ताख दिल (Gustaakh dil) from the movie
 English Vinglish.  Lyrics by Swanand Kirkire are deep and
 meaningful as usual!
@@ -66,7 +66,7 @@ it a bunch of times and think we have got it all right, here.
 दिल में मुश्किल&lt;br&gt;
 मुश्किल में दिल&lt;br&gt;
 (मुश्किल में दिल)&lt;br&gt;
-&lt;/p&gt;</description><author></author><category>love</category><category>lyrics</category><category>song</category><guid>http://punchagan.muse-amuse.in/posts/gustaakh-dil.html</guid><pubDate>Sat, 24 Nov 2012 19:46:00 GMT</pubDate></item><item><title>21</title><link>http://punchagan.muse-amuse.in/posts/21.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>love</category><category>lyrics</category><category>song</category><guid>http://punchagan.muse-amuse.in/posts/gustaakh-dil.html</guid><pubDate>Sat, 24 Nov 2012 19:46:00 GMT</pubDate></item><item><title>21</title><link>http://punchagan.muse-amuse.in/posts/21.html</link><description>&lt;p&gt;
 Yes, I've turned 21 today. I'd like to write a post today, but
 this song (by Adam Sandler?) more or less conveys, how I feel.
 &lt;/p&gt;
@@ -139,7 +139,7 @@ So just cut the stupid cake&lt;br&gt;
 Happy birthday!&lt;br&gt;
 Happy birthday!&lt;br&gt;
 Happy birthday, dear…&lt;br&gt;
-&lt;/p&gt;</description><author></author><category>birthday</category><category>blab</category><category>song</category><guid>http://punchagan.muse-amuse.in/posts/21.html</guid><pubDate>Wed, 15 Oct 2008 16:42:00 GMT</pubDate></item><item><title>A Song for a Chum...</title><link>http://punchagan.muse-amuse.in/posts/a-song-for-a-chum.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>birthday</category><category>blab</category><category>song</category><guid>http://punchagan.muse-amuse.in/posts/21.html</guid><pubDate>Wed, 15 Oct 2008 16:42:00 GMT</pubDate></item><item><title>A Song for a Chum...</title><link>http://punchagan.muse-amuse.in/posts/a-song-for-a-chum.html</link><description>&lt;p&gt;
 I just put this song here… for
 &lt;/p&gt;
 &lt;ol class="org-ol"&gt;
@@ -221,7 +221,7 @@ Are you searching for a reason to be kind ?&lt;br&gt;
 Composed by A.R.Rahman
 Lyrics by Blaaze
 Singers: A.R.Rahman and Blaaze
-&lt;/p&gt;</description><author></author><category>blab</category><category>song</category><guid>http://punchagan.muse-amuse.in/posts/a-song-for-a-chum.html</guid><pubDate>Wed, 25 Apr 2007 06:20:00 GMT</pubDate></item><item><title>Windows©, Doors or Homes!??!</title><link>http://punchagan.muse-amuse.in/posts/windowsc-doors-or-homes.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>song</category><guid>http://punchagan.muse-amuse.in/posts/a-song-for-a-chum.html</guid><pubDate>Wed, 25 Apr 2007 06:20:00 GMT</pubDate></item><item><title>Windows©, Doors or Homes!??!</title><link>http://punchagan.muse-amuse.in/posts/windowsc-doors-or-homes.html</link><description>&lt;p&gt;
 A couple of days back.. one guy called green&lt;sub&gt;mamba&lt;/sub&gt; asked me.. "Why
 do you use Linux (GNU/Linux) and not Windows? What is it that
 makes LinuxGNU/Linux] so special for you?" I avoided that
@@ -353,4 +353,4 @@ system, for free".  –Linus Torvalds
 &lt;p&gt;
 "The box said that I needed to have Windows 98 or better… so I
 installed Linux."  – LinuxNewbie.org
-&lt;/p&gt;</description><author></author><category>blog</category><category>ology</category><category>rms</category><category>song</category><guid>http://punchagan.muse-amuse.in/posts/windowsc-doors-or-homes.html</guid><pubDate>Sun, 01 Apr 2007 19:14:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>blog</category><category>ology</category><category>rms</category><category>song</category><guid>http://punchagan.muse-amuse.in/posts/windowsc-doors-or-homes.html</guid><pubDate>Sun, 01 Apr 2007 19:14:00 GMT</pubDate></item></channel></rss>

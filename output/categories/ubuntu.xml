@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Noetic Nought (ubuntu)</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/categories/ubuntu.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 19 Oct 2013 20:32:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Restoring GRUB with Grub2</title><link>http://punchagan.muse-amuse.in/posts/restoring-grub-with-grub2.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (ubuntu)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/ubuntu.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Restoring GRUB with Grub2</title><link>http://punchagan.muse-amuse.in/posts/restoring-grub-with-grub2.html</link><description>&lt;p&gt;
 It's a one liner with grub2.
 &lt;/p&gt;
 
@@ -15,7 +15,7 @@ on.
 &lt;p&gt;
 This is the first instance when I found grub2 to be better
 than grub.
-&lt;/p&gt;</description><author></author><category>note</category><category>ubuntu</category><guid>http://punchagan.muse-amuse.in/posts/restoring-grub-with-grub2.html</guid><pubDate>Tue, 10 Aug 2010 19:44:00 GMT</pubDate></item><item><title>Telugu Rendering in Ubuntu...</title><link>http://punchagan.muse-amuse.in/posts/telugu-rendering-in-ubuntu.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>ubuntu</category><guid>http://punchagan.muse-amuse.in/posts/restoring-grub-with-grub2.html</guid><pubDate>Tue, 10 Aug 2010 19:44:00 GMT</pubDate></item><item><title>Telugu Rendering in Ubuntu...</title><link>http://punchagan.muse-amuse.in/posts/telugu-rendering-in-ubuntu.html</link><description>&lt;p&gt;
 I had problems with this and tried quite a few things to get it
 working…  [uninstalling and re-installing
 packages… downloading fonts.. etc.. ] but couldn't until I found
@@ -29,4 +29,4 @@ help here…
 &lt;p&gt;
 [ Don't worry if you can't figure out what's the big deal in
 linking to an already existing post.. :P]
-&lt;/p&gt;</description><author></author><category>ology</category><category>ubuntu</category><guid>http://punchagan.muse-amuse.in/posts/telugu-rendering-in-ubuntu.html</guid><pubDate>Wed, 11 Jul 2007 12:11:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>ology</category><category>ubuntu</category><guid>http://punchagan.muse-amuse.in/posts/telugu-rendering-in-ubuntu.html</guid><pubDate>Wed, 11 Jul 2007 12:11:00 GMT</pubDate></item></channel></rss>
