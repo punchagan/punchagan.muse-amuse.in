@@ -9,21 +9,25 @@
 
 
 - [[http://filecalledlife.wordpress.com/2013/08/24/basic stuff i should be able to/][Basic stuff I should be able to… | music muse amuse]]
+
   I, for one, should be able to dance shamelessly and if possible,
   infect others as well
 
 - [[http://crickettalket.blogspot.in/2013/10/playing against rahul dravid.html][Cricket Talket: Playing Against Rahul Dravid]]
+
   it is not every day that you get to play against someone with 13000
   Test runs. It is not every day that you get to play against someone
   you have adored and idolised since the first time you saw him. It is
   not every day that you play against Rahul Dravid!
 
 - [[http://metarabbit.wordpress.com/2013/10/18/why python is better than matlab for scientific software/][Why Python is Better than Matlab for Scientific Software | Meta Rabbit]]
+
   If you have legacy code in MATLAB, then it may make sense to just
   continue using it. If it works, don’t fix it. However, if your
   Matlab code keeps causing you pain, Python might be a solution.
 
 - [[https://plus.google.com/116160612483689327039/posts/WnwqbgAqewP][Jason Roberts   Google+   My New Strategy for Teaching Kids How to Code ]]
+
   We're one month into the second year of Catalyst, an after-school
   tech/computer class that I run for kids aged 9-13, and this year
   I've decided to try something different. [Last year, I had the kids
@@ -37,6 +41,7 @@
   success.
 
 - [[http://www.thrillophilia.com/blog/50 places to visit in india before you turn 30/][50 Places to Visit in India Before You Turn 30   Activities, Experiences and Things To Do]]
+
   Here is a fun bucket list of the places you simply have to visit
   before you turn thirty. They are not just destinations but also
   crazy experiences that will go down the book of your memory
