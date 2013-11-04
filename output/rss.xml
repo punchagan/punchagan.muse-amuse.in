@@ -1,5 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 19:13:24 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Quotes [2013-10-28]</title><link>http://punchagan.muse-amuse.in/posts/quotes-2013-10-28.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 04 Nov 2013 09:56:08 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-04]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://stackoverflow.com/questions/5163144/what%20are%20the%20special%20dollar%20sign%20shell%20variables"&gt;bash   What are the special dollar sign shell variables?   Stack Overflow&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Positional parameters $1,$2,$3… and their corresponding array
+representation, count and IFS expansion $@, $#, and $*.
+&lt;/li&gt;
+&lt;li&gt;$- current options set for the shell.
+&lt;/li&gt;
+&lt;li&gt;$$ pid of the current shell (not subshell)
+&lt;/li&gt;
+&lt;li&gt;$_ most recent parameter (or the abs path of the command to start
+the current shell immediately after startup)
+&lt;/li&gt;
+&lt;li&gt;$IFS the (input) field separator
+&lt;/li&gt;
+&lt;li&gt;$? most recent foreground pipeline exit status
+&lt;/li&gt;
+&lt;li&gt;$! PID of the most recent background command
+&lt;/li&gt;
+&lt;li&gt;$0 name of the shell or shell script
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://thoughtcatalog.com/brianna%20wiest/2013/07/19%20things%20you%20need%20to%20stop%20over%20thinking/"&gt;19 Things You Need To Stop Over Thinking | Thought Catalog&lt;/a&gt;
+
+&lt;p&gt;
+There is a time and a place for reflection and contemplation about
+the greater universe. Now, I know I sound like a hypocrite because I
+do write about these things a lot, but I’ll tell you now, as someone
+who does over-think it, sometimes you just have to let it be what it
+is and not become overwhelmed by the vastness, mysteriousness and
+unknown possibility that lies around us. It can be more debilitating
+than inspiring sometimes.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://thoughtcatalog.com/caitlin%20collinsworth/2013/10/these%20are%20the%20things%20i%20truly%20believe%20in/"&gt;These Are The Things I Truly Believe In | Thought Catalog&lt;/a&gt;
+
+&lt;p&gt;
+I believe in the flow of life from one to another, in being kind.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.cricketcountry.com/cricket%20articles/When%20Sachin%20Tendulkar%20fielded%20for%20Pakistan%20as%20a%2013%20year%20old/32839"&gt;When Sachin Tendulkar fielded for Pakistan as a 13 year old   Cricket News &amp;amp; Articles | CricketCountry.com&lt;/a&gt;
+
+&lt;p&gt;
+"Sachin saw Hemant and asked in Marathi 'Me zaaoo ka?' ('Can I go')?
+Before Hemant could nod his head, Sachin was already in the field as
+a substitute for Pakistan. It was towards the end of the match and
+Sachin was on the field for about 25 minutes."
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="https://googledrive.com/host/0B2GQktu%20wcTicEI5VUZaYnM1emM/"&gt;Visualizing World Birth and Death Rates&lt;/a&gt;
+
+&lt;p&gt;
+World Births and Deaths in Real-Time (Beta) World Population:
+7,093,354,367 (estimated) (Statistical Simulation Based on World
+Birth/Death Rates)
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="https://medium.com/content%20creators%20curators/348a9f60e176"&gt;The abundance of slowness — Content Creators &amp;amp; Curators — Medium&lt;/a&gt;
+
+&lt;p&gt;
+Deep down, many of us wonder if we’re wasting our time on things of
+little consequence. So we keep skittering along the surface at a
+feverish pace, avoiding the mirror of introspection.
+&lt;/p&gt;
+
+&lt;p&gt;
+I’ve found recently that when the time is used well, slowness can
+actually be one of the most profound sources of abundance.
+&lt;/p&gt;
+
+&lt;p&gt;
+And on the positive side, sometimes entrepreneurs work on their
+businesses after hours out of love, rather than straining toward an
+overly-optimistic deadline out of fear. I’ve been there, I’ve put in
+the hours and I’ll do it again. But not unless I’m motivated by
+love.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://bitly.com/bundles/hmason/h"&gt;Programming Excellence&lt;/a&gt;
+
+&lt;p&gt;
+These are all books that were recommended to me by various people on
+twitter, presented in no particular order. Thanks! – @hmason
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</guid><pubDate>Mon, 04 Nov 2013 09:55:51 GMT</pubDate></item><item><title>Quotes [2013-10-28]</title><link>http://punchagan.muse-amuse.in/posts/quotes-2013-10-28.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;The enjoyment of one's tools is an essential ingredient of
 successful work. – &lt;i&gt;Donald E. Knuth&lt;/i&gt;
 &lt;/li&gt;
@@ -412,33 +506,4 @@ people who have come alive. – &lt;i&gt;Howard Thurman&lt;/i&gt;
 &lt;li&gt;All you need is love. But a little chocolate now and then doesn't
 hurt. – &lt;i&gt;Charles M Schultz&lt;/i&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>quotable-quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-20131014.html</guid><pubDate>Mon, 14 Oct 2013 11:43:49 GMT</pubDate></item><item><title>Quotes [2013/10/13]</title><link>http://punchagan.muse-amuse.in/posts/quotes-20131013.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;Furious activity is no substitute for understanding. –
-  &lt;i&gt;H.H. Williams – Activity&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;A human being should be able to change a diaper, plan an invasion,
-butcher a hog, conn a ship, design a building, write a sonnet,
-balance accounts, build a wall, set a bone, comfort the dying, take
-orders, give orders, cooperate, act alone, solve equations, analyze
-a new problem, pitch manure, program a computer, cook a tasty meal,
-fight efficiently, die gallantly. Specialization is for insects.  –
-&lt;i&gt;Robert A. Heinlein – Human Beings&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;Nothing ever becomes real till it is experienced — even a proverb is
-no proverb to you till your life has illustrated it. – &lt;i&gt;John Keats&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;We lie loudest when we lie to ourselves. – &lt;i&gt;Eric Hoffer&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;The first hour of the morning is the rudder of the day. – &lt;i&gt;Henry
-Ward Beecher&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;Programs must be written for people to read, and only incidentally
-for machines to execute. – &lt;i&gt;Abelson &amp;amp; Sussman – SICP, preface to
-the first edition&lt;/i&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description><category>quotable-quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-20131013.html</guid><pubDate>Sun, 13 Oct 2013 11:54:29 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>quotable-quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-20131014.html</guid><pubDate>Mon, 14 Oct 2013 11:43:49 GMT</pubDate></item></channel></rss>
