@@ -8,7 +8,7 @@
 #+END_COMMENT
 
 
-- [[http://composition.al/blog/2013/07/31/some misconceptions about hacker school/][Some misconceptions about Hacker School   composition.al]]
+- [[http://composition.al/blog/2013/07/31/some-misconceptions-about-hacker-school/][Some misconceptions about Hacker School]]
 
   I’ve encountered a few misconceptions about what Hacker School is
   and who it’s for. I’m not an official source of information; for
