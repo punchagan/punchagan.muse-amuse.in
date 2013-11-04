@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 04 Nov 2013 14:27:20 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-04]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 04 Nov 2013 16:18:45 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-04]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://stackoverflow.com/questions/5163144/what%20are%20the%20special%20dollar%20sign%20shell%20variables"&gt;bash   What are the special dollar sign shell variables?   Stack Overflow&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
 
 &lt;ul class="org-ul"&gt;
 &lt;li&gt;Positional parameters $1,$2,$3… and their corresponding array
@@ -23,6 +20,8 @@ the current shell immediately after startup)
 &lt;li&gt;$! PID of the most recent background command
 &lt;/li&gt;
 &lt;li&gt;$0 name of the shell or shell script
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 
 &lt;li&gt;&lt;a href="http://thoughtcatalog.com/brianna%20wiest/2013/07/19%20things%20you%20need%20to%20stop%20over%20thinking/"&gt;19 Things You Need To Stop Over Thinking | Thought Catalog&lt;/a&gt;
