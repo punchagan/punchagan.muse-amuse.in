@@ -83,13 +83,11 @@ def success(tag):
     shutil.move(infile, bkfile)
 
 
-def git_add(*args, **kwargs):
-    """ Add the new post to git. """
+def run_deploy():
+    """ Run the nikola deploy command. """
 
     import subprocess
-
-    post_file = kwargs['path']
-    subprocess.check_call(['git', 'add', post_file])
+    subprocess.check_call(['nikola', 'deploy'])
 
 
 def new_post(tag, entries, site, dry_run=False):
@@ -155,11 +153,11 @@ class CommandShare(Command):
             'help': 'Dry run.'
         },
         {
-            'name': 'no-git-add',
-            'long': 'no-git-add',
+            'name': 'no-deploy',
+            'long': 'no-deploy',
             'default': False,
             'type': bool,
-            'help': 'Add the new post input file to git.'
+            'help': 'Run nikola deploy.'
         }
     ]
 
@@ -173,10 +171,10 @@ class CommandShare(Command):
 
         entries = get_entries(tag)
 
-        if not options['no-git-add']:
-            signal('new_post').connect(git_add)
-
         if len(entries) >= self.site.config.get('SHARE_ENTRY_COUNT', 5):
             new_post(tag, entries, self.site, options['dry-run'])
+            if not options['no-deploy']:
+                run_deploy()
+
         else:
             print('Only {} entries available'.format(len(entries)))
