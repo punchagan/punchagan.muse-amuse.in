@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 09 Nov 2013 19:16:46 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-04]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 09 Nov 2013 19:30:00 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-09]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="https://github.com/leftnode/get%20shit%20done"&gt;leftnode/get shit done&lt;/a&gt;
+
+&lt;p&gt;
+Small script to configure your hosts file so you don't get
+distracted during the day.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://thoughtcatalog.com/ryan%20holiday/2013/11/practical%20philosophy/"&gt;9 Mind Expanding Books Of Philosophy That Are Actually Readable (A Guide To Practical Philosophy) | Thought Catalog&lt;/a&gt;
+
+&lt;p&gt;
+The irony is this is actually what ancient philosophy was intended
+to ameliorate. “Vain is the word of a philosopher,” Epicurus once
+said, “which does not heal the suffering of man.” Centuries later,
+Thoreau expressed this same thought: “To be a philosopher is not
+merely to have subtle thoughts, nor even to found a school . . . it
+is to solve some of the problems of life, not only theoretically,
+but practically.”
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.policymic.com/articles/71255/10%20corporations%20control%20almost%20everything%20you%20buy%20this%20chart%20shows%20how"&gt;10 Corporations Control Almost Everything You Buy — This Chart Shows How   PolicyMic&lt;/a&gt;
+
+&lt;p&gt;
+Ten mega corporations control the output of almost everything you
+buy; from household products to pet food to jeans.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://high%20release.org/issues/issue%20no%202%20world%20games/forget%20about%20the%20highlight%20reel/"&gt;Forget About the Highlight Reel – High Release&lt;/a&gt;
+
+&lt;p&gt;
+A lot of people mistake flashy ultimate for “good” ultimate—they
+think that chest-high layouts or 10-foot grabs in wolf packs are
+hallmarks of the elite game. But I beg to differ. It’s true,
+sometimes incredible feats of athleticism are the only way to save a
+possession or get a block—and they aren’t easy to execute. Still,
+it’s the most mundane things that often make the biggest impacts on
+the field.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://ciml.info/"&gt;A Course in Machine Learning&lt;/a&gt;
+
+&lt;p&gt;
+CIML is a set of introductory materials that covers most major
+aspects of modern machine learning (supervised learning,
+unsupervised learning, large margin methods, probabilistic modeling,
+learning theory, etc.). It's focus is on broad applications with a
+rigorous backbone.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</guid><pubDate>Sat, 09 Nov 2013 19:29:57 GMT</pubDate></item><item><title>Bookmarks [2013-11-04]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://stackoverflow.com/questions/5163144/what%20are%20the%20special%20dollar%20sign%20shell%20variables"&gt;bash   What are the special dollar sign shell variables?   Stack Overflow&lt;/a&gt;
 
 &lt;ul class="org-ul"&gt;
@@ -448,61 +501,4 @@ place. Whatever the case may be, let’s see if you’re any better at
 telling modern art from children’s drawings than the experts are!
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-16.html</guid><pubDate>Wed, 16 Oct 2013 14:41:36 GMT</pubDate></item><item><title>Quotes [2013/10/14]</title><link>http://punchagan.muse-amuse.in/posts/quotes-20131014.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;In everyone's life, at some time, our inner fire goes out. It is
-then burst into flame by an encounter with another human being. We
-should all be thankful for those people who rekindle the inner
-spirit.  – &lt;i&gt;Albert Schweitzer, 1875 - 1965&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;Anyone who cannot cope with mathematics is not fully human.  At best
-he is a tolerable subhuman who has learned to wear shoes, bathe and
-not make messes in the house.  – &lt;i&gt;Lazarus Long, Time Enough for
-Love&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;You probably wouldn't worry about what people think of you if you
-could know how seldom they do. – &lt;i&gt;Olin Miller&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;If you judge people, you have no time to love them. – &lt;i&gt;Mother Teresa&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;Feeling gratitude and not expressing it is like wrapping a present
-and not giving it. – &lt;i&gt;William Arthur Ward&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;p class="verse"&gt;
-Where the mind is without fear and the head held high;&lt;br&gt;
-Where knowledge is free;&lt;br&gt;
-Where the world has not been broken up into fragments by narrow domestic walls;&lt;br&gt;
-Where words come out from the depth of truth;&lt;br&gt;
-Where tireless striving stretches its arms towards perfection;&lt;br&gt;
-Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit;&lt;br&gt;
-Where the mind is led forward by Thee into ever-widening thought and action;&lt;br&gt;
-Into that heaven of freedom, my Father, let my country awake.&lt;br&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;i&gt;Rabindranath Tagore – Let My Country Awake&lt;/i&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;The true Enlightenment thinker, the true rationalist, never wants to
-talk anyone into anything. No, he does not even want to convince;
-all the time he is aware that he may be wrong. Above all, he values
-the intellectual independence of others too highly to want to
-convince them in important matters. He would much rather invite
-contradiction, preferably in the form of rational and disciplined
-criticism. He seeks not to convince but to arouse — to challenge
-others to form free opinions. – &lt;i&gt;Karl Popper – On Freedom&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;Don't ask yourself what the world needs; ask yourself what makes you
-come alive. And then go and do that. Because what the world needs is
-people who have come alive. – &lt;i&gt;Howard Thurman&lt;/i&gt;
-&lt;/li&gt;
-
-&lt;li&gt;All you need is love. But a little chocolate now and then doesn't
-hurt. – &lt;i&gt;Charles M Schultz&lt;/i&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description><category>quotable-quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-20131014.html</guid><pubDate>Mon, 14 Oct 2013 11:43:49 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-16.html</guid><pubDate>Wed, 16 Oct 2013 14:41:36 GMT</pubDate></item></channel></rss>

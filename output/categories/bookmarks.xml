@@ -1,5 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 04 Nov 2013 16:18:45 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-04]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sat, 09 Nov 2013 19:30:00 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-09]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="https://github.com/leftnode/get%20shit%20done"&gt;leftnode/get shit done&lt;/a&gt;
+
+&lt;p&gt;
+Small script to configure your hosts file so you don't get
+distracted during the day.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://thoughtcatalog.com/ryan%20holiday/2013/11/practical%20philosophy/"&gt;9 Mind Expanding Books Of Philosophy That Are Actually Readable (A Guide To Practical Philosophy) | Thought Catalog&lt;/a&gt;
+
+&lt;p&gt;
+The irony is this is actually what ancient philosophy was intended
+to ameliorate. “Vain is the word of a philosopher,” Epicurus once
+said, “which does not heal the suffering of man.” Centuries later,
+Thoreau expressed this same thought: “To be a philosopher is not
+merely to have subtle thoughts, nor even to found a school . . . it
+is to solve some of the problems of life, not only theoretically,
+but practically.”
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.policymic.com/articles/71255/10%20corporations%20control%20almost%20everything%20you%20buy%20this%20chart%20shows%20how"&gt;10 Corporations Control Almost Everything You Buy — This Chart Shows How   PolicyMic&lt;/a&gt;
+
+&lt;p&gt;
+Ten mega corporations control the output of almost everything you
+buy; from household products to pet food to jeans.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://high%20release.org/issues/issue%20no%202%20world%20games/forget%20about%20the%20highlight%20reel/"&gt;Forget About the Highlight Reel – High Release&lt;/a&gt;
+
+&lt;p&gt;
+A lot of people mistake flashy ultimate for “good” ultimate—they
+think that chest-high layouts or 10-foot grabs in wolf packs are
+hallmarks of the elite game. But I beg to differ. It’s true,
+sometimes incredible feats of athleticism are the only way to save a
+possession or get a block—and they aren’t easy to execute. Still,
+it’s the most mundane things that often make the biggest impacts on
+the field.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://ciml.info/"&gt;A Course in Machine Learning&lt;/a&gt;
+
+&lt;p&gt;
+CIML is a set of introductory materials that covers most major
+aspects of modern machine learning (supervised learning,
+unsupervised learning, large margin methods, probabilistic modeling,
+learning theory, etc.). It's focus is on broad applications with a
+rigorous backbone.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</guid><pubDate>Sat, 09 Nov 2013 19:29:57 GMT</pubDate></item><item><title>Bookmarks [2013-11-04]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://stackoverflow.com/questions/5163144/what%20are%20the%20special%20dollar%20sign%20shell%20variables"&gt;bash   What are the special dollar sign shell variables?   Stack Overflow&lt;/a&gt;
 
 &lt;ul class="org-ul"&gt;
@@ -609,74 +662,4 @@ tags: travel, visa, advice, bicycling
 If you are going in an overland trip from Asia to Europe,through central asia , here is my experience with the visas.
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-12-12.html</guid><pubDate>Wed, 12 Dec 2012 23:59:59 GMT</pubDate></item><item><title>Bookmarks [2012/09/18]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-09-18.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://david-bieber.tumblr.com/post/30907535147/collapsible-blog-posts"&gt;David Bieber&lt;/a&gt;
-
-&lt;p&gt;
-tags: hack, blogging, css, js
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://stackoverflow.com/questions/1711/what-is-the-single-most-influential-book-every-programmer-should-read"&gt;resources - What is the single most influential book every programmer should read? - Stack Overflow&lt;/a&gt;
-
-&lt;p&gt;
-tags: books, reading, programming, collection
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.cs.yale.edu/homes/perlis-alan/quotes.html"&gt;Perlisisms - "Epigrams in Programming" by Alan J. Perlis&lt;/a&gt;
-
-&lt;p&gt;
-tags: epigrams, reading, programming, collection
-&lt;/p&gt;
-
-&lt;ol class="org-ol"&gt;
-&lt;li&gt;Syntactic sugar causes cancer of the semicolon.
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://fhtr.org/BasicsOfThreeJS/#51"&gt;Introduction to Three.js&lt;/a&gt;
-
-&lt;p&gt;
-tags: javascript, programming, three, tutorial, js
-&lt;/p&gt;
-
-&lt;p&gt;
-Three.js
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;
-github.com/mrdoob/three.js
-JavaScript library for 3D graphics
-Easy to use
-Efficient
-Nice feature set
-&lt;/p&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.codinghorror.com/blog/2004/02/recommended-reading-for-developers.html"&gt;Coding Horror: Recommended Reading for Developers&lt;/a&gt;
-
-&lt;p&gt;
-tags: recommended, books, programming, reading, collection
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-09-18.html</guid><pubDate>Tue, 18 Sep 2012 23:59:59 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-12-12.html</guid><pubDate>Wed, 12 Dec 2012 23:59:59 GMT</pubDate></item></channel></rss>
