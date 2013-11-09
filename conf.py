@@ -192,7 +192,7 @@ COMPILERS = {
 # And then do a backup, or ping pingomatic.
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = [
-    'nikola orphans || true',
+    'nikola orphans',
     'git checkout master',
     'nikola build',
     './commit-changes',
