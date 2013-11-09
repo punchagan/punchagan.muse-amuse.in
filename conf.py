@@ -201,9 +201,22 @@ DEPLOY_COMMANDS = [
     'git checkout master',
     'git branch -D gh-pages',
 ]
-import subprocess
-if subprocess.check_output(['git', 'diff', 'HEAD']) != '':
-    DEPLOY_COMMANDS.insert(2, 'git gui')
+
+# List XML-RPC services (preferred) in PING_XMLRPC_SERVICES and HTTP
+# GET services (web pages) in PING_GET_SERVICES.
+# Consider adding `nikola ping` as the last entry in DEPLOY_COMMANDS.
+PING_XMLRPC_SERVICES = [
+    "http://blogsearch.google.com/ping/RPC2",
+    "http://ping.blogs.yandex.ru/RPC2",
+    "http://ping.baidu.com/ping/RPC2",
+    "http://rpc.pingomatic.com/",
+]
+
+PING_GET_SERVICES = [
+    "http://www.bing.com/webmaster/ping.aspx?sitemap={0}".format(
+        SITE_URL+'sitemap.xml'
+    ),
+]
 
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
