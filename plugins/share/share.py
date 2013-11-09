@@ -138,6 +138,13 @@ class CommandShare(Command):
     doc_purpose = "Command to make a new post from captured bookmarks/quotes."
     cmd_options = [
         {
+            'name': 'all',
+            'long': 'all',
+            'default': False,
+            'type': bool,
+            'help': 'Share all tags'
+        },
+        {
             'name': 'tag',
             'long': 'tag',
             'default': '',
@@ -164,17 +171,30 @@ class CommandShare(Command):
     def _execute(self, options, args):
         """ Create new post and share captured bookmarks/quotes. """
 
-        if len(options['tag']) == 0:
+        if options['all']:
+            tags = self.site.config.get('SHARE_TAGS', ['bookmarks', 'quotes'])
+        elif len(options['tag']) == 0:
             tag = self.site.config.get('DEFAULT_SHARE_TAG', 'bookmarks')
+            tags = [tag]
         else:
             tag = options['tag']
+            tags = [tag]
 
+        created = [self._share_tag(tag, options['dry-run']) for tag in tags]
+
+        if any(created) and not options['no-deploy']:
+            run_deploy()
+
+    def _share_tag(self, tag, dry_run=False):
+        """ Create a Share post for the given tag. """
         entries = get_entries(tag)
 
         if len(entries) >= self.site.config.get('SHARE_ENTRY_COUNT', 5):
-            new_post(tag, entries, self.site, options['dry-run'])
-            if not options['no-deploy']:
-                run_deploy()
+            new_post(tag, entries, self.site, dry_run)
+            created = True
 
         else:
             print('Only {} entries available'.format(len(entries)))
+            created = False
+
+        return created
