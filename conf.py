@@ -192,8 +192,10 @@ COMPILERS = {
 # And then do a backup, or ping pingomatic.
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = [
+    'nikola check -f --clean-files',
     'git checkout master',
     'nikola build',
+    './commit-changes',
     'git push origin master',
     #fixme: I don't like the output folder being version controlled on master!
     'git subtree split --prefix output -b gh-pages',
