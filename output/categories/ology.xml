@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (ology)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/ology.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Augmented assignment in Python</title><link>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (ology)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/ology.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:04 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Augmented assignment in Python</title><link>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</link><description>&lt;p&gt;
 If you are new to &lt;code&gt;Python&lt;/code&gt;, you should probably stop reading here.
 But, if you have used &lt;code&gt;Python&lt;/code&gt; and &lt;code&gt;numpy&lt;/code&gt;, then read on. Before, that
 try these bits of code.
@@ -122,7 +122,7 @@ today and searched the web for org2blog users.  Here is what I found.
 &lt;/li&gt;
 &lt;/ul&gt;</description><category>blab</category><category>list</category><category>ology</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</guid><pubDate>Sun, 29 Aug 2010 20:57:00 GMT</pubDate></item><item><title>Vimperator and Firemacs!</title><link>http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html</link><description>&lt;p&gt;
  For the uninitiated, vimperator is an emacs plugin to get Firefox
-working with vim keybindings and firemacs &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; is for emacs keybindings.
+working with vim keybindings and firemacs &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; is for emacs keybindings.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -151,7 +151,7 @@ and satisfied! And hopefully many more. :D
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/vimperator-and-firemacs.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Key-bindings are a religious thing, in the world of editors!
 &lt;/p&gt;&lt;/div&gt;
 

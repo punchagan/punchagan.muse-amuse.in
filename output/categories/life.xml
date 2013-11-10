@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (life)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/life.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Just one day</title><link>http://punchagan.muse-amuse.in/posts/just-one-day.html</link><description>&lt;p class="verse"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (life)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/life.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:04 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Just one day</title><link>http://punchagan.muse-amuse.in/posts/just-one-day.html</link><description>&lt;p class="verse"&gt;
 The ripples on the quiet lake,&lt;br&gt;
 twinkling stars on a moonless night,&lt;br&gt;
 and his lonely, crazy, thoughts,&lt;br&gt;
@@ -355,7 +355,7 @@ ever.
 &lt;li&gt;It's been a while since I've been on the winning side in
 carroms. Its so boring to be on the losing side for so long.
 &lt;/li&gt;
-&lt;li&gt;Word is not a document exchange format&lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/arbit-blab.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; ; Use
+&lt;li&gt;Word is not a document exchange format&lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; ; Use
 html, plain text, pdf or the open document format.(if you are
 not averse to openness) [I mention this &lt;i&gt;now&lt;/i&gt; because I faced a
 lot of trouble recently trying to handle some .doc files which
@@ -369,7 +369,7 @@ things.
 really poorly. It's next to impossible to download anything over
 half an MB.
 &lt;/li&gt;
-&lt;li&gt;This from the preface of SICP&lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/arbit-blab.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; ,a text book for an
+&lt;li&gt;This from the preface of SICP&lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; ,a text book for an
 introductory course on Computer Programming at MIT
 &lt;blockquote&gt;
 &lt;p&gt;
@@ -418,11 +418,11 @@ Here's an xkcd strip I liked.
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/arbit-blab.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Word is not a document exchange format
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/arbit-blab.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Structure and Interpretation of Computer Programs
 &lt;/p&gt;&lt;/div&gt;
 

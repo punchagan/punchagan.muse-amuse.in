@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (orgmode)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/orgmode.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (orgmode)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/orgmode.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:04 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
 I used to have a separate page for bookmarks and quotes on the old
 blog.  They will now be shared as regular posts with 5 or more
 bookmarks/quotes.  I use a bookmarklet in my browser to capture links
@@ -214,18 +214,18 @@ successfully completed import of my Wordpress posts and comments. :)
 &lt;h2 id="sec-1"&gt;I now use&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;ul class="org-ul"&gt;
-&lt;li&gt;Emacs and Org-mode &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; to write my posts.
+&lt;li&gt;Emacs and Org-mode &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; to write my posts.
 &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;org-hyde.el&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; to publish &lt;code&gt;html&lt;/code&gt; in a &lt;code&gt;hyde&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;org-hyde.el&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; to publish &lt;code&gt;html&lt;/code&gt; in a &lt;code&gt;hyde&lt;/code&gt;
 parse-able format.
 &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;hyde&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; to convert the &lt;code&gt;html&lt;/code&gt; pages into a blog.
+&lt;li&gt;&lt;code&gt;hyde&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; to convert the &lt;code&gt;html&lt;/code&gt; pages into a blog.
 &lt;/li&gt;
 &lt;li&gt;&lt;code&gt;org-publish&lt;/code&gt; to publish other pages in my home page.
 &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.4" name="fnr.4" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.4"&gt;4&lt;/a&gt;&lt;/sup&gt; and a &lt;code&gt;bash&lt;/code&gt; script for publishing.
+&lt;li&gt;&lt;code&gt;git&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.4" name="fnr.4" class="footref" href="#fn.4"&gt;4&lt;/a&gt;&lt;/sup&gt; and a &lt;code&gt;bash&lt;/code&gt; script for publishing.
 &lt;/li&gt;
-&lt;li&gt;Disqus &lt;sup&gt;&lt;a id="fnr.5" name="fnr.5" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.5"&gt;5&lt;/a&gt;&lt;/sup&gt; for the comment system.
+&lt;li&gt;Disqus &lt;sup&gt;&lt;a id="fnr.5" name="fnr.5" class="footref" href="#fn.5"&gt;5&lt;/a&gt;&lt;/sup&gt; for the comment system.
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -262,7 +262,7 @@ After some assessment, I decided upon &lt;code&gt;org-jekyll&lt;/code&gt; and
 &lt;/p&gt;
 
 &lt;p&gt;
-I decided to go with &lt;code&gt;hyde&lt;/code&gt; instead of &lt;code&gt;jekyll&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.6" name="fnr.6" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.6"&gt;6&lt;/a&gt;&lt;/sup&gt;
+I decided to go with &lt;code&gt;hyde&lt;/code&gt; instead of &lt;code&gt;jekyll&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.6" name="fnr.6" class="footref" href="#fn.6"&gt;6&lt;/a&gt;&lt;/sup&gt;
 since
 &lt;/p&gt;
 
@@ -270,7 +270,7 @@ since
 &lt;li&gt;It's in Python.  I didn't want to start figuring out Ruby,
 now.
 &lt;/li&gt;
-&lt;li&gt;It uses Django templates &lt;sup&gt;&lt;a id="fnr.7" name="fnr.7" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.7"&gt;7&lt;/a&gt;&lt;/sup&gt;.  And Django is
+&lt;li&gt;It uses Django templates &lt;sup&gt;&lt;a id="fnr.7" name="fnr.7" class="footref" href="#fn.7"&gt;7&lt;/a&gt;&lt;/sup&gt;.  And Django is
 something, I wish to learn.  I've started with that. :)
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -362,7 +362,7 @@ My first tryst with CSS hasn't been all that bad. :)
 &lt;p&gt;
 Using disqus was one thing, I wasn't sure I wanted to do.  I
 would've loved it if comments could be managed with org-mode
-too. ;) &lt;sup&gt;&lt;a id="fnr.8" name="fnr.8" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.8"&gt;8&lt;/a&gt;&lt;/sup&gt;
+too. ;) &lt;sup&gt;&lt;a id="fnr.8" name="fnr.8" class="footref" href="#fn.8"&gt;8&lt;/a&gt;&lt;/sup&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -406,35 +406,35 @@ blogging habits.
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Org-mode - Homepage
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Org-hyde is a &lt;i&gt;port&lt;/i&gt; of org-jekyll.el
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Hyde - Github
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.4" name="fn.4" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.4"&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.4" name="fn.4" class="footnum" href="#fnr.4"&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Git - Homepage
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.5" name="fn.5" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.5"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.5" name="fn.5" class="footnum" href="#fnr.5"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Disqus - Homepage
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.6" name="fn.6" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.6"&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.6" name="fn.6" class="footnum" href="#fnr.6"&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Github - Jekyll
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.7" name="fn.7" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.7"&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.7" name="fn.7" class="footnum" href="#fnr.7"&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Documentation - Django Templates
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.8" name="fn.8" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.8"&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.8" name="fn.8" class="footnum" href="#fnr.8"&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 I feel it is capable of doing that.  It's just my
 incapability that prevented me from trying it out.
 &lt;/p&gt;&lt;/div&gt;

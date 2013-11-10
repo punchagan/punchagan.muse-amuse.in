@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (book)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/book.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:10 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pehli Nazar</title><link>http://punchagan.muse-amuse.in/posts/pehli-nazar.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (book)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/book.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:05 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pehli Nazar</title><link>http://punchagan.muse-amuse.in/posts/pehli-nazar.html</link><description>&lt;p&gt;
 This post is my attempt to start a travelogue. I hope to capture
 the "All India Tour" phase of my life (as people have started to
 call it).  I'll try to keep these posts from becoming travel
@@ -80,10 +80,10 @@ It's time to stop writing when all you can see is proportionality
 between totally unrelated things.  Here are a few pics
 &lt;/p&gt;</description><category>book</category><category>camera</category><category>india</category><category>nomadic</category><category>photo</category><category>travel</category><guid>http://punchagan.muse-amuse.in/posts/pehli-nazar.html</guid><pubDate>Tue, 02 Mar 2010 02:07:00 GMT</pubDate></item><item><title>A Byte of Python</title><link>http://punchagan.muse-amuse.in/posts/a-byte-of-python.html</link><description>&lt;p&gt;
 This post's been inspired by a wonderful book, "A Byte of
-Python"&lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/a-byte-of-python.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; by Swaroop C H. The book has been revised after a
+Python"&lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; by Swaroop C H. The book has been revised after a
 gap of nearly 4 years and the wait is worth it! I thoroughly loved
-the book, and I'm happy to be accompanied by so many&lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/a-byte-of-python.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt;
-others&lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="http://punchagan.muse-amuse.in/posts/a-byte-of-python.html#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt;. This book has filled me with a sense of joy and
+the book, and I'm happy to be accompanied by so many&lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt;
+others&lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt;. This book has filled me with a sense of joy and
 pride. The pride, of being part of such a wonderful community, a
 beautiful crowd. Further, it is a matter of pride, the book's been
 authored by an Indian - its quite rare to find such books written
@@ -130,15 +130,15 @@ Namespaces are one honking great idea -- let's do more of those!
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/a-byte-of-python.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 A Byte of Python 
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/a-byte-of-python.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Python - Notes – Swaroop CH 
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="http://punchagan.muse-amuse.in/posts/a-byte-of-python.html#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Book updated for Python 3000 – Swaroop CH
 &lt;/p&gt;&lt;/div&gt;
 

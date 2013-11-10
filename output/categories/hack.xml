@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (hack)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/hack.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blogging with Nikola and Org-mode</title><link>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (hack)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/hack.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:05 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Blogging with Nikola and Org-mode</title><link>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</link><description>&lt;p&gt;
 Sigh! I made yet another change to the way this blog gets published.
 But, I have a feeling this mechanism, is here to stay!
 &lt;/p&gt;
@@ -196,24 +196,24 @@ Here are a few images.  (View them in their original size)
 
 
 &lt;div class="figure"&gt;
-&lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/channels.png" alt="channels.png"&gt;
+&lt;p&gt;&lt;img src="../images/channels.png" alt="channels.png"&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
 
 &lt;div class="figure"&gt;
-&lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/subsample.png" alt="subsample.png"&gt;
+&lt;p&gt;&lt;img src="../images/subsample.png" alt="subsample.png"&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description><category>fun</category><category>hack</category><category>image_processing</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/do-our-eyes-suck-at-blue.html</guid><pubDate>Sat, 13 Nov 2010 13:26:00 GMT</pubDate></item><item><title>Raise windows (on current desktop) xdotool &amp; bash</title><link>http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html</link><description>&lt;p&gt;
-I posted a snippet &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; of python code that used xdotool to
-raise windows.  I got one patch from dusual &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; that
+I posted a snippet &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; of python code that used xdotool to
+raise windows.  I got one patch from dusual &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; that
 enabled raising of windows in the current workspace only.
 &lt;/p&gt;
 
 &lt;p&gt;
-More importantly, Jordan gave a one-liner &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; in bash,
+More importantly, Jordan gave a one-liner &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; in bash,
 that could do the same thing as my long and elaborate python
 snippet.  I had a feeling that this would be much shorter in bash,
 but I don't feel comfortable writing bash scripts. :P
@@ -255,15 +255,15 @@ it.
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 My python snippet
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 dusual on twitter
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Jordan's one liner
 &lt;/p&gt;&lt;/div&gt;
 
@@ -289,7 +289,7 @@ The hacked page contained a link fake to a press release titled
 Later that day the MIT News Office issued a press release titled
 &lt;i&gt;MIT says "Disney buys MIT" hack revealed by low price&lt;/i&gt;
 &lt;/p&gt;</description><category>blab</category><category>hack</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/is-disney-buying-mit.html</guid><pubDate>Wed, 25 Oct 2006 18:26:00 GMT</pubDate></item><item><title>A "Free Software" Hack!!</title><link>http://punchagan.muse-amuse.in/posts/a-free-software-hack.html</link><description>&lt;div class="figure"&gt;
-&lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/freesoftware.hack.jpg" alt="freesoftware.hack.jpg"&gt;
+&lt;p&gt;&lt;img src="../images/freesoftware.hack.jpg" alt="freesoftware.hack.jpg"&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 

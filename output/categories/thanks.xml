@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (thanks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/thanks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>One Hundred</title><link>http://punchagan.muse-amuse.in/posts/one-hundred.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (thanks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/thanks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:05 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>One Hundred</title><link>http://punchagan.muse-amuse.in/posts/one-hundred.html</link><description>&lt;p&gt;
 The previous post, was the &lt;b&gt;One Hundredth&lt;/b&gt; post on this blog. As 9
 suggested, I just want to say Yay! and thank my readers!
 &lt;/p&gt;
@@ -291,7 +291,7 @@ system…..]
 
 
 &lt;div class="figure"&gt;
-&lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/fav.png" alt="fav.png"&gt;
+&lt;p&gt;&lt;img src="../images/fav.png" alt="fav.png"&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 

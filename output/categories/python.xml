@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (python)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/python.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>cStringIO and unicode</title><link>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (python)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/python.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:05 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>cStringIO and unicode</title><link>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</link><description>&lt;p&gt;
 StringIO in the cStringIO module in Python 2.7.2 doesn't handle
 unicode strings properly.  This bug has bitten me on a couple of
 occasions, in the recent past.
@@ -307,26 +307,26 @@ Here are a few images.  (View them in their original size)
 
 
 &lt;div class="figure"&gt;
-&lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/channels.png" alt="channels.png"&gt;
+&lt;p&gt;&lt;img src="../images/channels.png" alt="channels.png"&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
 
 &lt;div class="figure"&gt;
-&lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/subsample.png" alt="subsample.png"&gt;
+&lt;p&gt;&lt;img src="../images/subsample.png" alt="subsample.png"&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description><category>fun</category><category>hack</category><category>image_processing</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/do-our-eyes-suck-at-blue.html</guid><pubDate>Sat, 13 Nov 2010 13:26:00 GMT</pubDate></item><item><title>Raising Windows using Python</title><link>http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html</link><description>&lt;p&gt;
 Posting a small snippet of code, that I've been using for months
-now, on the request of a friend &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt;.
+now, on the request of a friend &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
 It basically checks for open windows of a program and brings them
 to the foreground or starts the program. I use it for my 3 most
 commonly used programs — Emacs(Mod4+E), Firefox(Mod4+F) and the
-Terminal(Mod4+T). I'm using a neat tool called xdotool &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; to
+Terminal(Mod4+T). I'm using a neat tool called xdotool &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; to
 search for windows using titles.
 &lt;/p&gt;
 
@@ -383,11 +383,11 @@ Any improvements and suggestions are welcome.
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 dusual on twitter
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 xdotool - Homepage
 &lt;/p&gt;&lt;/div&gt;
 

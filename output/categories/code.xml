@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (code)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/code.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 28 Oct 2013 15:08:11 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (code)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/code.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:05 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
 I used to have a separate page for bookmarks and quotes on the old
 blog.  They will now be shared as regular posts with 5 or more
 bookmarks/quotes.  I use a bookmarklet in my browser to capture links
@@ -160,13 +160,13 @@ been accepted.  :)
 If not anything more, I hope, at least a couple of curious people
 will explore org-mode and find it useful.
 &lt;/p&gt;</description><category>code</category><category>contribute</category><category>emacs</category><category>foss</category><category>git</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</guid><pubDate>Fri, 04 Feb 2011 17:55:00 GMT</pubDate></item><item><title>Raise windows (on current desktop) xdotool &amp; bash</title><link>http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html</link><description>&lt;p&gt;
-I posted a snippet &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; of python code that used xdotool to
-raise windows.  I got one patch from dusual &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; that
+I posted a snippet &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; of python code that used xdotool to
+raise windows.  I got one patch from dusual &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; that
 enabled raising of windows in the current workspace only.
 &lt;/p&gt;
 
 &lt;p&gt;
-More importantly, Jordan gave a one-liner &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; in bash,
+More importantly, Jordan gave a one-liner &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; in bash,
 that could do the same thing as my long and elaborate python
 snippet.  I had a feeling that this would be much shorter in bash,
 but I don't feel comfortable writing bash scripts. :P
@@ -208,15 +208,15 @@ it.
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 My python snippet
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 dusual on twitter
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Jordan's one liner
 &lt;/p&gt;&lt;/div&gt;
 
