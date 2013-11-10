@@ -95,6 +95,8 @@ NAVIGATION_LINKS = {
 # just independent HTML pages.
 #
 
+URL_TYPE = 'abs'
+
 POSTS = (
     ("posts/*.org", "posts", "post.tmpl"),
 )
