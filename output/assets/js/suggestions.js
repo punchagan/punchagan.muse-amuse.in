@@ -5,7 +5,7 @@ $(document).ready(
       var url = document.location.href;
       var search_string = url.replace(/.*\/(.*)/g, "$1");
 
-      if (search_string.length > 32) {
+      if (search_string.length < 32) {
         return search_string;
       } else {
 
