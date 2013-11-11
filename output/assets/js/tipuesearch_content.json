@@ -1,6 +1,12 @@
 {
   "pages": [
     {
+      "text": "Voodoo found a broken link referring to a one of my posts, on Quora.\nGiven that I have changed my site generator a bunch of times now, it\nis quite possible that there are other broken links at various other\nplaces.  So, I implemented a smart 404 page for the site, yesterday.\nIt is very similar to something I came across on brettterpstra's site.\nI just hooked up fuse.js with Nikola's tipuesearch plugin's output\nfile.  My glue code essentially, just figures out the search term from\nthe URL, performs a Fuse search on the json data created by Nikola's\nsearch plugin, and returns a list of top 5 results.  It just took me\nabout an hour to write, but is pretty useful, I think.", 
+      "tags": "", 
+      "loc": "/posts/a-smarter-404-page.html", 
+      "title": "A smarter 404 page."
+    }, 
+    {
       "text": "The page you were looking for could not be found.  Is it one of the\nfollowing?\n\n\n\n  Loading ...\n\n\n\nIf you reached here, by following a link, please report the broken URL\nto the author.", 
       "tags": "", 
       "loc": "/pages/404.html", 
