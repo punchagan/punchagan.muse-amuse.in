@@ -1,0 +1,20 @@
+#+BEGIN_COMMENT
+.. link:
+.. description: Implemented a fuzzy search based smarter 404 page
+.. tags:
+.. date: 2013/11/11 12:36:53
+.. title: A smarter 404 page.
+.. slug: a-smarter-404-page
+#+END_COMMENT
+
+
+[[http://twitter.com/avudem][Voodoo]] found a broken link referring to a one of my posts, on Quora.
+Given that I have changed my site generator a bunch of times now, it
+is quite possible that there are other broken links at various other
+places.  So, I implemented a smart [[http://punchagan.muse-amuse.in/this-is-a-fun-hack][404 page]] for the site, yesterday.
+It is very similar to something I came across on [[http://brettterpstra.com/2013/04/07/fun-with-intelligent-404-pages/][brettterpstra]]'s site.
+I just [[http://punchagan.muse-amuse.in/assets/js/suggestions.js][hooked up]] [[http://kiro.me/projects/fuse.html][fuse.js]] with Nikola's [[http://getnikola.com/handbook.html#local-search][tipue_search plugin]]'s output
+file.  My glue code essentially, just figures out the search term from
+the URL, performs a Fuse search on the json data created by Nikola's
+search plugin, and returns a list of top 5 results.  It just took me
+about an hour to write, but is pretty useful, I think.

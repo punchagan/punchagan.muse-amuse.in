@@ -41,6 +41,38 @@
         <div class="content" rel="main">
             
         <div class="post">
+            <h1 class="title"><a href="/posts/a-smarter-404-page.html">A smarter 404 page.</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2013-11-11T12:36:53+00:00">2013-11-11 12:36</time>
+                </div>
+                <div class="stats">
+                    
+        
+    <p>
+        <a href="/posts/a-smarter-404-page.html#disqus_thread" data-disqus-identifier="cache/posts/a-smarter-404-page.html">Comments</a>
+
+
+                </p></div>
+                
+
+            </div>
+            <div class="body">
+                <p>
+<a href="http://twitter.com/avudem">Voodoo</a> found a broken link referring to a one of my posts, on Quora.
+Given that I have changed my site generator a bunch of times now, it
+is quite possible that there are other broken links at various other
+places.  So, I implemented a smart <a href="http://punchagan.muse-amuse.in/this-is-a-fun-hack">404 page</a> for the site, yesterday.
+It is very similar to something I came across on <a href="http://brettterpstra.com/2013/04/07/fun-with-intelligent-404-pages/">brettterpstra</a>'s site.
+I just <a href="http://punchagan.muse-amuse.in/assets/js/suggestions.js">hooked up</a> <a href="http://kiro.me/projects/fuse.html">fuse.js</a> with Nikola's <a href="http://getnikola.com/handbook.html#local-search">tipue<sub>search</sub> plugin</a>'s output
+file.  My glue code essentially, just figures out the search term from
+the URL, performs a Fuse search on the json data created by Nikola's
+search plugin, and returns a list of top 5 results.  It just took me
+about an hour to write, but is pretty useful, I think.
+</p>
+            </div>
+        </div>
+        <div class="post">
             <h1 class="title"><a href="/posts/a-month-with-martin.html">A Month with Martin</a></h1>
             <div class="meta">
                 <div class="authordate">
@@ -681,54 +713,6 @@ need inward-focused, alone time to recharge.
 </p>
 </li>
 </ul>
-            </div>
-        </div>
-        <div class="post">
-            <h1 class="title"><a href="/posts/blogging-with-nikola-and-org-mode.html">Blogging with Nikola and Org-mode</a></h1>
-            <div class="meta">
-                <div class="authordate">
-                    <time class="timeago" datetime="2013-10-16T22:40:47+00:00">2013-10-16 22:40</time>
-                </div>
-                <div class="stats">
-                    
-        
-    <p>
-        <a href="/posts/blogging-with-nikola-and-org-mode.html#disqus_thread" data-disqus-identifier="cache/posts/blogging-with-nikola-and-org-mode.html">Comments</a>
-
-
-                </p></div>
-                
-    <div class="tags">
-        <ul>
-        More posts about:  
-            <li><a class="tag" href="/categories/blog.html">blog</a></li>
-            <li><a class="tag" href="/categories/orgmode.html">orgmode</a></li>
-            <li><a class="tag" href="/categories/hack.html">hack</a></li>
-        </ul>
-    </div>
-
-            </div>
-            <div class="body">
-                <p>
-Sigh! I made yet another change to the way this blog gets published.
-But, I have a feeling this mechanism, is here to stay!
-</p>
-
-<p>
-We've been using Nikola quite regularly for our <a href="http://ultimatesport.in">Ultimate site</a>, and I
-quite like it.  I've also contributed a bunch of features to Nikola to
-get it to work the way I would like it to.  This weekend I ported my
-blog from <a href="https://github.com/renard/o-blog">o-blog</a> to <a href="http://getnikola.com">Nikola</a>.  The only thing that was stopping me
-from doing it, until now is the fact that all my posts are in
-org markup and porting them over to one of the formats that Nikola
-supports would be a PITA.  So, I wrote a <a href="http://plugins.getnikola.com/#orgmode">pretty simple plugin</a> to
-Nikola to support posting from org files.  And then with a <a href="https://gist.github.com/punchagan/6970578">little
-Python</a>, I was able to move everything over to use Nikola.
-</p>
-
-<p>
-Hopefully, I'll keep my blog more updated, from here on!
-</p>
             </div>
         </div>
     

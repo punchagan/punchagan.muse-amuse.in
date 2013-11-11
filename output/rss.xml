@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 10 Nov 2013 17:33:49 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A Month with Martin</title><link>http://punchagan.muse-amuse.in/posts/a-month-with-martin.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 13:00:45 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A smarter 404 page.</title><link>http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html</link><description>&lt;p&gt;
+&lt;a href="http://twitter.com/avudem"&gt;Voodoo&lt;/a&gt; found a broken link referring to a one of my posts, on Quora.
+Given that I have changed my site generator a bunch of times now, it
+is quite possible that there are other broken links at various other
+places.  So, I implemented a smart &lt;a href="http://punchagan.muse-amuse.in/this-is-a-fun-hack"&gt;404 page&lt;/a&gt; for the site, yesterday.
+It is very similar to something I came across on &lt;a href="http://brettterpstra.com/2013/04/07/fun-with-intelligent-404-pages/"&gt;brettterpstra&lt;/a&gt;'s site.
+I just &lt;a href="http://punchagan.muse-amuse.in/assets/js/suggestions.js"&gt;hooked up&lt;/a&gt; &lt;a href="http://kiro.me/projects/fuse.html"&gt;fuse.js&lt;/a&gt; with Nikola's &lt;a href="http://getnikola.com/handbook.html#local-search"&gt;tipue&lt;sub&gt;search&lt;/sub&gt; plugin&lt;/a&gt;'s output
+file.  My glue code essentially, just figures out the search term from
+the URL, performs a Fuse search on the json data created by Nikola's
+search plugin, and returns a list of top 5 results.  It just took me
+about an hour to write, but is pretty useful, I think.
+&lt;/p&gt;</description><guid>http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html</guid><pubDate>Mon, 11 Nov 2013 12:36:53 GMT</pubDate></item><item><title>A Month with Martin</title><link>http://punchagan.muse-amuse.in/posts/a-month-with-martin.html</link><description>&lt;p&gt;
 At my &lt;a href="http://enthought.com"&gt;$dayjob&lt;/a&gt;, for the most part of October, I had the fortune of
 pair programming with &lt;a href="https://plus.google.com/114995175796183910458/posts"&gt;Martin&lt;/a&gt; and it was an amazing learning
 experience!  To share these lessons with my colleagues, I made a small
@@ -402,23 +413,4 @@ energized by connecting and spending time with others, introverts
 need inward-focused, alone time to recharge.
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</guid><pubDate>Fri, 18 Oct 2013 23:22:53 GMT</pubDate></item><item><title>Blogging with Nikola and Org-mode</title><link>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</link><description>&lt;p&gt;
-Sigh! I made yet another change to the way this blog gets published.
-But, I have a feeling this mechanism, is here to stay!
-&lt;/p&gt;
-
-&lt;p&gt;
-We've been using Nikola quite regularly for our &lt;a href="http://ultimatesport.in"&gt;Ultimate site&lt;/a&gt;, and I
-quite like it.  I've also contributed a bunch of features to Nikola to
-get it to work the way I would like it to.  This weekend I ported my
-blog from &lt;a href="https://github.com/renard/o-blog"&gt;o-blog&lt;/a&gt; to &lt;a href="http://getnikola.com"&gt;Nikola&lt;/a&gt;.  The only thing that was stopping me
-from doing it, until now is the fact that all my posts are in
-org markup and porting them over to one of the formats that Nikola
-supports would be a PITA.  So, I wrote a &lt;a href="http://plugins.getnikola.com/#orgmode"&gt;pretty simple plugin&lt;/a&gt; to
-Nikola to support posting from org files.  And then with a &lt;a href="https://gist.github.com/punchagan/6970578"&gt;little
-Python&lt;/a&gt;, I was able to move everything over to use Nikola.
-&lt;/p&gt;
-
-&lt;p&gt;
-Hopefully, I'll keep my blog more updated, from here on!
-&lt;/p&gt;</description><category>blog</category><category>orgmode</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</guid><pubDate>Wed, 16 Oct 2013 22:40:47 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</guid><pubDate>Fri, 18 Oct 2013 23:22:53 GMT</pubDate></item></channel></rss>

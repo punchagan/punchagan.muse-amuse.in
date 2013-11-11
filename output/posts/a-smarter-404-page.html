@@ -2,10 +2,10 @@
 <head>
     
     <meta charset="utf-8">
-    <meta name="description" content="Lessons from a month with Martin">
+    <meta name="description" content="Implemented a fuzzy search based smarter 404 page">
     <meta name="author" content="punchagan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Month with Martin | Noetic Nought</title>
+    <title>A smarter 404 page. | Noetic Nought</title>
     
             <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
@@ -44,37 +44,39 @@
             
     <div class="post">
     
-    <h1 class="p-name" itemprop="headline name">A Month with Martin</h1>
+    <h1 class="p-name" itemprop="headline name">A smarter 404 page.</h1>
 
         <div class="meta">
             <div class="authordate">
-                <time class="timeago" datetime="2013-11-10T17:13:17+00:00">2013-11-10 17:13</time>
+                <time class="timeago" datetime="2013-11-11T12:36:53+00:00">2013-11-11 12:36</time>
             </div>
             
 
             
           |  
-        <a href="/posts/a-month-with-martin.org" id="sourcelink">Source</a>
+        <a href="/posts/a-smarter-404-page.org" id="sourcelink">Source</a>
 
             
 
         </div>
         <div class="body">
             <p>
-At my <a href="http://enthought.com">$dayjob</a>, for the most part of October, I had the fortune of
-pair programming with <a href="https://plus.google.com/114995175796183910458/posts">Martin</a> and it was an amazing learning
-experience!  To share these lessons with my colleagues, I made a small
-presentation at lunch, to my colleagues.  <a href="https://rawgithub.com/punchagan/340e1350fdfc766c6599/raw/ca1f5fe9bfc1cc503cd8a524e350bd29e8f5f33d/month-with-martin.html">Here are the slides</a> for the
-presentation.
+<a href="http://twitter.com/avudem">Voodoo</a> found a broken link referring to a one of my posts, on Quora.
+Given that I have changed my site generator a bunch of times now, it
+is quite possible that there are other broken links at various other
+places.  So, I implemented a smart <a href="http://punchagan.muse-amuse.in/this-is-a-fun-hack">404 page</a> for the site, yesterday.
+It is very similar to something I came across on <a href="http://brettterpstra.com/2013/04/07/fun-with-intelligent-404-pages/">brettterpstra</a>'s site.
+I just <a href="http://punchagan.muse-amuse.in/assets/js/suggestions.js">hooked up</a> <a href="http://kiro.me/projects/fuse.html">fuse.js</a> with Nikola's <a href="http://getnikola.com/handbook.html#local-search">tipue<sub>search</sub> plugin</a>'s output
+file.  My glue code essentially, just figures out the search term from
+the URL, performs a Fuse search on the json data created by Nikola's
+search plugin, and returns a list of top 5 results.  It just took me
+about an hour to write, but is pretty useful, I think.
 </p>
         </div>
         
     <ul class="pager">
         <li class="previous">
-            <a href="/posts/bookmarks-2013-11-09.html" rel="prev">← Previous post</a>
-        </li>
-        <li class="next">
-            <a href="/posts/a-smarter-404-page.html" rel="next">Next post →</a>
+            <a href="/posts/a-month-with-martin.html" rel="prev">← Previous post</a>
         </li>
     </ul>
 
@@ -83,9 +85,9 @@ presentation.
         <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="rusticreverie",
-            disqus_url="http://punchagan.muse-amuse.in/posts/a-month-with-martin.html",
-        disqus_title="A Month with Martin",
-        disqus_identifier="cache/posts/a-month-with-martin.html",
+            disqus_url="http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html",
+        disqus_title="A smarter 404 page.",
+        disqus_identifier="cache/posts/a-smarter-404-page.html",
         disqus_config = function () {
             this.language = "en";
         };
