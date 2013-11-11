@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (chrome)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/chrome.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:04 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>GitHub Cue: Recommendations for GitHub Repos</title><link>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (chrome)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/chrome.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 18:19:15 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>GitHub Cue: Recommendations for GitHub Repos</title><link>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</link><description>&lt;p&gt;
 If you aren't already aware of it, I'm one of those people who
 goes around saying, "GitHub is my Facebook".  I spend quite a lot
 of time on GitHub, browsing the work of various people, looking at
@@ -46,7 +46,7 @@ think of.
 
 &lt;p&gt;
 I would appreciate any further ideas and suggestions.  Thanks!
-&lt;/p&gt;</description><category>app</category><category>chrome</category><category>code</category><category>github</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</guid><pubDate>Fri, 05 Aug 2011 18:51:00 GMT</pubDate></item><item><title>GetHub: Chrome Notifications for Github updates</title><link>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>app</category><category>chrome</category><category>code</category><category>github</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</guid><pubDate>Fri, 05 Aug 2011 13:21:00 GMT</pubDate></item><item><title>GetHub: Chrome Notifications for Github updates</title><link>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</link><description>&lt;p&gt;
 Over the last two days, I hacked up my first Chrome extension.
 I've been using Chrome only for the past couple of weeks or so and
 I begin to like it, though some of the extensions aren't as mature
@@ -106,4 +106,4 @@ one-time verification fee that Google asks for.
 Happy GitHubbing!
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>chrome</category><category>code</category><category>first</category><category>git</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</guid><pubDate>Wed, 02 Mar 2011 00:34:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>chrome</category><category>code</category><category>first</category><category>git</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</guid><pubDate>Tue, 01 Mar 2011 19:04:00 GMT</pubDate></item></channel></rss>

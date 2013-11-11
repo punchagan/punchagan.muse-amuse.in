@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (freedom)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/freedom.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:04 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Software Freedom Day</title><link>http://punchagan.muse-amuse.in/posts/software-freedom-day.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (freedom)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/freedom.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 18:19:15 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Software Freedom Day</title><link>http://punchagan.muse-amuse.in/posts/software-freedom-day.html</link><description>&lt;p&gt;
 Three Cheers to 'Free Software'!
 &lt;/p&gt;
 
 &lt;p&gt;
-A toast for GNU on its 25th Birthday!&lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt;
+A toast for GNU on its 25th Birthday!&lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/software-freedom-day.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -21,7 +21,7 @@ which also means gratis has been used. Using the term 'Libre'
 sometimes helps and if you are in this part of the world, "mukt"
 is the best word to use.
 &lt;/li&gt;
-&lt;li&gt;Free Software&lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; comes along with four fundamental freedoms. To put
+&lt;li&gt;Free Software&lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/software-freedom-day.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; comes along with four fundamental freedoms. To put
 it simply, the freedom to use, study, share and modify any
 software.
 &lt;/li&gt;
@@ -38,7 +38,7 @@ Be Free, My Friend!
 &lt;/p&gt;
 
 &lt;p&gt;
-Here is an extract from one of Stallman's &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; essays:
+Here is an extract from one of Stallman's &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="http://punchagan.muse-amuse.in/posts/software-freedom-day.html#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; essays:
 &lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -83,21 +83,21 @@ need to keep the two efforts in balance.
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/software-freedom-day.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 &lt;a href="http://www.gnu.org/fry/"&gt;http://www.gnu.org/fry/&lt;/a&gt;
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/software-freedom-day.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 The Free Software Definition
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="http://punchagan.muse-amuse.in/posts/software-freedom-day.html#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 The GNU Project by Richard Stallman 
 &lt;/p&gt;&lt;/div&gt;
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><category>blab</category><category>freedom</category><category>ology</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/software-freedom-day.html</guid><pubDate>Sun, 21 Sep 2008 18:23:00 GMT</pubDate></item><item><title>Busy without Business...</title><link>http://punchagan.muse-amuse.in/posts/busy-without-business.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>blab</category><category>freedom</category><category>ology</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/software-freedom-day.html</guid><pubDate>Sun, 21 Sep 2008 12:53:00 GMT</pubDate></item><item><title>Busy without Business...</title><link>http://punchagan.muse-amuse.in/posts/busy-without-business.html</link><description>&lt;p&gt;
 Yes, that's what my PS's been like.. It hasn't turned out to be as
 great a learning experience as one would imagine it to be..  [or
 atleast I hoped, it would be…] On the contrary, its turning out
@@ -154,4 +154,4 @@ described, and where you do not feel forced by a need to maintain
 your position in the organization, or financial support, or so on,
 to lose your integrity. May you have that freedom.
 &lt;/p&gt;
-&lt;/blockquote&gt;</description><category>blab</category><category>freedom</category><category>ps</category><guid>http://punchagan.muse-amuse.in/posts/busy-without-business.html</guid><pubDate>Sat, 30 Jun 2007 01:19:00 GMT</pubDate></item></channel></rss>
+&lt;/blockquote&gt;</description><category>blab</category><category>freedom</category><category>ps</category><guid>http://punchagan.muse-amuse.in/posts/busy-without-business.html</guid><pubDate>Fri, 29 Jun 2007 19:49:00 GMT</pubDate></item></channel></rss>

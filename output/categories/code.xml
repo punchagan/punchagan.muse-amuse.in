@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (code)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/code.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:05 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (code)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/code.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 18:19:15 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
 I used to have a separate page for bookmarks and quotes on the old
 blog.  They will now be shared as regular posts with 5 or more
 bookmarks/quotes.  I use a bookmarklet in my browser to capture links
@@ -19,7 +19,7 @@ if anybody is interested, I can publish the code somewhere public.
 If you are interested to get these links and bookmarks into your feed
 reader, you can subscribe to their feed: &lt;a href="http://punchagan.muse-amuse.in/categories/quotes.xml"&gt;quotes&lt;/a&gt;, &lt;a href="http://punchagan.muse-amuse.in/categories/bookmarks.xml"&gt;bookmarks&lt;/a&gt;.  These
 posts will also make it to the main feed, though.
-&lt;/p&gt;</description><category>blog</category><category>code</category><category>nikola</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</guid><pubDate>Sat, 19 Oct 2013 20:26:13 GMT</pubDate></item><item><title>GitHub Cue: Recommendations for GitHub Repos</title><link>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blog</category><category>code</category><category>nikola</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</guid><pubDate>Sat, 19 Oct 2013 14:56:13 GMT</pubDate></item><item><title>GitHub Cue: Recommendations for GitHub Repos</title><link>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</link><description>&lt;p&gt;
 If you aren't already aware of it, I'm one of those people who
 goes around saying, "GitHub is my Facebook".  I spend quite a lot
 of time on GitHub, browsing the work of various people, looking at
@@ -66,7 +66,7 @@ think of.
 
 &lt;p&gt;
 I would appreciate any further ideas and suggestions.  Thanks!
-&lt;/p&gt;</description><category>app</category><category>chrome</category><category>code</category><category>github</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</guid><pubDate>Fri, 05 Aug 2011 18:51:00 GMT</pubDate></item><item><title>GetHub: Chrome Notifications for Github updates</title><link>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>app</category><category>chrome</category><category>code</category><category>github</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html</guid><pubDate>Fri, 05 Aug 2011 13:21:00 GMT</pubDate></item><item><title>GetHub: Chrome Notifications for Github updates</title><link>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</link><description>&lt;p&gt;
 Over the last two days, I hacked up my first Chrome extension.
 I've been using Chrome only for the past couple of weeks or so and
 I begin to like it, though some of the extensions aren't as mature
@@ -126,7 +126,7 @@ one-time verification fee that Google asks for.
 Happy GitHubbing!
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>chrome</category><category>code</category><category>first</category><category>git</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</guid><pubDate>Wed, 02 Mar 2011 00:34:00 GMT</pubDate></item><item><title>Git powered wikis improved: My bit</title><link>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>chrome</category><category>code</category><category>first</category><category>git</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/gethub-chrome-notifications-for-github-updates.html</guid><pubDate>Tue, 01 Mar 2011 19:04:00 GMT</pubDate></item><item><title>Git powered wikis improved: My bit</title><link>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</link><description>&lt;p&gt;
 I accidentally came across the blog-post Git-powered wikis
 improved - GitHub. And this particular paragraph caught my
 eye:
@@ -159,14 +159,14 @@ been accepted.  :)
 &lt;p&gt;
 If not anything more, I hope, at least a couple of curious people
 will explore org-mode and find it useful.
-&lt;/p&gt;</description><category>code</category><category>contribute</category><category>emacs</category><category>foss</category><category>git</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</guid><pubDate>Fri, 04 Feb 2011 17:55:00 GMT</pubDate></item><item><title>Raise windows (on current desktop) xdotool &amp; bash</title><link>http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html</link><description>&lt;p&gt;
-I posted a snippet &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; of python code that used xdotool to
-raise windows.  I got one patch from dusual &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; that
+&lt;/p&gt;</description><category>code</category><category>contribute</category><category>emacs</category><category>foss</category><category>git</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/git-powered-wikis-improved-my-bit.html</guid><pubDate>Fri, 04 Feb 2011 12:25:00 GMT</pubDate></item><item><title>Raise windows (on current desktop) xdotool &amp; bash</title><link>http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html</link><description>&lt;p&gt;
+I posted a snippet &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; of python code that used xdotool to
+raise windows.  I got one patch from dusual &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; that
 enabled raising of windows in the current workspace only.
 &lt;/p&gt;
 
 &lt;p&gt;
-More importantly, Jordan gave a one-liner &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; in bash,
+More importantly, Jordan gave a one-liner &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; in bash,
 that could do the same thing as my long and elaborate python
 snippet.  I had a feeling that this would be much shorter in bash,
 but I don't feel comfortable writing bash scripts. :P
@@ -208,21 +208,21 @@ it.
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 My python snippet
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 dusual on twitter
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Jordan's one liner
 &lt;/p&gt;&lt;/div&gt;
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><category>code</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html</guid><pubDate>Sat, 06 Nov 2010 14:30:00 GMT</pubDate></item><item><title>A couple of counting functions</title><link>http://punchagan.muse-amuse.in/posts/a-couple-of-counting-functions.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>code</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html</guid><pubDate>Sat, 06 Nov 2010 09:00:00 GMT</pubDate></item><item><title>A couple of counting functions</title><link>http://punchagan.muse-amuse.in/posts/a-couple-of-counting-functions.html</link><description>&lt;p&gt;
 I had a strict character limit of 180 chars for something I was
 writing. I just wrote a simple function to count characters in a
 region or a buffer. Another function to count the words.
@@ -254,7 +254,7 @@ region or a buffer. Another function to count the words.
 	(setq count (1+ count))))
     (message (int-to-string count))))
 &lt;/pre&gt;
-&lt;/div&gt;</description><category>code</category><category>elisp</category><category>emacs</category><guid>http://punchagan.muse-amuse.in/posts/a-couple-of-counting-functions.html</guid><pubDate>Fri, 17 Sep 2010 19:40:00 GMT</pubDate></item><item><title>org/elisp - sorting list of org-links on description</title><link>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>code</category><category>elisp</category><category>emacs</category><guid>http://punchagan.muse-amuse.in/posts/a-couple-of-counting-functions.html</guid><pubDate>Fri, 17 Sep 2010 14:10:00 GMT</pubDate></item><item><title>org/elisp - sorting list of org-links on description</title><link>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</link><description>&lt;p&gt;
 A small utility function that I used to sort the names of people
 who commented on my blog.
 &lt;/p&gt;
@@ -282,7 +282,7 @@ and not the names. This function, when used with
 &lt;p&gt;
 Thanks to benny (on #org-mode), I also learnt the difference
 between &lt;code&gt;let&lt;/code&gt; and &lt;code&gt;let*&lt;/code&gt;.
-&lt;/p&gt;</description><category>code</category><category>elisp</category><category>note</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</guid><pubDate>Fri, 20 Aug 2010 00:23:00 GMT</pubDate></item><item><title>Thanks Sacha</title><link>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>code</category><category>elisp</category><category>note</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</guid><pubDate>Thu, 19 Aug 2010 18:53:00 GMT</pubDate></item><item><title>Thanks Sacha</title><link>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</link><description>&lt;p&gt;
 I just wanted to thank Sacha Chua for bearing with my newbie elisp
 code and trying out org2blog.
 &lt;/p&gt;
@@ -301,7 +301,7 @@ her request, but she was too quick for me! ;)
 
 &lt;p&gt;
 I'm loving it!
-&lt;/p&gt;</description><category>code</category><category>elisp</category><category>note</category><category>org2blog</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</guid><pubDate>Fri, 30 Jul 2010 06:59:00 GMT</pubDate></item><item><title>Refile to date-tree</title><link>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>code</category><category>elisp</category><category>note</category><category>org2blog</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</guid><pubDate>Fri, 30 Jul 2010 01:29:00 GMT</pubDate></item><item><title>Refile to date-tree</title><link>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</link><description>&lt;p&gt;
 Useful to refile notes to the journal file, which is a
 date-tree. &lt;code&gt;org-refile&lt;/code&gt; isn't convenient to refile stuff to a
 date-tree.
@@ -352,4 +352,4 @@ date-tree.
 
 &lt;p&gt;
 Enjoy!
-&lt;/p&gt;</description><category>code</category><category>elisp</category><category>emacs</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</guid><pubDate>Fri, 30 Jul 2010 05:33:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>code</category><category>elisp</category><category>emacs</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/refile-to-date-tree.html</guid><pubDate>Fri, 30 Jul 2010 00:03:00 GMT</pubDate></item></channel></rss>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (lafootgiri)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/lafootgiri.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:05 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>arbit blab</title><link>http://punchagan.muse-amuse.in/posts/arbit-blab.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (lafootgiri)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/lafootgiri.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 18:19:14 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>arbit blab</title><link>http://punchagan.muse-amuse.in/posts/arbit-blab.html</link><description>&lt;p&gt;
 Well, just another post to make it clear that
 &lt;/p&gt;
 &lt;ul class="org-ul"&gt;
@@ -47,7 +47,7 @@ ever.
 &lt;li&gt;It's been a while since I've been on the winning side in
 carroms. Its so boring to be on the losing side for so long.
 &lt;/li&gt;
-&lt;li&gt;Word is not a document exchange format&lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; ; Use
+&lt;li&gt;Word is not a document exchange format&lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/arbit-blab.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; ; Use
 html, plain text, pdf or the open document format.(if you are
 not averse to openness) [I mention this &lt;i&gt;now&lt;/i&gt; because I faced a
 lot of trouble recently trying to handle some .doc files which
@@ -61,7 +61,7 @@ things.
 really poorly. It's next to impossible to download anything over
 half an MB.
 &lt;/li&gt;
-&lt;li&gt;This from the preface of SICP&lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; ,a text book for an
+&lt;li&gt;This from the preface of SICP&lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/arbit-blab.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; ,a text book for an
 introductory course on Computer Programming at MIT
 &lt;blockquote&gt;
 &lt;p&gt;
@@ -110,17 +110,17 @@ Here's an xkcd strip I liked.
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/arbit-blab.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Word is not a document exchange format
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/arbit-blab.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Structure and Interpretation of Computer Programs
 &lt;/p&gt;&lt;/div&gt;
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><category>blab</category><category>lafootgiri</category><category>life</category><guid>http://punchagan.muse-amuse.in/posts/arbit-blab.html</guid><pubDate>Wed, 26 Nov 2008 19:36:00 GMT</pubDate></item><item><title>Lafoot or Lafoobot!</title><link>http://punchagan.muse-amuse.in/posts/lafoot-or-lafoobot.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>blab</category><category>lafootgiri</category><category>life</category><guid>http://punchagan.muse-amuse.in/posts/arbit-blab.html</guid><pubDate>Wed, 26 Nov 2008 14:06:00 GMT</pubDate></item><item><title>Lafoot or Lafoobot!</title><link>http://punchagan.muse-amuse.in/posts/lafoot-or-lafoobot.html</link><description>&lt;p&gt;
 Summer'08! I'm at home, doing nothing practically. :| No
 Internships, No Projects, No GRE plans (a little pushing for GRE
 has just started from the junta around.)
@@ -170,7 +170,7 @@ why) Hoping to have some more action this summer!
 &lt;p&gt;
 PS: There's a Big discussion presently on whether lafoobot is a he
 or a she. ;) What do you think?
-&lt;/p&gt;</description><category>IRC</category><category>lafootgiri</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/lafoot-or-lafoobot.html</guid><pubDate>Mon, 26 May 2008 16:39:00 GMT</pubDate></item><item><title>Home Coming!</title><link>http://punchagan.muse-amuse.in/posts/home-coming.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>IRC</category><category>lafootgiri</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/lafoot-or-lafoobot.html</guid><pubDate>Mon, 26 May 2008 11:09:00 GMT</pubDate></item><item><title>Home Coming!</title><link>http://punchagan.muse-amuse.in/posts/home-coming.html</link><description>&lt;p&gt;
 I'll be on board the Amaravathi Express in less than three hours
 from now! Bags packed, I'm waiting for the sun to rise, the World
 to wake up.
@@ -182,7 +182,7 @@ Project Euler. I have done 39. [With exams going on I consider it
 good progress] I will be attempting to push off the last one
 before leaving. Here I come, Project Euler. Here I come,
 Hyderabad!
-&lt;/p&gt;</description><category>blab</category><category>lafootgiri</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/home-coming.html</guid><pubDate>Thu, 15 May 2008 23:46:00 GMT</pubDate></item><item><title>Not so Floppix...</title><link>http://punchagan.muse-amuse.in/posts/not-so-floppix.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>lafootgiri</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/home-coming.html</guid><pubDate>Thu, 15 May 2008 18:16:00 GMT</pubDate></item><item><title>Not so Floppix...</title><link>http://punchagan.muse-amuse.in/posts/not-so-floppix.html</link><description>&lt;p&gt;
 &lt;b&gt;Disambiguation:&lt;/b&gt; The original Linux on 2 Floppies is here.
 &lt;/p&gt;
 
@@ -276,7 +276,7 @@ thought I had none! Here's a Screenshot of the Floppix Desktop.
 
 
 &lt;div class="figure"&gt;
-&lt;p&gt;&lt;img src="../images/floppix_desktop.jpg" alt="floppix_desktop.jpg"&gt;
+&lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/floppix_desktop.jpg" alt="floppix_desktop.jpg"&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -291,7 +291,7 @@ Update 2 [4/1/08]: There is already a floppy distro of Linux
 called Floppix. I knew about this only when some one searching for
 it reached my blog. Guess I should do something about this. [I'll
 be able to do it only after getting back to campus,though]
-&lt;/p&gt;</description><category>emacs</category><category>lafootgiri</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/not-so-floppix.html</guid><pubDate>Tue, 11 Dec 2007 00:28:00 GMT</pubDate></item><item><title>Life "In-gen"</title><link>http://punchagan.muse-amuse.in/posts/life-in-gen.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>emacs</category><category>lafootgiri</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/not-so-floppix.html</guid><pubDate>Mon, 10 Dec 2007 18:58:00 GMT</pubDate></item><item><title>Life "In-gen"</title><link>http://punchagan.muse-amuse.in/posts/life-in-gen.html</link><description>&lt;p&gt;
 Another post, with nothing concrete to say…
 &lt;/p&gt;
 
@@ -349,9 +349,9 @@ aren't Things…
 
 
 &lt;div class="figure"&gt;
-&lt;p&gt;&lt;img src="../images/bestthingsinlife.jpg" alt="bestthingsinlife.jpg"&gt;
+&lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/bestthingsinlife.jpg" alt="bestthingsinlife.jpg"&gt;
 &lt;/p&gt;
-&lt;/div&gt;</description><category>blab</category><category>exams</category><category>lafootgiri</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/life-in-gen.html</guid><pubDate>Wed, 21 Nov 2007 17:37:00 GMT</pubDate></item><item><title>Lost Control??</title><link>http://punchagan.muse-amuse.in/posts/lost-control.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>blab</category><category>exams</category><category>lafootgiri</category><category>quark</category><guid>http://punchagan.muse-amuse.in/posts/life-in-gen.html</guid><pubDate>Wed, 21 Nov 2007 12:07:00 GMT</pubDate></item><item><title>Lost Control??</title><link>http://punchagan.muse-amuse.in/posts/lost-control.html</link><description>&lt;p&gt;
 &lt;b&gt;Caution&lt;/b&gt;: This post is just some arbit crap, that arose from some
  internal probing. Its utterly worthless for any reader other than
  myself. This could possibly even be classified narcissistic or
@@ -441,7 +441,7 @@ btw, if this post was a total bouncer, this is for you….
 Time is the wisest Counselor.  Exams come in a close second! –
 punchagan
 &lt;/p&gt;
-&lt;/blockquote&gt;</description><category>blab</category><category>exams</category><category>lafootgiri</category><guid>http://punchagan.muse-amuse.in/posts/lost-control.html</guid><pubDate>Sat, 22 Sep 2007 13:22:00 GMT</pubDate></item><item><title>Teach Yourself Programming in Ten Years!!</title><link>http://punchagan.muse-amuse.in/posts/teach-yourself-programming-in-ten-years.html</link><description>&lt;p&gt;
+&lt;/blockquote&gt;</description><category>blab</category><category>exams</category><category>lafootgiri</category><guid>http://punchagan.muse-amuse.in/posts/lost-control.html</guid><pubDate>Sat, 22 Sep 2007 07:52:00 GMT</pubDate></item><item><title>Teach Yourself Programming in Ten Years!!</title><link>http://punchagan.muse-amuse.in/posts/teach-yourself-programming-in-ten-years.html</link><description>&lt;p&gt;
 Here's an interesting article by Peter Norvig, Director of
 Research Google I have just copied the whole essay here… also
 here's a link to the Original one…
@@ -449,7 +449,7 @@ here's a link to the Original one…
 
 &lt;p&gt;
 &lt;b&gt;Update:&lt;/b&gt; - &lt;span class="timestamp-wrapper"&gt;&lt;span class="timestamp"&gt;[2010-10-11 Mon]&lt;/span&gt;&lt;/span&gt; - Removed the copied content
-&lt;/p&gt;</description><category>lafootgiri</category><category>learning</category><category>life</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/teach-yourself-programming-in-ten-years.html</guid><pubDate>Fri, 02 Feb 2007 09:05:00 GMT</pubDate></item><item><title>Happy gNew Year!!</title><link>http://punchagan.muse-amuse.in/posts/happy-gnew-year.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>lafootgiri</category><category>learning</category><category>life</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/teach-yourself-programming-in-ten-years.html</guid><pubDate>Fri, 02 Feb 2007 03:35:00 GMT</pubDate></item><item><title>Happy gNew Year!!</title><link>http://punchagan.muse-amuse.in/posts/happy-gnew-year.html</link><description>&lt;p&gt;
 Hi! I'm a bit late…(courtesy:lightning quick network speeds
 @coll…{I started this post a couple of weeks back, at
 home… and its been rotting all this while, in my drafts!} ) [Its
@@ -530,7 +530,7 @@ system…..]
 
 
 &lt;div class="figure"&gt;
-&lt;p&gt;&lt;img src="../images/fav.png" alt="fav.png"&gt;
+&lt;p&gt;&lt;img src="http://punchagan.muse-amuse.in/images/fav.png" alt="fav.png"&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 
@@ -539,7 +539,7 @@ The Hacker Ethic : Access to computers and anything which might
 teach you something about the way the world works should be
 unlimited and total. Always yield to the Hands-On Imperative! –
 Steven Levy's "Hackers : The Heroes of The Computer Revolution"
-&lt;/p&gt;</description><category>blab</category><category>lafootgiri</category><category>ology</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/happy-gnew-year.html</guid><pubDate>Mon, 01 Jan 2007 14:38:00 GMT</pubDate></item><item><title>The Joy of a 'Project!'</title><link>http://punchagan.muse-amuse.in/posts/the-joy-of-a-project.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>blab</category><category>lafootgiri</category><category>ology</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/happy-gnew-year.html</guid><pubDate>Mon, 01 Jan 2007 09:08:00 GMT</pubDate></item><item><title>The Joy of a 'Project!'</title><link>http://punchagan.muse-amuse.in/posts/the-joy-of-a-project.html</link><description>&lt;p&gt;
 Just finished the 'Test-2'. Here's the first
 post that can genuinely be called "mine"…
 &lt;/p&gt;
@@ -661,4 +661,4 @@ I wonder if my "Engineering", will ever be a joy for me?
 &lt;p&gt;
 I am looking forward to more Projects… to make engineering a joy
 for me!! [it doesn't matter even if they're self-assigned ;-) ]
-&lt;/p&gt;</description><category>blab</category><category>lafootgiri</category><category>ology</category><category>project</category><guid>http://punchagan.muse-amuse.in/posts/the-joy-of-a-project.html</guid><pubDate>Mon, 06 Nov 2006 13:48:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>blab</category><category>lafootgiri</category><category>ology</category><category>project</category><guid>http://punchagan.muse-amuse.in/posts/the-joy-of-a-project.html</guid><pubDate>Mon, 06 Nov 2006 08:18:00 GMT</pubDate></item></channel></rss>

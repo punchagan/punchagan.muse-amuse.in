@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (math)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/math.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:04 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Sage Days 25, Mumbai, India</title><link>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</link><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (math)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/math.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 18:19:15 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Sage Days 25, Mumbai, India</title><link>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</link><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
 &lt;h2 id="sec-1"&gt;What is 'Sage Days'?&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;p&gt;
@@ -69,7 +69,7 @@ remotely interested in math and software for it!
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>event</category><category>math</category><category>ology</category><category>python</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</guid><pubDate>Wed, 21 Jul 2010 19:41:00 GMT</pubDate></item><item><title>Mathematics and Me</title><link>http://punchagan.muse-amuse.in/posts/mathematics-and-me.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>event</category><category>math</category><category>ology</category><category>python</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html</guid><pubDate>Wed, 21 Jul 2010 14:11:00 GMT</pubDate></item><item><title>Mathematics and Me</title><link>http://punchagan.muse-amuse.in/posts/mathematics-and-me.html</link><description>&lt;p&gt;
 Imagine a kid reading Shakespeare's Othello or As You Like
 it…[or may be some other classic poem…] with great difficulty
 he somehow manages to read the whole thing… [with all the
@@ -108,4 +108,4 @@ a real feeling as to the beauty, the deepest beauty, of nature
 … If you want to learn about nature, to appreciate nature, it is
 necessary to understand the language that she speaks in.
 –Richard P. Feynman
-&lt;/p&gt;</description><category>blab</category><category>math</category><guid>http://punchagan.muse-amuse.in/posts/mathematics-and-me.html</guid><pubDate>Tue, 06 Mar 2007 20:08:00 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>blab</category><category>math</category><guid>http://punchagan.muse-amuse.in/posts/mathematics-and-me.html</guid><pubDate>Tue, 06 Mar 2007 14:38:00 GMT</pubDate></item></channel></rss>

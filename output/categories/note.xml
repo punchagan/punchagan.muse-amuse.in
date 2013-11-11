@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (note)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/note.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:05 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>cStringIO and unicode</title><link>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (note)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/note.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 18:19:15 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>cStringIO and unicode</title><link>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</link><description>&lt;p&gt;
 StringIO in the cStringIO module in Python 2.7.2 doesn't handle
 unicode strings properly.  This bug has bitten me on a couple of
 occasions, in the recent past.
@@ -21,7 +21,7 @@ strings.
 
 &lt;p&gt;
 Or may be it's just time to move up to Python 2.7.3
-&lt;/p&gt;</description><category>bug</category><category>note</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</guid><pubDate>Mon, 03 Dec 2012 21:11:00 GMT</pubDate></item><item><title>Augmented assignment in Python</title><link>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>bug</category><category>note</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html</guid><pubDate>Mon, 03 Dec 2012 15:41:00 GMT</pubDate></item><item><title>Augmented assignment in Python</title><link>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</link><description>&lt;p&gt;
 If you are new to &lt;code&gt;Python&lt;/code&gt;, you should probably stop reading here.
 But, if you have used &lt;code&gt;Python&lt;/code&gt; and &lt;code&gt;numpy&lt;/code&gt;, then read on. Before, that
 try these bits of code.
@@ -85,7 +85,7 @@ print a
 &lt;p&gt;
 The same thing is explained in this thread.  Also, Thanks to
 Bhanukiran for asking me this.
-&lt;/p&gt;</description><category>note</category><category>numpy</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</guid><pubDate>Mon, 04 Oct 2010 22:49:00 GMT</pubDate></item><item><title>Some fun from #org-mode</title><link>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>numpy</category><category>ology</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html</guid><pubDate>Mon, 04 Oct 2010 17:19:00 GMT</pubDate></item><item><title>Some fun from #org-mode</title><link>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</link><description>&lt;p&gt;
 This is a conversation from #org-mode, published without
 permission from &lt;code&gt;plovs&lt;/code&gt;, &lt;code&gt;BerntH&lt;/code&gt; and &lt;code&gt;bremner&lt;/code&gt;. If any of you
 want any of the content removed, I will do so.
@@ -199,7 +199,7 @@ want any of the content removed, I will do so.
 &lt;p&gt;
 &amp;lt;punchagan&amp;gt; I hope you don't mind, if I make this anecdote public?
 &lt;/p&gt;
-&lt;/blockquote&gt;</description><category>IRC</category><category>emacs</category><category>note</category><category>org2blog</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</guid><pubDate>Sat, 02 Oct 2010 20:26:00 GMT</pubDate></item><item><title>Asking vs. Figuring out</title><link>http://punchagan.muse-amuse.in/posts/asking-vs-figuring-out.html</link><description>&lt;p&gt;
+&lt;/blockquote&gt;</description><category>IRC</category><category>emacs</category><category>note</category><category>org2blog</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</guid><pubDate>Sat, 02 Oct 2010 14:56:00 GMT</pubDate></item><item><title>Asking vs. Figuring out</title><link>http://punchagan.muse-amuse.in/posts/asking-vs-figuring-out.html</link><description>&lt;p&gt;
 Should one take the easy route of asking someone who knows, if she
 is sitting right next to you? Or should we try and find out first,
 before asking her? Should one value his time more than others' or
@@ -215,7 +215,7 @@ learning more, make sense? Is it worth spending the extra time?
 I'm just talking of simple things that you could figure out by
 spending a couple of minutes of searching the web or 5 minutes of
 thinking or 10 minutes of reading a book.
-&lt;/p&gt;</description><category>note</category><category>thought</category><category>time</category><guid>http://punchagan.muse-amuse.in/posts/asking-vs-figuring-out.html</guid><pubDate>Wed, 15 Sep 2010 21:13:00 GMT</pubDate></item><item><title>Happy Teachers' Day!</title><link>http://punchagan.muse-amuse.in/posts/happy-teachers-day.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>thought</category><category>time</category><guid>http://punchagan.muse-amuse.in/posts/asking-vs-figuring-out.html</guid><pubDate>Wed, 15 Sep 2010 15:43:00 GMT</pubDate></item><item><title>Happy Teachers' Day!</title><link>http://punchagan.muse-amuse.in/posts/happy-teachers-day.html</link><description>&lt;p&gt;
 Well, it turned out to be not so Happy. I came to know of this
 sad news. A prof published his students' work as his own, with
 no mention of their names! This guy is such a shame to his
@@ -225,7 +225,7 @@ profession! Shame!
 &lt;p&gt;
 I wonder how this guy has even been able to sleep every night.
 Isn't there something called a conscience?
-&lt;/p&gt;</description><category>note</category><guid>http://punchagan.muse-amuse.in/posts/happy-teachers-day.html</guid><pubDate>Sun, 05 Sep 2010 23:44:00 GMT</pubDate></item><item><title>org/elisp - sorting list of org-links on description</title><link>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><guid>http://punchagan.muse-amuse.in/posts/happy-teachers-day.html</guid><pubDate>Sun, 05 Sep 2010 18:14:00 GMT</pubDate></item><item><title>org/elisp - sorting list of org-links on description</title><link>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</link><description>&lt;p&gt;
 A small utility function that I used to sort the names of people
 who commented on my blog.
 &lt;/p&gt;
@@ -253,7 +253,7 @@ and not the names. This function, when used with
 &lt;p&gt;
 Thanks to benny (on #org-mode), I also learnt the difference
 between &lt;code&gt;let&lt;/code&gt; and &lt;code&gt;let*&lt;/code&gt;.
-&lt;/p&gt;</description><category>code</category><category>elisp</category><category>note</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</guid><pubDate>Fri, 20 Aug 2010 00:23:00 GMT</pubDate></item><item><title>Contributing to FOSS</title><link>http://punchagan.muse-amuse.in/posts/contributing-to-foss.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>code</category><category>elisp</category><category>note</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/orgelisp-sorting-list-of-org-links-on-description.html</guid><pubDate>Thu, 19 Aug 2010 18:53:00 GMT</pubDate></item><item><title>Contributing to FOSS</title><link>http://punchagan.muse-amuse.in/posts/contributing-to-foss.html</link><description>&lt;p&gt;
 gora asked for some good links (on ##linux-india) to redirect
 newbies, enthusiastic about contributing to FOSS.
 &lt;/p&gt;
@@ -303,7 +303,7 @@ expected in any of the FOSS communities, not just Ubuntu.
 
 &lt;p&gt;
 I'd be happy to add any other links that any of you share. Thanks!
-&lt;/p&gt;</description><category>contribute</category><category>foss</category><category>howto</category><category>newbie</category><category>note</category><guid>http://punchagan.muse-amuse.in/posts/contributing-to-foss.html</guid><pubDate>Thu, 19 Aug 2010 00:06:00 GMT</pubDate></item><item><title>One Hundred</title><link>http://punchagan.muse-amuse.in/posts/one-hundred.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>contribute</category><category>foss</category><category>howto</category><category>newbie</category><category>note</category><guid>http://punchagan.muse-amuse.in/posts/contributing-to-foss.html</guid><pubDate>Wed, 18 Aug 2010 18:36:00 GMT</pubDate></item><item><title>One Hundred</title><link>http://punchagan.muse-amuse.in/posts/one-hundred.html</link><description>&lt;p&gt;
 The previous post, was the &lt;b&gt;One Hundredth&lt;/b&gt; post on this blog. As 9
 suggested, I just want to say Yay! and thank my readers!
 &lt;/p&gt;
@@ -409,7 +409,7 @@ Thanks to everybody who took the time to comment here.
 Special thanks to niku, Rini, and ntveem for inspiring me with their
 blogs. [All three of them have moved on to better things than
 blogging.]
-&lt;/p&gt;</description><category>note</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/one-hundred.html</guid><pubDate>Tue, 17 Aug 2010 20:18:00 GMT</pubDate></item><item><title>Another win for them!</title><link>http://punchagan.muse-amuse.in/posts/another-win-for-them.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/one-hundred.html</guid><pubDate>Tue, 17 Aug 2010 14:48:00 GMT</pubDate></item><item><title>Another win for them!</title><link>http://punchagan.muse-amuse.in/posts/another-win-for-them.html</link><description>&lt;p&gt;
 South Central Railways(SCR) has banned photography in stations, as
 a measure to prevent Terrorism. Terrorism by definition is "the
 act of terrorizing; a mode of government by terror or
@@ -421,7 +421,7 @@ the people they are trying to stop?
 Anyway, if you are carrying a camera and are tempted to shoot in
 the railway station, go get a permission letter from the Chief
 PRO. :-/
-&lt;/p&gt;</description><category>note</category><guid>http://punchagan.muse-amuse.in/posts/another-win-for-them.html</guid><pubDate>Mon, 16 Aug 2010 21:55:00 GMT</pubDate></item><item><title>PyCon India '10</title><link>http://punchagan.muse-amuse.in/posts/pycon-india-10.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><guid>http://punchagan.muse-amuse.in/posts/another-win-for-them.html</guid><pubDate>Mon, 16 Aug 2010 16:25:00 GMT</pubDate></item><item><title>PyCon India '10</title><link>http://punchagan.muse-amuse.in/posts/pycon-india-10.html</link><description>&lt;p&gt;
 Looks like PyCon India 2010 is going to be great fun!  With 80
 talk submissions, quite a few interesting ones, this time's PyCon
 should be much better than last year's.  Also, David Goodger of
@@ -441,4 +441,4 @@ docutils and ReST fame will be the keynote speaker!
 &lt;div class="figure"&gt;
 &lt;p&gt;&lt;img src="http://in.pycon.org/2010/static/images/badges/supporter-small.png" alt="supporter-small.png"&gt;
 &lt;/p&gt;
-&lt;/div&gt;</description><category>conference</category><category>event</category><category>note</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/pycon-india-10.html</guid><pubDate>Mon, 16 Aug 2010 09:28:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>conference</category><category>event</category><category>note</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/pycon-india-10.html</guid><pubDate>Mon, 16 Aug 2010 03:58:00 GMT</pubDate></item></channel></rss>

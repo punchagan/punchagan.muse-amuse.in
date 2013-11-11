@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 13:05:51 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A smarter 404 page.</title><link>http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 18:19:14 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A smarter 404 page.</title><link>http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html</link><description>&lt;p&gt;
 &lt;a href="http://twitter.com/avudem"&gt;Voodoo&lt;/a&gt; found a broken link referring to a one of my posts, on Quora.
 Given that I have changed my site generator a bunch of times now, it
 is quite possible that there are other broken links at various other
@@ -10,13 +10,13 @@ file.  My glue code essentially, just figures out the search term from
 the URL, performs a Fuse search on the json data created by Nikola's
 search plugin, and returns a list of top 5 results.  It just took me
 about an hour to write, but is pretty useful, I think.
-&lt;/p&gt;</description><guid>http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html</guid><pubDate>Mon, 11 Nov 2013 12:36:53 GMT</pubDate></item><item><title>A Month with Martin</title><link>http://punchagan.muse-amuse.in/posts/a-month-with-martin.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><guid>http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html</guid><pubDate>Mon, 11 Nov 2013 07:06:53 GMT</pubDate></item><item><title>A Month with Martin</title><link>http://punchagan.muse-amuse.in/posts/a-month-with-martin.html</link><description>&lt;p&gt;
 At my &lt;a href="http://enthought.com"&gt;$dayjob&lt;/a&gt;, for the most part of October, I had the fortune of
 pair programming with &lt;a href="https://plus.google.com/114995175796183910458/posts"&gt;Martin&lt;/a&gt; and it was an amazing learning
 experience!  To share these lessons with my colleagues, I made a small
 presentation at lunch, to my colleagues.  &lt;a href="https://rawgithub.com/punchagan/340e1350fdfc766c6599/raw/ca1f5fe9bfc1cc503cd8a524e350bd29e8f5f33d/month-with-martin.html"&gt;Here are the slides&lt;/a&gt; for the
 presentation.
-&lt;/p&gt;</description><guid>http://punchagan.muse-amuse.in/posts/a-month-with-martin.html</guid><pubDate>Sun, 10 Nov 2013 17:13:17 GMT</pubDate></item><item><title>Bookmarks [2013-11-09]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;/p&gt;</description><guid>http://punchagan.muse-amuse.in/posts/a-month-with-martin.html</guid><pubDate>Sun, 10 Nov 2013 11:43:17 GMT</pubDate></item><item><title>Bookmarks [2013-11-09]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="https://github.com/leftnode/get%20shit%20done"&gt;leftnode/get shit done&lt;/a&gt;
 
 &lt;p&gt;
@@ -69,7 +69,7 @@ learning theory, etc.). It's focus is on broad applications with a
 rigorous backbone.
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</guid><pubDate>Sat, 09 Nov 2013 19:29:57 GMT</pubDate></item><item><title>Bookmarks [2013-11-04]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</guid><pubDate>Sat, 09 Nov 2013 13:59:57 GMT</pubDate></item><item><title>Bookmarks [2013-11-04]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://stackoverflow.com/questions/5163144/what%20are%20the%20special%20dollar%20sign%20shell%20variables"&gt;bash   What are the special dollar sign shell variables?   Stack Overflow&lt;/a&gt;
 
 &lt;ul class="org-ul"&gt;
@@ -162,7 +162,7 @@ These are all books that were recommended to me by various people on
 twitter, presented in no particular order. Thanks! – @hmason
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</guid><pubDate>Mon, 04 Nov 2013 09:55:51 GMT</pubDate></item><item><title>Quotes [2013-10-28]</title><link>http://punchagan.muse-amuse.in/posts/quotes-2013-10-28.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-04.html</guid><pubDate>Mon, 04 Nov 2013 04:25:51 GMT</pubDate></item><item><title>Quotes [2013-10-28]</title><link>http://punchagan.muse-amuse.in/posts/quotes-2013-10-28.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;The enjoyment of one's tools is an essential ingredient of
 successful work. – &lt;i&gt;Donald E. Knuth&lt;/i&gt;
 &lt;/li&gt;
@@ -182,7 +182,7 @@ anything I wanted. – &lt;i&gt;Jack Kerouac&lt;/i&gt;
 &lt;li&gt;The truth is, everyone is going to hurt you. You just got to find
 the ones worth suffering for. – &lt;i&gt;Bob Marley&lt;/i&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-2013-10-28.html</guid><pubDate>Mon, 28 Oct 2013 19:04:14 GMT</pubDate></item><item><title>Bookmarks [2013-10-28]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-28.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;/ul&gt;</description><category>quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-2013-10-28.html</guid><pubDate>Mon, 28 Oct 2013 13:34:14 GMT</pubDate></item><item><title>Bookmarks [2013-10-28]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-28.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://composition.al/blog/2013/07/31/some-misconceptions-about-hacker-school/"&gt;Some misconceptions about Hacker School&lt;/a&gt;
 
 &lt;p&gt;
@@ -254,7 +254,7 @@ everything you need and sits back and watches while you imprudently
 pick only what you want.
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-28.html</guid><pubDate>Mon, 28 Oct 2013 15:05:15 GMT</pubDate></item><item><title>Bookmarks [2013-10-25]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-25.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-28.html</guid><pubDate>Mon, 28 Oct 2013 09:35:15 GMT</pubDate></item><item><title>Bookmarks [2013-10-25]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-25.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://filecalledlife.wordpress.com/2013/08/24/basic%20stuff%20i%20should%20be%20able%20to/"&gt;Basic stuff I should be able to… | music muse amuse&lt;/a&gt;
 
 &lt;p&gt;
@@ -310,7 +310,7 @@ ride through Ladakh, trekking through the valley of flowers in
 Himalayas to surfing in Orissa, here are some insane experiences.
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-25.html</guid><pubDate>Fri, 25 Oct 2013 11:06:57 GMT</pubDate></item><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-25.html</guid><pubDate>Fri, 25 Oct 2013 05:36:57 GMT</pubDate></item><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
 I used to have a separate page for bookmarks and quotes on the old
 blog.  They will now be shared as regular posts with 5 or more
 bookmarks/quotes.  I use a bookmarklet in my browser to capture links
@@ -330,7 +330,7 @@ if anybody is interested, I can publish the code somewhere public.
 If you are interested to get these links and bookmarks into your feed
 reader, you can subscribe to their feed: &lt;a href="http://punchagan.muse-amuse.in/categories/quotes.xml"&gt;quotes&lt;/a&gt;, &lt;a href="http://punchagan.muse-amuse.in/categories/bookmarks.xml"&gt;bookmarks&lt;/a&gt;.  These
 posts will also make it to the main feed, though.
-&lt;/p&gt;</description><category>blog</category><category>code</category><category>nikola</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</guid><pubDate>Sat, 19 Oct 2013 20:26:13 GMT</pubDate></item><item><title>Quotes [2013-10-19]</title><link>http://punchagan.muse-amuse.in/posts/quotes-2013-10-19.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;/p&gt;</description><category>blog</category><category>code</category><category>nikola</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</guid><pubDate>Sat, 19 Oct 2013 14:56:13 GMT</pubDate></item><item><title>Quotes [2013-10-19]</title><link>http://punchagan.muse-amuse.in/posts/quotes-2013-10-19.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;Somewhere in the world someone is training when you are not. When
 you race him, he will win. – &lt;i&gt;Tom Fleming&lt;/i&gt;
 &lt;/li&gt;
@@ -350,7 +350,7 @@ I've ever known.” ― &lt;i&gt;Chuck Palahniuk&lt;/i&gt;
 &lt;li&gt;"I fell in love with the way you sleep; slowly then all at once"
   &lt;i&gt;John Green&lt;/i&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-2013-10-19.html</guid><pubDate>Sat, 19 Oct 2013 20:05:52 GMT</pubDate></item><item><title>Bookmarks [2013-10-18]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;/ul&gt;</description><category>quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-2013-10-19.html</guid><pubDate>Sat, 19 Oct 2013 14:35:52 GMT</pubDate></item><item><title>Bookmarks [2013-10-18]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://voices.canonical.com/jussi.pakkanen/2012/09/25/the%20code%20documentation%20fallacy/"&gt;The code documentation fallacy | Jussi's development blog&lt;/a&gt;
 
 &lt;p&gt;
@@ -413,4 +413,4 @@ energized by connecting and spending time with others, introverts
 need inward-focused, alone time to recharge.
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</guid><pubDate>Fri, 18 Oct 2013 23:22:53 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</guid><pubDate>Fri, 18 Oct 2013 17:52:53 GMT</pubDate></item></channel></rss>

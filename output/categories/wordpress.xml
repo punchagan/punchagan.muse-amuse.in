@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (wordpress)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/wordpress.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 01:03:04 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>What's up with org2blog?</title><link>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (wordpress)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/wordpress.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 18:19:15 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>What's up with org2blog?</title><link>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</link><description>&lt;p&gt;
 Another post on &lt;code&gt;org2blog&lt;/code&gt;.  Yes, the project is still alive. ;)
 Well, frankly quite a few people seem to be using it, and I
 regularly get bug-reports and feature requests.  I'm happy. :)
@@ -28,7 +28,7 @@ reduce the confusion, amongst users.
 
 &lt;p&gt;
 &lt;code&gt;org2blog/wp&lt;/code&gt; version 0.4 comes with the new namespace.
-&lt;/p&gt;</description><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</guid><pubDate>Sat, 15 Jan 2011 11:10:00 GMT</pubDate></item><item><title>WP to org-mode + hyde + disqus</title><link>http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</guid><pubDate>Sat, 15 Jan 2011 05:40:00 GMT</pubDate></item><item><title>WP to org-mode + hyde + disqus</title><link>http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html</link><description>&lt;p&gt;
 Hello World!
 &lt;/p&gt;
 
@@ -47,18 +47,18 @@ successfully completed import of my Wordpress posts and comments. :)
 &lt;h2 id="sec-1"&gt;I now use&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-1"&gt;
 &lt;ul class="org-ul"&gt;
-&lt;li&gt;Emacs and Org-mode &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; to write my posts.
+&lt;li&gt;Emacs and Org-mode &lt;sup&gt;&lt;a id="fnr.1" name="fnr.1" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.1"&gt;1&lt;/a&gt;&lt;/sup&gt; to write my posts.
 &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;org-hyde.el&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; to publish &lt;code&gt;html&lt;/code&gt; in a &lt;code&gt;hyde&lt;/code&gt;
+&lt;li&gt;&lt;code&gt;org-hyde.el&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.2" name="fnr.2" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.2"&gt;2&lt;/a&gt;&lt;/sup&gt; to publish &lt;code&gt;html&lt;/code&gt; in a &lt;code&gt;hyde&lt;/code&gt;
 parse-able format.
 &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;hyde&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; to convert the &lt;code&gt;html&lt;/code&gt; pages into a blog.
+&lt;li&gt;&lt;code&gt;hyde&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.3" name="fnr.3" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.3"&gt;3&lt;/a&gt;&lt;/sup&gt; to convert the &lt;code&gt;html&lt;/code&gt; pages into a blog.
 &lt;/li&gt;
 &lt;li&gt;&lt;code&gt;org-publish&lt;/code&gt; to publish other pages in my home page.
 &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.4" name="fnr.4" class="footref" href="#fn.4"&gt;4&lt;/a&gt;&lt;/sup&gt; and a &lt;code&gt;bash&lt;/code&gt; script for publishing.
+&lt;li&gt;&lt;code&gt;git&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.4" name="fnr.4" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.4"&gt;4&lt;/a&gt;&lt;/sup&gt; and a &lt;code&gt;bash&lt;/code&gt; script for publishing.
 &lt;/li&gt;
-&lt;li&gt;Disqus &lt;sup&gt;&lt;a id="fnr.5" name="fnr.5" class="footref" href="#fn.5"&gt;5&lt;/a&gt;&lt;/sup&gt; for the comment system.
+&lt;li&gt;Disqus &lt;sup&gt;&lt;a id="fnr.5" name="fnr.5" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.5"&gt;5&lt;/a&gt;&lt;/sup&gt; for the comment system.
 &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -95,7 +95,7 @@ After some assessment, I decided upon &lt;code&gt;org-jekyll&lt;/code&gt; and
 &lt;/p&gt;
 
 &lt;p&gt;
-I decided to go with &lt;code&gt;hyde&lt;/code&gt; instead of &lt;code&gt;jekyll&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.6" name="fnr.6" class="footref" href="#fn.6"&gt;6&lt;/a&gt;&lt;/sup&gt;
+I decided to go with &lt;code&gt;hyde&lt;/code&gt; instead of &lt;code&gt;jekyll&lt;/code&gt; &lt;sup&gt;&lt;a id="fnr.6" name="fnr.6" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.6"&gt;6&lt;/a&gt;&lt;/sup&gt;
 since
 &lt;/p&gt;
 
@@ -103,7 +103,7 @@ since
 &lt;li&gt;It's in Python.  I didn't want to start figuring out Ruby,
 now.
 &lt;/li&gt;
-&lt;li&gt;It uses Django templates &lt;sup&gt;&lt;a id="fnr.7" name="fnr.7" class="footref" href="#fn.7"&gt;7&lt;/a&gt;&lt;/sup&gt;.  And Django is
+&lt;li&gt;It uses Django templates &lt;sup&gt;&lt;a id="fnr.7" name="fnr.7" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.7"&gt;7&lt;/a&gt;&lt;/sup&gt;.  And Django is
 something, I wish to learn.  I've started with that. :)
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -195,7 +195,7 @@ My first tryst with CSS hasn't been all that bad. :)
 &lt;p&gt;
 Using disqus was one thing, I wasn't sure I wanted to do.  I
 would've loved it if comments could be managed with org-mode
-too. ;) &lt;sup&gt;&lt;a id="fnr.8" name="fnr.8" class="footref" href="#fn.8"&gt;8&lt;/a&gt;&lt;/sup&gt;
+too. ;) &lt;sup&gt;&lt;a id="fnr.8" name="fnr.8" class="footref" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fn.8"&gt;8&lt;/a&gt;&lt;/sup&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -239,42 +239,42 @@ blogging habits.
 &lt;h2 class="footnotes"&gt;Footnotes: &lt;/h2&gt;
 &lt;div id="text-footnotes"&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.1" name="fn.1" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.1"&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Org-mode - Homepage
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.2" name="fn.2" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.2"&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Org-hyde is a &lt;i&gt;port&lt;/i&gt; of org-jekyll.el
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.3" name="fn.3" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.3"&gt;3&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Hyde - Github
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.4" name="fn.4" class="footnum" href="#fnr.4"&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.4" name="fn.4" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.4"&gt;4&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Git - Homepage
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.5" name="fn.5" class="footnum" href="#fnr.5"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.5" name="fn.5" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.5"&gt;5&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Disqus - Homepage
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.6" name="fn.6" class="footnum" href="#fnr.6"&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.6" name="fn.6" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.6"&gt;6&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Github - Jekyll
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.7" name="fn.7" class="footnum" href="#fnr.7"&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.7" name="fn.7" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.7"&gt;7&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 Documentation - Django Templates
 &lt;/p&gt;&lt;/div&gt;
 
-&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.8" name="fn.8" class="footnum" href="#fnr.8"&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
+&lt;div class="footdef"&gt;&lt;sup&gt;&lt;a id="fn.8" name="fn.8" class="footnum" href="http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html#fnr.8"&gt;8&lt;/a&gt;&lt;/sup&gt; &lt;p class="footpara"&gt;
 I feel it is capable of doing that.  It's just my
 incapability that prevented me from trying it out.
 &lt;/p&gt;&lt;/div&gt;
 
 
 &lt;/div&gt;
-&lt;/div&gt;</description><category>orgmode</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html</guid><pubDate>Fri, 22 Oct 2010 14:49:00 GMT</pubDate></item><item><title>Lesson with RSS feeds &amp; Wordpress</title><link>http://punchagan.muse-amuse.in/posts/lesson-with-rss-feeds-wordpress.html</link><description>&lt;p&gt;
+&lt;/div&gt;</description><category>orgmode</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/wp-to-org-mode-hyde-disqus.html</guid><pubDate>Fri, 22 Oct 2010 09:19:00 GMT</pubDate></item><item><title>Lesson with RSS feeds &amp; Wordpress</title><link>http://punchagan.muse-amuse.in/posts/lesson-with-rss-feeds-wordpress.html</link><description>&lt;p&gt;
 In a world of (RSS &amp;amp; Atom) feeds, deleting your posts is not the
 way to do it.
 &lt;/p&gt;
@@ -288,12 +288,12 @@ to be caught by the feed aggregators. Then, delete your post.
 &lt;b&gt;Update&lt;/b&gt;:
  This
  post also has similar advice.
-&lt;/p&gt;</description><category>note</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/lesson-with-rss-feeds-wordpress.html</guid><pubDate>Wed, 04 Aug 2010 09:07:00 GMT</pubDate></item><item><title>org2blog annoyance</title><link>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/lesson-with-rss-feeds-wordpress.html</guid><pubDate>Wed, 04 Aug 2010 03:37:00 GMT</pubDate></item><item><title>org2blog annoyance</title><link>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</link><description>&lt;p&gt;
 I hate it when I'm trying out things with org2blog - fixing bugs
 or adding features - and my testing buffer gets posted. Why do I
 keep passing the prefix argument with C-u? I should probably
 work with a local instance of WordPress.
-&lt;/p&gt;</description><category>note</category><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</guid><pubDate>Tue, 03 Aug 2010 03:14:00 GMT</pubDate></item><item><title>Update Script</title><link>http://punchagan.muse-amuse.in/posts/update-script.html</link><description>&lt;p&gt;
+&lt;/p&gt;</description><category>note</category><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</guid><pubDate>Mon, 02 Aug 2010 21:44:00 GMT</pubDate></item><item><title>Update Script</title><link>http://punchagan.muse-amuse.in/posts/update-script.html</link><description>&lt;p&gt;
 Well, this isn't an update of how I'm doing on my sabbatical. Its
 just been 3 days and I'm doing pretty fine.  I just finished
 writing a script to keep my blogs page in sync with my
@@ -341,7 +341,7 @@ ps :
 &lt;/li&gt;
 &lt;li&gt;Get in touch, if you'd like to have a look.
 &lt;/li&gt;
-&lt;/ol&gt;</description><category>ology</category><category>python</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/update-script.html</guid><pubDate>Tue, 08 Jul 2008 20:39:00 GMT</pubDate></item><item><title>A Second Blog...</title><link>http://punchagan.muse-amuse.in/posts/a-second-blog.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;/ol&gt;</description><category>ology</category><category>python</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/update-script.html</guid><pubDate>Tue, 08 Jul 2008 15:09:00 GMT</pubDate></item><item><title>A Second Blog...</title><link>http://punchagan.muse-amuse.in/posts/a-second-blog.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;It can't really be called a Second Blog… because I won't be
 posting any new stuff there…
 &lt;/li&gt;
@@ -353,4 +353,4 @@ posting any new stuff there…
 &lt;/li&gt;
 &lt;li&gt;I started it because Blogspot may soon be blocked on campus!!!
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>ology</category><category>posts</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/a-second-blog.html</guid><pubDate>Wed, 04 Apr 2007 11:46:00 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>ology</category><category>posts</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/a-second-blog.html</guid><pubDate>Wed, 04 Apr 2007 06:16:00 GMT</pubDate></item></channel></rss>
