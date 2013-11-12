@@ -5,6 +5,7 @@
 .. date: 2013/11/11 12:36:53
 .. title: A smarter 404 page.
 .. slug: a-smarter-404-page
+.. nocomments: True
 #+END_COMMENT
 
 
