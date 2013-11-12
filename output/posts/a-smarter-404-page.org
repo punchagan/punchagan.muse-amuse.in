@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. link:
 .. description: Implemented a fuzzy search based smarter 404 page
-.. tags:
+.. tags: hack, code, js, fuzzy-search
 .. date: 2013/11/11 12:36:53
 .. title: A smarter 404 page.
 .. slug: a-smarter-404-page
