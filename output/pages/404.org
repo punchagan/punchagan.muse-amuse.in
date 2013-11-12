@@ -5,6 +5,7 @@
 .. date: 2013/11/10 18:24:28
 .. title: Oops! Page not found!
 .. slug: 404
+.. nocomments: True
 #+END_COMMENT
 
 The page you were looking for could not be found.  Is it one of the
