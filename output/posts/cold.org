@@ -5,6 +5,7 @@
 .. date: 2013/11/13 01:03:45
 .. title: Cold
 .. slug: cold
+.. nocomments: True
 #+END_COMMENT
 
 It was a pleasant Saturday evening, in the middle of the winter.
