@@ -1,5 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 11 Nov 2013 18:19:15 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-09]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/categories/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Tue, 12 Nov 2013 12:13:16 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-12]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-12.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://kiro.me/projects/fuse.html"&gt;Fuse.js | K. Risk   JavaScript Refined&lt;/a&gt;
+
+&lt;p&gt;
+If you need a lightweight, fast way to search through a list of
+items, and allow mispellings, then Fuse.js is for you. Forget all
+server-side logic. This is done all in JavaScript. Check out the
+demo, and look at the examples below.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://danielhough.co.uk/blog/unhuddled/"&gt;Unhuddled   To Independence — Dan Hough — Independent Software Developer&lt;/a&gt;
+
+&lt;p&gt;
+This is a story about how in a few months my outlook on work and
+life changed, and I ended up where I am now: full time, doing stuff
+that I enjoy for independence, fun, learning and hopefully, profit.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.nytimes.com/2006/12/10/magazine/10section1C.t%201.html?_r=0"&gt;Empty Stomach Intelligence   New York Times&lt;/a&gt;
+
+&lt;p&gt;
+ “When you are hungry, you need to focus your entire system on
+finding food in the environment.”
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://zenhabits.net/tatooine/"&gt;Burn Down the Farm : zenhabits&lt;/a&gt;
+
+&lt;p&gt;
+Burn down the farm, nonviolently of course. Get rid of the
+possibility of comfort, so that the scary journey you want to take
+is your best choice.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://thoughtcatalog.com/kate%20mechem/2013/11/23%20priceless%20habits%20that%20will%20make%20you%20your%20greatest%20self/"&gt;23 Priceless Habits That Will Make You Your Greatest Self | Thought Catalog&lt;/a&gt;
+
+&lt;p&gt;
+Take responsibility for your mistakes.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!searchin/jenkinsci%20dev/force%2420push/jenkinsci%20dev/%20myjRIPcVwU/mrwn8VkyXagJ"&gt;strange pushes on GitHub   Google Groups&lt;/a&gt;
+
+&lt;p&gt;
+I have triggered an involuntary "forced push" last night on the list
+of Jenkins-CI plugins indicated below in this e-mail.
+&lt;/p&gt;
+
+&lt;p&gt;
+The total number of impacted repositories should then be: 186
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-12.html</guid><pubDate>Tue, 12 Nov 2013 06:43:12 GMT</pubDate></item><item><title>Bookmarks [2013-11-09]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="https://github.com/leftnode/get%20shit%20done"&gt;leftnode/get shit done&lt;/a&gt;
 
 &lt;p&gt;
@@ -594,72 +649,4 @@ You will mess up.  I will take away your phone.  We will sit down and talk abo
 tags: travel, india, adventure, bicycling
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-01-22.html</guid><pubDate>Tue, 22 Jan 2013 18:29:59 GMT</pubDate></item><item><title>Bookmarks [2012/12/12]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2012-12-12.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://kingsly.net/tmp/qtr-life.txt"&gt;Kingsly on Life&lt;/a&gt;
-
-&lt;p&gt;
-tags: quote, life, reading
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://physics.stackexchange.com/questions/6157/list-of-freely-available-physics-books"&gt;education - List of freely available physics books - Physics&lt;/a&gt;
-
-&lt;p&gt;
-tags: books, physics, reading, collection
-&lt;/p&gt;
-
-&lt;p&gt;
-a list of physics books with open-source licenses, like Creative Commons, GPL, etc. The books can be about a particular field in physics or about physics in general.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.gaussianprocess.org/gpml/"&gt;Gaussian Processes for Machine Learning: Book webpage&lt;/a&gt;
-
-&lt;p&gt;
-tags: machine&lt;sub&gt;learning&lt;/sub&gt;, book, reading
-&lt;/p&gt;
-
-&lt;p&gt;
-The book deals with the supervised-learning problem for both regression and classification, and includes detailed algorithms. A wide variety of covariance (kernel) functions are presented and their properties discussed. Model selection is discussed both from a Bayesian and a classical perspective. Many connections to other well-known techniques from machine learning and statistics are discussed, including support-vector machines, neural networks, splines, regularization networks, relevance vector machines and others. Theoretical issues including learning curves and the PAC-Bayesian framework are treated, and several approximation methods for learning with large datasets are discussed. The book contains illustrative examples and exercises, and code and datasets are available on the Web. Appendixes provide mathematical background and a discussion of Gaussian Markov processes.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://human.io/"&gt;human.io&lt;/a&gt;
-
-&lt;p&gt;
-tags: development, phone, android, app, software
-&lt;/p&gt;
-
-&lt;p&gt;
-Easily create and instantly deploy tiny bits of interactive code to your army of followers via their mobile devices.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.bicicleting.com/information-on-getting-visas-in-an-overland-trip-from-india-to-europethrough-central-asia/"&gt;Information on getting visas in an overland trip from India to Europe(through central asia) « Asia by bike | Un viaje en bicicleta&lt;/a&gt;
-
-&lt;p&gt;
-tags: travel, visa, advice, bicycling
-&lt;/p&gt;
-
-&lt;p&gt;
-If you are going in an overland trip from Asia to Europe,through central asia , here is my experience with the visas.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2012-12-12.html</guid><pubDate>Wed, 12 Dec 2012 18:29:59 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-01-22.html</guid><pubDate>Tue, 22 Jan 2013 18:29:59 GMT</pubDate></item></channel></rss>
