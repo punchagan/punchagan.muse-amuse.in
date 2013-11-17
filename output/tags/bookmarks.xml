@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 17 Nov 2013 19:33:04 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-12]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-12.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 17 Nov 2013 20:23:58 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-17]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-17.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.chrisaitchison.com/2011/05/03/you%20are%20not%20a%20software%20engineer/"&gt;You are NOT a Software Engineer!   Chris Aitchison&lt;/a&gt;
+
+&lt;p&gt;
+The engineering metaphor has had its time in the sun, and maybe it
+even used to be accurate, but now it really only serves to help
+non-technical people have unrealistic expectations about how
+software gets built.
+&lt;/p&gt;
+
+&lt;p&gt;
+I am a Software Gardener.
+&lt;/p&gt;
+
+&lt;p&gt;
+So are you.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://news.slashdot.org/story/13/11/01/1919205/bill%20gates%20internet%20will%20not%20save%20the%20world?utm_source=rss1.0mainlinkanon&amp;amp;utm_medium=feed"&gt;Bill Gates: Internet Will Not Save the World   Slashdot&lt;/a&gt;
+
+&lt;p&gt;
+The internet is not going to save the world, says the Microsoft
+co-founder, whatever Mark Zuckerberg and Silicon Valley's tech
+billionaires believe. But eradicating disease just might.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nodeknockout.com/teams/keming%20labs"&gt;Node.js Knockout | Nov 9 11th, 2013&lt;/a&gt;
+
+&lt;p&gt;
+ClearCommit, semantic diff tool for codebases.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://boingboing.net/2013/11/15/sleeping%20on%20strangers%20on%20the%20s.html"&gt;'Sleeping On Strangers On The Subway,' a video experiment   Boing Boing&lt;/a&gt;
+
+&lt;p&gt;
+"Inspired by a picture that went viral, we decided to see how many
+people would let a random person sleep on them on the subway. Here
+are the results, and the valuable lesson we learned."
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://jacksgap.com/meet%20first%20heartless%20man/"&gt;Meet Craig, the First Man in the World to Live Without a Heart   JacksGap&lt;/a&gt;
+
+&lt;p&gt;
+When Craig Lewis aged 55 had been diagnosed with a heart disease so
+intricate not even a pacemaker could save him, Texan doctors had to
+think outside of the box.
+&lt;/p&gt;
+
+&lt;p&gt;
+Outstandingly, they developed a revolutionary concept where by they
+install a device that keeps his blood in continuous flow…without a
+pulse.
+&lt;/p&gt;
+
+&lt;p&gt;
+Within a day of surgery Craig was up and speaking to doctors and now
+lives fully functioning without a heart. Who said science was
+boring?
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-17.html</guid><pubDate>Sun, 17 Nov 2013 14:53:54 GMT</pubDate></item><item><title>Bookmarks [2013-11-12]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-12.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://kiro.me/projects/fuse.html"&gt;Fuse.js | K. Risk   JavaScript Refined&lt;/a&gt;
 
 &lt;p&gt;
@@ -585,68 +649,4 @@ tags: advice, sport, ultimate, tips
 tags: python, programming, tutorial, collection
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-03-14.html</guid><pubDate>Thu, 14 Mar 2013 18:29:59 GMT</pubDate></item><item><title>Bookmarks [2013/01/22]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-01-22.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://stevepulec.com/freezegun/"&gt;FreezeGun&lt;/a&gt;
-
-&lt;p&gt;
-tags: python, testing, code
-&lt;/p&gt;
-
-&lt;p&gt;
-FreezeGun is a library that allows your python tests to travel through time by mocking the datetime module.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="https://graphics.stanford.edu/wikis/cs448b-12-fall/"&gt;CourseWiki - CS 448B&lt;/a&gt;
-
-&lt;p&gt;
-tags: visualization, course, software
-&lt;/p&gt;
-
-&lt;p&gt;
-In this course we will study techniques and algorithms for creating effective visualizations based on principles from graphic design, visual art, perceptual psychology, and cognitive science. The course is targeted both towards students interested in using visualization in their own work, as well as students interested in building better visualization tools and systems.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.quora.com/What-are-some-useful-technical-skills-I-can-learn-within-a-day"&gt;What are some useful technical skills I can learn within a day? - Quora&lt;/a&gt;
-
-&lt;p&gt;
-tags: programming, collection, learn
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://thenextweb.com/shareables/2012/12/31/mom-presents-18-point-contract-with-rules-of-use-to-teenage-son-would-you-be-tempted/"&gt;This mom gave her son an 18-point contract with his iPhone. Would you be tempted? - The Next Web&lt;/a&gt;
-
-&lt;p&gt;
-tags: life, kids, technology, advice
-&lt;/p&gt;
-
-&lt;p&gt;
-You will mess up.  I will take away your phone.  We will sit down and talk about it.  We will start over again.  You &amp;amp; I, we are always learning.  I am on your team.  We are in this together.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://www.deccanherald.com/content/306814/its-all-bike.html"&gt;It’s all about the bike&lt;/a&gt;
-
-&lt;p&gt;
-tags: travel, india, adventure, bicycling
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-01-22.html</guid><pubDate>Tue, 22 Jan 2013 18:29:59 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-03-14.html</guid><pubDate>Thu, 14 Mar 2013 18:29:59 GMT</pubDate></item></channel></rss>

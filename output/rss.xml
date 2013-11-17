@@ -1,5 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 17 Nov 2013 19:27:06 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Cold</title><link>http://punchagan.muse-amuse.in/posts/cold.html</link><description>&lt;p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 17 Nov 2013 20:23:58 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-17]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-17.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.chrisaitchison.com/2011/05/03/you%20are%20not%20a%20software%20engineer/"&gt;You are NOT a Software Engineer!   Chris Aitchison&lt;/a&gt;
+
+&lt;p&gt;
+The engineering metaphor has had its time in the sun, and maybe it
+even used to be accurate, but now it really only serves to help
+non-technical people have unrealistic expectations about how
+software gets built.
+&lt;/p&gt;
+
+&lt;p&gt;
+I am a Software Gardener.
+&lt;/p&gt;
+
+&lt;p&gt;
+So are you.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://news.slashdot.org/story/13/11/01/1919205/bill%20gates%20internet%20will%20not%20save%20the%20world?utm_source=rss1.0mainlinkanon&amp;amp;utm_medium=feed"&gt;Bill Gates: Internet Will Not Save the World   Slashdot&lt;/a&gt;
+
+&lt;p&gt;
+The internet is not going to save the world, says the Microsoft
+co-founder, whatever Mark Zuckerberg and Silicon Valley's tech
+billionaires believe. But eradicating disease just might.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nodeknockout.com/teams/keming%20labs"&gt;Node.js Knockout | Nov 9 11th, 2013&lt;/a&gt;
+
+&lt;p&gt;
+ClearCommit, semantic diff tool for codebases.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://boingboing.net/2013/11/15/sleeping%20on%20strangers%20on%20the%20s.html"&gt;'Sleeping On Strangers On The Subway,' a video experiment   Boing Boing&lt;/a&gt;
+
+&lt;p&gt;
+"Inspired by a picture that went viral, we decided to see how many
+people would let a random person sleep on them on the subway. Here
+are the results, and the valuable lesson we learned."
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://jacksgap.com/meet%20first%20heartless%20man/"&gt;Meet Craig, the First Man in the World to Live Without a Heart   JacksGap&lt;/a&gt;
+
+&lt;p&gt;
+When Craig Lewis aged 55 had been diagnosed with a heart disease so
+intricate not even a pacemaker could save him, Texan doctors had to
+think outside of the box.
+&lt;/p&gt;
+
+&lt;p&gt;
+Outstandingly, they developed a revolutionary concept where by they
+install a device that keeps his blood in continuous flow…without a
+pulse.
+&lt;/p&gt;
+
+&lt;p&gt;
+Within a day of surgery Craig was up and speaking to doctors and now
+lives fully functioning without a heart. Who said science was
+boring?
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-17.html</guid><pubDate>Sun, 17 Nov 2013 14:53:54 GMT</pubDate></item><item><title>Cold</title><link>http://punchagan.muse-amuse.in/posts/cold.html</link><description>&lt;p&gt;
 It was a pleasant Saturday evening, in the middle of the winter.
 Christmas was just round the corner and love, in the air. The sun was
 just setting, and everything outside his window was given a fresh coat
@@ -431,24 +495,4 @@ ride through Ladakh, trekking through the valley of flowers in
 Himalayas to surfing in Orissa, here are some insane experiences.
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-25.html</guid><pubDate>Fri, 25 Oct 2013 05:36:57 GMT</pubDate></item><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
-I used to have a separate page for bookmarks and quotes on the old
-blog.  They will now be shared as regular posts with 5 or more
-bookmarks/quotes.  I use a bookmarklet in my browser to capture links
-to an org-file using org-capture protocol and then I have a small
-plugin to Nikola, that looks at such captured bookmarks and quotes and
-makes new posts out of them.  This workflow is inspired by Brett
-Trepestra's &lt;a href="http://brettterpstra.com/2013/01/15/a-web-excursions-system-for-static-blogs/"&gt;web excursions&lt;/a&gt; plugin.
-&lt;/p&gt;
-
-&lt;p&gt;
-The plugin is currently a part of my blog source, and not published to
-Nikola's plugin repository since it is very specific to my setup.  But
-if anybody is interested, I can publish the code somewhere public.
-&lt;/p&gt;
-
-&lt;p&gt;
-If you are interested to get these links and bookmarks into your feed
-reader, you can subscribe to their feed: &lt;a href="http://punchagan.muse-amuse.in/categories/quotes.xml"&gt;quotes&lt;/a&gt;, &lt;a href="http://punchagan.muse-amuse.in/categories/bookmarks.xml"&gt;bookmarks&lt;/a&gt;.  These
-posts will also make it to the main feed, though.
-&lt;/p&gt;</description><category>blog</category><category>code</category><category>nikola</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</guid><pubDate>Sat, 19 Oct 2013 14:56:13 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-25.html</guid><pubDate>Fri, 25 Oct 2013 05:36:57 GMT</pubDate></item></channel></rss>
