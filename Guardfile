@@ -8,7 +8,7 @@ def f():
     import subprocess
     subprocess.call(("nikola", "build"))
 
-fdata = json.loads('''["conf.py", "themes", "templates", "galleries", "posts", "stories", ""]''')
+fdata = json.loads('''["conf.py", "themes", "templates", "galleries", "posts", "pages", ""]''')
 
 for watch in fdata:
     Task.add(watch, f)
