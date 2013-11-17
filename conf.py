@@ -194,7 +194,7 @@ TAG_PATH = "tags"
 # And then do a backup, or ping pingomatic.
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = [
-    'nikola orphans',
+    'nikola orphans|xargs rm',
     'git checkout master',
     'nikola build',
     './commit-changes',
