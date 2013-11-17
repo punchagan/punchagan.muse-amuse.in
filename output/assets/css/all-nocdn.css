@@ -851,15 +851,9 @@ nav hr {
 }
 
 nav li {
-    display: inline;
+    display: table-caption;
     margin: 10px;
 }
-
-nav li:before {
-    display: inline;
-    content: " · ";
-}
-
 
 #social {
   margin-bottom: 10px;
