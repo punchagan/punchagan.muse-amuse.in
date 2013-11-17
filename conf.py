@@ -488,6 +488,13 @@ INDEX_DISPLAY_POST_COUNT = 1000000
 
 ENABLED_EXTRAS = ['local_search']
 
+SEARCH_FORM = """
+<span class="navbar-form pull-left">
+<input type="text" id="tipue_search_input" placeholder="Search this site">
+</span>
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
+"""
+
 # Use content distribution networks for jquery and twitter-bootstrap css and js
 # If this is True, jquery is served from the Google CDN and twitter-bootstrap
 # is served from the NetDNA CDN
@@ -497,7 +504,9 @@ ENABLED_EXTRAS = ['local_search']
 
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </HEAD>
-# EXTRA_HEAD_DATA = ""
+EXTRA_HEAD_DATA = """
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
+"""
 # Google analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 BODY_END = """<script type="text/javascript">
@@ -513,6 +522,15 @@ BODY_END = """<script type="text/javascript">
   })();
 
 </script>
+<script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
+<script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
+$(document).ready(function() {
+    $('#tipue_search_input').tipuesearch({
+        'mode': 'json',
+        'contentLocation': '/assets/js/tipuesearch_content.json',
+        'showUrl': false
+    });
+});
 """
 
 # The possibility to extract metadata from the filename by using a
