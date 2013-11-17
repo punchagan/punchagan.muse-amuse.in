@@ -63,7 +63,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/index.html', 'Home'),
         ('/archive.html', 'Archives'),
-        ('/categories/index.html', 'Tags'),
+        ('/tags/index.html', 'Tags'),
         ('/rss.xml', 'RSS'),
         ('https://github.com/punchagan', 'GitHub'),
         ('https://twitter.com/punchagan', 'Twitter',),
@@ -150,7 +150,7 @@ COMPILERS = {
 # output / TRANSLATION[lang] / TAG_PATH / index.html (list of tags)
 # output / TRANSLATION[lang] / TAG_PATH / tag.html (list of posts for a tag)
 # output / TRANSLATION[lang] / TAG_PATH / tag.xml (RSS feed for a tag)
-# TAG_PATH = "categories"
+TAG_PATH = "tags"
 
 # If TAG_PAGES_ARE_INDEXES is set to True, each tag's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
