@@ -61,12 +61,12 @@ TRANSLATIONS = {
 # You should provide a key-value pair for each used language.
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/index.html', 'Home', 'icon-home'),
-        ('/archive.html', 'Archives', 'icon-folder-open-alt'),
-        ('/categories/index.html', 'Tags', 'icon-tags'),
-        ('/rss.xml', 'RSS', 'icon-rss'),
-        ('https://twitter.com/punchagan', 'Twitter profile', 'icon-twitter'),
-        ('https://github.com/punchagan', 'GitHub profile', 'icon-github'),
+        ('/index.html', 'Home'),
+        ('/archive.html', 'Archives'),
+        ('/categories/index.html', 'Tags'),
+        ('/rss.xml', 'RSS'),
+        ('https://github.com/punchagan', 'GitHub'),
+        ('https://twitter.com/punchagan', 'Twitter',),
     ),
 }
 
@@ -288,7 +288,7 @@ PING_GET_SERVICES = [
 # translated
 
 # Name of the theme to use.
-THEME = "zen"
+THEME = "lagom4ni"
 
 # Color scheme to be used for code blocks. If your theme provides
 # "assets/css/code.css" this is ignored.
