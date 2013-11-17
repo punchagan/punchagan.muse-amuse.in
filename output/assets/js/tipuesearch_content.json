@@ -19,7 +19,7 @@
       "title": "A smarter 404 page."
     }, 
     {
-      "text": "The page you were looking for could not be found.  Is it one of the\nfollowing?\n\n\n\n  Loading ...\n\n\n\nIf you reached here, by following a link, please report the broken URL\nto the author.", 
+      "text": "The page you were looking for could not be found.\n\n\n\nIf you reached here, by following a link, please report the broken URL\nto the author.\n\n\n\nYou can either use the search bar, or wait to see if we can\nautomatically find the post you were looking for!\n\n\n\n  Searching for related posts ...", 
       "tags": "", 
       "loc": "/pages/404.html", 
       "title": "Oops! Page not found!"
