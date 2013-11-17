@@ -24,13 +24,16 @@ $(document).ready(
 
     var show_results = function(entries) {
       var entries_ul = $('<ul class="entries">');
-      $('#suggestions-loading').remove();
-      $('#suggestions').append(entries_ul);
-
-      entries.forEach(function(entry){
-        var entry_li = $('<a>').attr('href', entry.loc).text(entry.title)
-              .appendTo($('<li>').appendTo(entries_ul));
-      });
+      if (entries.length == 0) {
+        $('#suggestions-loading').text('Sorry no matching posts could be found!');
+      } else {
+        $('#suggestions-loading').text('Are you looking for any of the following posts?');
+        $('#suggestions').append(entries_ul);
+        entries.forEach(function(entry){
+          var entry_li = $('<a>').attr('href', entry.loc).text(entry.title)
+                .appendTo($('<li>').appendTo(entries_ul));
+        });
+      };
     };
 
     $.getJSON('/assets/js/tipuesearch_content.json').done(
