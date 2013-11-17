@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (blog)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/blog.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 17 Nov 2013 19:33:03 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
+I used to have a separate page for bookmarks and quotes on the old
+blog.  They will now be shared as regular posts with 5 or more
+bookmarks/quotes.  I use a bookmarklet in my browser to capture links
+to an org-file using org-capture protocol and then I have a small
+plugin to Nikola, that looks at such captured bookmarks and quotes and
+makes new posts out of them.  This workflow is inspired by Brett
+Trepestra's &lt;a href="http://brettterpstra.com/2013/01/15/a-web-excursions-system-for-static-blogs/"&gt;web excursions&lt;/a&gt; plugin.
+&lt;/p&gt;
+
+&lt;p&gt;
+The plugin is currently a part of my blog source, and not published to
+Nikola's plugin repository since it is very specific to my setup.  But
+if anybody is interested, I can publish the code somewhere public.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you are interested to get these links and bookmarks into your feed
+reader, you can subscribe to their feed: &lt;a href="http://punchagan.muse-amuse.in/categories/quotes.xml"&gt;quotes&lt;/a&gt;, &lt;a href="http://punchagan.muse-amuse.in/categories/bookmarks.xml"&gt;bookmarks&lt;/a&gt;.  These
+posts will also make it to the main feed, though.
+&lt;/p&gt;</description><category>blog</category><category>code</category><category>nikola</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</guid><pubDate>Sat, 19 Oct 2013 14:56:13 GMT</pubDate></item><item><title>Blogging with Nikola and Org-mode</title><link>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</link><description>&lt;p&gt;
+Sigh! I made yet another change to the way this blog gets published.
+But, I have a feeling this mechanism, is here to stay!
+&lt;/p&gt;
+
+&lt;p&gt;
+We've been using Nikola quite regularly for our &lt;a href="http://ultimatesport.in"&gt;Ultimate site&lt;/a&gt;, and I
+quite like it.  I've also contributed a bunch of features to Nikola to
+get it to work the way I would like it to.  This weekend I ported my
+blog from &lt;a href="https://github.com/renard/o-blog"&gt;o-blog&lt;/a&gt; to &lt;a href="http://getnikola.com"&gt;Nikola&lt;/a&gt;.  The only thing that was stopping me
+from doing it, until now is the fact that all my posts are in
+org markup and porting them over to one of the formats that Nikola
+supports would be a PITA.  So, I wrote a &lt;a href="http://plugins.getnikola.com/#orgmode"&gt;pretty simple plugin&lt;/a&gt; to
+Nikola to support posting from org files.  And then with a &lt;a href="https://gist.github.com/punchagan/6970578"&gt;little
+Python&lt;/a&gt;, I was able to move everything over to use Nikola.
+&lt;/p&gt;
+
+&lt;p&gt;
+Hopefully, I'll keep my blog more updated, from here on!
+&lt;/p&gt;</description><category>blog</category><category>orgmode</category><category>hack</category><guid>http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html</guid><pubDate>Wed, 16 Oct 2013 17:10:47 GMT</pubDate></item><item><title>Changes to Blog</title><link>http://punchagan.muse-amuse.in/posts/changes-to-blog.html</link><description>&lt;p&gt;
+Well, as you can see, I've changed my blog a bit.  I had been
+trying to make it gel well with org-mode and looking for ways to
+allow me to share arbit stuff with separate feeds for tags,
+separate pages with independent feeds, etc.
+&lt;/p&gt;
+
+&lt;p&gt;
+I finally got around to tweaking the code of reprise to be able to
+do this.  There are still a few things I would like to change, but
+I'll make the changes gradually.  The looks are also straight from
+uddigal's reprise, with a few tiny tweaks.  I hope it is alright
+to be using it.  I really liked the theme.
+&lt;/p&gt;
+
+&lt;p&gt;
+Every tag now has a separate feed. &lt;code&gt;/tags/emacs.atom&lt;/code&gt; will give
+you the feed of &lt;code&gt;emacs&lt;/code&gt; for instance. Also, I plan to have a
+couple of more pages, one for all the interesting links I come
+across and another for interesting quotes.  Both of these pages,
+have their own feeds too (&lt;code&gt;quotes.atom&lt;/code&gt; and &lt;code&gt;links.atom&lt;/code&gt;).
+&lt;/p&gt;
+
+&lt;p&gt;
+In the spirit of minimalism, I got rid of comments.  I've been
+looking for ways of having comments without all the javascript
+cruft from disqus, but I didn't find any satisfactory way to do
+this.  So, the site will have no comments.  You can write to me,
+in case you've something to say to me.
+&lt;/p&gt;
+
+&lt;p&gt;
+Adios.
+&lt;/p&gt;</description><category>blog</category><category>orgmode</category><category>python</category><guid>http://punchagan.muse-amuse.in/posts/changes-to-blog.html</guid><pubDate>Wed, 02 Feb 2011 18:11:00 GMT</pubDate></item><item><title>Windows©, Doors or Homes!??!</title><link>http://punchagan.muse-amuse.in/posts/windowsc-doors-or-homes.html</link><description>&lt;p&gt;
+A couple of days back.. one guy called green&lt;sub&gt;mamba&lt;/sub&gt; asked me.. "Why
+do you use Linux (GNU/Linux) and not Windows? What is it that
+makes LinuxGNU/Linux] so special for you?" I avoided that
+question then.. {I was in no mood of answering questions… Exams
+had finished just the day before!!}  I am trying to answer it
+now… green&lt;sub&gt;mamba&lt;/sub&gt; also told me that Roopesh said, "I use it
+because I can look at the source code. I am allowed to look at how
+things work and fiddle with the way they work!"… I knew it
+immediately that this was not the reason for me.[I rarely looked
+at source code… and making changes to it.. haha..] So what is
+it? I think I can answer this question if I get back to the time
+when I started using Linux…[hehe.. not too long ago!! :P]
+&lt;/p&gt;
+
+&lt;p&gt;
+So how did I start using GNU/Linux? How did "we" first meet? It
+was during last summer holidays.. that Voods sent me this link
+… [I had definitely used GNU/Linux on a few occasions
+before… but.. this was when I really began using it…] and
+within hours I was a fan of GNU/Linux!![and Richard M Stallman
+(RMS)]
+&lt;/p&gt;
+
+&lt;p&gt;
+So its the "philosophy"… The philosophy of Free
+Software… [Free as in Freedom, not as in Free Beer…(English is
+a wierd wierd Language…)]… The philosophy of Open
+Source… that brought me to it… This song says it the best…
+&lt;/p&gt;
+
+&lt;p class="verse"&gt;
+Free Software Song –RMS&lt;br&gt;
+&lt;br&gt;
+Join us now and share the software;&lt;br&gt;
+You'll be free, hackers, you'll be free.&lt;br&gt;
+&lt;br&gt;
+Join us now and share the software;&lt;br&gt;
+You'll be free, hackers, you'll be free.&lt;br&gt;
+&lt;br&gt;
+Hoarders may get piles of money,&lt;br&gt;
+That is true, hackers, that is true.&lt;br&gt;
+But they cannot help their neighbors;&lt;br&gt;
+That's not good, hackers, that's not good.&lt;br&gt;
+&lt;br&gt;
+When we have enough free software&lt;br&gt;
+At our call, hackers, at our call,&lt;br&gt;
+We'll throw out those dirty licenses&lt;br&gt;
+Ever more, hackers, ever more.&lt;br&gt;
+&lt;br&gt;
+Join us now and share the software;&lt;br&gt;
+You'll be free, hackers, you'll be free.&lt;br&gt;
+&lt;br&gt;
+Join us now and share the software;&lt;br&gt;
+You'll be free, hackers, you'll be free.&lt;br&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+now I continue to use it.. for a variety of reasons..[they are NOT
+in the order of their priority/importance]
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Firstly, using Linux gives me a sense of community… a sense of
+oneness [this can't happen with Windows.. because you can't
+share stuff… :-(]
+&lt;/li&gt;
+&lt;li&gt;I have begun to hate the concept of Proprietary Software… can
+you believe that.. "Sharing stuff..  makes us PIRATES!!"
+&lt;/li&gt;
+
+&lt;li&gt;I am a growing fan of the Command Line… It simply rocks!!
+&lt;/li&gt;
+
+&lt;li&gt;There's almost no problem of Viruses/Malware.. You simply don't
+need an Anti-Virus..(that needs to be updated every night.. or
+u'll have nightmares…)
+&lt;/li&gt;
+
+&lt;li&gt;Then there's this wonderful concept of Live-CDs.. {specially
+Knoppix.. Its absolutely awesome!} It put me(us?) out of
+soup… a lotta times…
+&lt;/li&gt;
+
+&lt;li&gt;The fiddle factor… I have just started to fiddle with
+things(…source codes… I added a small feature to my
+dc-client Microdc2].. the feature of away messages.. it feels
+gr8! :P)
+&lt;/li&gt;
+
+&lt;li&gt;One of my best friend is using it too! [you know who…]
+&lt;/li&gt;
+
+&lt;li&gt;The Mascot looks cool!! ;) [I liked the GNU mascot too! (It's on
+my side-bar) ]
+&lt;/li&gt;
+
+&lt;li&gt;The name "LINUX"!! [There's so many flavors(Distros) of
+Linux.. that I can keep trying different ones.. all my
+life :P.. presently with Slackware!]
+&lt;/li&gt;
+
+&lt;li&gt;Its Fun!! and I want to use it…
+&lt;/li&gt;
+
+&lt;li&gt;and finally… Windows sucks! [I don't have to use it… :P]!!
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Value your freedom or you will lose it, teaches history. "Don't
+bother us with politics," respond those who don't want to learn.
+–Richard Stallman
+&lt;/p&gt;
+
+&lt;p&gt;
+When you say, "I wrote a program that crashed Windows", people
+just stare at you blankly and say, "Hey, I got those with the
+system, for free".  –Linus Torvalds
+&lt;/p&gt;
+
+&lt;p&gt;
+"What happens when you read some doc and either it doesn't answer
+ your question or is demonstrably wrong? In Linux, you say "Linux
+ sucks" and go read the code. In Windows/Oracle/etc you say
+ "Windows sucks" and start banging your head against the wall."
+ — Denis Vlasenko on linux kernel mailing list
+&lt;/p&gt;
+
+&lt;p&gt;
+"The box said that I needed to have Windows 98 or better… so I
+installed Linux."  – LinuxNewbie.org
+&lt;/p&gt;</description><category>blog</category><category>ology</category><category>rms</category><category>song</category><guid>http://punchagan.muse-amuse.in/posts/windowsc-doors-or-homes.html</guid><pubDate>Sun, 01 Apr 2007 13:44:00 GMT</pubDate></item></channel></rss>

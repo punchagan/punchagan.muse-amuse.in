@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (version_control)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/version_control.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 17 Nov 2013 19:33:03 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A git-diff tip</title><link>http://punchagan.muse-amuse.in/posts/a-git-diff-tip.html</link><description>&lt;p&gt;
+One of the things with git that you can mess-up, if you are not
+used to, is git diff.  A friend of mine was trying to add a couple
+of new files, and changes to existing files.  But, he was on the
+wrong branch, and wanted to change to a different branch, before
+committing.  Being new to git, he wanted to take a patch.  Reset
+the changes, apply the patch back.
+&lt;/p&gt;
+
+&lt;p&gt;
+This is what he did
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;git add new_file.txt
+git add old_file1.txt old_file2.txt # don't add old_file3.txt
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Oh, damn, I want to change the branch.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;git diff &amp;gt; a.patch
+git reset --hard
+git checkout other-branch
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Let me commit my changes…
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;git apply a.patch
+git commit -m
+git show
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Oh crap!  Where are my new files?  They aren't commited!  Lemme
+add them.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;ls new_file.txt
+ls: cannot access new_file.txt: No such file or directory
+&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;
+Dammit!  Where are my changes gone?
+&lt;/p&gt;
+
+&lt;p&gt;
+The problem was with &lt;code&gt;git diff&lt;/code&gt;.  It gives only the only the
+un-staged changes.  &lt;code&gt;--cached&lt;/code&gt; option has to specified, to get the
+staged changes in the diff output.  &lt;code&gt;git diff HEAD&lt;/code&gt; shows diff
+output with both staged and un-staged changes.
+&lt;/p&gt;
+
+&lt;p&gt;
+But the whole workflow above is a beginners workflow.  A user
+comfortable with git would've committed and then moved the commit
+around using cherry-pick or the like.
+&lt;/p&gt;
+
+&lt;div class="org-src-container"&gt;
+
+&lt;pre class="src src-sh"&gt;git add &amp;lt;all-files&amp;gt;
+git commit -m "My awesome changes."  #committed on branch1
+git checkout other-branch
+git cherry-pick branch1
+&lt;/pre&gt;
+&lt;/div&gt;</description><category>git</category><category>version_control</category><guid>http://punchagan.muse-amuse.in/posts/a-git-diff-tip.html</guid><pubDate>Wed, 22 Aug 2012 17:36:00 GMT</pubDate></item></channel></rss>

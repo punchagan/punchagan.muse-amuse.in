@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (nikola)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/nikola.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 17 Nov 2013 19:33:05 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks and Quotes plugin</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</link><description>&lt;p&gt;
+I used to have a separate page for bookmarks and quotes on the old
+blog.  They will now be shared as regular posts with 5 or more
+bookmarks/quotes.  I use a bookmarklet in my browser to capture links
+to an org-file using org-capture protocol and then I have a small
+plugin to Nikola, that looks at such captured bookmarks and quotes and
+makes new posts out of them.  This workflow is inspired by Brett
+Trepestra's &lt;a href="http://brettterpstra.com/2013/01/15/a-web-excursions-system-for-static-blogs/"&gt;web excursions&lt;/a&gt; plugin.
+&lt;/p&gt;
+
+&lt;p&gt;
+The plugin is currently a part of my blog source, and not published to
+Nikola's plugin repository since it is very specific to my setup.  But
+if anybody is interested, I can publish the code somewhere public.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you are interested to get these links and bookmarks into your feed
+reader, you can subscribe to their feed: &lt;a href="http://punchagan.muse-amuse.in/categories/quotes.xml"&gt;quotes&lt;/a&gt;, &lt;a href="http://punchagan.muse-amuse.in/categories/bookmarks.xml"&gt;bookmarks&lt;/a&gt;.  These
+posts will also make it to the main feed, though.
+&lt;/p&gt;</description><category>blog</category><category>code</category><category>nikola</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</guid><pubDate>Sat, 19 Oct 2013 14:56:13 GMT</pubDate></item></channel></rss>
