@@ -8,7 +8,7 @@
 #+END_COMMENT
 
 
-- [[http://superuser.com/questions/162092/how can i register a custom protocol with xdg/309343#309343][linux   How can I register a custom protocol with xdg?   Super User]]
+- [[http://superuser.com/questions/162092/how-can-i-register-a-custom-protocol-with-xdg/309343#309343][linux   How can I register a custom protocol with xdg?   Super User]]
 
   :orgmode:emacs:capture:xdg:
 
@@ -22,7 +22,7 @@
   Imagine a search engine that simply removed the top 1 million most
   popular web sites from its index. What would you discover?
 
-- [[http://www.aeonmagazine.com/world views/do you want a meaningful life or a happy one/][Do you want a meaningful or a happy life? – Roy F Baumeister – Aeon]]
+- [[http://www.aeonmagazine.com/world-views/do-you-want-a-meaningful-life-or-a-happy-one/][Do you want a meaningful or a happy life? – Roy F Baumeister – Aeon]]
 
   :life:happiness:meaning:
 
@@ -41,7 +41,7 @@
 
   (via Chaitu)
 
-- [[http://www.boredpanda.com/modern art vs toddler art/][QUIZ: Modern Art or Children’s Drawings? | Bored Panda]]
+- [[http://www.boredpanda.com/modern-art-vs-toddler-art/][QUIZ: Modern Art or Children’s Drawings? | Bored Panda]]
 
   :art:
 

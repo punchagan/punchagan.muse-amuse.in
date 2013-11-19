@@ -8,19 +8,19 @@
 #+END_COMMENT
 
 
-- [[http://filecalledlife.wordpress.com/2013/08/24/basic stuff i should be able to/][Basic stuff I should be able to… | music muse amuse]]
+- [[http://filecalledlife.wordpress.com/2013/08/24/basic-stuff-i-should-be-able-to/][Basic stuff I should be able to… | music muse amuse]]
 
   I, for one, should be able to dance shamelessly and if possible,
   infect others as well
 
-- [[http://crickettalket.blogspot.in/2013/10/playing against rahul dravid.html][Cricket Talket: Playing Against Rahul Dravid]]
+- [[http://crickettalket.blogspot.in/2013/10/playing-against-rahul-dravid.html][Cricket-Talket: Playing Against Rahul Dravid]]
 
   it is not every day that you get to play against someone with 13000
   Test runs. It is not every day that you get to play against someone
   you have adored and idolised since the first time you saw him. It is
   not every day that you play against Rahul Dravid!
 
-- [[http://metarabbit.wordpress.com/2013/10/18/why python is better than matlab for scientific software/][Why Python is Better than Matlab for Scientific Software | Meta Rabbit]]
+- [[http://metarabbit.wordpress.com/2013/10/18/why-python-is-better-than-matlab-for-scientific-software/][Why Python is Better than Matlab for Scientific Software | Meta Rabbit]]
 
   If you have legacy code in MATLAB, then it may make sense to just
   continue using it. If it works, don’t fix it. However, if your

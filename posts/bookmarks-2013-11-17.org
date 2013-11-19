@@ -8,8 +8,8 @@
 #+END_COMMENT
 
 
-- [[http://www.chrisaitchison.com/2011/05/03/you are not a software engineer/][You are NOT a Software Engineer!   Chris Aitchison]]
-  
+- [[http://www.chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/][You are NOT a Software Engineer!   Chris Aitchison]]
+
   The engineering metaphor has had its time in the sun, and maybe it
   even used to be accurate, but now it really only serves to help
   non-technical people have unrealistic expectations about how
@@ -19,24 +19,24 @@
 
   So are you.
 
-- [[http://news.slashdot.org/story/13/11/01/1919205/bill gates internet will not save the world?utm_source=rss1.0mainlinkanon&utm_medium=feed][Bill Gates: Internet Will Not Save the World   Slashdot]]
-  
+- [[http://news.slashdot.org/story/13/11/01/1919205/bill-gates-internet-will-not-save-the-world?utm_source=rss1.0mainlinkanon&utm_medium=feed][Bill Gates: Internet Will Not Save the World   Slashdot]]
+
   The internet is not going to save the world, says the Microsoft
   co-founder, whatever Mark Zuckerberg and Silicon Valley's tech
   billionaires believe. But eradicating disease just might.
 
-- [[http://nodeknockout.com/teams/keming labs][Node.js Knockout | Nov 9 11th, 2013]]
-  
+- [[http://nodeknockout.com/teams/keming-labs][Node.js Knockout | Nov 9 11th, 2013]]
+
   ClearCommit, semantic diff tool for codebases.
 
-- [[http://boingboing.net/2013/11/15/sleeping on strangers on the s.html]['Sleeping On Strangers On The Subway,' a video experiment   Boing Boing]]
-  
+- [[http://boingboing.net/2013/11/15/sleeping-on-strangers-on-the-s.html]['Sleeping On Strangers On The Subway,' a video experiment   Boing Boing]]
+
   "Inspired by a picture that went viral, we decided to see how many
   people would let a random person sleep on them on the subway. Here
   are the results, and the valuable lesson we learned."
 
-- [[http://jacksgap.com/meet first heartless man/][Meet Craig, the First Man in the World to Live Without a Heart   JacksGap]]
-  
+- [[http://jacksgap.com/meet-first-heartless-man/][Meet Craig, the First Man in the World to Live Without a Heart   JacksGap]]
+
   When Craig Lewis aged 55 had been diagnosed with a heart disease so
   intricate not even a pacemaker could save him, Texan doctors had to
   think outside of the box.
