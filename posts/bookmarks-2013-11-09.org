@@ -8,13 +8,13 @@
 #+END_COMMENT
 
 
-- [[https://github.com/leftnode/get shit done][leftnode/get shit done]]
-  
+- [[https://github.com/leftnode/get-shit-done][leftnode/get-shit-done]]
+
   Small script to configure your hosts file so you don't get
   distracted during the day.
 
-- [[http://thoughtcatalog.com/ryan holiday/2013/11/practical philosophy/][9 Mind Expanding Books Of Philosophy That Are Actually Readable (A Guide To Practical Philosophy) | Thought Catalog]]
-  
+- [[http://thoughtcatalog.com/ryan-holiday/2013/11/practical-philosophy/][9 Mind Expanding Books Of Philosophy That Are Actually Readable (A Guide To Practical Philosophy) | Thought Catalog]]
+
   The irony is this is actually what ancient philosophy was intended
   to ameliorate. “Vain is the word of a philosopher,” Epicurus once
   said, “which does not heal the suffering of man.” Centuries later,
@@ -23,13 +23,13 @@
   is to solve some of the problems of life, not only theoretically,
   but practically.”
 
-- [[http://www.policymic.com/articles/71255/10 corporations control almost everything you buy this chart shows how][10 Corporations Control Almost Everything You Buy — This Chart Shows How   PolicyMic]]
-  
+- [[http://www.policymic.com/articles/71255/10-corporations-control-almost-everything-you-buy-this-chart-shows-how][10 Corporations Control Almost Everything You Buy — This Chart Shows How   PolicyMic]]
+
   Ten mega corporations control the output of almost everything you
   buy; from household products to pet food to jeans.
 
-- [[http://high release.org/issues/issue no 2 world games/forget about the highlight reel/][Forget About the Highlight Reel – High Release]]
-  
+- [[http://high-release.org/issues/issue-no-2-world-games/forget-about-the-highlight-reel/][Forget About the Highlight Reel – High Release]]
+
   A lot of people mistake flashy ultimate for “good” ultimate—they
   think that chest-high layouts or 10-foot grabs in wolf packs are
   hallmarks of the elite game. But I beg to differ. It’s true,
@@ -39,7 +39,7 @@
   the field.
 
 - [[http://ciml.info/][A Course in Machine Learning]]
-  
+
   CIML is a set of introductory materials that covers most major
   aspects of modern machine learning (supervised learning,
   unsupervised learning, large margin methods, probabilistic modeling,
