@@ -63,7 +63,7 @@ def get_entries(tag):
 
             for i, _ in enumerate(start):
                 entry = text[start[i]:end[i]]
-                title = entry[0].replace('-', ' ').strip()
+                title = entry[0].replace('-', ' ', 1).strip()
                 content = '\n'.join(entry[1:]).rstrip()
                 entries.append(dict(title=title, content=content))
 
