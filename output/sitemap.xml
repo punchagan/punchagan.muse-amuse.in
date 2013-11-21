@@ -42,7 +42,7 @@
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/index.html</loc>
-  <lastmod>2013-11-19</lastmod>
+  <lastmod>2013-11-21</lastmod>
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/pages/404.html</loc>
@@ -462,7 +462,11 @@
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-17.html</loc>
-  <lastmod>2013-11-19</lastmod>
+  <lastmod>2013-11-20</lastmod>
+ </url>
+ <url>
+  <loc>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-20.html</loc>
+  <lastmod>2013-11-21</lastmod>
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/posts/bookmarks-and-quotes-plugin.html</loc>
@@ -781,6 +785,10 @@
   <lastmod>2013-11-17</lastmod>
  </url>
  <url>
+  <loc>http://punchagan.muse-amuse.in/posts/quotes-2013-11-21.html</loc>
+  <lastmod>2013-11-21</lastmod>
+ </url>
+ <url>
   <loc>http://punchagan.muse-amuse.in/posts/quotes-20131013.html</loc>
   <lastmod>2013-11-17</lastmod>
  </url>
@@ -962,7 +970,7 @@
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/rss.xml</loc>
-  <lastmod>2013-11-19</lastmod>
+  <lastmod>2013-11-21</lastmod>
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/tags/advice.html</loc>
@@ -1030,11 +1038,11 @@
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/tags/bookmarks.html</loc>
-  <lastmod>2013-11-19</lastmod>
+  <lastmod>2013-11-20</lastmod>
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/tags/bookmarks.xml</loc>
-  <lastmod>2013-11-19</lastmod>
+  <lastmod>2013-11-20</lastmod>
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/tags/bug.html</loc>
@@ -1666,11 +1674,11 @@
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/tags/quotes.html</loc>
-  <lastmod>2013-11-17</lastmod>
+  <lastmod>2013-11-21</lastmod>
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/tags/quotes.xml</loc>
-  <lastmod>2013-11-17</lastmod>
+  <lastmod>2013-11-21</lastmod>
  </url>
  <url>
   <loc>http://punchagan.muse-amuse.in/tags/rms.html</loc>
