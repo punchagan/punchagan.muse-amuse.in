@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 24 Nov 2013 22:03:08 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-24]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-24.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 25 Nov 2013 12:13:49 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-25]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-25.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://nautil.us/blog/the-math-trick-behind-mp3s-jpegs-and-homer-simpsons-face"&gt;The Math Trick Behind MP3s, JPEGs, and Homer Simpson’s Face - Facts So Romantic - Nautilus&lt;/a&gt;
+
+&lt;p&gt;
+The Fourier transform has even been used to identify a counterfeit
+Jackson Pollock painting by deciphering the chemicals in the paint.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nautil.us/blog/sleep-when-brain-cells-shrink--neuro-trash-is-flushed-away"&gt;Sleep: When Brain Cells Shrink &amp;amp; Neuro Trash Is Flushed Away - Facts So Romantic - Nautilus&lt;/a&gt;
+
+&lt;p&gt;
+Maybe the fresh, new feeling we have when we awake really is a kind
+of cleanliness, as the byproducts of the previous day’s cogitations
+have been washed away.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.itsnicethat.com/articles/bookshelf-jason-silva"&gt;It's Nice That : Bookshelf: Jason Silva&lt;/a&gt;
+
+&lt;p&gt;
+As we prepare body and soul for the gluttony and giving nearly upon
+us, Jason Silva presents us with an intellectual antidote; an
+incredible and excitable selection of books that thinks a little
+bigger than exactly how many brussels sprouts we will be expected to
+eat in the coming weeks. Web-wide courted themes of The Singualrity,
+group consciousness and technology’s expectation of us, the
+synthesis of the human condition and (why not?) immortality – all
+are to be found in the permanent pages of this wonderfully
+accessible selection of books on Silva’s Bookshelf.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://alumni.berkeley.edu/california-magazine/just-in/2013-11-21/cal-lecturers-email-students-goes-viral-why-i-am-not"&gt;Cal lecturer's email to students goes viral: "Why I am not canceling class tomorrow" | CAA&lt;/a&gt;
+
+&lt;p&gt;
+you will think something in response along the lines of `I know all
+that, but these things are for someone else to figure out, not me.’
+&lt;/p&gt;
+
+&lt;p&gt;
+That is a mistake.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.businessinsider.in/The-Most-Surprising-Things-About-America-According-To-An-Indian-International-Student/articleshow/22154725.cms"&gt;The Most Surprising Things About America, According To An Indian International Student | Business Insider India&lt;/a&gt;
+
+&lt;p&gt;
+The most surprising things about America
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-25.html</guid><pubDate>Mon, 25 Nov 2013 06:43:45 GMT</pubDate></item><item><title>Bookmarks [2013-11-24]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-24.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://www.kickstarter.com/projects/electroninks/circuit-scribe-draw-circuits-instantly"&gt;Circuit Scribe: Draw Circuits Instantly by Electroninks Incorporated — Kickstarter&lt;/a&gt;
 
 &lt;p&gt;
@@ -373,57 +424,4 @@ pair programming with &lt;a href="https://plus.google.com/114995175796183910458/
 experience!  To share these lessons with my colleagues, I made a small
 presentation at lunch, to my colleagues.  &lt;a href="https://rawgithub.com/punchagan/340e1350fdfc766c6599/raw/ca1f5fe9bfc1cc503cd8a524e350bd29e8f5f33d/month-with-martin.html"&gt;Here are the slides&lt;/a&gt; for the
 presentation.
-&lt;/p&gt;</description><guid>http://punchagan.muse-amuse.in/posts/a-month-with-martin.html</guid><pubDate>Sun, 10 Nov 2013 11:43:17 GMT</pubDate></item><item><title>Bookmarks [2013-11-09]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="https://github.com/leftnode/get-shit-done"&gt;leftnode/get-shit-done&lt;/a&gt;
-
-&lt;p&gt;
-Small script to configure your hosts file so you don't get
-distracted during the day.
-&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;a href="http://thoughtcatalog.com/ryan-holiday/2013/11/practical-philosophy/"&gt;9 Mind Expanding Books Of Philosophy That Are Actually Readable (A Guide To Practical Philosophy) | Thought Catalog&lt;/a&gt;
-
-&lt;p&gt;
-The irony is this is actually what ancient philosophy was intended
-to ameliorate. “Vain is the word of a philosopher,” Epicurus once
-said, “which does not heal the suffering of man.” Centuries later,
-Thoreau expressed this same thought: “To be a philosopher is not
-merely to have subtle thoughts, nor even to found a school . . . it
-is to solve some of the problems of life, not only theoretically,
-but practically.”
-&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;a href="http://www.policymic.com/articles/71255/10-corporations-control-almost-everything-you-buy-this-chart-shows-how"&gt;10 Corporations Control Almost Everything You Buy — This Chart Shows How   PolicyMic&lt;/a&gt;
-
-&lt;p&gt;
-Ten mega corporations control the output of almost everything you
-buy; from household products to pet food to jeans.
-&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;a href="http://high-release.org/issues/issue-no-2-world-games/forget-about-the-highlight-reel/"&gt;Forget About the Highlight Reel – High Release&lt;/a&gt;
-
-&lt;p&gt;
-A lot of people mistake flashy ultimate for “good” ultimate—they
-think that chest-high layouts or 10-foot grabs in wolf packs are
-hallmarks of the elite game. But I beg to differ. It’s true,
-sometimes incredible feats of athleticism are the only way to save a
-possession or get a block—and they aren’t easy to execute. Still,
-it’s the most mundane things that often make the biggest impacts on
-the field.
-&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;a href="http://ciml.info/"&gt;A Course in Machine Learning&lt;/a&gt;
-
-&lt;p&gt;
-CIML is a set of introductory materials that covers most major
-aspects of modern machine learning (supervised learning,
-unsupervised learning, large margin methods, probabilistic modeling,
-learning theory, etc.). It's focus is on broad applications with a
-rigorous backbone.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-09.html</guid><pubDate>Sat, 09 Nov 2013 13:59:57 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><guid>http://punchagan.muse-amuse.in/posts/a-month-with-martin.html</guid><pubDate>Sun, 10 Nov 2013 11:43:17 GMT</pubDate></item></channel></rss>
