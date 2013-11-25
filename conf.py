@@ -156,8 +156,6 @@ TAG_PATH = "tags"
 # the posts themselves. If set to False, it will be just a list of links.
 TAG_PAGES_ARE_INDEXES = True
 
-TAG_INDEX_TEMPLATE = 'tag_index.tmpl'
-
 # Final location is output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # INDEX_PATH = ""
 
