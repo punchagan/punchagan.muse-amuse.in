@@ -10,11 +10,10 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]-->
-            <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS for tag version_control (en)" href="/tags/version_control.xml">
 
     
-        <link rel="alternate" type="application/rss+xml" title="RSS for tag version_control" href="/tags/version_control.xml">
-
+    
     
 <link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
 
@@ -57,30 +56,133 @@
         </div>
         <div class="eleven columns content">
             
-        <!--Body content-->
-        <div class="postbox">
-        <h1>Posts about version_control</h1>
-        <div class="rss">
-            <a href="/tags/version_control.xml">RSS</a>
-        </div>
-        <ul class="posts">
-            
-    <li>
-        <a class="title" href="/posts/a-git-diff-tip.html">A git-diff tip</a>
-        <div class="meta">
-            <span class="date">
-                <time class="published" datetime="2012-08-22T23:06:00+05:30">2012-08-22</time>
-            </span>
-            <ul class="tags">
-                <li><a href="/tags/git.html">git</a></li>
-                <li><a href="/tags/version_control.html">version_control</a></li>
-            </ul>
-        </div>
-    </li>
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/a-git-diff-tip.html">A git-diff tip</a>
+        </h1>
+        <div class="post"> <p>
+One of the things with git that you can mess-up, if you are not
+used to, is git diff.  A friend of mine was trying to add a couple
+of new files, and changes to existing files.  But, he was on the
+wrong branch, and wanted to change to a different branch, before
+committing.  Being new to git, he wanted to take a patch.  Reset
+the changes, apply the patch back.
+</p>
 
+<p>
+This is what he did
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">git add new_file.txt
+git add old_file1.txt old_file2.txt # don't add old_file3.txt
+</pre>
+</div>
+
+<p>
+Oh, damn, I want to change the branch.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">git diff &gt; a.patch
+git reset --hard
+git checkout other-branch
+</pre>
+</div>
+
+<p>
+Let me commit my changes…
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">git apply a.patch
+git commit -m
+git show
+</pre>
+</div>
+
+<p>
+Oh crap!  Where are my new files?  They aren't commited!  Lemme
+add them.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">ls new_file.txt
+ls: cannot access new_file.txt: No such file or directory
+</pre>
+</div>
+
+<p>
+Dammit!  Where are my changes gone?
+</p>
+
+<p>
+The problem was with <code>git diff</code>.  It gives only the only the
+un-staged changes.  <code>--cached</code> option has to specified, to get the
+staged changes in the diff output.  <code>git diff HEAD</code> shows diff
+output with both staged and un-staged changes.
+</p>
+
+<p>
+But the whole workflow above is a beginners workflow.  A user
+comfortable with git would've committed and then moved the commit
+around using cherry-pick or the like.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">git add &lt;all-files&gt;
+git commit -m "My awesome changes."  #committed on branch1
+git checkout other-branch
+git cherry-pick branch1
+</pre>
+</div> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2012-08-22T23:06:00+05:30">2012-08-22 23:06</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/git.html">git</a></li>
+            <li><a href="/tags/version_control.html">version_control</a></li>
         </ul>
-        </div>
-        <!--End of body content-->
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/a-git-diff-tip.html#disqus_thread" data-disqus-identifier="cache/posts/a-git-diff-tip.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+
+
+    <div id="home">
+        <ul id="blog-posts" class="posts">
+        </ul>
+    </div>
+
+    
+<div>
+<ul class="pager">
+</ul>
+</div>
+
+    
+        
+       <script>var disqus_shortname="rusticreverie";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+    
+
 
             <div class="footer">
                 <small>© 2013

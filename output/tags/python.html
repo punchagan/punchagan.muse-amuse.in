@@ -10,11 +10,10 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]-->
-            <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS for tag python (en)" href="/tags/python.xml">
 
     
-        <link rel="alternate" type="application/rss+xml" title="RSS for tag python" href="/tags/python.xml">
-
+    
     
 <link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
 
@@ -57,57 +56,225 @@
         </div>
         <div class="eleven columns content">
             
-        <!--Body content-->
-        <div class="postbox">
-        <h1>Posts about python</h1>
-        <div class="rss">
-            <a href="/tags/python.xml">RSS</a>
-        </div>
-        <ul class="posts">
-            
-    <li>
-        <a class="title" href="/posts/cstringio-and-unicode.html">cStringIO and unicode</a>
-        <div class="meta">
-            <span class="date">
-                <time class="published" datetime="2012-12-03T21:11:00+05:30">2012-12-03</time>
-            </span>
-            <ul class="tags">
-                <li><a href="/tags/bug.html">bug</a></li>
-                <li><a href="/tags/note.html">note</a></li>
-                <li><a href="/tags/python.html">python</a></li>
-            </ul>
-        </div>
-    </li>
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/cstringio-and-unicode.html">cStringIO and unicode</a>
+        </h1>
+        <div class="post"> <p>
+StringIO in the cStringIO module in Python 2.7.2 doesn't handle
+unicode strings properly.  This bug has bitten me on a couple of
+occasions, in the recent past.
+</p>
 
-            
-    <li>
-        <a class="title" href="/posts/talks-at-pycon-india-2012.html">Talks at PyCon India 2012</a>
-        <div class="meta">
-            <span class="date">
-                <time class="published" datetime="2012-09-02T23:12:00+05:30">2012-09-02</time>
-            </span>
-            <ul class="tags">
-                <li><a href="/tags/death.html">death</a></li>
-                <li><a href="/tags/python.html">python</a></li>
-                <li><a href="/tags/scipy.html">scipy</a></li>
-            </ul>
-        </div>
-    </li>
+<p>
+Just making a note for myself:
+</p>
 
-            
-    <li>
-        <a class="title" href="/posts/an-import-gotcha-in-python.html">An import gotcha in Python</a>
-        <div class="meta">
-            <span class="date">
-                <time class="published" datetime="2012-08-20T14:46:00+05:30">2012-08-20</time>
-            </span>
-            <ul class="tags">
-                <li><a href="/tags/python.html">python</a></li>
-            </ul>
-        </div>
-    </li>
+<ol class="org-ol">
+<li>Use StringIO if speed doesn't matter so much.
+</li>
+<li>Whenever possible, just convert the input to StringIO to a
+string, if what you are doing doesn't really require unicode
+strings.
+</li>
+</ol>
 
+
+<p>
+Or may be it's just time to move up to Python 2.7.3
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2012-12-03T21:11:00+05:30">2012-12-03 21:11</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/bug.html">bug</a></li>
+            <li><a href="/tags/note.html">note</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
             
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html#disqus_thread" data-disqus-identifier="cache/posts/cstringio-and-unicode.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/talks-at-pycon-india-2012.html">Talks at PyCon India 2012</a>
+        </h1>
+        <div class="post"> <ul class="org-ul">
+<li>State "DONE"       from ""           <span class="timestamp-wrapper"><span class="timestamp">[2012-11-17 Sat 17:00]</span></span>
+</li>
+</ul>
+<p>
+PyCon is back to Bangalore for the 4th edition.  I've been to all
+the previous three editions, and I'm looking forward to this one.
+</p>
+
+<p>
+I haven't spoken at any of the previous editions, and hadn't
+even really considered speaking at the previous editions.
+But, this time, I proposed a couple of talks, and both of them
+have been accepted! Woot! Lots of work ahead of me, but I'm
+really looking forward to give good talks.  I'll be talking
+about Enaml, and showing a brief demo of all the wonderful
+things it makes possible.  In the other talk, I'll give a
+brief overview of the latest happenings in the SciPy community
+and the projects to look forward to and contribute to.  Pankaj
+and I will be talking together on this.
+</p>
+
+
+<p>
+Also, Kenneth (lawgon) will be deeply missed at this edition
+of PyCon.
+</p>
+
+<p>
+Sadly, John Hunter, the lead author of matplotlib, also passed
+away last week.  RIP. :(
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2012-09-02T23:12:00+05:30">2012-09-02 23:12</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/death.html">death</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+            <li><a href="/tags/scipy.html">scipy</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/talks-at-pycon-india-2012.html#disqus_thread" data-disqus-identifier="cache/posts/talks-at-pycon-india-2012.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/an-import-gotcha-in-python.html">An import gotcha in Python</a>
+        </h1>
+        <div class="post"> <p>
+Pankaj and I were stuck with this weird bug recently.  We had
+a class <code>A</code> and a subclass <code>B</code> and an instance of B, b, was
+returning False for <code>isinstance(b, A)</code>.
+</p>
+
+<p>
+After some debugging, we found that it was a problem with
+imports, and the same module was being imported twice, using
+two different names – <code>bar</code> and <code>baz.bar</code>.
+</p>
+
+<p>
+Here's a cooked-up example to demonstrate the "bug".  We
+create a package baz, as shown below.
+</p>
+
+
+<pre class="example">
+$ tree baz
+baz
+├── bar.py
+├── foo.py
+└── __init__.py
+</pre>
+
+<p>
+We have our two classes, <code>A</code> and <code>B</code> defined in the <code>bar</code>
+module.
+</p>
+
+<div class="org-src-container">
+<label class="org-src-name">bar.py</label>
+<pre class="src src-python">class A(object):
+    pass
+
+class B(A):
+    pass
+</pre>
+</div>
+
+<p>
+We run <code>foo.py</code> and scratch our heads for a while, before
+figuring out what's wrong…
+</p>
+
+<div class="org-src-container">
+<label class="org-src-name">foo.py</label>
+<pre class="src src-python"># We add the directory containing out package 'baz' to sys.path to be
+# able to import using the package name.
+import sys
+sys.path.insert(1, '/tmp')
+
+# We import A from bar module present in the same directory as foo
+from bar import A
+# We import B from bar, but refer to it, as a submodule of baz
+from baz.bar import B
+
+a = A()
+b = B()
+
+print "isinstance(b, A) --&gt;", isinstance(b, A)
+
+for cls in (A, B):
+    print "%s --&gt;" %cls, cls
+
+for module in sys.modules:
+    if 'bar' in module:
+	print module, sys.modules[module]
+</pre>
+</div>
+
+<pre class="example">
+isinstance(b, A) --&gt; False
+&lt;class 'bar.A'&gt; --&gt; &lt;class 'bar.A'&gt;
+&lt;class 'baz.bar.B'&gt; --&gt; &lt;class 'baz.bar.B'&gt;
+baz.bar &lt;module 'baz.bar' from '/tmp/baz/bar.pyc'&gt;
+bar &lt;module 'bar' from 'bar.pyc'&gt;
+</pre> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2012-08-20T14:46:00+05:30">2012-08-20 14:46</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/an-import-gotcha-in-python.html#disqus_thread" data-disqus-identifier="cache/posts/an-import-gotcha-in-python.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+
+        <h2> Archive </h2>
+
+    <div id="home">
+        <ul id="blog-posts" class="posts">
+                
     <li>
         <a class="title" href="/posts/changes-to-blog.html">Changes to Blog</a>
         <div class="meta">
@@ -122,7 +289,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/my-talk-at-scipyin-2010.html">My talk at SciPy.in 2010</a>
         <div class="meta">
@@ -136,7 +303,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/do-our-eyes-suck-at-blue.html">Do our eyes suck at blue?</a>
         <div class="meta">
@@ -152,7 +319,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/raising-windows-using-python.html">Raising Windows using Python</a>
         <div class="meta">
@@ -165,7 +332,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/augmented-assignment-in-python.html">Augmented assignment in Python</a>
         <div class="meta">
@@ -181,7 +348,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/notes-from-pycon.html">Notes from Pycon</a>
         <div class="meta">
@@ -195,7 +362,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/pycon-india-10.html">PyCon India '10</a>
         <div class="meta">
@@ -211,7 +378,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/sage-days-25-mumbai-india.html">Sage Days 25, Mumbai, India</a>
         <div class="meta">
@@ -228,7 +395,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/talk-at-gnunify-10.html">talk at GNUnify' 10</a>
         <div class="meta">
@@ -244,7 +411,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/numpy-pacman-and-me.html">numpy, pacman and me</a>
         <div class="meta">
@@ -261,7 +428,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/a-byte-of-python.html">A Byte of Python</a>
         <div class="meta">
@@ -276,7 +443,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/update-script.html">Update Script</a>
         <div class="meta">
@@ -291,7 +458,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/lafoot-or-lafoobot.html">Lafoot or Lafoobot!</a>
         <div class="meta">
@@ -307,7 +474,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/home-coming.html">Home Coming!</a>
         <div class="meta">
@@ -323,8 +490,21 @@
     </li>
 
         </ul>
-        </div>
-        <!--End of body content-->
+    </div>
+
+    
+<div>
+<ul class="pager">
+</ul>
+</div>
+
+    
+        
+       <script>var disqus_shortname="rusticreverie";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+    
+
 
             <div class="footer">
                 <small>© 2013

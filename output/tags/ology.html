@@ -10,11 +10,10 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]-->
-            <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS for tag ology (en)" href="/tags/ology.xml">
 
     
-        <link rel="alternate" type="application/rss+xml" title="RSS for tag ology" href="/tags/ology.xml">
-
+    
     
 <link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
 
@@ -57,61 +56,219 @@
         </div>
         <div class="eleven columns content">
             
-        <!--Body content-->
-        <div class="postbox">
-        <h1>Posts about ology</h1>
-        <div class="rss">
-            <a href="/tags/ology.xml">RSS</a>
-        </div>
-        <ul class="posts">
-            
-    <li>
-        <a class="title" href="/posts/augmented-assignment-in-python.html">Augmented assignment in Python</a>
-        <div class="meta">
-            <span class="date">
-                <time class="published" datetime="2010-10-04T22:49:00+05:30">2010-10-04</time>
-            </span>
-            <ul class="tags">
-                <li><a href="/tags/note.html">note</a></li>
-                <li><a href="/tags/numpy.html">numpy</a></li>
-                <li><a href="/tags/ology.html">ology</a></li>
-                <li><a href="/tags/python.html">python</a></li>
-            </ul>
-        </div>
-    </li>
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/augmented-assignment-in-python.html">Augmented assignment in Python</a>
+        </h1>
+        <div class="post"> <p>
+If you are new to <code>Python</code>, you should probably stop reading here.
+But, if you have used <code>Python</code> and <code>numpy</code>, then read on. Before, that
+try these bits of code.
+</p>
 
-            
-    <li>
-        <a class="title" href="/posts/a-gnu-and-a-friend.html">A GNU and a friend</a>
-        <div class="meta">
-            <span class="date">
-                <time class="published" datetime="2010-09-07T00:50:00+05:30">2010-09-07</time>
-            </span>
-            <ul class="tags">
-                <li><a href="/tags/blab.html">blab</a></li>
-                <li><a href="/tags/ology.html">ology</a></li>
-            </ul>
-        </div>
-    </li>
+<div class="org-src-container">
 
-            
-    <li>
-        <a class="title" href="/posts/org2blog-on-the-web.html">org2blog on the web</a>
-        <div class="meta">
-            <span class="date">
-                <time class="published" datetime="2010-08-29T20:57:00+05:30">2010-08-29</time>
-            </span>
-            <ul class="tags">
-                <li><a href="/tags/blab.html">blab</a></li>
-                <li><a href="/tags/list.html">list</a></li>
-                <li><a href="/tags/ology.html">ology</a></li>
-                <li><a href="/tags/org2blog.html">org2blog</a></li>
-                <li><a href="/tags/web.html">web</a></li>
-            </ul>
-        </div>
-    </li>
+<pre class="src src-python">import numpy
+a = numpy.array([1,2])
+a = a + 0.5j
+print a
+</pre>
+</div>
 
+<p>
+The "same thing", in a slightly different way.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python">import numpy
+a = numpy.array([1,2])
+a += 0.5j
+print a
+</pre>
+</div>
+
+<p>
+Both the code blocks, look really the same, until you look carefully.
+Under normal circumstances <code>a = a + b</code> and <code>a += b</code> behave exactly
+similarly, and we really don't need to bother about the differences
+between them.
+</p>
+
+<p>
+But, <code>+=</code>, which is an augmented assignment operator, actually tries
+to perform the operation in-place, unlike the other statement where
+<code>+</code> actually returns a new object which is again being referenced by
+the name <code>a</code>.
+</p>
+
+<p>
+But, when dealing with <code>numpy</code> arrays, this will lead to trouble.
+When assigning to an array, it's <code>dtype</code> is not changed and hence the
+trouble.
+</p>
+
+<p>
+The right way to use the augmented assignment operator, would be:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python">import numpy
+a = numpy.array([1,2], dtype=complex)
+a += 0.5j
+print a
+</pre>
+</div>
+
+<p>
+The same thing is explained in this thread.  Also, Thanks to
+Bhanukiran for asking me this.
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-10-04T22:49:00+05:30">2010-10-04 22:49</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/note.html">note</a></li>
+            <li><a href="/tags/numpy.html">numpy</a></li>
+            <li><a href="/tags/ology.html">ology</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
             
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html#disqus_thread" data-disqus-identifier="cache/posts/augmented-assignment-in-python.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/a-gnu-and-a-friend.html">A GNU and a friend</a>
+        </h1>
+        <div class="post"> <p>
+I now have a GNU! I bought it (a GNU soft toy) in memory of my friend
+swathanthran from #emacs-in.  RIP swathanthran
+</p>
+
+<p>
+As a bonus, I got the chance to have a photograph with just RMS and
+me. Also, hoping the monetary contribution will be of some use to
+FSF-India.
+</p>
+
+<p>
+The thrill of getting the GNU (and the GNU itself) and shaking hands,
+getting photographed with RMS is dedicated to all the lafoots and
+specially to Voodoo, who taught me the meaning of the word "hacker".
+</p>
+
+<p>
+Happy Hacking!
+</p>
+
+<p>
+ps: I just hope and pray nobody else does anything as stupid and
+shocking as what swathanthran did.
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-09-07T00:50:00+05:30">2010-09-07 00:50</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/blab.html">blab</a></li>
+            <li><a href="/tags/ology.html">ology</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/a-gnu-and-a-friend.html#disqus_thread" data-disqus-identifier="cache/posts/a-gnu-and-a-friend.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/org2blog-on-the-web.html">org2blog on the web</a>
+        </h1>
+        <div class="post"> <p>
+Well, it's been a week of lull on my blog.  Not that I'm very
+busy.  But, just didn't have anything to post.  I was feeling jobless
+today and searched the web for org2blog users.  Here is what I found.
+</p>
+
+<ul class="org-ul">
+<li>This is a test post from org2blog
+</li>
+
+<li>Posting from emacs and org-mode
+</li>
+
+<li>Vim vs Emacs, or why it really doesn’t matter
+</li>
+
+<li>Posting subtree from org-mode buffer (take 2)
+</li>
+
+<li>Here’s a test post to wordpress for Org2blog – an Emacs plugin
+</li>
+
+<li>Primeiro post usando org2blog
+</li>
+
+<li>Emacs中绘图－ ditaa篇
+</li>
+
+<li>org2blog on identi.ca
+</li>
+
+<li>Marcel van der Boom – StatusNet
+</li>
+</ul> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-08-29T20:57:00+05:30">2010-08-29 20:57</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/blab.html">blab</a></li>
+            <li><a href="/tags/list.html">list</a></li>
+            <li><a href="/tags/ology.html">ology</a></li>
+            <li><a href="/tags/org2blog.html">org2blog</a></li>
+            <li><a href="/tags/web.html">web</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html#disqus_thread" data-disqus-identifier="cache/posts/org2blog-on-the-web.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+
+        <h2> Archive </h2>
+
+    <div id="home">
+        <ul id="blog-posts" class="posts">
+                
     <li>
         <a class="title" href="/posts/vimperator-and-firemacs.html">Vimperator and Firemacs!</a>
         <div class="meta">
@@ -125,7 +282,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/sage-days-25-mumbai-india.html">Sage Days 25, Mumbai, India</a>
         <div class="meta">
@@ -142,7 +299,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/talk-at-gnunify-10.html">talk at GNUnify' 10</a>
         <div class="meta">
@@ -158,7 +315,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/monikers-and-the-internet.html">Monikers and the Internet</a>
         <div class="meta">
@@ -172,7 +329,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/numpy-pacman-and-me.html">numpy, pacman and me</a>
         <div class="meta">
@@ -189,7 +346,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/stress-and-us.html">Stress and us</a>
         <div class="meta">
@@ -204,7 +361,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/postfix-mailman-for-multiple-domains.html">Postfix + Mailman for Multiple Domains.</a>
         <div class="meta">
@@ -217,7 +374,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/foss-talks-at-cdeep.html">FOSS talks at CDEEP</a>
         <div class="meta">
@@ -230,7 +387,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/webloggerel-configured.html">Weblogger.el configured!</a>
         <div class="meta">
@@ -244,7 +401,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/the-academic-internet.html">The 'Academic' Internet</a>
         <div class="meta">
@@ -258,7 +415,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/software-freedom-day.html">Software Freedom Day</a>
         <div class="meta">
@@ -274,7 +431,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/a-byte-of-python.html">A Byte of Python</a>
         <div class="meta">
@@ -289,7 +446,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/muktin-2008.html">mukt.in 2008</a>
         <div class="meta">
@@ -304,7 +461,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/mid-term-psychoanalysis.html">Mid-Term 'Psycho'Analysis</a>
         <div class="meta">
@@ -320,7 +477,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/update-script.html">Update Script</a>
         <div class="meta">
@@ -335,7 +492,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/a-sabbatical.html">A sabbatical</a>
         <div class="meta">
@@ -351,7 +508,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/lafoot-or-lafoobot.html">Lafoot or Lafoobot!</a>
         <div class="meta">
@@ -367,7 +524,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/quark08.html">Quark'08 !</a>
         <div class="meta">
@@ -382,7 +539,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/not-so-floppix.html">Not so Floppix...</a>
         <div class="meta">
@@ -397,7 +554,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/telugu-rendering-in-ubuntu.html">Telugu Rendering in Ubuntu...</a>
         <div class="meta">
@@ -411,7 +568,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/summer-or-awe-tem-whatever-forever.html">Summer or Awe-TEM!! Whatever... Forever</a>
         <div class="meta">
@@ -426,7 +583,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/non-e-moments.html">Non-e-Moments??!!</a>
         <div class="meta">
@@ -441,7 +598,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/a-second-blog.html">A Second Blog...</a>
         <div class="meta">
@@ -456,7 +613,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/windowsc-doors-or-homes.html">Windows©, Doors or Homes!??!</a>
         <div class="meta">
@@ -472,7 +629,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/quark-07.html">Quark 07</a>
         <div class="meta">
@@ -487,7 +644,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/lisp-as-an-alternative-to-java.html">Lisp as an Alternative to Java</a>
         <div class="meta">
@@ -501,7 +658,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/popularly-unpopular.html">Popularly Unpopular??</a>
         <div class="meta">
@@ -516,7 +673,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/welcome-to-the-un-conference.html">Welcome to the Un-Conference</a>
         <div class="meta">
@@ -529,7 +686,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/planning-to-save-a-sem.html">Planning... to save a Sem!!??</a>
         <div class="meta">
@@ -546,7 +703,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/teach-yourself-programming-in-ten-years.html">Teach Yourself Programming in Ten Years!!</a>
         <div class="meta">
@@ -562,7 +719,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/happy-gnew-year.html">Happy gNew Year!!</a>
         <div class="meta">
@@ -578,7 +735,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/aweful-science.html">Awe[ful] @ Science !!?!??!</a>
         <div class="meta">
@@ -595,7 +752,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/the-joy-of-a-project.html">The Joy of a 'Project!'</a>
         <div class="meta">
@@ -611,7 +768,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/is-disney-buying-mit.html">Is Disney buying MIT??</a>
         <div class="meta">
@@ -626,7 +783,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/a-free-software-hack.html">A "Free Software" Hack!!</a>
         <div class="meta">
@@ -643,8 +800,21 @@
     </li>
 
         </ul>
-        </div>
-        <!--End of body content-->
+    </div>
+
+    
+<div>
+<ul class="pager">
+</ul>
+</div>
+
+    
+        
+       <script>var disqus_shortname="rusticreverie";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+    
+
 
             <div class="footer">
                 <small>© 2013

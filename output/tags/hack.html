@@ -10,11 +10,10 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]-->
-            <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS for tag hack (en)" href="/tags/hack.xml">
 
     
-        <link rel="alternate" type="application/rss+xml" title="RSS for tag hack" href="/tags/hack.xml">
-
+    
     
 <link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
 
@@ -57,62 +56,176 @@
         </div>
         <div class="eleven columns content">
             
-        <!--Body content-->
-        <div class="postbox">
-        <h1>Posts about hack</h1>
-        <div class="rss">
-            <a href="/tags/hack.xml">RSS</a>
-        </div>
-        <ul class="posts">
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/a-smarter-404-page.html">A smarter 404 page.</a>
+        </h1>
+        <div class="post"> <p>
+<a href="http://twitter.com/avudem">Voodoo</a> found a broken link referring to a one of my posts, on Quora.
+Given that I have changed my site generator a bunch of times now, it
+is quite possible that there are other broken links at various other
+places.  So, I implemented a smart <a href="http://punchagan.muse-amuse.in/this-is-a-fun-hack">404 page</a> for the site, yesterday.
+It is very similar to something I came across on <a href="http://brettterpstra.com/2013/04/07/fun-with-intelligent-404-pages/">brettterpstra</a>'s site.
+I just <a href="http://punchagan.muse-amuse.in/assets/js/suggestions.js">hooked up</a> <a href="http://kiro.me/projects/fuse.html">fuse.js</a> with Nikola's <a href="http://getnikola.com/handbook.html#local-search">tipue-search plugin</a>'s output
+file.  My glue code essentially, just figures out the search term from
+the URL, performs a Fuse search on the json data created by Nikola's
+search plugin, and returns a list of top 5 results.  It just took me
+about an hour to write, but is pretty useful, I think.
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2013-11-11T12:36:53+05:30">2013-11-11 12:36</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/hack.html">hack</a></li>
+            <li><a href="/tags/code.html">code</a></li>
+            <li><a href="/tags/js.html">js</a></li>
+            <li><a href="/tags/fuzzy-search.html">fuzzy-search</a></li>
+        </ul>
+        <span class="comment-count">
             
-    <li>
-        <a class="title" href="/posts/a-smarter-404-page.html">A smarter 404 page.</a>
-        <div class="meta">
-            <span class="date">
-                <time class="published" datetime="2013-11-11T12:36:53+05:30">2013-11-11</time>
-            </span>
-            <ul class="tags">
-                <li><a href="/tags/hack.html">hack</a></li>
-                <li><a href="/tags/code.html">code</a></li>
-                <li><a href="/tags/js.html">js</a></li>
-                <li><a href="/tags/fuzzy-search.html">fuzzy-search</a></li>
-            </ul>
-        </div>
-    </li>
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html#disqus_thread" data-disqus-identifier="cache/posts/a-smarter-404-page.html">Comments</a>
 
-            
-    <li>
-        <a class="title" href="/posts/blogging-with-nikola-and-org-mode.html">Blogging with Nikola and Org-mode</a>
-        <div class="meta">
-            <span class="date">
-                <time class="published" datetime="2013-10-16T22:40:47+05:30">2013-10-16</time>
-            </span>
-            <ul class="tags">
-                <li><a href="/tags/blog.html">blog</a></li>
-                <li><a href="/tags/orgmode.html">orgmode</a></li>
-                <li><a href="/tags/hack.html">hack</a></li>
-            </ul>
-        </div>
-    </li>
 
-            
-    <li>
-        <a class="title" href="/posts/github-cue-recommendations-for-github-repos.html">GitHub Cue: Recommendations for GitHub Repos</a>
-        <div class="meta">
-            <span class="date">
-                <time class="published" datetime="2011-08-05T18:51:00+05:30">2011-08-05</time>
-            </span>
-            <ul class="tags">
-                <li><a href="/tags/app.html">app</a></li>
-                <li><a href="/tags/chrome.html">chrome</a></li>
-                <li><a href="/tags/code.html">code</a></li>
-                <li><a href="/tags/github.html">github</a></li>
-                <li><a href="/tags/hack.html">hack</a></li>
-            </ul>
-        </div>
-    </li>
+        </p></span>
+    </div>
 
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/blogging-with-nikola-and-org-mode.html">Blogging with Nikola and Org-mode</a>
+        </h1>
+        <div class="post"> <p>
+Sigh! I made yet another change to the way this blog gets published.
+But, I have a feeling this mechanism, is here to stay!
+</p>
+
+<p>
+We've been using Nikola quite regularly for our <a href="http://ultimatesport.in">Ultimate site</a>, and I
+quite like it.  I've also contributed a bunch of features to Nikola to
+get it to work the way I would like it to.  This weekend I ported my
+blog from <a href="https://github.com/renard/o-blog">o-blog</a> to <a href="http://getnikola.com">Nikola</a>.  The only thing that was stopping me
+from doing it, until now is the fact that all my posts are in
+org markup and porting them over to one of the formats that Nikola
+supports would be a PITA.  So, I wrote a <a href="http://plugins.getnikola.com/#orgmode">pretty simple plugin</a> to
+Nikola to support posting from org files.  And then with a <a href="https://gist.github.com/punchagan/6970578">little
+Python</a>, I was able to move everything over to use Nikola.
+</p>
+
+<p>
+Hopefully, I'll keep my blog more updated, from here on!
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2013-10-16T22:40:47+05:30">2013-10-16 22:40</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/blog.html">blog</a></li>
+            <li><a href="/tags/orgmode.html">orgmode</a></li>
+            <li><a href="/tags/hack.html">hack</a></li>
+        </ul>
+        <span class="comment-count">
             
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/blogging-with-nikola-and-org-mode.html#disqus_thread" data-disqus-identifier="cache/posts/blogging-with-nikola-and-org-mode.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/github-cue-recommendations-for-github-repos.html">GitHub Cue: Recommendations for GitHub Repos</a>
+        </h1>
+        <div class="post"> <p>
+If you aren't already aware of it, I'm one of those people who
+goes around saying, "GitHub is my Facebook".  I spend quite a lot
+of time on GitHub, browsing the work of various people, looking at
+loads of interesting stuff that people built.  I keep jumping
+between people pages and projects using the Watchers/Watching &amp;
+Followers/Following pages.  This way, I do come across interesting
+people and projects, but the SNR is too low.  I wanted a better
+way to be able to see stuff, that I find interesting.  That's how
+the idea for this Chromium app – GitHub Cue – was born.
+</p>
+
+<p>
+@baali and I hacked on this, during the last few days and got it
+working.  It works as follows, (from the README) —
+</p>
+
+<ol class="org-ol">
+<li>Scrapes all the descriptions of the repositories being watched
+by the user.
+</li>
+<li>Key terms are extracted from this description text using the
+Yahoo Term Extractor.
+</li>
+<li>A list of languages is obtained, based on the languages of the
+repositories, the user if watching.
+</li>
+<li>GitHub searches are performed for a combination of 3 randomly
+chosen languages and 5 random key terms.
+</li>
+<li>10 random repositories out of all these, are shown.
+</li>
+</ol>
+
+
+<p>
+This is a very simplistic algorithm, but works decently for my
+purposes.  Ideally, I would've liked to use a Collaborative
+Filtering algorithm, but I found the data to be too sparse, and
+the amount of computation to be too much to be done on the fly.  I
+wasn't really interested in pre-computing stuff and putting it
+onto my server.  I settled down to the next best thing I could
+think of.
+</p>
+
+<p>
+I would appreciate any further ideas and suggestions.  Thanks!
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2011-08-05T18:51:00+05:30">2011-08-05 18:51</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/app.html">app</a></li>
+            <li><a href="/tags/chrome.html">chrome</a></li>
+            <li><a href="/tags/code.html">code</a></li>
+            <li><a href="/tags/github.html">github</a></li>
+            <li><a href="/tags/hack.html">hack</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/github-cue-recommendations-for-github-repos.html#disqus_thread" data-disqus-identifier="cache/posts/github-cue-recommendations-for-github-repos.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+
+        <h2> Archive </h2>
+
+    <div id="home">
+        <ul id="blog-posts" class="posts">
+                
     <li>
         <a class="title" href="/posts/do-our-eyes-suck-at-blue.html">Do our eyes suck at blue?</a>
         <div class="meta">
@@ -128,7 +241,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/raise-windows-on-current-desktop-xdotool-bash.html">Raise windows (on current desktop) xdotool &amp; bash</a>
         <div class="meta">
@@ -142,7 +255,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/is-disney-buying-mit.html">Is Disney buying MIT??</a>
         <div class="meta">
@@ -157,7 +270,7 @@
         </div>
     </li>
 
-            
+                
     <li>
         <a class="title" href="/posts/a-free-software-hack.html">A "Free Software" Hack!!</a>
         <div class="meta">
@@ -174,8 +287,21 @@
     </li>
 
         </ul>
-        </div>
-        <!--End of body content-->
+    </div>
+
+    
+<div>
+<ul class="pager">
+</ul>
+</div>
+
+    
+        
+       <script>var disqus_shortname="rusticreverie";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+    
+
 
             <div class="footer">
                 <small>© 2013
