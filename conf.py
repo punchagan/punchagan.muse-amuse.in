@@ -64,6 +64,8 @@ NAVIGATION_LINKS = {
         ('/index.html', 'Home'),
         ('/archive.html', 'Archives'),
         ('/tags/index.html', 'Tags'),
+        ('/tags/bookmarks.html', 'Bookmarks'),
+        ('/tags/quotes.html', 'Quotes'),
         ('/rss.xml', 'RSS'),
         ('https://github.com/punchagan', 'GitHub'),
         ('https://twitter.com/punchagan', 'Twitter',),
