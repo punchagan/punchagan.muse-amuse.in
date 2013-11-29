@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 25 Nov 2013 20:18:49 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-25]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-25.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (bookmarks)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/bookmarks.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 29 Nov 2013 16:16:48 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-29]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-29.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://nautil.us/blog/for-billions-of-people-wasting-time-makes-little-sense"&gt;For Billions of People, “Wasting Time” Makes Little Sense - Facts So Romantic - Nautilus&lt;/a&gt;
+
+&lt;p&gt;
+Event time is very different. Time is not so tangible, and certainly
+not equivalent to money. Attending to relationships is more
+important than attending to the clock.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nautil.us/blog/education-is-a-waste-of-effortbut-it-doesnt-have-to-be?utm_source=RSS_Feed&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=RSS_Syndication"&gt;Education Is a Waste of Effort—But It Doesn’t Have to Be - Facts So Romantic - Nautilus&lt;/a&gt;
+
+&lt;p&gt;
+College students are hardworking, intelligent, and educated adults. 
+In my capacity as an associate professor at the Institute of
+Cognitive Science at Carleton University, I have developed several
+ways that they can contribute to science and to their peers in the
+process of doing their classwork.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://etienned.github.io/posts/extract-text-from-word-docx-simply/"&gt;Extract text from Word files (docx) simply | Etienne’s blog&lt;/a&gt;
+
+&lt;p&gt;
+I created a simple function to extract text from .docx files that do
+not require dependencies, using only the standard library.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://lucumr.pocoo.org/2013/11/28/emotional-programming/"&gt;Emotional Programming in Open Source | Armin Ronacher's Thoughts and Writings&lt;/a&gt;
+
+&lt;p&gt;
+With all that in mind I am currently trying to get things sorted out
+to everybody's satisfaction. It's unacceptable that issues hang
+around unprocessed this long.
+&lt;/p&gt;
+
+&lt;p&gt;
+Open Source can be hard sometimes.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nedbatchelder.com/blog/201310/whats_in_which_python_3.html"&gt;Ned Batchelder: What's in which Python 3?&lt;/a&gt;
+
+&lt;p&gt;
+Two years ago I wrote a post called What's in which Python? which
+summarized the changes in the Python 2.x releases. Today when I
+showed it to someone, they asked, "Do you have one for 3.x?"
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nedbatchelder.com/blog/201109/whats_in_which_python.html"&gt;Ned Batchelder: What's in which Python?&lt;/a&gt;
+
+&lt;p&gt;
+I made this list of the high points, what's in each version of
+Python 2.x. Items with a star were introduced with a &lt;span class="underline"&gt;&lt;span class="underline"&gt;future&lt;/span&gt;&lt;/span&gt;
+import.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-29.html</guid><pubDate>Fri, 29 Nov 2013 10:46:39 GMT</pubDate></item><item><title>Bookmarks [2013-11-25]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-25.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://nautil.us/blog/the-math-trick-behind-mp3s-jpegs-and-homer-simpsons-face"&gt;The Math Trick Behind MP3s, JPEGs, and Homer Simpson’s Face - Facts So Romantic - Nautilus&lt;/a&gt;
 
 &lt;p&gt;
@@ -553,67 +612,4 @@ ride through Ladakh, trekking through the valley of flowers in
 Himalayas to surfing in Orissa, here are some insane experiences.
 &lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-25.html</guid><pubDate>Fri, 25 Oct 2013 05:36:57 GMT</pubDate></item><item><title>Bookmarks [2013-10-18]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</link><description>&lt;ul class="org-ul"&gt;
-&lt;li&gt;&lt;a href="http://voices.canonical.com/jussi.pakkanen/2012/09/25/the-code-documentation-fallacy/"&gt;The code documentation fallacy | Jussi's development blog&lt;/a&gt;
-
-&lt;p&gt;
-:code:documentation:
-&lt;/p&gt;
-
-&lt;p&gt;
-As a rough estimate, 95% of functions in any code base should be so
-simple and specific that their signature is all you need to use
-them. If they are not, API design has failed: back to the drawing
-board.
-&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;a href="http://neurotheory.columbia.edu/~ken/cargo_cult.html"&gt;"Cargo Cult Science"   by Richard Feynman&lt;/a&gt;
-
-&lt;p&gt;
-:science:research:integrity:values:
-&lt;/p&gt;
-
-&lt;p&gt;
-So I have just one wish for you–the good luck to be somewhere where
-you are free to maintain the kind of integrity I have described, and
-where you do not feel forced by a need to maintain your position in
-the organization, or financial support, or so on, to lose your
-integrity. May you have that freedom.
-&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;a href="http://www.relevantmagazine.com/life/whole-life/20-things-every-twentysomething-should-know-how-do"&gt;20 Things Every Twentysomething Should Know How to Do | RELEVANT Magazine&lt;/a&gt;
-
-&lt;p&gt;
-:life:advice:twentysomething:
-&lt;/p&gt;
-
-&lt;p&gt;
-Your twenties are a prime time to explore and grow, without all the
-baggage that comes with settling down and making your mark.
-&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;a href="http://www.oreilly.com/biocoder/"&gt;BioCoder – A quarterly newsletter for DIYbio, synthetic bio, and anything related – O’Reilly Media&lt;/a&gt;
-
-&lt;p&gt;
-:bio:reading:DIY:
-&lt;/p&gt;
-
-&lt;p&gt;
-BioCoder is a quarterly newsletter for DIYbio, synthetic bio, and
-anything related.
-&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;&lt;a href="http://thoughtcatalog.com/kate-bartolotta/2013/10/do-you-know-what-it-means-to-be-an-introvert/"&gt;Do You Know What It Means To Be An Introvert? | Thought Catalog&lt;/a&gt;
-
-&lt;p&gt;
-The best explanation I was ever given (and maybe one of the biggest
-“aha!” moments of my adult life) was that while extroverts are
-energized by connecting and spending time with others, introverts
-need inward-focused, alone time to recharge.
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-18.html</guid><pubDate>Fri, 18 Oct 2013 17:52:53 GMT</pubDate></item></channel></rss>
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-10-25.html</guid><pubDate>Fri, 25 Oct 2013 05:36:57 GMT</pubDate></item></channel></rss>

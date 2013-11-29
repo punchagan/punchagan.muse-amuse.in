@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Mon, 25 Nov 2013 12:13:49 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-25]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-25.html</link><description>&lt;ul class="org-ul"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 29 Nov 2013 16:16:48 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-29]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-29.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://nautil.us/blog/for-billions-of-people-wasting-time-makes-little-sense"&gt;For Billions of People, “Wasting Time” Makes Little Sense - Facts So Romantic - Nautilus&lt;/a&gt;
+
+&lt;p&gt;
+Event time is very different. Time is not so tangible, and certainly
+not equivalent to money. Attending to relationships is more
+important than attending to the clock.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nautil.us/blog/education-is-a-waste-of-effortbut-it-doesnt-have-to-be?utm_source=RSS_Feed&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=RSS_Syndication"&gt;Education Is a Waste of Effort—But It Doesn’t Have to Be - Facts So Romantic - Nautilus&lt;/a&gt;
+
+&lt;p&gt;
+College students are hardworking, intelligent, and educated adults. 
+In my capacity as an associate professor at the Institute of
+Cognitive Science at Carleton University, I have developed several
+ways that they can contribute to science and to their peers in the
+process of doing their classwork.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://etienned.github.io/posts/extract-text-from-word-docx-simply/"&gt;Extract text from Word files (docx) simply | Etienne’s blog&lt;/a&gt;
+
+&lt;p&gt;
+I created a simple function to extract text from .docx files that do
+not require dependencies, using only the standard library.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://lucumr.pocoo.org/2013/11/28/emotional-programming/"&gt;Emotional Programming in Open Source | Armin Ronacher's Thoughts and Writings&lt;/a&gt;
+
+&lt;p&gt;
+With all that in mind I am currently trying to get things sorted out
+to everybody's satisfaction. It's unacceptable that issues hang
+around unprocessed this long.
+&lt;/p&gt;
+
+&lt;p&gt;
+Open Source can be hard sometimes.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nedbatchelder.com/blog/201310/whats_in_which_python_3.html"&gt;Ned Batchelder: What's in which Python 3?&lt;/a&gt;
+
+&lt;p&gt;
+Two years ago I wrote a post called What's in which Python? which
+summarized the changes in the Python 2.x releases. Today when I
+showed it to someone, they asked, "Do you have one for 3.x?"
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nedbatchelder.com/blog/201109/whats_in_which_python.html"&gt;Ned Batchelder: What's in which Python?&lt;/a&gt;
+
+&lt;p&gt;
+I made this list of the high points, what's in each version of
+Python 2.x. Items with a star were introduced with a &lt;span class="underline"&gt;&lt;span class="underline"&gt;future&lt;/span&gt;&lt;/span&gt;
+import.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-29.html</guid><pubDate>Fri, 29 Nov 2013 10:46:39 GMT</pubDate></item><item><title>Bookmarks [2013-11-25]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-25.html</link><description>&lt;ul class="org-ul"&gt;
 &lt;li&gt;&lt;a href="http://nautil.us/blog/the-math-trick-behind-mp3s-jpegs-and-homer-simpsons-face"&gt;The Math Trick Behind MP3s, JPEGs, and Homer Simpson’s Face - Facts So Romantic - Nautilus&lt;/a&gt;
 
 &lt;p&gt;
@@ -418,10 +477,4 @@ file.  My glue code essentially, just figures out the search term from
 the URL, performs a Fuse search on the json data created by Nikola's
 search plugin, and returns a list of top 5 results.  It just took me
 about an hour to write, but is pretty useful, I think.
-&lt;/p&gt;</description><category>hack</category><category>code</category><category>js</category><category>fuzzy-search</category><guid>http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html</guid><pubDate>Mon, 11 Nov 2013 07:06:53 GMT</pubDate></item><item><title>A Month with Martin</title><link>http://punchagan.muse-amuse.in/posts/a-month-with-martin.html</link><description>&lt;p&gt;
-At my &lt;a href="http://enthought.com"&gt;$dayjob&lt;/a&gt;, for the most part of October, I had the fortune of
-pair programming with &lt;a href="https://plus.google.com/114995175796183910458/posts"&gt;Martin&lt;/a&gt; and it was an amazing learning
-experience!  To share these lessons with my colleagues, I made a small
-presentation at lunch, to my colleagues.  &lt;a href="https://rawgithub.com/punchagan/340e1350fdfc766c6599/raw/ca1f5fe9bfc1cc503cd8a524e350bd29e8f5f33d/month-with-martin.html"&gt;Here are the slides&lt;/a&gt; for the
-presentation.
-&lt;/p&gt;</description><guid>http://punchagan.muse-amuse.in/posts/a-month-with-martin.html</guid><pubDate>Sun, 10 Nov 2013 11:43:17 GMT</pubDate></item></channel></rss>
+&lt;/p&gt;</description><category>hack</category><category>code</category><category>js</category><category>fuzzy-search</category><guid>http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html</guid><pubDate>Mon, 11 Nov 2013 07:06:53 GMT</pubDate></item></channel></rss>
