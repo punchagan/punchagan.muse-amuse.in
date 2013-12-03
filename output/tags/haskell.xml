@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (haskell)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/haskell.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 04 Dec 2013 02:04:47 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Pandoc can now do Org</title><link>http://punchagan.muse-amuse.in/posts/pandoc-can-now-do-org.html</link><description>&lt;p&gt;
+Pandoc is a haskell library and a command line tool, that can
+convert markup from one to another and it does it pretty well.
+Until now it supported quite a few markups, but not orgmode.  But
+now, Orgmode support has been added! Yay!
+&lt;/p&gt;
+
+&lt;p&gt;
+But, it can only read from other formats and write to org-mode
+format.  The other way around, is not possible, but you can do
+that straight from org-mode, right?
+&lt;/p&gt;
+
+&lt;p&gt;
+I've often felt the need for an org-importer and hence decided to
+do something about it.  I stumbled upon Pandoc, when I was moving
+my blog, and found it pretty neat.  After, yet another request for
+an importer, on the org-mode mailing list, I decided to look at
+Pandoc.  I was somehow under the impression that it was written in
+Python.  But it turned out, I had to learn Haskell!  A good excuse
+to learn a new language, eh?  I brushed through a tutorial for a
+couple of days (and was blown off by the paradigm of the language)
+and was able to port the RST writer in Pandoc, to an Org
+writer.  :)
+&lt;/p&gt;
+
+&lt;p&gt;
+You can get the latest version from here
+&lt;/p&gt;</description><category>emacs</category><category>haskell</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/pandoc-can-now-do-org.html</guid><pubDate>Mon, 06 Dec 2010 07:22:00 GMT</pubDate></item></channel></rss>

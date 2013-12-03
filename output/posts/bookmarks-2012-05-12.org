@@ -1,0 +1,49 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2012/05/12 23:59:59
+.. title: Bookmarks [2012/05/12]
+.. slug: bookmarks-2012-05-12
+#+END_COMMENT
+
+
+- [[http://www.paulgraham.com/hamming.html][Richard Hamming: You and Your Research]]
+
+  tags: life, reading, advice, research
+  
+
+
+
+- [[http://online.wsj.com/article/SB10001424052702304811304577366332400453796.html?fb_ref=wsj_share_FB&fb_source=home_oneline][What They Don't Tell You at Graduation - WSJ.com]]
+
+  tags: life, howto, advice
+  
+
+
+
+- [[http://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list][The Definitive C++ Book Guide and List - Stack Overflow]]
+
+  tags: book, programming, collection
+  
+
+
+
+- [[http://steelcityrubyconf.org/blog/2012/05/04/why-you-shouldnt-code-alone/][Why You Shouldn't Code Alone | Steel City Ruby Conf]]
+
+  tags: advice, programming, life
+  
+
+
+
+- [[http://www.stallman.org/articles/asked_to_lie.html][My Doctor's Office Asked me to Lie         :]]
+
+  tags: 
+  
+    The substance of the issue probably doesn't matter much. There is
+    no real confidentiality of medical records in the US, since the
+    police can get them under very easy conditions. Nonetheless, it is
+    a dishonest proceeding, systematically asking patients to accept
+    policies they have not seen and then make false statements.
+
+

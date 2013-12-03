@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (programming)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/programming.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 04 Dec 2013 02:04:47 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Best Practices for Scientific Computing</title><link>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</link><description>&lt;p&gt;
+Shantanu and I gave a short talk titled "Software Carpentry for
+Scientists" for the graduate students of Chemical Engineering
+department, IISc, this Friday.  We gave a short introduction to
+Git, TDD, Numpy/Scipy, etc and mentioned a few things from Greg
+Wilson et al's paper.
+&lt;/p&gt;
+
+&lt;p&gt;
+I promised to revert to them with links to a few resources.  I
+figured it would be more beneficial, if I just put it in a
+publicly available place.
+&lt;/p&gt;
+
+&lt;p&gt;
+A summary of the paper by Greg Wilson et. al., is below.
+&lt;/p&gt;
+
+&lt;div id="outline-container-sec-1" class="outline-2"&gt;
+&lt;h2 id="sec-1"&gt;Useful resources&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;/div&gt;&lt;div id="outline-container-sec-1-1" class="outline-3"&gt;
+&lt;h3 id="sec-1-1"&gt;Software Carpentry&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-1"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Paper by Greg Wilson et. al.
+&lt;/li&gt;
+&lt;li&gt;Software Carpentry
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-1-2" class="outline-3"&gt;
+&lt;h3 id="sec-1-2"&gt;Git &amp;amp; version control&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-2"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://bit.ly/VfbOww"&gt;http://bit.ly/VfbOww&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://karlagius.com/2009/01/09/version-control-for-the-masses/"&gt;http://karlagius.com/2009/01/09/version-control-for-the-masses/&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://try.github.com"&gt;http://try.github.com&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://betterexplained.com/articles/a-visual-guide-to-version-control/"&gt;http://betterexplained.com/articles/a-visual-guide-to-version-control/&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/"&gt;http://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-1-3" class="outline-3"&gt;
+&lt;h3 id="sec-1-3"&gt;TDD&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-3"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://software-carpentry.org/4_0/test/index.html"&gt;http://software-carpentry.org/4_0/test/index.html&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.google.co.in/?q=TDD+matlab"&gt;https://www.google.co.in/?q=TDD+matlab&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-1-4" class="outline-3"&gt;
+&lt;h3 id="sec-1-4"&gt;SciPy&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-4"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://scipy-lectures.github.com"&gt;http://scipy-lectures.github.com&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-1-5" class="outline-3"&gt;
+&lt;h3 id="sec-1-5"&gt;Python&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-5"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://docs.python.org/tutorial"&gt;http://docs.python.org/tutorial&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-1-6" class="outline-3"&gt;
+&lt;h3 id="sec-1-6"&gt;GUI tools in Python&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-1-6"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://code.enthought.com/projects/traits/docs/html/tutorials/traits_ui_scientific_app.html"&gt;http://code.enthought.com/projects/traits/docs/html/tutorials/traits_ui_scientific_app.html&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.enthought.com/traits"&gt;http://docs.enthought.com/traits&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.enthought.com/traitsui"&gt;http://docs.enthought.com/traitsui&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.enthought.com/enaml"&gt;http://docs.enthought.com/enaml&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-sec-2" class="outline-2"&gt;
+&lt;h2 id="sec-2"&gt;Summary of paper by Greg Wilson et. al.&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Write programs for people, not computers
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;a program should not require its readers to hold more than a
+handful of facts in memory at once.
+&lt;/li&gt;
+&lt;li&gt;names should be consistent, distinctive and meaningful.
+&lt;/li&gt;
+&lt;li&gt;code style and formatting should be consistent.
+&lt;/li&gt;
+&lt;li&gt;all aspects of software development should be broken down
+into tasks roughly an hour long
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Automate repetitive tasks
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;rely on the computer to repeat tasks
+&lt;/li&gt;
+&lt;li&gt;save recent commands in a file for re-use
+&lt;/li&gt;
+&lt;li&gt;use a build to automate scientific work-flows
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use the computer to record history
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;software tools should be used to track computational work
+automatically.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Make incremental changes
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;work in small steps with frequent feedback and course
+correction
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use version control
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;use a version control system
+&lt;/li&gt;
+&lt;li&gt;everything that has been created manually should be put in
+version control
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Don't repeat yourself (or others)
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;every piece of data must have a single authoritative
+representation in the system
+&lt;/li&gt;
+&lt;li&gt;code should be modularized rather than copied and pasted
+&lt;/li&gt;
+&lt;li&gt;re-use code instead of rewriting it
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Plan for mistakes
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;add assertions to programs to check their operation
+&lt;/li&gt;
+&lt;li&gt;use an off-the-shelf unit testing library
+&lt;/li&gt;
+&lt;li&gt;use all available oracles when testing programs
+&lt;/li&gt;
+&lt;li&gt;turn bugs into test cases
+&lt;/li&gt;
+&lt;li&gt;use a symbolic debugger
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Optimize software only after it works correctly
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;use a profiler to identify bottlenecks
+&lt;/li&gt;
+&lt;li&gt;write code in the highest-level language possible
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Document design and purpose, not mechanics
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;document interfaces and reasons, not implementations
+&lt;/li&gt;
+&lt;li&gt;refactor code instead of explaining how it works
+&lt;/li&gt;
+&lt;li&gt;embed the documentation for a piece of software in that software
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Collaborate
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;use pre-merge code reviews
+&lt;/li&gt;
+&lt;li&gt;use pair programming when bringing someone new up to speed
+and when tackling particularly tricky problems
+&lt;/li&gt;
+&lt;li&gt;use an issue tracking tool
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description><category>advice</category><category>programming</category><category>science</category><category>software</category><guid>http://punchagan.muse-amuse.in/posts/best-practices-for-scientific-computing.html</guid><pubDate>Mon, 24 Dec 2012 10:51:00 GMT</pubDate></item><item><title>3 tips for those shipping (commercial) apps</title><link>http://punchagan.muse-amuse.in/posts/3-tips-for-those-shipping-commercial-apps.html</link><description>&lt;p&gt;
+Here are some very generic (and paraphrased) notes from a short
+talk today, by Deepankar Sharma.
+&lt;/p&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Whenever you release a new major version, make sure you keep a
+copy of the whole "ecosystem" to be able to run it whenever you
+want.  At any point in time, you should be able to run any
+version of your software.
+&lt;/li&gt;
+&lt;li&gt;When writing benchmarks/tests/etc., try and ensure that you
+cover a broad spectrum of test data, to try and replicate the
+different types of data that users could possibly have.
+&lt;/li&gt;
+&lt;li&gt;Don't develop applications with modes.  Be very careful before
+you add a new mode to your application, effectively adding one
+more code path to maintain.
+&lt;/li&gt;
+&lt;li&gt;(Bonus) Beware of too much extensibility
+&lt;/li&gt;
+&lt;/ol&gt;</description><category>enthought</category><category>programming</category><category>software</category><category>tips</category><guid>http://punchagan.muse-amuse.in/posts/3-tips-for-those-shipping-commercial-apps.html</guid><pubDate>Wed, 28 Nov 2012 15:26:00 GMT</pubDate></item><item><title>Advice - Programming in Elisp</title><link>http://punchagan.muse-amuse.in/posts/advice-programming-in-elisp.html</link><description>&lt;p&gt;
+Below is a mail sent by Eric Schulte to the org-mode mailing list
+answering a query on how to write elisp for org-mode. I am
+reproducing it here, since it is useful advice for me. The actual
+thread is here.
+&lt;/p&gt;
+
+&lt;hr&gt;
+&lt;p&gt;
+The way that I learned how to program in emacs lisp was mainly
+using two commands `elisp-index-search' bound to `C-h e' on my
+system, and most importantly `describe-function' bound to `C-h f'.
+With `describe-function' you can look at the source code of
+functions whose behavior you are familiar with, you can then copy
+portions of the code to your &lt;b&gt;scratch&lt;/b&gt; buffer where they can be
+edited and evaluated with `eval-defun' bound to `C-M-x'.  Now with
+Babel, instead of doing this in the scratch buffer you could do
+this in emacs-lisp code blocks in an org file, enabling notes and
+hierarchical organization – it can be nice to have your noodling
+all collected in one file for later reference.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you are going to do any serious work with lisp, I would
+emphatically recommend using paredit-mode, and becoming friends
+with the Sexp movement functions
+&lt;/p&gt;
+
+&lt;p&gt;
+C-M-f        runs the command paredit-forward
+C-M-b        runs the command paredit-backward
+C-M-u        runs the command backward-up-list
+C-M-k        runs the command kill-sexp
+C-y        runs the command yank
+&lt;/p&gt;
+
+&lt;p&gt;
+They allow you to manipulate lisp code on the level of logical
+expressions, the utility of which can not be over stated.
+&lt;/p&gt;
+
+&lt;p&gt;
+As for working with Org-mode in particular, I'd recommend looking
+at the documentation and source-code of Org-mode functions with
+`describe-function', and then looking for how these functions are
+actually used in the Org-mode code base with `rgrep'.
+&lt;/p&gt;
+
+&lt;p&gt;
+For a more structured learning experience, I've heard very good
+things about &lt;a href="http://www.gnu.org/software/emacs/emacs-lisp-intro/"&gt;http://www.gnu.org/software/emacs/emacs-lisp-intro/&lt;/a&gt;,
+although I haven't used it myself.
+&lt;/p&gt;
+
+&lt;p&gt;
+Hope this helps.  Happy Hacking – Eric
+&lt;/p&gt;
+&lt;hr&gt;</description><category>advice</category><category>emacs</category><category>note</category><category>programming</category><guid>http://punchagan.muse-amuse.in/posts/advice-programming-in-elisp.html</guid><pubDate>Fri, 06 Aug 2010 09:07:00 GMT</pubDate></item></channel></rss>

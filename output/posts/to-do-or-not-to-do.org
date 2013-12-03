@@ -1,0 +1,42 @@
+#+BEGIN_COMMENT
+.. title: To do or not to do
+.. date: 2009/04/22 13:59:00
+.. tags: blab, inspiration, life, poem
+.. slug: to-do-or-not-to-do
+#+END_COMMENT
+
+
+
+
+#+begin_verse
+Achieve something, I'm often reminded,
+achieve something, something that's worthwhile.
+Don't just kill time, they say,
+for, brutally, it shall kill you someday.
+
+Make the best use of time, I tell myself,
+for I realize, how I spend my days
+is how I'm spending my life and
+I'm going to get just one of it!
+
+But, what is worthwhile, I wonder
+everything seems so good one moment
+and all meaning vanishes the very next.
+I'm utterly confused, somebody help!
+
+Pick one from, spoke my brother,
+the 'everything' that seems good
+and do it right, just, do it right!
+Life, as you live through it, shall
+teach you to do things that are right
+and at the end of it all, you'll
+never regret what you've done
+but, only what you couldn't!
+#+end_verse
+
+----
+
+Inspired by
+1) a late-night conversation with a friend
+2) Annie Dillard, "How we spend our days is, of course, how we
+   spend our lives"

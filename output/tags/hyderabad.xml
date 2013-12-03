@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (hyderabad)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/hyderabad.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 04 Dec 2013 02:04:46 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Org-mode Workshop</title><link>http://punchagan.muse-amuse.in/posts/org-mode-workshop.html</link><description>&lt;p&gt;
+Well, I'm not sure if it's worth writing about.  I conducted my
+first org-mode workshop along with Prof. Venkatesh Choppella at
+IIIT-Hyderabad.  It was a 3 hour demo+talk kind of a thing, with a
+small audience of about 20 people, most of whom were new to
+Emacs.
+&lt;/p&gt;
+
+&lt;p&gt;
+We covered almost all the aspects of Org-mode after giving a brief
+introduction to Emacs.  Outlining and note-taking part was simple
+and easy to understand, but the audience couldn't really
+appreciate the part of keeping TODO lists and agendas and other
+stuff.  I'm hoping, the reason was not me taking over from
+Venkatesh.
+&lt;/p&gt;
+
+&lt;p&gt;
+I think the workshop should've been more hands-on and we should've
+asked people to try out stuff on the spot, instead of showing off
+the things possible with Emacs.  They probably would've
+appreciated a few things better, that way.
+&lt;/p&gt;
+
+&lt;p&gt;
+Hopefully, we will be doing more workshops on Org-mode and there
+are surely somethings to take away from this one.  I hope at least
+one of the participants, gets hooked to Org-mode.
+&lt;/p&gt;
+
+&lt;p&gt;
+The talk outline is here.
+&lt;/p&gt;</description><category>emacs</category><category>hyderabad</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/org-mode-workshop.html</guid><pubDate>Wed, 22 Jun 2011 15:34:00 GMT</pubDate></item><item><title>To Ananthagiri</title><link>http://punchagan.muse-amuse.in/posts/to-ananthagiri.html</link><description>&lt;p&gt;
+I had been to Ananthagiri, near Vikarabad for a 2 day ride.  It was
+a fun ride.  Thanks to Atlanta Foundation for renting the cyles.
+Hi-fi to all the riders who made it to the ride.  A detailed
+report is here.* 2009
+&lt;/p&gt;</description><category>cycling</category><category>hyderabad</category><category>lafoot</category><guid>http://punchagan.muse-amuse.in/posts/to-ananthagiri.html</guid><pubDate>Sat, 01 Jan 2011 03:28:00 GMT</pubDate></item><item><title>mukt.in 2008</title><link>http://punchagan.muse-amuse.in/posts/muktin-2008.html</link><description>&lt;p&gt;
+Mukt.in is a FOSS-fest, being conducted in Hyderabad, India by the
+mukt.in team (a group of FOSS enthusiasts). Spread the word and Be
+there!
+&lt;/p&gt;
+
+&lt;table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides"&gt;
+
+
+&lt;colgroup&gt;
+&lt;col class="left"&gt;
+
+&lt;col class="left"&gt;
+&lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="left"&gt;Venue&lt;/td&gt;
+&lt;td class="left"&gt;CSE Department, Osmania University, Hyderabad, India&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="left"&gt;Date&lt;/td&gt;
+&lt;td class="left"&gt;1-3 August, 2008&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="left"&gt;Register&lt;/td&gt;
+&lt;td class="left"&gt;&lt;a href="http://mukt.in/registration.php"&gt;http://mukt.in/registration.php&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description><category>fest</category><category>hyderabad</category><category>ology</category><guid>http://punchagan.muse-amuse.in/posts/muktin-2008.html</guid><pubDate>Fri, 18 Jul 2008 13:46:00 GMT</pubDate></item><item><title>The Bus, its Ours!</title><link>http://punchagan.muse-amuse.in/posts/the-bus-its-ours.html</link><description>&lt;p&gt;
+I hadn't been much in the City for the past three years. I've had
+a little trouble recollecting the exact routes and corresponding
+bus numbers. I Googled for it, with little hope, and the results
+didn't surprise me. There wasn't much info in this regard. On the
+occasion of World Environment, when the focus is on promoting the
+use of Public Transport, this isn't a very encouraging sign.
+&lt;/p&gt;
+
+&lt;p&gt;
+I was wondering if the Bus route info can somehow be integrated
+with Google maps or the like. This will be a good thing to do,
+since people who have access to internet (the higher rungs of the
+society) are the ones who are most aware of the threats to the
+Environment and also the ones who least use public transport. This
+could help them do some planning and encourage use of public
+transport. Later on, may be the Buses could have some kind of a
+GPS sytem that could be interlinked with the maps, giving people
+great power! I'm not sure if this already exists elsewhere in the
+world, but seemed an interesting thing to do.
+&lt;/p&gt;
+
+&lt;p&gt;
+On a different note, just wanted to share this different
+perspective my mom was giving to my 7 year old neice. We were on a
+bus and my niece wasn't very happy about the crowd and the Bus
+journey. My mom, then said something, probably to amuse the kid
+and distract her for a while. But its an interesting way of
+looking at things.
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+You should be proud that you are aboard a bus that costs around 15
+lacs, something we wouldn't normally be able to buy. And that too
+for a small sum of Rs. 5. You are being driven around by a
+chauffeur employed by the State Govt. and you needn't bother
+yourself with the routes and other headaches of driving you'd have
+if you used your personal car…
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+The kid wasn't convinced or even amused by this, but I liked the
+interesting observation. Some food for thought, My mom travels for
+an hour and half by bus to reach her work and she's been doing so
+since I was a kid of 5 or 6. Now I know why she's been able to do
+it for so many years, everyday!
+&lt;/p&gt;</description><category>blab</category><category>hyderabad</category><guid>http://punchagan.muse-amuse.in/posts/the-bus-its-ours.html</guid><pubDate>Wed, 11 Jun 2008 14:49:00 GMT</pubDate></item><item><title>CET-ting their Lives??!!</title><link>http://punchagan.muse-amuse.in/posts/cet-ting-their-lives.html</link><description>&lt;p&gt;
+Phew! I'm back home after one of my worst semesters so far. [there
+have been only 4 upto now!! :P] {Also, not one of the better ones
+grades-wise, but otherwise?? anyways.. forget it.. } From today
+on, the lives of 2,27,483 young boys and girls [with the exception
+of a few thousands] (in that part of the World called Andhra
+Pradesh) will never be the same again. The so called verdict on
+their lives (yes, the verdict of their lives!!) has been
+pronounced at 11:45am today. EAMCET-07 [Engineering, Agriculture
+and Medicine Common Entrance Test] results announced. This is no
+more a matter of anxious students checking out, how they fared in
+comparison to others of their age. It's no more a matter of
+getting into Under-grad to come out a Grad in a chosen discipline.
+&lt;/p&gt;
+
+&lt;p&gt;
+"The Hottest Topic" in town. Nobody's left out of it. Young or
+Old, Rich or Poor, Stout or Slim, Tall or Short, Theist or
+Atheist, Engineers or Doctors, Black or White. "Black or White"??
+How could I and those around me be left out?
+&lt;/p&gt;
+
+&lt;p&gt;
+Here's a little from what i see… [Is a little exaggeration
+allowed?]
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;An ad on the FM… "ee karyakramanni
+samarpinchindi… engineering vijethala mata.. bata.. Sri
+chaitanya.." [This programme is brought to you by… Sri
+Chaitanya.. the voice and choice of Engineering Winners!!]
+&lt;/li&gt;
+&lt;li&gt;Another ad. Neti EAMCET phalitalalo kooda atyuttamaina vijayala
+tho… Narayana.. [With the most wonderful victories even in
+this time's EAMCET, Narayana] {Sri Chaitanya and Narayana are
+two very popular Junior Colleges here.. with hazaar
+franchises.. all over the State}
+&lt;/li&gt;
+&lt;li&gt;A : How did your neighbor's cousin's friend's daughter's friend
+do? [ob exaggerated] B : She didn't do quite well. It seems she
+didn't study the I yr syllabus properly!! {How did he ever get
+to know that?!!?!?}
+&lt;/li&gt;
+&lt;li&gt;Me : Where's A? Why's he so late? J.H : His sister's Medicine
+results are out. She scored 700! A local rank of 10! She'll get
+into any place she chooses. Me : That's cool. So that guys gone
+for a party or what? J.H : No he's consoling his sister! She's
+weeping for she expect to score a rank close to 300! Me : Oh
+c'mon!!
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Why the hell is the whole state dragged into this? Can't the guys
+n gals be left alone? Why is that a little thing as a test that
+allocates various grad seats to the students, blown out of
+proportion? Do we need big Corporate giants fighting for the ranks
+and cash of aspiring students? Why all the hue and cry??
+&lt;/p&gt;
+
+&lt;p&gt;
+Isn't is possible for these people to have a normal life, where
+these CET's are just a part of their lives and not their LIVES
+themselves? Can't they be doing other things along with preparing
+to get into a good grad school? Do we wish to have Engineers and
+Doctors who, all through the best couple of years of their lives,
+were busy grinding, swallowing and puking out heaps and heaps of
+books just to get one seat in a Grad School?
+&lt;/p&gt;
+
+&lt;p&gt;
+Will things ever be normal again? When will kids "here" start
+being kids? When will the parents and teachers and all the zillion
+others understand that their kids need to be given everything in
+life, exposed to everything. Not just dumping in gallons of
+formulae and tons of equations. Will people ever give CETs just
+that much attention as it deserves, and not make it a big issue
+all over the state? When will the EAMCET stop being the lives of
+college students and start being just a part of their lives??
+&lt;/p&gt;
+
+&lt;p&gt;
+[I have tried my best to portray the situation, in this part of
+the World. But it is quite possible that I didn't do it well
+enough….]
+&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;
+Every time you wake up and ask yourself, What good things am I
+going to do today? Remember that when the sun goes down at sunset
+it will take a part of your life with it – Douglas Adams
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+Adapt yourself to the things among which your lot has been cast
+and love sincerely the fellow creatures with whom destiny has
+ordained that you shall live. – Richard Bach
+&lt;/p&gt;
+&lt;/blockquote&gt;</description><category>blab</category><category>hyderabad</category><guid>http://punchagan.muse-amuse.in/posts/cet-ting-their-lives.html</guid><pubDate>Fri, 18 May 2007 03:52:00 GMT</pubDate></item></channel></rss>

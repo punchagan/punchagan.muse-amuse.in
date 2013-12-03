@@ -1,0 +1,35 @@
+#+BEGIN_COMMENT
+.. title: Who I am
+.. date: 2010/10/04 19:31:00
+.. tags: blab, life, poem
+.. slug: who-i-am
+#+END_COMMENT
+
+
+
+
+
+#+begin_verse
+I'm not the body that dies
+on missing a beat or one breath.
+I'm not the mind, so fickle,
+I'm in heaven one moment, and next in hell.
+
+I'm the moments I live,
+not the ones, in which I just exist.
+I'm the dreams I dream,
+those fulfilled, and not just yet.
+
+I am the occasions I grace
+and those, missed, where I am.
+I am the words I spoke,
+those I wrote, and those I will.
+
+I am all that I create,
+and the stuff that I catalyse.
+I am the love I receive,
+and all of it that I spread.
+
+Don't cry, when I die,
+for I never really will.
+#+end_verse

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought</title><link>http://punchagan.muse-amuse.in/</link><description>punchagan's home on the web.</description><atom:link href="http://punchagan.muse-amuse.in/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 04 Dec 2013 02:04:47 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Bookmarks [2013-11-29]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-29.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://nautil.us/blog/for-billions-of-people-wasting-time-makes-little-sense"&gt;For Billions of People, “Wasting Time” Makes Little Sense - Facts So Romantic - Nautilus&lt;/a&gt;
+
+&lt;p&gt;
+Event time is very different. Time is not so tangible, and certainly
+not equivalent to money. Attending to relationships is more
+important than attending to the clock.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nautil.us/blog/education-is-a-waste-of-effortbut-it-doesnt-have-to-be?utm_source=RSS_Feed&amp;amp;utm_medium=RSS&amp;amp;utm_campaign=RSS_Syndication"&gt;Education Is a Waste of Effort—But It Doesn’t Have to Be - Facts So Romantic - Nautilus&lt;/a&gt;
+
+&lt;p&gt;
+College students are hardworking, intelligent, and educated adults. 
+In my capacity as an associate professor at the Institute of
+Cognitive Science at Carleton University, I have developed several
+ways that they can contribute to science and to their peers in the
+process of doing their classwork.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://etienned.github.io/posts/extract-text-from-word-docx-simply/"&gt;Extract text from Word files (docx) simply | Etienne’s blog&lt;/a&gt;
+
+&lt;p&gt;
+I created a simple function to extract text from .docx files that do
+not require dependencies, using only the standard library.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://lucumr.pocoo.org/2013/11/28/emotional-programming/"&gt;Emotional Programming in Open Source | Armin Ronacher's Thoughts and Writings&lt;/a&gt;
+
+&lt;p&gt;
+With all that in mind I am currently trying to get things sorted out
+to everybody's satisfaction. It's unacceptable that issues hang
+around unprocessed this long.
+&lt;/p&gt;
+
+&lt;p&gt;
+Open Source can be hard sometimes.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nedbatchelder.com/blog/201310/whats_in_which_python_3.html"&gt;Ned Batchelder: What's in which Python 3?&lt;/a&gt;
+
+&lt;p&gt;
+Two years ago I wrote a post called What's in which Python? which
+summarized the changes in the Python 2.x releases. Today when I
+showed it to someone, they asked, "Do you have one for 3.x?"
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nedbatchelder.com/blog/201109/whats_in_which_python.html"&gt;Ned Batchelder: What's in which Python?&lt;/a&gt;
+
+&lt;p&gt;
+I made this list of the high points, what's in each version of
+Python 2.x. Items with a star were introduced with a &lt;span class="underline"&gt;&lt;span class="underline"&gt;future&lt;/span&gt;&lt;/span&gt;
+import.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-29.html</guid><pubDate>Fri, 29 Nov 2013 10:46:39 GMT</pubDate></item><item><title>Bookmarks [2013-11-25]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-25.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://nautil.us/blog/the-math-trick-behind-mp3s-jpegs-and-homer-simpsons-face"&gt;The Math Trick Behind MP3s, JPEGs, and Homer Simpson’s Face - Facts So Romantic - Nautilus&lt;/a&gt;
+
+&lt;p&gt;
+The Fourier transform has even been used to identify a counterfeit
+Jackson Pollock painting by deciphering the chemicals in the paint.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nautil.us/blog/sleep-when-brain-cells-shrink--neuro-trash-is-flushed-away"&gt;Sleep: When Brain Cells Shrink &amp;amp; Neuro Trash Is Flushed Away - Facts So Romantic - Nautilus&lt;/a&gt;
+
+&lt;p&gt;
+Maybe the fresh, new feeling we have when we awake really is a kind
+of cleanliness, as the byproducts of the previous day’s cogitations
+have been washed away.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.itsnicethat.com/articles/bookshelf-jason-silva"&gt;It's Nice That : Bookshelf: Jason Silva&lt;/a&gt;
+
+&lt;p&gt;
+As we prepare body and soul for the gluttony and giving nearly upon
+us, Jason Silva presents us with an intellectual antidote; an
+incredible and excitable selection of books that thinks a little
+bigger than exactly how many brussels sprouts we will be expected to
+eat in the coming weeks. Web-wide courted themes of The Singualrity,
+group consciousness and technology’s expectation of us, the
+synthesis of the human condition and (why not?) immortality – all
+are to be found in the permanent pages of this wonderfully
+accessible selection of books on Silva’s Bookshelf.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://alumni.berkeley.edu/california-magazine/just-in/2013-11-21/cal-lecturers-email-students-goes-viral-why-i-am-not"&gt;Cal lecturer's email to students goes viral: "Why I am not canceling class tomorrow" | CAA&lt;/a&gt;
+
+&lt;p&gt;
+you will think something in response along the lines of `I know all
+that, but these things are for someone else to figure out, not me.’
+&lt;/p&gt;
+
+&lt;p&gt;
+That is a mistake.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.businessinsider.in/The-Most-Surprising-Things-About-America-According-To-An-Indian-International-Student/articleshow/22154725.cms"&gt;The Most Surprising Things About America, According To An Indian International Student | Business Insider India&lt;/a&gt;
+
+&lt;p&gt;
+The most surprising things about America
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-25.html</guid><pubDate>Mon, 25 Nov 2013 06:43:45 GMT</pubDate></item><item><title>Bookmarks [2013-11-24]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-24.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.kickstarter.com/projects/electroninks/circuit-scribe-draw-circuits-instantly"&gt;Circuit Scribe: Draw Circuits Instantly by Electroninks Incorporated — Kickstarter&lt;/a&gt;
+
+&lt;p&gt;
+Circuit Scribe draws smooth lines with conductive silver ink and
+allows you to create functioning circuits instantly.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://thoughtcatalog.com/brandon-gorrell/2013/11/41-eye-opening-quotes-that-will-make-you-notice-what-you-always-ignored/"&gt;41 Eye-Opening Quotes That Will Make You Notice What You Always Ignored | Thought Catalog&lt;/a&gt;
+
+&lt;p&gt;
+The bigger the mountain, the better the view. Unknown
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="https://www.hackerschool.com/blog/27-fundamental-qualities-of-good-programmers"&gt;Fundamental qualities of good programmers - Blog - Hacker School&lt;/a&gt;
+
+&lt;p&gt;
+First, a quick note: This is just one way to think about becoming a
+better programmer. It's almost certainly not the only way to think
+about it and you may find some other way more useful to you.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.youtube.com/watch?v=QTkvs1LNu5A"&gt;▶ I Am 20 - YouTube&lt;/a&gt;
+
+&lt;p&gt;
+Those born on Independence Day in 1947 were selected from different
+parts of India and interviewed to know their hopes and
+desires,ambitions, hobbies, fears and frustrations and the result is
+this unique film.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://sugru.com/story"&gt;Our story - the future needs fixing - sugru&lt;/a&gt;
+
+&lt;p&gt;
+TIME Magazine listed sugru alongside the iPad as one of the top 50
+inventions of 2010.
+&lt;/p&gt;
+
+&lt;p&gt;
+The iPad was number 34, sugru was number 22.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-24.html</guid><pubDate>Sun, 24 Nov 2013 16:33:02 GMT</pubDate></item><item><title>Quotes [2013-11-24]</title><link>http://punchagan.muse-amuse.in/posts/quotes-2013-11-24.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;Scientists study the world as it is; engineers create the world that
+has never been. – &lt;i&gt;Theodore von Karman&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;If you can love someone with your whole heart, even one person, then
+  there’s salvation in life. Even if you can’t get together with that
+person. – &lt;i&gt;Haruki Murakami&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;The truth is rarely pure and never simple – &lt;i&gt;Oscar Wilde&lt;/i&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;"Memories warm you up from the inside. But they also tear you
+apart." ― Haruki Murakami
+&lt;/li&gt;
+
+&lt;li&gt;"We are what we repeatedly do. Excellence, then, is not an act, but
+a habit." – Aristotle
+&lt;/li&gt;
+
+&lt;li&gt;Life is a tragedy when seen in close-up, but a comedy in a
+long-shot. – &lt;i&gt;Charlie Chaplin&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Another flaw in the human character is that everyone wants to build
+and nobody wants to do maintenance. – &lt;i&gt;Kurt Vonnegut&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;In three words I can sum up everything I’ve learned about life: it
+goes on. – &lt;i&gt;Robert Frost&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Nothing of me is original. I am the combined efforts of everyone
+I’ve every known. – &lt;i&gt;Chuck Palahniuk&lt;/i&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-2013-11-24.html</guid><pubDate>Sun, 24 Nov 2013 16:33:02 GMT</pubDate></item><item><title>Quotes [2013-11-21]</title><link>http://punchagan.muse-amuse.in/posts/quotes-2013-11-21.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;Scientists study the world as it is; engineers create the world that
+has never been. – &lt;i&gt;Theodore von Karman&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;If you can love someone with your whole heart, even one person, then
+  there’s salvation in life. Even if you can’t get together with that
+person. – &lt;i&gt;Haruki Murakami&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;The truth is rarely pure and never simple – &lt;i&gt;Oscar Wilde&lt;/i&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Memories warm you up from the inside. But they also tear you apart.
+― &lt;i&gt;Haruki Murakami&lt;/i&gt;
+&lt;/li&gt;
+
+&lt;li&gt;We are what we repeatedly do. Excellence, then, is not an act, but a
+habit. – &lt;i&gt;Aristotle&lt;/i&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>quotes</category><guid>http://punchagan.muse-amuse.in/posts/quotes-2013-11-21.html</guid><pubDate>Thu, 21 Nov 2013 16:07:02 GMT</pubDate></item><item><title>Bookmarks [2013-11-20]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-20.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://amitbanerjee.net/complacency/"&gt;When Success Comes To You Easily | Amitbanerjee.net&lt;/a&gt;
+
+&lt;p&gt;
+The biggest trap that you can fall into is if you can be successful
+without giving your 100 percent in whatever you are doing.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.huffingtonpost.com/wait-but-why/generation-y-unhappy_b_3930620.html"&gt;Why Generation Y Yuppies Are Unhappy | Wait But Why&lt;/a&gt;
+
+&lt;p&gt;
+Here's my advice for Lucy:
+&lt;/p&gt;
+
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Stay wildly ambitious. The current world is bubbling with
+opportunity for an ambitious person to find flowery, fulfilling
+success. The specific direction may be unclear, but it'll work
+itself out – just dive in somewhere.
+&lt;/li&gt;
+
+&lt;li&gt;Stop thinking that you're special. The fact is, right now, you're
+not special. You're another completely inexperienced young person
+who doesn't have all that much to offer yet. You can become
+special by working really hard for a long time.
+&lt;/li&gt;
+
+&lt;li&gt;Ignore everyone else. Other people's grass seeming greener is no
+new concept, but in today's image crafting world, other people's
+grass looks like a glorious meadow. The truth is that everyone
+else is just as indecisive, self-doubting, and frustrated as you
+are, and if you just do your thing, you'll never have any reason
+to envy others.
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/"&gt;Sharing Your Labor of Love: PyPI Quick And Dirty — Hynek Schlawack&lt;/a&gt;
+
+&lt;p&gt;
+A com­pletely in­com­plete guide to pack­ag­ing a Python mod­ule and
+shar­ing it with the world on PyPI.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://pythonsweetness.tumblr.com/post/67394619015/use-of-logging-package-from-within-a-library"&gt;python sweetness — Use of logging package from within a library&lt;/a&gt;
+
+&lt;p&gt;
+Python’s standard logging package is a really wonderful thing, but
+unfortunately some of its key ideas aren’t clearly documented in a
+large enough point font.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://alexgaynor.net/2013/sep/26/effective-code-review/"&gt;Alex Gaynor – Effective Code Review&lt;/a&gt;
+
+&lt;p&gt;
+Code review is an important part of a healthy engineering culture
+and workflow. Hopefully, this post has given you an idea of either
+how to implement it for your team, or how to improve your existing
+workflow.
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-20.html</guid><pubDate>Wed, 20 Nov 2013 09:12:36 GMT</pubDate></item><item><title>Bookmarks [2013-11-17]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-17.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://www.chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/"&gt;You are NOT a Software Engineer!   Chris Aitchison&lt;/a&gt;
+
+&lt;p&gt;
+The engineering metaphor has had its time in the sun, and maybe it
+even used to be accurate, but now it really only serves to help
+non-technical people have unrealistic expectations about how
+software gets built.
+&lt;/p&gt;
+
+&lt;p&gt;
+I am a Software Gardener.
+&lt;/p&gt;
+
+&lt;p&gt;
+So are you.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://news.slashdot.org/story/13/11/01/1919205/bill-gates-internet-will-not-save-the-world?utm_source=rss1.0mainlinkanon&amp;amp;utm_medium=feed"&gt;Bill Gates: Internet Will Not Save the World   Slashdot&lt;/a&gt;
+
+&lt;p&gt;
+The internet is not going to save the world, says the Microsoft
+co-founder, whatever Mark Zuckerberg and Silicon Valley's tech
+billionaires believe. But eradicating disease just might.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://nodeknockout.com/teams/keming-labs"&gt;Node.js Knockout | Nov 9 11th, 2013&lt;/a&gt;
+
+&lt;p&gt;
+ClearCommit, semantic diff tool for codebases.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://boingboing.net/2013/11/15/sleeping-on-strangers-on-the-s.html"&gt;'Sleeping On Strangers On The Subway,' a video experiment   Boing Boing&lt;/a&gt;
+
+&lt;p&gt;
+"Inspired by a picture that went viral, we decided to see how many
+people would let a random person sleep on them on the subway. Here
+are the results, and the valuable lesson we learned."
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://jacksgap.com/meet-first-heartless-man/"&gt;Meet Craig, the First Man in the World to Live Without a Heart   JacksGap&lt;/a&gt;
+
+&lt;p&gt;
+When Craig Lewis aged 55 had been diagnosed with a heart disease so
+intricate not even a pacemaker could save him, Texan doctors had to
+think outside of the box.
+&lt;/p&gt;
+
+&lt;p&gt;
+Outstandingly, they developed a revolutionary concept where by they
+install a device that keeps his blood in continuous flow…without a
+pulse.
+&lt;/p&gt;
+
+&lt;p&gt;
+Within a day of surgery Craig was up and speaking to doctors and now
+lives fully functioning without a heart. Who said science was
+boring?
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-17.html</guid><pubDate>Sun, 17 Nov 2013 14:53:54 GMT</pubDate></item><item><title>Cold</title><link>http://punchagan.muse-amuse.in/posts/cold.html</link><description>&lt;p&gt;
+It was a pleasant Saturday evening, in the middle of the winter.
+Christmas was just round the corner and love, in the air. The sun was
+just setting, and everything outside his window was given a fresh coat
+of snow, tickled by the red, quickly fading light. Not that he
+noticed. He stared blankly out of the window, looking at nothing in
+particular. He had just woke up from his afternoon nap, but he'd buy
+it, if you told him he'd been sleeping for a year…
+&lt;/p&gt;
+
+&lt;p&gt;
+You could see the icy river, crawling ahead, from his window.  People
+walking over the bridge, a few camera flashes going off, people
+stopping over and looking far ahead into the horizon, collecting their
+thoughts, couples walking hand-in-hand enjoying each others'
+company… You could see it all, from up there! But, as they say, you
+only see what you look for. And he, couldn't see any of this. His
+looked out of his window, and saw none of this.
+&lt;/p&gt;
+
+&lt;p&gt;
+He is walking down the same bridge. He didn't know where he was going;
+his head at least. His legs did; as always. He was walking down in his
+regular yellow shirt and black jeans, that you could mistake for a
+uniform, if you followed him for a few days. Extremely under-dressed
+for the chilly night, one would say. He kept walking down the main
+street, lined with shops brightly lit up for the festive season. The
+pavement bustled with with people walking with a spring in their step
+– the spring that the festive season, and all the love in the air
+brought to you. Not that he noticed it, or had any of it in his step.
+&lt;/p&gt;
+
+&lt;p&gt;
+Soon, he's walking through the park. The park that was built to
+celebrate time, ticking away, furiously. Or to celebrate the time
+everyone in the world had, to enjoy themselves. He walked past the
+skating rink, with lots of people having the time of their life ice
+skating, and a lot more, awaiting their turn. The first timers, old
+and young, making up for their inexperience, with their excitement;
+holding onto whatever they can, to finish their next round, to start
+their next. The veterans, taking the center-stage and showing off
+their moves! He was barely aware of their presence and just walked on,
+past all the action.
+&lt;/p&gt;
+
+&lt;p&gt;
+The music festival; he walked past it to, like the crowd didn't exist,
+the noise didn't, the music didn't; like there was nothing happening!
+The fountain "felt" no different. The cold breeze, did sprinkle the
+water to quite a distance and everybody kept a safe distance to avoid
+the chilling shower, except for the kids, who found it amusing to run
+into the shower for a split second and run back madly. How could he
+walk just by it, and not feel a thing!
+&lt;/p&gt;
+
+&lt;p&gt;
+The lakefront. That is where his legs always brought him, at the
+end. The brilliantly lit skyline was a delight to watch, but I don't
+believe he saw any of it. He just stared into it, blankly. He kept
+staring, as the night got chillier, and the neighborhood kept getting
+more and more deserted. Seconds ticked away, minutes and hours passed
+by! He stayed on, staring ahead. It didn't matter how much below zero
+the mercury had gone. This wasn't the first night he was spending
+staring into the nothingness. It turned out to be the coldest night,
+in a decade. But that didn't matter to him. Nothing did. Nothing has,
+for a while now; Ever since he turned cold.
+&lt;/p&gt;</description><category>blab</category><category>cold</category><category>story</category><category>fiction</category><category>life</category><guid>http://punchagan.muse-amuse.in/posts/cold.html</guid><pubDate>Tue, 12 Nov 2013 19:33:45 GMT</pubDate></item><item><title>Bookmarks [2013-11-12]</title><link>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-12.html</link><description>&lt;ul class="org-ul"&gt;
+&lt;li&gt;&lt;a href="http://kiro.me/projects/fuse.html"&gt;Fuse.js | K. Risk   JavaScript Refined&lt;/a&gt;
+
+&lt;p&gt;
+If you need a lightweight, fast way to search through a list of
+items, and allow mispellings, then Fuse.js is for you. Forget all
+server-side logic. This is done all in JavaScript. Check out the
+demo, and look at the examples below.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://danielhough.co.uk/blog/unhuddled/"&gt;Unhuddled   To Independence — Dan Hough — Independent Software Developer&lt;/a&gt;
+
+&lt;p&gt;
+This is a story about how in a few months my outlook on work and
+life changed, and I ended up where I am now: full time, doing stuff
+that I enjoy for independence, fun, learning and hopefully, profit.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://www.nytimes.com/2006/12/10/magazine/10section1C.t-1.html?_r=0"&gt;Empty Stomach Intelligence   New York Times&lt;/a&gt;
+
+&lt;p&gt;
+ “When you are hungry, you need to focus your entire system on
+finding food in the environment.”
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://zenhabits.net/tatooine/"&gt;Burn Down the Farm : zenhabits&lt;/a&gt;
+
+&lt;p&gt;
+Burn down the farm, nonviolently of course. Get rid of the
+possibility of comfort, so that the scary journey you want to take
+is your best choice.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="http://thoughtcatalog.com/kate-mechem/2013/11/23-priceless-habits-that-will-make-you-your-greatest-self/"&gt;23 Priceless Habits That Will Make You Your Greatest Self | Thought Catalog&lt;/a&gt;
+
+&lt;p&gt;
+Take responsibility for your mistakes.
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="https://groups.google.com/forum/#!searchin/jenkinsci-dev/force%2420push/jenkinsci-dev/-myjRIPcVwU/mrwn8VkyXagJ"&gt;strange pushes on GitHub   Google Groups&lt;/a&gt;
+
+&lt;p&gt;
+I have triggered an involuntary "forced push" last night on the list
+of Jenkins-CI plugins indicated below in this e-mail.
+&lt;/p&gt;
+
+&lt;p&gt;
+The total number of impacted repositories should then be: 186
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bookmarks</category><guid>http://punchagan.muse-amuse.in/posts/bookmarks-2013-11-12.html</guid><pubDate>Tue, 12 Nov 2013 06:43:12 GMT</pubDate></item><item><title>A smarter 404 page.</title><link>http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html</link><description>&lt;p&gt;
+&lt;a href="http://twitter.com/avudem"&gt;Voodoo&lt;/a&gt; found a broken link referring to a one of my posts, on Quora.
+Given that I have changed my site generator a bunch of times now, it
+is quite possible that there are other broken links at various other
+places.  So, I implemented a smart &lt;a href="http://punchagan.muse-amuse.in/this-is-a-fun-hack"&gt;404 page&lt;/a&gt; for the site, yesterday.
+It is very similar to something I came across on &lt;a href="http://brettterpstra.com/2013/04/07/fun-with-intelligent-404-pages/"&gt;brettterpstra&lt;/a&gt;'s site.
+I just &lt;a href="http://punchagan.muse-amuse.in/assets/js/suggestions.js"&gt;hooked up&lt;/a&gt; &lt;a href="http://kiro.me/projects/fuse.html"&gt;fuse.js&lt;/a&gt; with Nikola's &lt;a href="http://getnikola.com/handbook.html#local-search"&gt;tipue-search plugin&lt;/a&gt;'s output
+file.  My glue code essentially, just figures out the search term from
+the URL, performs a Fuse search on the json data created by Nikola's
+search plugin, and returns a list of top 5 results.  It just took me
+about an hour to write, but is pretty useful, I think.
+&lt;/p&gt;</description><category>hack</category><category>code</category><category>js</category><category>fuzzy-search</category><guid>http://punchagan.muse-amuse.in/posts/a-smarter-404-page.html</guid><pubDate>Mon, 11 Nov 2013 07:06:53 GMT</pubDate></item></channel></rss>

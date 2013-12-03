@@ -1,0 +1,1402 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="None">
+    <meta name="author" content="punchagan">
+    <title>Posts about python | Noetic Nought</title>
+    
+            <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+        <link rel="alternate" type="application/rss+xml" title="RSS for tag python (en)" href="/tags/python.xml">
+
+    
+    
+    
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="four columns sidebar">
+            <nav>
+            <!--Sidebar content-->
+
+            <h1 id="blog-title">
+                <a href="/" title="Noetic Nought">Noetic Nought</a>
+            </h1>
+            <hr>
+            
+            
+            <hr>
+            <div id="social">
+            
+    
+
+            </div>
+            
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/archive.html">Archives</a></li>
+                <li><a href="/tags/index.html">Tags</a></li>
+                <li><a href="/tags/bookmarks.html">Bookmarks</a></li>
+                <li><a href="/tags/quotes.html">Quotes</a></li>
+                <li><a href="/rss.xml">RSS</a></li>
+                <li><a href="https://github.com/punchagan">GitHub</a></li>
+                <li><a href="https://twitter.com/punchagan">Twitter</a></li>
+
+            <hr>
+            
+<span class="navbar-form pull-left">
+<input type="text" id="tipue_search_input" placeholder="Search this site">
+</span>
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
+
+            </nav>
+        </div>
+        <div class="eleven columns content">
+            
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/cstringio-and-unicode.html">cStringIO and unicode</a>
+        </h1>
+        <div class="post"> <p>
+StringIO in the cStringIO module in Python 2.7.2 doesn't handle
+unicode strings properly.  This bug has bitten me on a couple of
+occasions, in the recent past.
+</p>
+
+<p>
+Just making a note for myself:
+</p>
+
+<ol class="org-ol">
+<li>Use StringIO if speed doesn't matter so much.
+</li>
+<li>Whenever possible, just convert the input to StringIO to a
+string, if what you are doing doesn't really require unicode
+strings.
+</li>
+</ol>
+
+
+<p>
+Or may be it's just time to move up to Python 2.7.3
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2012-12-03T21:11:00+05:30">2012-12-03 21:11</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/bug.html">bug</a></li>
+            <li><a href="/tags/note.html">note</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/cstringio-and-unicode.html#disqus_thread" data-disqus-identifier="cache/posts/cstringio-and-unicode.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/talks-at-pycon-india-2012.html">Talks at PyCon India 2012</a>
+        </h1>
+        <div class="post"> <ul class="org-ul">
+<li>State "DONE"       from ""           <span class="timestamp-wrapper"><span class="timestamp">[2012-11-17 Sat 17:00]</span></span>
+</li>
+</ul>
+<p>
+PyCon is back to Bangalore for the 4th edition.  I've been to all
+the previous three editions, and I'm looking forward to this one.
+</p>
+
+<p>
+I haven't spoken at any of the previous editions, and hadn't
+even really considered speaking at the previous editions.
+But, this time, I proposed a couple of talks, and both of them
+have been accepted! Woot! Lots of work ahead of me, but I'm
+really looking forward to give good talks.  I'll be talking
+about Enaml, and showing a brief demo of all the wonderful
+things it makes possible.  In the other talk, I'll give a
+brief overview of the latest happenings in the SciPy community
+and the projects to look forward to and contribute to.  Pankaj
+and I will be talking together on this.
+</p>
+
+
+<p>
+Also, Kenneth (lawgon) will be deeply missed at this edition
+of PyCon.
+</p>
+
+<p>
+Sadly, John Hunter, the lead author of matplotlib, also passed
+away last week.  RIP. :(
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2012-09-02T23:12:00+05:30">2012-09-02 23:12</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/death.html">death</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+            <li><a href="/tags/scipy.html">scipy</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/talks-at-pycon-india-2012.html#disqus_thread" data-disqus-identifier="cache/posts/talks-at-pycon-india-2012.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/an-import-gotcha-in-python.html">An import gotcha in Python</a>
+        </h1>
+        <div class="post"> <p>
+Pankaj and I were stuck with this weird bug recently.  We had
+a class <code>A</code> and a subclass <code>B</code> and an instance of B, b, was
+returning False for <code>isinstance(b, A)</code>.
+</p>
+
+<p>
+After some debugging, we found that it was a problem with
+imports, and the same module was being imported twice, using
+two different names – <code>bar</code> and <code>baz.bar</code>.
+</p>
+
+<p>
+Here's a cooked-up example to demonstrate the "bug".  We
+create a package baz, as shown below.
+</p>
+
+
+<pre class="example">
+$ tree baz
+baz
+├── bar.py
+├── foo.py
+└── __init__.py
+</pre>
+
+<p>
+We have our two classes, <code>A</code> and <code>B</code> defined in the <code>bar</code>
+module.
+</p>
+
+<div class="org-src-container">
+<label class="org-src-name">bar.py</label>
+<pre class="src src-python">class A(object):
+    pass
+
+class B(A):
+    pass
+</pre>
+</div>
+
+<p>
+We run <code>foo.py</code> and scratch our heads for a while, before
+figuring out what's wrong…
+</p>
+
+<div class="org-src-container">
+<label class="org-src-name">foo.py</label>
+<pre class="src src-python"># We add the directory containing out package 'baz' to sys.path to be
+# able to import using the package name.
+import sys
+sys.path.insert(1, '/tmp')
+
+# We import A from bar module present in the same directory as foo
+from bar import A
+# We import B from bar, but refer to it, as a submodule of baz
+from baz.bar import B
+
+a = A()
+b = B()
+
+print "isinstance(b, A) --&gt;", isinstance(b, A)
+
+for cls in (A, B):
+    print "%s --&gt;" %cls, cls
+
+for module in sys.modules:
+    if 'bar' in module:
+	print module, sys.modules[module]
+</pre>
+</div>
+
+<pre class="example">
+isinstance(b, A) --&gt; False
+&lt;class 'bar.A'&gt; --&gt; &lt;class 'bar.A'&gt;
+&lt;class 'baz.bar.B'&gt; --&gt; &lt;class 'baz.bar.B'&gt;
+baz.bar &lt;module 'baz.bar' from '/tmp/baz/bar.pyc'&gt;
+bar &lt;module 'bar' from 'bar.pyc'&gt;
+</pre> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2012-08-20T14:46:00+05:30">2012-08-20 14:46</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/an-import-gotcha-in-python.html#disqus_thread" data-disqus-identifier="cache/posts/an-import-gotcha-in-python.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/changes-to-blog.html">Changes to Blog</a>
+        </h1>
+        <div class="post"> <p>
+Well, as you can see, I've changed my blog a bit.  I had been
+trying to make it gel well with org-mode and looking for ways to
+allow me to share arbit stuff with separate feeds for tags,
+separate pages with independent feeds, etc.
+</p>
+
+<p>
+I finally got around to tweaking the code of reprise to be able to
+do this.  There are still a few things I would like to change, but
+I'll make the changes gradually.  The looks are also straight from
+uddigal's reprise, with a few tiny tweaks.  I hope it is alright
+to be using it.  I really liked the theme.
+</p>
+
+<p>
+Every tag now has a separate feed. <code>/tags/emacs.atom</code> will give
+you the feed of <code>emacs</code> for instance. Also, I plan to have a
+couple of more pages, one for all the interesting links I come
+across and another for interesting quotes.  Both of these pages,
+have their own feeds too (<code>quotes.atom</code> and <code>links.atom</code>).
+</p>
+
+<p>
+In the spirit of minimalism, I got rid of comments.  I've been
+looking for ways of having comments without all the javascript
+cruft from disqus, but I didn't find any satisfactory way to do
+this.  So, the site will have no comments.  You can write to me,
+in case you've something to say to me.
+</p>
+
+<p>
+Adios.
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2011-02-02T23:41:00+05:30">2011-02-02 23:41</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/blog.html">blog</a></li>
+            <li><a href="/tags/orgmode.html">orgmode</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/changes-to-blog.html#disqus_thread" data-disqus-identifier="cache/posts/changes-to-blog.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/my-talk-at-scipyin-2010.html">My talk at SciPy.in 2010</a>
+        </h1>
+        <div class="post"> <p>
+I gave a short talk titled, <i>Pictures, Songs and Python</i> in this
+year's edition of SciPy India.  The talk was a beginner level
+talk, mainly intended to get newbies excited about Python.  My
+motive was to impress upon the audience that Python is a language
+to help you think in. It's a good playing ground to experiment
+with your ideas, quickly prototype ideas and have fun!  To my
+surprise, the talk was liked by quite a few people.  Thanks to
+Prof. Jayant Kirtane for the Bournville!
+</p>
+
+<p>
+Here are the talk slides
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-12-20T18:17:00+05:30">2010-12-20 18:17</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/python.html">python</a></li>
+            <li><a href="/tags/scipy.html">scipy</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/my-talk-at-scipyin-2010.html#disqus_thread" data-disqus-identifier="cache/posts/my-talk-at-scipyin-2010.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/do-our-eyes-suck-at-blue.html">Do our eyes suck at blue?</a>
+        </h1>
+        <div class="post"> <p>
+This is some fun I had, trying to replicate what was written in
+this post. I had been trying to understand what was happening
+here, and found this post on Hacker News very helpful.
+</p>
+
+<p>
+It is a known fact that our eyes have more cones for green and
+red as compared to blue.  The Bayer filter used for digital camera
+lenses is based upon this principle.  This post tries to
+illustrate that using the following two arguments.
+</p>
+<ul class="org-ul">
+<li>Looking at only the blue channel of an image looks very dark.
+</li>
+<li>Tripling the pixel size of blue channel doesn't cause much
+distortion in the final image.
+</li>
+</ul>
+<p>
+Hence, our eyes suck at blue.
+</p>
+
+<p>
+Their argument is flawed, but we could try and improve a few
+things.
+</p>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">Looking at the blue channel.</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+This is definitely flawed, since the intensity of blue in the
+image they have taken may be less and hence giving us a false
+positive.
+</p>
+
+<p>
+We could instead gray-scale the image and use these pixel values
+in the 3 channels and look at the images.
+</p>
+
+<p>
+This also eliminates the problem of the image being captured
+through a Bayer filter.
+</p>
+
+<p>
+Here's some <code>python</code> code to do the same. (uses <code>matplotlib</code>)
+</p>
+<div class="org-src-container">
+
+<pre class="src src-python">def show_channels(I):
+    for i in range(3):
+	J = zeros_like(I)
+	J[:, :, i] = I[:, :, i]
+	figure(i)
+	imshow(J)
+
+def show_grey_channels(I):
+    K = average(I, axis=2)
+    for i in range(3):
+	J = zeros_like(I)
+	J[:, :, i] = K
+	figure(i+10)
+	imshow(J)
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Pixelating the blue channel</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Again, there was this argument of use of Bayer filter affecting
+the image and the like.
+</p>
+
+<p>
+What I did was to swap the channels, and then look at the
+images. However I swapped the channels, the image where the
+green channel was pixelated always looked the worst.  The
+difference between blue and red was less noticeable, I feel.
+</p>
+
+<p>
+Here's the code.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python">def zoom(x, factor=2):
+    rows, cols = x.shape
+    row_stride, col_stride = x.strides
+    view = np.lib.stride_tricks.as_strided(x,
+			(rows, factor, cols, factor),
+			(row_stride, 0, col_stride, 0))
+    return view.reshape((rows*factor, cols*factor))
+
+def subsample(I):
+    for i in range(3):
+	J = I.copy()
+	J[:, :, i] = zoom(I[::4, ::4, i], 4)
+	figure(i)
+	title("%s channel subsampled" %colors[i])
+	imshow(J)
+
+def swap_subsample(I, k=1):
+    for c, color in enumerate(colors):
+	print "%s &lt;-- %s" %(colors[c], colors[(c+k)%3])
+    for i in range(3):
+	J = zeros_like(I)
+	for j in range(3):
+	    J[:, :, j] = I[:, :, (j+k)%3]
+	J[:, :, i] = zoom(I[::4, ::4, (i+k)%3], 4)
+	figure(i+10)
+	title("%s channel subsampled" %colors[i])
+	imshow(J)
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Images</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Here are a few images.  (View them in their original size)
+</p>
+
+
+<div class="figure">
+<p><img src="/images/channels.png" alt="channels.png">
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="/images/subsample.png" alt="subsample.png">
+</p>
+</div>
+</div>
+</div> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-11-13T13:26:00+05:30">2010-11-13 13:26</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/fun.html">fun</a></li>
+            <li><a href="/tags/hack.html">hack</a></li>
+            <li><a href="/tags/image_processing.html">image_processing</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/do-our-eyes-suck-at-blue.html#disqus_thread" data-disqus-identifier="cache/posts/do-our-eyes-suck-at-blue.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/raising-windows-using-python.html">Raising Windows using Python</a>
+        </h1>
+        <div class="post"> <p>
+Posting a small snippet of code, that I've been using for months
+now, on the request of a friend <sup><a id="fnr.1" name="fnr.1" class="footref" href="/posts/raising-windows-using-python.html#fn.1">1</a></sup>.
+</p>
+
+<p>
+It basically checks for open windows of a program and brings them
+to the foreground or starts the program. I use it for my 3 most
+commonly used programs — Emacs(Mod4+E), Firefox(Mod4+F) and the
+Terminal(Mod4+T). I'm using a neat tool called xdotool <sup><a id="fnr.2" name="fnr.2" class="footref" href="/posts/raising-windows-using-python.html#fn.2">2</a></sup> to
+search for windows using titles.
+</p>
+
+<ul class="org-ul">
+<li><code>Mod4+E</code> is mapped to <code>~/bin/raise.py emacs</code>
+</li>
+</ul>
+
+<p>
+Similarly, for firefox and terminal.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python">#!/usr/bin/env python
+import subprocess
+import sys
+
+if len(sys.argv) &lt; 2:
+    print "Usage %s window-name" %(sys.argv[0])
+    exit(1)
+
+program = sys.argv[1]
+
+# Having different variables helps, in case of some programs.
+window = program
+
+# search for windows titled "window"
+search = subprocess.Popen("xdotool search --class %s" %(window),
+			  stdout=subprocess.PIPE, shell="FALSE")
+search_output = search.stdout.readlines()
+search.stdout.close()
+print search_output
+
+search_output = [each.strip() for each in search_output]
+
+# Raise the first window or start the program
+if len(search_output) is not 0:
+    subprocess.Popen("xdotool windowactivate %s"
+		     %(search_output[0]), shell="FALSE")
+else:
+    subprocess.Popen(program, shell="FALSE")
+</pre>
+</div>
+
+<p>
+Feel free to use it as you like. :)
+</p>
+
+<p>
+Any improvements and suggestions are welcome.
+</p>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="/posts/raising-windows-using-python.html#fnr.1">1</a></sup> <p class="footpara">
+dusual on twitter
+</p></div>
+
+<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="/posts/raising-windows-using-python.html#fnr.2">2</a></sup> <p class="footpara">
+xdotool - Homepage
+</p></div>
+
+
+</div>
+</div> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-11-03T23:06:00+05:30">2010-11-03 23:06</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/raising-windows-using-python.html#disqus_thread" data-disqus-identifier="cache/posts/raising-windows-using-python.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/augmented-assignment-in-python.html">Augmented assignment in Python</a>
+        </h1>
+        <div class="post"> <p>
+If you are new to <code>Python</code>, you should probably stop reading here.
+But, if you have used <code>Python</code> and <code>numpy</code>, then read on. Before, that
+try these bits of code.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python">import numpy
+a = numpy.array([1,2])
+a = a + 0.5j
+print a
+</pre>
+</div>
+
+<p>
+The "same thing", in a slightly different way.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python">import numpy
+a = numpy.array([1,2])
+a += 0.5j
+print a
+</pre>
+</div>
+
+<p>
+Both the code blocks, look really the same, until you look carefully.
+Under normal circumstances <code>a = a + b</code> and <code>a += b</code> behave exactly
+similarly, and we really don't need to bother about the differences
+between them.
+</p>
+
+<p>
+But, <code>+=</code>, which is an augmented assignment operator, actually tries
+to perform the operation in-place, unlike the other statement where
+<code>+</code> actually returns a new object which is again being referenced by
+the name <code>a</code>.
+</p>
+
+<p>
+But, when dealing with <code>numpy</code> arrays, this will lead to trouble.
+When assigning to an array, it's <code>dtype</code> is not changed and hence the
+trouble.
+</p>
+
+<p>
+The right way to use the augmented assignment operator, would be:
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python">import numpy
+a = numpy.array([1,2], dtype=complex)
+a += 0.5j
+print a
+</pre>
+</div>
+
+<p>
+The same thing is explained in this thread.  Also, Thanks to
+Bhanukiran for asking me this.
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-10-04T22:49:00+05:30">2010-10-04 22:49</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/note.html">note</a></li>
+            <li><a href="/tags/numpy.html">numpy</a></li>
+            <li><a href="/tags/ology.html">ology</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/augmented-assignment-in-python.html#disqus_thread" data-disqus-identifier="cache/posts/augmented-assignment-in-python.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/notes-from-pycon.html">Notes from Pycon</a>
+        </h1>
+        <div class="post"> <p>
+Just back after attending PyCon India '10. It was not as exciting
+as I hoped it would be.  That's generally the case with any
+conference I attend.  (I guess, I expect too much from them. :P)
+</p>
+
+<p>
+The keynote by David Goodger (pronounced like Badger :) was
+"Good".  It was a very simple one talking of how to get Python
+into the workplace.  His simple recommendation was to use Python
+if we saw any opportunity where it could be used, without
+bothering about permissions, convincing people etc.  "It's better
+to ask for forgiveness, than for permission."  He spoke of myths
+around Python – scripting language, dynamic language, too much
+white space, toy language, nobody uses it.  He concluded the talk,
+by saying mentioning Indian driving to be an indication of some
+quick reflexes that we Indians have. ;) On the whole it was an
+enlightening, humorous and enjoyable talk.
+</p>
+
+<p>
+I didn't attend too many of other talks.  Amongst the ones that I
+did attend, I particularly liked the one by Asim Mittal on using
+the Nintendo Wii with Python.
+</p>
+
+<p>
+On some thought about my experiences at conferences, I think
+conferences shouldn't have any talks at all.  Or atleast, I
+shouldn't be attending conferences for talks.  They are an excuse
+to catch-up with people.  Conferences should have only lightning
+talks of 10 mins and sprints.  Talks, with an extensive
+explanation of stuff that can be easily found on the web, are a
+waste of time.
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-09-29T00:32:00+05:30">2010-09-29 00:32</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/event.html">event</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/notes-from-pycon.html#disqus_thread" data-disqus-identifier="cache/posts/notes-from-pycon.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/pycon-india-10.html">PyCon India '10</a>
+        </h1>
+        <div class="post"> <p>
+Looks like PyCon India 2010 is going to be great fun!  With 80
+talk submissions, quite a few interesting ones, this time's PyCon
+should be much better than last year's.  Also, David Goodger of
+docutils and ReST fame will be the keynote speaker!
+</p>
+
+<ul class="org-ul">
+<li>Dates: <span class="timestamp-wrapper"><span class="timestamp">[2010-09-25 Sat]–[2010-09-26 Sun]</span></span>
+</li>
+<li>Venue: MSRIT, Bangalore
+</li>
+<li>RSVP here!
+</li>
+</ul>
+
+
+<div class="figure">
+<p><img src="http://in.pycon.org/2010/static/images/badges/supporter-small.png" alt="supporter-small.png">
+</p>
+</div> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-08-16T09:28:00+05:30">2010-08-16 09:28</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/conference.html">conference</a></li>
+            <li><a href="/tags/event.html">event</a></li>
+            <li><a href="/tags/note.html">note</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/pycon-india-10.html#disqus_thread" data-disqus-identifier="cache/posts/pycon-india-10.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/sage-days-25-mumbai-india.html">Sage Days 25, Mumbai, India</a>
+        </h1>
+        <div class="post"> <div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">What is 'Sage Days'?</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Sage Days is a confluence of present and prospective SAGE Users and
+Developers. It is an opportunity to come together to share ideas,
+brainstorm and hack on Sage. Sage Days 25 is the 25th version of Sage
+Days, and is being organized in Mumbai, India. In order to cater to an
+Indian audience and scenario, this version has been tweaked
+slightly. Sage Days 25 has beginner level tutorials, in addition to
+the usual talks and sprints, to help new users get started with Sage
+and help promote the use of Sage in India.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">What is Sage?</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Sage is a free, open-source mathematics software system licensed under
+the GPL. It combines the power of numerous existing open-source
+packages into a common Python-based interface. It's mission is to
+create a "viable free open source alternative to Magma, Maple,
+Mathematica and Matlab". Sage has tools for a broad range of
+mathematical areas like Linear Algebra, Calculus, Symbolic Math,
+Plotting, Rings &amp; Groups, Graph Theory, Number Theory and
+Cryptography. Essentially, "it can do anything from mapping a
+12-dimensional object to calculating rainfall patterns under global
+warming" - as Science Daily puts it . Eager to get started? Start
+here. Apart from being feature rich, it's usability is one of it's
+greatest strengths. Sage Notebook, a web-interface for all the math
+you'll ever want to do, is really the killer feature! As the Sage
+Marketing page says, "The SAGE GUI surely works on your computer box,
+because it just runs in Firefox!". Try it Now!
+</p>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">Why should you attend?</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Sage Days 25 is being attended by the creator and lead developer of
+Sage, Prof. William Stein. It will also be attended by other
+developers of Sage. This would be a great opportunity to meet and
+interact with them! The conference will be attended by a plethora of
+enthusiastic people from all over the country who use Sage or are
+interested in doing so. The conference will also see the presence of
+many mathematicians interested in software. Who knows, you may run
+into someone you'd want to collaborate with, for your future work!
+This event will be a great learning experience, if you are even
+remotely interested in math and software for it!
+</p>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4">When and Where?</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>Venue: IIT-Bombay, Mumbai, India
+</li>
+<li>Dates: August 9-12, 2010
+</li>
+<li>Tentative Schedule
+</li>
+<li>Register Here
+</li>
+<li>Click here for more info
+</li>
+</ul>
+</div>
+</div> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-07-21T19:41:00+05:30">2010-07-21 19:41</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/event.html">event</a></li>
+            <li><a href="/tags/math.html">math</a></li>
+            <li><a href="/tags/ology.html">ology</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+            <li><a href="/tags/software.html">software</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/sage-days-25-mumbai-india.html#disqus_thread" data-disqus-identifier="cache/posts/sage-days-25-mumbai-india.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/talk-at-gnunify-10.html">talk at GNUnify' 10</a>
+        </h1>
+        <div class="post"> <p>
+Shantanu and I conducted a workshop on Scipy at GNUnify '10. It
+was intended to be an introduction to Scipy and Numpy through
+Image processing. We expected an audience which was python
+literate. But GNUnify's schedule wasn't too favorable for us. Ours
+was the first talk scheduled and we ended up getting people who
+only "heard" of Python, the language.
+</p>
+
+<p>
+We had planned quite a bit of stuff expecting a python literate
+audience. But unfortunately, we had to start almost from scratch
+and couldn't do all of what we planned. Still, the workshop wasn't
+too bad. Nobody left mid-way during the 2 hour workshop; nobody
+was dozing either.  I would have liked my first talk at a FOSS
+event to be better, though.
+</p>
+
+<p>
+Slides and Images that we used.  Shantanu's post on the talk is
+here.
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-02-28T20:58:00+05:30">2010-02-28 20:58</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/image_processing.html">image_processing</a></li>
+            <li><a href="/tags/ology.html">ology</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+            <li><a href="/tags/scipy.html">scipy</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/talk-at-gnunify-10.html#disqus_thread" data-disqus-identifier="cache/posts/talk-at-gnunify-10.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/numpy-pacman-and-me.html">numpy, pacman and me</a>
+        </h1>
+        <div class="post"> <p>
+I'm now officially a part of the Arch Linux community! Arch Linux
+is a lightweight and flexible Linux® distribution that tries to
+Keep It Simple.
+</p>
+
+<p>
+I have started using arch from less than a week or so. It took me
+a while, not too long, to realize the beauty of this distro. I was
+trying to tweak the settings of my org-mode's remember (on
+Karmic), trying to make it work the way I liked it. After breaking
+my head with .emacs and lisp for a while, I realized the version
+of my org-mode was way different from the version of the docs, I
+was reading. It didn't take long to figure out, which version of
+org-mode to get. As a matter of curiosity, I checked AUR for the
+version, and true to Arch's reputation it was bleeding edge! I was
+still using Karmic, since I hadn't got my Arch installation
+working the way I like it, yet. Out of laziness. sudo reboot; to
+hell with laziness!
+</p>
+
+<p>
+I was setting up things I regularly use, tweaking my way
+around. After a day or so, I find python-numpy is out of date. And
+to top it, an orphaned package! I didn't feel one bit good about
+this. After some futile attempts to suppress my discomfort, I sat
+down to work.
+</p>
+
+<p>
+After an afternoon of effort, I created my first PKGBUILD. :) I
+now have python-numpy installed using pacman! Pleasure to join the
+Arch User Community! Also, thanks to lifeeth and Lynus Vaz, for
+the sparks.
+</p>
+
+<p>
+PS: I'm using Arch with Openbox. It's neat! PPS: org-mode is
+really awesome! It's a world in itself. life in plain text,
+truly!]
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-01-31T01:14:00+05:30">2010-01-31 01:14</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/linux.html">linux</a></li>
+            <li><a href="/tags/numpy.html">numpy</a></li>
+            <li><a href="/tags/ology.html">ology</a></li>
+            <li><a href="/tags/orgmode.html">orgmode</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/numpy-pacman-and-me.html#disqus_thread" data-disqus-identifier="cache/posts/numpy-pacman-and-me.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/a-byte-of-python.html">A Byte of Python</a>
+        </h1>
+        <div class="post"> <p>
+This post's been inspired by a wonderful book, "A Byte of
+Python"<sup><a id="fnr.1" name="fnr.1" class="footref" href="/posts/a-byte-of-python.html#fn.1">1</a></sup> by Swaroop C H. The book has been revised after a
+gap of nearly 4 years and the wait is worth it! I thoroughly loved
+the book, and I'm happy to be accompanied by so many<sup><a id="fnr.2" name="fnr.2" class="footref" href="/posts/a-byte-of-python.html#fn.2">2</a></sup>
+others<sup><a id="fnr.3" name="fnr.3" class="footref" href="/posts/a-byte-of-python.html#fn.3">3</a></sup>. This book has filled me with a sense of joy and
+pride. The pride, of being part of such a wonderful community, a
+beautiful crowd. Further, it is a matter of pride, the book's been
+authored by an Indian - its quite rare to find such books written
+by people in this part of the world.
+</p>
+
+<p>
+I have loved python, the moment I started using it. There are
+quite a few occasions, where I did something, just because I had
+the power of Python with me. Python is undoubtedly amongst the
+best, not just as a first programming language, but to give the
+user a sense of "do-able-ity" and I am thoroughly enjoying it.
+</p>
+
+<pre class="example">
+&gt;&gt;&gt; import this
+The Zen of Python, by Tim Peters
+</pre>
+
+<pre class="example">
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+</pre>
+
+<hr>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="/posts/a-byte-of-python.html#fnr.1">1</a></sup> <p class="footpara">
+A Byte of Python 
+</p></div>
+
+<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="/posts/a-byte-of-python.html#fnr.2">2</a></sup> <p class="footpara">
+Python - Notes – Swaroop CH 
+</p></div>
+
+<div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="/posts/a-byte-of-python.html#fnr.3">3</a></sup> <p class="footpara">
+Book updated for Python 3000 – Swaroop CH
+</p></div>
+
+
+</div>
+</div> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2008-09-07T17:08:00+05:30">2008-09-07 17:08</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/book.html">book</a></li>
+            <li><a href="/tags/ology.html">ology</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/a-byte-of-python.html#disqus_thread" data-disqus-identifier="cache/posts/a-byte-of-python.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/update-script.html">Update Script</a>
+        </h1>
+        <div class="post"> <p>
+Well, this isn't an update of how I'm doing on my sabbatical. Its
+just been 3 days and I'm doing pretty fine.  I just finished
+writing a script to keep my blogs page in sync with my
+google-reader (well not exactly). The script parses an xml export
+of my google-reader-subscriptions and updates the edits the html
+of my unnought-blogs page. period.
+</p>
+
+<p>
+There are a couple of things I don't like about this script.
+</p>
+
+<p>
+Firstly, I don't want to keep exporting my
+google-reader-subscription each time I make changes. The script
+should be able to directly sync with my google-reader without me
+having to export the file.  [I have read about the atom
+subscriptions feed of Google Reader, but haven't been able to get
+it right.] Hopefully, I'll be able to do it in the near future.
+</p>
+
+<p>
+Secondly, The blog author's name is non-existent. I can't do
+anything about this though.
+</p>
+
+<p>
+Also, In the process, I had the chance to look a geeky ad. I found
+it at the weirdest of places!
+</p>
+
+<blockquote>
+<p>
+header: X-hacker: If you're reading this, you should visit
+automattic.com/jobs and apply to join the fun, mention this
+header.
+</p>
+</blockquote>
+
+<p>
+ps :
+</p>
+<ol class="org-ol">
+<li>The source is GPLv2 licensed.
+</li>
+<li>Get in touch, if you'd like to have a look.
+</li>
+</ol> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2008-07-08T20:39:00+05:30">2008-07-08 20:39</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/ology.html">ology</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+            <li><a href="/tags/wordpress.html">wordpress</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/update-script.html#disqus_thread" data-disqus-identifier="cache/posts/update-script.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/lafoot-or-lafoobot.html">Lafoot or Lafoobot!</a>
+        </h1>
+        <div class="post"> <p>
+Summer'08! I'm at home, doing nothing practically. :| No
+Internships, No Projects, No GRE plans (a little pushing for GRE
+has just started from the junta around.)
+</p>
+
+<p>
+Just to kill some time and to learn some Python, I have begun to
+write an IRC chat bot &amp;lt;lafoobot&amp;gt; [Lafoot + Bot]. The present
+haven of lafoobot is #fosskelog @ irc.freenode.net. Join in, if
+you want to have a chat! ;) Lafoobot can presently do very few
+things
+</p>
+
+<ul class="org-ul">
+<li>"Yoyo", a newly joined user
+</li>
+<li>"Hello"/ "Yoyo", a user or pass on a Hello/Yoyo from user to
+another.
+</li>
+<li>Gives Local time / GMT
+</li>
+<li>Gives a random word and its meaning [put in for the junta
+preparing for GRE ;)]
+</li>
+<li>Gives out an MOTD or a fortune when it first joins \#fosskelog
+</li>
+<li>Googles a search term and returns the top 5 results (This is my
+favourite feature and this is the reason partially for this
+post. "!google lafoobot" doesn't return anything. Hopefully not
+anymore.)
+</li>
+</ul>
+
+<p>
+If you have ideas for any other features or if you want to have a
+look at the source, comment here or join #fosskelog. lafoobot's
+code is licensed under GPLv2!
+</p>
+
+<p>
+Other than this, the summer has been relatively uneventful but for
+the two FOSS events I attended. Yes, two events, Sat and Sun, both
+by Twincling (There are two different Twinclings! Don't ask me
+why) Hoping to have some more action this summer!
+</p>
+
+<p>
+PS: There's a Big discussion presently on whether lafoobot is a he
+or a she. ;) What do you think?
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2008-05-26T16:39:00+05:30">2008-05-26 16:39</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/irc.html">IRC</a></li>
+            <li><a href="/tags/lafootgiri.html">lafootgiri</a></li>
+            <li><a href="/tags/ology.html">ology</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/lafoot-or-lafoobot.html#disqus_thread" data-disqus-identifier="cache/posts/lafoot-or-lafoobot.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+        
+    <div class="postbox">
+        <h1>
+                <a href="/posts/home-coming.html">Home Coming!</a>
+        </h1>
+        <div class="post"> <p>
+I'll be on board the Amaravathi Express in less than three hours
+from now! Bags packed, I'm waiting for the sun to rise, the World
+to wake up.
+</p>
+
+<p>
+I have set my self an objective of completing 40 problems from
+Project Euler. I have done 39. [With exams going on I consider it
+good progress] I will be attempting to push off the last one
+before leaving. Here I come, Project Euler. Here I come,
+Hyderabad!
+</p> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2008-05-15T23:46:00+05:30">2008-05-15 23:46</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/blab.html">blab</a></li>
+            <li><a href="/tags/lafootgiri.html">lafootgiri</a></li>
+            <li><a href="/tags/python.html">python</a></li>
+        </ul>
+        <span class="comment-count">
+            
+        
+    <p>
+        <a href="http://punchagan.muse-amuse.in/posts/home-coming.html#disqus_thread" data-disqus-identifier="cache/posts/home-coming.html">Comments</a>
+
+
+        </p></span>
+    </div>
+
+    </div>
+
+
+            <div class="footer">
+                <small>© 2013
+<a href="mailto:punchagan%5B@T%5Dmuse-amuse.in">punchagan</a> -
+<a href="http://getnikola.com">Nikola</a> powered -
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+Creative Commons Attribution 3.0 Unported License</a>
+ -
+<a href="http://themes.getnikola.com/#lagom4ni">lagom4ni</a> theme</small>
+            </div>
+        </div>
+    </div>
+    
+            <script src="/assets/js/all-nocdn.js" type="text/javascript"></script>
+
+    
+    
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21111013-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
+<script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#tipue_search_input').tipuesearch({
+        'mode': 'json',
+        'contentLocation': '/assets/js/tipuesearch_content.json',
+        'showUrl': false
+    });
+});
+</script>
+
+</body>
+</html>

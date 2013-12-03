@@ -1,0 +1,221 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="punchagan">
+    <title>Raise windows (on current desktop) xdotool &amp; bash | Noetic Nought</title>
+    
+            <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+
+    
+
+
+
+    
+<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="four columns sidebar">
+            <nav>
+            <!--Sidebar content-->
+
+            <h1 id="blog-title">
+                <a href="/" title="Noetic Nought">Noetic Nought</a>
+            </h1>
+            <hr>
+            
+            
+            <hr>
+            <div id="social">
+            
+    
+
+            </div>
+            
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/archive.html">Archives</a></li>
+                <li><a href="/tags/index.html">Tags</a></li>
+                <li><a href="/tags/bookmarks.html">Bookmarks</a></li>
+                <li><a href="/tags/quotes.html">Quotes</a></li>
+                <li><a href="/rss.xml">RSS</a></li>
+                <li><a href="https://github.com/punchagan">GitHub</a></li>
+                <li><a href="https://twitter.com/punchagan">Twitter</a></li>
+
+            <hr>
+            
+<span class="navbar-form pull-left">
+<input type="text" id="tipue_search_input" placeholder="Search this site">
+</span>
+<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
+
+            </nav>
+        </div>
+        <div class="eleven columns content">
+            
+    
+    <div class="postbox">
+        <h1>
+                Raise windows (on current desktop) xdotool &amp; bash
+        </h1>
+        <div class="post"> <p>
+I posted a snippet <sup><a id="fnr.1" name="fnr.1" class="footref" href="/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.1">1</a></sup> of python code that used xdotool to
+raise windows.  I got one patch from dusual <sup><a id="fnr.2" name="fnr.2" class="footref" href="/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.2">2</a></sup> that
+enabled raising of windows in the current workspace only.
+</p>
+
+<p>
+More importantly, Jordan gave a one-liner <sup><a id="fnr.3" name="fnr.3" class="footref" href="/posts/raise-windows-on-current-desktop-xdotool-bash.html#fn.3">3</a></sup> in bash,
+that could do the same thing as my long and elaborate python
+snippet.  I had a feeling that this would be much shorter in bash,
+but I don't feel comfortable writing bash scripts. :P
+</p>
+
+<p>
+Below is a bash snippet that tries to incorporates both the
+changes. :)
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-sh">found=0
+
+for win in `xdotool search --class $1`;
+do
+if [ `xdotool get_desktop_for_window $win` -eq `xdotool get_desktop` ];
+then found=1; break;
+fi;
+done
+
+if [ $found -eq 1 ]; then xdotool windowactivate $win; else $1; fi
+</pre>
+</div>
+
+<p>
+<b>Note</b>: When you've visual effects enabled (the default option on
+Ubuntu), getting the current desktop/workspace doesn't work,
+probably because Root Window properties are being messed around by
+it.
+</p>
+
+<p>
+<b>Note2</b>: <code>search</code> takes an option <code>--screen</code>. It'd be nice if it
+ also had an option <code>--desktop</code>.  This task could then be done in
+ a one-liner.
+</p>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" name="fn.1" class="footnum" href="/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.1">1</a></sup> <p class="footpara">
+My python snippet
+</p></div>
+
+<div class="footdef"><sup><a id="fn.2" name="fn.2" class="footnum" href="/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.2">2</a></sup> <p class="footpara">
+dusual on twitter
+</p></div>
+
+<div class="footdef"><sup><a id="fn.3" name="fn.3" class="footnum" href="/posts/raise-windows-on-current-desktop-xdotool-bash.html#fnr.3">3</a></sup> <p class="footpara">
+Jordan's one liner
+</p></div>
+
+
+</div>
+</div> </div>
+        
+    <div class="meta">
+        <span class="date">
+            <time class="published" datetime="2010-11-06T14:30:00+05:30">2010-11-06 14:30</time>
+        </span>
+        <ul class="tags">
+            <li><a href="/tags/code.html">code</a></li>
+            <li><a href="/tags/hack.html">hack</a></li>
+        </ul>
+    </div>
+
+            
+    <ul class="pager">
+        <li class="previous">
+            <a href="/posts/bookmarks-2010-11-05.html">← Previous post</a>
+        </li>
+        <li class="next">
+            <a href="/posts/bookmarks-2010-11-06.html">Next post →</a>
+        </li>
+    </ul>
+
+            
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="rusticreverie",
+            disqus_url="http://punchagan.muse-amuse.in/posts/raise-windows-on-current-desktop-xdotool-bash.html",
+        disqus_title="Raise windows (on current desktop) xdotool & bash",
+        disqus_identifier="cache/posts/raise-windows-on-current-desktop-xdotool-bash.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+    </div>
+
+    
+
+
+            <div class="footer">
+                <small>© 2013
+<a href="mailto:punchagan%5B@T%5Dmuse-amuse.in">punchagan</a> -
+<a href="http://getnikola.com">Nikola</a> powered -
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+Creative Commons Attribution 3.0 Unported License</a>
+ -
+<a href="http://themes.getnikola.com/#lagom4ni">lagom4ni</a> theme</small>
+            </div>
+        </div>
+    </div>
+    
+            <script src="/assets/js/all-nocdn.js" type="text/javascript"></script>
+
+    
+    
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21111013-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
+<script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#tipue_search_input').tipuesearch({
+        'mode': 'json',
+        'contentLocation': '/assets/js/tipuesearch_content.json',
+        'showUrl': false
+    });
+});
+</script>
+
+</body>
+</html>

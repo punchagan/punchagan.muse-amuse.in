@@ -1,0 +1,67 @@
+#+BEGIN_COMMENT
+.. title: A git-diff tip
+.. date: 2012/08/22 23:06:00
+.. tags: git, version_control
+.. slug: a-git-diff-tip
+#+END_COMMENT
+
+
+
+:CLOCK:
+:END:
+
+One of the things with git that you can mess-up, if you are not
+used to, is git diff.  A friend of mine was trying to add a couple
+of new files, and changes to existing files.  But, he was on the
+wrong branch, and wanted to change to a different branch, before
+committing.  Being new to git, he wanted to take a patch.  Reset
+the changes, apply the patch back.
+
+This is what he did
+
+#+BEGIN_SRC sh
+  git add new_file.txt
+  git add old_file1.txt old_file2.txt # don't add old_file3.txt
+#+END_SRC
+
+Oh, damn, I want to change the branch.
+
+#+BEGIN_SRC sh
+  git diff > a.patch
+  git reset --hard
+  git checkout other-branch
+#+END_SRC
+
+Let me commit my changes...
+
+#+BEGIN_SRC sh
+  git apply a.patch
+  git commit -m
+  git show
+#+END_SRC
+
+Oh crap!  Where are my new files?  They aren't commited!  Lemme
+add them.
+
+#+BEGIN_SRC sh
+  ls new_file.txt
+  ls: cannot access new_file.txt: No such file or directory
+#+END_SRC
+
+Dammit!  Where are my changes gone?
+
+The problem was with ~git diff~.  It gives only the only the
+un-staged changes.  ~--cached~ option has to specified, to get the
+staged changes in the diff output.  ~git diff HEAD~ shows diff
+output with both staged and un-staged changes.
+
+But the whole workflow above is a beginners workflow.  A user
+comfortable with git would've committed and then moved the commit
+around using cherry-pick or the like.
+
+#+BEGIN_SRC sh
+  git add <all-files>
+  git commit -m "My awesome changes."  #committed on branch1
+  git checkout other-branch
+  git cherry-pick branch1
+#+END_SRC

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (web)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/web.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 04 Dec 2013 02:04:47 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Error: Missing one hebrew character</title><link>http://punchagan.muse-amuse.in/posts/error-missing-one-hebrew-character.html</link><description>&lt;p&gt;
+Dear owner-of-a-random-web-startup,
+&lt;/p&gt;
+
+&lt;p&gt;
+Thank you for starting your brand new, awesome web service.  But,
+please don't expect me to use it, if you ask me to have a password
+with atleast one upper-case letter, one numeral, one symbol and
+one unicode hindi character and 20 hebrew characters.  Is it
+really so essential to enforce such complicated rules on my
+passwords, making it difficult for me to remember what password I
+used?  Isn't OAuth and OpenID so much easier to use?  If you
+really want to enforce such complex rules on my password, at least
+show the arbitrary rules you enforce on me, at the login prompt too!
+&lt;/p&gt;
+
+&lt;p&gt;
+Sincerely,
+A frustrated-web-monkey
+&lt;/p&gt;</description><category>internet</category><category>passwords</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/error-missing-one-hebrew-character.html</guid><pubDate>Wed, 21 Nov 2012 15:31:00 GMT</pubDate></item><item><title>org2blog on the web</title><link>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</link><description>&lt;p&gt;
+Well, it's been a week of lull on my blog.  Not that I'm very
+busy.  But, just didn't have anything to post.  I was feeling jobless
+today and searched the web for org2blog users.  Here is what I found.
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;This is a test post from org2blog
+&lt;/li&gt;
+
+&lt;li&gt;Posting from emacs and org-mode
+&lt;/li&gt;
+
+&lt;li&gt;Vim vs Emacs, or why it really doesn’t matter
+&lt;/li&gt;
+
+&lt;li&gt;Posting subtree from org-mode buffer (take 2)
+&lt;/li&gt;
+
+&lt;li&gt;Here’s a test post to wordpress for Org2blog – an Emacs plugin
+&lt;/li&gt;
+
+&lt;li&gt;Primeiro post usando org2blog
+&lt;/li&gt;
+
+&lt;li&gt;Emacs中绘图－ ditaa篇
+&lt;/li&gt;
+
+&lt;li&gt;org2blog on identi.ca
+&lt;/li&gt;
+
+&lt;li&gt;Marcel van der Boom – StatusNet
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>blab</category><category>list</category><category>ology</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</guid><pubDate>Sun, 29 Aug 2010 15:27:00 GMT</pubDate></item><item><title>I'm back</title><link>http://punchagan.muse-amuse.in/posts/im-back.html</link><description>&lt;p&gt;
+After a short break, I'm back to blogging!
+A few things have changed meanwhile. A lot haven't.
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Noetic Nought shall now be called Rustic Reverie.
+&lt;/li&gt;
+
+&lt;li&gt;The Blogs I read page is now manually populated. More pages might be
+coming soon.
+&lt;/li&gt;
+
+&lt;li&gt;My web presence has almost been reduced to just this blog. I hope to
+be blogging more often this time around. I guess I'll have shorter
+and more frequent posts. "Release early, Release often."
+&lt;/li&gt;
+
+&lt;li&gt;I've been inspired by Sacha Chua and her wonderful blog. She puts up
+anything that -
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;she may look up in future.
+&lt;/li&gt;
+&lt;li&gt;could be remotely useful to anybody on this planet.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+I like her idea of "thinking of writing as sketching". "Keep
+repeating yourself, until the core message floats to the top". It
+feels similar to the idea - "Release early, Release often."
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Also, Thanks to Madhu and Vattam who set an impossibly high standard
+by having their resumes and letters of recommendations and other
+"personal" stuff on version control on public repositories.
+&lt;/li&gt;
+
+&lt;li&gt;All my posts will be made from org2blog - a little org-mode based
+client that I hacked up. Emacs and Org-mode all the way! This is the
+first post by me (and probably anybody) from org2blog!
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>blab</category><category>first</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/im-back.html</guid><pubDate>Sat, 17 Jul 2010 12:30:00 GMT</pubDate></item></channel></rss>

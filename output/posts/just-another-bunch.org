@@ -1,0 +1,38 @@
+#+BEGIN_COMMENT
+.. title: Just another bunch
+.. date: 2010/03/18 00:41:00
+.. tags: blab, life, poem
+.. slug: just-another-bunch
+#+END_COMMENT
+
+
+
+
+#+begin_verse
+Come spring -
+a fresh lease of green
+drapes the bare branches.
+
+The leaves, dancing and whistling
+to the tunes of the wind
+playing, screaming, and singing,
+in each other's company, enjoying.
+
+Singing to one another
+promises of sticking together,
+come what may, through it all.
+
+The song goes on,
+but the count goes down,
+not noticed or just unacknowledged,
+first by one and then by many more.
+
+the song, still, goes on.
+And the promises too, of course.
+The song goes on and on and on.
+
+Until silence falls upon, when all
+of them are gone. The tree, knowing well,
+watches on - it won't be long before
+a new bunch springs up to sing the song.
+#+end_verse

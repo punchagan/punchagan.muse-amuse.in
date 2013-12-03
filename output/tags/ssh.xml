@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (ssh)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/ssh.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 04 Dec 2013 02:04:47 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>MTU and file transfers</title><link>http://punchagan.muse-amuse.in/posts/mtu-and-file-transfers.html</link><description>&lt;p&gt;
+A note to self, but may benefit someone facing a similar problem.
+&lt;/p&gt;
+
+&lt;dl class="org-dl"&gt;
+&lt;dt&gt; &lt;b&gt;Problem&lt;/b&gt; &lt;/dt&gt;&lt;dd&gt;SSH-ing to our server was working well.  But, file
+transfers like &lt;code&gt;scp&lt;/code&gt;, &lt;code&gt;git push&lt;/code&gt; were failing.
+&lt;/dd&gt;
+
+&lt;dt&gt; &lt;b&gt;Diagnosis&lt;/b&gt; &lt;/dt&gt;&lt;dd&gt;I had been thinking it was a problem with our
+campus network on the first night and was too
+sleepy to try and fix it.  But things didn't
+improve even after one full day.  Then I asked a
+friend of mine, and he confirmed that he has been
+facing the same problem for a couple of days.  I
+then tried file transfers to another server and
+it was working fine.  Then I tried file transfers
+between the two servers and even that worked fine!
+&lt;/dd&gt;
+
+&lt;dt&gt; &lt;b&gt;Solution&lt;/b&gt; &lt;/dt&gt;&lt;dd&gt;After some googling, I figured that the problem
+was with a machine between me and the server.
+Changing the &lt;code&gt;mtu&lt;/code&gt; to 1492 from 1500 on the
+server, fixed the problem. :)
+&lt;/dd&gt;
+&lt;/dl&gt;</description><category>ssh</category><guid>http://punchagan.muse-amuse.in/posts/mtu-and-file-transfers.html</guid><pubDate>Mon, 06 Dec 2010 07:34:00 GMT</pubDate></item></channel></rss>

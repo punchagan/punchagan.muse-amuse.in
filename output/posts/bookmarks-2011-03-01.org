@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/03/01 23:59:59
+.. title: Bookmarks [2011/03/01]
+.. slug: bookmarks-2011-03-01
+#+END_COMMENT
+
+
+- [[http://harry.me/2011/02/17/neat-algorithms---flocking][Neat Algorithms - Flocking]]
+
+  tags: computer_science, visualization, algorithms, hack
+  
+
+
+
+- [[http://jonathanwstokes.com/2011/02/14/chess-music/][Chess Music]]
+
+  tags: music, idea, hack
+  
+
+
+
+- [[http://www.newscientist.com/article/dn20160-two-planets-found-sharing-one-orbit.html][Two planets found sharing one orbit - space - 24 February 2011 - New Scientist]]
+
+  tags: science, physics
+  
+
+
+
+- [[https://bugzilla.gnome.org/show_bug.cgi?id=78514#c19][Bug 78514 – copy item in edit menu]]
+
+  tags: life, foss, contribute, story, awesome
+  
+
+
+
+- [[http://dev.w3.org/2006/webapi/WebNotifications/publish/Notifications.html#dfn-cancel][Web Notifications]]
+
+  tags: chrome, help
+  
+
+

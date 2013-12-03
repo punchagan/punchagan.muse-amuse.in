@@ -1,0 +1,31 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags:
+.. date: 2013/11/10 18:24:28
+.. title: Oops! Page not found!
+.. slug: 404
+.. nocomments: True
+#+END_COMMENT
+
+The page you were looking for could not be found.
+
+If you reached here, by following a link, please report the broken URL
+to the author.
+
+You can either use the search bar, or wait to see if we can
+automatically find the post you were looking for!
+
+#+BEGIN_HTML
+  <div id="suggestions">
+    <span id="suggestions-loading">Searching for related posts ...</span>
+  </div>
+#+END_HTML
+
+
+
+#+BEGIN_HTML
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.0.0/fuse.min.js"></script>
+<script type="text/javascript" src="/assets/js/suggestions.js"></script>
+#+END_HTML

@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2010/11/08 23:59:59
+.. title: Bookmarks [2010/11/08]
+.. slug: bookmarks-2010-11-08
+#+END_COMMENT
+
+
+- [[http://sivers.org/complainers][Complainers | Derek Sivers]]
+
+  tags: writing
+  
+
+
+
+- [[http://devour.com/video/foley-artist/][Foley Artist on Devour.com]]
+
+  tags: movie, awesome, art
+  
+
+
+
+- [[http://pitchandpixel.com/2010/11/how-to-apply-for-a-job-and-ace-the-interview/][How to apply for a job and ace the interview | Pitch and Pixel]]
+
+  tags: advice, howto, job, tips
+  
+
+
+
+- [[http://the99percent.com/articles/6947/what-happened-to-downtime-the-extinction-of-deep-thinking-sacred-space][What Happened to Downtime? The Extinction of Deep Thinking & Sacred Space :: Articles :: The 99 Percent]]
+
+  tags: creativity, writing
+  
+
+
+
+- [[http://cdixon.org/2010/11/07/timing-your-startup/][cdixon.org – chris dixon's blog / Timing your startup]]
+
+  tags: advice, startup, tips, time
+  
+
+

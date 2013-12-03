@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2010/11/11 23:59:59
+.. title: Bookmarks [2010/11/11]
+.. slug: bookmarks-2010-11-11
+#+END_COMMENT
+
+
+- [[http://www.youtube.com/watch?v=9e4iFx2Gm0A][YouTube - "Don't lecture me" (with Twitter track) - Donald Clark at ALT-C 2010]]
+
+  tags: awesome, education
+  
+
+
+
+- [[http://www.gabrielweinberg.com/blog/2010/11/help-me-start-a-foss-tithing-movement.html][Help me start a FOSS Tithing movement - Gabriel Weinberg's Blog]]
+
+  tags: money, foss
+  
+
+
+
+- [[http://sahillavingia.com/blog/2010/11/10/the-nil-nil-philosophy/][Sahil Lavingia - The nil-nil philosophy.]]
+
+  tags: life, philosophy, advice
+  
+
+
+
+- [[http://sivers.org/berklee][6 things I wish I knew the day I started Berklee | Derek Sivers]]
+
+  tags: advice, awesome, life, learn
+  
+
+
+
+- [[http://mynorthwest.com/category/news_chick_blog/20101110/Seeking-rejection-for-30-days/][Seeking rejection for 30 days - MyNorthwest.com]]
+
+  tags: life, ideas, awesome
+  
+
+

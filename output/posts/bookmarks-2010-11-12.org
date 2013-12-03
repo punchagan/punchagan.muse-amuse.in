@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2010/11/12 23:59:59
+.. title: Bookmarks [2010/11/12]
+.. slug: bookmarks-2010-11-12
+#+END_COMMENT
+
+
+- [[http://www.bothsidesofthetable.com/2010/11/10/conference-organizers-suck-at-name-tags/][Conference Organizers Suck at Name Tags | Both Sides of the Table]]
+
+  tags: conference, advice
+  
+
+
+
+- [[http://joshholat.com/blog/my-first-open-source-project-and-a-two-week-chrome-extension/][» My First Open Source Project: A Two Week Chrome Extension at Life as a Geek - My projects, experiences, and lessons learned]]
+
+  tags: project, lessons, programming, first
+  
+
+
+
+- [[http://www.martynemko.com/articles/case-against-worklife-balance_id1426][The Case Against Work/Life Balance]]
+
+  tags: society, advice, work, stress, writing
+  
+
+
+
+- [[http://unethicalblogger.com/posts/2010/11/gnuparallel_changed_my_life][GNU/Parallel changed my life | unethical blogger]]
+
+  tags: advice, programming, software
+  
+
+
+
+- [[http://cdixon.org/2010/11/10/the-interoperability-of-social-networks/][cdixon.org – chris dixon's blog / The interoperability of social networks]]
+
+  tags: advice, math
+  
+
+

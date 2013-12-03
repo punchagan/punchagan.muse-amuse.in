@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Noetic Nought (org2blog)</title><link>http://punchagan.muse-amuse.in/</link><description></description><atom:link href="http://punchagan.muse-amuse.in/tags/org2blog.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Wed, 04 Dec 2013 02:04:46 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>What's up with org2blog?</title><link>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</link><description>&lt;p&gt;
+Another post on &lt;code&gt;org2blog&lt;/code&gt;.  Yes, the project is still alive. ;)
+Well, frankly quite a few people seem to be using it, and I
+regularly get bug-reports and feature requests.  I'm happy. :)
+&lt;/p&gt;
+
+&lt;p&gt;
+Actually, this post is to announce a change in the namespace of
+&lt;b&gt;my&lt;/b&gt; org2blog.  It turns out that there is another package that is
+called org2blog, but it posts to blogger.  Tehom, the author of
+the other package got in touch with me, and we tried to clean up a
+few things.  In this process, we decided to use two different
+namespaces, to avoid conflicts if a particular user has both the
+packages loaded.  I am going to use &lt;code&gt;org2blog/wp&lt;/code&gt; as my namespace
+prefix, instead of the older &lt;code&gt;org2blog&lt;/code&gt;.  So, if you are posting a
+sub-tree, you'll need to use the &lt;code&gt;org2blog/wp-post-subtree&lt;/code&gt;
+function, instead of &lt;code&gt;org2blog-post-subtree&lt;/code&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;
+We, Tehom and I, did discuss the possibility of merging the two
+packages into a single huge package, but we think the amount of
+work is far greater than the payoffs.  So, the packages continue
+to be called &lt;code&gt;org2blog&lt;/code&gt; but we reference each others packages, to
+reduce the confusion, amongst users.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;code&gt;org2blog/wp&lt;/code&gt; version 0.4 comes with the new namespace.
+&lt;/p&gt;</description><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/whats-up-with-org2blog.html</guid><pubDate>Sat, 15 Jan 2011 05:40:00 GMT</pubDate></item><item><title>Some fun from #org-mode</title><link>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</link><description>&lt;p&gt;
+This is a conversation from #org-mode, published without
+permission from &lt;code&gt;plovs&lt;/code&gt;, &lt;code&gt;BerntH&lt;/code&gt; and &lt;code&gt;bremner&lt;/code&gt;. If any of you
+want any of the content removed, I will do so.
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; hi all
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;BerntH&amp;gt; hi punchagan   [18:36]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; BerntH: ever used/tried blorg or blorgit?  [18:47]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; I like the way org-publish works, but blorg exports one org file as a blog. If blorg were to be re-written on top of org-publish, how should it be done? use one file per post or just one file for the whole blog?  [18:52]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;bremner&amp;gt; punchagan: another option is to use ikiwiki and use the org-mode plugin to render pages. This is what i do, although only a bit of the site is in org.  [19:44]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; bremner: can I have a look at your site?  [19:45]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;bremner&amp;gt; sure, it ain't pretty, but: www.cs.unb.ca/~bremner  [19:46]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; thanks. I'll keep this in mind.   [19:47]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; I just loved the way this site looks and behaves – &lt;a href="http://julien.danjou.info/projects.html"&gt;http://julien.danjou.info/projects.html&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;bremner&amp;gt; well, the side bar at least is possible with ikiwiki. Other than that I suppose it is mainly a matter of css  [19:48]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;BerntH&amp;gt; punchagan: nope  [19:49]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; ok BerntH  [19:50]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;plovs&amp;gt; punchagan ikiwiki does have an org-mode plugin  [19:56]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; plovs: yes, bremner told me that and I've seen on Worg too. :)
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;plovs&amp;gt; punchagan ah, yes, sorry
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; plovs: it's alright.   [19:59]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;plovs&amp;gt; punchagan another possibility is org2blog, which uses wordpress
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; plovs: I'm the author of it. :D
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;plovs&amp;gt; lol, ik, &lt;b&gt;that&lt;/b&gt; punchagan   [20:17]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; lol
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; plovs: were you kidding? or serious?  [20:19]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;plovs&amp;gt; punchagan sorry to say i was serious, but it will not happen again :-)
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;plovs&amp;gt; i really like org2blog, played with it yesterday
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; plovs: no. I was just wondering if you were playing around with me. :P
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; I'm happy some one thinks it is useful.
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;plovs&amp;gt; lol, no, i just didn't recognized your name, although it is kind of hard to miss  [20:21]
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;lt;punchagan&amp;gt; I hope you don't mind, if I make this anecdote public?
+&lt;/p&gt;
+&lt;/blockquote&gt;</description><category>IRC</category><category>emacs</category><category>note</category><category>org2blog</category><category>orgmode</category><guid>http://punchagan.muse-amuse.in/posts/some-fun-from-org-mode.html</guid><pubDate>Sat, 02 Oct 2010 14:56:00 GMT</pubDate></item><item><title>org2blog on the web</title><link>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</link><description>&lt;p&gt;
+Well, it's been a week of lull on my blog.  Not that I'm very
+busy.  But, just didn't have anything to post.  I was feeling jobless
+today and searched the web for org2blog users.  Here is what I found.
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;This is a test post from org2blog
+&lt;/li&gt;
+
+&lt;li&gt;Posting from emacs and org-mode
+&lt;/li&gt;
+
+&lt;li&gt;Vim vs Emacs, or why it really doesn’t matter
+&lt;/li&gt;
+
+&lt;li&gt;Posting subtree from org-mode buffer (take 2)
+&lt;/li&gt;
+
+&lt;li&gt;Here’s a test post to wordpress for Org2blog – an Emacs plugin
+&lt;/li&gt;
+
+&lt;li&gt;Primeiro post usando org2blog
+&lt;/li&gt;
+
+&lt;li&gt;Emacs中绘图－ ditaa篇
+&lt;/li&gt;
+
+&lt;li&gt;org2blog on identi.ca
+&lt;/li&gt;
+
+&lt;li&gt;Marcel van der Boom – StatusNet
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>blab</category><category>list</category><category>ology</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-on-the-web.html</guid><pubDate>Sun, 29 Aug 2010 15:27:00 GMT</pubDate></item><item><title>org2blog annoyance</title><link>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</link><description>&lt;p&gt;
+I hate it when I'm trying out things with org2blog - fixing bugs
+or adding features - and my testing buffer gets posted. Why do I
+keep passing the prefix argument with C-u? I should probably
+work with a local instance of WordPress.
+&lt;/p&gt;</description><category>note</category><category>org2blog</category><category>wordpress</category><guid>http://punchagan.muse-amuse.in/posts/org2blog-annoyance.html</guid><pubDate>Mon, 02 Aug 2010 21:44:00 GMT</pubDate></item><item><title>Thanks Sacha</title><link>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</link><description>&lt;p&gt;
+I just wanted to thank Sacha Chua for bearing with my newbie elisp
+code and trying out org2blog.
+&lt;/p&gt;
+
+&lt;p&gt;
+Also, thanks for the two patches she sent.
+&lt;/p&gt;
+&lt;ol class="org-ol"&gt;
+&lt;li&gt;Feature addition - Posting sub-trees instead of whole buffers.
+I had this feature in mind, and had started working on it after
+her request, but she was too quick for me! ;)
+&lt;/li&gt;
+&lt;li&gt;Cleaning up of the code that uploads images.
+&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;
+I'm loving it!
+&lt;/p&gt;</description><category>code</category><category>elisp</category><category>note</category><category>org2blog</category><category>thanks</category><guid>http://punchagan.muse-amuse.in/posts/thanks-sacha.html</guid><pubDate>Fri, 30 Jul 2010 01:29:00 GMT</pubDate></item><item><title>I'm back</title><link>http://punchagan.muse-amuse.in/posts/im-back.html</link><description>&lt;p&gt;
+After a short break, I'm back to blogging!
+A few things have changed meanwhile. A lot haven't.
+&lt;/p&gt;
+
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Noetic Nought shall now be called Rustic Reverie.
+&lt;/li&gt;
+
+&lt;li&gt;The Blogs I read page is now manually populated. More pages might be
+coming soon.
+&lt;/li&gt;
+
+&lt;li&gt;My web presence has almost been reduced to just this blog. I hope to
+be blogging more often this time around. I guess I'll have shorter
+and more frequent posts. "Release early, Release often."
+&lt;/li&gt;
+
+&lt;li&gt;I've been inspired by Sacha Chua and her wonderful blog. She puts up
+anything that -
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;she may look up in future.
+&lt;/li&gt;
+&lt;li&gt;could be remotely useful to anybody on this planet.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+I like her idea of "thinking of writing as sketching". "Keep
+repeating yourself, until the core message floats to the top". It
+feels similar to the idea - "Release early, Release often."
+&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;Also, Thanks to Madhu and Vattam who set an impossibly high standard
+by having their resumes and letters of recommendations and other
+"personal" stuff on version control on public repositories.
+&lt;/li&gt;
+
+&lt;li&gt;All my posts will be made from org2blog - a little org-mode based
+client that I hacked up. Emacs and Org-mode all the way! This is the
+first post by me (and probably anybody) from org2blog!
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>blab</category><category>first</category><category>org2blog</category><category>web</category><guid>http://punchagan.muse-amuse.in/posts/im-back.html</guid><pubDate>Sat, 17 Jul 2010 12:30:00 GMT</pubDate></item></channel></rss>

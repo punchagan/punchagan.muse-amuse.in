@@ -1,0 +1,38 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2013/11/24 22:03:02
+.. title: Bookmarks [2013-11-24]
+.. slug: bookmarks-2013-11-24
+#+END_COMMENT
+
+
+- [[http://www.kickstarter.com/projects/electroninks/circuit-scribe-draw-circuits-instantly][Circuit Scribe: Draw Circuits Instantly by Electroninks Incorporated — Kickstarter]]
+  
+  Circuit Scribe draws smooth lines with conductive silver ink and
+  allows you to create functioning circuits instantly.
+
+- [[http://thoughtcatalog.com/brandon-gorrell/2013/11/41-eye-opening-quotes-that-will-make-you-notice-what-you-always-ignored/][41 Eye-Opening Quotes That Will Make You Notice What You Always Ignored | Thought Catalog]]
+  
+  The bigger the mountain, the better the view. Unknown
+
+- [[https://www.hackerschool.com/blog/27-fundamental-qualities-of-good-programmers][Fundamental qualities of good programmers - Blog - Hacker School]]
+  
+  First, a quick note: This is just one way to think about becoming a
+  better programmer. It's almost certainly not the only way to think
+  about it and you may find some other way more useful to you.
+
+- [[http://www.youtube.com/watch?v=QTkvs1LNu5A][▶ I Am 20 - YouTube]]
+  
+  Those born on Independence Day in 1947 were selected from different
+  parts of India and interviewed to know their hopes and
+  desires,ambitions, hobbies, fears and frustrations and the result is
+  this unique film.
+
+- [[http://sugru.com/story][Our story - the future needs fixing - sugru]]
+  
+  TIME Magazine listed sugru alongside the iPad as one of the top 50
+  inventions of 2010.
+
+  The iPad was number 34, sugru was number 22.
