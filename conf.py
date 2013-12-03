@@ -200,12 +200,16 @@ DEPLOY_COMMANDS = [
     'git checkout master',
     'nikola build',
     './commit-changes',
-    'git push origin master',
-    #fixme: I don't like the output folder being version controlled on master!
-    'git subtree split --prefix output -b gh-pages',
+    'git checkout --orphan gh-pages',
+    'git rm -rf .',
+    'git checkout master -- .gitignore',
+    'git checkout master -- commit-changes',
+    'mv output/* .',
+    './commit-changes',
     'git push -f origin gh-pages:gh-pages',
     'git checkout master',
     'git branch -D gh-pages',
+    'git push origin master',
 ]
 
 # List XML-RPC services (preferred) in PING_XMLRPC_SERVICES and HTTP
