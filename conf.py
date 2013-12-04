@@ -199,7 +199,7 @@ DEPLOY_COMMANDS = [
     'nikola orphans|xargs rm || true',
     'git checkout master',
     'nikola build',
-    './commit-changes',
+    './commit-changes || true',
     'git checkout --orphan gh-pages',
     'git rm -rf .',
     'git checkout master -- .gitignore',
