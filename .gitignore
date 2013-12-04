@@ -42,3 +42,6 @@ themes/
 .doit.db
 Guardfile
 
+# Misc
+.idea/
+
