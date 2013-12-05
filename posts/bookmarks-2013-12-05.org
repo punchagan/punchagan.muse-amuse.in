@@ -1,0 +1,87 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2013/12/05 07:26:25
+.. title: Bookmarks [2013-12-05]
+.. slug: bookmarks-2013-12-05
+#+END_COMMENT
+
+
+- [[http://www.vonwong.com/blog/bringing-a-dream-to-life/][Bringing a dream to life - The Von Wong]]
+  
+  And though these images that she ended up loving, were created to
+  bring Nicole’s dreams to life, I’ve never felt more alive… because
+  doing something that matters makes all the difference.
+
+- [[http://lists.freebsd.org/pipermail/freebsd-current/2010-August/019310.html][why GNU grep is fast]]
+  
+  The key to making programs fast is to make them do practically
+  nothing. ;-)
+
+- [[http://www.technologyreview.com/view/522111/how-to-burst-the-filter-bubble-that-protects-us-from-opposing-views/][How to Burst the "Filter Bubble" that Protects Us from Opposing Views | MIT Technology Review]]
+  
+  Computer scientists have discovered a way to number-crunch an
+  individual’s own preferences to recommend content from others with
+  opposing views. The goal? To burst the “filter bubble” that
+  surrounds us with people we like and content that we agree with.
+
+- [[http://thoughtcatalog.com/scott-percelay/2013/10/10-reasons-why-traveling-makes-you-a-better-person/][10 Reasons Why Traveling Makes You A Better Person | Thought Catalog]]
+  
+  If you have the opportunity to pack your bags and go, do it. Go
+  alone if you have to.
+
+- [[http://www.ibm.com/developerworks/rational/library/11-proven-practices-for-peer-review/][11 proven practices for more effective, efficient peer code review]]
+  
+  Summary:  These 11 proven practices for efficient, lightweight peer
+  code review are based on a study at Cisco Systems using SmartBear
+  CodeCollaborator. They can help you ensure that your reviews both
+  improve your code and make the most of your developers' time.
+
+- [[http://raspberry-python.blogspot.in/2013/10/ieee-754854-when-it-is-needed.html][Raspberry Pi Python Adventures: IEEE 754/854, when it is needed]]
+  
+  If you want IEEE 754/854 decimal behaviour, what you want to use is
+  the decimal module
+
+- [[http://alecmunro.blogspot.in/2013/10/rethinking-my-excuses-about-hiring-for.html][Experiments in public: Rethinking my excuses about hiring for Test Automation]]
+  
+  Be an Automator, spend your days debugging everyone else's software,
+  drive the art forward, and enjoy (in the long run) incredible job
+  security!
+
+- [[http://nedbatchelder.com/blog/201310/range_overlap_in_two_compares.html][Ned Batchelder: Range overlap in two compares]]
+  
+  His code used eight comparisons to check whether the endpoint of one of the ranges was contained within the other range. In Python it would look like this:
+
+  #+BEGIN_SRC python
+    def overlap(start1, end1, start2, end2):
+        """Does the range (start1, end1) overlap with (start2, end2)?"""
+
+        return (
+            start1 <= start2 <= end1 or
+            start1 <= end2 <= end1 or
+            start2 <= start1 <= end2 or
+            start2 <= end1 <= end2
+        )
+
+  #+END_SRC
+
+  I said you could do it in two comparisons rather than eight, but
+  could never remember the trick.
+
+- [[http://cbarker.net/blog/projects/applications/cubr][Cubr | Keep on Coding]]
+  
+  Cubr is a project I completed in three weeks at the end of my
+  introductory computer science class at CMU. The idea is simple: you
+  mix up a Rubik’s cube. You show the cube to your computer’s
+  webcam. Some magic happens, and your cube appears onscreen. Then,
+  the cube begins to solve itself, and all you have to do is follow
+  along and you will have solved your cube!
+
+- [[http://coreygoldberg.blogspot.in/2013/10/deadsnakes-using-old-versions-of-python.html][Corey Goldberg: deadsnakes - Using Old Versions of Python on Ubuntu]]
+  
+  The Python packages in the official Ubuntu archives generally don't
+  go back all that far, but people might still need to develop and
+  test against these old Python interpreters. Felix Krull maintains a
+  PPA (package archive) of older Python versions that are easy to
+  install on Ubuntu.
