@@ -29,6 +29,7 @@ from __future__ import unicode_literals, print_function
 
 import codecs
 import datetime
+import subprocess
 
 from blinker import signal
 
@@ -82,11 +83,17 @@ def success(tag):
     print('Backing up capture file to', bkfile)
     shutil.move(infile, bkfile)
 
+    subprocess.check_call([
+        'emacsclient',
+        '--eval',
+        '(when (get-buffer "bookmarks.org") (kill-buffer "bookmarks.org"))'
+    ])
+
+
 
 def run_deploy():
     """ Run the nikola deploy command. """
 
-    import subprocess
     subprocess.check_call(['nikola', 'deploy'])
 
 
