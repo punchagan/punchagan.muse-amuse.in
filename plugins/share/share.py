@@ -86,7 +86,7 @@ def success(tag):
     subprocess.check_call([
         'emacsclient',
         '--eval',
-        '(when (get-buffer "bookmarks.org") (kill-buffer "bookmarks.org"))'
+        '(when (get-buffer "bookmarks.org") (kill-buffer "%s.org"))' % tag
     ])
 
 
