@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. description: A hackish script to scrape google groups.
-.. tags:
+.. tags: idea, email, hack, ultimate, mumbai
 .. title: Scraping Google Groups
 .. link:
 .. date: 2013/12/31 19:55:58
