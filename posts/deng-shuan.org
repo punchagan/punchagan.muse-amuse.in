@@ -1,0 +1,12 @@
+#+BEGIN_COMMENT
+.. title: 邓栓
+.. slug: deng-shuan
+.. date: 2014/02/03 19:00:11
+.. tags: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+
+Write your post here.
