@@ -70,7 +70,7 @@ class CompileOrgmode(PageCompiler):
                                 'configuration (return code {1})'.format(
                                     source, e.returncode))
 
-    def create_post(self, path, onefile=False, **kw):
+    def create_post(self, path, content, onefile=True, **kw):
         metadata = OrderedDict()
         metadata.update(self.default_metadata)
         metadata.update(kw)
@@ -83,4 +83,4 @@ class CompileOrgmode(PageCompiler):
                     fd.write('.. {0}: {1}\n'.format(k, v))
                 fd.write("#+END_COMMENT\n")
                 fd.write("\n\n")
-            fd.write('Write your post here.')
+            fd.write(content)

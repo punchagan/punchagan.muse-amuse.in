@@ -100,7 +100,7 @@ def run_deploy():
 def new_post(tag, entries, site, dry_run=False):
     """ Make a new post with the given entries. """
 
-    post_format = get_default_compiler(
+    content_format = get_default_compiler(
         True, site.config['COMPILERS'],  site.config['post_pages']
     )
     title = '%s [%s]' % (
@@ -130,7 +130,7 @@ def new_post(tag, entries, site, dry_run=False):
             'tags': tag,
             'onefile': True,
             'twofile': False,
-            'post_format': post_format,
+            'content_format': content_format,
             'schedule': None,
         })
 
