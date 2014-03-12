@@ -1,0 +1,49 @@
+#+BEGIN_COMMENT
+.. title: Bookmarks [2014-03-12]
+.. slug: bookmarks-2014-03-12
+.. date: 2014/03/12 12:49:22
+.. tags: bookmarks
+.. link:
+.. description:
+.. type: text
+.. is_page: False
+#+END_COMMENT
+
+
+- [[http://www.mehdi-khalili.com/never-judge-a-programmer-by-their-commit-history#.UwiURItePPo.hackernews][Never judge a programmer by their commit history - Mehdi Khalili]]
+  
+  Here is a few things I have either experienced personally or seen
+  happen to great developers that led to bad code
+
+- [[https://www.otexts.org/book/sfml][Statistical foundations of machine learning | OTexts]]
+  
+  We are in the era of big data. The procedure for finding useful
+  patterns in data is known by different names in different
+  communities but more and more, it is grouped under the label of
+  machine learning. This handbook aims to present the statistical
+  foundations of machine learning intended as the discipline which
+  deals with the automatic design of models from data.
+
+- [[http://blog.gleitzman.com/post/43330157197/howdoi-instant-coding-answers-via-the-command-line][Howdoi – Instant Coding Answers via the Command Line - Benjamin Gleitzman's Blog]]
+  
+  One of my favorite collaborations to come out of the illustrious
+  Oxidized Bismuth Blogger (OxBiz) ideation list is howdoi, a tool for
+  instant coding answers via the command line.
+
+- [[http://lemire.me/blog/archives/2014/03/10/elegance-as-a-luxury/][Elegance as a luxury]]
+  
+  But once you see your brain as a CPU, then a more practical question
+  arises. How do you organize the problems to maximize the efficiency
+  of your brain…
+
+- [[http://blog.bayareadisc.org/2013/10/30/what-ultimate-does-for-daughters/][What Ultimate Does for Daughters | Bay Area Disc Association]]
+  
+  In each case, it’s assumed that they are all the same kind of people
+  — Ultimate people. These kind of people are family of a kind forged
+  by lots of work, lots of experience and more fun than seems quite
+  reasonable.
+
+- [[http://jvns.ca/blog/2014/03/10/help/][Hacker School's Secret Strategy for Being Super Productive (or: Help.) - Julia Evans]]
+  
+  What if everybody asked questions when they needed help? What if
+  helping people was everyone’s default procrastination method?
