@@ -70,7 +70,9 @@ class CompileOrgmode(PageCompiler):
                                 'configuration (return code {1})'.format(
                                     source, e.returncode))
 
-    def create_post(self, path, content, onefile=True, **kw):
+    def create_post(self, path, **kw):
+        content = kw.pop('content', None)  # NOQA
+        onefile = kw.pop('onefile', False)  # NOQA
         metadata = OrderedDict()
         metadata.update(self.default_metadata)
         metadata.update(kw)
