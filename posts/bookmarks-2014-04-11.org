@@ -11,28 +11,20 @@
 
 
 - [[http://maryrosecook.com/blog/post/new-york-2014][New York, 2014 at Mary Rose Cook]]
-  
+
   A video I made about Hacker School.
 
 - [[http://maryrosecook.com/blog/post/hacker-school-testimonial][Hacker School testimonial at Mary Rose Cook]]
-  
+
   The hours at Hacker School feel precious. This is the fastest period
   of learning in my life. I’m coming back.
 
 - [[https://tech.dropbox.com/2014/04/introducing-pyston-an-upcoming-jit-based-python-implementation/][Dropbox Tech Blog » Blog Archive » Introducing Pyston: an upcoming, JIT-based Python implementation]]
-  
+
   The goal of the project is to produce a high-performance Python
   implementation that can push Python into domains dominated by
   traditional systems languages like C++.
 
 - [[http://www.gabrielweinberg.com/blog/2011/01/on-not-hiring.html][On not hiring]]
-  
-  Hiring is hard. Not hiring can seem even harder, but often isn't.
 
-- [[http://www.gabrielweinberg.com/blog/2011/01/on-not-hiring.html][On not hiring]]
-  
-  Hiring is hard. Not hiring can seem even harder, but often isn't.
-
-- [[http://www.gabrielweinberg.com/blog/2011/01/on-not-hiring.html][On not hiring]]
-  
   Hiring is hard. Not hiring can seem even harder, but often isn't.
