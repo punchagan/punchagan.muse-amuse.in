@@ -492,8 +492,6 @@ INDEX_DISPLAY_POST_COUNT = 1000000
 # Show only teasers in the RSS feed? Default to True
 # RSS_TEASERS = True
 
-ENABLED_EXTRAS = ['local_search']
-
 SEARCH_FORM = """
 <span class="navbar-form pull-left">
 <input type="text" id="tipue_search_input" placeholder="Search this site">
