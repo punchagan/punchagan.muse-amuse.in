@@ -125,7 +125,7 @@ def new_post(tag, entries, site, dry_run=False):
     else:
         signal('new_post').connect(write_content)
 
-        site.commands['new_post'].execute({
+        site.commands.new_post(**{
             'title': title,
             'tags': tag,
             'onefile': True,
@@ -194,6 +194,9 @@ class CommandShare(Command):
 
     def _share_tag(self, tag, dry_run=False):
         """ Create a Share post for the given tag. """
+
+        self.site.scan_posts()
+
         entries = get_entries(tag)
 
         if len(entries) >= self.site.config.get('SHARE_ENTRY_COUNT', 5):
