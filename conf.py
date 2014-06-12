@@ -587,7 +587,9 @@ $(document).ready(function() {
 # Also, if you want to use a different timezone in some of your posts,
 # you can use W3C-DTF Format (ex. 2012-03-30T23:00:00+02:00)
 #
-TIMEZONE = 'Asia/Kolkata'
+
+# TIMEZONE = 'Asia/Kolkata'
+TIMEZONE = 'America/New_York'
 
 # If webassets is installed, bundle JS and CSS to make site loading faster
 # USE_BUNDLES = True
