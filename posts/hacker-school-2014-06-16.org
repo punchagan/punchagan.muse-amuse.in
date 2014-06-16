@@ -2,11 +2,13 @@
 .. title: Hacker School, 2014-06-16
 .. slug: hacker-school-2014-06-16
 .. date: 2014-06-16 10:09:08 UTC-04:00
-.. tags: hackerschool
+.. tags: hackerschool, draft
 .. link:
 .. description:
 .. type: text
 #+END_COMMENT
 
 
-- Didn't do anything during the weekend.
+- Didn't do anything during the weekend.  Hopefully, this won't be the
+  case all of the weekends.  I had fun with my cousins, though.
+-
