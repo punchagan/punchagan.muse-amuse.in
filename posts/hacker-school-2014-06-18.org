@@ -2,11 +2,26 @@
 .. title: Hacker School, 2014-06-18
 .. slug: hacker-school-2014-06-18
 .. date: 2014-06-18 10:29:29 UTC-04:00
-.. tags: hackerschool, draft
-.. link: 
-.. description: 
+.. tags: hackerschool
+.. link:
+.. description:
 .. type: text
 #+END_COMMENT
 
 
-Write your post here.
+- Amber [[http://www.subsymbol.org/2014/06/hacker-school-tuesday-june-17th-2014.html][talked about]] "exploring only until the current task is done"
+  and moving on, which is could really be a lost opportunity to learn
+  something new and gain a better understanding of the system I am
+  working with.
+- Having something (anything not directly related to the current
+  project I'm working on) scheduled for later in the day, doesn't seem
+  to do me much good. I feel distracted for quite a long period before
+  the scheduled time.
+- Abstractions and layers were talked about in the second exercise on
+  Applicatives... Layering, FTW!
+- I spent about an hour or so in the afternoon reading the paper, [[https://www.cs.purdue.edu/homes/gkrichar/papers/onward2013-wuerthinger-truffle.pdf][One
+  VM to rule them all]].  It talked about Truffle: an API to implement
+  an AST parser for any language and Graal: a JIT compiler for the
+  ASTs.  Later in the day, I also went to the [[http://www.meetup.com/papers-we-love/events/178049922/][Papers we love]] meetup.
+  The presentation and the talks were quite interesting!
+- I also started looking at [[http://elm-lang.org][Elm]] and playing with it.
