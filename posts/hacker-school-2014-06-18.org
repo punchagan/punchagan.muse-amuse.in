@@ -2,7 +2,7 @@
 .. title: Hacker School, 2014-06-18
 .. slug: hacker-school-2014-06-18
 .. date: 2014-06-18 10:29:29 UTC-04:00
-.. tags: hackerschool
+.. tags: hackerschool, vm, elm, haskell
 .. link:
 .. description:
 .. type: text
