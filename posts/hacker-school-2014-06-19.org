@@ -45,7 +45,7 @@
 - Thursday evening presentations! People here have been working on
   such cool stuff!  Maze solvers and percolation probability
   calculators, phone gap based mobile applications, a cool Midi based
-  music generator, an emulator for MSP430 in Clojure, an event logger
+  music generator, an [[https://github.com/mveytsman/emm-ess-pee][emulator]] for MSP430 in Clojure, an event logger
   in ObjectiveC that can log to a web server and can be used by
   multiple clients to debug communication related issues, a HTTP
   server written from Scratch, a web server in Swift, a pattern
