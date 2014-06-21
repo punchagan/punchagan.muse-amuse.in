@@ -2,7 +2,7 @@
 .. title: OAuth2 demystified
 .. slug: oauth2-demystified
 .. date: 2014-06-20 10:09:51 UTC-04:00
-.. tags: hackerschool, oauth2, draft
+.. tags: hackerschool, oauth2
 .. link:
 .. description:
 .. type: text
