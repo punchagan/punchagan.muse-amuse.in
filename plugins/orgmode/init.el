@@ -43,12 +43,20 @@
   (with-temp-buffer
     (insert code)
     (let ((lang (or (cdr (assoc lang org-pygments-language-alist)) "text")))
-      (shell-command-on-region (point-min) (point-max)
-                               (format "pygmentize -f html -O encoding=utf8 -g -l %s" lang)
-                               (buffer-name) t))
-
-    (buffer-string)))
-
+      (if (string-equal lang "image")
+          ;; A crazy hack!! Why src-block have no info?!@!@#
+          (let* ((file-name (format "%s.png" (sha1 code)))
+                 (output-path (format "../files/images/%s" file-name))
+                 (url (format "../images/%s" file-name)))
+            (shell-command-on-region
+             (point-min) (point-max)
+             (format "pygmentize -f png -O font_name=UbuntuMono,line_numbers=False -o %s -l text" output-path))
+            (format "<img src=\"%s\" >" url))
+        (shell-command-on-region
+         (point-min) (point-max)
+         (format "pygmentize -f html -O encoding=utf8 -g -l %s" lang)
+         (buffer-name) t)
+        (buffer-string)))))
 
 (defconst org-pygments-language-alist
   '(
@@ -59,6 +67,7 @@
     ("clojure" . "clojure")
     ("css" . "css")
     ("D" . "d")
+    ("ditaa" . "image")
     ("emacs-lisp" . "scheme")
     ("F90" . "fortran")
     ("gnuplot" . "gnuplot")
@@ -101,7 +110,7 @@ contextual information."
   (if (org-export-read-attribute :attr_html src-block :textarea)
       (org-html--textarea-block src-block)
     (let ((lang (org-element-property :language src-block))
-	  (code (org-html-format-code src-block info)))
+          (code (car (org-export-unravel-code element))))
       (pygmentize lang code))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
