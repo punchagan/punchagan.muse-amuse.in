@@ -71,10 +71,6 @@
    #+END_SRC
 
 
-
-
-
-
    The flow occurs through a sequence of user actions, client requests
    and user-agent (browser) redirects.
 
@@ -87,7 +83,7 @@
      type of the actual grant credential depends on the type of
      request that Printo used.
 
-   - (C, D) Printo gets back the Google with the credentials it obtained
+   - (C, D) Printo gets back to Google with the credentials it obtained
      in the previous step and obtains a token that it can use to talk
      with Picasa.
 
