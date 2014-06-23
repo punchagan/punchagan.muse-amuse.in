@@ -1,0 +1,23 @@
+#+BEGIN_COMMENT
+.. title: Hacker School, 2014-06-23
+.. slug: hacker-school-2014-06-23
+.. date: 2014-06-23 04:38:29 UTC-04:00
+.. tags: hackerschool, draft
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+- The Apprenticeship patterns book is very interesting!  I shall
+  continue to read it and start create daily/weekly rituals from the
+  actions prescribed in the book!
+- I was reading [[http://blogs.collab.net/git/protect-git-history#.U6fixh-caV4][this post]] on ~git gc~, ~reflog~, etc. and wanted to
+  see what the default values were for some of the configurable
+  variables.  But, the git config command didn't help.  Developer/code
+  defaults are also a part of the "config" system, and any tools to
+  inspect config variables should display them, if no other values
+  have been set explicitly!
+- "If experience is built upon failure as much as success, then you
+  need a more or less private space where you can seek out failure."
+  -- Apprenticeship Patterns.
