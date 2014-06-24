@@ -2,7 +2,7 @@
 .. title: Hacker School, 2014-06-23
 .. slug: hacker-school-2014-06-23
 .. date: 2014-06-23 04:38:29 UTC-04:00
-.. tags: hackerschool, draft
+.. tags: hackerschool,principle, conference, git
 .. link:
 .. description:
 .. type: text
@@ -21,3 +21,30 @@
 - "If experience is built upon failure as much as success, then you
   need a more or less private space where you can seek out failure."
   -- Apprenticeship Patterns.
+- Our check-in groups changed, but 3 of us from our last check-in
+  group are together again!
+- Most of the day was spent with Git.  In the morning, I learned that
+  setting ~push.default~ to ~nothing~ will prevent pushing any
+  branches without specifying explicitly which branch I want to push.
+- Also, later in the day, Alan gave a presentation mapping the
+  internals of git to the commands, trying to give everyone a better
+  mental model of Git.
+- I spent some time trying to get ~jedi~ integration for ~emacs~. It
+  should've worked out of the box, but I'm not sure the ELPA
+  repositories have proper dependency/version management.  Seems to be
+  the problem, everywhere!  Dependencies of a package get updated, and
+  the package starts acting up...
+- Chaitu sent me a link about solving mazes using Finite Automata, and
+  I spent some time trying to write a simple solver, and compare it
+  with Nava's breadth first search.  But, it looks like we broke her
+  code during the refactor.  I may get back to this, at some point.
+- I also spent a few minutes talking to Kyle, while he was trying to
+  implement a simple version of the NTP protocol.  The algorithm it
+  turns out, is pretty simple.
+- I started reading a little bit on crypt-analysis for Simple
+  Substitution ciphers, and I'll try implementing one of the
+  algorithms today.
+- The day ended with yummy pizza and video watching!  We watched --
+  - Bret Victor, Inventing on Principle (54 min)
+  - Gary Bernhardt, WAT (4 min)
+  - Guy Steele, Growing a Language (53 min)
