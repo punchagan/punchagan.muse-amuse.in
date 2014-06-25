@@ -1,0 +1,12 @@
+#+BEGIN_COMMENT
+.. title: Hacker School, 2014-06-25
+.. slug: hacker-school-2014-06-25
+.. date: 2014-06-25 09:51:07 UTC-04:00
+.. tags: hackerschool, draft
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+
+Write your post here.
