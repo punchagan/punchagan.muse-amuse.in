@@ -2,11 +2,23 @@
 .. title: Hacker School, 2014-06-26
 .. slug: hacker-school-2014-06-26
 .. date: 2014-06-26 09:30:20 UTC-04:00
-.. tags: hackerschool, draft
-.. link: 
-.. description: 
+.. tags: hackerschool, dtmf, fft
+.. link:
+.. description:
 .. type: text
 #+END_COMMENT
 
-
-Write your post here.
+- I played around a little bit with my ~emacs~ configuration and got ~jedi~
+  working, with virtualenvs, thanks to ~virtualenvwrapper.el~
+- Continue to work on the singal processing stuff and built a DTMF decoder
+  using FFTs.  It's able to decode audacity generated audio, but not recorded
+  ones. I'm not sure what I'm doing wrong, yet.
+- As with every Thursday, there were a bunch of interesting presentations:
+  - A rice cooker hooked up to an arduino in an afternoon!
+  - A presentation on how scopes act as monoids
+  - An implementation of [[http://people.csail.mit.edu/mrub/vidmag/][Eularian Video Magnification]]
+  - A regex engine visualizer using NetworkX.
+  - A [[https://github.com/ambimorph/protagonist][tag system to organize your files]]
+  - A web-socket based chat client
+  - A Go Parser written in Go
+  - ...

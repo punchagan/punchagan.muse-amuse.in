@@ -1,4 +1,4 @@
-#+BEGIN_COMMENT
+1;2802;0c#+BEGIN_COMMENT
 .. title: Hacker School, 2014-06-23
 .. slug: hacker-school-2014-06-23
 .. date: 2014-06-23 04:38:29 UTC-04:00
@@ -45,6 +45,6 @@
   Substitution ciphers, and I'll try implementing one of the
   algorithms today.
 - The day ended with yummy pizza and video watching!  We watched --
-  - Bret Victor, Inventing on Principle (54 min)
-  - Gary Bernhardt, WAT (4 min)
-  - Guy Steele, Growing a Language (53 min)
+  - Bret Victor, [[http://vimeo.com/36579366][Inventing on Principle]] (54 min)
+  - Gary Bernhardt, [[https://www.destroyallsoftware.com/talks/wat][WAT]] (4 min)
+  - Guy Steele, [[https://www.youtube.com/watch?v=_ahvzDzKdB0][Growing a Language]] (53 min)
