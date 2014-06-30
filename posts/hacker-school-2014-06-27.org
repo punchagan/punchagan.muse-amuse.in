@@ -1,0 +1,21 @@
+#+BEGIN_COMMENT
+.. title: Hacker School, 2014-06-27
+.. slug: hacker-school-2014-06-27
+.. date: 2014-06-29 09:36:32 UTC-04:00
+.. tags: hackerschool, draft
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+- This Friday we worked on building our own URL shorteners.  It was a fun
+  exercise, and I built one that is not persistent, in the two hours.  I worked
+  on a not so important problem of having sorted query parameters, instead of
+  the more important problem of having a persistent server.  Anyway, I should
+  be building something that works, first, before trying to solve the more
+  interesting problems.  At least on Fridays.
+- I watched this old but interesting talk by Brandon Rhodes, titled [[http://pyvideo.org/video/276/the-mighty-dictionary-55][The Mighty
+  Dictionary]], and played around with his [[https://github.com/brandon-rhodes/pycon2010-mighty-dictionary/blob/master/figures/_dictinfo.py][_dictinfo]] module after-wards.
+- I spent the rest of the evening reading up about Markov chains and Hidden
+  Markov Models. I'm happy to finally understand what these terms mean, after
+  seeing them being thrown around for so many years!
