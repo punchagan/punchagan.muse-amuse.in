@@ -2,7 +2,7 @@
 .. title: Hacker School, 2014-06-27
 .. slug: hacker-school-2014-06-27
 .. date: 2014-06-29 09:36:32 UTC-04:00
-.. tags: hackerschool, draft
+.. tags: hackerschool, hmm, python
 .. link:
 .. description:
 .. type: text
