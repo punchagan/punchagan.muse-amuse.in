@@ -34,7 +34,7 @@ I also got a couple of ideas for small projects:
   on any projects.  It may be helpful to have an API proxy server that
   runs on a different server and forwards any requests coming to it.
 - A simple script to create a twitter list for each batch of
-  HackerSchool.
+  Hacker School.
 
 Doing them in Python would be pretty straight forward. I will try to
 work on these things in Haskell, once I'm reasonably comfortable with

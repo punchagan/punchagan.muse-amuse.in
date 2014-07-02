@@ -9,10 +9,10 @@
 #+END_COMMENT
 
 
-Finally, I'm at HackerSchool.  The day began with introductions,
+Finally, I'm at Hacker School.  The day began with introductions,
 breakfast and welcomes to HackerSchool.
 
-The four rules of HackerSchool were reiterated to all of us:
+The four rules of Hacker School were reiterated to all of us:
 
 - No (Feigning) surprise
 - No Well-actuallys
@@ -30,10 +30,10 @@ we are nervous about, and excited about.  I was happy to find that a
 lot of the people were nervous about the similar kinds of things I was
 nervous about.  I'm not alone!
 
-After the check-ins, I started off with the Introduction to [[http://www.seas.upenn.edu/~cis194/][Haskell
-course]] by [[http://www.cis.upenn.edu/~byorgey/][Brent Yorgey]].  What I did was mostly a recap of what I
-learned from the first few chapters of [[http://learnyouahaskell.com][Learn you a Haskell]].  I learnt
-about how credit card numbers are validated, apart from learning a
-little bit about lazy evaluation and thunks.
+After the check-ins, I started off with the Introduction to [[http://www.seas.upenn.edu/~cis194/][Haskell course]] by
+[[http://www.cis.upenn.edu/~byorgey/][Brent Yorgey]].  What I did was mostly a recap of what I learned from the first
+few chapters of [[http://learnyouahaskell.com][Learn you a Haskell]].  I learnt about how credit card numbers
+are validated, apart from learning a little bit about lazy evaluation and
+thunks.
 
 The day ended with burritos and game night Mafia!
