@@ -27,3 +27,12 @@
   ~GRUB_GFXMODE=1920x1080~ in ~/etc/default/grub~.
 - Later in the evening I also bought the domain ~octo.cat~, given there were a
   bunch of people buying cat domains, and talking about it on Zulip!
+
+Update [7/7/14]: I forgot to write about the presentations.  There were
+interesting presentations!
+- [[https://github.com/ambimorph/protagonist][Protagonist]]
+- [[https://github.com/pirate/mesh-networking][mesh networking]]
+- [[http://writing.brianruslim.com/2014/06/30/the-execution-context/][The Execution Context]]
+- [[https://github.com/stijlist/toolmaker/][toolmaker]]
+- [[http://blog.ontoillogical.com/blog/2014/07/03/doorbot-overflow/][Building a better doorbot]]
+- [[https://github.com/buybackoff/Fredis][Fredis]]
