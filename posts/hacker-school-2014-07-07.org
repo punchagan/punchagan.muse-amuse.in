@@ -2,7 +2,7 @@
 .. title: Hacker School, 2014-07-07
 .. slug: hacker-school-2014-07-07
 .. date: 2014-07-08 10:07:20 UTC-04:00
-.. tags: hackerschool, draft
+.. tags: hackerschool, python, thought, writing, programming
 .. link:
 .. description:
 .. type: text
