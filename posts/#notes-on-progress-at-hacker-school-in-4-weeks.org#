@@ -1,0 +1,63 @@
+#+BEGIN_COMMENT
+.. title: Notes on progress at Hacker School in 4 weeks
+.. slug: notes-on-progress-at-hacker-school-in-4-weeks
+.. date: 2014-07-09 02:04:21 UTC-04:00
+.. tags: hackerschool, draft, code, work, me, python, audio
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+* Stuff that I have worked on
+  - Learnt Haskell and worked through most of Yorgey's course (need to finish
+    the last exercise) in the first 2 weeks.
+  - Tried to build an Acoustic Keylogger (worked on it for about a week), but
+    haven't finished it yet. Worked on it, for about a week.
+    * Implemented a simple language frequency based cryptanalysis for simple
+      substitution ciphers
+    * Read up about FFTs and IFFTs, and implemented a simple DTMF decoder.
+    * Read up on Markov chains and HMMs, no code to show for it, though.
+    * Just started working with Kyle through [[http://mitpress.mit.edu/books/audio-programming-book][Audio processing]] book
+  - Tried to get more familiar with Python's internals
+    * Watched "The Mighty Dictionary" and experimented with Rhodes' _dictinfo
+      module.
+    * Not much progress with trying to read sources of Python modules.
+  - Got distracted by Tom's idea of source code inspection for C code in Python.
+    * Got a naive regex based version working for most of the use cases in
+      CPython sources.
+    * Working on replacing the parsing of C code to use libclang, to make the
+      code generic and usable with any library, and hopefully more robust than
+      ugly regexes.
+    * Getting to learn a little about how C-extensions are written.  But, it's
+      not anywhere close to writing one myself.
+
+* Plan for the next few weeks
+  - Continue to work on ~cinspect~. I'll be happy when it is reasonably happy
+    with it if I can get it index most of the source files in CPython in a
+    reasonable amount of time, and be able to use it to index atleast one other
+    library, say ~numpy~.  This will likely keep me occupied until the end of
+    next week.
+  - Continue to work through the Audio processing book.
+    * The examples are in C, so it also serves as a refresher for C, for me.
+    * Get a better understanding of Audio singal processing
+    * (May or may not get back to finish the acoustic keylogger stuff)
+
+* Random thoughts
+  - I think I'm more excited building tools that I and other people will use,
+    rather than working on "educational" projects, even if they are cool.
+  - I love check-ins. They are good social pressure, on one hand, and a good
+    way to reflect upon previous days work, as well.  I have found that writing
+    a blog post reviewing the previous days work, before the checkins helped me.
+  - The guest talks have been amazing!  NYC, in general, has been great with
+    respect to the kind of people you get to interact with!
+  - I have had pretty limited pairing and other interaction with other batch
+    mates (and facilitators). I wonder if I'm being too introverted.
+  - I'm happy to have become a part of the Hacker School family, and would like
+    to be an active member, even after my batch is finished.
+  - I'd like to try and not worry /too much/ about making the best of my time
+    here, and instead focus on forming some habits that will stay with me after
+    the batch too! We never graduate! Any help/ideas in this will be very
+    useful and greatly appreciated!
+  - I haven't been getting enough exercise!
+  - How do we measure our progress here? How do I know if I'm getting better as
+    programmer?
