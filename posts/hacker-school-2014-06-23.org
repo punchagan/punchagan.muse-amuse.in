@@ -1,4 +1,4 @@
-1;2802;0c#+BEGIN_COMMENT
+#+BEGIN_COMMENT
 .. title: Hacker School, 2014-06-23
 .. slug: hacker-school-2014-06-23
 .. date: 2014-06-23 04:38:29 UTC-04:00
