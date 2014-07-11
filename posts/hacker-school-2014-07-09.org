@@ -12,8 +12,7 @@
 - Unicode issues: it turned out that (atleast) one of the files had a character
   that wasn't UTF-8 encoded. I got around it by trying 'utf-8', if not falling
   back to 'iso-8859-1'.  Now that I think about it, I should fallback to
-  'utf-8' with replace, if that doesn't work either.  (Btw, the source file has
-  been changed in the master branch to 'uft-8')
+  'utf-8' with replace, if that doesn't work either.
 - I did a little clean up on the way the indexes were stored, to be able to
   have a ~getfile~, to mimic ~inspect~'s API.
 - I also "improved" the IPython startup script to monkey-patch the source code
