@@ -45,3 +45,5 @@ Guardfile
 # Misc
 .idea/
 
+# Autoenv
+.env
