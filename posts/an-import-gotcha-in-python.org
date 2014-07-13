@@ -5,11 +5,6 @@
 .. slug: an-import-gotcha-in-python
 #+END_COMMENT
 
-
-
-:CLOCK:
-:END:
-
 Pankaj and I were stuck with this weird bug recently.  We had
 a class ~A~ and a subclass ~B~ and an instance of B, b, was
 returning False for ~isinstance(b, A)~.
