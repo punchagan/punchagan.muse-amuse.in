@@ -30,6 +30,6 @@
 
 - Someone mentioned [[http://github.com/kennethreitz/autoenv]] on Zulip, and I
   really liked the idea.  I have started using it for a couple of projects and
-  also got rid of a couple of my bashrc aliases, and created a new ~project~
+  also got rid of a couple of my bashrc aliases, and created a new [[https://github.com/punchagan/home-bin/blob/master/project][project]]
   command with completions of the directories in my project directory.  I like
   this setup, as of now.
