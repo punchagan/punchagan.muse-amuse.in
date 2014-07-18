@@ -9,7 +9,7 @@
 #+END_COMMENT
 
 
-- Monday morning checkins for our group had only two people. That was strage!
+- Monday morning checkins for our group had only two people. That was strange!
   Very strange!
 
 * Work on cinspect
