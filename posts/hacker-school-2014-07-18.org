@@ -1,0 +1,15 @@
+#+BEGIN_COMMENT
+.. title: Hacker School, 2014-07-18
+.. slug: hacker-school-2014-07-18
+.. date: 2014-07-19 17:30:22 UTC-04:00
+.. tags: hackerschool
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+- We worked on a couple of simple Google code jam problems
+- And then implemented an LRU
+- All of this in Julia, and it was fun.
+- I headed home early-ish, to catch up on some sleep.
