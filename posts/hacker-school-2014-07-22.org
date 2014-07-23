@@ -59,3 +59,4 @@
   - Compare ~libshairplay~ and ~libshairport~ to see what I was doing wrong,
     yesterday.
   - May be write up the whole thing, and make the code available.
+  - Learn a little bit about Parsers from rntz.
