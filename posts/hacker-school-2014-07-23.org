@@ -1,0 +1,14 @@
+#+BEGIN_COMMENT
+.. title: Hacker School, 2014-07-23
+.. slug: hacker-school-2014-07-23
+.. date: 2014-07-23 10:51:51 UTC-04:00
+.. tags: hackerschool, draft
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+- Review of Mel's things.
+- Parser talk by rntz
+-
