@@ -2,7 +2,7 @@
 .. title: Hacker School, 2014-07-22
 .. slug: hacker-school-2014-07-22
 .. date: 2014-07-22 10:46:36 UTC-04:00
-.. tags: hackerschool, draft
+.. tags: hackerschool, learning, raspberry-pi, python
 .. link:
 .. description:
 .. type: text
