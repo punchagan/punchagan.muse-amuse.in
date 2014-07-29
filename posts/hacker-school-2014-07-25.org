@@ -2,11 +2,22 @@
 .. title: Hacker School, 2014-07-25
 .. slug: hacker-school-2014-07-25
 .. date: 2014-07-25 09:25:50 UTC-04:00
-.. tags: hackerschool, draft
-.. link: 
-.. description: 
+.. tags: hackerschool, vcs, python
+.. link:
+.. description:
 .. type: text
 #+END_COMMENT
 
 
-Write your post here.
+- We worked on writing our own (toy) version control system on Friday, as a
+  part of job prep.  I paired with Sophia, and we got upto the point where we
+  had diffs working, when we decided to refactor the code with some tests and
+  stuff.
+- The party was brilliant with a lot of activity.  All the project
+  installations looked so cool, and it was so much fun!
+- I spent some time during the weekend watching the "Anatomy of Matplotlib"
+  lectures.
+- I started some work with poking around Matplotlib's template backend, and
+  trying to start writing and ascii backend.
+- Also, I was trying to help UC setup [[https://github.com/andrewrk/groovebasin][GrooveBasin]] on his raspberry pi, and
+  helped him configure [[https://github.com/jasperproject/jasper-client][jasper]] on it.
