@@ -8,7 +8,6 @@
 .. type: text
 #+END_COMMENT
 
-
 - There seemed to be excitement in the space to have Jessica around.  We had
   coffee with her, and I chatted with her briefly. She encouraged me to try and
   send a patch to CPython, that involved debugging and fixing some C issues.
