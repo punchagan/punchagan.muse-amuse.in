@@ -1,0 +1,16 @@
+#+BEGIN_COMMENT
+.. title: Hacker School, 2014-08-04
+.. slug: hacker-school-2014-08-04
+.. date: 2014-08-04 16:19:59 UTC-04:00
+.. tags: hackerschool, draft
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+- Got LEDs to blink.
+
+- Cleaned up the G Translate client.
+
+- Continue working on the bencode parser.
