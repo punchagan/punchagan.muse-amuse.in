@@ -210,6 +210,7 @@ DEPLOY_COMMANDS = [
     'git checkout master',
     'git branch -D gh-pages',
     'git push origin master',
+    'git push github master',
 ]
 
 # List XML-RPC services (preferred) in PING_XMLRPC_SERVICES and HTTP
