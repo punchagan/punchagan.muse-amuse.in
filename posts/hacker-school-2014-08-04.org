@@ -2,15 +2,18 @@
 .. title: Hacker School, 2014-08-04
 .. slug: hacker-school-2014-08-04
 .. date: 2014-08-04 16:19:59 UTC-04:00
-.. tags: hackerschool, draft
-.. link:
+.. tags: hackerschool, raspberry-pi,
+.. Link:
 .. description:
 .. type: text
 #+END_COMMENT
 
 
-- Got LEDs to blink.
+- A bunch of worked on getting LEDs to blink, by writing some assembly code.
 
-- Cleaned up the G Translate client.
+- I goofed off post-lunch, and cleaned up the code for the Google Translate
+  based TTS client.
 
-- Continue working on the bencode parser.
+- I tried to continue working on the bencode parser, to add support for
+  dictionaries, but I couldn't get much work done before it was time for the
+  Monday talk.
