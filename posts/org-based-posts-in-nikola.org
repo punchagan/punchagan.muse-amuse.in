@@ -9,7 +9,6 @@
 .. is_page: False
 #+END_COMMENT
 
-
 [[http://binchen.org/][Chen Bin]] asked me to share my Nikola+Org work-flow, and share an
 example post.
 
