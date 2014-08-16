@@ -1,0 +1,50 @@
+#+BEGIN_COMMENT
+.. title: Bookmarks [2014-08-15]
+.. slug: bookmarks-2014-08-15
+.. date: 2014-08-15 22:07:28 UTC-04:00
+.. tags: bookmarks
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+- [[http://www.gigamonkeys.com/code-reading/][Code is not literature]]
+  
+  The ideal presentation should be aimed at an audience of gentleman
+  and lady programmers—smart, and generally capable but without,
+  necessarily, any specific knowledge of the domain from which the
+  code comes. Presentations should provide enough context for the
+  audience to to understand what the code is and should explain any
+  details of the implementation language that may be obscure to the
+  average programmer.
+
+- [[http://jenkins-ci.org/content/summary-report-git-repository-disruption-incident-nov-10th][Summary Report: Git Repository Disruption Incident of Nov 10th | Jenkins CI]]
+  
+  As reported in various places, there was an incident in early
+  November where commits in our Git repositories have become misplaced
+  temporarily by accident. By the mid next week we were able to
+  resurrect all the commits and things are back to normal now.
+
+  As there are many confusions and misunderstandings in people’s
+  commentary, we wrote this post to clarify what exactly happened and
+  what we are doing to prevent this.
+
+- [[http://old.lwn.net/2000/0824/a/esr-sharing.php3][a/esr-sharing]]
+  
+  I used to worry about what would happen if Linus got hit by a truck.
+  With all respect, I still worry about what will happen if the
+  complexity of the kernel exceeds the scope of your astonishing
+  native talent before you grow up.
+
+- [[https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable/overview][Overview | Adafruit's Raspberry Pi Lesson 5. Using a Console Cable | Adafruit Learning System]]
+  
+  In this lesson you will learn how to remote control your Raspberry Pi with a
+  console cable.
+
+- [[http://www.vice.com/read/a-german-guy-wants-to-give-you-a-bunch-of-money-for-nothing][A German Guy Wants to Give You a Bunch of Money for Nothing | VICE United States]]
+  
+  After he stopped working earlier this year to live off the $1,300 he makes
+  from his startup each month, Bohmeyer says his life has radically changed. So
+  he started “My Basic Income”, a new initiative looking to raise enough money
+  to pay someone $1,300 a month for a year, no strings attached.
