@@ -190,6 +190,10 @@ TAG_PAGES_ARE_INDEXES = True
 # If you don't need any of these, just set to []
 # REDIRECTIONS = []
 
+GITHUB_SOURCE_BRANCH = 'master'
+GITHUB_DEPLOY_BRANCH = 'gh-pages'
+GITHUB_REMOTE_NAME = 'origin'
+
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
 # "rsync -rav output/* joe@my.site:/srv/www/site"
@@ -200,18 +204,11 @@ DEPLOY_COMMANDS = [
     'git checkout master',
     'nikola build',
     './commit-changes || true',
-    'git checkout --orphan gh-pages',
-    'git rm -rf .',
     'git checkout master -- .gitignore',
     'git checkout master -- commit-changes',
-    'mv output/* .',
-    './commit-changes',
-    'git push -f origin gh-pages:gh-pages',
-    'git checkout master',
-    'git branch -D gh-pages',
-    'git push origin master',
-    'git push github master',
+    'nikola github_deploy',
 ]
+
 
 # List XML-RPC services (preferred) in PING_XMLRPC_SERVICES and HTTP
 # GET services (web pages) in PING_GET_SERVICES.
