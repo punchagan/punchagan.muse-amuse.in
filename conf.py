@@ -205,6 +205,8 @@ DEPLOY_COMMANDS = [
     'nikola build',
     './commit-changes || true',
     'nikola github_deploy',
+    'git push origin master',
+    'git push github master',
 ]
 
 
