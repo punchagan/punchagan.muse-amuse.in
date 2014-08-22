@@ -204,8 +204,6 @@ DEPLOY_COMMANDS = [
     'git checkout master',
     'nikola build',
     './commit-changes || true',
-    'git checkout master -- .gitignore',
-    'git checkout master -- commit-changes',
     'nikola github_deploy',
 ]
 
