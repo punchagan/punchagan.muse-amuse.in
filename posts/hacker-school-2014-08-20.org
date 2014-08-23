@@ -1,0 +1,15 @@
+#+BEGIN_COMMENT
+.. title: Hacker School, 2014-08-20
+.. slug: hacker-school-2014-08-20
+.. date: 2014-08-22 22:43:04 UTC-04:00
+.. tags: hackerschool, python
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+- I finished going through the third of Dave Beazley's tutorials on Generators
+  and Co-routines.
+- Also refactored api-diff to use astroid, instead of the ast module.  Kinda
+  happy with what I have, for now. May be more, later...
