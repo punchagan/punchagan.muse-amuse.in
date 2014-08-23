@@ -8,6 +8,7 @@
 .. type: text
 #+END_COMMENT
 
+
 * Motivation
 
   I was trying to pair on writing a simple app that uses Hacker
