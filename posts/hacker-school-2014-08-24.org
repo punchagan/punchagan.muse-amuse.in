@@ -2,7 +2,7 @@
 .. title: Hacker School, 2014-08-24
 .. slug: hacker-school-2014-08-24
 .. date: 2014-08-25 10:23:53 UTC-04:00
-.. tags: hackerschool, javascript,
+.. tags: hackerschool, javascript
 .. link:
 .. description:
 .. type: text
@@ -21,6 +21,5 @@
     prototype code on Monday.
 
 * Sunday
-
-  - I spent the Sunday with cousins at Central Park Zoo, Upper East Side River
-  front.
+  - Spent the day with cousins at Central Park Zoo, Upper East Side River
+    front.
