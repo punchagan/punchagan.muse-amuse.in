@@ -1,0 +1,19 @@
+#+BEGIN_COMMENT
+.. title: Hacker School, 2014-08-26
+.. slug: hacker-school-2014-08-26
+.. date: 2014-08-27 10:23:27 UTC-04:00
+.. tags: hackerschool, draft
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+- I spent most of the day refactoring the code for the LED Bot, and am happy
+  with the way it looks right now.
+- My talk at Hack and Tell went OK.  I was distracted by [[https://github.com/damianavila/live_reveal][live_reveal]] not
+  displaying properly on the smaller resolution, and not being able to mirror
+  screens!
+- There were a bunch of interesting talks presented by the
+  others. [[http://comparea.org]], [[https://medium.com/@vijayp/of-taxis-and-rainbows-f6bc289679a1][Taxis and Rainbows]] were the most interesting
+  ones for me.

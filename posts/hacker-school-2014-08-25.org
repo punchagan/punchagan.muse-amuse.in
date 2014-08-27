@@ -1,0 +1,25 @@
+#+BEGIN_COMMENT
+.. title: Hacker School, 2014-08-25
+.. slug: hacker-school-2014-08-25
+.. date: 2014-08-26 10:21:07 UTC-04:00
+.. tags: hackerschool, draft
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+- I spent some time cleaning up my [[py): ][gitqus]] code.  I plan to try it out on a
+  "real site" today, and do a little polish of the UI.
+
+- I worked with Dana and Marcus fixing a bunch of issues with the [[https://github.com/marqsm/LED-bot][HS LED
+  Screen]]. I might work on it for a little bit today, doing a little more
+  clean-up of the architecture.
+
+- The Monday talk was Mary live coding a space invaders game.  It was a fun
+  talk, that was very well planned.
+
+- During the walk to the talk, Bert, Maia and I were talking about the idea of
+  a School where projects were the atom of the curriculum, instead of courses.
+
+- I'll spend some time preparing my talk for tonight's hack-and-tell.
