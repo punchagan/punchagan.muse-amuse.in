@@ -1,0 +1,46 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/02/04 23:59:59
+.. title: Bookmarks [2011/02/04]
+.. slug: bookmarks-2011-02-04
+#+END_COMMENT
+
+
+- [[http://sites.google.com/site/steveyegge2/effective-emacs][effective-emacs - steveyegge2]]
+
+  tags: emacs, tips, productivity
+  
+
+
+
+- [[http://svpow.wordpress.com/2011/02/03/tutorial-12-how-to-find-problems-to-work-on/][Tutorial 12: How to find problems to work on « Sauropod Vertebra Picture of the Week]]
+
+  tags: problem, work, tutorial, research
+  
+
+
+
+- [[- http://drvector.blogspot.com/2009/03/blundering-toward-productivity-part-1-e.html][Ask Doctor Vector: Blundering toward productivity]]
+
+  tags: productivity, collaboration, friends, ideas
+      - http://drvector.blogspot.com/2009/03/blundering-toward-productivity-part-2.html
+    - http://drvector.blogspot.com/2009/03/blundering-toward-productivity-part-3.html
+    - http://drvector.blogspot.com/2009/03/blundering-toward-productivity-part-4.html
+
+
+
+- [[http://svpow.wordpress.com/2010/11/12/tutorial-10-how-to-become-a-palaeontologist/#comment-8924][Tutorial 10: how to become a palaeontologist « Sauropod Vertebra Picture of the Week]]
+
+  tags: howto, tutorial, research
+  
+
+
+
+- [[http://olihb.com/2011/01/23/map-of-scientific-collaboration-between-researchers/][Map of scientific collaboration between researchers | Stuff I made]]
+
+  tags: science, visualization, data, research
+  
+
+

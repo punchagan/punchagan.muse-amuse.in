@@ -1,0 +1,39 @@
+#+BEGIN_COMMENT
+.. title: Bookmarks [2014-02-21]
+.. slug: bookmarks-2014-02-21
+.. date: 2014/02/21 21:22:35
+.. tags: bookmarks
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+- [[https://github.com/ramonasuciu/ghostdriver_tests][ramonasuciu/ghostdriver_tests]]
+  
+  Basic tests with PhantomJS & GhostDriver
+
+- [[http://wikichen.is/writing/live-slowly/][Live Slowly | wikichen]]
+  
+  In an afternoon, she taught me how to live slowly, to live better.
+
+- [[http://blogs.ch.cam.ac.uk/pmr/2014/02/18/machines-are-better-referees-than-humans-but-well-be-sued-if-we-use-them/][Machines are better referees than humans but we’ll be sued if we use them « petermr's blog]]
+  
+  And the scientific literature will continue to be stuffed full of
+  errors. And people will continue to die because of them.
+
+  Does anyone care? I don’t think so as no-one (ZERO) from a
+  University has commented on my analysis of Elsevier’s restrictive
+  TDM licence. They’ll just go ahead and sign it. Because it’s the
+  easiest thing to do.
+
+- [[http://www.boredpanda.com/must-see-historic-moments/][40 Must-See Photos From The Past | Bored Panda]]
+  
+  Perhaps the wars, poverty, fights for freedom and little miracles of
+  the past have lessons for us that we can use today?
+
+- [[https://www.hackerschool.com/blog/][Blog - Hacker School]]
+  
+  Hopefully I've convinced you that gdb a neat exploratory environment
+  for learning C. You can print the evaluation of expressions, examine
+  raw bytes in memory, and tinker with the type system using ptype.

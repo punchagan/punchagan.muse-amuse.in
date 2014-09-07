@@ -1,0 +1,48 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2012/08/28 23:59:59
+.. title: Bookmarks [2012/08/28]
+.. slug: bookmarks-2012-08-28
+#+END_COMMENT
+
+
+- [[http://www.llvmpy.org/][QuickStart — llvmpy]]
+
+  tags: llvmpy, python, numpy, software
+  
+
+
+
+- [[http://www.aaronsw.com/weblog/dweck][Believe you can change (Aaron Swartz's Raw Thought)]]
+
+  tags: lessons, life, advice
+  
+
+
+
+- [[http://blog.stackoverflow.com/2012/08/stack-exchange-machine-learning-contest/][Stack Exchange Machine Learning Contest « Blog – Stack Exchange]]
+
+  tags: machine_learning, programming
+  
+    The idea is simple: we’ve prepared a dataset with all the questions on Stack Overflow, including everything we knew about them right before they were posted, and whether they finally ended up closed or not.  You grab the data, build your brilliant classifier, run it against some leaderboard data and submit your results.  Rinse and repeat until the contest ends, when we’ll grab the most promising classifiers and run them against fresh data to choose winners.
+
+
+
+- [[http://jacquesmattheij.com/first-employee-or-cofounder/][First employee or co-founder? - Jacques Mattheij]]
+
+  tags: job, startup, advice
+  
+    think twice before you join a company as a first (or very early) employee, and if you do decide to join negotiate for as large a chunk of stock as you think your position/commitment/drop in pay justifies and be prepared to walk if that is not possible.
+
+
+
+- [[- State "DONE"       from ""           [2012-11-17 Sat 21:48]][GNU Emacs Lisp Reference Manual]]
+
+  tags: elisp, programming, emacs
+      http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Lists
+
+    This is the GNU Emacs Lisp Reference Manual, corresponding to Emacs version 24.1.
+
+

@@ -1,0 +1,48 @@
+#+BEGIN_COMMENT
+.. title: Bookmarks [2014-04-29]
+.. slug: bookmarks-2014-04-29
+.. date: 04/29/2014 04:00:09 AM UTC+05:30
+.. tags: bookmarks
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+- [[http://ejohn.org/blog/write-code-every-day/][John Resig - Write Code Every Day]]
+
+  Inspired by the incredible work that Jennifer Dewalt completed last
+  year, in which she taught herself programming by building 180 web
+  sites in 180 days, I felt compelled to try a similar tactic: working
+  on my side projects every single day.
+
+- [[http://jvns.ca/blog/2014/04/20/debug-your-programs-like-theyre-closed-source/][Debug your programs like they're closed source! - Julia Evans]]
+
+  My favorite way to learn more, honestly, is to just strace random
+  programs and see what I find out. It’s a great way to spend a rainy
+  Sunday afternoon! =)
+
+- [[http://lorenabarba.com/blog/announcing-aeropython/][Announcing AeroPython! - Lorena A. Barba Group]]
+
+  We now announce the public release of the 11 lessons that make
+     AeroPython! Find them on the public GitHub repository.
+
+- [[http://www.drdobbs.com/architecture-and-design/how-i-came-to-write-d/240165322][How I Came to Write D | Dr Dobb's]]
+
+  Nobody could possibly work on compilers for 15+ years and not come
+  up with ideas for language improvements. I tried out many language
+  improvements in the C and C++ compilers, and they all fell flat.
+
+- [[http://blog.harrywolff.com/dont-deal-with-it-fix-it/][Don't Deal With It, Fix It]]
+
+  I've learned that I have the power to fix things around me that I
+  don't like. I don't need to just deal with it because that's just
+  the way things are. I have the power to shape the world around
+  me. It's just a matter of believing that I can change things. Just
+  believing is all I need to actually take the first step towards
+  taking action.
+
+- [[http://blog.tjll.net/ssh-kung-fu/][Tyblog | SSH Kung Fu]]
+
+  What follows is a list for some of my use cases that leverage the
+  power of ssh.

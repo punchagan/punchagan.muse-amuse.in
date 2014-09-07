@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2010/11/24 23:59:59
+.. title: Bookmarks [2010/11/24]
+.. slug: bookmarks-2010-11-24
+#+END_COMMENT
+
+
+- [[http://sivers.org/obvious][Obvious to you. Amazing to others. | Derek Sivers]]
+
+  tags: thought, ideas, writing
+  
+
+
+
+- [[http://www.npr.org/2010/11/12/131268511/diy-hackers-tinker-everyday-things-into-treasure][DIY 'Hackers' Tinker Everyday Things Into Treasure : NPR]]
+
+  tags: hack, idea, writing
+  
+
+
+
+- [[http://www.ic.unicamp.br/~meidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html][L-99: Ninety-Nine Lisp Problems]]
+
+  tags: lisp, programming, problem, list
+  
+
+
+
+- [[http://vivekhaldar.tumblr.com/post/1243047026/coding-blind][Vivek Haldar : Coding blind]]
+
+  tags: hacking, technique, programming, writing
+  
+
+
+
+- [[http://www.cdecl.org/][cdecl: C gibberish ↔ English]]
+
+  tags: lafoot, programming, idea, hack
+  
+
+

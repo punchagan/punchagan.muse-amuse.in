@@ -1,0 +1,49 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/05/16 23:59:59
+.. title: Bookmarks [2011/05/16]
+.. slug: bookmarks-2011-05-16
+#+END_COMMENT
+
+
+- [[http://www.theatlantic.com/entertainment/archive/2011/05/nearly-100-fantastic-pieces-of-journalism/238230/][Nearly 100 Fantastic Pieces of Journalism - Conor Friedersdorf - Entertainment - The Atlantic]]
+
+  tags: collection, writing
+  
+
+
+
+- [[http://blog.bumsonthesaddle.com/2011/5/8/know-your-tires-n-tubes][blog@BumsOnTheSaddle.com - Know your tube and tire inside out]]
+
+  tags: advice, cycling, tips, help
+  
+
+
+
+- [[https://github.com/apresta/tagger][apresta/tagger - GitHub]]
+
+  tags: python
+  
+    Module for extracting tags from text documents.
+
+
+
+- [[http://www.dca.med.ualberta.ca/Home/Updates/2007-03-15_Update.cfm][News & Updates - DCA Research Information]]
+
+  tags: science, research
+  
+  DCA is an odourless, colourless, inexpensive, relatively non-toxic,
+  small molecule. And researchers at the University of Alberta believe
+  it may soon be used as an effective treatment for many forms of
+  cancer.
+
+
+
+- [[http://farside.ph.utexas.edu/teaching.html][Courses Taught By Richard Fitzpatrick At UT Austin]]
+
+  tags: courses, notes, physics
+  
+
+

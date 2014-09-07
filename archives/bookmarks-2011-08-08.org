@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/08/08 23:59:59
+.. title: Bookmarks [2011/08/08]
+.. slug: bookmarks-2011-08-08
+#+END_COMMENT
+
+
+- [[http://translate.googleusercontent.com/translate_c?hl=en&ie=UTF8&prev=_t&rurl=translate.google.com&sl=fr&tl=en&twu=1&u=http:/blog.easter-eggs.org/index.php/post/2009/09/25/I-ve-lost-my-files&usg=ALkJrhiKFd1qoox7w3EncssmdQNlY_qEhw][I've lost my files! - The blog of employees]]
+
+  tags: technology, data, software
+  
+
+
+
+- [[http://gamesbyemail.com/WoodTape/Default.htm][Wood Tape]]
+
+  tags: project, fun, life, kids, awesome
+  
+
+
+
+- [[http://wesleytansey.com/startup-ideas-july-2011/][Startup Ideas – July 2011 – Wesley Tansey]]
+
+  tags: app, startup, ideas, collection, hack
+  
+
+
+
+- [[http://www.solipsys.co.uk/new/EveryLanguageFixesSomething.html?HN0][Every Language Fixes Something]]
+
+  tags: fun, programming, langugage
+  
+
+
+
+- [[http://computationaltales.blogspot.com/p/posts-by-topic.html][Computational Fairy Tales: Posts by Topic]]
+
+  tags: computer_science, learn
+  
+
+

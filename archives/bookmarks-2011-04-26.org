@@ -1,0 +1,44 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/04/26 23:59:59
+.. title: Bookmarks [2011/04/26]
+.. slug: bookmarks-2011-04-26
+#+END_COMMENT
+
+
+- [[http://justanotherindian.wordpress.com/2011/04/23/a-prayer-to-lord-sachin/][A prayer to Lord Sachin « Just Another Indian]]
+
+  tags: society, cricket
+  
+
+
+
+- [[http://thoughtcatalog.com/2011/man-unveils-interactive-toothpick-sculpture-of-san-francisco-that-took-35-years-to-create/][Man Unveils Interactive Toothpick Sculpture of San Francisco That Took 35 Years to Create « Thought Catalog]]
+
+  tags: awesome, creativity, hack
+  
+
+
+
+- [[http://www.fastcodesign.com/1663683/far-better-than-3-d-animated-gifs-that-savor-a-passing-moment][Far Better Than 3-D: Animated GIFs That Savor A Passing Moment | Co.Design]]
+
+  tags: photo, art, hack
+  
+
+
+
+- [[http://www.garlikov.com/Soc_Meth.html][The Socratic Method]]
+
+  tags: teaching, kids, ideas
+  
+
+
+
+- [[http://haskell.org/haskellwiki/How_to_write_a_Haskell_program][How to write a Haskell program - HaskellWiki]]
+
+  tags: programming, haskell, howto, tutorial
+  
+
+

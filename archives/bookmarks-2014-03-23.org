@@ -1,0 +1,49 @@
+#+BEGIN_COMMENT
+.. title: Bookmarks [2014-03-23]
+.. slug: bookmarks-2014-03-23
+.. date: 2014/03/23 13:18:38
+.. tags: bookmarks
+.. link:
+.. description:
+.. type: text
+.. is_page: False
+#+END_COMMENT
+
+
+- [[http://mathamy.com/import-accio-bootstrapping-python-grammar.html][Replacing `import` with `accio`: A Dive into Bootstrapping and Python's Grammar]]
+  
+  At Hacker School, I've been building an alternate universe Python by
+  overwriting builtin functions and statements with Harry Potter
+  spells.
+
+- [[http://nautil.us/issue/11/light/falling-in-love-with-the-dark][Falling in Love With the Dark - Issue 11: Light - Nautilus]]
+  
+  “The first time people come out for dark skies, and we get Bortle
+  Class 1 and 2 here, it affects them deeply,” Carroll said. “They’re
+  blown away. The connection with the stars is inside all of us, but
+  it has been sequestered away.”
+
+- [[http://www.jayway.com/2013/03/03/git-is-a-purely-functional-data-structure/][Git is a purely functional data structure – Jayway]]
+  
+  Git can be accurately understood as a fairly simple functional data
+  structure. Instead of explaining Git in terms version control, we
+  can see the ability to do version control as an emergent property of
+  using that data structure. I think talking about Git in this manner
+  will more accurately convey the simplicity and power of Git better
+  than any comparisons with centralized version control systems can
+  accomplish.
+
+- [[http://tech.blog.aknin.name/2010/04/02/pythons-innards-introduction/][Python’s Innards: Introduction | NIL: .to write(1) ~ help:about]]
+  
+  This post marks the beginning of what should develop to a series on
+  Python’s internals, I’m writing it since I believe that explaining
+  something is the best way to grok it, and I’d very much like to be
+  able to visualize more of Python’s ‘funky green gibberish soup’ as I
+  read Python code.
+
+- [[http://jvns.ca/blog/2014/03/21/my-rust-os-will-never-be-finished/][My Rust OS will never be finished (and it's a success!) - Julia Evans]]
+  
+  Not finishing your project doesn’t mean it’s not a success. It
+  depends what your goals are the for the project! I wrote an
+  operating system in Rust to learn, and I learned a ton. It’s not
+  finished, and it won’t be.

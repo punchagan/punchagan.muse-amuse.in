@@ -1,0 +1,49 @@
+#+BEGIN_COMMENT
+.. link:
+.. description:
+.. tags: bookmarks
+.. date: 2011/03/10 23:59:59
+.. title: Bookmarks [2011/03/10]
+.. slug: bookmarks-2011-03-10
+#+END_COMMENT
+
+
+- [[http://jacquesmattheij.com/The+need+to+code][The need to code | jacquesmattheij.com]]
+
+  tags: life, programming
+  
+
+
+
+- [[http://wiki.audacityteam.org/index.php?title=Vocal_Removal][Vocal Removal - Audacity Wiki]]
+
+  tags: howto, software
+  
+
+
+
+- [[http://thinkvitamin.com/fully-carsonified/work-less/][Work Less | Think Vitamin]]
+
+  tags: life, work, advice, time
+  
+
+
+
+- [[https://github.com/mojombo/sf-vegetarian-restaurants][mojombo/sf-vegetarian-restaurants - GitHub]]
+
+  tags: github, hack
+  
+    Vegetarian-Friendly Restaurants in San Francisco
+
+
+
+- [[http://jacquesmattheij.com/A+tale+of+two+programmers][A tale of two programmers | jacquesmattheij.com]]
+
+  tags: life, programming, story
+  
+    But it makes me wonder if there isn't a use for a 'programmer
+    dating service', where the Steve's and the Chris'es of this world
+    can meet up and achieve miracles that they alone would not be able
+    to realize.
+
+
