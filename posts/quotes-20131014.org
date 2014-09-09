@@ -5,6 +5,7 @@
 .. date: 2013/10/14 11:43:49
 .. title: Quotes [2013/10/14]
 .. slug: quotes-20131014
+.. category: quotes
 #+END_COMMENT
 
 

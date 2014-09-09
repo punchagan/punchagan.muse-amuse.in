@@ -6,6 +6,7 @@
 .. link:
 .. description:
 .. type: text
+.. category: hackerschool-checkins
 #+END_COMMENT
 
 - This Friday we worked on building our own URL shorteners.  It was a fun

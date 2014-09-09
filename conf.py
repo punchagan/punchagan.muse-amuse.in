@@ -339,13 +339,6 @@ LICENSE = """
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
 Creative Commons Attribution 3.0 Unported License</a>
 """
-# I recommend using the Creative Commons' wizard:
-# http://creativecommons.org/choose/
-# LICENSE = """
-# <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ar/">
-# <img alt="Creative Commons License BY-NC-SA"
-# style="border-width:0; margin-bottom:12px;"
-# src="http://i.creativecommons.org/l/by-nc-sa/2.5/ar/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
@@ -588,6 +581,10 @@ $(document).ready(function() {
 
 # TIMEZONE = 'Asia/Kolkata'
 TIMEZONE = 'America/New_York'
+
+# Categories that you don't want to show up anywhere other than in their own
+# index pages/rss feeds.
+SUB_BLOG_CATEGORIES = set(['hackerschool-checkins', 'bookmarks', 'quotes'])
 
 # If webassets is installed, bundle JS and CSS to make site loading faster
 # USE_BUNDLES = True

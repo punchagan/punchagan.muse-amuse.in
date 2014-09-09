@@ -6,6 +6,7 @@
 .. link:
 .. description:
 .. type: text
+.. category: hackerschool-checkins
 #+END_COMMENT
 
 - Didn't do anything during the weekend.  Hopefully, this won't be the

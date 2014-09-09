@@ -6,6 +6,7 @@
 .. date: 2013/12/23 11:34:35
 .. type: text
 .. slug: bookmarks-2013-12-23
+.. category: bookmarks
 #+END_COMMENT
 
 

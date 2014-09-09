@@ -5,6 +5,7 @@
 .. date: 2013/10/13 11:54:29
 .. title: Quotes [2013/10/13]
 .. slug: quotes-20131013
+.. category: quotes
 #+END_COMMENT
 
 - Furious activity is no substitute for understanding. --

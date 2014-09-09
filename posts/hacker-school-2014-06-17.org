@@ -6,6 +6,7 @@
 .. link:
 .. description:
 .. type: text
+.. category: hackerschool-checkins
 #+END_COMMENT
 
 - I've been bookmarking the interesting links that people post on

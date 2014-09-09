@@ -5,6 +5,7 @@
 .. date: 2013/12/04 02:11:49
 .. title: Bookmarks [2013-12-04]
 .. slug: bookmarks-2013-12-04
+.. category: bookmarks
 #+END_COMMENT
 
 

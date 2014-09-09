@@ -5,6 +5,7 @@
 .. date: 2013/12/05 07:26:25
 .. title: Bookmarks [2013-12-05]
 .. slug: bookmarks-2013-12-05
+.. category: bookmarks
 #+END_COMMENT
 
 - [[http://raspberry-python.blogspot.in/2013/10/ieee-754854-when-it-is-needed.html][Raspberry Pi Python Adventures: IEEE 754/854, when it is needed]]

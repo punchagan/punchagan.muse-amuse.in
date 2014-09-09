@@ -6,6 +6,7 @@
 .. link:
 .. description:
 .. type: text
+.. category: hackerschool-checkins
 #+END_COMMENT
 
 - Came to know about the project that Tom is working on for being able

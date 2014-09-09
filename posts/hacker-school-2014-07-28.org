@@ -6,6 +6,7 @@
 .. link:
 .. description:
 .. type: text
+.. category: hackerschool-checkins
 #+END_COMMENT
 
 - There seemed to be excitement in the space to have Jessica around.  We had

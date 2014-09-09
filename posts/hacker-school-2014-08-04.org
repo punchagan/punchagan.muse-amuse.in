@@ -6,6 +6,7 @@
 .. Link:
 .. description:
 .. type: text
+.. category: hackerschool-checkins
 #+END_COMMENT
 
 

@@ -6,6 +6,7 @@
 .. link:
 .. description:
 .. type: text
+.. category: bookmarks
 #+END_COMMENT
 
 

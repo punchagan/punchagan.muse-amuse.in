@@ -125,6 +125,7 @@ def new_post(tag, entries, site, dry_run=False):
     else:
         signal('new_post').connect(write_content)
 
+        site.config['ADDITIONAL_METADATA']['category'] = tag
         site.commands.new_post(**{
             'title': title,
             'tags': tag,

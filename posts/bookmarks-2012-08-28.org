@@ -5,6 +5,7 @@
 .. date: 2012/08/28 23:59:59
 .. title: Bookmarks [2012/08/28]
 .. slug: bookmarks-2012-08-28
+.. category: bookmarks
 #+END_COMMENT
 
 
