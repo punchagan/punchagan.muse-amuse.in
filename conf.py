@@ -64,11 +64,12 @@ NAVIGATION_LINKS = {
         ('/index.html', 'Home'),
         ('/archive.html', 'Archives'),
         ('/tags/index.html', 'Tags'),
-        ('/tags/bookmarks.html', 'Bookmarks'),
-        ('/tags/quotes.html', 'Quotes'),
+        ('/tags/cat_bookmarks.html', 'Bookmarks'),
+        ('/tags/cat_quotes.html', 'Quotes'),
         ('/rss.xml', 'RSS'),
         ('https://github.com/punchagan', 'GitHub'),
         ('https://twitter.com/punchagan', 'Twitter',),
+        ('/tags/cat_hackerschool-checkins.html', 'HackerSchool'),
     ),
 }
 
