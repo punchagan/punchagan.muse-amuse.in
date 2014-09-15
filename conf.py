@@ -64,12 +64,12 @@ NAVIGATION_LINKS = {
         ('/index.html', 'Home'),
         ('/archive.html', 'Archives'),
         ('/tags/index.html', 'Tags'),
+        ('/tags/cat_hackerschool-checkins.html', 'HackerSchool'),
         ('/tags/cat_bookmarks.html', 'Bookmarks'),
         ('/tags/cat_quotes.html', 'Quotes'),
         ('/rss.xml', 'RSS'),
-        ('https://github.com/punchagan', 'GitHub'),
-        ('https://twitter.com/punchagan', 'Twitter',),
-        ('/tags/cat_hackerschool-checkins.html', 'HackerSchool'),
+        ('https://github.com/punchagan', '<i class="fa fa-github fa-lg"></i>'),
+        ('https://twitter.com/punchagan', '<i class="fa fa-twitter on fa-lg"></i>',),
     ),
 }
 
@@ -293,7 +293,7 @@ PING_GET_SERVICES = [
 # translated
 
 # Name of the theme to use.
-THEME = "lagom4ni"
+THEME = "lanyon"
 
 # Color scheme to be used for code blocks. If your theme provides
 # "assets/css/code.css" this is ignored.
@@ -312,7 +312,7 @@ THEME = "lagom4ni"
 
 # date format used to display post dates.
 # (str used by datetime.datetime.strftime)
-# DATE_FORMAT = '%Y-%m-%d %H:%M'
+DATE_FORMAT = '%d %b %Y'
 
 # FAVICONS contains (name, file, size) tuples.
 # Used for create favicon link like this:
@@ -474,7 +474,7 @@ SOCIAL_BUTTONS_CODE = ''
 
 # Modify the number of Post per Index Page
 # Defaults to 10
-INDEX_DISPLAY_POST_COUNT = 1000000
+INDEX_DISPLAY_POST_COUNT = 10
 
 # RSS_LINK is a HTML fragment to link the RSS or Atom feeds. If set to None,
 # the base.tmpl will use the feed Nikola generates. However, you may want to
@@ -496,7 +496,7 @@ SEARCH_FORM = """
 # is served from the NetDNA CDN
 # Set this to False if you want to host your site without requiring access to
 # external resources.
-# USE_CDN = False
+USE_CDN = True
 
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </HEAD>
@@ -518,6 +518,7 @@ BODY_END = """<script type="text/javascript">
   })();
 
 </script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.0.0/fuse.min.js"></script>
 <script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
 <script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
 <script type="text/javascript">
@@ -588,7 +589,7 @@ TIMEZONE = 'America/New_York'
 SUB_BLOG_CATEGORIES = set(['hackerschool-checkins', 'bookmarks', 'quotes'])
 
 # If webassets is installed, bundle JS and CSS to make site loading faster
-# USE_BUNDLES = True
+USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
 # DISABLED_PLUGINS = ["render_galleries"]
