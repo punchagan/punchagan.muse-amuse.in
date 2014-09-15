@@ -15,7 +15,7 @@ SITE_URL = "http://punchagan.muse-amuse.in/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
 BLOG_EMAIL = "punchagan[@T]muse-amuse.in"
-BLOG_DESCRIPTION = "punchagan's home on the web."
+BLOG_DESCRIPTION = "For an idle mind is the devil's workshop."
 
 # Nikola is multilingual!
 #
