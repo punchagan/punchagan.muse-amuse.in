@@ -1,0 +1,24 @@
+#+BEGIN_COMMENT
+.. title: About
+.. slug: index
+.. date: 2014-09-15 15:05:13 UTC-04:00
+.. tags:
+.. link:
+.. description:
+.. type: text
+.. nocomments: true
+.. hideheader: true
+#+END_COMMENT
+
+#+MACRO: web http://punchagan.muse-amuse.in/$1
+
+Noetic Nought is punchagan's home on the web. He records his experiences and
+feelings through his journey of life [[http:/posts/index.html][here]]. He loves creating things by making
+computers flip bits, chasing flying Frisbees and long walks or bike rides. He's
+also interested in learning to learn better, and express his ideas better.
+
+punchagan collects his favorite quotes [[http:/tags/cat_quotes.html][here]], and look [[http:/tags/cat_bookmarks.html][here]] to find the kind of
+stuff he reads and likes.  He went to [[http://hackerschool.com][Hacker School]], in the Summer of 2014 and
+[[http:/tags/cat_hackerschool-checkins.html][loved]] it.
+
+He occasionally tweets [[https://twitter.com/punchagan][here]], and you can find his code [[https://github.com/punchagan][here]].

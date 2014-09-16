@@ -62,6 +62,7 @@ TRANSLATIONS = {
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ('/index.html', 'Home'),
+        ('/posts/index.html', 'Blog'),
         ('/archive.html', 'Archives'),
         ('/tags/index.html', 'Tags'),
         ('/tags/cat_hackerschool-checkins.html', 'HackerSchool'),
@@ -104,7 +105,7 @@ POSTS = (
     ("posts/*.org", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.org", "pages", "post.tmpl"),
+    ("pages/*.org", "", "post.tmpl"),
 )
 
 # One or more folders containing files to be copied as-is into the output.
@@ -160,7 +161,7 @@ TAG_PATH = "tags"
 TAG_PAGES_ARE_INDEXES = True
 
 # Final location is output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-# INDEX_PATH = ""
+INDEX_PATH = "posts"
 
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
