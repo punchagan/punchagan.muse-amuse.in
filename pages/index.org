@@ -21,4 +21,5 @@ punchagan collects his favorite quotes [[http:/tags/cat_quotes.html][here]], and
 stuff he reads and likes.  He went to [[http://hackerschool.com][Hacker School]], in the Summer of 2014 and
 [[http:/tags/cat_hackerschool-checkins.html][loved]] it.
 
-He occasionally tweets [[https://twitter.com/punchagan][here]], and you can find his code [[https://github.com/punchagan][here]].
+He occasionally tweets [[https://twitter.com/punchagan][here]], and you can find his code [[https://github.com/punchagan][here]]. You can email him
+at punchagan at this domain.
