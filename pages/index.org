@@ -10,8 +10,6 @@
 .. hideheader: true
 #+END_COMMENT
 
-#+MACRO: web http://punchagan.muse-amuse.in/$1
-
 Noetic Nought is punchagan's home on the web. He records his experiences and
 feelings through his journey of life [[http:/posts/index.html][here]]. He loves creating things by making
 computers flip bits, chasing flying Frisbees and long walks or bike rides. He's

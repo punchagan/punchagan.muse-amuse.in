@@ -1,0 +1,32 @@
+#+BEGIN_COMMENT
+.. title: Bookmarks [2014-10-10]
+.. slug: bookmarks-2014-10-10
+.. date: 2014-10-10 05:24:19 UTC-04:00
+.. tags: bookmarks
+.. link:
+.. description:
+.. type: text
+.. category: bookmarks
+#+END_COMMENT
+
+
+- [[http://graydon.livejournal.com/186550.html][frog hop - technicalities: "not rocket science" (the story of monotone and bors)]]
+  
+  The Not Rocket Science Rule Of Software Engineering: automatically maintain a
+  repository of code that always passes all the tests
+
+- [[https://pbs.twimg.com/media/BwIsAVMIUAEReH3.jpg][Intellectual conversations - Image (500×700)]]
+  
+
+- [[http://firstround.com/article/What-to-Do-at-the-Crossroads-of-Should-and-Must][When You're at the Crossroads of Should and Must]]
+    This is a story about two roads — Should and Must. It’s a pep talk for anyone
+  who’s chosen Should far too long — months, years, maybe a lifetime, and feels
+  like it’s about time they give Must a shot.
+
+- [[http://rampantgames.com/blog/?p=7745][Black Triangles]]
+    And when progress seems a little slow because you are doing a bunch of
+  hardcore architecture work, just remember it’s a black triangle.
+
+- [[http://alyssafrazee.com/unstructured-time.html][motivation and unstructured time: successes and failures - alyssa frazee]]
+  
+  some of the tactics I've tried to get myself into "working mode."
