@@ -31,9 +31,8 @@ import math
 import re
 from textwrap import dedent
 
-from nikola.nikola import Nikola
 from nikola.plugin_categories import Command
-from nikola.utils import bytes_str, LOGGER, _reload, unicode_str
+from nikola.utils import bytes_str, LOGGER, unicode_str
 
 
 def add_tags(site, tags, filenames, dry_run=False):
@@ -319,38 +318,35 @@ class CommandTags(Command):
     def _execute(self, options, args):
         """Manage the tags on the site."""
 
-        self.site.scan_posts()
-        nikola = self.site
-
         if len(options['add']) > 0 and len(args) > 0:
-            add_tags(nikola, options['add'], args, options['dry-run'])
+            add_tags(self.site, options['add'], args, options['dry-run'])
 
         elif options['list']:
-            list_tags(nikola, options['list_sorting'])
+            list_tags(self.site, options['list_sorting'])
 
         elif options['merge'].count(',') > 0 and len(args) > 0:
-            merge_tags(nikola, options['merge'], args, options['dry-run'])
+            merge_tags(self.site, options['merge'], args, options['dry-run'])
 
         elif len(options['remove']) > 0 and len(args) > 0:
-            remove_tags(nikola, options['remove'], args, options['dry-run'])
+            remove_tags(self.site, options['remove'], args, options['dry-run'])
 
         elif len(options['search']) > 0:
-            search_tags(nikola, options['search'])
+            search_tags(self.site, options['search'])
 
         elif options['tag'] and len(args) > 0:
-            tagger = _AutoTag(nikola)
+            tagger = _AutoTag(self.site)
             for post in args:
                 tags = ','.join(tagger.tag(post))
-                add_tags(nikola, tags, [post], options['dry-run'])
+                add_tags(self.site, tags, [post], options['dry-run'])
 
         elif options['sort'] and len(args) > 0:
-            sort_tags(nikola, args, options['dry-run'])
+            sort_tags(self.site, args, options['dry-run'])
 
         else:
             print(self.help())
 
 
-#### Private definitions ######################################################
+# ### Private definitions ######################################################
 
 class _AutoTag(object):
     """ A class to auto tag posts, using tf-idf. """
@@ -374,7 +370,7 @@ class _AutoTag(object):
 
         return self._find_top_scoring_tags(post, count)
 
-    #### 'object' interface ###################################################
+    # ### 'object' interface ###################################################
 
     def __init__(self, site, use_nltk=True):
         """ Set up a dictionary of documents.
@@ -407,7 +403,7 @@ class _AutoTag(object):
         self._process_posts()
         self._document_count = len(self._documents)
 
-    #### 'Private' interface ##################################################
+    # ### 'Private' interface ##################################################
 
     def _find_stems_for_words_in_documents(self, text):
         """ Process text to get list of stems. """
