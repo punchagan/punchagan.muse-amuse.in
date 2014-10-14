@@ -6,11 +6,6 @@
 #+END_COMMENT
 
 
-
-- State "DONE"       from ""           [2012-11-17 Sat 17:00]
-:CLOCK:
-:END:
-
 PyCon is back to Bangalore for the 4th edition.  I've been to all
 the previous three editions, and I'm looking forward to this one.
 
