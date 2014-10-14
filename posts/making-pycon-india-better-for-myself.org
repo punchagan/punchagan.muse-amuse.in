@@ -9,7 +9,7 @@
 #+END_COMMENT
 
 
-I've [[./posts/notes-from-pycon.html][ranted before]] about PyCon not meeting my expectations, and I even skipped
+I've [[./notes-from-pycon.html][ranted before]] about PyCon not meeting my expectations, and I even skipped
 going to the last PyCon.  Somehow, I hoped that it would be better this year,
 but no such thing happened.
 
