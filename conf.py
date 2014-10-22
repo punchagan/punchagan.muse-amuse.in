@@ -201,16 +201,19 @@ GITHUB_REMOTE_NAME = 'origin'
 # "rsync -rav output/* joe@my.site:/srv/www/site"
 # And then do a backup, or ping pingomatic.
 # To do manual deployment, set it to []
-DEPLOY_COMMANDS = [
-    'nikola orphans|xargs rm || true',
-    'git checkout master',
-    'nikola build',
-    './commit-changes || true',
-    'nikola github_deploy',
-    'git push origin master',
-    'git push github master',
-]
+DEPLOY_COMMANDS = {
 
+    'default': [
+        'nikola orphans|xargs rm || true',
+        'git checkout master',
+        'nikola build',
+        './commit-changes || true',
+        'nikola github_deploy',
+        'git push origin master',
+        'git push github master',
+    ]
+
+}
 
 # List XML-RPC services (preferred) in PING_XMLRPC_SERVICES and HTTP
 # GET services (web pages) in PING_GET_SERVICES.
