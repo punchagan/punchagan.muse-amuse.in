@@ -585,8 +585,7 @@ $(document).ready(function() {
 # you can use W3C-DTF Format (ex. 2012-03-30T23:00:00+02:00)
 #
 
-# TIMEZONE = 'Asia/Kolkata'
-TIMEZONE = 'America/New_York'
+TIMEZONE = 'Asia/Kolkata'
 
 # Categories that you don't want to show up anywhere other than in their own
 # index pages/rss feeds.
