@@ -1,0 +1,42 @@
+#+BEGIN_COMMENT
+.. title: Bookmarks [2014-11-01]
+.. slug: bookmarks-2014-11-01
+.. date: 2014-11-01 01:46:45 UTC+05:30
+.. tags: bookmarks
+.. link:
+.. description:
+.. type: text
+.. category: bookmarks
+#+END_COMMENT
+
+
+- [[http://thoughtcatalog.com/brianna-wiest/2013/04/50-ways-to-love-someone/][50 Ways To Love Someone | Thought Catalog]]
+  
+  Go for walks together as much as you’re able.
+
+- [[https://research.microsoft.com/en-US/people/kannan/book-no-solutions-aug-21-2014.pdf][Foundations of Data Science]]
+  
+  These notes are a first draft of a book being written by Hopcroft and Kannan
+  and in many places are incomplete. However, the notes are in good enough
+  shape to prepare lectures for a modern theoretical course in computer
+  science. Please do not put solutions to exercises online as it is important
+  for students to work out solutions for themselves rather than copy them from
+  the internet.
+
+- [[http://asyncio.org/][Asyncio]]
+  
+  Curated content from around the net to get started with asyncio
+
+- [[https://github.com/s16h/py-must-watch][s16h/py-must-watch · GitHub]]
+  
+  Must-watch videos about Python.
+
+- [[https://github.com/josephmisiti/awesome-machine-learning#python][josephmisiti/awesome-machine-learning · GitHub]]
+  
+  A curated list of awesome machine learning frameworks, libraries and software
+  (by language).
+
+- [[http://www.masteringemacs.org/about][About - Mastering Emacs]]
+  
+  The blog will cover all facets of Emacs and will be suitable for beginners
+  and – I hope – experts alike.

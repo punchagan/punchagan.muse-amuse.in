@@ -1,0 +1,43 @@
+#+BEGIN_COMMENT
+.. title: Quotes [2014-11-01]
+.. slug: quotes-2014-11-01
+.. date: 2014-11-01 01:46:45 UTC+05:30
+.. tags: quotes
+.. link:
+.. description:
+.. type: text
+.. category: quotes
+#+END_COMMENT
+
+
+- I wanted to change the world. But I have found that the only thing
+    one can be sure of changing is oneself. ~ Aldous Huxley
+
+- The true voyage of discovery consists not of going to new places,
+    but of having a new pair of eyes. — Marcel Proust (1871–1922)
+
+- All that is necessary for evil to triumph is for good men to do nothing. — Edmund Burke
+  
+
+- "I think that it's extraordinarily important that we in computer science keep
+    fun in computing. When it started out, it was an awful lot of fun. Of course,
+  the paying customers got shafted every now and then, and after a while we
+  began to take their complaints seriously. We began to feel as if we really
+  were responsible for the successful, error-free perfect use of these
+  machines. I don't think we are. I think we're responsible for stretching
+  them, setting them off in new directions, and keeping fun in the house. I
+  hope the field of computer science never loses its sense of fun. Above all, I
+  hope we don't become missionaries. Don't feel as if you're Bible
+  salesmen. The world has too many of those already. What you know about
+  computing other people will learn. Don't feel as if the key to successful
+  computing is only in your hands. What's in your hands, I think and hope, is
+  intelligence: the ability to see the machine as more than when you were first
+  led up to it, that you can make it more." -- /Alan J. Perlis (April 1,
+  1922-February 7, 1990)/
+
+- Forgetting is like radiation: you cannot smell it, you cannot taste it, and
+    when you finally notice the damage, it is already irreversible -- /Piotr
+  Wozniack/
+
+- "Computer Science is no more about computers than astronomy is about telescopes" -- /Edsger Dijkstra/
+  
