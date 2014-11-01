@@ -8,7 +8,7 @@
 .. type: text
 #+END_COMMENT
 
-*See Update [2014-11-01 Sat] below*.
+*See update [[Update <2014-11-01 Sat>][below]]*
 
 I have been trying to get back to using org-mode and its clocking
 functionality, more often than not.  I used to use it a lot, a few years ago,
@@ -42,7 +42,7 @@ lines of code that does this for me.
 
 #+END_SRC
 
-Update [2014-11-01 Sat]:
+* Update <2014-11-01 Sat>
 
 [[http://baali.muse-amuse.in][@baali]] tried to use my code, and it turns out it didn't work for him, because I
 forgot to mention that ~(ad-activate 'org-clock-in)~ needs to be run, after the
