@@ -8,6 +8,7 @@
 .. type: text
 #+END_COMMENT
 
+*See Update [2014-11-01 Sat] below*.
 
 I have been trying to get back to using org-mode and its clocking
 functionality, more often than not.  I used to use it a lot, a few years ago,
@@ -39,4 +40,42 @@ lines of code that does this for me.
    "SetStatus" 0)
   (shell-command "purple-remote setstatus?status=available"))
 
+#+END_SRC
+
+Update [2014-11-01 Sat]:
+
+[[http://baali.muse-amuse.in][@baali]] tried to use my code, and it turns out it didn't work for him, because I
+forgot to mention that ~(ad-activate 'org-clock-in)~ needs to be run, after the
+~defadvice~ code.  I have no idea how it worked for me, without doing that.
+May be because I have ~defadvice~ for other functions?
+
+Also, while debugging this, I found that ~defadvice~ is a deprecated way of
+doing this, and ~add-function~ is the way to go now.  But, instead of advising
+the function, I decided to make use of ~org-clock-in-hook~.
+
+Here is the new code.
+
+#+BEGIN_SRC emacs-lisp
+(defun pc/turn-off-notifications ()
+  "Turn gnome notifications off."
+  (dbus-send-signal
+   :session
+   "org.gnome.SessionManager"
+   "/org/gnome/SessionManager/Presence"
+   "org.gnome.SessionManager.Presence"
+   "SetStatus" 2)
+  (shell-command "purple-remote setstatus?status=unavailable"))
+
+(defun pc/turn-on-notifications ()
+  "Turn gnome notifications back on."
+  (dbus-send-signal
+   :session
+   "org.gnome.SessionManager"
+   "/org/gnome/SessionManager/Presence"
+   "org.gnome.SessionManager.Presence"
+   "SetStatus" 0)
+  (shell-command "purple-remote setstatus?status=available"))
+
+(add-hook 'org-clock-in-hook 'pc/turn-off-notifications)
+(add-hook 'org-clock-out-hook 'pc/turn-on-notifications)
 #+END_SRC
