@@ -35,3 +35,7 @@ looking forward to making better use of my Kindle, with this feature!
 I don't know if it would be useful to have more context information like
 section titles/chapter titles when capturing from html/pdf, but it seems like
 an interesting problem to try to solve.
+
+Also, it might be easier(?) if I probably tried to have a DE level keybinding, and
+some code to get selection and file name of the currently active
+window/application.
