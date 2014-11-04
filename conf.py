@@ -204,6 +204,7 @@ GITHUB_REMOTE_NAME = 'origin'
 DEPLOY_COMMANDS = {
 
     'default': [
+        'nikola deploy assert-fork',
         'nikola orphans|xargs rm || true',
         'git checkout master',
         'nikola build',
@@ -211,7 +212,13 @@ DEPLOY_COMMANDS = {
         'nikola github_deploy',
         'git push origin master',
         'git push github master',
-    ]
+    ],
+    'assert-fork': {
+        """python -c 'import nikola, os.path, subprocess; \
+        nikola_dir = os.path.dirname(nikola.__file__); \
+        branch = subprocess.check_output(["git", "branch"], cwd=nikola_dir); \
+        assert "* sub-blog-cat" in branch' """,
+    }
 
 }
 
