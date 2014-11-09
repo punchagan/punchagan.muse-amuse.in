@@ -10,7 +10,7 @@
 
 
 I have been trying to get ERC working with notifications. Julien Danjou's
-wonderful [[notifications[[ module for ERC is great, but it is annoying to get
+wonderful [[https://julien.danjou.info/blog/2012/erc-notifications][notifications]] module for ERC is great, but it is annoying to get
 notifications even when Emacs is in focus.
 
 I had looked at [[https://github.com/eqyiel/circe-notifications/blob/master/circe-notifications.el][circe-notifications]], which has the feature but uses xdotool and
