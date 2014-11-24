@@ -15,7 +15,7 @@ are a couple of projects to make it easy to use tmux(-like) to simplify this.
   users have access to.  But I wanted to use my machine, instead of the
   server.
 
-- [[tmate.io][tmate]] gets around the restriction of having a common server where both users
+- [[http://tmate.io][tmate]] gets around the restriction of having a common server where both users
   have access, but needs a custom install of tmux, and the use of a 3rd party
   service.
 
