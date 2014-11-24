@@ -1,0 +1,58 @@
+#+BEGIN_COMMENT
+.. title: Using tmux to "screen share"
+.. slug: using-tmux-to-screen-share
+.. date: 2014-11-24 18:38:21 UTC+05:30
+.. tags:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+I wanted to pair with a friend of mine, exploring Magit mode in Emacs.  There
+are a couple of projects to make it easy to use tmux(-like) to simplify this.
+
+- [[https://github.com/non/pairing][pairing]] lets you share a screen and pair, on a common server where both the
+  users have access to.  But I wanted to use my machine, instead of the
+  server.
+
+- [[tmate.io][tmate]] gets around the restriction of having a common server where both users
+  have access, but needs a custom install of tmux, and the use of a 3rd party
+  service.
+
+I worked around this, using an ssh reverse tunnels.  Here are the steps, for
+anyone who'd like to reproduce.
+
+1. Add your partner(-in-crime)'s ssh key to authorized keys on a server that
+   has a public IP (~example.com~, let's say).
+
+2. Add your server's key to authorized keys on your local machine.
+
+3. Create a reverse tunnel from your machine to the server.
+
+   #+BEGIN_SRC sh
+     ssh -fNR 19999:localhost:22 server_user@example.com
+   #+END_SRC
+
+   ~-R 19999~ essentially forwards port 19999 on ~example.com~ to
+   localhost's 22.  ~-fN~ is to say no terminal, send connection to background.
+
+4. Your partner first ssh's to example.com and then ssh's to your laptop.
+
+   On your partner's machine
+
+   #+BEGIN_SRC sh
+   ssh server_user@example.com
+   #+END_SRC
+
+   On the server, your partner does
+   #+BEGIN_SRC sh
+   ssh your_username@localhost -p 19999
+   #+END_SRC
+
+   Your partner is on your machine, and can run ~rm -rf~!  But, hopefully
+   they'll only run ~tmux attach~.  Obviously, do this only with people you
+   trust!
+
+5. Start a tmux session locally.
+
+6. Profit!
