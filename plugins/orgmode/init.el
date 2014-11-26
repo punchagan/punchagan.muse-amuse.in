@@ -68,7 +68,7 @@
     ("css" . "css")
     ("D" . "d")
     ("ditaa" . "image")
-    ("emacs-lisp" . "scheme")
+    ("emacs-lisp" . "elisp")
     ("F90" . "fortran")
     ("gnuplot" . "gnuplot")
     ("groovy" . "groovy")
