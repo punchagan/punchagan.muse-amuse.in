@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. title: Thanks Sacha
 .. date: 2010/07/30 06:59:00
-.. tags: code, elisp, note, org2blog, thanks
+.. tags: code, note, org2blog, thanks, emacs
 .. slug: thanks-sacha
 #+END_COMMENT
 

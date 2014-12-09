@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. title: Refile to date-tree
 .. date: 2010/07/30 05:33:00
-.. tags: code, elisp, emacs, orgmode
+.. tags: code, emacs, orgmode
 .. slug: refile-to-date-tree
 #+END_COMMENT
 

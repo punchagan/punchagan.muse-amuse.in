@@ -2,7 +2,7 @@
 .. title: Learning to use Org-drill
 .. slug: learning-to-use-org-drill
 .. date: 2014-10-14 00:07:04 UTC-04:00
-.. tags: orgmode, learning, software,
+.. tags: orgmode, learning, software, emacs
 .. link:
 .. description:
 .. type: text

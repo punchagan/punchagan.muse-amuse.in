@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. title: org/elisp - sorting list of org-links on description
 .. date: 2010/08/20 00:23:00
-.. tags: code, elisp, note, orgmode
+.. tags: code, note, orgmode, emacs
 .. slug: orgelisp-sorting-list-of-org-links-on-description
 #+END_COMMENT
 

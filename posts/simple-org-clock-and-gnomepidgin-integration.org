@@ -2,7 +2,7 @@
 .. title: Simple org-clock and gnome/pidgin integration
 .. slug: simple-org-clock-and-gnomepidgin-integration
 .. date: 2014-10-22 16:43:35 UTC-04:00
-.. tags: orgmode, code, elisp
+.. tags: code, emacs, orgmode
 .. link:
 .. description:
 .. type: text

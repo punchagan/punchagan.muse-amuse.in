@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. title: A couple of counting functions
 .. date: 2010/09/17 19:40:00
-.. tags: code, elisp, emacs
+.. tags: code, emacs
 .. slug: a-couple-of-counting-functions
 #+END_COMMENT
 
