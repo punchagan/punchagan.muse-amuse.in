@@ -213,7 +213,6 @@ DEPLOY_COMMANDS = {
         './commit-changes || true',
         'nikola github_deploy',
         'git push origin master',
-        'git push github master',
     ],
     'assert-fork': {
         """python -c 'import nikola, os.path, subprocess; \
