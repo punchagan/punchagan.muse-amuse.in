@@ -163,6 +163,8 @@ TAG_PAGES_ARE_INDEXES = True
 # Final location is output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 INDEX_PATH = "posts"
 
+WRITE_TAG_CLOUD = True
+
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
 # Final locations for the archives are:
