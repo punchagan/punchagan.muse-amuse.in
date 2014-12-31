@@ -294,6 +294,8 @@ PING_GET_SERVICES = [
 # INDEXES_TITLE = ""  # If this is empty, the default is BLOG_TITLE
 # INDEXES_PAGES = ""  # If this is empty, the default is 'old posts page %d'
 # translated
+INDEXES_STATIC = False
+
 
 # Name of the theme to use.
 THEME = "lanyon"
