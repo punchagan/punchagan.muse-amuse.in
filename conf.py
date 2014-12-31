@@ -204,9 +204,7 @@ GITHUB_REMOTE_NAME = 'origin'
 # And then do a backup, or ping pingomatic.
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = {
-
     'default': [
-        'nikola deploy assert-fork',
         'nikola orphans|xargs rm || true',
         'git checkout master',
         'nikola build',
@@ -214,13 +212,6 @@ DEPLOY_COMMANDS = {
         'nikola github_deploy',
         'git push origin master',
     ],
-    'assert-fork': {
-        """python -c 'import nikola, os.path, subprocess; \
-        nikola_dir = os.path.dirname(nikola.__file__); \
-        branch = subprocess.check_output(["git", "branch"], cwd=nikola_dir); \
-        assert "* sub-blog-cat" in branch' """,
-    }
-
 }
 
 # List XML-RPC services (preferred) in PING_XMLRPC_SERVICES and HTTP
@@ -595,9 +586,8 @@ $(document).ready(function() {
 
 TIMEZONE = 'Asia/Kolkata'
 
-# Categories that you don't want to show up anywhere other than in their own
-# index pages/rss feeds.
-SUB_BLOG_CATEGORIES = set(['hackerschool-checkins', 'bookmarks', 'quotes'])
+# Categories that don't show up in the main indexes and the RSS feeds.
+NO_INDEX_CATEGORIES = set(['hackerschool-checkins', 'bookmarks', 'quotes'])
 
 # If webassets is installed, bundle JS and CSS to make site loading faster
 USE_BUNDLES = True
