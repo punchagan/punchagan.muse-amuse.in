@@ -2,7 +2,7 @@
 .. title: org-drill for making it stick!
 .. slug: org-drill-for-making-it-stick
 .. date: 2015-01-17 01:06:54 UTC+05:30
-.. tags: emacs, learning, orgmode, hack, hackerschool, draft
+.. tags: emacs, learning, orgmode, hack, hackerschool
 .. category:
 .. link:
 .. description:
@@ -10,14 +10,14 @@
 #+END_COMMENT
 
 
-Those who read the last few posts here, would know that I have been
+Those who read the [[/posts/learning-to-use-org-drill.html][last]] [[/posts/learning-about-spaced-repetition-supermemo-org-drill-et-al.html][few]] [[/posts/more-input-sources-for-org-drill.html][posts]] here, would know that I have been
 experimenting with [[http://orgmode.org/worg/org-contrib/org-drill.html][org-drill]] (a spaced repetition extension to [[http://orgmode.org/][Org mode]]).  I
 have been using the system (almost) religiously for the past 2 months, and I do
 find that it has helped a great deal! (in some respects).  I have also spent a
 considerable amount of time trying to reduce the friction to put new stuff into
 the system, and am constantly on the look out for further improvements.
 
-Using this system, has definitely helped with retention, and I find that I can
+Using this system has definitely helped with retention, and I find that I can
 recall quite a few things I have read a few weeks ago, that I would normally
 have been unable to. Though, I can recall a lot of information, I have been
 having a feeling of "fragmentation": the feeling of just retaining individual
@@ -56,8 +56,7 @@ additional conceptual questions are going to tie things together and help fill
 in the gaps.  Lets see how this goes!
 
 For those interested, my hacks to ~org-drill~ below.  The code is really a
-hack, and welcome any suggestions on cleaning up the code.  ~org-drill~ doesn't
-really have any hooks that I could hook into.
+hack, and welcome any suggestions on cleaning up the code.
 
 #+BEGIN_SRC emacs-lisp
   (advice-add 'org-drill-presentation-prompt :around 'pc/org-drill-presentation-prompt)
