@@ -10,7 +10,7 @@
 #+END_COMMENT
 
 
-Those who read the [[/posts/learning-to-use-org-drill.html][last]] [[/posts/learning-about-spaced-repetition-supermemo-org-drill-et-al.html][few]] [[/posts/more-input-sources-for-org-drill.html][posts]] here, would know that I have been
+Those who read the [[http://punchagan.muse-amuse.in/posts/learning-to-use-org-drill.html][last]] [[http://punchagan.muse-amuse.in/posts/learning-about-spaced-repetition-supermemo-org-drill-et-al.html][few]] [[http://punchagan.muse-amuse.in/posts/more-input-sources-for-org-drill.html][posts]] here, would know that I have been
 experimenting with [[http://orgmode.org/worg/org-contrib/org-drill.html][org-drill]] (a spaced repetition extension to [[http://orgmode.org/][Org mode]]).  I
 have been using the system (almost) religiously for the past 2 months, and I do
 find that it has helped a great deal! (in some respects).  I have also spent a
