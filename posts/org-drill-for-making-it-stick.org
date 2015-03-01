@@ -2,7 +2,7 @@
 .. title: org-drill for making it stick!
 .. slug: org-drill-for-making-it-stick
 .. date: 2015-01-17 01:06:54 UTC+05:30
-.. tags: emacs, learning, orgmode, hack, hackerschool
+.. tags: emacs, learning, orgmode, hack, hackerschool, blag
 .. category:
 .. link:
 .. description:
