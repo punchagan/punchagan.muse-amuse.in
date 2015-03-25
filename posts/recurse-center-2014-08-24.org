@@ -1,0 +1,26 @@
+#+BEGIN_COMMENT
+.. title: Recurse Center, 2014-08-24
+.. slug: recurse-center-2014-08-24
+.. date: 2014-08-25 10:23:53 UTC-04:00
+.. tags: javascript, recursecenter
+.. link:
+.. description:
+.. type: text
+.. category: recursecenter-checkins
+#+END_COMMENT
+
+* Friday
+
+  - I started playing around with React.js to see how I could build the GitHub
+    organization dashboard, that I plan to.
+
+* Saturday
+
+  - Got a horrendous idea of implementing a disqus-like commenting system using
+    GitHub's issue comments, and ran with it.  It seems technically feasible
+    based on some initial implementation.  I need to clean-up/rewrite the
+    prototype code on Monday.
+
+* Sunday
+  - Spent the day with cousins at Central Park Zoo, Upper East Side River
+    front.

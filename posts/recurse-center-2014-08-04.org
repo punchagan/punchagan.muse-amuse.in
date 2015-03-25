@@ -1,0 +1,20 @@
+#+BEGIN_COMMENT
+.. title: Recurse Center, 2014-08-04
+.. slug: recurse-center-2014-08-04
+.. date: 2014-08-04 16:19:59 UTC-04:00
+.. tags: raspberry-pi, recursecenter
+.. Link:
+.. description:
+.. type: text
+.. category: recursecenter-checkins
+#+END_COMMENT
+
+
+- A bunch of worked on getting LEDs to blink, by writing some assembly code.
+
+- I goofed off post-lunch, and cleaned up the code for the Google Translate
+  based TTS client.
+
+- I tried to continue working on the bencode parser, to add support for
+  dictionaries, but I couldn't get much work done before it was time for the
+  Monday talk.

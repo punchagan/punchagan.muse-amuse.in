@@ -1,0 +1,14 @@
+#+BEGIN_COMMENT
+.. title: Recurse Center, 2014-08-28
+.. slug: recurse-center-2014-08-28
+.. date: 2014-08-29 12:24:44 UTC-04:00
+.. tags: recursecenter
+.. link:
+.. description:
+.. type: text
+.. category: recursecenter-checkins
+#+END_COMMENT
+
+
+All good things must come to an end, and so did our batch!  We got our Hacker
+School t-shirts, and had a super fun picnic at Prospect Park.

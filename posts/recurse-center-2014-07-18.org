@@ -1,0 +1,16 @@
+#+BEGIN_COMMENT
+.. title: Recurse Center, 2014-07-18
+.. slug: recurse-center-2014-07-18
+.. date: 2014-07-19 17:30:22 UTC-04:00
+.. tags: recursecenter
+.. link:
+.. description:
+.. type: text
+.. category: recursecenter-checkins
+#+END_COMMENT
+
+
+- We worked on a couple of simple Google code jam problems
+- And then implemented an LRU
+- All of this in Julia, and it was fun.
+- I headed home early-ish, to catch up on some sleep.

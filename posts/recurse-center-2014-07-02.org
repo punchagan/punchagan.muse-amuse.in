@@ -1,0 +1,21 @@
+#+BEGIN_COMMENT
+.. title: Recurse Center, 2014-07-02
+.. slug: recurse-center-2014-07-02
+.. date: 2014-07-05 09:57:57 UTC-04:00
+.. tags: python, recursecenter
+.. link:
+.. description:
+.. type: text
+.. category: recursecenter-checkins
+#+END_COMMENT
+
+
+- I pushed the code onto [[https://github.com/punchagan/cinspect][github]] to let Allison and Tom review it, and Tom was
+  quite excited by the idea of having it.
+- I added a startup script in IPython, to monkey-patch it to use my code for
+  introspection.
+- Having never written a C-extension, I read up the Python docs on [[https://docs.python.org/2/extending/extending.html][writing C
+  extensions]], and played around a little with [[https://github.com/eliben/pycparser/][pycparser]], but it didn't seem to
+  work too well with the Python's sources.
+- I later went to the New York Public Library to see [[http://www.nypl.org/press/press-release/2013/06/26/new-york-public-library-display-historic-copies-declaration-independe][a copy of the Declaration
+  of Independence in Thomas Jefferson’s hand.]]
