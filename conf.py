@@ -65,7 +65,7 @@ NAVIGATION_LINKS = {
         ('/posts/index.html', 'Blog'),
         ('/archive.html', 'Archives'),
         ('/tags/index.html', 'Tags'),
-        ('/tags/cat_hackerschool-checkins.html', 'HackerSchool'),
+        ('/tags/cat_recursecenter-checkins.html', 'Recurse Center'),
         ('/tags/cat_bookmarks.html', 'Bookmarks'),
         ('/tags/cat_quotes.html', 'Quotes'),
         ('/rss.xml', 'RSS'),
