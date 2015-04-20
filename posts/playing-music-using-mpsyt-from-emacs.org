@@ -2,7 +2,7 @@
 .. title: Playing music using mpsyt from Emacs
 .. slug: playing-music-using-mpsyt-from-emacs
 .. date: 2015-04-20 23:47:18 UTC+05:30
-.. tags: blag, emacs, mpsyt, python, draft
+.. tags: blag, emacs, mpsyt, python
 .. category:
 .. link:
 .. description:
@@ -78,4 +78,4 @@ I ended up writing more code than I thought I would have to[1].  But, I'm
 pretty happy with how this all works, right now.
 
 
-[1] - Isn't it always so?
+[1] - Isn't it true, more often than not?
