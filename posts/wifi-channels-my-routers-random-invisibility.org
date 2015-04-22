@@ -2,7 +2,7 @@
 .. title: WiFi Channels & my router's random invisibility
 .. slug: wifi-channels-my-routers-random-invisibility
 .. date: 2015-04-22 11:48:50 UTC+05:30
-.. tags: blag, howto, hardware, debugging, draft
+.. tags: blag, howto, hardware, debugging
 .. category:
 .. link:
 .. description:
