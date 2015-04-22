@@ -25,7 +25,7 @@ what was going on.
 I logged onto the router and started looking at the Wireless settings in the
 hope of finding some clue, and there it was! ~Wireless Channel: Auto Scan~
 
-[[../files/images/auto-scan.jpg]]
+[[../images/auto-scan.jpg]]
 
 It was anybody's guess that some channels that the router uses weren't
 supported by my dad's laptop.  The restarts *sometimes* helped because the
@@ -35,7 +35,7 @@ something that the laptop's wifi card supported.
 The router only had options of channels from 1 to 13.  To see what channels a
 wifi card supports, you can run the ~iwlist freq~ command.
 
-#+BEGIN_SRC bash :results code
+#+BEGIN_SRC bash :results code :exports both
 iwlist freq
 #+END_SRC
 
