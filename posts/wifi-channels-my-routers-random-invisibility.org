@@ -1,0 +1,86 @@
+#+BEGIN_COMMENT
+.. title: WiFi Channels & my router's random invisibility
+.. slug: wifi-channels-my-routers-random-invisibility
+.. date: 2015-04-22 11:48:50 UTC+05:30
+.. tags: blag, howto, hardware, debugging, draft
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+To update some data plan changes, I had to restart my router today.  I did so
+from the (web) admin interface, from my dad's laptop. Guess what!  The router
+goes invisible (to the laptop), after the restart!  Other devices were still
+happily connected.
+
+There were a few occasions in the past when this laptop had failed to find our
+home router.  The solution that worked for my dad before was to restart the
+router; once, or may be a couple of times.  But, this time it didn't work.
+
+I had a feeling this was something to do with "Channels", but I had no idea
+what was going on.
+
+I logged onto the router and started looking at the Wireless settings in the
+hope of finding some clue, and there it was! ~Wireless Channel: Auto Scan~
+
+[[../files/images/auto-scan.jpg]]
+
+It was anybody's guess that some channels that the router uses weren't
+supported by my dad's laptop.  The restarts *sometimes* helped because the
+router would scan for channels that it thinks would work well, and end-up using
+something that the laptop's wifi card supported.
+
+The router only had options of channels from 1 to 13.  To see what channels a
+wifi card supports, you can run the ~iwlist freq~ command.
+
+#+BEGIN_SRC bash :results code
+iwlist freq
+#+END_SRC
+
+#+RESULTS:
+#+BEGIN_SRC bash
+eth1      26 channels in total; available frequencies :
+          Channel 01 : 2.412 GHz
+          Channel 02 : 2.417 GHz
+          Channel 03 : 2.422 GHz
+          Channel 04 : 2.427 GHz
+          Channel 05 : 2.432 GHz
+          Channel 06 : 2.437 GHz
+          Channel 07 : 2.442 GHz
+          Channel 08 : 2.447 GHz
+          Channel 09 : 2.452 GHz
+          Channel 10 : 2.457 GHz
+          Channel 11 : 2.462 GHz
+          Channel 12 : 2.467 GHz
+          Channel 13 : 2.472 GHz
+          Channel 14 : 2.484 GHz
+          Channel 36 : 5.18 GHz
+          Channel 38 : 5.19 GHz
+          Channel 40 : 5.2 GHz
+          Channel 42 : 5.21 GHz
+          Channel 44 : 5.22 GHz
+          Channel 46 : 5.23 GHz
+          Channel 48 : 5.24 GHz
+          Channel 149 : 5.745 GHz
+          Channel 153 : 5.765 GHz
+          Channel 157 : 5.785 GHz
+          Channel 161 : 5.805 GHz
+          Channel 165 : 5.825 GHz
+#+END_SRC
+
+So, the laptop's wifi card support all the channels that the router could use.
+~iwlist freq~ also gives the current Channel if the device is already connected
+to a router.  I ran this on my laptop and found that the router was using
+~Channel 13~.  Why the hell wouldn't this work?!  I don't know!
+
+I decided to set a channel manually, but how do I pick a channel?  The idea of
+"Auto Scan" is to find a channel that has relatively low interference.  How do
+we do this manually?  ~sudo iwlist scan~ scans for all the WiFi access points
+nearby and gives detailed information about them, which includes the Channel.
+
+It looked like most of the routers nearby used channels 1 and 6, with a few 3s
+and 4s.  Assuming, most of the other routers aren't doing this "Auto Scan"
+business, I set my router to always use Channel 9, and the laptop seems to be
+happily connected, now!
