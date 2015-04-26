@@ -1,5 +1,5 @@
 #+BEGIN_COMMENT
-.. title: About
+.. title: Home
 .. slug: index
 .. date: 2014-09-15 15:05:13 UTC-04:00
 .. tags:
