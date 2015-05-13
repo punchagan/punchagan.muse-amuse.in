@@ -38,8 +38,18 @@ reasonable, after being rendered.
 Once, I'm happy with it, I commit the post and deploy it using ~nikola
 deploy~.
 
-#+INCLUDE: "../conf.py" :lines "198-214" src python
+#+INCLUDE: "../conf.py" :lines "206-216" src python
 
 I also have a plugin, that posts captured bookmarks and quotes onto
 the blog, with a single command. I should probably make the sources of
 my blog open, and push it onto GitHub.
+
+*Update [2015-05-13 Wed]*
+
+- I use my own [[https://plugins.getnikola.com/#orgmode][plugin]] for Nikola which lets me write posts in org-mode.  There
+  is a similar [[https://github.com/redguardtoo/org2nikola][plugin]] by Chen Bin, that exports posts to intermediate html,
+  that is then used by Nikola.
+
+- The source for my blog is now on [[https://github.com/punchagan/punchagan.muse-amuse.in][GitHub]]
+
+- I also have
