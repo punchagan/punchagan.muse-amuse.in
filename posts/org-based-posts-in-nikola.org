@@ -52,4 +52,5 @@ my blog open, and push it onto GitHub.
 
 - The source for my blog is now on [[https://github.com/punchagan/punchagan.muse-amuse.in][GitHub]]
 
-- I also have
+- I also have [[https://github.com/punchagan/dot-emacs/blob/master/punchagan.org#nikola-stuff][custom elisp]] to be able to make a new post, and deploy the site
+  from within Emacs.
