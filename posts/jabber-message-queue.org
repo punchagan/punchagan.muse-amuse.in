@@ -25,4 +25,4 @@ hacked completion for the to ID using email addresses in my address book
 and I can type and send messages like I usually do.  Hitting ~RET~ after typing
 a message queues it up, instead of trying to send it. Smooth!
 
-The code is in my [[https://github.com/punchagan/dot-emacs/blob/7a5e184146194b9e28fd7edbb94ddd6c3bde845e/user-lisp/setup-jabber.el#L35-93][.emacs]]
+The code is in my [[https://github.com/punchagan/dot-emacs/blob/master/punchagan.org#jabber][.emacs]]

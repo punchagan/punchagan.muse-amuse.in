@@ -1,0 +1,12 @@
+[Core]
+Name = print_post_paths
+Module = print_post_paths
+
+
+[Nikola]
+MinVersion = 7.0.0
+
+[Documentation]
+Author = Puneeth Chaganti
+Version = 0.1
+Description = A dumb plugin to just print post paths, since we wrap Nikola in Emacs.
