@@ -1,0 +1,49 @@
+#+STARTUP: indent hidestars
+#+OPTIONS: H:1 tags:nil todo:nil
+#+TODO: READING TOREAD BACKLOG SOMEDAY | DONE
+#+BEGIN_COMMENT
+.. title: Reading List
+.. slug: reading-list
+.. date: 2015-09-19 13:02:18 UTC+05:30
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+.. nocomments: True
+#+END_COMMENT
+
+
+To help myself read more books, I plan to keep a list of the books I have
+read. I hope that making it public will lead to --
+1. some social pressure on me to keep reading
+2. interesting conversations about books I have read, and should read! Drop me
+   an email or ping me on [[https://punchagan.com/twitter][Twitter]].
+
+* 2015
+** Cat's Cradle by Kurt Vonnegut             :ARCHIVE:kurt:vonnegut:fiction:
+:PROPERTIES:
+:START_DATE: [2015-09-13 Sun]
+:END_DATE: [2015-09-19 Sat]
+:SUGGESTED_BY: Michelle on RC's Fiction Books topic
+:END:
+
+
+
+* Archive
+Every book that has caught my eye, since I started keeping this list.
+
+** TOREAD Deep learning                             :nonfiction:deeplearning:
+:PROPERTIES:
+:URL:      http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
+:END:
+
+** SOMEDAY Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: DS
+:URL: http://www.amazon.com/gp/product/0767907698/
+:END:
+
+
+* COMMENT Maintaining this list
+- A how-to: http://danshipper.com/how-to-read-a-lot-of-books
