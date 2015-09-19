@@ -4,7 +4,6 @@
 #+BEGIN_COMMENT
 .. title: Reading List
 .. slug: reading-list
-.. date: 2015-09-19 13:02:18 UTC+05:30
 .. tags:
 .. category:
 .. link:
@@ -27,8 +26,6 @@ read. I hope that making it public will lead to --
 :END_DATE: [2015-09-19 Sat]
 :SUGGESTED_BY: Michelle on RC's Fiction Books topic
 :END:
-
-
 
 * Archive
 Every book that has caught my eye, since I started keeping this list.
