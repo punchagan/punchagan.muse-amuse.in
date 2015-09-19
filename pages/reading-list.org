@@ -29,18 +29,14 @@ read. I hope that making it public will lead to --
 
 * Archive
 Every book that has caught my eye, since I started keeping this list.
-
-** TOREAD Deep learning                             :nonfiction:deeplearning:
+** TOREAD [[http://www-labs.iro.umontreal.ca/~bengioy/dlbook/][Deep learning]]                             :nonfiction:deeplearning:
 :PROPERTIES:
-:URL:      http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
+:URL: http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
 :END:
-
-** SOMEDAY Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency :nonfiction:
+** SOMEDAY [[http://www.amazon.com/gp/product/0767907698/][Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency]] :nonfiction:
 :PROPERTIES:
 :SUGGESTED_BY: DS
 :URL: http://www.amazon.com/gp/product/0767907698/
 :END:
-
-
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
