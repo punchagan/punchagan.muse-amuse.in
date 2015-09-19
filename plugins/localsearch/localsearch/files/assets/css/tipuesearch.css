@@ -81,7 +81,7 @@ http://www.tipue.com/search
 .tipue_search_content_title
 {
      font: 300 23px/1.6 'open sans', sans-serif;
-	margin-top: 31px;
+     margin-top: 31px!important;
 }
 .tipue_search_content_title a
 {
