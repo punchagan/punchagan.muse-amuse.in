@@ -491,9 +491,9 @@ INDEX_DISPLAY_POST_COUNT = 10
 
 SEARCH_FORM = """
 <span class="navbar-form pull-left">
-<input type="text" id="tipue_search_input" placeholder="Search this site">
+<input type="text" class="sidebar-nav-item" id="tipue_search_input" placeholder="Search this site">
 </span>
-<div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
+<div id="tipue_search_content"></div>
 """
 
 # Use content distribution networks for jquery and twitter-bootstrap css and js
