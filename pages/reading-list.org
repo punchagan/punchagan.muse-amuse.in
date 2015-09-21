@@ -20,10 +20,17 @@ read. I hope that making it public will lead to --
    an email or ping me on [[https://punchagan.com/twitter][Twitter]].
 
 * 2015
-** Cat's Cradle by Kurt Vonnegut             :ARCHIVE:kurt:vonnegut:fiction:
+** DONE Cat's Cradle -- {{{property(AUTHOR)}}}              :ARCHIVE:fiction:
 :PROPERTIES:
+:AUTHOR: Kurt Vonnegut
 :START_DATE: [2015-09-13 Sun]
 :END_DATE: [2015-09-19 Sat]
+:SUGGESTED_BY: Michelle on RC's Fiction Books topic
+:END:
+** READING The Picture of Dorian Gray -- {{{property(AUTHOR)}}}
+:PROPERTIES:
+:AUTHOR: Oscar Wilde
+:START_DATE: [2015-09-20 Sun]
 :SUGGESTED_BY: Michelle on RC's Fiction Books topic
 :END:
 
