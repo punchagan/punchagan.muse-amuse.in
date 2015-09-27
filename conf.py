@@ -525,7 +525,7 @@ BODY_END = """<script type="text/javascript">
 </script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.0.0/fuse.min.js"></script>
 <script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
-<script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
+<script type="text/javascript" src="/assets/js/tipuesearch.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
     $('#tipue_search_input').tipuesearch({
