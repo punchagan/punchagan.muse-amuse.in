@@ -3,6 +3,8 @@
 from __future__ import unicode_literals
 import time
 
+from nikola import filters
+
 # Configuration, please edit
 
 # Data about this site
@@ -264,6 +266,11 @@ PING_GET_SERVICES = [
 # FILTERS = {
 #    ".jpg": ["jpegoptim --strip-all -m75 -v %s"],
 # }
+
+FILTERS = {
+  ".css": [filters.yui_compressor],
+  ".js": [filters.yui_compressor],
+}
 
 # Create a gzipped copy of each generated file. Cheap server-side optimization.
 # GZIP_FILES = False
