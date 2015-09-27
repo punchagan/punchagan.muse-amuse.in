@@ -4,7 +4,7 @@
 .. date: 2014-06-20 10:09:51 UTC-04:00
 .. tags: hackerschool, oauth2
 .. link:
-.. description:
+.. description: A simple explanation of the OAuth2 protocol/spec.
 .. type: text
 #+END_COMMENT
 
