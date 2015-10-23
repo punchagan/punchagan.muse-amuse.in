@@ -1,0 +1,50 @@
+#+BEGIN_COMMENT
+.. title: GitHub vs Bitbucket
+.. slug: github-vs-bitbucket
+.. date: 2015-10-23 19:22:42 UTC+05:30
+.. tags: draft
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+Write up a blog post comparing GitHub vs Bitbucket
+
+* Uptime comparison
+Scrape https://status.github.com/messages/2015-01-02 and
+http://status.bitbucket.org/history
+
+- DDoS attacks down time.
+- Severity of the problem.
+- Mostly care about ssh and https push/pull
+- And may be the website.
+- Everything else, not too important
+
+* Search results relevance
+* UI/UX metrics
+
+http://designmodo.com/ux-kpi/
+http://www.uxmatters.com/mt/archives/2014/06/choosing-the-right-metrics-for-user-experience.php
+http://www.measuringu.com/blog/essential-metrics.php
+http://www.dtelepathy.com/ux-metrics/#download
+
+- HEART framework
+  - Happiness
+  - Engagement
+  - Adoption
+  - Retention
+  - Task Success
+    - Simple ways to figure out task success?
+    - Or time to perform task?
+      - metrics for various tasks.
+
+A lot of network effects will be involved. Not sure how you account for that.
+
+* Load time for sites
+With and without caching
+
+* Notes
+- Look at their blog posts for hints on UX/UI.
+- Post mortems of outages, etc.
