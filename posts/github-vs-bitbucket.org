@@ -9,8 +9,10 @@
 .. type: text
 #+END_COMMENT
 
+https://twitter.com/punchagan/status/622984997813755904
 
-Write up a blog post comparing GitHub vs Bitbucket
+BB has been down so frequently in the recent past... that I'm pissed.
+
 
 * Uptime comparison
 Scrape https://status.github.com/messages/2015-01-02 and
