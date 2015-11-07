@@ -33,6 +33,12 @@ read. I hope that making it public will lead to --
 :START_DATE: [2015-09-20 Sun]
 :SUGGESTED_BY: Michelle on RC's Fiction Books topic
 :END:
+** READING Slaughterhouse Five -- {{{property(AUTHOR)}}}
+:PROPERTIES:
+:AUTHOR: Kurt Vonnegut
+:START_DATE: [2015-11-01 Sun]
+:SUGGESTED_BY: Picked it up at Crosswords
+:END:
 
 * Archive
 Every book that has caught my eye, since I started keeping this list.
@@ -44,6 +50,10 @@ Every book that has caught my eye, since I started keeping this list.
 :PROPERTIES:
 :SUGGESTED_BY: DS
 :URL: http://www.amazon.com/gp/product/0767907698/
+:END:
+** TOREAD [[http://www.amazon.com/gp/product/080241270X][5 Love Languages]]
+:SUGGESTED_BY: Matthew P. on RC's "what do you want in a relationship" topic
+:URL: http://www.amazon.com/gp/product/080241270X
 :END:
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
