@@ -20,6 +20,18 @@ read. I hope that making it public will lead to --
    an email or ping me on [[https://punchagan.com/twitter][Twitter]].
 
 * 2015
+** READING Slaughterhouse Five -- {{{property(AUTHOR)}}}           :fiction:
+:PROPERTIES:
+:AUTHOR: Kurt Vonnegut
+:START_DATE: [2015-11-01 Sun]
+:SUGGESTED_BY: Picked it up at Crosswords
+:END:
+** READING The Picture of Dorian Gray -- {{{property(AUTHOR)}}}    :fiction:
+:PROPERTIES:
+:AUTHOR: Oscar Wilde
+:START_DATE: [2015-09-20 Sun]
+:SUGGESTED_BY: Michelle on RC's Fiction Books topic
+:END:
 ** DONE Cat's Cradle -- {{{property(AUTHOR)}}}              :ARCHIVE:fiction:
 :PROPERTIES:
 :AUTHOR: Kurt Vonnegut
@@ -27,30 +39,9 @@ read. I hope that making it public will lead to --
 :END_DATE: [2015-09-19 Sat]
 :SUGGESTED_BY: Michelle on RC's Fiction Books topic
 :END:
-** READING The Picture of Dorian Gray -- {{{property(AUTHOR)}}}
-:PROPERTIES:
-:AUTHOR: Oscar Wilde
-:START_DATE: [2015-09-20 Sun]
-:SUGGESTED_BY: Michelle on RC's Fiction Books topic
-:END:
-** READING Slaughterhouse Five -- {{{property(AUTHOR)}}}
-:PROPERTIES:
-:AUTHOR: Kurt Vonnegut
-:START_DATE: [2015-11-01 Sun]
-:SUGGESTED_BY: Picked it up at Crosswords
-:END:
 
 * Archive
 Every book that has caught my eye, since I started keeping this list.
-** TOREAD [[http://www-labs.iro.umontreal.ca/~bengioy/dlbook/][Deep learning]]                             :nonfiction:deeplearning:
-:PROPERTIES:
-:URL: http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
-:END:
-** SOMEDAY [[http://www.amazon.com/gp/product/0767907698/][Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency]] :nonfiction:
-:PROPERTIES:
-:SUGGESTED_BY: DS
-:URL: http://www.amazon.com/gp/product/0767907698/
-:END:
 ** TOREAD [[http://www.amazon.com/gp/product/080241270X][5 Love Languages]]
 :PROPERTIES:
 :SUGGESTED_BY: Matthew P. on RC's "what do you want in a relationship" topic
@@ -60,6 +51,15 @@ Every book that has caught my eye, since I started keeping this list.
 :PROPERTIES:
 :SUGGESTED_BY: Unkal
 :URL: http://www.amazon.com/The-Art-Asking-Learned-Worrying/dp/1455581089
+:END:
+** TOREAD [[http://www-labs.iro.umontreal.ca/~bengioy/dlbook/][Deep learning]]                             :nonfiction:deeplearning:
+:PROPERTIES:
+:URL: http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
+:END:
+** SOMEDAY [[http://www.amazon.com/gp/product/0767907698/][Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: DS
+:URL: http://www.amazon.com/gp/product/0767907698/
 :END:
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
