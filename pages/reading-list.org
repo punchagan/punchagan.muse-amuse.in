@@ -52,10 +52,12 @@ Every book that has caught my eye, since I started keeping this list.
 :URL: http://www.amazon.com/gp/product/0767907698/
 :END:
 ** TOREAD [[http://www.amazon.com/gp/product/080241270X][5 Love Languages]]
+:PROPERTIES:
 :SUGGESTED_BY: Matthew P. on RC's "what do you want in a relationship" topic
 :URL: http://www.amazon.com/gp/product/080241270X
 :END:
 ** TOREAD [[http://www.amazon.com/The-Art-Asking-Learned-Worrying/dp/1455581089][Art of Asking]]
+:PROPERTIES:
 :SUGGESTED_BY: Unkal
 :URL: http://www.amazon.com/The-Art-Asking-Learned-Worrying/dp/1455581089
 :END:
