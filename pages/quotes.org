@@ -173,15 +173,16 @@
 
 - The road to wisdom? -- Well, it's plain and simple to express:
 
+  #+BEGIN_VERSE
   Err
   and err
   and err again
   but less
   and less
   and less.
+  #+END_VERSE
 
   -- /Piet Hein (Grooks)/
-
 
 - My idea of dominating is that I get all of the players on my team to play
   better than if I wasn't there. -- /Ben Wiggins/
