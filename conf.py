@@ -270,7 +270,7 @@ PING_GET_SERVICES = [
 FILTERS = {
     ".css": [filters.yui_compressor],
     ".js": [filters.yui_compressor],
-    ".json": [filters.yui_compressor],
+    # ".json": [filters.yui_compressor],
 }
 
 # Create a gzipped copy of each generated file. Cheap server-side optimization.
