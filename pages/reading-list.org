@@ -24,6 +24,7 @@ read. I hope that making it public will lead to --
 :PROPERTIES:
 :AUTHOR: Oscar Wilde
 :START_DATE: [2015-09-20 Sun]
+:END_DATE: [2015-11-22 Sun]
 :SUGGESTED_BY: Michelle on RC's Fiction Books topic
 :END:
 ** DONE Cat's Cradle -- {{{property(AUTHOR)}}}              :ARCHIVE:fiction:
@@ -57,6 +58,16 @@ Every book that has caught my eye, since I started keeping this list.
 :PROPERTIES:
 :URL: http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
 :END:
+** TOREAD [[http://www.amazon.com/gp/product/069116407X][How to Solve it]]
+:PROPERTIES:
+:SUGGESTED_BY: Lots of people including Rich Hickey in Hammock Driven Development
+:URL:
+:END:
+** TOREAD [[http://www.amazon.com/Against-Gods-Remarkable-Story-Risk/dp/0471295639][Against the Gods]]
+:PROPERTIES:
+:SUGGESTED_BY: Matthew P. on Zulip (Recommendations for learning Probability)
+:URL:
+:END:
 ** SOMEDAY [[http://www.amazon.com/gp/product/0767907698/][Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency]] :nonfiction:
 :PROPERTIES:
 :SUGGESTED_BY: DS
@@ -67,15 +78,22 @@ Every book that has caught my eye, since I started keeping this list.
 :SUGGESTED_BY: Read an article by author on kafila.org
 :URL: http://www.amazon.in/Entangled-Urbanism-Community-Shopping-Gurgaon/dp/0198099142/
 :END:
-** SOMEDAY [[http://www.amazon.com/Against-Gods-Remarkable-Story-Risk/dp/0471295639][Against the Gods]]
+** SOMEDAY [[http://www.gutenberg.org/ebooks/525][Youth]]
 :PROPERTIES:
-:SUGGESTED_BY: Matthew P. on Zulip (Recommendations for learning Probability)
-:URL:
+:SUGGESTED_BY: Kurt Vonnegut in a letter to his daughter
+:URL: http://www.gutenberg.org/ebooks/525
 :END:
-** SOMEDAY [[http://www.amazon.com/gp/product/069116407X][How to Solve it]]
+** SOMEDAY [[http://www.gutenberg.org/ebooks/author/708][Chekhov's Short Stories]]
 :PROPERTIES:
-:SUGGESTED_BY: Lots of people including Rich Hickey in Hammock Driven Development
-:URL:
+:SUGGESTED_BY: Kurt Vonnegut in a letter to his daughter
+:URL: http://www.gutenberg.org/ebooks/author/708
 :END:
+
+** SOMEDAY [[http://www.amazon.com/The-Bookseller-Kabul-Asne-Seierstad/dp/0316159417][The Bookseller of Kabul]]
+:PROPERTIES:
+:SUGGESTED_BY: Shwetha was gifted this book.
+:URL: http://www.amazon.com/The-Bookseller-Kabul-Asne-Seierstad/dp/0316159417
+:END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
