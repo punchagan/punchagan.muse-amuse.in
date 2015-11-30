@@ -50,3 +50,4 @@ With and without caching
 * Notes
 - Look at their blog posts for hints on UX/UI.
 - Post mortems of outages, etc.
+- http://nedbatchelder.com/blog/201405/github_monoculture.html

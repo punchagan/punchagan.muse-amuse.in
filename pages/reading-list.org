@@ -50,6 +50,12 @@ read. I hope that making it public will lead to --
 
 * Archive
 Every book that has caught my eye, since I started keeping this list.
+
+** TOREAD [[http://assets.sbnation.com/assets/1074301/Valve_Handbook_LowRes.pdf][Valve: Handbook for New Employees]]                      :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: In a [[http://mikehadlow.blogspot.in/2014/03/coconut-headphones-why-agile-has-failed.html][post]] on agile
+:URL: http://assets.sbnation.com/assets/1074301/Valve_Handbook_LowRes.pdf
+:END:
 ** TOREAD [[http://www.amazon.com/The-Art-Asking-Learned-Worrying/dp/1455581089][Art of Asking]]                                         :nonfiction:
 :PROPERTIES:
 :SUGGESTED_BY: Unkal
@@ -106,6 +112,48 @@ Every book that has caught my eye, since I started keeping this list.
 :PROPERTIES:
 :SUGGESTED_BY: @Wander_Ponder
 :URL: https://www.instamojo.com/horizonbooks/naxalbari/
+:END:
+
+** [[http://www.amazon.com/Waking-Up-Searching-Spirituality-Religion-ebook/dp/B00LWM6CAM/ref=mt_kindle?_encoding=UTF8&me=][Waking Up: Searching for Spirituality Without Religion]]       :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Buster Benson of 750words in his [[https://medium.com/better-humans/better-than-meditation-12532d29f6cd#.d58j0bwym][post]] on meditation
+:URL: http://www.amazon.com/Waking-Up-Searching-Spirituality-Religion-ebook/dp/B00LWM6CAM/ref=mt_kindle?_encoding=UTF8&me=
+:END:
+
+** [[http://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135][The Society of Mind]]                                          :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Buster Benson of 750words in his [[https://medium.com/better-humans/better-than-meditation-12532d29f6cd#.d58j0bwym][post]] on meditation
+:URL: http://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135
+:END:
+
+** [[http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555][Thinking, Fast and Slow]]                                      :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Buster Benson of 750words in his [[https://medium.com/better-humans/better-than-meditation-12532d29f6cd#.d58j0bwym][post]] on meditation
+:URL: http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
+:END:
+
+** [[http://www.amazon.com/The-Artists-Way-Julia-Cameron/dp/1585421464][The Artist's Way]]                                  :nonfiction:creativity:
+:PROPERTIES:
+:SUGGESTED_BY: Buster Benson of 750words in his [[https://medium.com/better-humans/better-than-meditation-12532d29f6cd#.d58j0bwym][post]] on meditation
+:URL: http://www.amazon.com/The-Artists-Way-Julia-Cameron/dp/1585421464
+:END:
+
+** [[http://www.amazon.com/Product-Design-Process-Alison-Wong-ebook/dp/B00BXB6NWE][The Product Design Process]]                                   :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Sneh on Jaaga Slack
+:URL: http://www.amazon.com/Product-Design-Process-Alison-Wong-ebook/dp/B00BXB6NWE
+:END:
+
+** [[http://www.amazon.com/Encyclopedia-Trouble-Spaciousness-Rebecca-Solnit/dp/1595347534/?tag=braipick-20][The Encyclopedia of Trouble and Spaciousness]]                 :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Brain pickings [[http://feedproxy.google.com/~r/brainpickings/rss/~3/VzR8DfJq4UA/][article]]
+:URL: http://www.amazon.com/Encyclopedia-Trouble-Spaciousness-Rebecca-Solnit/dp/1595347534/?tag=braipick-20
+:END:
+
+** [[http://www.amazon.com/Eight-Nine-Words-about-Letter-Writing-ebook/dp/B006FLGDIQ/?tag=braipick-20][Eight or Nine Wise Words about Letter-Writing]]                :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Maria Popova's [[https://www.brainpickings.org/2015/01/27/lewis-carroll-letter-writing-email/][article]]
+:URL: http://www.amazon.com/Eight-Nine-Words-about-Letter-Writing-ebook/dp/B006FLGDIQ/?tag=braipick-20
 :END:
 
 * COMMENT Maintaining this list
