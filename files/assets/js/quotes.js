@@ -14,7 +14,8 @@ var show_all_quotes = function() {
 var show_random_quote = function() {
     var quotes = document.getElementsByClassName('quotes')[0].getElementsByClassName('org-ul')[0].getElementsByTagName('li');
     hide_all_quotes(quotes);
-    var index = Math.round(Math.random() * quotes.length);
+    var index = Math.round(Math.random() * quotes.length) % quotes.length;
+    console.log(index);
     quotes[index].hidden = false;
 }
 
