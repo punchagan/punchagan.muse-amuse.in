@@ -11,12 +11,35 @@ var show_all_quotes = function() {
     }
 }
 
-var show_random_quote = function() {
+var show_random_quote = function(event) {
+
+    if (event) {
+        event.preventDefault();
+    }
+
     var quotes = document.getElementsByClassName('quotes')[0].getElementsByClassName('org-ul')[0].getElementsByTagName('li');
     hide_all_quotes(quotes);
-    var index = Math.round(Math.random() * quotes.length) % quotes.length;
+
+    var index;
+    try {
+        index = Number(location.hash.match("#(.*)")[1]);
+    }
+    catch (e) {
+        index = Math.round(Math.random() * quotes.length) % quotes.length;
+    }
+    finally {
+        if (isNaN(index) || event) {
+            index = Math.round(Math.random() * quotes.length) % quotes.length;
+        }
+    }
+
     console.log(index);
     quotes[index].hidden = false;
+
+    // Change link for copy-paste, etc.
+    window.location.hash = "#" + index;
+
+
 }
 
 var add_buttons = function () {
@@ -35,7 +58,7 @@ var add_buttons = function () {
     var random_quote = document.createElement("a");
     random_quote.setAttribute('title', 'Show Random');
     random_quote.setAttribute('href', '#');
-    random_quote.setAttribute('onclick', 'show_random_quote()');
+    random_quote.setAttribute('onclick', 'show_random_quote(event)');
     random_quote.textContent = "Show Random Quote";
     random.appendChild(random_quote);
 
@@ -45,7 +68,7 @@ var add_buttons = function () {
 
     var show_quotes = document.createElement("a");
     show_quotes.setAttribute('title', 'Show All Quotes');
-    show_quotes.setAttribute('href', '#');
+    show_quotes.setAttribute('href', '');
     show_quotes.setAttribute('onclick', 'show_all_quotes()');
     show_quotes.textContent = "Show All (" + count + ") Quotes";
     show.appendChild(show_quotes);
