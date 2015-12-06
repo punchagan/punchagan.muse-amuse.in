@@ -12,7 +12,7 @@ BLOG_AUTHOR = "punchagan"
 BLOG_TITLE = "Noetic Nought"
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://punchagan.muse-amuse.in/"
+SITE_URL = "https://punchagan.muse-amuse.in/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
