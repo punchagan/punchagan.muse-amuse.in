@@ -270,6 +270,18 @@ brighter perspectives on life.
   even fewer are to try new things, so usually if you give your best shot at
   something you'll do pretty well. -- /Aaron Swartz/
 
+- What makes this advice especially hollow and pious is that I am not dead
+  yet. If it were any good, I could easily take it myself.  -- /Kurt Vonnegut,
+  in a letter to his daughter Nanny/
+
+- Go out and walk. That is the glory of life. -- /Artist Maira Kalman/
+
+-  I think it's pretty cool that there are tutorials to do things that are
+  pretty near the state of the art. -- /Dan L. on tutorials in Theano for doing
+  Deep Learning stuff/
+
+- All things worth doing are frustrating. How much satisfaction do you get from
+  doing something easy? -- /Joe Armstrong/ on [[https://twitter.com/joeerl/status/673428125737459712][Twitter]]
 
 #+HTML: </div>
 
