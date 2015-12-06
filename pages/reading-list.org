@@ -156,6 +156,18 @@ Every book that has caught my eye, since I started keeping this list.
 :URL: http://www.amazon.com/Eight-Nine-Words-about-Letter-Writing-ebook/dp/B006FLGDIQ/?tag=braipick-20
 :END:
 
+** [[http://www.amazon.com/gp/product/0465050654?keywords=design%20of%20everyday%20things&qid=1449150769&ref_=sr_1_1&sr=8-1][The Design of Everyday Things: Revised and Expanded Edition]]  :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Harsha's bookshelf amongst other places.
+:URL: http://www.amazon.com/gp/product/0465050654
+:END:
+
+** [[http://www.amazon.co.uk/dp/1784295868][Asking For It]]                                                   :fiction:
+:PROPERTIES:
+:SUGGESTED_BY: In an [[http://blog.jonskeet.uk/2015/11/11/feminism-and-me/][article]] on feminism
+:URL: http://www.amazon.co.uk/dp/1784295868
+:END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
