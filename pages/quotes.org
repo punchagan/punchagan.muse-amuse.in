@@ -276,7 +276,7 @@ brighter perspectives on life.
 
 - Go out and walk. That is the glory of life. -- /Artist Maira Kalman/
 
--  I think it's pretty cool that there are tutorials to do things that are
+- I think it's pretty cool that there are tutorials to do things that are
   pretty near the state of the art. -- /Dan L. on tutorials in Theano for doing
   Deep Learning stuff/
 
