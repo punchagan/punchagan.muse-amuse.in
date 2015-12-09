@@ -51,6 +51,10 @@ read. I hope that making it public will lead to --
 * Archive
 Every book that has caught my eye, since I started keeping this list.
 
+** TOREAD [[http://www-labs.iro.umontreal.ca/~bengioy/dlbook/][Deep learning]]                            :nonfiction:deeplearning:
+:PROPERTIES:
+:URL: http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
+:END:
 ** TOREAD [[http://assets.sbnation.com/assets/1074301/Valve_Handbook_LowRes.pdf][Valve: Handbook for New Employees]]                      :nonfiction:
 :PROPERTIES:
 :SUGGESTED_BY: In a [[http://mikehadlow.blogspot.in/2014/03/coconut-headphones-why-agile-has-failed.html][post]] on agile
@@ -60,10 +64,6 @@ Every book that has caught my eye, since I started keeping this list.
 :PROPERTIES:
 :SUGGESTED_BY: Unkal
 :URL: http://www.amazon.com/The-Art-Asking-Learned-Worrying/dp/1455581089
-:END:
-** TOREAD [[http://www-labs.iro.umontreal.ca/~bengioy/dlbook/][Deep learning]]                            :nonfiction:deeplearning:
-:PROPERTIES:
-:URL: http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
 :END:
 ** TOREAD [[http://www.amazon.com/gp/product/069116407X][How to Solve it]]                                       :nonfiction:
 :PROPERTIES:
