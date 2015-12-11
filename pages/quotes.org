@@ -283,6 +283,8 @@ brighter perspectives on life.
 - All things worth doing are frustrating. How much satisfaction do you get from
   doing something easy? -- /Joe Armstrong/ on [[https://twitter.com/joeerl/status/673428125737459712][Twitter]]
 
+- Be happy with what you have. Be excited about what you want. -- /Alan Cohen/
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js"></script>

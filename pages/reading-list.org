@@ -168,6 +168,24 @@ Every book that has caught my eye, since I started keeping this list.
 :URL: http://www.amazon.co.uk/dp/1784295868
 :END:
 
+** [[http://www.amazon.com/Learned-Optimism-Martin-E-Seligman/dp/1442341130][Learned Optimism]]                                             :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Peter Siebel on [[https://twitter.com/peterseibel/status/673685434921172992][Twitter]]
+:URL: http://www.amazon.com/Learned-Optimism-Martin-E-Seligman/dp/1442341130
+:END:
+
+** [[http://shop.blackirishbooks.com/products/the-war-of-art][The War of Art | Black Irish Books]]                           :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Seen in a thread on Zulip in reply to [[https://medium.com/@tehgeekmeister/living-by-value-6da26f41d102#.41ten7iq5][this post]].
+:URL: http://shop.blackirishbooks.com/products/the-war-of-art
+:END:
+
+** [[http://www.amazon.com/If-You-Feel-Too-Much/dp/0399176497][If You Feel Too Much: Thoughts on Things Found and Lost and Hoped For]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Damu, Kiddo
+:URL: http://www.amazon.com/If-You-Feel-Too-Much/dp/0399176497
+:END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
