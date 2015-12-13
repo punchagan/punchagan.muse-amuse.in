@@ -285,6 +285,8 @@ brighter perspectives on life.
 
 - Be happy with what you have. Be excited about what you want. -- /Alan Cohen/
 
+- If you love something, be prepared to lose it. -- /Haruki Murakami/ in a [[https://twitter.com/_harukimurakami/status/676021631660130304][Tweet]]
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js"></script>
