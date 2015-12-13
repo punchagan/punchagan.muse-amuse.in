@@ -13,6 +13,8 @@ var show_all_quotes = function(event) {
     for (i=0; i<quotes.length; i++) {
         var q = quotes[i];
         q.hidden = false;
+        q.style.listStyleType = '';
+
 
         if (!q.querySelector('.permalink')) {
             var link = document.createElement("a");
@@ -54,6 +56,7 @@ var show_random_quote = function(event, i) {
 
     console.log(index);
     quotes[index].hidden = false;
+    quotes[index].style.listStyleType= 'none';
 
     // Change link for copy-paste, etc.
     window.location.hash = "#" + index;
