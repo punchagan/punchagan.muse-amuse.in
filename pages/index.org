@@ -21,3 +21,6 @@ Hacker School) in the Summer of 2014 and [[./tags/cat_recursecenter-checkins.htm
 
 He occasionally tweets [[https://twitter.com/punchagan][here]], and you can find his code [[https://github.com/punchagan][here]]. You can email him
 at punchagan at this domain.
+
+#+HTML: <div id="recent-posts"></div>
+#+HTML: <script type="text/javascript" src="/assets/js/recent-posts.js"></script>
