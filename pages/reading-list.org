@@ -186,6 +186,12 @@ Every book that has caught my eye, since I started keeping this list.
 :URL: http://www.amazon.com/If-You-Feel-Too-Much/dp/0399176497
 :END:
 
+** [[http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555][Thinking, Fast and Slow]]                                      :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Bert Muthalaly in a [[https://twitter.com/stijlist/status/675931860216782848][Tweet]]
+:URL: http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
+:END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
