@@ -287,6 +287,8 @@ brighter perspectives on life.
 
 - If you love something, be prepared to lose it. -- /Haruki Murakami/ in a [[https://twitter.com/_harukimurakami/status/676021631660130304][Tweet]]
 
+- Let death be what takes us, not lack of imagination -- /BJ Miller/ in a [[https://www.ted.com/talks/bj_miller_what_really_matters_at_the_end_of_life/][TED talk]]
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js"></script>
