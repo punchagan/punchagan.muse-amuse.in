@@ -289,6 +289,10 @@ brighter perspectives on life.
 
 - Let death be what takes us, not lack of imagination -- /BJ Miller/ in a [[https://www.ted.com/talks/bj_miller_what_really_matters_at_the_end_of_life/][TED talk]]
 
+- One doesn't discover new lands without consenting to lose sight, for a very
+  long time, of the shore. -- /André Gide/ in Les faux-monnayeurs [The
+  Counterfeiters]
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js"></script>
