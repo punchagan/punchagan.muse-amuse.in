@@ -2,7 +2,7 @@
 .. title: Elfeed hook to fetch full content
 .. slug: elfeed-hook-to-fetch-full-content
 .. date: 2015-12-19 13:42:29 UTC+05:30
-.. tags: emacs, elfeed, pinboard, hack, blag, draft
+.. tags: emacs, elfeed, pinboard, hack, blag
 .. category:
 .. link:
 .. description: A hack to fetch content for unread Pinboard bookmarks.
@@ -18,12 +18,12 @@ finding items on the list. But, when it comes to the actual reading part, the
 entries in the feed don't have the actual content I want to read, and I end up
 opening the links in a browser.
 
-Inspired by a comment [[https://github.com/sursh/blaggregator/pull/80#issuecomment-165849126][here]], I realized it should be pretty easy to setup a hook
-that fetches the actual content to make my reading work-flow smoother. I wrote
-a [[https://github.com/punchagan/dot-files/blob/master/bin/get_article.py][small script]], using [[https://github.com/buriy/python-readability][python-readability]], to fetch the page content, given a
-URL. This script is then hooked onto ~elfeed-new-entry-hook~, to fetch content
-of for new entries as they are fetched.  All the old entries can be easily
-fixed with a single call to ~elfeed-apply-hooks-now~.
+Inspired by a [[https://github.com/sursh/blaggregator/pull/80#issuecomment-165849126][comment from FiloSottile]], I realized it should be pretty easy to
+setup a hook that fetches the actual content to make my reading work-flow
+smoother. I wrote a [[https://github.com/punchagan/dot-files/blob/master/bin/get_article.py][small script]], using [[https://github.com/buriy/python-readability][python-readability]], to fetch the page
+content, given a URL. This script is then hooked onto ~elfeed-new-entry-hook~,
+to fetch content of for new entries as they are fetched.  All the old entries
+can be easily fixed with a single call to ~elfeed-apply-hooks-now~.
 
 #+BEGIN_SRC emacs-lisp
   (defun pc/get-url-content (url)
