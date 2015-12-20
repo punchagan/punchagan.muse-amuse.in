@@ -295,4 +295,4 @@ brighter perspectives on life.
 
 #+HTML: </div>
 
-#+HTML: <script type="text/javascript" src="/assets/js/quotes.js"></script>
+#+HTML: <script type="text/javascript" src="/assets/js/quotes.js" async></script>
