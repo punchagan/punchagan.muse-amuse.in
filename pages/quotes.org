@@ -293,6 +293,9 @@ brighter perspectives on life.
   long time, of the shore. -- /André Gide/ in Les faux-monnayeurs [The
   Counterfeiters]
 
+- A good life is not a life without problems. A good life is a life with good
+  problems. -- /Mark Manson/ in a [[http://markmanson.net/be-patient][blog post]]
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js" async></script>
