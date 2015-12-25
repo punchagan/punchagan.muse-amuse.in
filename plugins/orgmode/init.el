@@ -118,11 +118,11 @@ contextual information."
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; Export function used by Nikola.
-(defun nikola-html-export (infile outfile)
+(defun nikola-html-export (infile)
   "Export the body only of the input file and write it to
 specified location."
 
   (with-current-buffer (find-file infile)
     (org-macro-replace-all nikola-macro-templates)
     (org-html-export-as-html nil nil t t)
-    (write-file outfile nil)))
+    (print (buffer-string))))

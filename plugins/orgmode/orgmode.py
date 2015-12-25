@@ -32,6 +32,7 @@ You will need to install emacs and org-mode (v8.x or greater).
 
 from __future__ import unicode_literals
 import codecs
+import io
 import os
 from os.path import abspath, dirname, join
 import subprocess
@@ -42,8 +43,9 @@ except ImportError:
     OrderedDict = dict  # NOQA
 
 from nikola.plugin_categories import PageCompiler
+from nikola.plugins.compile.rest.post_list import _do_post_list
+from nikola.shortcodes import apply_shortcodes
 from nikola.utils import req_missing, makedirs
-
 # v6 compat
 try:
     from nikola.utils import write_metadata
@@ -56,21 +58,35 @@ class CompileOrgmode(PageCompiler):
 
     name = "orgmode"
 
+    def set_site(self, site):
+        """Set site, which is a Nikola instance."""
+        super(CompileOrgmode, self).set_site(site)
+        # Hack to set post-list shortcode
+        def my_post_list(*args, **kwargs):
+            return _do_post_list(stop=5, site=site)
+
+        self.site.register_shortcode('post-list', my_post_list)
+
     def compile_html(self, source, dest, is_two_file=True):
         makedirs(os.path.dirname(dest))
         try:
             command = [
                 'emacs', '--batch',
                 '-l', join(dirname(abspath(__file__)), 'init.el'),
-                '--eval', '(nikola-html-export "{0}" "{1}")'.format(
-                    abspath(source), abspath(dest))
+                '--eval', '(nikola-html-export "{0}")'.format(abspath(source))
             ]
 
             # Dirty walkaround for this plugin to run on Windows platform.
             if os.name == 'nt':
                 command[5] = command[5].replace("\\", "\\\\")
 
-            subprocess.check_call(command)
+            output = subprocess.check_output(command)
+            # Clean up text we read from stdout
+            output = output.strip().decode('utf8').strip('"').replace('\\"', '"')
+            with io.open(dest, "w+", encoding="utf8") as out_file:
+                output = apply_shortcodes(output, self.site.shortcode_registry, self.site)
+                out_file.write(output)
+
         except OSError as e:
             import errno
             if e.errno == errno.ENOENT:
