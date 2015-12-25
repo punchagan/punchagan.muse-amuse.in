@@ -626,16 +626,6 @@ USE_BUNDLES = True
 # Will also create /$section/index.json for each section.
 # Can be expanded with these options:
 
-# Number of posts to include, defaults to INDEX_DISPLAY_POST_COUNT (10)
-RECENT_POSTS_JSON_LENGTH       = 4
-
-# Include {"desc": post.description}, defaults to False
-RECENT_POSTS_JSON_DESCRIPTION  = False
-
-# Include {"img": post.meta.previewimage}, defaults to False
-RECENT_POSTS_JSON_PREVIEWIMAGE = False
-
-
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 
