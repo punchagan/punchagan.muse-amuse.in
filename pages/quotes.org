@@ -296,6 +296,9 @@ brighter perspectives on life.
 - A good life is not a life without problems. A good life is a life with good
   problems. -- /Mark Manson/ in a [[http://markmanson.net/be-patient][blog post]]
 
+-  HEY, FRIENDS. PLEASE BOTHER ME. -- /Kara M/ on Zulip on "What really
+  matters".
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js" async></script>
