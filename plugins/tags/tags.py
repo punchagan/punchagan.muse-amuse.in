@@ -28,15 +28,16 @@ from __future__ import unicode_literals, print_function
 import codecs
 from collections import defaultdict
 import math
+from os.path import relpath
 import re
 from textwrap import dedent
 
 from nikola.plugin_categories import Command
-from nikola.utils import bytes_str, LOGGER, unicode_str
+from nikola.utils import bytes_str, LOGGER, sys_decode, unicode_str
 
 
-def add_tags(site, tags, filenames, dry_run=False):
-    """ Adds a list of comma-separated tags, given a list of filenames.
+def add_tags(site, tags, filepaths, dry_run=False):
+    """ Adds a list of comma-separated tags, given a list of filepaths.
 
         $ nikola tags --add "foo,bar" posts/*.rst
 
@@ -46,7 +47,7 @@ def add_tags(site, tags, filenames, dry_run=False):
 
     tags = _process_comma_separated_tags(tags)
 
-    posts = [post for post in site.timeline if post.source_path in filenames]
+    posts = [post for post in site.timeline if post.source_path in filepaths]
 
     if len(tags) == 0 or len(posts) == 0:
         print("ERROR: Need at least one tag and post.")
@@ -94,7 +95,7 @@ def list_tags(site, sorting='alpha'):
     return tags
 
 
-def merge_tags(site, tags, filenames, dry_run=False):
+def merge_tags(site, tags, filepaths, dry_run=False):
     """ Merges a list of comma-separated tags, replacing them with the last tag
 
     Requires a list of file names to be passed as arguments.
@@ -108,7 +109,7 @@ def merge_tags(site, tags, filenames, dry_run=False):
 
     tags = _process_comma_separated_tags(tags)
 
-    posts = [post for post in site.timeline if post.source_path in filenames]
+    posts = [post for post in site.timeline if post.source_path in filepaths]
 
     if len(tags) < 2 or len(posts) == 0:
         print("ERROR: Need at least two tags and a post.")
@@ -132,8 +133,8 @@ def merge_tags(site, tags, filenames, dry_run=False):
     return new_tags
 
 
-def remove_tags(site, tags, filenames, dry_run=False):
-    """ Removes a list of comma-separated tags, given a list of filenames.
+def remove_tags(site, tags, filepaths, dry_run=False):
+    """ Removes a list of comma-separated tags, given a list of filepaths.
 
         $ nikola tags --remove "foo,bar" posts/*.rst
 
@@ -143,7 +144,7 @@ def remove_tags(site, tags, filenames, dry_run=False):
 
     tags = _process_comma_separated_tags(tags)
 
-    posts = [post for post in site.timeline if post.source_path in filenames]
+    posts = [post for post in site.timeline if post.source_path in filepaths]
 
     if len(tags) == 0 or len(posts) == 0:
         print("ERROR: Need at least one tag and post.")
@@ -193,7 +194,7 @@ def search_tags(site, term):
     return new_tags
 
 
-def sort_tags(site, filenames, dry_run=False):
+def sort_tags(site, filepaths, dry_run=False):
     """ Sorts all the tags in the given list of posts.
 
         $ nikola tags --sort posts/*.rst
@@ -203,7 +204,7 @@ def sort_tags(site, filenames, dry_run=False):
 
     """
 
-    posts = [post for post in site.timeline if post.source_path in filenames]
+    posts = [post for post in site.timeline if post.source_path in filepaths]
 
     if len(posts) == 0:
         LOGGER.error("Need at least one post.")
@@ -241,7 +242,7 @@ class CommandTags(Command):
     """
 
     name = "tags"
-    doc_usage = "[-n|--dry-run] command [options] [arguments] [filename(s)]"
+    doc_usage = "[-n|--dry-run] command [options] [arguments] [filepath(s)]"
     doc_purpose = "Command to help manage the tags on your site"
     cmd_options = [
         {
@@ -318,34 +319,46 @@ class CommandTags(Command):
     def _execute(self, options, args):
         """Manage the tags on the site."""
 
-        self.site.scan_posts()
+        try:
+            self.site.scan_posts(True, True)
+        except:
+            # old nikola
+            self.site.scan_posts()
 
-        if len(options['add']) > 0 and len(args) > 0:
-            add_tags(self.site, options['add'], args, options['dry-run'])
+        self._unicode_options(options)
+
+        filepaths = [relpath(path) for path in args]
+
+        if len(options['add']) > 0 and len(filepaths) > 0:
+            add_tags(self.site, options['add'], filepaths, options['dry-run'])
 
         elif options['list']:
             list_tags(self.site, options['list_sorting'])
 
-        elif options['merge'].count(',') > 0 and len(args) > 0:
-            merge_tags(self.site, options['merge'], args, options['dry-run'])
+        elif options['merge'].count(',') > 0 and len(filepaths) > 0:
+            merge_tags(self.site, options['merge'], filepaths, options['dry-run'])
 
-        elif len(options['remove']) > 0 and len(args) > 0:
-            remove_tags(self.site, options['remove'], args, options['dry-run'])
+        elif len(options['remove']) > 0 and len(filepaths) > 0:
+            remove_tags(self.site, options['remove'], filepaths, options['dry-run'])
 
         elif len(options['search']) > 0:
             search_tags(self.site, options['search'])
 
-        elif options['tag'] and len(args) > 0:
+        elif options['tag'] and len(filepaths) > 0:
             tagger = _AutoTag(self.site)
-            for post in args:
+            for post in filepaths:
                 tags = ','.join(tagger.tag(post))
                 add_tags(self.site, tags, [post], options['dry-run'])
 
-        elif options['sort'] and len(args) > 0:
-            sort_tags(self.site, args, options['dry-run'])
+        elif options['sort'] and len(filepaths) > 0:
+            sort_tags(self.site, filepaths, options['dry-run'])
 
         else:
             print(self.help())
+
+    def _unicode_options(self, options):
+        for key, value in options.items():
+            options[key] = sys_decode(value)
 
 
 # ### Private definitions ######################################################
@@ -602,27 +615,29 @@ def _remove_tags(tags, removals):
 def _replace_tags_line(post, tags):
     """ Replaces the line that lists the tags, with given tags. """
 
-    source_path = post.source_path
-
     if post.is_two_file:
-        # fixme: currently doesn't handle two post files.
-        LOGGER.error(
-            "Two file posts are not supported, currently."
-            "Skipping %s" % source_path
-        )
+        path = post.metadata_path
+        try:
+            if not post.newstylemeta:
+                LOGGER.error("{0} uses old-style metadata which is not supported by this plugin, skipping.".format(path))
+                return
+        except AttributeError:
+            # post.newstylemeta is not present in older versions.  If the user
+            # has old-style meta files, it will crash or not do the job.
+            pass
+    else:
+        path = post.source_path
 
-        return
-
-    with codecs.open(source_path, 'r', 'utf-8') as f:
-        post_text = f.readlines()
+    with codecs.open(path, 'r', 'utf-8') as f:
+        text = f.readlines()
 
     tag_identifier = u'.. tags:'
     new_tags = u'.. tags: %s\n' % ', '.join(tags)
 
-    for index, line in enumerate(post_text[:]):
+    for index, line in enumerate(text[:]):
         if line.startswith(tag_identifier):
-            post_text[index] = new_tags
+            text[index] = new_tags
             break
 
-    with codecs.open(source_path, 'w+', 'utf-8') as f:
-        f.writelines(post_text)
+    with codecs.open(path, 'w+', 'utf-8') as f:
+        f.writelines(text)
