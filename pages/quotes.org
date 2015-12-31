@@ -195,8 +195,6 @@ brighter perspectives on life.
 
 - Wherever you go, go with all your heart -- /Confucius/
 
-- Work is never finished, only abandoned. -- /Paul Valéry/
-
 - Satisfaction of one's curiosity is one of the greatest sources of happiness
   in life. -- /Linus Pauling/
 
@@ -298,6 +296,8 @@ brighter perspectives on life.
 
 -  HEY, FRIENDS. PLEASE BOTHER ME. -- /Kara M/ on Zulip on "What really
   matters".
+
+- Joy is the best makeup -- /Anne Lamott/
 
 #+HTML: </div>
 

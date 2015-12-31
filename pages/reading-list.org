@@ -192,6 +192,12 @@ Every book that has caught my eye, since I started keeping this list.
 :URL: http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
 :END:
 
+** [[http://www.amazon.com/Consider-Your-Options-Equity-Compensation/dp/1938797027][Consider Your Options: Get the Most from Your Equity Compensation]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Zameer [[https://twitter.com/zmanji/status/682046049146421248][on Twitter]] in response to @bork's startup options tweet/post
+:URL: http://www.amazon.com/Consider-Your-Options-Equity-Compensation/dp/1938797027
+:END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
