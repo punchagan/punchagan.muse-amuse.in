@@ -198,6 +198,12 @@ Every book that has caught my eye, since I started keeping this list.
 :URL: http://www.amazon.com/Consider-Your-Options-Equity-Compensation/dp/1938797027
 :END:
 
+** [[http://www.amazon.com/gp/product/0345371984?keywords=last%20chance%20to%20see%20douglas%20adams&qid=1451722224&ref_=sr_1_1&sr=8-1][Last Chance to See]]                                           :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Backlinked from [[http://www.ccs.neu.edu/home/matthias/programming.html][a quote]] by Douglas Adams
+:URL: http://www.amazon.com/gp/product/0345371984?keywords=last%20chance%20to%20see%20douglas%20adams&qid=1451722224&ref_=sr_1_1&sr=8-1
+:END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states

@@ -299,6 +299,17 @@ brighter perspectives on life.
 
 - Joy is the best makeup -- /Anne Lamott/
 
+- I am rarely happier than when spending an entire day programming my computer
+  to perform automatically a task that would otherwise take me a good ten
+  seconds to do by hand -- /Douglas Adams/ in [[http://www.goodreads.com/quotes/587524-i-have-a-well-deserved-reputation-for-being-something-of-a][Last Chance to See]].
+
+- Don't wait for a light to appear at the end of the tunnel, stride down there
+  and light the bloody thing yourself. -- /Sara Henderson/ in [[https://www.goodreads.com/quotes_of_the_day/1746][From Strength to
+  Strength]]
+
+- It doesn't matter where you are, you are nowhere compared to where you can
+  go. -- /Bob Proctor/
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js" async></script>
