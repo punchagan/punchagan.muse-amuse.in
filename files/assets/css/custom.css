@@ -2,3 +2,29 @@
     padding-left: 0px;
     list-style-type: none;
 }
+
+.book-figure {
+    max-height: 200px;
+    padding: 20px;
+}
+
+.book-figure-media {
+    float: left;
+}
+
+.book-figure-info {
+    padding-left: 100px;
+}
+
+.book-figure-info ul {
+    list-style-type: none;
+}
+
+.book-figure-info-label {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.book-figure-info-label::after {
+    content: ": ";
+}
