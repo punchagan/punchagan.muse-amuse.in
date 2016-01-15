@@ -210,6 +210,42 @@ Every book that has caught my eye, since I started keeping this list.
 :URL: http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567
 :END:
 
+** [[http://www.amazon.com/dp/1455509124][So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Sivers' [[https://sivers.org/book/SoGood][Book Review]]
+:URL: http://www.amazon.com/dp/1455509124
+:END:
+
+** [[http://www.amazon.com/The-Gay-Science-Prelude-Appendix/dp/0394719859/?tag=braipick-20][The Gay Science: With a Prelude in Rhymes and an Appendix of Songs]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Maria Popova
+:URL: http://www.amazon.com/The-Gay-Science-Prelude-Appendix/dp/0394719859/?tag=braipick-20
+:END:
+
+** [[http://www.amazon.com/The-Consolations-Philosophy-Alain-Botton/dp/0679779175/?tag=braipick-20][The Consolations of Philosophy]]                               :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Maria Popova
+:URL: http://www.amazon.com/The-Consolations-Philosophy-Alain-Botton/dp/0679779175/?tag=braipick-20
+:END:
+
+** [[http://www.amazon.com/The-Will-Power-Friedrich-Nietzsche/dp/0394704371/?tag=braipick-20][The Will to Power]]                                            :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Maria Popova
+:URL: http://www.amazon.com/The-Will-Power-Friedrich-Nietzsche/dp/0394704371/?tag=braipick-20
+:END:
+
+** [[http://www.amazon.com/gp/product/0470888547/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0470888547&linkCode=as2&tag=hlg-20][The Carpenter: A Story About the Greatest Success Strategies of All]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: In a Where There's Smoke [[http://wheretheressmoke.libsyn.com/how-to-make-it-quality][podcast]]
+:URL: http://www.amazon.com/gp/product/0470888547/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0470888547&linkCode=as2&tag=hlg-20
+:END:
+
+** [[http://www.amazon.com/Mastery-Robert-Greene/dp/014312417X][Mastery]]                                                      :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: In a Where There's Smoke [[http://wheretheressmoke.libsyn.com/how-to-make-it-quality][podcast]]
+:URL: http://www.amazon.com/Mastery-Robert-Greene/dp/014312417X
+:END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
