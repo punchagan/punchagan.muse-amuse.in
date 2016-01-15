@@ -11,7 +11,7 @@
 
 
 {{% book
-    cover=//ecx.images-amazon.com/images/I/51rV-3xwEJL._SX321_BO1,204,203,200_.jpg
+    cover=//ecx.images-amazon.com/images/I/51rV-3xwEJL.jpg
     isbn=080241270X
     author="Gary Chapman"
     url=//www.amazon.com/gp/product/080241270X
