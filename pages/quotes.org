@@ -310,6 +310,10 @@ brighter perspectives on life.
 - It doesn't matter where you are, you are nowhere compared to where you can
   go. -- /Bob Proctor/
 
+- Quality is never an accident; it is always the result of high intention,
+  sincere effort, intelligent direction and skillful execution; it represents
+  the wise choice of many alternatives. -- /William A. Foster/
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js" async></script>
