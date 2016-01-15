@@ -1,8 +1,9 @@
+#+STARTUP: indent
 #+BEGIN_COMMENT
 .. title: Partial postgres db dumps for a Django app
 .. slug: partial-postgres-db-dumps-for-a-django-app
 .. date: 2016-01-10 05:39:18 UTC+05:30
-.. tags: blag, django, postgres, sql, draft
+.. tags: blag, django, postgres, sql
 .. category:
 .. link:
 .. description:
@@ -10,20 +11,21 @@
 #+END_COMMENT
 
 
-I have recently been working with a large ~postgres~ database, for an app built
-in ~Django~ and I was looking to take a partial dump of it.  I did this only
-once before, but I had done it in a pretty ad-hoc fashion.  This time around, I
-tried to do it more methodically and document it.
+Off late, I have been working with a large ~postgres~ database that is used by
+an app built in ~Django~.  I wanted a partial dump of the database to try out
+some experimental clean up scripts.  I haven't really used databases before,
+and the last time I had to do this I did it in a pretty ad-hoc fashion.  This
+time around, I tried to do it more methodically and to document it.
 
 * The Django Route
 
-I found [[https://github.com/davedash/django-fixture-magic][django-fixture-magic]], and decided to try it out.  I first got it
-working on my older dump on a small table and it turned out to be reasonably
-fast and worked well, after making a [[https://github.com/davedash/django-fixture-magic/pull/35][few changes]] to get it working with Python
-3.x.  Its ~kitchensink~ flag to the ~dump_object~ seemed like a promising
-option, but didn't really seem to get all the required tables for
-ManyToManyFields.  I worked around it, by getting a dump of all the models
-which were related.
+I looked around for tools that let you do this, and found [[https://github.com/davedash/django-fixture-magic][django-fixture-magic]].
+I first tried it out on my older partial dump (10% as large as the original db)
+and it turned out to be reasonably fast and worked well, after making a [[https://github.com/davedash/django-fixture-magic/pull/35][few
+changes]] to get it working with Python 3.x.  Its ~kitchensink~ flag to the
+~dump_object~ seemed like a promising option, but *didn't* really seem to get all
+the required tables for ManyToManyFields.  I worked around it, by getting a
+dump of all the models which were related using Django's ~dumpdata~.
 
 ** Get a dump with objects of interest
 
@@ -34,9 +36,16 @@ want to have in the dump, and that is quite a useful thing.
   python manage.py dump_object dataset.Product -k --query '{"subcategory_id__in": [1886, ...]}' > products.json
 #+END_SRC
 
-Now create a new database where this fixture can be loaded!
+Also, get a dump of related tables.
+
+#+BEGIN_SRC sh
+  # Dump of related fields
+  python manage.py dumpdata dataset.Attribute > attributes.json
+#+END_SRC
 
 ** Create the new empty db
+
+Next, create a new database where this fixture can be loaded!
 
 #+BEGIN_SRC sh
 # Create the db
@@ -80,14 +89,13 @@ for this, which I didn't have the time to look into, and debug.
   the ~postgres~ database were on different machines in separate datacenters,
   which could've been adding a significant amount of latency.
 
-- Just the size of the database being much larger was making it slower.
+- Just the size of the database being much larger could be making it slower?
 
 These are things I should be looking into and learning about, when I have more
 time at hand.  For now, I needed a quicker way to get a dump.  Even though the
 raw SQL route was more manual, it turned out to be much quicker.
 
 * Raw SQL dump route
-
 ** Get a dump of the interesting tables
 
 First, I had to get a dump of all the tables with the data I was interested in,
