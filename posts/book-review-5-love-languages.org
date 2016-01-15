@@ -11,7 +11,7 @@
 
 
 {{% book
-    cover=//ecx.images-amazon.com/images/I/51rV-3xwEJL.jpg
+    cover=/images/book-reviews/5-love-languages-cover.jpg
     isbn=080241270X
     author="Gary Chapman"
     url=//www.amazon.com/gp/product/080241270X
@@ -20,14 +20,13 @@
     rating="5/5" %}}
 
 
-I first heard this book mentioned first, in a discussion on relationships
-amongst friends from RC.  The discussion was quite interesting and the book
-received more than a couple of +1s and I decided to pick it up.
+I first heard of this book in a discussion on relationships amongst friends
+from RC.  The discussion was quite interesting and the book received more than
+a couple of strong recommendations. So, I decided to pick it up.
 
-It has been totally worth my time to read this book. The book is full of
-codified common sense on what love is.  Gary Chapman, the author, started with
-the question "What makes you feel loved" and found that the answers could be
-grouped into the following 5 categories:
+Very simply, the book is codified common sense explaining what Love is. Gary
+Chapman, the author, started with the question "What makes you feel loved" and
+found that the answers could be grouped into the following 5 categories:
 
 1. Words of affirmation
 2. Quality time
@@ -43,7 +42,7 @@ languages.  Though the book has been written with couples in mind, the
 fundamental ideas in this book can be applied to any relationships. I feel like
 it has been helping me connect a few dots, ever since I've started reading it.
 
-A highly recommended read!
+It has been totally worth my time to read this book. A highly recommended read!
 
 Below are some of my notes. Feel free to suggest improvements (for readability
 and otherwise) on the notes.
