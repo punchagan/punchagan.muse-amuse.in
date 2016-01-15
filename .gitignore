@@ -48,3 +48,6 @@ Guardfile
 
 # Autoenv
 .env
+
+# Emacs stuff
+TAGS
