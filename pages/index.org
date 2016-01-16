@@ -23,5 +23,4 @@ He occasionally tweets [[https://twitter.com/punchagan][here]], and you can find
 at punchagan at this domain.
 
 ** Recent Posts
-
 #+HTML: {{% post-list %}}

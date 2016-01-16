@@ -61,10 +61,6 @@ class CompileOrgmode(PageCompiler):
     def set_site(self, site):
         """Set site, which is a Nikola instance."""
         super(CompileOrgmode, self).set_site(site)
-        # Hack to set post-list shortcode
-        def my_post_list(*args, **kwargs):
-            return _do_post_list(stop=5, site=site)
-        self.site.register_shortcode('post-list', my_post_list)
 
     def compile_html(self, source, dest, is_two_file=True):
         makedirs(os.path.dirname(dest))

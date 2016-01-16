@@ -1,0 +1,9 @@
+<div class="post-list">
+    <table class="post-list">
+        {% for post in site.posts[:5] %}
+            <tr class="post-list-item">
+                <td>{{ post.date.strftime("%d %b %Y") }}</td><td><a href="{{post.permalink()}}">{{post.title()}}</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
