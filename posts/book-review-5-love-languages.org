@@ -10,15 +10,16 @@
 #+END_COMMENT
 
 
+#+BEGIN_HTML
 {{% book
-    cover=/images/book-reviews/5-love-languages-cover.jpg
+    cover=http://ecx.images-amazon.com/images/I/51rV-3xwEJL.jpg
     isbn=080241270X
     author="Gary Chapman"
-    url=//www.amazon.com/gp/product/080241270X
+    url=http://www.amazon.com/gp/product/080241270X
     name="5 Love Languages"
     read="2016-01-13"
     rating="5/5" %}}
-
+#+END_HTML
 
 I first heard of this book in a discussion on relationships amongst friends
 from RC.  The discussion was quite interesting and the book received more than
@@ -43,6 +44,8 @@ fundamental ideas in this book can be applied to any relationships. I feel like
 it has been helping me connect a few dots, ever since I've started reading it.
 
 It has been totally worth my time to read this book. A highly recommended read!
+
+
 
 Below are some of my notes. Feel free to suggest improvements (for readability
 and otherwise) on the notes.
