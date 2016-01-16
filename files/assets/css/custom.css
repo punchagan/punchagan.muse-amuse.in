@@ -1,12 +1,3 @@
-.post-list {
-    padding-left: 0px;
-    list-style-type: none;
-}
-
-.post-list-item-date {
-    font-family: monospace;
-}
-
 .book-figure {
     max-height: 200px;
     padding: 20px;
