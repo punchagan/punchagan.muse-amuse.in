@@ -12,7 +12,7 @@
 
 #+BEGIN_HTML
 {{% book
-    cover=http://ecx.images-amazon.com/images/I/51rV-3xwEJL.jpg
+    cover=https://farm2.staticflickr.com/1656/24408821265_6f067fe523_o.jpg
     isbn=080241270X
     author="Gary Chapman"
     url=http://www.amazon.com/gp/product/080241270X
