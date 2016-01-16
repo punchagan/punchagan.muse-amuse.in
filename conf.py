@@ -208,6 +208,8 @@ GITHUB_REMOTE_NAME = 'origin'
 # To do manual deployment, set it to []
 DEPLOY_COMMANDS = {
     'default': [
+        # work around post-list shortcode not forcing recompiling
+        'rm cache/pages/index.html',
         'nikola orphans|xargs rm || true',
         'git checkout master',
         'nikola build',

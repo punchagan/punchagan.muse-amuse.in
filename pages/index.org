@@ -24,6 +24,4 @@ at punchagan at this domain.
 
 ** Recent Posts
 
-#+BEGIN_HTML
-{{% post-list %}}
-#+END_HTML
+#+HTML: {{% post-list %}}
