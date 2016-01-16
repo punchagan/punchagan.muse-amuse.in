@@ -2,7 +2,7 @@
 .. title: Book Review: 5 Love Languages
 .. slug: book-review-5-love-languages
 .. date: 2016-01-12 19:32:51 UTC+05:30
-.. tags: book-review, blag, love, life, book
+.. tags: book-notes, blag, love, life, book
 .. category:
 .. link:
 .. description:
