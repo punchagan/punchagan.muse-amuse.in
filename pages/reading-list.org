@@ -41,7 +41,7 @@ read. I hope that making it public will lead to --
 :END_DATE: [2015-11-08 Sun]
 :SUGGESTED_BY: Picked it up at Crosswords
 :END:
-** DONE [[/posts/book-review-5-love-languages.html][5 Love Languages]]                               :ARCHIVE::nonfiction:
+** DONE [[./posts/book-review-5-love-languages.html][5 Love Languages]]                               :ARCHIVE::nonfiction:
 :PROPERTIES:
 :SUGGESTED_BY: Matthew P. on RC's "what do you want in a relationship" topic
 :URL: http://www.amazon.com/gp/product/080241270X
