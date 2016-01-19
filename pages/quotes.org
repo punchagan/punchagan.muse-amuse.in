@@ -314,6 +314,8 @@ brighter perspectives on life.
   sincere effort, intelligent direction and skillful execution; it represents
   the wise choice of many alternatives. -- /William A. Foster/
 
+- How we spend our days is, of course, how we spend our lives -- /Annie Dillard/
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js" async></script>

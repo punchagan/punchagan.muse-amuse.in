@@ -41,12 +41,21 @@ read. I hope that making it public will lead to --
 :END_DATE: [2015-11-08 Sun]
 :SUGGESTED_BY: Picked it up at Crosswords
 :END:
-** READING [[http://www.amazon.com/gp/product/080241270X][5 Love Languages]]                                     :nonfiction:
+** DONE [[/posts/book-review-5-love-languages.html][5 Love Languages]]                               :ARCHIVE::nonfiction:
 :PROPERTIES:
 :SUGGESTED_BY: Matthew P. on RC's "what do you want in a relationship" topic
 :URL: http://www.amazon.com/gp/product/080241270X
 :START_DATE: [2015-11-23 Mon]
+:END_DATE: [2016-01-13 Wed]
 :END:
+
+** READING [[http://www.amazon.com/dp/1455509124][So Good They Can't Ignore You]]                        :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Sivers' [[https://sivers.org/book/SoGood][Book Review]]
+:URL: http://www.amazon.com/dp/1455509124
+:END_DATE: [2016-01-16 Sat]
+:END:
+
 
 * Archive
 Every book that has caught my eye, since I started keeping this list.
@@ -208,12 +217,6 @@ Every book that has caught my eye, since I started keeping this list.
 :PROPERTIES:
 :SUGGESTED_BY: Joel Burget's [[http://joelburget.com/canon/][Canon]]
 :URL: http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567
-:END:
-
-** [[http://www.amazon.com/dp/1455509124][So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love]] :nonfiction:
-:PROPERTIES:
-:SUGGESTED_BY: Sivers' [[https://sivers.org/book/SoGood][Book Review]]
-:URL: http://www.amazon.com/dp/1455509124
 :END:
 
 ** [[http://www.amazon.com/The-Gay-Science-Prelude-Appendix/dp/0394719859/?tag=braipick-20][The Gay Science: With a Prelude in Rhymes and an Appendix of Songs]] :nonfiction:
