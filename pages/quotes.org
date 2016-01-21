@@ -316,6 +316,9 @@ brighter perspectives on life.
 
 - How we spend our days is, of course, how we spend our lives -- /Annie Dillard/
 
+- The truth is, most of us discover where we are headed when we arrive. --
+  /Bill Watterson/
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js" async></script>
