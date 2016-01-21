@@ -19,7 +19,7 @@ read. I hope that making it public will lead to --
 2. interesting conversations about books I have read, and should read! Drop me
    an email or ping me on [[https://punchagan.com/twitter][Twitter]].
 
-* 2015
+* Current
 ** DONE The Picture of Dorian Gray -- {{{property(AUTHOR)}}} :ARCHIVE:fiction:
 :PROPERTIES:
 :AUTHOR: Oscar Wilde
