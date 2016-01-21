@@ -244,7 +244,7 @@ Every book that has caught my eye, since I started keeping this list.
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
-  - READING: Currently reading. Should ideally be just one item
-  - TOREVIEW: Need to post a review/notes
-  - TOREAD: To read immediately (limit to 5)
-  - Everything else, no TODO state
+  - READING :: Currently reading. Should ideally be just one item
+  - TOREVIEW :: Need to post a review/notes
+  - TOREAD :: To read immediately (limit to 5)
+  - No TODO state :: Everything else
