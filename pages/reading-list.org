@@ -66,15 +66,30 @@ read. I hope that making it public will lead to --
 
 * Kitchen-sink
 Every book that has caught my eye, since I started keeping this list.
+
 ** TOREAD [[http://www-labs.iro.umontreal.ca/~bengioy/dlbook/][Deep learning]]                            :nonfiction:deeplearning:
 :PROPERTIES:
 :URL: http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
 :END:
+
+** TOREAD [[http://www.amazon.com/Consider-Your-Options-Equity-Compensation/dp/1938797027][Consider Your Options: Get the Most from Your Equity Compensation]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Zameer [[https://twitter.com/zmanji/status/682046049146421248][on Twitter]] in response to @bork's startup options tweet/post
+:URL: http://www.amazon.com/Consider-Your-Options-Equity-Compensation/dp/1938797027
+:END:
+
+** TOREAD [[http://www.amazon.com/gp/product/0345371984?keywords=last%20chance%20to%20see%20douglas%20adams&qid=1451722224&ref_=sr_1_1&sr=8-1][Last Chance to See]]                                    :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Backlinked from [[http://www.ccs.neu.edu/home/matthias/programming.html][a quote]] by Douglas Adams
+:URL: http://www.amazon.com/gp/product/0345371984?keywords=last%20chance%20to%20see%20douglas%20adams&qid=1451722224&ref_=sr_1_1&sr=8-1
+:END:
+
 ** [[http://assets.sbnation.com/assets/1074301/Valve_Handbook_LowRes.pdf][Valve: Handbook for New Employees]]                             :nonfiction:
 :PROPERTIES:
 :SUGGESTED_BY: In a [[http://mikehadlow.blogspot.in/2014/03/coconut-headphones-why-agile-has-failed.html][post]] on agile
 :URL: http://assets.sbnation.com/assets/1074301/Valve_Handbook_LowRes.pdf
 :END:
+
 ** [[http://www.amazon.com/The-Art-Asking-Learned-Worrying/dp/1455581089][Art of Asking]]                                                 :nonfiction:
 :PROPERTIES:
 :SUGGESTED_BY: Unkal
@@ -193,18 +208,6 @@ Every book that has caught my eye, since I started keeping this list.
 :PROPERTIES:
 :SUGGESTED_BY: Damu, Kiddo
 :URL: http://www.amazon.com/If-You-Feel-Too-Much/dp/0399176497
-:END:
-
-** TOREAD [[http://www.amazon.com/Consider-Your-Options-Equity-Compensation/dp/1938797027][Consider Your Options: Get the Most from Your Equity Compensation]] :nonfiction:
-:PROPERTIES:
-:SUGGESTED_BY: Zameer [[https://twitter.com/zmanji/status/682046049146421248][on Twitter]] in response to @bork's startup options tweet/post
-:URL: http://www.amazon.com/Consider-Your-Options-Equity-Compensation/dp/1938797027
-:END:
-
-** TOREAD [[http://www.amazon.com/gp/product/0345371984?keywords=last%20chance%20to%20see%20douglas%20adams&qid=1451722224&ref_=sr_1_1&sr=8-1][Last Chance to See]]                                    :nonfiction:
-:PROPERTIES:
-:SUGGESTED_BY: Backlinked from [[http://www.ccs.neu.edu/home/matthias/programming.html][a quote]] by Douglas Adams
-:URL: http://www.amazon.com/gp/product/0345371984?keywords=last%20chance%20to%20see%20douglas%20adams&qid=1451722224&ref_=sr_1_1&sr=8-1
 :END:
 
 ** [[http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567][Gödel, Escher, Bach: An Eternal Golden Braid]]                 :nonfiction:
