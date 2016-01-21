@@ -1,6 +1,7 @@
-#+STARTUP: indent hidestars
-#+OPTIONS: H:1 tags:nil todo:t
+#+STARTUP: indent hidestars showall
+#+OPTIONS: H:1 tags:nil todo:nil
 #+TODO: READING(r) TOREAD(t) TOREVIEW(v) | DONE(d)
+#+COLUMNS: %TODO %42ITEM %START_DATE %END_DATE
 #+BEGIN_COMMENT
 .. title: Reading List
 .. slug: reading-list
@@ -19,7 +20,7 @@ read. I hope that making it public will lead to --
 2. interesting conversations about books I have read, and should read! Drop me
    an email or ping me on [[https://punchagan.com/twitter][Twitter]].
 
-* Current
+* Archive
 ** DONE The Picture of Dorian Gray -- {{{property(AUTHOR)}}} :ARCHIVE:fiction:
 :PROPERTIES:
 :AUTHOR: Oscar Wilde
@@ -48,6 +49,8 @@ read. I hope that making it public will lead to --
 :START_DATE: [2015-11-23 Mon]
 :END_DATE: [2016-01-13 Wed]
 :END:
+
+* Current
 ** TOREVIEW [[http://www.amazon.com/dp/1455509124][So Good They Can't Ignore You]]                       :nonfiction:
 :PROPERTIES:
 :SUGGESTED_BY: Sivers' [[https://sivers.org/book/SoGood][Book Review]]
@@ -61,9 +64,8 @@ read. I hope that making it public will lead to --
 :URL: http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
 :END:
 
-* Archive
+* Kitchen-sink
 Every book that has caught my eye, since I started keeping this list.
-
 ** TOREAD [[http://www-labs.iro.umontreal.ca/~bengioy/dlbook/][Deep learning]]                            :nonfiction:deeplearning:
 :PROPERTIES:
 :URL: http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
@@ -248,3 +250,7 @@ Every book that has caught my eye, since I started keeping this list.
   - TOREVIEW :: Need to post a review/notes
   - TOREAD :: To read immediately (limit to 5)
   - No TODO state :: Everything else
+
+# Local Variables:
+# org-columns-skip-archived-trees: nil
+# End:
