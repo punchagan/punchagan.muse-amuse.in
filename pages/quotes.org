@@ -319,6 +319,9 @@ brighter perspectives on life.
 - The truth is, most of us discover where we are headed when we arrive. --
   /Bill Watterson/
 
+- The people you love aren't interruptions, they’re the reason you work at
+  all. Give 'em a hug. -- /Jason Zimdars/ in this [[https://m.signalvnoise.com/why-i-work-remotely-hint-it-has-nothing-to-do-with-productivity-34ace30f74fc#.jliostsa5][post]]
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js" async></script>

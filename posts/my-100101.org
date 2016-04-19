@@ -1,0 +1,80 @@
+#+STARTUP: indent
+#+BEGIN_COMMENT
+.. title: My 100:10:1
+.. slug: my-100101
+.. date: 2016-02-11 20:31:54 UTC+05:30
+.. tags: draft
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+Just dumping my list of potential projects here, for now.  I may or may not end
+up doing any of the projects, depending on how life goes, but just writing them
+down makes me feel good!
+
+1. Build your own email tracker.  Hidden images in emails
+2. Analytics like Google based on server logs?
+3. Aggregator for India Ultimate events/photos/news
+4. Simple bot that can answer a handful of questions in Natural language
+   irrespective of words used and sentence formation.
+5. Food intake tracker -- use an image based API that I think someone came up with
+6. Food suggestions, based on intake and activity and suggested intake.
+7. Music listening tracker and suggestions based on mood and history.
+8. Digg deeper clone -- tweets to feed reader
+9. Tweetdeck clone with columns by topics; tweets are classified automatically
+   instead of manual creation of lists.
+10. Code refactor tool (for Python?) for Emacs
+11. Code re-use suggestions in a project or in an organization -- scoring and
+    similarity measures for blocks of code?
+12. Simple Pebble app for keeping track of Ultimate progress?
+13. ~mpsyt~ mode improvements -- repetition, history, playlists, autoplay in
+    other buffers, etc.
+14. (Pebble based?) Sleep tracker that doesn't sell my data
+15. Natural language to SQL
+16. Context/Location aware TODO suggestions -- take into account what I'm doing
+    (walking, at home, office) and how much time I have before a scheduled
+    event, or how long I am going to spend on the bus, etc.
+17. Web-interface or Anki two-way sync for org-drill.
+18. Start-up name generator
+19. Personal music/video history across sites and on laptop/phone.
+    Recommendations based on that?
+20. Whatsapp groups <-> Google groups gateway
+21. ML based scraper -- should be robust to changes in page structure. Some
+    semantic structure deduction, etc
+22. Implement an SQLITE DB -- the docs are pretty good, I believe.  I could sit
+    down and read stuff and implement things.
+23. India city data - safety in terms of natural disasters. Some data analysis
+    on the sort of things that happened in Chennai?  Find 2nd tier alternative
+    cities etc?
+24. Something to do with GitHub data for Indians
+25. GitHub organization weekly dashboard
+26. Something to do with Meetup data -- meetups have low turn outs. Insights
+    into that? Or atleast a trend by place and number of real attendees. Data
+    may be hard to get.
+27. Manager for Nikola posts. List by tags, etc.  Some sort of sql queries
+    plugin -- date, tags, title, text.
+28. Desktop notifications to my phone. Over blue tooth or something. Just want
+    a way to not keep staring at my screen and be notified when a task
+    finishes, for instance.
+29. View daily work journal items easily to see progress made. Items with time
+    stamps on a particular day need to be shown.
+30. Gists don't have comments. Implement a browser plugin that adds this --
+    using some additional metadata for line number etc. + message saved as
+    normal comments. Version changes will need to be handled smartly.
+31. whatshouldireadnext.com clone
+
+* Camlistore
+
+1. Import emails
+2. Browser tabs and web pages
+3. This day that year -- spaced repetition of events in life
+4. Howdy built on top of Camlistore
+5. Google Now clone on top of Camlistore? Habits and stuff included.
+6. Gyroscope clone on top of Camlistore
+   1. Org-mode task importer/exporter
+   2. Workrave importer
+   3. arbtt importer/Rescue time
+   4. Bunch of others can be added looking at Gyroscope
