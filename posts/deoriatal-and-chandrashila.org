@@ -11,19 +11,18 @@
 #+END_COMMENT
 
 
-It was the final day, and after about 5 hours of descent through the hills, we
-had stopped for lunch about 100km from Haridwar. Of the 14 people who stayed
-until the last day, 5 of us were in a Sumo and 9 were in a Tempo Traveller van.
-We had already said our goodbyes when we got into the vehicles, but we happened
-to stop at the same place for lunch -- thanks to the drivers. Daksh, a 10 year
-old who breezed through his first trek, came running to us from the van and
-hugged Aravind who had just finished his second back to back trek and has plans
-for 2 more next month.  Both of them were beaming happiness. This pretty much
-sums up the past 5 days in the trek!  The rest of the trip was just getting
-descending further, back into civilization, reminiscing all the fun, catching
-up with civilization and slipping back into the bustle and the noise of normal
-life, with more goodbyes.
-
+It was the final day and after about 5 hours of descent through the hills on the
+road, we had stopped for lunch about 100km from Haridwar. Of the 14 people who
+stayed until the last day, 5 of us were in a Sumo and 9 were in a Tempo
+Traveller van. We had already said our goodbyes when we got into the vehicles,
+but we happened to stop at the same place for lunch -- thanks to the drivers.
+Daksh, a 10 year old who breezed through his first trek, came running to us from
+the van and hugged Aravind who had just finished his second back to back trek
+and has plans for 2 more next month. Both of them were beaming happiness. This
+pretty much sums up the past 5 days in the trek! The rest of the trip was just
+descending further and getting into civilization, reminiscing all the fun,
+catching up with civilization and slipping back into the bustle and the noise of
+normal life, with more goodbyes.
 
 I had been travelling for about 2 weeks before the trek, crawling up slowly from
 Bangalore to Delhi, and then spent a couple of days in Mukteshwar after reading
@@ -32,48 +31,60 @@ warmth of a family with who I happened to stay. But, I wasn't done. I really
 wanted to see the beautiful night sky filled with stars, and gaze into the
 distance at snow capped mountains and be overwhelmed by their grandness. I knew
 I had to go further into the hills. I came back to Delhi, to get more
-winter/cold wear and to go back with a better plan. I mentioned to @baali the
+winter/cold wear and to go back with a better plan. I mentioned to [[https://twitter.com/baali_][baali]] the
 idea of heading off either to Kashmir or somewhere in the north-east by myself
-using public transport and local help, or going on a trek with a group. @baali
+using public transport and local help, or going on a trek with a group. He
 recommended India Hikes, and helped me find a trek that fit my requirements --
 
 1) starts as soon as possible, but isn't too long -- I had to be back in
    Bangalore in a week.
 2) had opportunities to enjoy -- great views of the snow capped mountains and
-   the night sky
+   the night sky.
 3) not too hard -- I didn't want to spend all my time thinking about where and
    how I was going to put my next step. I wanted a relaxed trek with time to
    look around and take in the beauty.
 
-There were only a couple of treks that seemed to fit the bill. @baali pushed me
+There were only a couple of treks that seemed to fit the bill. baali pushed me
 and got me registered for the [[http://indiahikes.in/deoria-tal-chandrashila-peak-trek/][Deoriatal-Chandrashila trek]]. I got my "trek
 uniform" from Decathlon and packed my bags for the trek -- I only had a couple
-of days to do this.  Thanks to @baali for moral support, while I was sorta
-nervous about all this. I really really dislike cold weather!
+of days to do this. I was sorta nervous about all this because I really dislike
+cold weather, but baali gave me loads of moral support to take the first steps.
 
-* The Base Camp
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26561742402/in/album-72157667426705882/" title="Quechua Uniform and Gear"><img src="https://farm2.staticflickr.com/1493/26561742402_53644a7893_z.jpg" width="640" height="427" alt="Quechua Uniform and Gear"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-I reached Haridwar in a bus from Delhi that dropped me off way before the
-scheduled time. I walked around the town before sunrise, reached the station and
+This post is an attempt to record this trek for my future self. If you'd like
+detailed documentation for the trek, see [[http://indiahikes.in/deoria-tal-chandrashila-peak-trek/#trek-details][India Hikes' documentation]].
+
+* The Base-camp
+
+I reached Haridwar in a bus from Delhi, way before the scheduled time to meet
+everyone else. I walked around the town before sunrise, reached the station and
 waited for trekkers to start trickling in. The base camp, Sari, was about an 8
 hour ride from Haridwar, that I spent mostly sleeping -- it was quite hot! Much
 hotter than I expected. And I started to feel comfortable about possibly not
-having enough clothing for the cold. When packing, @baali and I were trying to
+having enough clothing for the cold. When packing, baali and I were trying to
 make a sensible trade-off between the amount of stuff I carried and not feeling
-uncomfortably cold. @baali had experience of one-trek and was leaning towards
-the lighter backpack side, and this being my first trek I wanted to be heavily
-on the side of extra clothing for cold! My final backpack had left behind a
-slight worry in the back of my mind, which kept coming to the fore from time to
-time, until the bus ride.
+uncomfortably cold. He had the experience of one-trek and was leaning towards
+the lighter-backpack side, and this being my first trek I wanted to be heavily
+on the extra-clothing-for-cold side. The final state of my backpack left behind
+a slight worry in the back of my mind, which kept coming to the fore from time
+to time, until the bus ride.
+
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26628444206/in/album-72157667426705882/" title="Sari village school"><img src="https://farm2.staticflickr.com/1446/26628444206_bf6a964c3d_z.jpg" width="640" height="427" alt="Sari village school"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 The base camp turned out to be a small lodge sort of a thing with cozy rooms for
-the trekkers and India Hikes trek leads, guides and other support staff. We were
-received by similing faces of the support staff and trek leads, welcoming us to
-the trek. The comforting camaraderie would be a feature throughout the rest of
-the trek! Our group had some people who had done treks with India Hikes before,
-and all the interactions around me were giving me a good feeling of joining a
-great community. Everyone other than me seemed to know everyone else, yet new
-people were made to feel comfortable and I felt totally at home.
+the trekkers and India Hikes trek leads, guides and other support staff. The
+views from here weren't very different than what I could see from Mukteshwar.
+There weren't really any snow peaks in our view and there was a lot of lush
+green and the Sari village in view. We were received by similing faces of the
+support staff and trek leads, welcoming us on the trek. The comforting
+camaraderie would be a feature throughout the rest of the trek! Our group had
+some people who had done treks with India Hikes before, and all the interactions
+around me were giving me a good feeling of joining a great community. Everyone
+other than me seemed to know everyone else, yet new people were made to feel
+comfortable and I felt totally at home.
+
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26628447826/in/album-72157667426705882/" title="Tracing the track on a map"><img src="https://farm2.staticflickr.com/1654/26628447826_cda76911cd_z.jpg" width="640" height="427" alt="Tracing the track on a map"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 Kamal, our trek lead, briefed us about the trek and wished us good luck for the
 trek. The thing I loved the most about the briefing was our guide Dhan Singh
@@ -95,12 +106,15 @@ This was just what I wanted from the trek. Apart from the starry skies.
 
 This was the best part of the trek, for me. Even more than the summit.
 
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26655256465" title="Deoriatal"><img src="https://farm2.staticflickr.com/1450/26655256465_226234594b_z.jpg" width="640" height="427" alt="Deoriatal"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 The rest of the day was spent walking around the camp-site, and taking in as
 much of the beauty as we could.  We walked up to a couple of view points that
 gave better views of the mountains and walked around the lake, enjoying the
 calmness.  We could see Chandrashila, the peak we were going to summit in 3
 days from the second view point.  Also, the Rhododendron covered slopes were a
 sight to watch!
+
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26655262305/in/album-72157667426705882/" title="Chandrashila from Deoriatal Campsite"><img src="https://farm2.staticflickr.com/1699/26655262305_4ca2847f1d_z.jpg" width="640" height="427" alt="Chandrashila from Deoriatal Campsite"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 Playing Frisbee with the trekkers and cricket with cooks and other support
 staff taking care of people at the camp, along with the trek lead and guides
@@ -111,6 +125,8 @@ keep myself warm, through out the day, without too much clothing.
 The camp site had a few other camps, some of whom we interacted with and others
 who we didn't talk to but were spotted near all of the rest of the camps we
 were going to have in the next 3 days.
+
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26381830740/in/album-72157667426705882/" title="Selfie-Sai at Deoriatal"><img src="https://farm2.staticflickr.com/1649/26381830740_a248322e63_z.jpg" width="427" height="640" alt="Selfie-Sai at Deoriatal"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 We had some story telling, singing and oxy-meter readings in the dining tent
 before yet another yummy meal. My oxygen levels were good, but my pulse was
@@ -129,6 +145,8 @@ amidst some awe-inspiring beauty, without trekking too much.
 
 * Tala or Rohini Bugyal
 
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26381862960/in/album-72157667426705882/" title="Deoriatal"><img src="https://farm2.staticflickr.com/1664/26381862960_680fff5128_z.jpg" width="640" height="427" alt="Deoriatal"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 We woke up to a clear sky and a serene lake that drew me to go and sit by its
 side, until breakfast. We got packed up and prepared for what was going to be
 the longest day, in terms of the time spent hiking and distance covered. The
@@ -141,6 +159,8 @@ the trek. The lunch, like all other meals, was so yummy that I regretted
 carrying such a small box. Ankit, Abhirut and Shyamlee with bigger boxes,
 kindly shared some of their food with me.
 
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26561994202/in/album-72157667426705882/" title="Lunch break on the ridge"><img src="https://farm2.staticflickr.com/1508/26561994202_f6f236a023_z.jpg" width="640" height="427" alt="Lunch break on the ridge"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 Near the end of the hike we bumped into Tanmoy -- another Trek lead with India
 hikes who was going to meet us at our next night's base camp. He was mapping
 the trek route and had covered our 3 day trail in a single day. The next night
@@ -152,6 +172,8 @@ great to hear trek lead Kamal, sing some popular numbers with so much feeling.
 Pooja and Meenakshi followed up with a deluge of songs before and during a fun
 filled Antakshari session. Sai, Padmini and Sarita sang some old numbers, some
 of which seemed like "home-productions" to the opposite team.
+
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26589808721/in/album-72157667426705882/" title="Tali camp site"><img src="https://farm2.staticflickr.com/1610/26589808721_49b97ec31e_z.jpg" width="640" height="427" alt="Tali camp site"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 * Martoli
 
@@ -189,11 +211,15 @@ were trying to help us with some tips from their newly gained experience! We
 were taught how to use clamp-ons, micro spikes and gaiters, in case there is
 snow or ice on the trail.
 
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26655507775/in/album-72157667426705882/" title="Sunset at Martoli"><img src="https://farm2.staticflickr.com/1457/26655507775_378df710e1_z.jpg" width="640" height="427" alt="Sunset at Martoli"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 It was going to be a 4am start the next day, and almost everyone hit the sacks
 immediately after an early dinner. Rajesh and I, though, were struck by the
 beauty of the night sky. I tried my hand at some night sky photography and got
 some okay-ish shots, including one which captured a shooting star.  A wide
 angle lens and a tripod would've been extremely useful.
+
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26561731052/in/album-72157667426705882/" title="Shooting star &amp; Shaky hands?"><img src="https://farm2.staticflickr.com/1666/26561731052_ce3204c204_z.jpg" width="640" height="427" alt="Shooting star &amp; Shaky hands?"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 * Summit day
 
@@ -223,6 +249,8 @@ the excitedly told the rest of the India Hikes camps that everyone in the group
 had summit-ed. They were very pleased by the fact that the whole group made it
 safely to the top!
 
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26629332506/in/album-72157667426705882/" title="Reflecting atop Chandrashila"><img src="https://farm2.staticflickr.com/1628/26629332506_9d9e40f284_z.jpg" width="640" height="480" alt="Reflecting atop Chandrashila"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 On some of the previous nights, I saw some folks use apps on their phones to
 help them identify stars and constellations in the night sky. Nobody seemed to
 have an app that helped identify the peaks. It would be interesting to find or
@@ -238,15 +266,17 @@ afternoon, and this was practically the first afternoon I spent inside the tent.
 Once we got out of the tents after a couple of hours, the landscape had totally
 changed. Everything above about 50m from where we were was filled with snow, and
 we experienced the coldest and harshest weather of the trek. It was the first
-time, I felt like @baali and I had got the balance of how much cold clothing I
-should be carrying wrong. I had used up all the layers of clothing I had, and
-yet felt a chill when I was not inside a tent. Next time around I'll definitely
-erring on the side of carrying more. The weather didn't get any better until the
-next morning.
+time, I felt I had got the balance of how much cold clothing I should be
+carrying wrong. I had used up all the layers of clothing I had, and yet felt a
+chill when I was not inside a tent. Next time around I'll definitely erring on
+the side of carrying more. The weather didn't get any better until the next
+morning.
 
 We spent the evening in the dining tent, sticking together to keep ourselves
 warm, and officially calling the trek to an end with certificates and everyone
 sharing their thoughts about the trek.
+
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26629335116/in/album-72157667426705882/" title="Martoli post-snow"><img src="https://farm2.staticflickr.com/1651/26629335116_a17dac37c9_z.jpg" width="640" height="480" alt="Martoli post-snow"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 * The end
 
@@ -266,6 +296,10 @@ encourage trekkers to imbibe this value and help each other in this mission. I
 really hope that there's at least a handful of people in each trek, who take
 back this idea along with pleasant memories from the mountains.
 
+#+HTML: <a data-flickr-embed="true"  href="https://www.flickr.com/photos/punchagan/26628697466/in/album-72157667426705882/" title="Water, cold and clear"><img src="https://farm2.staticflickr.com/1684/26628697466_2c9c0dec56_z.jpg" width="640" height="427" alt="Water, cold and clear"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 On the whole the trek was an amazing experience. Gach yaara! I am definitely
 looking forward to go on more treks. As much as I dislike harshly cold weather,
 the beauty of the mountains is just too irresistible.
+
+You can view more pictures of the trek [[https://www.flickr.com/gp/punchagan/fXP8fG][here]].
