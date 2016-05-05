@@ -2,7 +2,7 @@
 .. title: Notes on progress at Hacker School in 4 weeks
 .. slug: notes-on-progress-at-hacker-school-in-4-weeks
 .. date: 2014-07-09 02:04:21 UTC-04:00
-.. tags: hackerschool, draft, code, work, me, python, audio
+.. tags: hackerschool, private, code, work, me, python, audio
 .. link:
 .. description:
 .. type: text
