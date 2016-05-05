@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Mathematics and Me
-.. date: 2007/03/06 20:08:00
+.. date: 2007-03-06 20:08:00
 .. tags: blab, math
 .. slug: mathematics-and-me
 #+END_COMMENT

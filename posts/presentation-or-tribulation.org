@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Presentation or Tribulation??
-.. date: 2007/04/28 05:42:00
+.. date: 2007-04-28 05:42:00
 .. tags: blab
 .. slug: presentation-or-tribulation
 #+END_COMMENT

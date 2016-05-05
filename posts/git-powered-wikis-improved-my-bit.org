@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Git powered wikis improved: My bit
-.. date: 2011/02/04 17:55:00
+.. date: 2011-02-04 17:55:00
 .. tags: code, contribute, emacs, foss, git, orgmode
 .. slug: git-powered-wikis-improved-my-bit
 #+END_COMMENT

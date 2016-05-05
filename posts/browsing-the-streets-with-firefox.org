@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Browsing the streets with Firefox
-.. date: 2012/09/02 22:55:00
+.. date: 2012-09-02 22:55:00
 .. tags: bicycling, fun
 .. slug: browsing-the-streets-with-firefox
 #+END_COMMENT

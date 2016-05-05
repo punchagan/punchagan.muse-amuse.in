@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Good, Bad or Human?
-.. date: 2009/08/22 17:48:00
+.. date: 2009-08-22 17:48:00
 .. tags: blab, human, life
 .. slug: good-bad-or-human
 #+END_COMMENT

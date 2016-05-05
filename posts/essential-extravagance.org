@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Essential-Extravagance??!!
-.. date: 2007/03/10 18:06:00
+.. date: 2007-03-10 18:06:00
 .. tags: blab, fest, life, money
 .. slug: essential-extravagance
 #+END_COMMENT

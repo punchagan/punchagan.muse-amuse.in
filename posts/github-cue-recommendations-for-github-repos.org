@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: GitHub Cue: Recommendations for GitHub Repos
-.. date: 2011/08/05 18:51:00
+.. date: 2011-08-05 18:51:00
 .. tags: app, chrome, code, github, hack
 .. slug: github-cue-recommendations-for-github-repos
 #+END_COMMENT

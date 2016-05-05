@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Richard Stallman in IIT-Bombay
-.. date: 2010/09/01 15:48:00
+.. date: 2010-09-01 15:48:00
 .. tags: rms, software
 .. slug: richard-stallman-in-iit-bombay
 #+END_COMMENT

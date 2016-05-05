@@ -2,7 +2,7 @@
 .. link:
 .. description: How much colder can you get?
 .. tags: blab, cold, story, fiction, life
-.. date: 2013/11/13 01:03:45
+.. date: 2013-11-13 01:03:45
 .. title: Cold
 .. slug: cold
 .. nocomments: True

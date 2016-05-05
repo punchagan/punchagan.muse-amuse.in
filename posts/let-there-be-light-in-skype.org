@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. title: Let there be light, in skype!
 .. slug: let-there-be-light-in-skype
-.. date: 03/29/2014 11:22:27 PM UTC+05:30
+.. date: 2014-03-29 11:22:27 PM UTC+05:30
 .. tags: hack, linux
 .. link:
 .. description:

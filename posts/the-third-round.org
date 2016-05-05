@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: The Third Round.
-.. date: 2008/09/13 17:25:00
+.. date: 2008-09-13 17:25:00
 .. tags: blab, job, me
 .. slug: the-third-round
 #+END_COMMENT

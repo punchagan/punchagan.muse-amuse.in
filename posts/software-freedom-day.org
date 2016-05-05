@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Software Freedom Day
-.. date: 2008/09/21 18:23:00
+.. date: 2008-09-21 18:23:00
 .. tags: blab, freedom, ology, software
 .. slug: software-freedom-day
 #+END_COMMENT

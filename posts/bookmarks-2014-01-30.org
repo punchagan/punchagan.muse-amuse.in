@@ -3,7 +3,7 @@
 .. tags: bookmarks
 .. title: Bookmarks [2014-01-30]
 .. link:
-.. date: 2014/01/30 15:23:15
+.. date: 2014-01-30 15:23:15
 .. type: text
 .. slug: bookmarks-2014-01-30
 .. category: bookmarks

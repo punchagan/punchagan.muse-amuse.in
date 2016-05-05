@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Postfix + Mailman for Multiple Domains.
-.. date: 2009/08/05 01:23:00
+.. date: 2009-08-05 01:23:00
 .. tags: ology
 .. slug: postfix-mailman-for-multiple-domains
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: The Joy of a 'Project!'
-.. date: 2006/11/06 13:48:00
+.. date: 2006-11-06 13:48:00
 .. tags: blab, lafootgiri, ology, project
 .. slug: the-joy-of-a-project
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Contributing to FOSS
-.. date: 2010/08/19 00:06:00
+.. date: 2010-08-19 00:06:00
 .. tags: contribute, foss, howto, newbie, note
 .. slug: contributing-to-foss
 #+END_COMMENT

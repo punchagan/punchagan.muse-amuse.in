@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Lesson with RSS feeds & Wordpress
-.. date: 2010/08/04 09:07:00
+.. date: 2010-08-04 09:07:00
 .. tags: note, wordpress
 .. slug: lesson-with-rss-feeds-wordpress
 #+END_COMMENT

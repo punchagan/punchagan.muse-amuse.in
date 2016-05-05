@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: PS Ramblings
-.. date: 2007/07/18 08:00:00
+.. date: 2007-07-18 08:00:00
 .. tags: blab, ps
 .. slug: ps-ramblings
 #+END_COMMENT

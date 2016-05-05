@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Some fun from #org-mode
-.. date: 2010/10/02 20:26:00
+.. date: 2010-10-02 20:26:00
 .. tags: IRC, emacs, note, org2blog, orgmode
 .. slug: some-fun-from-org-mode
 #+END_COMMENT

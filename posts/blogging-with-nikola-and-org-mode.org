@@ -2,7 +2,7 @@
 .. link:
 .. description:
 .. tags: blog, orgmode, hack
-.. date: 2013/10/16 22:40:47
+.. date: 2013-10-16 22:40:47
 .. title: Blogging with Nikola and Org-mode
 .. slug: blogging-with-nikola-and-org-mode
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Welcome to the Un-Conference
-.. date: 2007/02/14 13:38:00
+.. date: 2007-02-14 13:38:00
 .. tags: ology
 .. slug: welcome-to-the-un-conference
 #+END_COMMENT

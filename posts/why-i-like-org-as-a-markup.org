@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Why I like Org as a markup
-.. date: 2011/01/12 18:00:00
+.. date: 2011-01-12 18:00:00
 .. tags: emacs, orgmode, writing
 .. slug: why-i-like-org-as-a-markup
 #+END_COMMENT

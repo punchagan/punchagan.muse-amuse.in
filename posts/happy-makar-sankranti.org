@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Happy Makar Sankranti
-.. date: 2010/01/14 09:56:00
+.. date: 2010-01-14 09:56:00
 .. tags: blab
 .. slug: happy-makar-sankranti
 #+END_COMMENT

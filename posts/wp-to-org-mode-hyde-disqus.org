@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: WP to org-mode + hyde + disqus
-.. date: 2010/10/22 14:49:00
+.. date: 2010-10-22 14:49:00
 .. tags: orgmode, wordpress
 .. slug: wp-to-org-mode-hyde-disqus
 #+END_COMMENT

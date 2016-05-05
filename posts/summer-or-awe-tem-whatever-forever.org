@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Summer or Awe-TEM!! Whatever... Forever
-.. date: 2007/06/13 18:29:00
+.. date: 2007-06-13 18:29:00
 .. tags: blab, ology, ps
 .. slug: summer-or-awe-tem-whatever-forever
 #+END_COMMENT

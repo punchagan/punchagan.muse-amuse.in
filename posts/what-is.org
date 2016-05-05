@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: What is... ?
-.. date: 2008/07/11 17:45:00
+.. date: 2008-07-11 17:45:00
 .. tags: blab, life, poem
 .. slug: what-is
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: mukt.in 2008
-.. date: 2008/07/18 19:16:00
+.. date: 2008-07-18 19:16:00
 .. tags: fest, hyderabad, ology
 .. slug: muktin-2008
 #+END_COMMENT

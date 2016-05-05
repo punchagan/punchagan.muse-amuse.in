@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Error: Missing one hebrew character
-.. date: 2012/11/21 21:01:00
+.. date: 2012-11-21 21:01:00
 .. tags: internet, passwords, web
 .. slug: error-missing-one-hebrew-character
 #+END_COMMENT

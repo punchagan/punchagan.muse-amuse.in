@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Selling Temples -- A How-to
-.. date: 2012/04/10 00:24:00
+.. date: 2012-04-10 00:24:00
 .. tags: humour, india, people
 .. slug: selling-temples-a-how-to
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Planning... to save a Sem!!??
-.. date: 2007/02/13 18:18:00
+.. date: 2007-02-13 18:18:00
 .. tags: blab, exams, life, ology, poem
 .. slug: planning-to-save-a-sem
 #+END_COMMENT

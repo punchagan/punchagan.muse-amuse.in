@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Love Unvoiced
-.. date: 2011/05/20 09:31:00
+.. date: 2011-05-20 09:31:00
 .. tags: life, love, me, poem
 .. slug: love-unvoiced
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: I wish a Wish.
-.. date: 2008/07/12 18:30:00
+.. date: 2008-07-12 18:30:00
 .. tags: birthday, blab, poem
 .. slug: i-wish-a-wish
 #+END_COMMENT

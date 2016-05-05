@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: A sabbatical
-.. date: 2008/07/04 19:33:00
+.. date: 2008-07-04 19:33:00
 .. tags: IRC, blab, emacs, ology
 .. slug: a-sabbatical
 #+END_COMMENT

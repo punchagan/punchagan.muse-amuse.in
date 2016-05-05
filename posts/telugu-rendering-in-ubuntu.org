@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Telugu Rendering in Ubuntu...
-.. date: 2007/07/11 12:11:00
+.. date: 2007-07-11 12:11:00
 .. tags: ology, ubuntu
 .. slug: telugu-rendering-in-ubuntu
 #+END_COMMENT

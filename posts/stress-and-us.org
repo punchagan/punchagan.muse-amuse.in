@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Stress and us
-.. date: 2009/09/25 03:36:00
+.. date: 2009-09-25 03:36:00
 .. tags: blab, ology, stress
 .. slug: stress-and-us
 #+END_COMMENT

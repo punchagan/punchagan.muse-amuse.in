@@ -3,7 +3,7 @@
 .. tags: idea, email, hack, ultimate, mumbai
 .. title: Scraping Google Groups
 .. link:
-.. date: 2013/12/31 19:55:58
+.. date: 2013-12-31 19:55:58
 .. type: text
 .. slug: scraping-google-groups
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Shoot!
-.. date: 2009/12/23 21:40:00
+.. date: 2009-12-23 21:40:00
 .. tags: blab, camera
 .. slug: shoot
 #+END_COMMENT

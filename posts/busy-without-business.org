@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Busy without Business...
-.. date: 2007/06/30 01:19:00
+.. date: 2007-06-30 01:19:00
 .. tags: blab, freedom, ps
 .. slug: busy-without-business
 #+END_COMMENT

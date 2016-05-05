@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Update Script
-.. date: 2008/07/08 20:39:00
+.. date: 2008-07-08 20:39:00
 .. tags: ology, python, wordpress
 .. slug: update-script
 #+END_COMMENT

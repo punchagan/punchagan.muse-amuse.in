@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: org2blog on the web
-.. date: 2010/08/29 20:57:00
+.. date: 2010-08-29 20:57:00
 .. tags: blab, list, ology, org2blog, web
 .. slug: org2blog-on-the-web
 #+END_COMMENT

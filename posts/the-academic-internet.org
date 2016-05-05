@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: The 'Academic' Internet
-.. date: 2008/10/10 22:39:00
+.. date: 2008-10-10 22:39:00
 .. tags: internet, ology
 .. slug: the-academic-internet
 #+END_COMMENT

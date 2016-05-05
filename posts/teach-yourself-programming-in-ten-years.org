@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Teach Yourself Programming in Ten Years!!
-.. date: 2007/02/02 09:05:00
+.. date: 2007-02-02 09:05:00
 .. tags: lafootgiri, learning, life, ology
 .. slug: teach-yourself-programming-in-ten-years
 #+END_COMMENT

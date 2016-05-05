@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Imbosomed!
-.. date: 2008/09/06 18:49:00
+.. date: 2008-09-06 18:49:00
 .. tags: blab, poem
 .. slug: imbosomed
 #+END_COMMENT

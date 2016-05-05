@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Hibernation
-.. date: 2010/04/26 22:34:00
+.. date: 2010-04-26 22:34:00
 .. tags: blab
 .. slug: hibernation
 #+END_COMMENT

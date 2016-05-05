@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: A git-diff tip
-.. date: 2012/08/22 23:06:00
+.. date: 2012-08-22 23:06:00
 .. tags: git, version_control
 .. slug: a-git-diff-tip
 #+END_COMMENT

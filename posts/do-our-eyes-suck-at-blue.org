@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Do our eyes suck at blue?
-.. date: 2010/11/13 13:26:00
+.. date: 2010-11-13 13:26:00
 .. tags: fun, hack, image_processing, python
 .. slug: do-our-eyes-suck-at-blue
 #+END_COMMENT

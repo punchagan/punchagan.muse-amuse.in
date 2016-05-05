@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Windows©, Doors or Homes!??!
-.. date: 2007/04/01 19:14:00
+.. date: 2007-04-01 19:14:00
 .. tags: blog, ology, rms, song
 .. slug: windowsc-doors-or-homes
 #+END_COMMENT

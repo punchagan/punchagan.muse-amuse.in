@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: GetHub: Chrome Notifications for Github updates
-.. date: 2011/03/02 00:34:00
+.. date: 2011-03-02 00:34:00
 .. tags: chrome, code, first, git, software
 .. slug: gethub-chrome-notifications-for-github-updates
 #+END_COMMENT

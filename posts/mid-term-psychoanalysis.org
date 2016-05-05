@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Mid-Term 'Psycho'Analysis
-.. date: 2008/07/15 19:23:00
+.. date: 2008-07-15 19:23:00
 .. tags: blab, emacs, internet, ology
 .. slug: mid-term-psychoanalysis
 #+END_COMMENT

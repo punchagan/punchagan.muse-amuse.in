@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Raise windows (on current desktop) xdotool & bash
-.. date: 2010/11/06 14:30:00
+.. date: 2010-11-06 14:30:00
 .. tags: code, hack
 .. slug: raise-windows-on-current-desktop-xdotool-bash
 #+END_COMMENT

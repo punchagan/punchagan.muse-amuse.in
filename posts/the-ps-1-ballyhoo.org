@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: The PS-1 Ballyhoo...
-.. date: 2007/04/06 17:58:00
+.. date: 2007-04-06 17:58:00
 .. tags: blab, ps
 .. slug: the-ps-1-ballyhoo
 #+END_COMMENT

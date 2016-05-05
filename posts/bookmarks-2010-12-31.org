@@ -2,7 +2,7 @@
 .. link:
 .. description:
 .. tags: bookmarks
-.. date: 2010/12/31 23:59:59
+.. date: 2010-12-31 23:59:59
 .. title: Bookmarks [2010/12/31]
 .. slug: bookmarks-2010-12-31
 .. category: bookmarks

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Happy gNew Year!!
-.. date: 2007/01/01 14:38:00
+.. date: 2007-01-01 14:38:00
 .. tags: blab, lafootgiri, ology, thanks
 .. slug: happy-gnew-year
 #+END_COMMENT

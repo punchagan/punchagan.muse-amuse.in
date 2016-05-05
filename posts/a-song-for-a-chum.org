@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: A Song for a Chum...
-.. date: 2007/04/25 06:20:00
+.. date: 2007-04-25 06:20:00
 .. tags: blab, song
 .. slug: a-song-for-a-chum
 #+END_COMMENT

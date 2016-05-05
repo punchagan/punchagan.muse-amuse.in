@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Notes from Pycon
-.. date: 2010/09/29 00:32:00
+.. date: 2010-09-29 00:32:00
 .. tags: event, python
 .. slug: notes-from-pycon
 #+END_COMMENT

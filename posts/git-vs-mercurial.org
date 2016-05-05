@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: git vs. mercurial
-.. date: 2010/08/01 19:58:00
+.. date: 2010-08-01 19:58:00
 .. tags: git
 .. slug: git-vs-mercurial
 #+END_COMMENT

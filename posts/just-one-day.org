@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Just one day
-.. date: 2012/11/26 00:10:00
+.. date: 2012-11-26 00:10:00
 .. tags: friend, life, poem
 .. slug: just-one-day
 #+END_COMMENT

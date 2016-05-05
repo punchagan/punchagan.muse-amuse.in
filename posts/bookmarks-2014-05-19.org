@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. title: Bookmarks [2014-05-19]
 .. slug: bookmarks-2014-05-19
-.. date: 05/19/2014 12:00:08 PM UTC+05:30
+.. date: 2014-05-19 12:00:08 PM UTC+05:30
 .. tags: bookmarks
 .. link:
 .. description:

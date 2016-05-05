@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: FOSS talks at CDEEP
-.. date: 2009/07/10 23:08:00
+.. date: 2009-07-10 23:08:00
 .. tags: ology
 .. slug: foss-talks-at-cdeep
 #+END_COMMENT

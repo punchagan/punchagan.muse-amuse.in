@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Another 60 ...
-.. date: 2010/07/18 18:00:00
+.. date: 2010-07-18 18:00:00
 .. tags: blab, cycling, herohawk, mumbai, nomadic
 .. slug: another-60
 #+END_COMMENT

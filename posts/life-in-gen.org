@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Life "In-gen"
-.. date: 2007/11/21 17:37:00
+.. date: 2007-11-21 17:37:00
 .. tags: blab, exams, lafootgiri, quark
 .. slug: life-in-gen
 #+END_COMMENT

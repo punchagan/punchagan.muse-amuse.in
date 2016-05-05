@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Unread (8,762)
-.. date: 2013/06/03 20:46:00
+.. date: 2013-06-03 20:46:00
 .. tags: blab, fiction, wait
 .. slug: unread-8762
 #+END_COMMENT

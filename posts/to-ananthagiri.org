@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: To Ananthagiri
-.. date: 2011/01/01 08:58:00
+.. date: 2011-01-01 08:58:00
 .. tags: cycling, hyderabad, lafoot
 .. slug: to-ananthagiri
 #+END_COMMENT

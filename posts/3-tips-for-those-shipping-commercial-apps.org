@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: 3 tips for those shipping (commercial) apps
-.. date: 2012/11/28 20:56:00
+.. date: 2012-11-28 20:56:00
 .. tags: enthought, programming, software, tips
 .. slug: 3-tips-for-those-shipping-commercial-apps
 #+END_COMMENT

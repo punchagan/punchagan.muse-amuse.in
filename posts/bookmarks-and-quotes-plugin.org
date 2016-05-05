@@ -2,7 +2,7 @@
 .. link:
 .. description: Web excursions plugin for Nikola
 .. tags: blog, code, nikola, orgmode
-.. date: 2013/10/19 20:26:13
+.. date: 2013-10-19 20:26:13
 .. title: Bookmarks and Quotes plugin
 .. slug: bookmarks-and-quotes-plugin
 #+END_COMMENT

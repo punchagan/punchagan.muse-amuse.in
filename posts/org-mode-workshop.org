@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Org-mode Workshop
-.. date: 2011/06/22 21:04:00
+.. date: 2011-06-22 21:04:00
 .. tags: emacs, hyderabad, orgmode
 .. slug: org-mode-workshop
 #+END_COMMENT

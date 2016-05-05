@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Another win for them!
-.. date: 2010/08/16 21:55:00
+.. date: 2010-08-16 21:55:00
 .. tags: note
 .. slug: another-win-for-them
 #+END_COMMENT

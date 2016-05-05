@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Revelations....
-.. date: 2007/03/18 18:46:00
+.. date: 2007-03-18 18:46:00
 .. tags: blab, quark
 .. slug: revelations
 #+END_COMMENT

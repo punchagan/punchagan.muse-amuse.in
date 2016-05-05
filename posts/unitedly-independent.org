@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Unitedly Independent!?
-.. date: 2007/08/15 08:45:00
+.. date: 2007-08-15 08:45:00
 .. tags: blab, india, politics
 .. slug: unitedly-independent
 #+END_COMMENT

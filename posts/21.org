@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: 21
-.. date: 2008/10/15 16:42:00
+.. date: 2008-10-15 16:42:00
 .. tags: birthday, blab, song
 .. slug: 21
 #+END_COMMENT

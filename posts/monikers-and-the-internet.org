@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Monikers and the Internet
-.. date: 2010/02/27 18:28:00
+.. date: 2010-02-27 18:28:00
 .. tags: internet, ology
 .. slug: monikers-and-the-internet
 #+END_COMMENT

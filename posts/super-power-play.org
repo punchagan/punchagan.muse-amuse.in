@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Super Power Play
-.. date: 2010/03/13 17:52:00
+.. date: 2010-03-13 17:52:00
 .. tags: blab, cricket, money
 .. slug: super-power-play
 #+END_COMMENT

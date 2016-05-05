@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Back to the Basics!!
-.. date: 2006/09/03 20:53:00
+.. date: 2006-09-03 20:53:00
 .. tags: blab, india
 .. slug: back-to-the-basics
 #+END_COMMENT

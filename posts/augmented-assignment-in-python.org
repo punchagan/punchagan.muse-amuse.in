@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Augmented assignment in Python
-.. date: 2010/10/04 22:49:00
+.. date: 2010-10-04 22:49:00
 .. tags: note, numpy, ology, python
 .. slug: augmented-assignment-in-python
 #+END_COMMENT

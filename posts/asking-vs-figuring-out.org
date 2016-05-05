@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Asking vs. Figuring out
-.. date: 2010/09/15 21:13:00
+.. date: 2010-09-15 21:13:00
 .. tags: note, thought, time
 .. slug: asking-vs-figuring-out
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: First 100!
-.. date: 2010/08/22 11:32:00
+.. date: 2010-08-22 11:32:00
 .. tags: cycling, herohawk, mumbai, nomadic
 .. slug: first-100
 #+END_COMMENT

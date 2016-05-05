@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Competition and Population
-.. date: 2010/07/30 06:25:00
+.. date: 2010-07-30 06:25:00
 .. tags: idea, note
 .. slug: competition-and-population
 #+END_COMMENT

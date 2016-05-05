@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: PyCon India '10
-.. date: 2010/08/16 09:28:00
+.. date: 2010-08-16 09:28:00
 .. tags: conference, event, note, python
 .. slug: pycon-india-10
 #+END_COMMENT

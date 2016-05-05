@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Looking through the view finder
-.. date: 2010/07/26 10:59:00
+.. date: 2010-07-26 10:59:00
 .. tags: camera, note
 .. slug: looking-through-the-view-finder
 #+END_COMMENT

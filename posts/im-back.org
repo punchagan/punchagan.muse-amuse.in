@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: I'm back
-.. date: 2010/07/17 18:00:00
+.. date: 2010-07-17 18:00:00
 .. tags: blab, first, org2blog, web
 .. slug: im-back
 #+END_COMMENT

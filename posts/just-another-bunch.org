@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Just another bunch
-.. date: 2010/03/18 00:41:00
+.. date: 2010-03-18 00:41:00
 .. tags: blab, life, poem
 .. slug: just-another-bunch
 #+END_COMMENT

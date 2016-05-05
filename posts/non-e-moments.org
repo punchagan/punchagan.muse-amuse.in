@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Non-e-Moments??!!
-.. date: 2007/04/13 18:31:00
+.. date: 2007-04-13 18:31:00
 .. tags: blab, life, ology
 .. slug: non-e-moments
 #+END_COMMENT

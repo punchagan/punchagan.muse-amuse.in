@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: The Journey minus "The Man!"
-.. date: 2006/12/17 19:04:00
+.. date: 2006-12-17 19:04:00
 .. tags: blab, loss
 .. slug: the-journey-minus-the-man
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: CET-ting their Lives??!!
-.. date: 2007/05/18 09:22:00
+.. date: 2007-05-18 09:22:00
 .. tags: , blab, hyderabad
 .. slug: cet-ting-their-lives
 #+END_COMMENT

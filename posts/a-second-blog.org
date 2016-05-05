@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: A Second Blog...
-.. date: 2007/04/04 11:46:00
+.. date: 2007-04-04 11:46:00
 .. tags: ology, posts, wordpress
 .. slug: a-second-blog
 #+END_COMMENT

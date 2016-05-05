@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Who I am
-.. date: 2010/10/04 19:31:00
+.. date: 2010-10-04 19:31:00
 .. tags: blab, life, poem
 .. slug: who-i-am
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Aluva to Mumbai
-.. date: 2010/08/03 02:32:00
+.. date: 2010-08-03 02:32:00
 .. tags: note
 .. slug: aluva-to-mumbai
 #+END_COMMENT

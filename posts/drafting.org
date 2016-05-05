@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Drafting
-.. date: 2010/08/07 13:14:00
+.. date: 2010-08-07 13:14:00
 .. tags: cycling, note, technique
 .. slug: drafting
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Surat Ultimate Open
-.. date: 2013/03/26 11:11:00
+.. date: 2013-03-26 11:11:00
 .. tags: awesome, first, fun, sport, surat, ultimate
 .. slug: surat-ultimate-open
 #+END_COMMENT

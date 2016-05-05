@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Vimperator and Firemacs!
-.. date: 2010/07/28 16:38:00
+.. date: 2010-07-28 16:38:00
 .. tags: emacs, ology
 .. slug: vimperator-and-firemacs
 #+END_COMMENT

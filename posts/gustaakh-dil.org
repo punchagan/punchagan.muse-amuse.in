@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Gustaakh Dil
-.. date: 2012/11/24 19:46:00
+.. date: 2012-11-24 19:46:00
 .. tags: love, lyrics, song
 .. slug: gustaakh-dil
 #+END_COMMENT

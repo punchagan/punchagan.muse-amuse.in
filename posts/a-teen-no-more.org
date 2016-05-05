@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: A Teen, No more.
-.. date: 2007/10/16 14:32:00
+.. date: 2007-10-16 14:32:00
 .. tags: birthday, blab
 .. slug: a-teen-no-more
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Bills and Billboards
-.. date: 2008/05/20 18:30:00
+.. date: 2008-05-20 18:30:00
 .. tags: blab, money, work
 .. slug: bills-and-billboards
 #+END_COMMENT

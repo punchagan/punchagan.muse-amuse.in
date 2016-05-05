@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: MTU and file transfers
-.. date: 2010/12/06 13:04:00
+.. date: 2010-12-06 13:04:00
 .. tags: ssh
 .. slug: mtu-and-file-transfers
 #+END_COMMENT

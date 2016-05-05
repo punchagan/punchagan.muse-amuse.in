@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: The Bus, its Ours!
-.. date: 2008/06/11 20:19:00
+.. date: 2008-06-11 20:19:00
 .. tags: blab, hyderabad
 .. slug: the-bus-its-ours
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: talk at GNUnify' 10
-.. date: 2010/02/28 20:58:00
+.. date: 2010-02-28 20:58:00
 .. tags: image_processing, ology, python, scipy
 .. slug: talk-at-gnunify-10
 #+END_COMMENT

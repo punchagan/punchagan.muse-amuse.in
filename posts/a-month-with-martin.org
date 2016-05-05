@@ -2,7 +2,7 @@
 .. link:
 .. description: Lessons from a month with Martin
 .. tags:
-.. date: 2013/11/10 17:13:17
+.. date: 2013-11-10 17:13:17
 .. title: A Month with Martin
 .. slug: a-month-with-martin
 #+END_COMMENT

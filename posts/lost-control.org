@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Lost Control??
-.. date: 2007/09/22 13:22:00
+.. date: 2007-09-22 13:22:00
 .. tags: blab, exams, lafootgiri
 .. slug: lost-control
 #+END_COMMENT

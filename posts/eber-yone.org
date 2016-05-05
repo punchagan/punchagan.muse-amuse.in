@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Eber-yone!?!
-.. date: 2007/05/06 13:37:00
+.. date: 2007-05-06 13:37:00
 .. tags: blab, exams
 .. slug: eber-yone
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: To do or not to do
-.. date: 2009/04/22 13:59:00
+.. date: 2009-04-22 13:59:00
 .. tags: blab, inspiration, life, poem
 .. slug: to-do-or-not-to-do
 #+END_COMMENT

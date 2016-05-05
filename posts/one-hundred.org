@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: One Hundred
-.. date: 2010/08/17 20:18:00
+.. date: 2010-08-17 20:18:00
 .. tags: note, thanks
 .. slug: one-hundred
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: I love FOSS.  How do I start contributing (code)?
-.. date: 2011/03/28 00:34:00
+.. date: 2011-03-28 00:34:00
 .. tags: contribute, foss, howto, newbie
 .. slug: i-love-foss-how-do-i-start-contributing-code
 #+END_COMMENT

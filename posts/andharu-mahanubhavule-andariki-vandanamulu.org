@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Andharu Mahanubhavule... Andariki Vandanamulu..
-.. date: 2007/03/27 17:43:00
+.. date: 2007-03-27 17:43:00
 .. tags: blab, life, thanks
 .. slug: andharu-mahanubhavule-andariki-vandanamulu
 #+END_COMMENT

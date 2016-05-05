@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Popularly Unpopular??
-.. date: 2007/03/01 02:43:00
+.. date: 2007-03-01 02:43:00
 .. tags: blab, lisp, ology
 .. slug: popularly-unpopular
 #+END_COMMENT

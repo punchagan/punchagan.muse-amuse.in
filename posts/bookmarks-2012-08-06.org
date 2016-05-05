@@ -2,7 +2,7 @@
 .. link:
 .. description:
 .. tags: bookmarks
-.. date: 2012/08/06 23:59:59
+.. date: 2012-08-06 23:59:59
 .. title: Bookmarks [2012/08/06]
 .. slug: bookmarks-2012-08-06
 .. category: bookmarks

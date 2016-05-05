@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Post-Q,W,A Post
-.. date: 2008/03/23 12:17:00
+.. date: 2008-03-23 12:17:00
 .. tags: blab, fest, quark
 .. slug: post-qwa-post
 #+END_COMMENT

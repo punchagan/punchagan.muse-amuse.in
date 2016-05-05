@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: who am I?
-.. date: 2008/12/02 16:14:00
+.. date: 2008-12-02 16:14:00
 .. tags: blab, life, poem
 .. slug: who-am-i
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: My talk at SciPy.in 2010
-.. date: 2010/12/20 18:17:00
+.. date: 2010-12-20 18:17:00
 .. tags: python, scipy
 .. slug: my-talk-at-scipyin-2010
 #+END_COMMENT

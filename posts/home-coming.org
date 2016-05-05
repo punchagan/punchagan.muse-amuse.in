@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Home Coming!
-.. date: 2008/05/15 23:46:00
+.. date: 2008-05-15 23:46:00
 .. tags: blab, lafootgiri, python
 .. slug: home-coming
 #+END_COMMENT

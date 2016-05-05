@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: A Confession
-.. date: 2009/09/13 18:24:00
+.. date: 2009-09-13 18:24:00
 .. tags: blab, mumbai
 .. slug: a-confession
 #+END_COMMENT

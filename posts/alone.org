@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Alone...
-.. date: 2007/05/10 12:38:00
+.. date: 2007-05-10 12:38:00
 .. tags: blab, poem
 .. slug: alone
 #+END_COMMENT

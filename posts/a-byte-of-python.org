@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: A Byte of Python
-.. date: 2008/09/07 17:08:00
+.. date: 2008-09-07 17:08:00
 .. tags: book, ology, python
 .. slug: a-byte-of-python
 #+END_COMMENT

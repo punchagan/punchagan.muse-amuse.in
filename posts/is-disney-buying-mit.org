@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Is Disney buying MIT??
-.. date: 2006/10/25 18:26:00
+.. date: 2006-10-25 18:26:00
 .. tags: blab, hack, ology
 .. slug: is-disney-buying-mit
 #+END_COMMENT

@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Unchosen Choices??!
-.. date: 2007/05/02 08:30:00
+.. date: 2007-05-02 08:30:00
 .. tags: blab, life
 .. slug: unchosen-choices
 #+END_COMMENT

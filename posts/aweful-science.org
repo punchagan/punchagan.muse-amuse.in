@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Awe[ful] @ Science !!?!??!
-.. date: 2006/12/21 18:20:00
+.. date: 2006-12-21 18:20:00
 .. tags: blab, kids, life, ology, science
 .. slug: aweful-science
 #+END_COMMENT

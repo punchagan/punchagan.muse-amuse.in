@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Long Lost Letters....
-.. date: 2007/03/24 01:51:00
+.. date: 2007-03-24 01:51:00
 .. tags: blab, letter
 .. slug: long-lost-letters
 #+END_COMMENT

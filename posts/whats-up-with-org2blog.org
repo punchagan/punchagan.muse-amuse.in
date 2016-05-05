@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: What's up with org2blog?
-.. date: 2011/01/15 11:10:00
+.. date: 2011-01-15 11:10:00
 .. tags: org2blog, wordpress
 .. slug: whats-up-with-org2blog
 #+END_COMMENT

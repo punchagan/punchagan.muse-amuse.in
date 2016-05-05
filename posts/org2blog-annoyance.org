@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: org2blog annoyance
-.. date: 2010/08/03 03:14:00
+.. date: 2010-08-03 03:14:00
 .. tags: note, org2blog, wordpress
 .. slug: org2blog-annoyance
 #+END_COMMENT

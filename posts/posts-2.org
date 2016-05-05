@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Posts.. 2
-.. date: 2007/07/26 20:43:00
+.. date: 2007-07-26 20:43:00
 .. tags: blab, posts
 .. slug: posts-2
 #+END_COMMENT

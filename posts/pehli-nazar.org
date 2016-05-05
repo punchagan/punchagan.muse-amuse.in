@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Pehli Nazar
-.. date: 2010/03/02 02:07:00
+.. date: 2010-03-02 02:07:00
 .. tags: book, camera, india, nomadic, photo, travel
 .. slug: pehli-nazar
 #+END_COMMENT

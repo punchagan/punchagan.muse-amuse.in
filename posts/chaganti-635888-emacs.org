@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: CHAGANTI 635888 Emacs
-.. date: 2011/02/03 03:46:00
+.. date: 2011-02-03 03:46:00
 .. tags: contribute, emacs, fsf, orgmode
 .. slug: chaganti-635888-emacs
 #+END_COMMENT

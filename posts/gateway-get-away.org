@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Gateway get away
-.. date: 2010/03/28 17:40:00
+.. date: 2010-03-28 17:40:00
 .. tags: cycling, herohawk, mumbai, nomadic
 .. slug: gateway-get-away
 #+END_COMMENT

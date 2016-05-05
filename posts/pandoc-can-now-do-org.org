@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Pandoc can now do Org
-.. date: 2010/12/06 12:52:00
+.. date: 2010-12-06 12:52:00
 .. tags: emacs, haskell, orgmode
 .. slug: pandoc-can-now-do-org
 #+END_COMMENT

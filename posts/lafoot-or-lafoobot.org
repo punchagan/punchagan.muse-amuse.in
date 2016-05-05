@@ -1,6 +1,6 @@
 #+BEGIN_COMMENT
 .. title: Lafoot or Lafoobot!
-.. date: 2008/05/26 16:39:00
+.. date: 2008-05-26 16:39:00
 .. tags: IRC, lafootgiri, ology, python
 .. slug: lafoot-or-lafoobot
 #+END_COMMENT

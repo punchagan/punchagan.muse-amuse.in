@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. title: Bookmarks [2014-03-12]
 .. slug: bookmarks-2014-03-12
-.. date: 2014/03/12 12:49:22
+.. date: 2014-03-12 12:49:22
 .. tags: bookmarks
 .. link:
 .. description:
