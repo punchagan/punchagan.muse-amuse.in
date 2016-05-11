@@ -86,6 +86,12 @@ read. I hope that making it public will lead to --
    :URL:      http://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281
    :END:
 
+** [[https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1][The Good Muslim: A Novel eBook: Tahmima Anam: Amazon.in: Kindle Store]] :fiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: An article on [[http://www.thehindu.com/thread/politics-and-policy/article8572707.ece][Tagore]] in The Hindu
+   :URL:      https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1
+   :END:
+
 * Current
 ** TOREVIEW [[http://www.amazon.com/dp/1455509124][So Good They Can't Ignore You]]                       :nonfiction:
 :PROPERTIES:

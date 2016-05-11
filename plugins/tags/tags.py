@@ -58,14 +58,15 @@ def add_tags(site, tags, filepaths, dry_run=False):
     NEW = 'new'
 
     for post in posts:
-        new_tags = _add_tags(post.tags[:], tags)
+        old_tags = _post_tags(post)
+        new_tags = _add_tags(old_tags[:], tags)
 
         if dry_run:
             print(FMT.format(
-                post.source_path, OLD, post.tags, NEW, new_tags)
+                post.source_path, OLD, old_tags, NEW, new_tags)
             )
 
-        elif new_tags != post.tags:
+        elif new_tags != old_tags:
             _replace_tags_line(post, new_tags)
 
     return new_tags
@@ -120,14 +121,15 @@ def merge_tags(site, tags, filepaths, dry_run=False):
     NEW = 'new'
 
     for post in posts:
-        new_tags = _clean_tags(post.tags[:], set(tags[:-1]), tags[-1])
+        old_tags = _post_tags(post)
+        new_tags = _clean_tags(old_tags[:], set(tags[:-1]), tags[-1])
 
         if dry_run:
             print(FMT.format(
-                post.source_path, OLD, post.tags, NEW, new_tags)
+                post.source_path, OLD, old_tags, NEW, new_tags)
             )
 
-        elif new_tags != post.tags:
+        elif new_tags != old_tags:
             _replace_tags_line(post, new_tags)
 
     return new_tags
@@ -158,14 +160,15 @@ def remove_tags(site, tags, filepaths, dry_run=False):
         new_tags = []
 
     for post in posts:
-        new_tags = _remove_tags(post.tags[:], tags)
+        old_tags = _post_tags(post)
+        new_tags = _remove_tags(old_tags[:], tags)
 
         if dry_run:
             print(FMT.format(
-                post.source_path, OLD, post.tags, NEW, new_tags)
+                post.source_path, OLD, old_tags, NEW, new_tags)
             )
 
-        elif new_tags != post.tags:
+        elif new_tags != old_tags:
             _replace_tags_line(post, new_tags)
 
     return new_tags
@@ -178,7 +181,12 @@ def search_tags(site, term):
 
     """
 
-    tags = site.posts_per_tag
+    tags = dict(site.posts_per_tag)
+    drafts = {'draft': [post for post in site.all_posts if post.is_draft]}
+    private = {'private': [post for post in site.all_posts if post.is_private]}
+    tags.update(drafts)
+    tags.update(private)
+
     search_re = re.compile(term.lower())
 
     matches = [
@@ -216,14 +224,15 @@ def sort_tags(site, filepaths, dry_run=False):
     NEW = 'new'
 
     for post in posts:
-        new_tags = sorted(post.tags)
+        old_tags = _post_tags(post)
+        new_tags = sorted(old_tags)
 
         if dry_run:
             print(FMT.format(
-                post.source_path, OLD, post.tags, NEW, new_tags)
+                post.source_path, OLD, old_tags, NEW, new_tags)
             )
 
-        elif new_tags != post.tags:
+        elif new_tags != old_tags:
             _replace_tags_line(post, new_tags)
 
     return new_tags
@@ -235,7 +244,20 @@ def _format_doc_string(function):
     return '\n'.join(doc_lines) + '\n'
 
 
+def _post_tags(post):
+    """Return the tags of a post, including special tags."""
+    tags = post.tags[:]
+    if post.is_draft:
+        tags.append('draft')
+
+    if post.is_private:
+        tags.append('private')
+
+    return tags
+
+
 class CommandTags(Command):
+
     """ Manage tags on the site.
 
     This plugin is inspired by `jtags <https://github.com/ttscoff/jtag>`_.
