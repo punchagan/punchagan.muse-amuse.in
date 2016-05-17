@@ -2,7 +2,7 @@
 .. title: Error messages and new users
 .. slug: error-messages-and-new-users
 .. date: 2016-05-17 12:52:36 UTC+05:30
-.. tags: draft, programming, software, user-experience, blab
+.. tags: programming, software, user-experience, blab
 .. category:
 .. link:
 .. description:
@@ -23,9 +23,10 @@ We finally got it working, but we found that the error messages were horrendous
 -- even for someone who has been using free and open-source tools for a while
 now.  Printing out errors from compiler or interpreter directly along with the
 stack trace is almost always the worst thing to do for a tool/utility (as
-opposed to an API or library).
+opposed to an API or library).  The stack trace is definitely useful, for
+developers trying to build upon or improve your tool.  Have a debug or
+development mode where developers can get all the information they need.
 
-If you care about your users, especially on keeping your new users, make sure
-you spend sufficient time on showing human-readable messages. If possible add a
-note or two on what could be the possible causes for this error, and tips for
-troubleshooting.
+If you care about your users, especially new users, make sure you spend
+sufficient time on showing human-readable messages. If possible list the
+possible causes for every error along with tips for troubleshooting.
