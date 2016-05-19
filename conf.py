@@ -605,7 +605,21 @@ NO_INDEX_CATEGORIES = set(['hackerschool-checkins', 'bookmarks', 'quotes'])
 USE_BUNDLES = True
 
 # Plugins you don't want to use. Be careful :-)
-# DISABLED_PLUGINS = ["render_galleries"]
+DISABLED_PLUGINS = [
+    'bootswatch_theme',
+    'gzip',
+    'install_theme',
+    'mako',
+    'py3_switch',
+    'redirect',
+    'render_authors',
+    'render_galleries',
+    'render_listings',
+    'rst2html',
+    'scale_images',
+    'share',
+    'version',
+]
 
 # Experimental plugins - use at your own risk.
 # They probably need some manual adjustments - please see their respective
