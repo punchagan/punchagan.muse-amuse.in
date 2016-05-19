@@ -621,19 +621,9 @@ DISABLED_PLUGINS = [
     'version',
 ]
 
-# Experimental plugins - use at your own risk.
-# They probably need some manual adjustments - please see their respective
-# readme.
-# ENABLED_EXTRAS = [
-#     'planetoid',
-#     'ipynb',
-#     'local_search',
-#     'render_mustache',
-# ]
-
 # List of regular expressions, links matching them will always be considered
 # valid by "nikola check -l"
-# LINK_CHECK_WHITELIST = []
+LINK_CHECK_WHITELIST = ['this-is-a-fun-hack', 'subsample.png']
 
 # If set to True, enable optional hyphenation in your posts (requires pyphen)
 # HYPHENATE = False
