@@ -21,7 +21,7 @@ Nikola's plugin repository since it is very specific to my setup.  But
 if anybody is interested, I can publish the code somewhere public.
 
 If you are interested to get these links and bookmarks into your feed reader,
-you can subscribe to their feed: [quotes], [[http://punchagan.muse-amuse.in/tags/cat_bookmarks.xml][bookmarks]].  These posts will also
+you can subscribe to their feed: [quotes], [[https://punchagan.muse-amuse.in/tags/cat_bookmarks.xml][bookmarks]].  These posts will also
 make it to the main feed, though.
 
 *UPDATE [2015-11-15 Sun 20:45]*
