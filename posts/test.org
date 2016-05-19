@@ -1,0 +1,13 @@
+#+BEGIN_COMMENT
+.. title: test
+.. slug: test
+.. date: 2016-05-19 11:17:52 UTC+05:30
+.. tags: draft
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+
+Write your post here.
