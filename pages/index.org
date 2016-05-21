@@ -15,12 +15,5 @@ feelings through his journey of life [[./posts/index.html][here]]. He loves crea
 computers flip bits, chasing flying Frisbees and long walks or bike rides. He's
 also interested in learning to learn better, and express his ideas better.
 
-punchagan collects his favorite quotes [[./quotes.html][here]], and look [[./tags/cat_bookmarks.html][here]] to find the kind of
-stuff he reads and likes.  He went to [[http://recurse.com][the Recurse Center]] (previously known as
-Hacker School) in the Summer of 2014 and [[./tags/cat_recursecenter-checkins.html][loved]] it.
-
-He occasionally tweets [[https://twitter.com/punchagan][here]], and you can find his code [[https://github.com/punchagan][here]]. You can email him
-at punchagan at this domain.
-
 ** Recent Posts
 #+HTML: {{% post-list %}}
