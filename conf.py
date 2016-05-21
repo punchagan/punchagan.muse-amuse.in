@@ -16,7 +16,7 @@ SITE_URL = "https://punchagan.muse-amuse.in/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://getnikola.com/"
-BLOG_EMAIL = "punchagan[@T]muse-amuse.in"
+BLOG_EMAIL = "punchagan+blog@muse-amuse.in"
 BLOG_DESCRIPTION = "For an idle mind is the devil's workshop."
 
 # Nikola is multilingual!
@@ -73,7 +73,8 @@ NAVIGATION_LINKS = {
         ('/reading-list.html', '<i class="fa fa-book on fa-lg"></i> Reading List'),
         ('/rss.xml', '<i class="fa fa-rss on fa-lg"></i> RSS'),
         ('https://github.com/punchagan', '<i class="fa fa-github on fa-lg"></i> GitHub'),
-        ('https://twitter.com/punchagan', '<i class="fa fa-twitter on fa-lg"></i> Twitter',),
+        ('https://twitter.com/punchagan', '<i class="fa fa-twitter on fa-lg"></i> Twitter'),
+        ('mailto:{}'.format(BLOG_EMAIL), '<i class="fa fa-at on fa-lg"></i> Email'),
     ),
 }
 
