@@ -354,8 +354,8 @@ DATE_FORMAT = '%d %b %Y'
 
 # A HTML fragment describing the license, for the sidebar.
 LICENSE = """
-<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
-Creative Commons Attribution 3.0 Unported License</a>
+<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+<img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a>
 """
 
 # A small copyright notice for the page footer (in HTML).
@@ -363,8 +363,9 @@ Creative Commons Attribution 3.0 Unported License</a>
 CONTENT_FOOTER = """<i class="fa fa-creative-commons fa-fw"></i>  {date}
 <a href="mailto:{email}">{author}</a> -
 <a href="http://getnikola.com">Nikola</a> powered -
-{license} -
-<a href="http://themes.getnikola.com/#{theme}">{theme}</a> theme"""
+<a href="http://themes.getnikola.com/#{theme}">{theme}</a> theme -
+{license}
+"""
 CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
                                        author=BLOG_AUTHOR,
                                        date=time.gmtime().tm_year,
