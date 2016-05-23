@@ -1,0 +1,19 @@
+#+BEGIN_COMMENT
+.. title: first aid and CPR
+.. slug: first-aid-and-cpr
+.. date: 2016-05-22 19:42:19 UTC+05:30
+.. tags: draft
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+Write your post here.
+
+Imagine you are on the hightway and there's a road accident. Would you know
+what to do?
+
+Alarming (XXX) number of people die in road accidents. Would it help if people
+were better educated?
