@@ -2,7 +2,7 @@
 .. title: Level-up Tools
 .. slug: level-up-tools
 .. date: 2016-05-23 21:38:14 UTC+05:30
-.. tags: draft
+.. tags: life, blab, blag, programming, learning
 .. category:
 .. link:
 .. description:
@@ -30,6 +30,5 @@ details. Sasha mentions in [[http://sasha.wtf/anki-post-1/][this post]] how usin
 about higher level things rather than trying to recall or search for what
 method or function to use to do something.
 
-What are some such tools that would really transform my arsenal?  Is there a
-systematic approach to discovering tools that could make such a huge impact on
-what we are doing?
+What are some such level-up tools for you? Is there a systematic approach to
+discovering tools?
