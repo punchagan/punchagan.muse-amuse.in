@@ -18,10 +18,10 @@ form. was only presenting it in a more usable form.
 Yesterday, I came across this quote in the very first chapter of [[https://twitter.com/allendowney][Allen Downey]]'s
 book [[http://greenteapress.com/thinkstats2/index.html][Think Stats]] which I liked a lot, and reminded me of this incident.
 
-[[https://pbs.twimg.com/media/CjNz6SgUUAA-6WG.jpg]]
+[[https://c2.staticflickr.com/8/7193/26969166130_58e4865f47_b.jpg]]
 
 I hadn't looked at the OKCupid data release and the discussion around it much,
-but I went back and read [[andhttps://points.datasociety.net/okcupid-data-release-fiasco-ba0388348cd#.u8xxlkqsv][this article]] by a social media researcher who thinks a
+but I went back and read [[https://points.datasociety.net/okcupid-data-release-fiasco-ba0388348cd#.u8xxlkqsv][this article]] by a social media researcher who thinks a
 lot about these things. 
 
 She puts forth a lot of interesting ideas to think about ethics. Some things
