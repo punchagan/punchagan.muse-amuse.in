@@ -2,7 +2,7 @@
 .. title: Thinking about Data Ethics
 .. slug: thinking-about-data-ethics
 .. date: 2016-05-25 21:06:56 UTC+05:30
-.. tags: draft, data, ethics, programming, blab, blag
+.. tags: data, ethics, programming, blab, blag
 .. category: 
 .. link: 
 .. description: 
