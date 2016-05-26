@@ -61,7 +61,7 @@ def generate_html_bit(site, context):
         return ''
 
     post = context['post']
-    if not post.is_post:
+    if not post.is_post or not post.related_posts:
         return ''
 
     return template.render(**context)
