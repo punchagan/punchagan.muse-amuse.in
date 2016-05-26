@@ -50,47 +50,6 @@ read. I hope that making it public will lead to --
 :END_DATE: [2016-01-13 Wed]
 :END:
 
-** [[http://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380][Where Good Ideas Come From]]                                   :nonfiction:
-:PROPERTIES:
-:SUGGESTED_BY: Cal Newport in "So Good They Can't Ignore You"
-:URL: http://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380
-:END:
-
-** [[http://www.amazon.com/gp/product/1455586692?keywords=cal%20newport%20deep%20work&qid=1453863282&ref_=sr_1_1&sr=8-1][Deep Work: Rules for Focused Success in a Distracted World]]   :nonfiction:
-:PROPERTIES:
-:SUGGESTED_BY: Cal Newport's blog/Myself.
-:URL: http://www.amazon.com/gp/product/1455586692?keywords=cal%20newport%20deep%20work&qid=1453863282&ref_=sr_1_1&sr=8-1
-:END:
-
-** [[http://www.amazon.com/Art-Readable-Code-Theory-Practice-ebook/dp/B0064CZ1XE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=][Amazon.com: The Art of Readable Code (Theory in Practice) eBook: Dustin Boswell, Trevor Foucher: Kindle Store]] :programming:nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: Sasha's [[http://sasha.wtf/unit-testing/][blog post]]
-   :URL:      http://www.amazon.com/Art-Readable-Code-Theory-Practice-ebook/dp/B0064CZ1XE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
-   :END:
-
-** [[http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X][When Breath Becomes Air]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: Vivek @ Jaaga
-   :URL:      http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X
-   :END:
-
-** [[http://www.amazon.com/Lean-In-Women-Work-Will/dp/0385349947][Lean In: Women, Work, and the Will to Lead]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: in an [[https://www.linkedin.com/pulse/20140311110227-69244073-8-ways-to-say-no-without-hurting-your-image][article]] shared by Sasha
-   :URL:      http://www.amazon.com/Lean-In-Women-Work-Will/dp/0385349947
-   :END:
-
-** [[http://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281][The Wall Street Journal Guide to Information Graphics: The Dos and Don'ts of Presenting Data, Facts, and Figures]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: [[https://medium.com/truth-labs/designing-data-driven-interfaces-a75d62997631#.we5f4bbbf][Article]] on designing data driven interfaces
-   :URL:      http://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281
-   :END:
-
-** [[https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1][The Good Muslim: A Novel eBook: Tahmima Anam: Amazon.in: Kindle Store]] :fiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: An article on [[http://www.thehindu.com/thread/politics-and-policy/article8572707.ece][Tagore]] in The Hindu
-   :URL:      https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1
-   :END:
 
 * Current
 ** TOREVIEW [[http://www.amazon.com/dp/1455509124][So Good They Can't Ignore You]]                       :nonfiction:
@@ -287,6 +246,47 @@ Every book that has caught my eye, since I started keeping this list.
 :SUGGESTED_BY: In a Where There's Smoke [[http://wheretheressmoke.libsyn.com/how-to-make-it-quality][podcast]]
 :URL: http://www.amazon.com/Mastery-Robert-Greene/dp/014312417X
 :END:
+** [[http://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380][Where Good Ideas Come From]]                                   :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Cal Newport in "So Good They Can't Ignore You"
+:URL: http://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380
+:END:
+
+** [[http://www.amazon.com/gp/product/1455586692?keywords=cal%20newport%20deep%20work&qid=1453863282&ref_=sr_1_1&sr=8-1][Deep Work: Rules for Focused Success in a Distracted World]]   :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Cal Newport's blog/Myself.
+:URL: http://www.amazon.com/gp/product/1455586692?keywords=cal%20newport%20deep%20work&qid=1453863282&ref_=sr_1_1&sr=8-1
+:END:
+
+** [[http://www.amazon.com/Art-Readable-Code-Theory-Practice-ebook/dp/B0064CZ1XE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=][Amazon.com: The Art of Readable Code (Theory in Practice) eBook: Dustin Boswell, Trevor Foucher: Kindle Store]] :programming:nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: Sasha's [[http://sasha.wtf/unit-testing/][blog post]]
+   :URL:      http://www.amazon.com/Art-Readable-Code-Theory-Practice-ebook/dp/B0064CZ1XE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
+   :END:
+
+** [[http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X][When Breath Becomes Air]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: Vivek @ Jaaga
+   :URL:      http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X
+   :END:
+
+** [[http://www.amazon.com/Lean-In-Women-Work-Will/dp/0385349947][Lean In: Women, Work, and the Will to Lead]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: in an [[https://www.linkedin.com/pulse/20140311110227-69244073-8-ways-to-say-no-without-hurting-your-image][article]] shared by Sasha
+   :URL:      http://www.amazon.com/Lean-In-Women-Work-Will/dp/0385349947
+   :END:
+
+** [[http://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281][The Wall Street Journal Guide to Information Graphics: The Dos and Don'ts of Presenting Data, Facts, and Figures]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: [[https://medium.com/truth-labs/designing-data-driven-interfaces-a75d62997631#.we5f4bbbf][Article]] on designing data driven interfaces
+   :URL:      http://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281
+   :END:
+
+** [[https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1][The Good Muslim: A Novel eBook: Tahmima Anam: Amazon.in: Kindle Store]] :fiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: An article on [[http://www.thehindu.com/thread/politics-and-policy/article8572707.ece][Tagore]] in The Hindu
+   :URL:      https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1
+   :END:
 
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
