@@ -23,10 +23,11 @@
 .book-figure-info-label::after {
     content: ": ";
 }
-
+.related-posts {
+    margin-top: 3em;
+}
 .related-posts ul {
     list-style-type: none;
     padding-left: 0px;
     font-size: 75%;
-    margin-top: 3em;
 }
