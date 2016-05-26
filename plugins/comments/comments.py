@@ -30,7 +30,7 @@ import jinja2
 from nikola.plugin_categories import ConfigPlugin
 
 TEMPLATE = """
-<section class="comments">
+<section class="wrap container comments">
     <p style="text-align: center; font-size: 60%; margin: 10px; background: #F5F5DC; padding: 10px; border-radius: 5px;">
         If you would like to comment on something I've said here, <a href="mailto:punchagan+blog@muse-amuse.in?subject=Comment on {{title|e}}">send
         me an email</a> or get in touch with me on <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text={{title|e}} is interesting, /cc: @punchagan&url={{ post.permalink(absolute=True) }}">twitter</a>.
