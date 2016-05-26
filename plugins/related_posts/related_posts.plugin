@@ -1,0 +1,10 @@
+[Core]
+Name = related_posts
+Module = related_posts
+
+[Documentation]
+Author = Puneeth Chaganti
+Version = 0.1
+Website = '#'
+Description = Adds list of related posts for each post.
+
