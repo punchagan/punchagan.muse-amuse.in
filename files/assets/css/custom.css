@@ -23,3 +23,8 @@
 .book-figure-info-label::after {
     content: ": ";
 }
+
+.related-posts ul {
+    list-style-type: none;
+    padding-left: 0px;
+}

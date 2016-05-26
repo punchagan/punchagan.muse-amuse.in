@@ -43,7 +43,7 @@ from scipy.spatial.distance import cdist
 TEMPLATE = """
 <section class="wrap container comments">
 <h2> Related Posts </h2>
-<ul>
+<ul class="related-posts">
 {% for related_post in post.related_posts %}
 <li><a href="{{related_post.url}}">{{ related_post.title }}</a></li>
 {% endfor %}
