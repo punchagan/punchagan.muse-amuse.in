@@ -1,0 +1,10 @@
+[Core]
+Name = comments
+Module = comments
+
+[Documentation]
+Author = Puneeth Chaganti
+Version = 0.1
+Website = '#'
+Description = Adds a note to ask for comments via email.
+
