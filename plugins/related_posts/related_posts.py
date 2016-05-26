@@ -42,10 +42,10 @@ from scipy.spatial.distance import cdist
 
 TEMPLATE = """
 <section class="related wrap container content">
-<h3> Related Posts </h3>
+<h2> Related Posts </h2>
 <ul class="related-posts">
 {% for related_post in post.related_posts %}
-<li><a href="{{related_post.url}}">{{ related_post.title }}</a></li>
+<li><h3><a href="{{related_post.url}}">{{ related_post.title }}</a></h3></li>
 {% endfor %}
 </ul>
 </section>
