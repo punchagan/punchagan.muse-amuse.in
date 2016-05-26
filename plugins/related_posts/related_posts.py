@@ -36,6 +36,7 @@ import string
 
 import jinja2
 from nikola.plugin_categories import Task
+from nikola.utils import config_changed
 import numpy as np
 from scipy.spatial.distance import cdist
 
@@ -94,7 +95,7 @@ def _get_post_tf_idf_vector(tfs, idfs, vocabulary):
     return vector
 
 
-def get_related_posts(site):
+def get_related_posts(site, count=5):
     """Get related posts for all the posts."""
 
     posts = [p for p in site.timeline if p.use_in_feeds]
@@ -127,7 +128,7 @@ def get_related_posts(site):
     for i, post in enumerate(posts):
         related = [
             {'title': posts[index].title(), 'url': posts[index].permalink(absolute=True),}
-            for index in sorted_indexes[i][1:6] # nearest post would be itself
+            for index in sorted_indexes[i][1:count+1] # nearest post would be itself
         ]
         related_posts[post.source_path] = post.related_posts = related
 
@@ -151,9 +152,14 @@ class RelatedPosts(Task):
         for post in self.site.timeline:
             post.related_posts = related_posts.get(post.source_path, [])
 
+        kw = {
+            'count': self.site.config.get('RELATED_POSTS_COUNT', 5),
+            'cached_related_posts': len(related_posts) > 0,
+        }
+
         yield {
             'basename': self.name,
-            'actions': [(get_related_posts, (self.site,))],
+            'actions': [(get_related_posts, (self.site, kw['count']))],
             'task_dep': ['render_posts:timeline_changes'],
-            'uptodate': [len(related_posts) > 0],
+            'uptodate': [config_changed(kw)],
         }
