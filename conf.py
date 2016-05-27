@@ -549,7 +549,7 @@ $(document).ready(function() {
 </script>
 
 <!-- RC Scout -->
-<div class="rc-scout wrap"></div>
+<div class="rc-scout wrap" title="Want to become a better programmer?"></div>
 <script async defer src="https://www.recurse-scout.com/loader.js?t=8b0acf2a60ae4365bee9568bede83f28"></script>
 
 """
