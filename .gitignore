@@ -51,3 +51,4 @@ Guardfile
 
 # Emacs stuff
 TAGS
+.env
