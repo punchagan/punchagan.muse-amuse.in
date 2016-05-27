@@ -26,9 +26,16 @@
 
 
 .rc-scout {
-max-width: 1.2rem;
-max-height: 1.5rem;
-position: absolute;
-top: 1em;
-left: 1em;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    position: absolute;
+    top: 1.125em;
+    right: 4em;
+}
+
+@media (max-width: 48em) {
+    .rc-scout {
+        right: auto;
+        left: 1em;
+    }
 }

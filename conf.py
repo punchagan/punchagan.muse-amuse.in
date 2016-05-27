@@ -549,6 +549,7 @@ $(document).ready(function() {
 </script>
 
 <!-- RC Scout -->
+<div class="rc-scout wrap"></div>
 <script async defer src="https://www.recurse-scout.com/loader.js?t=8b0acf2a60ae4365bee9568bede83f28"></script>
 
 """
