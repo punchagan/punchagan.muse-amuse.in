@@ -1,0 +1,4 @@
+[submodule "themes/lanyon"]
+	path = themes/lanyon
+	url = git@github.com:punchagan/lanyon
+	
