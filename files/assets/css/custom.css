@@ -23,3 +23,12 @@
 .book-figure-info-label::after {
     content: ": ";
 }
+
+
+.rc-scout {
+max-width: 1.2rem;
+max-height: 1.5rem;
+position: absolute;
+top: 1em;
+left: 1em;
+}
