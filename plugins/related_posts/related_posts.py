@@ -30,9 +30,7 @@ import codecs
 from collections import Counter
 import functools
 import math
-import operator
 import re
-import string
 
 import jinja2
 from nikola.plugin_categories import Task
@@ -52,7 +50,8 @@ TEMPLATE = """
 </section>
 """
 
-PUNCTUATION = re.compile('[{}]'.format(string.punctuation))
+STRIP_RE = re.compile('[^A-Za-z ]')
+TOKEN_RE = re.compile(r"(?u)\b\w\w+\b")
 
 env = jinja2.Environment()
 template = env.from_string(TEMPLATE)
@@ -69,7 +68,7 @@ def generate_html_bit(site, context):
     return template.render(**context)
 
 def _get_post_text(post):
-    """ Return the text of a given post. """
+    """ Return the text for the given post. """
 
     with codecs.open(post.source_path, 'r', 'utf-8') as post_file:
         post_text = post_file.read().lower()
@@ -77,12 +76,26 @@ def _get_post_text(post):
             post_text = post_text.split('\n\n', 1)[-1]
         post_text = post.title() + ' ' + post_text
 
-    return PUNCTUATION.sub('', post_text).lower()
+    return post_text.lower()
 
 
-def _get_post_tfs(post):
+def _get_post_words(post, use_tags=False):
+    """ Return words from the text of a given post. """
+
     post_text = _get_post_text(post)
-    word_counts = Counter(post_text.split())
+    # post_words = STRIP_RE.sub('', post_text).lower().split()
+    post_words = TOKEN_RE.findall(post_text.lower())
+
+    if use_tags:
+        tags = set(post.tags)
+        post_words = list(tags) + [word for word in post_words if word in tags]
+
+    return post_words
+
+
+def _get_post_tfs(post, use_tags=False):
+    post_words = _get_post_words(post, use_tags=use_tags)
+    word_counts = Counter(post_words)
     length_ = math.sqrt(sum([x*x for x in word_counts.values()]))
     tf = {word: count/length_ for word, count in word_counts.items()}
     return tf
@@ -95,35 +108,14 @@ def _get_post_tf_idf_vector(tfs, idfs, vocabulary):
     return vector
 
 
-def get_related_posts(site, count=5):
-    """Get related posts for all the posts."""
+def compute_related_posts(site, count=5):
+    """Compute and set related_posts attribute for all the posts."""
 
     posts = [p for p in site.timeline if p.use_in_feeds]
-    n = len(posts)
-    post_tfs = {
-        post.source_path: _get_post_tfs(post) for post in posts
-    }
-
-    def update_idf(idf, terms):
-        # Add 1 to idf for every word in terms
-        idf.update(terms.keys())
-        return idf
-
-    word_document_counts = functools.reduce(update_idf, post_tfs.values(), Counter())
-    idfs = {word: math.log(n/(1+x)) for word, x in word_document_counts.items()}
-    vocabulary = sorted(idfs)
-
-    tf_idf_vectors = {
-        post:
-        _get_post_tf_idf_vector(post_tfs[post.source_path], idfs, vocabulary)
-        for post in posts
-    }
-
-    related_posts = {}
-    posts = list(tf_idf_vectors.keys())
-    vectors = np.array(list(tf_idf_vectors.values()))
+    vectors = get_tf_idf_vectors(posts)
     distances = cdist(vectors, vectors, 'cosine')
     sorted_indexes = np.argsort(distances)
+    related_posts = {}
 
     for i, post in enumerate(posts):
         related = [
@@ -133,6 +125,60 @@ def get_related_posts(site, count=5):
         related_posts[post.source_path] = post.related_posts = related
 
     site.cache.set('related_posts', related_posts)
+    return related_posts
+
+
+def get_tf_idf_vectors(posts, use_tags=False, stop_words=False, min_df=None, max_df=None):
+    """Return a tf-idf vectors array for the given posts."""
+
+    n = len(posts)
+    post_tfs = {
+        post.source_path: _get_post_tfs(post, use_tags=use_tags) for post in posts
+    }
+
+    def update_idf(idf, terms):
+        # Add 1 to idf for every word in terms
+        idf.update(terms.keys())
+        return idf
+
+    word_document_counts = functools.reduce(update_idf, post_tfs.values(), Counter())
+    idfs = {word: math.log(n/(1+x)) for word, x in word_document_counts.items()}
+
+    if isinstance(min_df, float):
+        min_df = int(min_df*n)
+
+    if isinstance(min_df, int):
+        max_idf = math.log(n/(1+min_df))
+
+    else:
+        max_idf = math.log(n)
+
+    if isinstance(max_df, float):
+        max_df = int(max_df*n)
+
+    if isinstance(max_df, int):
+        min_idf = math.log(n/(1+max_df))
+
+    else:
+        min_idf = math.log(n/(1+n))
+
+    idfs = {word: idf for word, idf in idfs.items() if min_idf <= idf <= max_idf}
+
+
+    if stop_words:
+        from sklearn.feature_extraction.stop_words import ENGLISH_STOP_WORDS
+        vocabulary = sorted(set(idfs) - ENGLISH_STOP_WORDS)
+
+    else:
+        vocabulary = sorted(idfs)
+
+
+    tf_idf_vectors = [
+        _get_post_tf_idf_vector(post_tfs[post.source_path], idfs, vocabulary)
+        for post in posts
+    ]
+
+    return np.array(tf_idf_vectors), vocabulary
 
 
 class RelatedPosts(Task):
@@ -159,7 +205,7 @@ class RelatedPosts(Task):
 
         yield {
             'basename': self.name,
-            'actions': [(get_related_posts, (self.site, kw['count']))],
+            'actions': [(compute_related_posts, (self.site, kw['count']))],
             'task_dep': ['render_posts:timeline_changes'],
             'uptodate': [config_changed(kw)],
         }
