@@ -2,7 +2,7 @@
 .. title: Save the Map -- Please respond
 .. slug: save-the-map-please-respond
 .. date: 2016-05-28 20:48:30 UTC+05:30
-.. tags: draft
+.. tags: blag, india, maps, legal
 .. category:
 .. link:
 .. description:
@@ -18,9 +18,11 @@ geospatial information of India which is likely to affect the security,
 sovereignty and integrity of India.
 #+END_QUOTE
 
-Unfortunately, the bill defines /geospatial information/ so broadly that taking
-a geo-tagged picture at the Taj mahal or sharing the location of your house for
-a meal delivery would have you breaking the law.
+Even if you put aside questions about how a vetting process, for "dealing with"
+any geospatial information, would help with the said goals, the bill defines
+/geospatial information/ so broadly that even taking a geo-tagged picture at
+the Taj mahal or sharing the location of your house for a meal delivery would
+have you breaking the law.
 
 A group of volunteers made [[http://savethemap.in][Save the map]] which has more information on this,
 along with a draft response that you can send to the Ministry.  Please respond
