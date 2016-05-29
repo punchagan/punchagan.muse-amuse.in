@@ -52,3 +52,4 @@ Guardfile
 # Emacs stuff
 TAGS
 .env
+.ipynb_checkpoints/
