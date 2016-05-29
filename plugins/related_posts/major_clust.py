@@ -6,6 +6,7 @@ import numpy as np
 
 from scipy.spatial.distance import cdist
 
+
 DOCUMENTS = [
     "foo blub baz",
     "foo bar baz",
@@ -17,63 +18,31 @@ DOCUMENTS = [
     "123 890 uiop",
 ]
 
+
 def vectorize_documents(documents, **kwargs):
     vectorizer = TfidfVectorizer(**kwargs)
-    return vectorizer.fit_transform(documents)
+    return vectorizer.fit_transform(documents), vectorizer.get_feature_names()
 
 
-def visualize_clusters(documents, labels):
+def visualize_clusters(X, documents, labels, vocabulary):
     clusters = {}
 
     for i, label in enumerate(labels):
-        clusters.setdefault(label, []).append(documents[i])
+        clusters.setdefault(label, []).append((X[i], documents[i]))
 
     for cluster in clusters:
         print(80*"=")
-        print("\n".join(clusters[cluster]))
+        for vector, title in clusters[cluster]:
+            print('{} - {}'.format(title, ','.join(top_words(vector, vocabulary))))
 
     return clusters
 
 
-def majorclust_sklearn(texts):
-    vectorizer = TfidfVectorizer()
-    corpus_mat = vectorizer.fit_transform(texts)
-    num_of_samples, num_of_features = corpus_mat.shape
-
-    cosine_distances = np.zeros((num_of_samples, num_of_samples))
-    for i in range(len(texts)):
-        cosine_distances[i] = linear_kernel(corpus_mat[i:i+1], corpus_mat).flatten()
-        cosine_distances[i, i] = 0
-
-    t = False
-    indices = np.arange(num_of_samples)
-    while not t:
-        t = True
-        shuffled_indices = np.arange(num_of_samples)
-        shuffle(shuffled_indices)
-        for index in shuffled_indices:
-            # aggregating edge weights
-            new_index = np.argmax(np.bincount(indices,
-                                              weights=cosine_distances[index]))
-            if indices[new_index] != indices[index]:
-                indices[index] = indices[new_index]
-                t = False
-
-    print(indices)
-
-    clusters = {}
-    for index, target in enumerate(indices):
-        clusters.setdefault(target, []).append(texts[index])
-
-    # for cluster in clusters:
-    #     print(80*"=")
-    #     print("\n".join(clusters[cluster]))
+def top_words(vector, vocabulary, n=10):
+    return [vocabulary[i] for i in np.argsort(vector.toarray()[0])[::-1][:n]]
 
 
-    return clusters
-
-
-def majorclust2(X):
+def majorclust(X):
     # convert sparse matrix to array
     if not isinstance(X, np.ndarray):
         X = X.toarray()
@@ -105,13 +74,7 @@ if __name__ == '__main__':
     titles = [p.title() for p in posts]
     texts = [_get_post_text(p) for p in posts]
 
-    majorclust_sklearn(texts)
-
-    print()
-    print('X' * 40)
-    print()
-
-    X = vectorize_documents(texts)
-    labels2 = majorclust2(X)
-    visualize_clusters(titles, labels2)
-    print(set(labels2))
+    X, vocabulary = vectorize_documents(texts)
+    labels = majorclust(X)
+    visualize_clusters(X, titles, labels, vocabulary)
+    print(set(labels), len(set(labels)))
