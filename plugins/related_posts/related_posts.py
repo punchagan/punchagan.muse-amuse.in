@@ -37,6 +37,7 @@ from nikola.plugin_categories import Task
 from nikola.utils import config_changed
 import numpy as np
 from scipy.spatial.distance import cdist
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 TEMPLATE = """
@@ -79,42 +80,17 @@ def _get_post_text(post):
     return post_text.lower()
 
 
-def _get_post_words(post, use_tags=False):
-    """ Return words from the text of a given post. """
-
-    post_text = _get_post_text(post)
-    # post_words = STRIP_RE.sub('', post_text).lower().split()
-    post_words = TOKEN_RE.findall(post_text.lower())
-
-    if use_tags:
-        tags = set(post.tags)
-        post_words = list(tags) + [word for word in post_words if word in tags]
-
-    return post_words
-
-
-def _get_post_tfs(post, use_tags=False):
-    post_words = _get_post_words(post, use_tags=use_tags)
-    word_counts = Counter(post_words)
-    length_ = math.sqrt(sum([x*x for x in word_counts.values()]))
-    tf = {word: count/length_ for word, count in word_counts.items()}
-    return tf
-
-def _get_post_tf_idf_vector(tfs, idfs, vocabulary):
-    vector = [
-        tfs[word] * idfs[word] if word in tfs else 0
-        for word in vocabulary
-    ]
-    return vector
-
-
 def compute_related_posts(site, count=5):
     """Compute and set related_posts attribute for all the posts."""
 
+    vectorizer = TfidfVectorizer(max_df=0.5, min_df=2, stop_words='english', use_idf=True)
     posts = [p for p in site.timeline if p.use_in_feeds]
-    vectors = get_tf_idf_vectors(posts)
+    post_texts = [_get_post_text(post) for post in posts]
+    vectors = vectorizer.fit_transform([_get_post_text(post) for post in posts]).toarray()
+    vocabulary = vectorizer.get_feature_names()
     distances = cdist(vectors, vectors, 'cosine')
     sorted_indexes = np.argsort(distances)
+
     related_posts = {}
 
     for i, post in enumerate(posts):
@@ -126,59 +102,6 @@ def compute_related_posts(site, count=5):
 
     site.cache.set('related_posts', related_posts)
     return related_posts
-
-
-def get_tf_idf_vectors(posts, use_tags=False, stop_words=False, min_df=None, max_df=None):
-    """Return a tf-idf vectors array for the given posts."""
-
-    n = len(posts)
-    post_tfs = {
-        post.source_path: _get_post_tfs(post, use_tags=use_tags) for post in posts
-    }
-
-    def update_idf(idf, terms):
-        # Add 1 to idf for every word in terms
-        idf.update(terms.keys())
-        return idf
-
-    word_document_counts = functools.reduce(update_idf, post_tfs.values(), Counter())
-    idfs = {word: math.log(n/(1+x)) for word, x in word_document_counts.items()}
-
-    if isinstance(min_df, float):
-        min_df = int(min_df*n)
-
-    if isinstance(min_df, int):
-        max_idf = math.log(n/(1+min_df))
-
-    else:
-        max_idf = math.log(n)
-
-    if isinstance(max_df, float):
-        max_df = int(max_df*n)
-
-    if isinstance(max_df, int):
-        min_idf = math.log(n/(1+max_df))
-
-    else:
-        min_idf = math.log(n/(1+n))
-
-    idfs = {word: idf for word, idf in idfs.items() if min_idf <= idf <= max_idf}
-
-
-    if stop_words:
-        from sklearn.feature_extraction.stop_words import ENGLISH_STOP_WORDS
-        vocabulary = sorted(set(idfs) - ENGLISH_STOP_WORDS)
-
-    else:
-        vocabulary = sorted(idfs)
-
-
-    tf_idf_vectors = [
-        _get_post_tf_idf_vector(post_tfs[post.source_path], idfs, vocabulary)
-        for post in posts
-    ]
-
-    return np.array(tf_idf_vectors), vocabulary
 
 
 class RelatedPosts(Task):
