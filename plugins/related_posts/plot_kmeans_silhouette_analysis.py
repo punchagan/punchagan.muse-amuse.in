@@ -32,12 +32,16 @@ verified from the labelled scatter plot on the right.
 
 from __future__ import print_function
 
+import codecs
+
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_samples, silhouette_score
 
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import numpy as np
+from sklearn.feature_extraction.text import TfidfVectorizer
+
 
 def get_nikola_posts():
     from nikola import Nikola
@@ -52,34 +56,32 @@ def get_nikola_posts():
     return [p for p in site.timeline if p.use_in_feeds]
 
 
-def get_nikola_vectors(our_vectorizer=False):
-    from related_posts import get_tf_idf_vectors
+def get_post_text(post):
+    """ Return the text for the given post. """
+
+    with codecs.open(post.source_path, 'r', 'utf-8') as post_file:
+        post_text = post_file.read().lower()
+        if not post.is_two_file:
+            post_text = post_text.split('\n\n', 1)[-1]
+        post_text = post.title() + ' ' + post_text
+
+    return post_text.lower()
+
+
+def get_nikola_vectors():
     posts = get_nikola_posts()
-
-    if our_vectorizer:
-        vectors, vocabulary = get_tf_idf_vectors(posts, stop_words=True, min_df=2, max_df=0.75)
-        # vectors, vocabulary = get_tf_idf_vectors(posts, use_tags=True, min_df=2, max_df=0.5)
-
-    else:
-        from sklearn.feature_extraction.text import TfidfVectorizer
-        from related_posts import _get_post_text
-        vectorizer = TfidfVectorizer(max_df=0.75, min_df=2, stop_words='english', use_idf=True)
-        vectors = vectorizer.fit_transform([_get_post_text(post) for post in posts])
-        vocabulary = vectorizer.get_feature_names()
+    vectorizer = TfidfVectorizer(max_df=0.5, min_df=2, stop_words='english', use_idf=True)
+    vectors = vectorizer.fit_transform([get_post_text(post) for post in posts])
+    vocabulary = vectorizer.get_feature_names()
 
     return posts, vectors, vocabulary
+
 
 if __name__ == '__main__':
     print(__doc__)
 
 
-    # FIXME: There's something wrong with our vectorizer...
-    # posts, X1, vocabulary1 = get_nikola_vectors()
-    # posts, X2, vocabulary2 = get_nikola_vectors(our_vectorizer=True)
-    # The vocabulary matches, but not the vectors.
-
     posts, X, vocabulary = get_nikola_vectors()
-
 
     n_components = 3
 
@@ -122,10 +124,10 @@ if __name__ == '__main__':
 
         if n_components:
             original_space_centroids = svd.inverse_transform(clusterer.cluster_centers_)
-            ordered_cluter_indices = np.abs(original_space_centroids).argsort()[:, :10]
+            ordered_cluter_indices = np.abs(original_space_centroids).argsort()[:, -10:][::-1]
 
         else:
-            ordered_cluter_indices = np.abs(clusterer.cluster_centers_).argsort()[:, :10]
+            ordered_cluter_indices = np.abs(clusterer.cluster_centers_).argsort()[:, -10:][::-1]
 
         for i, cluster_indices in enumerate(ordered_cluter_indices):
             keywords_ = [vocabulary[index] for index in cluster_indices]
