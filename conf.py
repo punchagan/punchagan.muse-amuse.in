@@ -107,6 +107,7 @@ URL_TYPE = 'full_path'
 
 POSTS = (
     ("posts/*.org", "posts", "post.tmpl"),
+    ("posts/*.ipynb", "posts", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.org", "", "post.tmpl"),
