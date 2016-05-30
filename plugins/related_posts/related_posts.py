@@ -68,24 +68,16 @@ def generate_html_bit(site, context):
 
     return template.render(**context)
 
-def _get_post_text(post):
-    """ Return the text for the given post. """
-
-    with codecs.open(post.source_path, 'r', 'utf-8') as post_file:
-        post_text = post_file.read().lower()
-        if not post.is_two_file:
-            post_text = post_text.split('\n\n', 1)[-1]
-        post_text = post.title() + ' ' + post_text
-
-    return post_text.lower()
-
 
 def compute_related_posts(site, count=5):
     """Compute and set related_posts attribute for all the posts."""
 
     vectorizer = TfidfVectorizer(max_df=0.5, min_df=2, stop_words='english', use_idf=True)
     posts = [p for p in site.timeline if p.use_in_feeds]
-    post_texts = [_get_post_text(post) for post in posts]
+    post_texts = [
+        '{} {}'.format(post.title(), post.text(strip_html=True).lower())
+        for post in posts
+    ]
     vectors = vectorizer.fit_transform([_get_post_text(post) for post in posts]).toarray()
     vocabulary = vectorizer.get_feature_names()
     distances = cdist(vectors, vectors, 'cosine')
