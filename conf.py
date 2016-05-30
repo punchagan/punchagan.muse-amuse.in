@@ -627,8 +627,6 @@ DISABLED_PLUGINS = [
     'scale_images',
     'share',
     'version',
-
-    'related_posts',
 ]
 
 # List of regular expressions, links matching them will always be considered
