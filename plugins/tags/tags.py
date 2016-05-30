@@ -57,9 +57,11 @@ def add_tags(site, tags, filepaths, dry_run=False):
     OLD = 'old'
     NEW = 'new'
 
+    all_new_tags = []
     for post in posts:
         old_tags = _post_tags(post)
         new_tags = _add_tags(old_tags[:], tags)
+        all_new_tags.append(new_tags)
 
         if dry_run:
             print(FMT.format(
@@ -69,7 +71,7 @@ def add_tags(site, tags, filepaths, dry_run=False):
         elif new_tags != old_tags:
             _replace_tags_line(post, new_tags)
 
-    return new_tags
+    return all_new_tags
 
 
 def list_tags(site, sorting='alpha'):
@@ -80,15 +82,15 @@ def list_tags(site, sorting='alpha'):
 
     """
 
-    tags = site.posts_per_tag
+    posts_per_tag = _posts_per_tag(site)
     if sorting == 'count':
-        tags = sorted(tags, key=lambda tag: len(tags[tag]), reverse=True)
+        tags = sorted(posts_per_tag, key=lambda tag: len(posts_per_tag[tag]), reverse=True)
     else:
-        tags = sorted(site.posts_per_tag.keys())
+        tags = sorted(posts_per_tag)
 
     for tag in tags:
         if sorting == 'count':
-            show = '{0:>4} {1}'.format(len(site.posts_per_tag[tag]), tag)
+            show = '{0:>4} {1}'.format(len(posts_per_tag[tag]), tag)
         else:
             show = tag
         print(show)
@@ -120,9 +122,11 @@ def merge_tags(site, tags, filepaths, dry_run=False):
     OLD = 'old'
     NEW = 'new'
 
+    all_new_tags = []
     for post in posts:
         old_tags = _post_tags(post)
         new_tags = _clean_tags(old_tags[:], set(tags[:-1]), tags[-1])
+        all_new_tags.append(new_tags)
 
         if dry_run:
             print(FMT.format(
@@ -132,7 +136,7 @@ def merge_tags(site, tags, filepaths, dry_run=False):
         elif new_tags != old_tags:
             _replace_tags_line(post, new_tags)
 
-    return new_tags
+    return all_new_tags
 
 
 def remove_tags(site, tags, filepaths, dry_run=False):
@@ -159,9 +163,11 @@ def remove_tags(site, tags, filepaths, dry_run=False):
     if len(posts) == 0:
         new_tags = []
 
+    all_new_tags = []
     for post in posts:
         old_tags = _post_tags(post)
         new_tags = _remove_tags(old_tags[:], tags)
+        all_new_tags.append(new_tags)
 
         if dry_run:
             print(FMT.format(
@@ -171,7 +177,7 @@ def remove_tags(site, tags, filepaths, dry_run=False):
         elif new_tags != old_tags:
             _replace_tags_line(post, new_tags)
 
-    return new_tags
+    return all_new_tags
 
 
 def search_tags(site, term):
@@ -181,16 +187,11 @@ def search_tags(site, term):
 
     """
 
-    tags = dict(site.posts_per_tag)
-    drafts = {'draft': [post for post in site.all_posts if post.is_draft]}
-    private = {'private': [post for post in site.all_posts if post.is_private]}
-    tags.update(drafts)
-    tags.update(private)
-
+    posts_per_tag = _posts_per_tag(site)
     search_re = re.compile(term.lower())
 
     matches = [
-        tag for tag in tags
+        tag for tag in posts_per_tag
         if term in tag.lower() or search_re.match(tag.lower())
     ]
 
@@ -223,9 +224,11 @@ def sort_tags(site, filepaths, dry_run=False):
     OLD = 'old'
     NEW = 'new'
 
+    all_new_tags = []
     for post in posts:
         old_tags = _post_tags(post)
         new_tags = sorted(old_tags)
+        all_new_tags.append(new_tags)
 
         if dry_run:
             print(FMT.format(
@@ -235,7 +238,7 @@ def sort_tags(site, filepaths, dry_run=False):
         elif new_tags != old_tags:
             _replace_tags_line(post, new_tags)
 
-    return new_tags
+    return all_new_tags
 
 
 def _format_doc_string(function):
@@ -252,6 +255,26 @@ def _post_tags(post):
 
     if post.is_private:
         tags.append('private')
+
+    return tags
+
+
+def _posts_per_tag(site, include_special=True):
+    tags = site.posts_per_tag.copy()
+    if not include_special:
+        return tags
+
+    skipped_posts = [post for post in site.all_posts if not post.use_in_feeds]
+    for post in skipped_posts:
+        post_tags = post.tags
+        if post.is_draft:
+            post_tags.append('draft')
+        if post.is_private:
+            post_tags.append('private')
+
+        for tag in post_tags:
+            if post not in tags[tag]:
+                tags[tag].append(post)
 
     return tags
 
