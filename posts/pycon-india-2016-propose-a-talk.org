@@ -67,4 +67,4 @@ good proposal.
 
 - These posts ([[https://emptysqua.re/blog/tech-talks-are-campfires-jesses-three-reasons-you-should-speak-at-pycon/][1]] [[https://emptysqua.re/blog/seven-tips-for-pycon/][2]] and [[https://emptysqua.re/blog/tag/conference-tips/][more]]) by Jesse Davis are so so good!
 
-I also liked [[https://vimeo.com/96692937]["The Talk on Talks"]] by Zach Holman.
+- I also liked [[https://vimeo.com/96692937]["The Talk on Talks"]] by Zach Holman.
