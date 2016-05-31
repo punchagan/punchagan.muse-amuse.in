@@ -38,19 +38,16 @@ good proposal.
   by. Let it be a general topic that will have a significant number of people
   interested in it.
 
-- Think about what it is that you want the attendees to be telling their
-  friends about your talk, after they go back home.  Make that the [[http://blog.briancurtin.com/posts/writing-a-pycon-proposal.html][objective]] of
-  your talk.
+- What you want the attendees to be telling their friends about your talk,
+  after they go back.  Make it the [[http://blog.briancurtin.com/posts/writing-a-pycon-proposal.html][objective]] of your talk.
 
-- Submit a complete, clear and compelling proposal. The proposal is your chance
-  to show the reviewers that you are willing to put in the effort to prepare
-  for and to give a great talk. Here are a [[https://github.com/akaptur/pycon-proposals/tree/master/accepted][bunch of proposals]] to see and learn
-  from.
+- Submit a complete, clear and compelling proposal. Show the reviewers that you
+  are willing to put in the effort to prepare for and to give a great
+  talk. Here are a [[https://github.com/akaptur/pycon-proposals/tree/master/accepted][bunch of proposals]] to see and learn from.
 
-- Submit an outline along with your talk.  Help the reviewers see that the talk
-  can be delivered in the given time, and will benefit the expected
-  audience. Include an indication of how much [[https://github.com/akaptur/pycon-proposals/blob/master/accepted/important_decisions_kaptur_2014.md#outline][time]] you intend to spend on each
-  part of your talk.
+- Submit an outline along with your talk. Show the talk can be delivered in the
+  given time and will be interesting. Include an indication of how much [[https://github.com/akaptur/pycon-proposals/blob/master/accepted/important_decisions_kaptur_2014.md#outline][time]]
+  you intend to spend on each part of your talk.
 
 - Choose a good title.  The title is what catches the attention of your
   audience when they are trying to pick a talk.  Avoid buzz words.
