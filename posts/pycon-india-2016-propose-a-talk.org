@@ -3,7 +3,7 @@
 .. title: PyCon India 2016 - Propose a talk
 .. slug: pycon-india-2016-propose-a-talk
 .. date: 2016-05-31 15:40:43 UTC+05:30
-.. tags: draft, pycon, conference, talks, advice, blab, blag
+.. tags: advice, blab, blag, conference, pycon, talks
 .. category:
 .. link:
 .. description:
