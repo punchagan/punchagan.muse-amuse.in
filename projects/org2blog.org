@@ -1,0 +1,15 @@
+#+BEGIN_COMMENT
+.. title: org2blog
+.. slug: org2blog
+.. date: 2016-06-03 08:43:03 UTC+05:30
+.. description: Emacs mode for blogging from org-mode to Wordpress.
+.. status: 7
+.. sort: 0
+.. github: https://github.com/punchagan/org2blog
+.. language: Emacs Lisp
+.. role: Maintainer
+.. type: text
+#+END_COMMENT
+
+I no longer actively maintain ~org2blog~ since I don't use any Wordpress blogs,
+anymore.  If you are interested in maintaining this project, do get in touch.

@@ -1,0 +1,18 @@
+#+BEGIN_COMMENT
+.. title: Nikola orgmode plugin
+.. slug: nikola-orgmode-plugin
+.. date: 2016-06-03 12:20:09 UTC+05:30
+.. link: https://plugins.getnikola.com/#orgmode
+.. description: Emacs Org-mode compiler for Nikola sites.
+.. github: https://github.com/getnikola/plugins/tree/master/v6/orgmode
+.. language: Python
+.. role: Maintainer
+.. status: 5
+.. sort: 5
+.. type: text
+#+END_COMMENT
+
+
+Nikola supports multiple markup formats as input, ~orgmode~ being one of them.
+The support for this is added by this plugin, and this blog is generated using
+this plugin.

@@ -1,0 +1,21 @@
+#+BEGIN_COMMENT
+.. title: cinspect
+.. slug: cinspect
+.. date: 2016-06-03 11:46:09 UTC+05:30
+.. description: Code inspection for Python built-ins
+.. github: https://github.com/punchagan/cinspect
+.. status: 4
+.. sort: 5
+.. language: Python
+.. role: Maintainer
+.. type: text
+#+END_COMMENT
+
+
+~cinspect~ attempts to extend Python's built-in inspect module to add
+"inspection" for Python's builtins and other objects not written in Python.  It
+uses ~libclang~ to parse C-code and indexes it to allow looking up the source
+of the required objects.
+
+The original idea was from a friend, [[https://twitter.com/ballingt/statuses/483394809411825665][Tom Ballinger]], who also helped me design
+and test it out.

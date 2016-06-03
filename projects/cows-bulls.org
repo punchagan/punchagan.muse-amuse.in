@@ -1,0 +1,17 @@
+#+BEGIN_COMMENT
+.. title: Cows & Bulls
+.. slug: cows-bulls
+.. date: 2016-06-03 12:46:26 UTC+05:30
+.. link: https://cowsnbulls.in/
+.. description: An online version of Cows & Bulls
+.. github: https://github.com/punchagan/cowsnbulls
+.. language: Elm
+.. status: 5
+.. sort: 5
+.. role: Maintainer
+.. type: text
+#+END_COMMENT
+
+
+I built this site, in memory of the best cows & bulls player I've known. It is
+a simple client-side page with javascript that works offline too.

@@ -1,0 +1,17 @@
+#+BEGIN_COMMENT
+.. title: Statiki
+.. slug: statiki
+.. date: 2016-06-03 12:41:02 UTC+05:30
+.. link: https://statiki.herokuapp.com/
+.. description: An easy-to-use service for deploying simple web-sites
+.. github: https://github.com/punchagan/statiki
+.. language: Python
+.. status: 7
+.. role: Maintainer
+.. type: text
+#+END_COMMENT
+
+
+Statiki leverages free and open services and software like GitHub, TravisCI and
+Nikola to provide a means of deploying static websites, without needing any
+setup on the users' machine.

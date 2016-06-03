@@ -1,0 +1,21 @@
+#+BEGIN_COMMENT
+.. title: GetHub
+.. slug: gethub
+.. date: 2016-06-03 12:34:58 UTC+05:30
+.. link: https://plugins.getnikola.com/#orgmode
+.. description: A Chrome extension for GitHub News Feed pop-up notifications
+.. github: https://github.com/punchagan/GetHub
+.. language: Python
+.. role: Maintainer
+.. status: 7
+.. sort: 0
+.. type: text
+#+END_COMMENT
+
+
+GetHub was made for the geeks whose primary Social Network is GitHub and who
+keep checking for updates, a dozen times every hour. :)
+
+This extension was written when pop-up notifications were newly introduced into
+Chrome, and I was excited by it.  I now prefer a workspace with fewer
+distractions, and no longer use this.

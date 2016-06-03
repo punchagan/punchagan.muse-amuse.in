@@ -1,0 +1,21 @@
+#+BEGIN_COMMENT
+.. title: Blaggregator
+.. slug: blaggregator
+.. date: 2016-06-03 11:10:41 UTC+05:30
+.. description: Blog post aggregator for the Recurse Center community
+.. status: 5
+.. sort: 10
+.. github: https://github.com/sursh/blaggregator
+.. link: http://blaggregator.us
+.. language: Python
+.. role: Co-Maintainer
+.. type: text
+#+END_COMMENT
+
+
+Recursers write awesome blog posts all over the internet, and ~blaggregator~ is
+a Django powered site that aggregates all these posts. (You will need an RC
+login to view it).
+
+The project was originally thought of, and built by [[https://github.com/sursh][Sasha]].  I've added a bunch
+of features to it, and help with maintaining it.

@@ -1,0 +1,20 @@
+#+BEGIN_COMMENT
+.. title: Nikola
+.. slug: nikola
+.. date: 2016-06-03 10:45:23 UTC+05:30
+.. description: A static website and blog generator
+.. status: 5
+.. sort: 10
+.. github: https://github.com/getnikola/nikola
+.. link: https://getnikola.com
+.. language: Python
+.. role: Contributor
+.. type: text
+#+END_COMMENT
+
+Nikola is a static site and blog generator written in Python that can generate
+a blog from input in many different markup formats.
+
+This website has been generated using Nikola. I use the development branch of
+Nikola and actively contribute to the development of features that I need or
+fix bugs that affect me.

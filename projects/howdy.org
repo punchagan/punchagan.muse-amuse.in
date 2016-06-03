@@ -1,0 +1,16 @@
+#+BEGIN_COMMENT
+.. title: Howdy
+.. slug: howdy
+.. date: 2016-06-03 16:45:15 UTC+05:30
+.. description: An Emacs-based tool to help keep in touch with people
+.. github: https://github.com/punchagan/howdy
+.. language: Emacs Lisp
+.. status: 4
+.. sort: 5
+.. role: Maintainer
+.. type: text
+#+END_COMMENT
+
+
+Inspired by [[http://sachachua.com/blog/2005/05/keeping-in-touch/][Sacha Chua]] and [[https://mwfogleman.github.io/posts/08-01-2015-emacs-can-keep-in-touch.html][Michael Fogleman]] to try to keep in touch with
+friends and family better, I built a tool to keep track of my interactions.
