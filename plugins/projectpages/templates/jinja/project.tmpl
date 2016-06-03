@@ -7,7 +7,6 @@
         <h1>{{ title }}</h1>
     </header>
 
-    <div class="pull-right"><a href="{{ project_index[lang] }}" class="btn btn-default btn-header-line">← Projects</a></div>
     <p class="lead">{{ post.meta('description') }}</p>
 
     {% if post.meta('logo') %}
@@ -82,4 +81,7 @@
       </div>
     </div>
     {% endif %}
+
+    <div class="pagination"><a href="{{ project_index[lang] }}" class="pagination-item older">← Projects</a></div>
+
 {% endblock %}
