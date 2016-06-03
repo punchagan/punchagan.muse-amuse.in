@@ -448,20 +448,22 @@ COMMENT_SYSTEM_ID = "rusticreverie"
 # MATHJAX_CONFIG = ""
 
 # If you are using the compile-ipynb plugin, just add this one:
-#MATHJAX_CONFIG = """
-#<script type="text/x-mathjax-config">
-#MathJax.Hub.Config({
-#    tex2jax: {
-#        inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
-#        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
-#    },
-#    displayAlign: 'left', // Change this to 'center' to center equations.
-#    "HTML-CSS": {
-#        styles: {'.MathJax_Display': {"margin": 0}}
-#    }
-#});
-#</script>
-#"""
+MATHJAX_CONFIG = """
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+   tex2jax: {
+       inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
+       displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
+   },
+   displayAlign: 'left', // Change this to 'center' to center equations.
+   "HTML-CSS": {
+       styles: {'.MathJax_Display': {"margin": 0}}
+   }
+});
+</script>
+"""
+
+IPYNB_CONFIG = {'HTMLExporter': {'template_file': 'basic'}}
 
 # What MarkDown extensions to enable?
 # You will also get gist, nikola and podcast because those are
