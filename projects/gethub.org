@@ -9,6 +9,7 @@
 .. role: Maintainer
 .. status: 7
 .. sort: 0
+.. tags: private
 .. type: text
 #+END_COMMENT
 

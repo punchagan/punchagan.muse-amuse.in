@@ -8,6 +8,7 @@
 .. sort: 5
 .. language: Python
 .. role: Maintainer
+.. tags: private
 .. type: text
 #+END_COMMENT
 

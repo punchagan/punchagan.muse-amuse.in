@@ -9,6 +9,7 @@
 .. link: https://getnikola.com
 .. language: Python
 .. role: Contributor
+.. tags: private
 .. type: text
 #+END_COMMENT
 

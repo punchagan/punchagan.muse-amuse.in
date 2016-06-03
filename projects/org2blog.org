@@ -8,6 +8,8 @@
 .. github: https://github.com/punchagan/org2blog
 .. language: Emacs Lisp
 .. role: Maintainer
+.. tags: private
+.. tags: private
 .. type: text
 #+END_COMMENT
 

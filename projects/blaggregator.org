@@ -9,6 +9,7 @@
 .. link: http://blaggregator.us
 .. language: Python
 .. role: Co-Maintainer
+.. tags: private
 .. type: text
 #+END_COMMENT
 
