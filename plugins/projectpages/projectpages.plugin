@@ -1,0 +1,12 @@
+[Core]
+Name = projectpages
+Module = projectpages
+
+[Nikola]
+MinVersion = 7.1.0+
+
+[Documentation]
+Author = Chris Warrick
+Version = 0.1.8
+Website = https://chriswarrick.com/projects/
+Description = Generate project pages
