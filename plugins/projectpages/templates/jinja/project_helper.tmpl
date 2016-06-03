@@ -1,5 +1,25 @@
 {#  -*- coding: utf-8 -*- #}
 
+{% macro status_icon(desc) %}
+    {% if desc == '1' %}
+        <span class="label label-default"><i class="fa fa-asterisk" aria-hidden="true" title="Planning"></i></span>
+    {% elif desc == '2' %}
+        <span class="label label-danger"><i class="fa fa-asterisk" aria-hidden="true" title="Pre-Alpha"></i></span>
+    {% elif desc == '3' %}
+        <span class="label label-warning"><i class="fa fa-asterisk" aria-hidden="true" title="Alpha"></i></span>
+    {% elif desc == '4' %}
+        <span class="label label-info"><i class="fa fa-asterisk" aria-hidden="true" title="Beta"></i></span>
+    {% elif desc == '5' %}
+        <span class="label label-success"><i class="fa fa-asterisk" aria-hidden="true" title="Production/Stable"></i></span>
+    {% elif desc == '6' %}
+        <span class="label label-success"><i class="fa fa-asterisk" aria-hidden="true" title="Mature"></i></span>
+    {% elif desc == '7' %}
+        <span class="label label-danger"><i class="fa fa-asterisk" aria-hidden="true" title="Inactive"></i></span>
+    {% else %}
+        <span class="label label-default"><i class="fa fa-asterisk" aria-hidden="true" title="{{ desc }}"></i></span>
+    {% endif %}
+{% endmacro %}
+
 {% macro status(desc) %}
     {% if desc == '1' %}
         <span class="label label-default">Planning</span>

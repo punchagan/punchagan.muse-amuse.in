@@ -49,11 +49,34 @@ active
 </div>
 {% endif %}
 
-<h2>All projects</h2>
+<div class="project-list">
+  {% for p in projects %}
+    <div class="project project-sort-{{ p.meta('sort') }}">
+      <div class="header">
+        <h4>{{p.title()}}</h4>
+        {{project.status_icon(p.meta('status'))}}
+        <span class="description">{{p.description()}}</span>
+        {% if p.meta('github') %}
+          <span class="links">
+            <a href="{{ p.meta('github') }}"><i class="fa fa-github" title="GitHub"></i></a>
+          </span>
+        {% endif %}
+        {% if p.meta('link') %}
+          <span class="links">
+            <a href="{{ p.meta('link') }}"><i class="fa fa-link" title="Website"></i></a>
+          </span>
+        {% endif %}
+      </div>
+      {{p.text()}}
+    </div>
+  {% endfor %}
+</div>
+<div class="project project-status-legend">
+  {{ project.status_icon('1') }} {{ project.status('1') }}
+  {{ project.status_icon('5') }} {{ project.status('5') }} {{ project.status('6') }}
+  {{ project.status_icon('4') }} {{ project.status('4') }}
+  {{ project.status_icon('3') }} {{ project.status('3') }}
+  {{ project.status_icon('2') }} {{ project.status('2') }} {{ project.status('7') }}
+</div>
 
-    <ul class="project-list">
-    {% for p in projects %}
-        <li class="project project-sort-{{ p.meta('sort') }}"><a href="{{ p.permalink() }}">{{ p.title() }}</a> {{ project.status(p.meta('status')) }}</a></li>
-    {% endfor %}
-    </ul>
 {% endblock %}
