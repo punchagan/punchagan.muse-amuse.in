@@ -30,14 +30,7 @@
     max-height: 1.5rem;
     position: absolute;
     top: 1.125em;
-    right: 4em;
-}
-
-@media (max-width: 48em) {
-    .rc-scout {
-        right: auto;
-        left: 1em;
-    }
+    left: 1em;
 }
 
 #tipue_search_input {

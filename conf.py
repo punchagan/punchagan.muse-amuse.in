@@ -63,18 +63,20 @@ TRANSLATIONS = {
 # You should provide a key-value pair for each used language.
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/index.html', '<i class="fa fa-home on fa-lg"></i> Home'),
-        ('/posts/index.html', '<i class="fa fa-pencil on fa-lg"></i> Blog'),
-        ('/archive.html', '<i class="fa fa-archive on fa-lg"></i> Archives'),
-        ('/tags/index.html', '<i class="fa fa-tags on fa-lg"></i> Tags'),
-        ('/tags/cat_recursecenter-checkins.html', '<i class="fa fa-magic on fa-lg"></i> Recurse Center Logs'),
-        ('/tags/cat_bookmarks.html', '<i class="fa fa-bookmark on fa-lg"></i> Bookmarks'),
-        ('/quotes.html', '<i class="fa fa-quote-right on fa-lg"></i> Quotes'),
-        ('/reading-list.html', '<i class="fa fa-book on fa-lg"></i> Reading List'),
-        ('/rss.xml', '<i class="fa fa-rss on fa-lg"></i> RSS'),
-        ('https://github.com/punchagan', '<i class="fa fa-github on fa-lg"></i> GitHub'),
-        ('https://twitter.com/punchagan', '<i class="fa fa-twitter on fa-lg"></i> Twitter'),
-        ('mailto:{}'.format(BLOG_EMAIL), '<i class="fa fa-at on fa-lg"></i> Email'),
+        # link, fa-name, title
+        ('/index.html', 'home', 'Home'),
+        ('/posts/index.html', 'pencil', 'Blog'),
+        ('/archive.html', 'archive', 'Archives'),
+        ('/tags/index.html', 'tags', 'Tags'),
+        ('/tags/cat_recursecenter-checkins.html', 'magic', 'Recurse Center Logs'),
+        ('/tags/cat_bookmarks.html', 'bookmark', 'Bookmarks'),
+        ('/quotes.html', 'quote-right', 'Quotes'),
+        ('/reading-list.html', 'book', 'Reading List'),
+        ('/rss.xml', 'rss', 'RSS'),
+        ('https://github.com/punchagan', 'github', 'GitHub'),
+        ('https://twitter.com/punchagan', 'twitter', 'Twitter'),
+        ('mailto:{}'.format(BLOG_EMAIL), 'at', 'Email'),
+        ('http://creativecommons.org/licenses/by-sa/4.0/', 'creative-commons', 'CC-BY')
     ),
 }
 
@@ -356,24 +358,11 @@ DATE_FORMAT = '%d %b %Y'
 # READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}…</a></p>'
 
 # A HTML fragment describing the license, for the sidebar.
-LICENSE = """
-<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
-<img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a>
-"""
+# LICENSE = """
 
 # A small copyright notice for the page footer (in HTML).
 # Default is ''
-CONTENT_FOOTER = """<i class="fa fa-creative-commons fa-fw"></i>  {date}
-<a href="mailto:{email}">{author}</a> -
-<a href="http://getnikola.com">Nikola</a> powered -
-<a href="http://themes.getnikola.com/#{theme}">{theme}</a> theme -
-{license}
-"""
-CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
-                                       author=BLOG_AUTHOR,
-                                       date=time.gmtime().tm_year,
-                                       license=LICENSE,
-                                       theme=THEME)
+# CONTENT_FOOTER = ""
 
 # To use comments, you can choose between different third party comment
 # systems, one of "disqus", "livefyre", "intensedebate", "moot",
