@@ -2,10 +2,10 @@
 .. title: Stepping AFK
 .. slug: stepping-afk
 .. date: 2016-06-03 23:51:30 UTC+05:30
-.. tags: draft
-.. category: 
-.. link: 
-.. description: 
+.. tags: draft, blab, blag, programming, thought
+.. category:
+.. link:
+.. description:
 .. type: text
 #+END_COMMENT
 

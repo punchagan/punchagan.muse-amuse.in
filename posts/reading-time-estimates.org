@@ -1,0 +1,13 @@
+#+BEGIN_COMMENT
+.. title: Reading time estimates
+.. slug: reading-time-estimates
+.. date: 2016-06-04 23:18:21 UTC+05:30
+.. tags: draft
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+
+Write your post here.
