@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
-import time
 
 from nikola import filters
 
@@ -68,6 +67,7 @@ NAVIGATION_LINKS = {
         ('/posts/index.html', 'pencil', 'Blog'),
         ('/archive.html', 'archive', 'Archives'),
         ('/tags/index.html', 'tags', 'Tags'),
+        ('/projects/', 'cogs', 'Projects'),
         ('/tags/cat_recursecenter-checkins.html', 'magic', 'Recurse Center Logs'),
         ('/tags/cat_bookmarks.html', 'bookmark', 'Bookmarks'),
         ('/quotes.html', 'quote-right', 'Quotes'),
