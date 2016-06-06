@@ -26,7 +26,9 @@ into my head seemed to help. It was also probably helpful that I was taking a
 walk, and there wasn't really any other inputs or outputs competing for the
 space in my head.
 
-This got me thinking about doing this more deliberately, and thinking more
-about this makes me wonder if this is a smaller/different version of what Rich
-Hickey talks about in his [[https://www.youtube.com/watch?v=f84n5oFoZBc][Hammock Driven Development]] talk.  I'd love to hear
-about your experiences with this, if any!
+This got me thinking about doing this more deliberately -- I'd love to hear
+about any experiences or any experiments any of you have done with this.  Also,
+I'm reminded of Rich Hickey's [[https://www.youtube.com/watch?v=f84n5oFoZBc][Hammock Driven Development]] talk and I wonder if
+this is a smaller/different version of it, and makes me want to try out the
+things he suggests more deliberately.  If any of you has thoughts and
+suggestions, I'd love to hear from you!
