@@ -26,10 +26,6 @@
 
 """ A simple plugin to insert mailto line for comments. """
 
-import codecs
-from collections import Counter
-import functools
-import math
 import re
 
 import jinja2
@@ -78,8 +74,7 @@ def compute_related_posts(site, count=5):
         '{} {}'.format(post.title(), post.text(strip_html=True).lower())
         for post in posts
     ]
-    vectors = vectorizer.fit_transform([_get_post_text(post) for post in posts]).toarray()
-    vocabulary = vectorizer.get_feature_names()
+    vectors = vectorizer.fit_transform(post_texts).toarray()
     distances = cdist(vectors, vectors, 'cosine')
     sorted_indexes = np.argsort(distances)
 
