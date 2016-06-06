@@ -2,7 +2,7 @@
 .. title: Reading-time based scheduling
 .. slug: reading-time-based-scheduling
 .. date: 2016-06-06 13:13:12 UTC+05:30
-.. tags: draft, reading, programming, hack, blag, idea
+.. tags: blag, hack, idea, programming, reading
 .. category:
 .. link:
 .. description:
