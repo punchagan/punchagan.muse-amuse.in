@@ -59,6 +59,4 @@ class MyComments(ConfigPlugin):
     def set_site(self, site):
         """Set site, which is a Nikola instance."""
         super(MyComments, self).set_site(site)
-        # Hack to get comments above everything else...
-        items = site.template_hooks['body_end']._items
-        items.insert(0, (True, generate_html_bit, True, (), {}))
+        site.template_hooks['body_end'].append(generate_html_bit, True)
