@@ -105,12 +105,13 @@ class RelatedPosts(Task):
         """Compute and populate related posts."""
 
         related_posts = self.site.cache.get('related_posts') or {}
-        for post in self.site.timeline:
+        posts = [p for p in self.site.timeline if p.use_in_feeds]
+        for post in posts:
             post.related_posts = related_posts.get(post.source_path, [])
 
         kw = {
             'count': self.site.config.get('RELATED_POSTS_COUNT', 5),
-            'cached_related_posts': len(related_posts) > 0,
+            'cached_related_posts': len(related_posts) == len(posts),
         }
 
         yield {
