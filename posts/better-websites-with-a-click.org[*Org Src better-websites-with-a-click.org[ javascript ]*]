@@ -1,0 +1,14 @@
+// Create new stylesheet
+
+(function() {
+    // Create the <style> tag
+    var style = document.createElement("style");
+    // Add the <style> element to the page
+    document.head.appendChild(style);
+    var sheet = style.sheet;
+
+    sheet.insert
+    return sheet;
+})();
+
+// Add rules
