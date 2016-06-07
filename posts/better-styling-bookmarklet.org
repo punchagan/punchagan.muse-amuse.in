@@ -2,7 +2,7 @@
 .. title: Better styling bookmarklet
 .. slug: better-styling-bookmarklet
 .. date: 2016-06-07 14:39:01 UTC+05:30
-.. tags: draft, hack, web, blag
+.. tags: blag, hack, web
 .. category:
 .. link:
 .. description:
@@ -48,3 +48,6 @@ The code in a readable format is below.
 
   })();
 #+END_SRC
+
+
+*Update [2016-06-07]*: [[https://twitter.com/baali_][baali]] pointed me to Firefox's [[https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages][Reader View]] which works well too.
