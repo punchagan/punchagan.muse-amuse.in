@@ -153,7 +153,7 @@ def get_top_posts(logfiles, n=5):
     hits_by_week = group_hits_by_week(post_hits)
 
     # Ignore hits in the first few weeks.
-    score = lambda (x, y), i: y if i >= 4 else 0
+    # score = lambda (x, y), i: y if i >= 4 else 0
 
     def average_score(counts):
         weeks = get_weeks(min(counts), THIS_WEEK)
