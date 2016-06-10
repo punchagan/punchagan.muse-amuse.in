@@ -218,7 +218,6 @@ DEPLOY_COMMANDS = {
         'rm -f cache/pages/index.html',
         'nikola orphans|xargs rm || true',
         'git checkout master',
-        'nikola build',
         './commit-changes || true',
         'nikola github_deploy',
         'git push origin master',
