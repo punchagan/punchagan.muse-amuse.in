@@ -1,0 +1,9 @@
+[Core]
+Name = popular_posts
+Module = popular_posts
+
+[Documentation]
+Author = Puneeth Chaganti
+Version = 0.1
+Website = '#'
+Description = Adds a popular posts shortcode.
