@@ -1,0 +1,20 @@
+#+BEGIN_COMMENT
+.. title: tips for delivering a talk
+.. slug: tips-for-delivering-a-talk
+.. date: 2016-06-08 00:24:07 UTC+05:30
+.. tags: draft
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+Write your post here.
+
+- You should repeat the question (summarized) before answering so others in the
+  audience and those watching the video will know what you're answering.
+- Don't highlight your code. Highlight the parts that you want your audience to
+  focus on
+- Toy examples/problems may not be interesting. Present real use cases. The
+  documentation usually ships with the toy examples!

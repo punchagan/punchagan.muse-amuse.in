@@ -34,7 +34,11 @@ from nikola.plugin_categories import Command
 
 
 def _get_popular_posts(count, site, data):
-    with open(path.join(site.config['CACHE_FOLDER'], 'popular.json')) as f:
+    data_path = path.join(site.config['CACHE_FOLDER'], 'popular-posts.json')
+    if not site.file_exists(data_path):
+        return ''
+
+    with open(data_path) as f:
         permalinks = json.load(f)
     posts = {p.permalink(): p for p in site.posts}
     popular_posts = [posts[link] for link in permalinks]
