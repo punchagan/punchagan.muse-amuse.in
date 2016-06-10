@@ -612,6 +612,7 @@ DISABLED_PLUGINS = [
     'install_theme',
     'mako',
     'py3_switch',
+    'popular_posts',
     'redirect',
     'render_authors',
     'render_galleries',
