@@ -2,7 +2,7 @@
 .. title: Effortful things
 .. slug: effortful-things
 .. date: 2016-06-11 15:43:19 UTC+05:30
-.. tags: draft, blab, blag, learning, life
+.. tags: blab, blag, learning, life
 .. category:
 .. link:
 .. description:
