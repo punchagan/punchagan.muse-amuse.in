@@ -13,7 +13,7 @@
   Below is a mail sent by Eric Schulte to the org-mode mailing list
   answering a query on how to write elisp for org-mode. I am
   reproducing it here, since it is useful advice for me. The actual
-  thread is here.
+  thread is [[http://permalink.gmane.org/gmane.emacs.orgmode/27579][here]].
 
   -------------------------------------------------------------
   The way that I learned how to program in emacs lisp was mainly
