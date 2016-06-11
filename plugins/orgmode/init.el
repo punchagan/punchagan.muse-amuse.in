@@ -20,7 +20,7 @@
  org-export-with-section-numbers nil
  org-startup-folded 'showeverything
  org-use-sub-superscripts '{}
- org-export-use-sub-superscripts '{})
+ org-export-with-sub-superscripts '{})
 
 ;; Load additional configuration from conf.el
 (let ((conf (expand-file-name "conf.el" (file-name-directory load-file-name))))
