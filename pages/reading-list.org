@@ -50,7 +50,6 @@ read. I hope that making it public will lead to --
 :END_DATE: [2016-01-13 Wed]
 :END:
 
-
 * Current
 ** TOREVIEW [[http://www.amazon.com/dp/1455509124][So Good They Can't Ignore You]]                       :nonfiction:
 :PROPERTIES:
@@ -286,6 +285,24 @@ Every book that has caught my eye, since I started keeping this list.
    :PROPERTIES:
    :SUGGESTED_BY: An article on [[http://www.thehindu.com/thread/politics-and-policy/article8572707.ece][Tagore]] in The Hindu
    :URL:      https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1
+   :END:
+
+** [[https://www.amazon.com/Being-Certain-Believing-Right-Youre/dp/031254152X?ie=UTF8&linkCode=sl1&linkId=88c2e2c7330317d41fe75ae73efa043c&ref_=as_li_ss_tl&tag=entsblo-20][On Being Certain: Believing You Are Right Even When You're Not]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: From a MarkManson [[http://markmanson.net/trust][article]]
+   :URL:      https://www.amazon.com/Being-Certain-Believing-Right-Youre/dp/031254152X
+   :END:
+
+** [[https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010?ie=UTF8&keywords=better%20angels%20of%20our%20nature&linkCode=sl1&linkId=24e5d3b8ff79704bbb9e94222a79128e&qid=1462126638&ref_=as_li_ss_tl&sr=8-1&tag=entsblo-20][The Better Angels of Our Nature: Why Violence Has Declined]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: Markmason's [[http://markmanson.net/trust][article]]
+   :URL:      https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010
+   :END:
+
+** [[http://www.amazon.in/gp/product/0393309401/ref=x_gr_w_bb?ie=UTF8&tag=x_gr_w_bb_in-21&linkCode=as2&camp=3626&creative=24790][Our Inner Conflicts - A Constructive Theory of Neurosis Rev]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: Lisa on Zulip
+   :URL:      http://www.amazon.in/gp/product/0393309401/
    :END:
 
 * COMMENT Maintaining this list
