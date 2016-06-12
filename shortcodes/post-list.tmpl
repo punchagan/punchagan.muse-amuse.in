@@ -4,7 +4,12 @@
   <table class="post-list">
     {% for post in posts[:count] %}
       <tr class="post-list-item">
-        <td>{{ post.date.strftime("%d %b %Y") }}</td><td><a href="{{post.permalink()}}">{{post.title()|e}}</a></td>
+          <td class="post-list-date">
+              {{ post.date.strftime("%d %b %Y") }}
+          </td>
+          <td>
+              <a href="{{post.permalink()}}">{{post.title()|e}}</a>
+          </td>
       </tr>
     {% endfor %}
   </table>
