@@ -305,6 +305,18 @@ Every book that has caught my eye, since I started keeping this list.
    :URL:      http://www.amazon.in/gp/product/0393309401/
    :END:
 
+** [[http://www.amazon.in/Blood-My-Hands-Confessions-Encounters/dp/9351772586?ie=UTF8&keywords=blood%20on%20my%20hands&qid=1465628271&ref_=sr_1_1&sr=8-1][Blood on My Hands: Confessions of Staged Encounters]]           :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY:  Twitterland
+   :URL:      http://www.amazon.in/Blood-My-Hands-Confessions-Encounters/dp/9351772586
+   :END:
+
+** [[https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815][Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: In a data [[https://soundcloud.com/nssd-podcast/episode-17-diurnal-high-variance][podcast]]
+   :URL:      https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815
+   :END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
