@@ -2,7 +2,7 @@
 .. title: Assist time
 .. slug: assist-time
 .. date: 2016-06-14 19:58:56 UTC+05:30
-.. tags: draft, time, programming, productivity, blag, blab
+.. tags: time, programming, productivity, blag, blab
 .. category:
 .. link:
 .. description:
@@ -29,4 +29,4 @@ Stack-overflow answer may end up in the "distraction time" bin, just because
 you weren't doing something on your TODO list.  It needn't be.
 
 Taking cue from [[https://en.wikipedia.org/wiki/Assist_(football)][scorers in Football]], I decided to call this time *assist time*
-and to try to start seeing this time as (semi-)productive.
+and to try to start seeing this time as (semi-)productive. Naming helps.
