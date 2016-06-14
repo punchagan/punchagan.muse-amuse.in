@@ -2,7 +2,7 @@
 .. title: Scores vs. Assists
 .. slug: scores-vs-assists
 .. date: 2016-06-11 11:54:17 UTC+05:30
-.. tags: draft
+.. tags: draft, time, programming, productivity, blag, blab
 .. category:
 .. link:
 .. description:
@@ -10,22 +10,23 @@
 #+END_COMMENT
 
 
-Write your post here.
+I sometimes hang out on #org-mode or #nikola and answer questions. I usually am
+not able to answer off the top of my head and I look up docs or dig through the
+code.  Sometimes, we find ready-made documented answers, but other times we end
+up contributing some documentation, filing an issue, submitting a patch or
+hacking up something for that super-special use-case.
 
-for scores you can go and see your resume or something.. because people care
-abotu it, you care to list things down for them. even here, some of them could
-go unnoticed or whatever..
+Until now, I used to look at this time as IRC time, which sort of translated to
+"distraction time".  But, I'm usually learning about the tools I learn a little
+bit more. Even when I'm not, I'm helping someone do something they want to
+do. And indirectly making the user community a wee bit happier. Sometimes
+empowering the users to fix future issues on their own, and helping them
+contribute to make the tool and the community better.
 
-when you are feeling down, looking at your assists could be good.
+This isn't limited just to helping someone on IRC.  Helping out a co-worker do
+something that they are new to, or just adding a comment or editing a
+Stack-overflow answer may end up in the "distraction time" bin, just because
+you weren't doing something on your TODO list.  It needn't be.
 
-do we hire people with good assists?  or just scoring skills?
-
-are we not trying to build teams?  reminds me of stripe's experimental hiring.
-
-why is there such a low incentive for assists?
-
-
-mentors, thank you notes, whatever.
-
-human touch. whatever.  I don't know...  Don't be so afraid of writing things
-down. :)
+Taking cue from [[https://en.wikipedia.org/wiki/Assist_(football)][scorers in Football]], I decided to call this time *assist time*
+and to try to start seeing this time as (semi-)productive.

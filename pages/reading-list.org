@@ -317,6 +317,24 @@ Every book that has caught my eye, since I started keeping this list.
    :URL:      https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815
    :END:
 
+** [[https://www.amazon.in/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A/ref=sr_1_1?ie=UTF8&qid=1465880952&sr=8-1&keywords=working+effectively+with+legacy+code][Working Effectively with Legacy Code (Robert C. Martin Series) eBook: Michael Feathers: Amazon.in: Kindle Store]] :nonfiction:programming:
+:PROPERTIES:
+:SUGGESTED_BY: Apprenticeship Patterns
+:URL: https://www.amazon.in/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A/ref=sr_1_1?ie=UTF8&qid=1465880952&sr=8-1&keywords=working+effectively+with+legacy+code
+:END:
+
+** [[http://www.amazon.in/Road-Penguin-UK-Modern-Classics/dp/0141182679][On the Road: Penguin UK Edition (Penguin Modern Classics)]] :fiction:
+:PROPERTIES:
+:SUGGESTED_BY: The Art of Learning
+:URL: http://www.amazon.in/Road-Penguin-UK-Modern-Classics/dp/0141182679
+:END:
+
+** [[http://www.amazon.in/Labyrinths-Penguin-Modern-Classics-Borges/dp/0141184841?ie=UTF8&keywords=jorge%20luis%20borges&qid=1465907284&ref_=sr_1_3&s=books&sr=1-3][Labyrinths (Penguin Modern Classics)]] :fiction:
+:PROPERTIES:
+:SUGGESTED_BY: Niku
+:URL: http://www.amazon.in/Labyrinths-Penguin-Modern-Classics-Borges/dp/0141184841
+:END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
