@@ -16,12 +16,12 @@ code.  Sometimes, we find ready-made documented answers, but other times we end
 up contributing some documentation, filing an issue, submitting a patch or
 hacking up something for that super-special use-case.
 
-Until now, I used to look at this time as IRC time, which sort of translated to
-"distraction time".  But, I'm usually learning about the tools I learn a little
-bit more. Even when I'm not, I'm helping someone do something they want to
-do. And indirectly making the user community a wee bit happier. Sometimes
-empowering the users to fix future issues on their own, and helping them
-contribute to make the tool and the community better.
+Until now, I looked at this time as IRC time, which loosely translates to
+distraction time.  But, I'm usually learning about the tools I learn a little
+bit more. Even when I'm not, I'm helping someone do something they want to do.
+Sometimes empowering the users to fix future problems on their own.  And
+indirectly making the user community a wee-bit happier, and possibly the
+software a tiny bit better.
 
 This isn't limited just to helping someone on IRC.  Helping out a co-worker do
 something that they are new to, or just adding a comment or editing a
