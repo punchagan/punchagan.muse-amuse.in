@@ -10,7 +10,7 @@
 #+END_COMMENT
 
 
-I sometimes hang out on #org-mode or #nikola and answer questions. I usually am
+I sometimes hang out on [[http://webchat.freenode.net/?channels=%2523org-mode][#org-mode]] or [[http://webchat.freenode.net/?channels=%2523nikola][#nikola]] and answer questions. I usually am
 not able to answer off the top of my head and I look up docs or dig through the
 code.  Sometimes, we find ready-made documented answers, but other times we end
 up contributing some documentation, filing an issue, submitting a patch or
