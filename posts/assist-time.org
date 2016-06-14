@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
-.. title: Scores vs. Assists
-.. slug: scores-vs-assists
-.. date: 2016-06-11 11:54:17 UTC+05:30
+.. title: Assist time
+.. slug: assist-time
+.. date: 2016-06-14 19:58:56 UTC+05:30
 .. tags: draft, time, programming, productivity, blag, blab
 .. category:
 .. link:
