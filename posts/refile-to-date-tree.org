@@ -30,7 +30,8 @@ date-tree.
         (save-excursion
           (org-datetree-file-entry-under (current-kill 0) post-date)
           (bookmark-set "org-refile-last-stored")))
-      (message "Refiled to %s" journal)))
+      (message "Refiled to %s" journal))
+    (setq this-command 'my/org-refile-to-journal))
 
   (defun my/org-agenda-refile-to-journal ()
     "Refile the item at point to journal."
@@ -53,3 +54,6 @@ date-tree.
 #+end_src
 
 Enjoy!
+
+*Update [2016-06-16]* [[https://twitter.com/raamdev][Raam Dev]] pointed me to an [[http://emacs.stackexchange.com/questions/21322/preventing-org-cut-subtree-from-appending-subsequent-cuts-to-previous-kill-ring][issue]] and a suggested fix, that
+ I have updated the above code with.
