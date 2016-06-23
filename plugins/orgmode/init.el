@@ -14,6 +14,50 @@
 
 ;;; Custom configuration for the export. ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+(defconst org-pygments-language-alist
+  '(
+    ("asymptote" . "asymptote")
+    ("awk" . "awk")
+    ("C" . "c")
+    ("cpp" . "cpp")
+    ("clojure" . "clojure")
+    ("css" . "css")
+    ("D" . "d")
+    ("ditaa" . "image")
+    ("emacs-lisp" . "elisp")
+    ("F90" . "fortran")
+    ("gnuplot" . "gnuplot")
+    ("groovy" . "groovy")
+    ("haskell" . "haskell")
+    ("java" . "java")
+    ("js" . "js")
+    ("julia" . "julia")
+    ("latex" . "latex")
+    ("lisp" . "lisp")
+    ("makefile" . "makefile")
+    ("matlab" . "matlab")
+    ("mscgen" . "mscgen")
+    ("ocaml" . "ocaml")
+    ("octave" . "octave")
+    ("perl" . "perl")
+    ("picolisp" . "scheme")
+    ("python" . "python")
+    ("R" . "r")
+    ("ruby" . "ruby")
+    ("sass" . "sass")
+    ("scala" . "scala")
+    ("scheme" . "scheme")
+    ("sh" . "sh")
+    ("sql" . "sql")
+    ("sqlite" . "sqlite3")
+    ("tcl" . "tcl")
+    )
+  "Alist between org-babel languages and Pygments lexers.
+
+See: http://orgmode.org/worg/org-contrib/babel/languages.html and
+http://pygments.org/docs/lexers/ for adding new languages to the
+mapping. ")
+
 ;;; Add any custom configuration that you would like to 'conf.el'.
 (setq
  org-export-with-toc nil
@@ -59,50 +103,6 @@
          (format "pygmentize -f html -O encoding=utf8 -g -l %s" lang)
          (buffer-name) t)
         (buffer-string)))))
-
-(defconst org-pygments-language-alist
-  '(
-    ("asymptote" . "asymptote")
-    ("awk" . "awk")
-    ("C" . "c")
-    ("cpp" . "cpp")
-    ("clojure" . "clojure")
-    ("css" . "css")
-    ("D" . "d")
-    ("ditaa" . "image")
-    ("emacs-lisp" . "elisp")
-    ("F90" . "fortran")
-    ("gnuplot" . "gnuplot")
-    ("groovy" . "groovy")
-    ("haskell" . "haskell")
-    ("java" . "java")
-    ("js" . "js")
-    ("julia" . "julia")
-    ("latex" . "latex")
-    ("lisp" . "lisp")
-    ("makefile" . "makefile")
-    ("matlab" . "matlab")
-    ("mscgen" . "mscgen")
-    ("ocaml" . "ocaml")
-    ("octave" . "octave")
-    ("perl" . "perl")
-    ("picolisp" . "scheme")
-    ("python" . "python")
-    ("R" . "r")
-    ("ruby" . "ruby")
-    ("sass" . "sass")
-    ("scala" . "scala")
-    ("scheme" . "scheme")
-    ("sh" . "sh")
-    ("sql" . "sql")
-    ("sqlite" . "sqlite3")
-    ("tcl" . "tcl")
-    )
-  "Alist between org-babel languages and Pygments lexers.
-
-See: http://orgmode.org/worg/org-contrib/babel/languages.html and
-http://pygments.org/docs/lexers/ for adding new languages to the
-mapping. ")
 
 ;; Override the html export function to use pygments
 (defun org-html-src-block (src-block contents info)

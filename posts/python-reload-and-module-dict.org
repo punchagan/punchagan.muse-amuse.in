@@ -1,0 +1,78 @@
+#+BEGIN_COMMENT
+.. title: Python reload and module dict
+.. slug: python-reload-and-module-dict
+.. date: 2016-06-23 16:05:30 UTC+05:30
+.. tags: draft, python, blag
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+I was trying to play around with Nikola's code today and learnt about a
+documented weirdness of Python's reload.
+
+#+BEGIN_SRC ipython :session :results output
+  # Work in a temporary directory
+  import os
+  import tempfile
+  os.chdir(tempfile.mkdtemp())
+
+  # Module content, original and updated
+  ORIGINAL = "# PLUGINS = []"
+  UPDATED = "PLUGINS = ['rss']"
+
+  def create_conf_file(content):
+      """Create a conf.py module with given content."""
+      with open('conf.py', 'w') as f:
+          f.write(content)
+#+END_SRC
+
+#+BEGIN_SRC ipython :session :exports both :results output
+  create_conf_file(ORIGINAL)
+  import conf
+  # PLUGINS is not defined in the module, originally.
+  print(conf.PLUGINS)
+#+END_SRC
+
+#+RESULTS:
+: AttributeError: module 'conf' has no attribute 'PLUGINS'
+
+#+BEGIN_SRC ipython :session :exports both :results output
+  create_conf_file(UPDATED)
+  import conf
+  print(conf.PLUGINS)
+#+END_SRC
+
+#+RESULTS:
+: AttributeError: module 'conf' has no attribute 'PLUGINS'
+
+~conf~ doesn't yet have a ~PLUGINS~ attribute, since the new module isn't
+imported until we reload.
+
+#+BEGIN_SRC ipython :session  :exports both :results output
+  import importlib
+  importlib.reload(conf)
+  print(conf.PLUGINS)
+#+END_SRC
+
+#+RESULTS:
+: ['rss']
+
+#+BEGIN_SRC ipython :session :exports both :results output
+  # We write back the original file. PLUGINS should be empty!
+  create_conf_file(ORIGINAL)
+  import conf
+  importlib.reload(conf)
+  print(conf.PLUGINS, "<---Whaaaat!")
+#+END_SRC
+
+#+RESULTS:
+: ['rss'] <---Whaaaat!
+
+The behavior is well documented, along with a reasoning of why it is the way it
+is, but you can trip over it if you don't know. I hit a bug and was wondering
+if there was a race condition somewhere, until I read the docs for [[https://docs.python.org/3/library/importlib.html#importlib.reload][reload]]. On
+reload, the module dict is updated, instead of creating a new dict and any
+values not redefined in the new code for the module remain unchanged.
