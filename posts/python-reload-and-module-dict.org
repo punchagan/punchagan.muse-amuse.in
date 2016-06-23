@@ -2,7 +2,7 @@
 .. title: Python reload and module dict
 .. slug: python-reload-and-module-dict
 .. date: 2016-06-23 16:05:30 UTC+05:30
-.. tags: draft, python, blag
+.. tags: blag, python
 .. category:
 .. link:
 .. description:
@@ -74,5 +74,5 @@ imported until we reload.
 The behavior is well documented, along with a reasoning of why it is the way it
 is, but you can trip over it if you don't know. I hit a bug and was wondering
 if there was a race condition somewhere, until I read the docs for [[https://docs.python.org/3/library/importlib.html#importlib.reload][reload]]. On
-reload, the module dict is updated, instead of creating a new dict and any
-values not redefined in the new code for the module remain unchanged.
+reload, *the module dict is updated*, instead of creating a new dict. Any
+values *not redefined* in the new code for the module *remain unchanged*.
