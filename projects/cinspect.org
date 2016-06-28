@@ -16,7 +16,7 @@
 ~cinspect~ attempts to extend Python's built-in inspect module to add
 "inspection" for Python's builtins and other objects not written in Python.  It
 uses ~libclang~ to parse C-code and indexes it to allow looking up the source
-of the required objects.
+of the required objects, using an ~inspect~-like API.
 
 The original idea was from a friend, [[https://twitter.com/ballingt/statuses/483394809411825665][Tom Ballinger]], who also helped me design
 and test it out.
