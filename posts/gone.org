@@ -1,7 +1,7 @@
 #+BEGIN_COMMENT
 .. title: Gone!
 .. date: 2008-02-23 22:42:00
-.. tags: blab, loss
+.. tags: blab, death
 .. slug: gone
 #+END_COMMENT
 
