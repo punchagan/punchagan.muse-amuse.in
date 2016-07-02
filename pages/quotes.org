@@ -322,6 +322,11 @@ brighter perspectives on life.
 - The people you love aren't interruptions, they’re the reason you work at
   all. Give 'em a hug. -- /Jason Zimdars/ in this [[https://m.signalvnoise.com/why-i-work-remotely-hint-it-has-nothing-to-do-with-productivity-34ace30f74fc#.jliostsa5][post]]
 
+- Attention is the rarest and purest form of generosity. -- /Simone Weil/
+
+- Ten years from now, make sure you can say that you chose your life, you
+  didn’t settle for it. -- Mandy Hale, The Single Woman
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js" async></script>
