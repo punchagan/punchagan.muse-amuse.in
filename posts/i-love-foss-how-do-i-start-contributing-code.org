@@ -153,55 +153,54 @@
   Happy Hacking!
 
 
-[fn:gsoc] All of this is generic advice, but students applying to
-programs like GSoC, may find it useful.
+[fn:gsoc] All of this is generic advice, but students applying to programs like
+GSoC, may find it useful.
 
 [fn:india] I'm writing in the Indian context.
 
-[fn:vcs] You may have to learn to use a version control system; at the
-very least cloning and pulling updates.
+[fn:vcs] You may have to learn to use a version control system; at the very
+least cloning and pulling updates.
 
-[fn:python] I recommend Python, but I am definitely biased.  Any
-language that is generic enough would do, really.
+[fn:python] I recommend Python, but I am definitely biased.  Any language that
+is generic enough would do, really.
   1. It gets you off the blocks, very quickly.
   2. It is easy to learn.
-  3. It is batteries included. Read as, comes bundled with a huge bunch of libraries.
-  4. It is general purpose enough. Read as, it has libraries that let you do anything, you'd possibly want to do.
-  5. There's a lot of Python code around, that you can read and
-learn from.
+  3. It is batteries included. Read as, comes bundled with a huge bunch of
+     libraries.
+  4. It is general purpose enough. Read as, it has libraries that let you do
+     anything, you'd possibly want to do.
+  5. There's a lot of Python code around, that you can read andlearn from.
 
 [fn:norvig] Teach Yourself Programming in Ten Years by Peter Norvig.
 
-[fn:github] Getting yourself a GitHub account and /socializing/ there
-is a lot of fun and helps quite a bit.  GitHub is my Facebook!
+[fn:github] Getting yourself a GitHub account and /socializing/ there is a lot
+of fun and helps quite a bit.  GitHub is my Facebook!
 
-[fn:bot] I started learning Python from /the Python tutorial/ and some
-other sources and doing the examples in them.  It was good, but I
-think I started learning more, and better, when I started solving
-problems from Project Euler.  And writing an IRC bot in Python, taught
-me a lot more than all of this.
+[fn:bot] I started learning Python from /the Python tutorial/ and some other
+sources and doing the examples in them.  It was good, but I think I started
+learning more, and better, when I started solving problems from Project Euler.
+And writing an IRC bot in Python, taught me a lot more than all of this.
 
-[fn:people] Org-mode is the only project that I really contribute to,
-actively.  I *really* liked the way the community gels together and
-the kind of people on the list.  There are some really knowledgeable,
-friendly and helpful people.  It feels great to be a part of the
-community.
+[fn:people] Org-mode is the only project that I really contribute to, actively.
+I *really* liked the way the community gels together and the kind of people on
+the list.  There are some really knowledgeable, friendly and helpful people.
+It feels great to be a part of the community.
 
 [fn:scipy] A few months ago, I was part of a sprint on the numpy-scipy
 eco-system.  We had somewhere around 50 patches (a lot of them were
-documentation fixes) submitted to all the projects!  Most of the
-people were submitting their first patch and I think it was a great
-opportunity for them to start.  [I should try and get back to them.]
+documentation fixes) submitted to all the projects!  Most of the people were
+submitting their first patch and I think it was a great opportunity for them to
+start.  [I should try and get back to them.]
 
-[fn:o2b] Org-mode is really awesome, and I use it for everything I
-write.  Blog posts are a big part of what I write, and so, I wanted to
-write them in orgmode.  And so, org2blog was born.
+[fn:o2b] Org-mode is really awesome, and I use it for everything I write.  Blog
+posts are a big part of what I write, and so, I wanted to write them in
+orgmode.  And so, org2blog was born.
 
-[fn:gethub] I recently wrote a Chrome extension, thanks to a friend's
-idea.  Inspired by Gmail notifications, a GitHub addict wanted
-notifications for activity in GitHub.
+[fn:gethub] I recently wrote a Chrome extension, thanks to a friend's idea.
+Inspired by Gmail notifications, a GitHub addict wanted notifications for
+activity in GitHub.
 
-[fn:patience] There have been instances, where it took me half a day
-to fix something, that would've been fixed in about an hour by someone
-more comfortable with the code.  But, I think everybody goes through
-this stage.  This is how you learn.
+[fn:patience] There have been instances, where it took me half a day to fix
+something, that would've been fixed in about an hour by someone more
+comfortable with the code.  But, I think everybody goes through this stage.
+This is how you learn.
