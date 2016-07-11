@@ -335,6 +335,18 @@ Every book that has caught my eye, since I started keeping this list.
 :URL: http://www.amazon.in/Labyrinths-Penguin-Modern-Classics-Borges/dp/0141184841
 :END:
 
+** [[https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365][Algorithms to Live By: The Computer Science of Human Decisions]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: an article shared by [[https://medium.com/the-long-now-foundation/solving-hard-decisions-1dabb1dbd14b#.urdva9rit][Annax]]
+   :URL:      https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365
+   :END:
+
+** [[https://www.amazon.in/One-Part-Woman-Perumal-Murugan-ebook/dp/B00GZQDISO?ie=UTF8&qid=1467980642&ref_=tmm_kin_swatch_0&sr=8-1][One Part Woman eBook: Perumal Murugan: Amazon.in: Kindle Store]] :fiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: A case in the Madras High Court
+   :URL:      https://www.amazon.in/One-Part-Woman-Perumal-Murugan-ebook/dp/B00GZQDISO?ie=UTF8&qid=1467980642&ref_=tmm_kin_swatch_0&sr=8-1
+   :END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
