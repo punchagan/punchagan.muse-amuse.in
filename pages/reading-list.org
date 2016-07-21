@@ -347,6 +347,36 @@ Every book that has caught my eye, since I started keeping this list.
    :URL:      https://www.amazon.in/One-Part-Woman-Perumal-Murugan-ebook/dp/B00GZQDISO?ie=UTF8&qid=1467980642&ref_=tmm_kin_swatch_0&sr=8-1
    :END:
 
+** [[http://www.amazon.in/Power-Noticing-What-Best-Leaders/dp/147670029X?ie=UTF8&keywords=power%20of%20noticing&qid=1468926557&ref_=sr_1_1&sr=8-1][The Power of Noticing: What the Best Leaders See]] :nonfiction:psychology:
+   :PROPERTIES:
+   :SUGGESTED_BY: An article in [[https://hbr.org/2016/05/keep-a-list-of-unethical-things-youll-never-do][HBR]]
+   :URL:      http://www.amazon.in/Power-Noticing-What-Best-Leaders/dp/147670029X?ie=UTF8&keywords=power%20of%20noticing&qid=1468926557&ref_=sr_1_1&sr=8-1
+   :END:
+
+** [[https://www.amazon.in/Mistakes-Were-Made-but-Not-ebook/dp/B01BNSI53G?ie=UTF8&keywords=mistakes%20were%20made%20but%20not%20by%20me&qid=1468941791&ref_=sr_1_2&s=books&sr=1-2][Mistakes Were Made (but Not by Me): Why We Justify Foolish Beliefs, Bad Decisions and Hurtful Acts eBook: Carol Tavris, Elliot Aronson: Amazon.in: Books]] :nonfiction:psychology:
+   :PROPERTIES:
+   :SUGGESTED_BY: An article in [[https://hbr.org/2016/05/keep-a-list-of-unethical-things-youll-never-do][HBR]]
+   :URL:      https://www.amazon.in/Mistakes-Were-Made-but-Not-ebook/dp/B01BNSI53G?ie=UTF8&keywords=mistakes%20were%20made%20but%20not%20by%20me&qid=1468941791&ref_=sr_1_2&s=books&sr=1-2
+   :END:
+
+** [[https://www.amazon.in/Gujarat-Files-Rana-Ayyub-ebook/dp/B01FWD9F2I?ie=UTF8&qid=1468994296&ref_=tmm_kin_swatch_0&sr=8-1][Gujarat Files eBook: Rana Ayyub: Amazon.in: Kindle Store]] :nonfiction:politics:
+   :PROPERTIES:
+   :SUGGESTED_BY: [[https://www.youtube.com/watch?v=2q32D9PlIcA][NL interview]] of Rana
+   :URL:      https://www.amazon.in/Gujarat-Files-Rana-Ayyub-ebook/dp/B01FWD9F2I?ie=UTF8&qid=1468994296&ref_=tmm_kin_swatch_0&sr=8-1
+   :END:
+
+** [[http://www.amazon.in/Great-Derangement-Climate-Unthinkable-Lectures/dp/022632303X][The Great Derangement: Climate Change and the Unthinkable (Berlin Family Lectures)]] :nonfiction:environment:
+   :PROPERTIES:
+   :SUGGESTED_BY: Conversation with [[http://www.livemint.com/Leisure/zo1459rOwDTjYN9Wr1ZJqJ/Amitav-Ghosh-We-are-living-our-lives-as-though-we-are-mad.html][Amitav Ghosh]]
+   :URL:      http://www.amazon.in/Great-Derangement-Climate-Unthinkable-Lectures/dp/022632303X
+   :END:
+
+** [[http://www.amazon.in/Blink-Power-Thinking-Without/dp/0316010669][Blink: The Power of Thinking Without Thinking]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY:  Multiple random places including Mark manson's article
+   :URL:      http://www.amazon.in/Blink-Power-Thinking-Without/dp/0316010669
+   :END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
