@@ -1,8 +1,8 @@
 #+BEGIN_COMMENT
-.. title: Bookmarks for 2016-07-03
-.. slug: bookmarks-for-2016-07-03
-.. date: 2016-07-10 02:14:01 UTC+05:30
-.. tags: draft
+.. title: What I liked 2016-07-03
+.. slug: what-i-liked-2016-07-03
+.. date: 2016-07-27 22:58:32 UTC+05:30
+.. tags: bookmarks, life, blab, happy
 .. category:
 .. link:
 .. description:
@@ -42,3 +42,7 @@ anything else after the Internet, was an interesting read.
 
 The lights in the audience truly look "amazingly beautiful" in [[https://www.youtube.com/watch?v=Qci3dMut-g0][this Coldplay
 video]].
+
+-----
+
+I'll try and post things that made me happy or touched my heart, each week.

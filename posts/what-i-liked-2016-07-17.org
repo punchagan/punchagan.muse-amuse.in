@@ -1,0 +1,40 @@
+#+BEGIN_COMMENT
+.. title: What I liked 2016-07-17
+.. slug: what-i-liked-2016-07-17
+.. date: 2016-07-27 23:04:21 UTC+05:30
+.. tags: bookmarks, life, blab, happy
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+[[https://twitter.com/cloud9trt][@9]] shared this story about [[http://www.filmsforaction.org/articles/the-white-man-in-that-photo/][Peter Norman]]. Woah, so inspirational!
+
+[[http://www.livemint.com/Leisure/zo1459rOwDTjYN9Wr1ZJqJ/Amitav-Ghosh-We-are-living-our-lives-as-though-we-are-mad.html][This conversation]] with Amitav Ghosh on his latest book The Great Derangement is
+pretty scary!  He says, "You know that this great derangement is ultimately
+going to lead to a great unraveling, but to see it working itself out, day
+after day, in the news, it's so terrifying. I mean, it's here, it's
+happening. You may not see it a direct connection between the events happening
+in the world today and the climate in general, but that relationship does
+exist. In Syria, everything started with a great drought. The Middle East, this
+entire Mediterranean region, is going through a historic drought. And if you
+think about how this tumult in the Arab world began, it was with protests over
+food in Tunisia. So what we're facing really, if you like, is a catastrophic
+convergence of natural impacts and human impacts."  I ended up buying the book
+at [[https://www.facebook.com/The-Bookworm-152526681474551/][Bookworm]].
+
+[[http://www.indiaspend.com/cover-story/how-reservations-help-disadvantaged-caste-students-get-higher-education-88852][This IndiaSpend article]] on how Quota's have helped the disadvantaged caste
+students is a really well written article, with informative charts.
+
+Kenneth Reitz released Episode-2 of [[https://soundcloud.com/import-this][Import This]], a podcast that I wasn't aware
+of and ended up listening to [[https://soundcloud.com/import-this/episode-1][Episode-1]]. I really liked the discussion on being
+considerate to others in communities that you are part of.  The quote that this
+episode ends with, "Software is all about the people. Don't dismiss them. Don't
+dismiss their experience.", resonated well with me.
+
+Julia Evans' [[https://pbs.twimg.com/media/CnpetubXYAA-cFx.jpg][how to be a wizard programmer]] sketch is rad! ([[https://twitter.com/b0rk/status/755020037979856896/photo/1][tweet]]).
+
+I watched the movie [[http://www.imdb.com/title/tt0878804/][Blind Side]] (2009) with friends, and really liked it. SJ and
+Oher together, they are a blast!
