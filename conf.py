@@ -368,7 +368,7 @@ DATE_FORMAT = '%d %b %Y'
 # To use comments, you can choose between different third party comment
 # systems, one of "disqus", "livefyre", "intensedebate", "moot",
 #                 "googleplus" or "facebook"
-# COMMENT_SYSTEM = "disqus"
+COMMENT_SYSTEM = "disqus"
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
@@ -613,7 +613,6 @@ DISABLED_PLUGINS = [
     'install_theme',
     'mako',
     'py3_switch',
-    # 'popular_posts',
     'redirect',
     'render_authors',
     'render_galleries',
@@ -622,6 +621,8 @@ DISABLED_PLUGINS = [
     'scale_images',
     'share',
     'version',
+    # 'popular_posts',
+    'comments',  # enabled disqus
 ]
 
 # List of regular expressions, links matching them will always be considered
