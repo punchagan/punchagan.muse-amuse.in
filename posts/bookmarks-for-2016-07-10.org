@@ -10,74 +10,26 @@
 #+END_COMMENT
 
 
+Airtel's [[https://twitter.com/airtelnews/status/753518084732878848][response]] to [[https://twitter.com/karthikb351][@karthikb351]]'s write up on how they are [[https://medium.com/@karthikb351/airtel-is-sniffing-and-censoring-cloudflares-traffic-in-india-and-they-don-t-even-know-it-90935f7f6d98#---0-257.ftneqcpnh][sniffing and
+censoring CloudFlare's traffic in India]] was funny but sad, though, not totally
+unexpected. For instance, see [[https://twitter.com/kingslyj/status/753534036996460544/photo/1][@kingslyj]]'s version of how this might end.
 
-- [[https://www.theguardian.com/music/2016/jul/10/amanda-palmer-interview-you-got-me-singing][Amanda Palmer: 'We can get lost in suffering, or we can carry on without fear' | Music | The Guardian]]
-Music has a practical purpose; we use it to celebrate and to mourn and to
-process and to grieve and to love
+I loved [[https://www.theguardian.com/music/2016/jul/10/amanda-palmer-interview-you-got-me-singing][this interview]] with Amanda Palmer where she talks about her stolen
+Ukulele, Music, her dad and her baby and her love for life comes across, like
+in everything else she does.  'I want to get a couple of T-shirts printed for
+me and the baby that say: "We are determined to enjoy ourselves"', she says.
 
-- [[http://theoatmeal.com/comics/tesla][Why Nikola Tesla was the greatest geek who ever lived - The Oatmeal]]
-RT @amberja_in: Memoir to Nikola Tesla by @Oatmeal Happy Birthday Nikola Tesla!
+A year old but inspiring article on [[http://www.nytimes.com/2015/08/30/magazine/the-meaning-of-serena-williams.html][Serena Williams]], shared by [[https://twitter.com/baali_][@baali]].  I like
+how she says, she's opening the next door for the next person, like the many
+people who opened many doors for her. [[https://twitter.com/baali_][@baali]] also recommended [[https://youtube.com/watch?v=AxvUWofBdo4][this song]] from
+Neerja as background music, and I loved it!
 
-- [[https://twitter.com/FitspirationaI/status/629326161471008768/photo/1][Twitter]]
-This is why we plank
+Pierre buttin's [[http://www.pierrebuttin.com/work/dayonadevice/][screenshot art]] is amusing and gives a sense of how distracted
+he is, each day of the week, and how distracted we are, as a people.
 
-- [[https://twitter.com/FlTNESS/status/752216194279698432][Twitter]]
-I like the illustration /cc @deiluson
+We were walking through the fields and bushes in Hampi and stopped at the gate
+of a private property.  A bearded man with a calm look on his face asked us "Do
+you know where you are headed?".  And then let us walk across his beautiful
+nature home to the other side, where we found this [[https://slack-files.com/T0MUM6C66-F1SSJ0KC3-b85733e158][amusing sign]].
 
-- [[https://twitter.com/GeniusFootball/status/752221463286022150/photo/1][Twitter]]
-RT @TheSCRLife: How much it means to them.
-
-- [[http://www.huffingtonpost.in/sanjukta-basu/post_12532_b_10844366.html][The Lie Of 'Candid' Wedding Photography In India]]
-The Lie Of 'Candid' Wedding Photography In India # via @HuffPostIndia
-
-- [[https://twitter.com/helloanand/status/752357783526338560/photo/1][Twitter]]
-48 exercises, many don't require any equipment. #stayhealthy
-
-- [[http://www.nytimes.com/2015/08/30/magazine/the-meaning-of-serena-williams.html][The Meaning of Serena Williams - The New York Times]]
-''Maybe it was not meant to be me. Maybe it's meant to be the next person to be
-amazing, and I'm just opening the door. Zina Garrison, Althea Gibson, Arthur
-Ashe and Venus opened so many doors for me. I'm just opening the next door for
-the next person.''
-
-- [[https://www.youtube.com/watch?v=Cm2EnrUAn8c][Untitled (https://www.youtube.com/watch?v=Cm2EnrUAn8c)]]
-RT @Hyper_aice: If you have nothing to do today, watch this ad many many many
-times.  #WomenInSport #NikeIndia #DaDaDing
-
-- [[http://jamesclear.com/all-models-are-wrong][All Models Are Wrong, Some Are Useful: How to Make Decisions in an Imperfect World | James Clear]]
-All Models Are Wrong, Some Are Useful: How to Make Decisions in an Imperfect
-World | James Clear
-
-- [[https://twitter.com/enthought/status/753233601332785153/photo/1][Twitter]]
-RT @enthought: Here we go! 15th scientific #Python conference (#SciPy2016)
-underway. Come talk @enthought w/ Jim & John @scipyconf
-
-- [[https://twitter.com/___leigh___/status/749701117483716608][Twitter]]
-I think all my voluntary language choices has been influenced by this.
-
-- [[https://twitter.com/Hyper_aice/status/753458226855763969/photo/1][Twitter]]
-Explaining #pokemon to my older sister was fun #not #whyeven
-
-- [[https://twitter.com/karthikb351/status/753507652668428288/photo/1][Twitter]]
-RT @karthikb351: Incase you missed it —
-
-- [[https://medium.com/@karthikb351/airtel-is-sniffing-and-censoring-cloudflares-traffic-in-india-and-they-don-t-even-know-it-90935f7f6d98#---0-257.ftneqcpnh][Airtel is sniffing and censoring CloudFlare's traffic in India and CloudFlare doesn't even know it. — Medium]]
-RT @karthikb351: Incase you missed it —
-
-- [[https://twitter.com/airtelnews/status/753518084732878848][Twitter]]
-RT @jackerhack: Of course Airtel denies everything. Even in the face of hard
-proof.
-
-- [[https://twitter.com/kingslyj/status/753534036996460544/photo/1][Twitter]]
-How @karthikb351 vs @airtelnews is going to end...
-
-- [[https://becomingmybetterself.wordpress.com/2016/07/14/trying-to-be-a-sane-vegan/][Trying to be a sane vegan | Becoming My Better Self]]
-RT @Aakritty: Trying to be a sane vegan via @wordpressdotcom
-
-- [[http://stephanus-volke.de/posts/2015/Dez/22/org-mode-live-preview-en/][testify – emacs org-mode live preview]]
-
-- [[http://www.pierrebuttin.com/work/dayonadevice/][PIERRE BUTTIN › Day on a device]]
-For a week, everytime I switched from one app to another on my phone or my
-laptop, I took a screenshot. I've then compiled all the screenshots I've taken
-during the day in one single image .
-
-- [[http://scroll.in/article/811656/why-gun-killings-will-continue-to-haunt-the-united-states][Why gun killings will continue to haunt the United States]]
+Finally, this [[https://www.youtube.com/watch?v=Cm2EnrUAn8c][Nike India ad]] on Women in Sport is great!
