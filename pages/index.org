@@ -10,10 +10,7 @@
 .. hideheader: true
 #+END_COMMENT
 
-Noetic Nought is punchagan's home on the web. He records his experiences and
-feelings through his journey of life [[./posts/index.html][here]]. He loves creating things by making
-computers flip bits, chasing flying Frisbees and long walks or bike rides. He's
-also interested in learning to learn better, and express his ideas better.
+Noetic Nought is punchagan's home on the web.
 
 ** Recent Posts
 #+HTML: {{% post-list count=5 %}}
