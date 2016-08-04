@@ -42,12 +42,21 @@ read. I hope that making it public will lead to --
 :END_DATE: [2015-11-08 Sun]
 :SUGGESTED_BY: Picked it up at Crosswords
 :END:
-** DONE [[./posts/book-review-5-love-languages.html][5 Love Languages]]                               :ARCHIVE::nonfiction:
+** DONE [[./posts/book-review-5-love-languages.html][5 Love Languages]] -- {{{property(AUTHOR)}}}      :ARCHIVE::nonfiction:
 :PROPERTIES:
 :SUGGESTED_BY: Matthew P. on RC's "what do you want in a relationship" topic
 :URL: http://www.amazon.com/gp/product/080241270X
 :START_DATE: [2015-11-23 Mon]
 :END_DATE: [2016-01-13 Wed]
+:AUTHOR: Gary Chapman
+:END:
+** DONE Deep Work: Rules for Focused Success in a Distracted World -- {{{property(AUTHOR)}}} :ARCHIVE:nonfiction:
+:PROPERTIES:
+:AUTHOR: Cal Newport
+:URL: [[http://www.amazon.com/gp/product/1455586692]]
+:START_DATE: [2016-07-26 Tue]
+:END_DATE: [2016-08-01 Mon]
+:SUGGESTED_BY: Cal Newport's blog/Myself.
 :END:
 
 * Current
@@ -251,71 +260,65 @@ Every book that has caught my eye, since I started keeping this list.
 :URL: http://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380
 :END:
 
-** [[http://www.amazon.com/gp/product/1455586692?keywords=cal%20newport%20deep%20work&qid=1453863282&ref_=sr_1_1&sr=8-1][Deep Work: Rules for Focused Success in a Distracted World]]   :nonfiction:
+** [[http://www.amazon.com/Art-Readable-Code-Theory-Practice-ebook/dp/B0064CZ1XE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=][Amazon.com: The Art of Readable Code (Theory in Practice) eBook: Dustin Boswell, Trevor Foucher: Kindle Store]] :programming:nonfiction:
 :PROPERTIES:
-:SUGGESTED_BY: Cal Newport's blog/Myself.
-:URL: http://www.amazon.com/gp/product/1455586692?keywords=cal%20newport%20deep%20work&qid=1453863282&ref_=sr_1_1&sr=8-1
+:SUGGESTED_BY: Sasha's [[http://sasha.wtf/unit-testing/][blog post]]
+:URL:      http://www.amazon.com/Art-Readable-Code-Theory-Practice-ebook/dp/B0064CZ1XE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
 :END:
 
-** [[http://www.amazon.com/Art-Readable-Code-Theory-Practice-ebook/dp/B0064CZ1XE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=][Amazon.com: The Art of Readable Code (Theory in Practice) eBook: Dustin Boswell, Trevor Foucher: Kindle Store]] :programming:nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: Sasha's [[http://sasha.wtf/unit-testing/][blog post]]
-   :URL:      http://www.amazon.com/Art-Readable-Code-Theory-Practice-ebook/dp/B0064CZ1XE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
-   :END:
-
 ** [[http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X][When Breath Becomes Air]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: Vivek @ Jaaga
-   :URL:      http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: Vivek @ Jaaga
+:URL:      http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X
+:END:
 
 ** [[http://www.amazon.com/Lean-In-Women-Work-Will/dp/0385349947][Lean In: Women, Work, and the Will to Lead]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: in an [[https://www.linkedin.com/pulse/20140311110227-69244073-8-ways-to-say-no-without-hurting-your-image][article]] shared by Sasha
-   :URL:      http://www.amazon.com/Lean-In-Women-Work-Will/dp/0385349947
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: in an [[https://www.linkedin.com/pulse/20140311110227-69244073-8-ways-to-say-no-without-hurting-your-image][article]] shared by Sasha
+:URL:      http://www.amazon.com/Lean-In-Women-Work-Will/dp/0385349947
+:END:
 
 ** [[http://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281][The Wall Street Journal Guide to Information Graphics: The Dos and Don'ts of Presenting Data, Facts, and Figures]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: [[https://medium.com/truth-labs/designing-data-driven-interfaces-a75d62997631#.we5f4bbbf][Article]] on designing data driven interfaces
-   :URL:      http://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: [[https://medium.com/truth-labs/designing-data-driven-interfaces-a75d62997631#.we5f4bbbf][Article]] on designing data driven interfaces
+:URL:      http://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281
+:END:
 
 ** [[https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1][The Good Muslim: A Novel eBook: Tahmima Anam: Amazon.in: Kindle Store]] :fiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: An article on [[http://www.thehindu.com/thread/politics-and-policy/article8572707.ece][Tagore]] in The Hindu
-   :URL:      https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: An article on [[http://www.thehindu.com/thread/politics-and-policy/article8572707.ece][Tagore]] in The Hindu
+:URL:      https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1
+:END:
 
 ** [[https://www.amazon.com/Being-Certain-Believing-Right-Youre/dp/031254152X?ie=UTF8&linkCode=sl1&linkId=88c2e2c7330317d41fe75ae73efa043c&ref_=as_li_ss_tl&tag=entsblo-20][On Being Certain: Believing You Are Right Even When You're Not]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: From a MarkManson [[http://markmanson.net/trust][article]]
-   :URL:      https://www.amazon.com/Being-Certain-Believing-Right-Youre/dp/031254152X
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: From a MarkManson [[http://markmanson.net/trust][article]]
+:URL:      https://www.amazon.com/Being-Certain-Believing-Right-Youre/dp/031254152X
+:END:
 
 ** [[https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010?ie=UTF8&keywords=better%20angels%20of%20our%20nature&linkCode=sl1&linkId=24e5d3b8ff79704bbb9e94222a79128e&qid=1462126638&ref_=as_li_ss_tl&sr=8-1&tag=entsblo-20][The Better Angels of Our Nature: Why Violence Has Declined]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: Markmason's [[http://markmanson.net/trust][article]]
-   :URL:      https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: Markmason's [[http://markmanson.net/trust][article]]
+:URL:      https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010
+:END:
 
 ** [[http://www.amazon.in/gp/product/0393309401/ref=x_gr_w_bb?ie=UTF8&tag=x_gr_w_bb_in-21&linkCode=as2&camp=3626&creative=24790][Our Inner Conflicts - A Constructive Theory of Neurosis Rev]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: Lisa on Zulip
-   :URL:      http://www.amazon.in/gp/product/0393309401/
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: Lisa on Zulip
+:URL:      http://www.amazon.in/gp/product/0393309401/
+:END:
 
 ** [[http://www.amazon.in/Blood-My-Hands-Confessions-Encounters/dp/9351772586?ie=UTF8&keywords=blood%20on%20my%20hands&qid=1465628271&ref_=sr_1_1&sr=8-1][Blood on My Hands: Confessions of Staged Encounters]]           :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY:  Twitterland
-   :URL:      http://www.amazon.in/Blood-My-Hands-Confessions-Encounters/dp/9351772586
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY:  Twitterland
+:URL:      http://www.amazon.in/Blood-My-Hands-Confessions-Encounters/dp/9351772586
+:END:
 
 ** [[https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815][Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: In a data [[https://soundcloud.com/nssd-podcast/episode-17-diurnal-high-variance][podcast]]
-   :URL:      https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: In a data [[https://soundcloud.com/nssd-podcast/episode-17-diurnal-high-variance][podcast]]
+:URL:      https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815
+:END:
 
 ** [[https://www.amazon.in/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A/ref=sr_1_1?ie=UTF8&qid=1465880952&sr=8-1&keywords=working+effectively+with+legacy+code][Working Effectively with Legacy Code (Robert C. Martin Series) eBook: Michael Feathers: Amazon.in: Kindle Store]] :nonfiction:programming:
 :PROPERTIES:
@@ -336,46 +339,64 @@ Every book that has caught my eye, since I started keeping this list.
 :END:
 
 ** [[https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365][Algorithms to Live By: The Computer Science of Human Decisions]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: an article shared by [[https://medium.com/the-long-now-foundation/solving-hard-decisions-1dabb1dbd14b#.urdva9rit][Annax]]
-   :URL:      https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: an article shared by [[https://medium.com/the-long-now-foundation/solving-hard-decisions-1dabb1dbd14b#.urdva9rit][Annax]]
+:URL:      https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365
+:END:
 
 ** [[https://www.amazon.in/One-Part-Woman-Perumal-Murugan-ebook/dp/B00GZQDISO?ie=UTF8&qid=1467980642&ref_=tmm_kin_swatch_0&sr=8-1][One Part Woman eBook: Perumal Murugan: Amazon.in: Kindle Store]] :fiction:
-   :PROPERTIES:
-   :SUGGESTED_BY: A case in the Madras High Court
-   :URL:      https://www.amazon.in/One-Part-Woman-Perumal-Murugan-ebook/dp/B00GZQDISO?ie=UTF8&qid=1467980642&ref_=tmm_kin_swatch_0&sr=8-1
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: A case in the Madras High Court
+:URL:      https://www.amazon.in/One-Part-Woman-Perumal-Murugan-ebook/dp/B00GZQDISO?ie=UTF8&qid=1467980642&ref_=tmm_kin_swatch_0&sr=8-1
+:END:
 
 ** [[http://www.amazon.in/Power-Noticing-What-Best-Leaders/dp/147670029X?ie=UTF8&keywords=power%20of%20noticing&qid=1468926557&ref_=sr_1_1&sr=8-1][The Power of Noticing: What the Best Leaders See]] :nonfiction:psychology:
-   :PROPERTIES:
-   :SUGGESTED_BY: An article in [[https://hbr.org/2016/05/keep-a-list-of-unethical-things-youll-never-do][HBR]]
-   :URL:      http://www.amazon.in/Power-Noticing-What-Best-Leaders/dp/147670029X?ie=UTF8&keywords=power%20of%20noticing&qid=1468926557&ref_=sr_1_1&sr=8-1
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: An article in [[https://hbr.org/2016/05/keep-a-list-of-unethical-things-youll-never-do][HBR]]
+:URL:      http://www.amazon.in/Power-Noticing-What-Best-Leaders/dp/147670029X?ie=UTF8&keywords=power%20of%20noticing&qid=1468926557&ref_=sr_1_1&sr=8-1
+:END:
 
 ** [[https://www.amazon.in/Mistakes-Were-Made-but-Not-ebook/dp/B01BNSI53G?ie=UTF8&keywords=mistakes%20were%20made%20but%20not%20by%20me&qid=1468941791&ref_=sr_1_2&s=books&sr=1-2][Mistakes Were Made (but Not by Me): Why We Justify Foolish Beliefs, Bad Decisions and Hurtful Acts eBook: Carol Tavris, Elliot Aronson: Amazon.in: Books]] :nonfiction:psychology:
-   :PROPERTIES:
-   :SUGGESTED_BY: An article in [[https://hbr.org/2016/05/keep-a-list-of-unethical-things-youll-never-do][HBR]]
-   :URL:      https://www.amazon.in/Mistakes-Were-Made-but-Not-ebook/dp/B01BNSI53G?ie=UTF8&keywords=mistakes%20were%20made%20but%20not%20by%20me&qid=1468941791&ref_=sr_1_2&s=books&sr=1-2
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: An article in [[https://hbr.org/2016/05/keep-a-list-of-unethical-things-youll-never-do][HBR]]
+:URL:      https://www.amazon.in/Mistakes-Were-Made-but-Not-ebook/dp/B01BNSI53G?ie=UTF8&keywords=mistakes%20were%20made%20but%20not%20by%20me&qid=1468941791&ref_=sr_1_2&s=books&sr=1-2
+:END:
 
 ** [[https://www.amazon.in/Gujarat-Files-Rana-Ayyub-ebook/dp/B01FWD9F2I?ie=UTF8&qid=1468994296&ref_=tmm_kin_swatch_0&sr=8-1][Gujarat Files eBook: Rana Ayyub: Amazon.in: Kindle Store]] :nonfiction:politics:
-   :PROPERTIES:
-   :SUGGESTED_BY: [[https://www.youtube.com/watch?v=2q32D9PlIcA][NL interview]] of Rana
-   :URL:      https://www.amazon.in/Gujarat-Files-Rana-Ayyub-ebook/dp/B01FWD9F2I?ie=UTF8&qid=1468994296&ref_=tmm_kin_swatch_0&sr=8-1
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: [[https://www.youtube.com/watch?v=2q32D9PlIcA][NL interview]] of Rana
+:URL:      https://www.amazon.in/Gujarat-Files-Rana-Ayyub-ebook/dp/B01FWD9F2I?ie=UTF8&qid=1468994296&ref_=tmm_kin_swatch_0&sr=8-1
+:END:
 
 ** [[http://www.amazon.in/Great-Derangement-Climate-Unthinkable-Lectures/dp/022632303X][The Great Derangement: Climate Change and the Unthinkable (Berlin Family Lectures)]] :nonfiction:environment:
-   :PROPERTIES:
-   :SUGGESTED_BY: Conversation with [[http://www.livemint.com/Leisure/zo1459rOwDTjYN9Wr1ZJqJ/Amitav-Ghosh-We-are-living-our-lives-as-though-we-are-mad.html][Amitav Ghosh]]
-   :URL:      http://www.amazon.in/Great-Derangement-Climate-Unthinkable-Lectures/dp/022632303X
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY: Conversation with [[http://www.livemint.com/Leisure/zo1459rOwDTjYN9Wr1ZJqJ/Amitav-Ghosh-We-are-living-our-lives-as-though-we-are-mad.html][Amitav Ghosh]]
+:URL:      http://www.amazon.in/Great-Derangement-Climate-Unthinkable-Lectures/dp/022632303X
+:END:
 
 ** [[http://www.amazon.in/Blink-Power-Thinking-Without/dp/0316010669][Blink: The Power of Thinking Without Thinking]] :nonfiction:
-   :PROPERTIES:
-   :SUGGESTED_BY:  Multiple random places including Mark manson's article
-   :URL:      http://www.amazon.in/Blink-Power-Thinking-Without/dp/0316010669
-   :END:
+:PROPERTIES:
+:SUGGESTED_BY:  Multiple random places including Mark manson's article
+:URL:      http://www.amazon.in/Blink-Power-Thinking-Without/dp/0316010669
+:END:
+
+** [[http://www.amazon.in/Mysticism-Logic-Essays-Bertrand-Russell/dp/1605200034?ie=UTF8&tag=braipick-20][Mysticism and Logic and Other Essays]] :nonfiction:philosophy:science:
+:PROPERTIES:
+:SUGGESTED_BY: [[https://www.brainpickings.org/2016/05/13/bertrand-russell-mysticism-logic-time/][Maria Popova]]
+:URL:      http://www.amazon.in/Mysticism-Logic-Essays-Bertrand-Russell/dp/1605200034?ie=UTF8&tag=braipick-20
+:END:
+
+** [[http://www.amazon.in/Routledge-Great-Minds-Complete-Believe/dp/0415854768?ie=UTF8&*Version*=1&*entries*=0][Routledge Great Minds: Complete Set: What I Believe]] :philosophy:life:atheism:
+:PROPERTIES:
+:SUGGESTED_BY: [[https://www.brainpickings.org/2015/02/03/bertrand-russell-immortality-good-life/][Maria Popova]]
+:URL:      http://www.amazon.in/Routledge-Great-Minds-Complete-Believe/dp/0415854768?ie=UTF8&*Version*=1&*entries*=0
+:END:
+
+** [[https://www.amazon.in/Women-Science-Fearless-Pioneers-Changed-ebook/dp/B017G7KJRS?ie=UTF8&qid=&ref_=tmm_kin_swatch_0&sr=][Women in Science: 50 Fearless Pioneers Who Changed the World eBook: Rachel Ignotofsky: Amazon.in: Kindle Store]] :feminism:nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: [[https://www.brainpickings.org/2016/07/28/women-in-science-rachel-ignotofsky/][Maria Popova]]
+:URL:      https://www.amazon.in/Women-Science-Fearless-Pioneers-Changed-ebook/dp/B017G7KJRS?ie=UTF8&qid=&ref_=tmm_kin_swatch_0&sr=
+:END:
 
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books

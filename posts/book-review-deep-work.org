@@ -1,0 +1,510 @@
+#+BEGIN_COMMENT
+.. title: Book Review: Deep Work
+.. slug: book-review-deep-work
+.. date: 2016-08-02 12:33:23 UTC+05:30
+.. tags: draft
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+#+BEGIN_HTML
+{{% book
+    cover=https://farm9.staticflickr.com/8785/28638939131_605f26bddb_o.jpg
+    isbn=1455586692
+    author="Cal Newport"
+    url=http://www.amazon.com/gp/product/1455586692
+    name="Deep Work: Rules for Focused Success in a Distracted World"
+    read="2016-08-01"
+    rating="4/5" %}}
+#+END_HTML
+
+Nothing presented in the book is totally new, and though some arguments aren't
+entirely clear, most of it makes sense from experience.
+
+#+BEGIN_QUOTE
+Deep Work: Professional activities performed in a state of
+distraction-free concentration that push your cognitive capabilities
+to their limit. These efforts create new value, improve your skill,
+and are hard to replicate.
+
+Shallow Work: Noncognitively demanding, logistical-style tasks, often
+performed while distracted. These efforts tend not to create much new
+value in the world and are easy to replicate.
+#+END_QUOTE
+
+Cal defines Deep and Shallow work
+
+To remain valuable in our economy, therefore, you must master the art
+of quickly learning complicated things. This task requires deep work.
+If you don't cultivate this ability, you're likely to fall behind as
+technology advances.
+
+To succeed you have to produce the absolute best stuff you're capable
+of producing—a task that requires depth.
+
+The Deep Work Hypothesis: The ability to perform deep work is becoming
+increasingly rare at exactly the same time it is becoming increasingly
+valuable in our economy.
+
+I build my days around a core of carefully chosen deep work, with the
+shallow activities I absolutely cannot avoid batched into smaller
+bursts at the peripheries of my schedule. Three to four hours a day,
+five days a week, of uninterrupted and carefully directed
+concentration, it turns out, can produce a lot of valuable output.
+
+In other words, those with the oracular ability to work with and tease
+valuable results out of increasingly complex machines will thrive.
+Tyler Cowen summarizes this reality more bluntly: "The key question
+will be: are you good at working with intelligent machines or not?"
+
+Hearing a succession of mediocre singers does not add up to a single
+outstanding performance." In other words, talent is not a commodity
+you can buy in bulk and combine to reach the needed levels: There's a
+premium to being the best.
+
+In this new economy, three groups will have a particular advantage:
+those who can work well and creatively with intelligent machines,
+those who are the best at what they do, and those with access to
+capital.
+
+If you can't learn, you can't thrive.
+
+If you don't produce, you won't thrive—no matter how skilled or
+talented you are.
+
+we argue that the differences between expert performers and normal
+adults reflect a life-long period of deliberate effort to improve
+performance in a specific domain."
+
+This new science of performance argues that you get better at a skill
+as you develop more myelin around the relevant neurons, allowing the
+corresponding circuit to fire more effortlessly and effectively. To be
+great at something is to be well myelinated.
+
+To learn hard things quickly, you must focus intensely without
+distraction. To learn, in other words, is an act of deep work.
+
+the batching of hard but important intellectual work into long,
+uninterrupted stretches.
+
+The Principle of Least Resistance: In a business setting, without
+clear feedback on the impact of various behaviors to the bottom line,
+we will tend toward behaviors that are easiest in the moment.
+
+Clarity about what matters provides clarity about what does not.
+
+Busyness as Proxy for Productivity: In the absence of clear indicators
+of what it means to be productive and valuable in their jobs, many
+knowledge workers turn back toward an industrial indicator of
+productivity: doing lots of stuff in a visible manner.
+
+Deep work is at a severe disadvantage in a technopoly because it
+builds on values like quality, craftsmanship, and mastery that are
+decidedly old-fashioned and nontechnological.
+
+Our brains instead construct our worldview based on what we pay
+attention to. If you focus on a cancer diagnosis, you and your life
+become unhappy and dark, but if you focus instead on an evening
+martini, you and your life become more pleasant—even though the
+circumstances in both scenarios are the same. As Gallagher summarizes:
+"Who you are, what you think, feel, and do, what you love—is the sum
+of what you focus on."
+
+The best moments usually occur when a person's body or mind is
+stretched to its limits in a voluntary effort to accomplish something
+difficult and worthwhile."
+
+Ironically, jobs are actually easier to enjoy than free time, because
+like flow activities they have built-in goals, feedback rules, and
+challenges, all of which encourage one to become involved in one's
+work, to concentrate and lose oneself in it. Free time, on the other
+hand, is unstructured, and requires much greater effort to be shaped
+into something that can be enjoyed.
+
+Human beings, it seems, are at their best when immersed deeply in
+something challenging.
+
+To build your working life around the experience of flow produced by
+deep work is a proven path to deep satisfaction.
+
+Consider this quote from the coding prodigy Santiago Gonzalez
+describing his work to an interviewer: Beautiful code is short and
+concise, so if you were to give that code to another programmer they
+would say, "oh, that's well written code." It's much like as if you
+were writing a poem.
+
+The book then elaborates that computer programmers must see their work
+in the same way: Within the overall structure of a project there is
+always room for individuality and craftsmanship … One hundred years
+from now, our engineering may seem as archaic as the techniques used
+by medieval cathedral builders seem to today's civil engineers, while
+our craftsmanship will still be honored.
+
+The second key observation about this line of argument is that
+cultivating craftsmanship is necessarily a deep task and therefore
+requires a commitment to deep work. (Recall that I argued in Chapter 1
+that deep work is necessary to hone skills and to then apply them at
+an elite level—the core activities in craft.) Deep work, therefore, is
+key to extracting meaning from your profession in the manner described
+by Dreyfus and Kelly. It follows that to embrace deep work in your own
+career, and to direct it toward cultivating your skill, is an effort
+that can transform a knowledge work job from a distracted, draining
+obligation into something satisfying—a portal to a world full of
+shining, wondrous things.
+
+"I'll live the focused life, because it's the best kind there is." This
+is perhaps the best way to sum up the argument of this chapter and of
+Part 1 more broadly: A deep life is a good life, any way you look at
+it.
+
+The key to developing a deep work habit is to move beyond good
+intentions and add routines and rituals to your working life designed
+to minimize the amount of your limited willpower necessary to
+transition into and maintain a state of unbroken concentration.
+
+The Monastic Philosophy of Deep Work Scheduling
+
+The Bimodal Philosophy of Deep Work Scheduling
+
+The Rhythmic Philosophy of Deep Work Scheduling
+
+The Journalistic Philosophy of Deep Work Scheduling
+
+Ritualize An often-overlooked observation about those who use their
+minds to create valuable things is that they're rarely haphazard in
+their work habits.
+
+Where you'll work and for how long.
+
+• How you'll work once you start to work.
+
+• How you'll support your work.
+
+Make Grand Gestures
+
+Don't Work Alone
+
+First, distraction remains a destroyer of depth.
+
+Second, even when you retreat to a spoke to think deeply, when it's
+reasonable to leverage the whiteboard effect, do so. By working side
+by side with someone on a problem, you can push each other toward
+deeper levels of depth, and therefore toward the generation of more
+and more valuable output as compared to working alone.
+
+Execute Like a Business
+
+Discipline #1: Focus on the Wildly Important
+
+Discipline #2: Act on the Lead Measures
+
+Discipline #3: Keep a Compelling Scoreboard
+
+Discipline #4: Create a Cadence of Accountability
+
+Be Lazy
+
+This strategy argues that you should follow Kreider's lead by
+injecting regular and substantial freedom from professional concerns
+into your day, providing you with the idleness paradoxically required
+to get (deep) work done.
+
+Reason #1: Downtime Aids Insights
+
+At a high level, this theory proposes that for decisions that require
+the application of strict rules, the conscious mind must be involved.
+For example, if you need to do a math calculation, only your conscious
+mind is able to follow the precise arithmetic rules needed for
+correctness. On the other hand, for decisions that involve large
+amounts of information and multiple vague, and perhaps even
+conflicting, constraints, your unconscious mind is well suited to
+tackle the issue. UTT hypothesizes that this is due to the fact that
+these regions of your brain have more neuronal bandwidth available,
+allowing them to move around more information and sift through more
+potential solutions than your conscious centers of thinking.
+
+Reason #2: Downtime Helps Recharge the Energy Needed to Work Deeply
+
+This study, it turns out, is one of many that validate attention
+restoration theory (ART), which claims that spending time in nature
+can improve your ability to concentrate. This
+
+Having a casual conversation with a friend, listening to music while
+making dinner, playing a game with your kids, going for a run—the
+types of activities that will fill your time in the evening if you
+enforce a work shutdown—play the same attention-restoring role as
+walking in nature.
+
+Reason #3: The Work That Evening Downtime Replaces Is Usually Not That
+Important
+
+your capacity for deep work in a given day is limited. If you're
+careful about your schedule (using, for example, the type of
+productivity strategies described in Rule #4), you should hit your
+daily deep work capacity during your workday.
+
+Another key commitment for succeeding with this strategy is to support
+your commitment to shutting down with a strict shutdown ritual that
+you use at the end of the workday to maximize the probability that you
+succeed. In more detail, this ritual should ensure that every
+incomplete task, goal, or project has been reviewed and that for each
+you have confirmed that either (1) you have a plan you trust for its
+completion, or (2) it's captured in a place where it will be revisited
+when the time is right. The process should be an algorithm: a series
+of steps you always conduct, one after another. When you're done, have
+a set phrase you say that indicates completion (to end my own ritual,
+I say, "Shutdown complete"). This final step sounds cheesy, but it
+provides a simple cue to your mind that it's safe to release work-
+related thoughts for the rest of the day.
+
+When you work, work hard. When you're done, be done.
+
+The ability to concentrate intensely is a skill that must be trained.
+This idea might sound obvious once it's pointed out, but it represents
+a departure from how most people understand such matters. In my
+experience, it's common to treat undistracted concentration as a habit
+like flossing—something that you know how to do and know is good for
+you, but that you've been neglecting due to a lack of motivation.
+
+Efforts to deepen your focus will struggle if you don't simultaneously
+wean your mind from a dependence on distraction. Much in the same way
+that athletes must take care of their bodies outside of their training
+sessions, you'll struggle to achieve the deepest levels of
+concentration if you spend the rest of your time fleeing the slightest
+hint of boredom.
+
+Don't Take Breaks from Distraction. Instead Take Breaks from Focus.
+
+All forms of this advice provide some benefit, but once we see the
+distraction problem in terms of brain wiring, it becomes clear that an
+Internet Sabbath cannot by itself cure a distracted brain. If you eat
+healthy just one day a week, you're unlikely to lose weight, as the
+majority of your time is still spent gorging. Similarly, if you spend
+just one day a week resisting distraction, you're unlikely to diminish
+your brain's craving for these stimuli, as most of your time is still
+spent giving in to it.
+
+Point #1: This strategy works even if your job requires lots of
+Internet use and/or prompt e-mail replies.
+
+Point #2: Regardless of how you schedule your Internet blocks, you
+must keep the time outside these blocks absolutely free from Internet
+use.
+
+Point #3: Scheduling Internet use at home as well as at work can
+further improve your concentration training.
+
+To summarize, to succeed with deep work you must rewire your brain to
+be comfortable resisting distracting stimuli. This doesn't mean that
+you have to eliminate distracting behaviors; it's sufficient that you
+instead eliminate the ability of such behaviors to hijack your
+attention.
+
+Work Like Teddy Roosevelt
+
+Like Roosevelt at Harvard, attack the task with every free neuron
+until it gives way under your unwavering barrage of concentration.
+
+Meditate Productively
+
+I suggest that you adopt a productive meditation practice in your own
+life. You don't necessarily need a serious session every day, but your
+goal should be to participate in at least two or three such sessions
+in a typical week. Fortunately, finding time for this strategy is
+easy, as it takes advantage of periods that would otherwise be wasted
+(such as walking the dog or commuting to work), and if done right, can
+actually increase your professional productivity instead of taking
+time away from your work.
+
+Suggestion #1: Be Wary of Distractions and Looping
+
+Suggestion #2: Structure Your Deep Thinking
+
+Memorize a Deck of Cards
+
+A side effect of memory training, in other words, is an improvement in
+your general ability to concentrate. This ability can then be
+fruitfully applied to any task demanding deep work.
+
+If card memorization seems weird to you, in other words, then choose a
+replacement that makes similar cognitive requirements. The key to this
+strategy is not the specifics, but instead the motivating idea that
+your ability to concentrate is only as strong as your commitment to
+train it.
+
+The use of network tools can be harmful. If you don't attempt to weigh
+pros against cons, but instead use any glimpse of some potential
+benefit as justification for unrestrained use of a tool, then you're
+unwittingly crippling your ability to succeed in the world of
+knowledge work.
+
+The Craftsman Approach to Tool Selection: Identify the core factors
+that determine success and happiness in your professional and personal
+life. Adopt a tool only if its positive impacts on these factors
+substantially outweigh its negative impacts.
+
+Apply the Law of the Vital Few to Your Internet Habits
+
+The first step of this strategy is to identify the main high-level
+goals in both your professional and your personal life.
+
+Once you've identified these goals, list for each the two or three
+most important activities that help you satisfy the goal.
+
+The next step in this strategy is to consider the network tools you
+currently use. For each such tool, go through the key activities you
+identified and ask whether the use of the tool has a substantially
+positive impact, a substantially negative impact, or little impact on
+your regular and successful participation in the activity. Now comes
+the important decision: Keep using this tool only if you concluded
+that it has substantial positive impacts and that these outweigh the
+negative impacts.
+
+The Law of the Vital Few*: In many settings, 80 percent of a given
+effect is due to just 20 percent of the possible causes.
+
+Don't Use the Internet to Entertain Yourself
+
+the logical foundation of his proposal, that you both should and can
+make deliberate use of your time outside work, remains relevant
+today—especially with respect to the goal of this rule, which is to
+reduce the impact of network tools on your ability to perform deep
+work.
+
+Addictive websites of the type mentioned previously thrive in a
+vacuum: If you haven't given yourself something to do in a given
+moment, they'll always beckon as an appealing option. If you instead
+fill this free time with something of more quality, their grip on your
+attention will loosen. It's crucial, therefore, that you figure out in
+advance what you're going to do with your evenings and weekends before
+they begin. Structured hobbies provide good fodder for these hours, as
+they generate specific actions with specific goals to fill your time.
+A set program of reading, à la Bennett, where you spend regular time
+each night making progress on a series of deliberately chosen books,
+is also a good option, as is, of course, exercise or the enjoyment of
+good (in-person) company.
+
+The shallow work that increasingly dominates the time and attention of
+knowledge workers is less vital than it often seems in the moment. For
+most businesses, if you eliminated significant amounts of this
+shallowness, their bottom line would likely remain unaffected. And as
+Jason Fried discovered, if you not only eliminate shallow work, but
+also replace this recovered time with more of the deep alternative,
+not only will the business continue to function; it can become more
+successful. This rule asks you to apply these insights to your
+personal work life. The strategies that follow are designed to help
+you ruthlessly identify the shallowness in your current schedule, then
+cull it down to minimum levels—leaving more time for the deep efforts
+that ultimately matter most.
+
+To summarize, I'm asking you to treat shallow work with suspicion
+because its damage is often vastly underestimated and its importance
+vastly overestimated. This type of work is inevitable, but you must
+keep it confined to a point where it doesn't impede your ability to
+take full advantage of the deeper efforts that ultimately determine
+your impact.
+
+Schedule Every Minute of Your Day
+
+We spend much of our day on autopilot—not giving much thought to what
+we're doing with our time. This is a problem. It's difficult to
+prevent the trivial from creeping into every corner of your schedule
+if you don't face, without flinching, your current balance between
+deep and shallow work, and then adopt the habit of pausing before
+action and asking, "What makes the most sense right now?" The strategy
+described in the following paragraphs is designed to force you into
+these behaviors. It's an idea that might seem extreme at first but
+will soon prove indispensable in your quest to take full advantage of
+the value of deep work: Schedule every minute of your day.
+
+Over time, you should make an effort to accurately (if not somewhat
+conservatively) predict the time tasks will require.
+
+The second tactic that helps is the use of overflow conditional
+blocks. If you're not sure how long a given activity might take, block
+off the expected time, then follow this with an additional block that
+has a split purpose. If you need more time for the preceding activity,
+use this additional block to keep working on it.
+
+In other words, I not only allow spontaneity in my schedule; I
+encourage it. Joseph's critique is driven by the mistaken idea that
+the goal of a schedule is to force your behavior into a rigid plan.
+This type of scheduling, however, isn't about constraint—it's instead
+about thoughtfulness. It's a simple habit that forces you to
+continually take a moment throughout your day and ask: "What makes
+sense for me to do with the time that remains?"
+
+Quantify the Depth of Every Activity
+
+Shallow Work: Noncognitively demanding, logistical-style tasks, often
+performed while distracted. These efforts tend not to create much new
+value in the world and are easy to replicate.
+
+How long would it take (in months) to train a smart recent college
+graduate with no specialized training in my field to complete this
+task?
+
+Ask Your Boss for a Shallow Work Budget
+
+this exercise will force you to confront the reality of how little
+time in your "busy" schedule you're actually producing value.
+
+Finish Your Work by Five Thirty
+
+A commitment to fixed-schedule productivity, however, shifts you into
+a scarcity mind-set. Suddenly any obligation beyond your deepest
+efforts is suspect and seen as potentially disruptive. Your default
+answer becomes no, the bar for gaining access to your time and
+attention rises precipitously, and you begin to organize the efforts
+that pass these obstacles with a ruthless efficiency.
+
+Fixed-schedule productivity, in other words, is a meta-habit that's
+simple to adopt but broad in its impact. If you have to choose just
+one behavior that reorients your focus toward the deep, this one
+should be high on your list of possibilities.
+
+Become Hard to Reach
+
+Tip #1: Make People Who Send You E-mail Do More Work
+
+Tip #2: Do More Work When You Send or Reply to E-mails
+
+I suggest, therefore, that the right strategy when faced with a
+question of this type is to pause a moment before replying and take
+the time to answer the following key prompt: What is the project
+represented by this message, and what is the most efficient (in terms
+of messages generated) process for bringing this project to a
+successful conclusion?
+
+Tip #3: Don't Respond
+
+Professorial E-mail Sorting: Do not reply to an e-mail message if any
+of the following applies: It's ambiguous or otherwise makes it hard
+for you to generate a reasonable response. It's not a question or
+proposal that interests you. Nothing really good would happen if you
+did respond and nothing really bad would happen if you didn't.
+
+"Develop the habit of letting small bad things happen. If you don't,
+you'll never find time for the life-changing big things."
+
+Deep work is way more powerful than most people understand. It's a
+commitment to this skill that allowed Bill Gates to make the most of
+an unexpected opportunity to create a new industry, and that allowed
+me to double my academic productivity the same year I decided to
+concurrently write a book. To leave the distracted masses to join the
+focused few, I'm arguing, is a transformative experience.
+
+There's also an uneasiness that surrounds any effort to produce the
+best things you're capable of producing, as this forces you to
+confront the possibility that your best is not (yet) that good. It's
+safer to comment on our culture than to step into the Rooseveltian
+ring
+
+There's also an uneasiness that surrounds any effort to produce the
+best things you're capable of producing, as this forces you to
+confront the possibility that your best is not (yet) that good. It's
+safer to comment on our culture than to step into the Rooseveltian
+ring and attempt to wrestle it into something better.
