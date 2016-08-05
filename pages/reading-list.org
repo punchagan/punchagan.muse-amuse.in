@@ -398,6 +398,18 @@ Every book that has caught my eye, since I started keeping this list.
 :URL:      https://www.amazon.in/Women-Science-Fearless-Pioneers-Changed-ebook/dp/B017G7KJRS?ie=UTF8&qid=&ref_=tmm_kin_swatch_0&sr=
 :END:
 
+** [[https://www.amazon.in/Free-Man-Aman-Sethi-ebook/dp/B008M7S0M8?][A Free Man eBook: Aman Sethi: Amazon.in: Kindle Store]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: Manvi Dhillon [[https://www.youtube.com/watch?v=TxiFF_TV-K0][interview]]
+   :URL:      https://www.amazon.in/Free-Man-Aman-Sethi-ebook/dp/B008M7S0M8?
+   :END:
+
+** [[https://www.amazon.in/Working-People-Talk-About-What-ebook/dp/B006CPAREQ/ref=sr_1_fkmr0_1?ie=UTF8&qid=1470393912&sr=8-1-fkmr0&keywords=working+by+stud+sturkel][Working: People Talk About What They Do All Day and How They Feel About What They Do eBook: Studs Terkel: Amazon.in: Kindle Store]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: Manvi Dhillon [[https://www.youtube.com/watch?v=TxiFF_TV-K0][interview]]
+   :URL:      https://www.amazon.in/Working-People-Talk-About-What-ebook/dp/B006CPAREQ/
+   :END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
