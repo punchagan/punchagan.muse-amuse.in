@@ -1,0 +1,423 @@
+#+STARTUP: indent hidestars showall
+#+OPTIONS: H:1 tags:nil todo:nil
+#+TODO: READING(r) TOREAD(t) TOREVIEW(v) | DONE(d)
+#+COLUMNS: %TODO %42ITEM %START_DATE %END_DATE
+#+BEGIN_COMMENT
+.. title: Reading List
+.. slug: reading-list
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+.. nocomments: True
+#+END_COMMENT
+
+
+To help myself read more books, I plan to keep a list of the books I have
+read. I hope that making it public will lead to --
+1. some social pressure on me to keep reading
+2. interesting conversations about books I have read, and should read! Drop me
+   an email or ping me on [[https://punchagan.com/twitter][Twitter]].
+
+* Archive
+** DONE The Picture of Dorian Gray -- {{{property(AUTHOR)}}} :ARCHIVE:fiction:
+:PROPERTIES:
+:AUTHOR: Oscar Wilde
+:START_DATE: [2015-09-20 Sun]
+:END_DATE: [2015-11-22 Sun]
+:SUGGESTED_BY: Michelle on RC's Fiction Books topic
+:END:
+** DONE Cat's Cradle -- {{{property(AUTHOR)}}}             :ARCHIVE:fiction:
+:PROPERTIES:
+:AUTHOR: Kurt Vonnegut
+:START_DATE: [2015-09-13 Sun]
+:END_DATE: [2015-09-19 Sat]
+:SUGGESTED_BY: Michelle on RC's Fiction Books topic
+:END:
+** DONE Slaughterhouse Five -- {{{property(AUTHOR)}}}      :ARCHIVE:fiction:
+:PROPERTIES:
+:AUTHOR: Kurt Vonnegut
+:START_DATE: [2015-11-01 Sun]
+:END_DATE: [2015-11-08 Sun]
+:SUGGESTED_BY: Picked it up at Crosswords
+:END:
+** DONE [[./posts/book-review-5-love-languages.html][5 Love Languages]] -- {{{property(AUTHOR)}}}      :ARCHIVE::nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Matthew P. on RC's "what do you want in a relationship" topic
+:URL: http://www.amazon.com/gp/product/080241270X
+:START_DATE: [2015-11-23 Mon]
+:END_DATE: [2016-01-13 Wed]
+:AUTHOR: Gary Chapman
+:END:
+** DONE Deep Work: Rules for Focused Success in a Distracted World -- {{{property(AUTHOR)}}} :ARCHIVE:nonfiction:
+:PROPERTIES:
+:AUTHOR: Cal Newport
+:URL: [[http://www.amazon.com/gp/product/1455586692]]
+:START_DATE: [2016-07-26 Tue]
+:END_DATE: [2016-08-01 Mon]
+:SUGGESTED_BY: Cal Newport's blog/Myself.
+:END:
+
+* Current
+** TOREVIEW [[http://www.amazon.com/dp/1455509124][So Good They Can't Ignore You]]                       :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Sivers' [[https://sivers.org/book/SoGood][Book Review]]
+:URL: http://www.amazon.com/dp/1455509124
+:START_DATE: [2016-01-16 Sat]
+:END_DATE: [2016-01-20 Wed]
+:END:
+** READING [[http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555][Thinking, Fast and Slow]]                               :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Buster Benson of 750words in his [[https://medium.com/better-humans/better-than-meditation-12532d29f6cd#.d58j0bwym][post]] on meditation, Bert Muthalaly in a [[https://twitter.com/stijlist/status/675931860216782848][Tweet]]
+:URL: http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
+:END:
+
+* Kitchen-sink
+Every book that has caught my eye, since I started keeping this list.
+
+** TOREAD [[http://www-labs.iro.umontreal.ca/~bengioy/dlbook/][Deep learning]]                            :nonfiction:deeplearning:
+:PROPERTIES:
+:URL: http://www-labs.iro.umontreal.ca/~bengioy/dlbook/
+:END:
+
+** TOREAD [[http://www.amazon.com/Consider-Your-Options-Equity-Compensation/dp/1938797027][Consider Your Options: Get the Most from Your Equity Compensation]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Zameer [[https://twitter.com/zmanji/status/682046049146421248][on Twitter]] in response to @bork's startup options tweet/post
+:URL: http://www.amazon.com/Consider-Your-Options-Equity-Compensation/dp/1938797027
+:END:
+
+** TOREAD [[http://www.amazon.com/gp/product/0345371984?keywords=last%20chance%20to%20see%20douglas%20adams&qid=1451722224&ref_=sr_1_1&sr=8-1][Last Chance to See]]                                    :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Backlinked from [[http://www.ccs.neu.edu/home/matthias/programming.html][a quote]] by Douglas Adams
+:URL: http://www.amazon.com/gp/product/0345371984?keywords=last%20chance%20to%20see%20douglas%20adams&qid=1451722224&ref_=sr_1_1&sr=8-1
+:END:
+
+** [[http://assets.sbnation.com/assets/1074301/Valve_Handbook_LowRes.pdf][Valve: Handbook for New Employees]]                             :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: In a [[http://mikehadlow.blogspot.in/2014/03/coconut-headphones-why-agile-has-failed.html][post]] on agile
+:URL: http://assets.sbnation.com/assets/1074301/Valve_Handbook_LowRes.pdf
+:END:
+
+** [[http://www.amazon.com/The-Art-Asking-Learned-Worrying/dp/1455581089][Art of Asking]]                                                 :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Unkal
+:URL: http://www.amazon.com/The-Art-Asking-Learned-Worrying/dp/1455581089
+:END:
+** [[http://www.amazon.com/gp/product/069116407X][How to Solve it]]                                               :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Lots of people including Rich Hickey in Hammock Driven Development
+:URL:
+:END:
+** [[http://www.amazon.com/Against-Gods-Remarkable-Story-Risk/dp/0471295639][Against the Gods]]                                  :nonfiction:statistics:
+:PROPERTIES:
+:SUGGESTED_BY: Matthew P. on Zulip (Recommendations for learning Probability)
+:URL:
+:END:
+** [[http://www.amazon.com/gp/product/0767907698/][Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: DS
+:URL: http://www.amazon.com/gp/product/0767907698/
+:END:
+** [[http://www.amazon.in/Entangled-Urbanism-Community-Shopping-Gurgaon/dp/0198099142/][Entangled Urabanism]]                           :nonfiction:urban_planning:
+:PROPERTIES:
+:SUGGESTED_BY: Read an article by author on kafila.org
+:URL: http://www.amazon.in/Entangled-Urbanism-Community-Shopping-Gurgaon/dp/0198099142/
+:END:
+** [[http://www.gutenberg.org/ebooks/525][Youth]]                                                           :fiction:
+:PROPERTIES:
+:SUGGESTED_BY: Kurt Vonnegut in a letter to his daughter
+:URL: http://www.gutenberg.org/ebooks/525
+:END:
+** [[http://www.gutenberg.org/ebooks/author/708][Chekhov's Short Stories]]                                         :fiction:
+:PROPERTIES:
+:SUGGESTED_BY: Kurt Vonnegut in a letter to his daughter
+:URL: http://www.gutenberg.org/ebooks/author/708
+:END:
+
+** [[http://www.amazon.com/The-Bookseller-Kabul-Asne-Seierstad/dp/0316159417][The Bookseller of Kabul]]                                      :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Shwetha was gifted this book.
+:URL: http://www.amazon.com/The-Bookseller-Kabul-Asne-Seierstad/dp/0316159417
+:END:
+
+** [[http://www.amazon.com/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592408419/][Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Ezekiel in the blog post on worthiness
+:URL: http://www.amazon.com/Daring-Greatly-Courage-Vulnerable-Transforms/dp/1592408419/
+:END:
+
+** [[https://www.instamojo.com/horizonbooks/naxalbari/][Amar Bari Tomar Bari Naxalbari]]                       :nonfiction:politics:
+:PROPERTIES:
+:SUGGESTED_BY: @Wander_Ponder
+:URL: https://www.instamojo.com/horizonbooks/naxalbari/
+:END:
+
+** [[http://www.amazon.com/Waking-Up-Searching-Spirituality-Religion-ebook/dp/B00LWM6CAM/ref=mt_kindle?_encoding=UTF8&me=][Waking Up: Searching for Spirituality Without Religion]]       :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Buster Benson of 750words in his [[https://medium.com/better-humans/better-than-meditation-12532d29f6cd#.d58j0bwym][post]] on meditation
+:URL: http://www.amazon.com/Waking-Up-Searching-Spirituality-Religion-ebook/dp/B00LWM6CAM/ref=mt_kindle?_encoding=UTF8&me=
+:END:
+
+** [[http://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135][The Society of Mind]]                                          :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Buster Benson of 750words in his [[https://medium.com/better-humans/better-than-meditation-12532d29f6cd#.d58j0bwym][post]] on meditation
+:URL: http://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135
+:END:
+
+** [[http://www.amazon.com/The-Artists-Way-Julia-Cameron/dp/1585421464][The Artist's Way]]                                  :nonfiction:creativity:
+:PROPERTIES:
+:SUGGESTED_BY: Buster Benson of 750words in his [[https://medium.com/better-humans/better-than-meditation-12532d29f6cd#.d58j0bwym][post]] on meditation
+:URL: http://www.amazon.com/The-Artists-Way-Julia-Cameron/dp/1585421464
+:END:
+
+** [[http://www.amazon.com/Product-Design-Process-Alison-Wong-ebook/dp/B00BXB6NWE][The Product Design Process]]                                   :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Sneh on Jaaga Slack
+:URL: http://www.amazon.com/Product-Design-Process-Alison-Wong-ebook/dp/B00BXB6NWE
+:END:
+
+** [[http://www.amazon.com/Encyclopedia-Trouble-Spaciousness-Rebecca-Solnit/dp/1595347534/?tag=braipick-20][The Encyclopedia of Trouble and Spaciousness]]                 :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Brain pickings [[http://feedproxy.google.com/~r/brainpickings/rss/~3/VzR8DfJq4UA/][article]]
+:URL: http://www.amazon.com/Encyclopedia-Trouble-Spaciousness-Rebecca-Solnit/dp/1595347534/?tag=braipick-20
+:END:
+
+** [[http://www.amazon.com/Eight-Nine-Words-about-Letter-Writing-ebook/dp/B006FLGDIQ/?tag=braipick-20][Eight or Nine Wise Words about Letter-Writing]]                :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Maria Popova's [[https://www.brainpickings.org/2015/01/27/lewis-carroll-letter-writing-email/][article]]
+:URL: http://www.amazon.com/Eight-Nine-Words-about-Letter-Writing-ebook/dp/B006FLGDIQ/?tag=braipick-20
+:END:
+
+** [[http://www.amazon.com/gp/product/0465050654?keywords=design%20of%20everyday%20things&qid=1449150769&ref_=sr_1_1&sr=8-1][The Design of Everyday Things: Revised and Expanded Edition]]  :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Harsha's bookshelf amongst other places.
+:URL: http://www.amazon.com/gp/product/0465050654
+:END:
+
+** [[http://www.amazon.co.uk/dp/1784295868][Asking For It]]                                                   :fiction:
+:PROPERTIES:
+:SUGGESTED_BY: In an [[http://blog.jonskeet.uk/2015/11/11/feminism-and-me/][article]] on feminism
+:URL: http://www.amazon.co.uk/dp/1784295868
+:END:
+
+** [[http://www.amazon.com/Learned-Optimism-Martin-E-Seligman/dp/1442341130][Learned Optimism]]                                             :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Peter Siebel on [[https://twitter.com/peterseibel/status/673685434921172992][Twitter]]
+:URL: http://www.amazon.com/Learned-Optimism-Martin-E-Seligman/dp/1442341130
+:END:
+
+** [[http://shop.blackirishbooks.com/products/the-war-of-art][The War of Art | Black Irish Books]]                           :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Seen in a thread on Zulip in reply to [[https://medium.com/@tehgeekmeister/living-by-value-6da26f41d102#.41ten7iq5][this post]].
+:URL: http://shop.blackirishbooks.com/products/the-war-of-art
+:END:
+
+** [[http://www.amazon.com/If-You-Feel-Too-Much/dp/0399176497][If You Feel Too Much: Thoughts on Things Found and Lost and Hoped For]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Damu, Kiddo
+:URL: http://www.amazon.com/If-You-Feel-Too-Much/dp/0399176497
+:END:
+
+** [[http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567][Gödel, Escher, Bach: An Eternal Golden Braid]]                 :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Joel Burget's [[http://joelburget.com/canon/][Canon]]
+:URL: http://www.amazon.com/G%C3%B6del-Escher-Bach-Eternal-Golden/dp/0465026567
+:END:
+
+** [[http://www.amazon.com/The-Gay-Science-Prelude-Appendix/dp/0394719859/?tag=braipick-20][The Gay Science: With a Prelude in Rhymes and an Appendix of Songs]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Maria Popova
+:URL: http://www.amazon.com/The-Gay-Science-Prelude-Appendix/dp/0394719859/?tag=braipick-20
+:END:
+
+** [[http://www.amazon.com/The-Consolations-Philosophy-Alain-Botton/dp/0679779175/?tag=braipick-20][The Consolations of Philosophy]]                               :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Maria Popova
+:URL: http://www.amazon.com/The-Consolations-Philosophy-Alain-Botton/dp/0679779175/?tag=braipick-20
+:END:
+
+** [[http://www.amazon.com/The-Will-Power-Friedrich-Nietzsche/dp/0394704371/?tag=braipick-20][The Will to Power]]                                            :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Maria Popova
+:URL: http://www.amazon.com/The-Will-Power-Friedrich-Nietzsche/dp/0394704371/?tag=braipick-20
+:END:
+
+** [[http://www.amazon.com/gp/product/0470888547/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0470888547&linkCode=as2&tag=hlg-20][The Carpenter: A Story About the Greatest Success Strategies of All]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: In a Where There's Smoke [[http://wheretheressmoke.libsyn.com/how-to-make-it-quality][podcast]]
+:URL: http://www.amazon.com/gp/product/0470888547/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0470888547&linkCode=as2&tag=hlg-20
+:END:
+
+** [[http://www.amazon.com/Mastery-Robert-Greene/dp/014312417X][Mastery]]                                                      :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: In a Where There's Smoke [[http://wheretheressmoke.libsyn.com/how-to-make-it-quality][podcast]]
+:URL: http://www.amazon.com/Mastery-Robert-Greene/dp/014312417X
+:END:
+** [[http://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380][Where Good Ideas Come From]]                                   :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Cal Newport in "So Good They Can't Ignore You"
+:URL: http://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380
+:END:
+
+** [[http://www.amazon.com/Art-Readable-Code-Theory-Practice-ebook/dp/B0064CZ1XE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=][Amazon.com: The Art of Readable Code (Theory in Practice) eBook: Dustin Boswell, Trevor Foucher: Kindle Store]] :programming:nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Sasha's [[http://sasha.wtf/unit-testing/][blog post]]
+:URL:      http://www.amazon.com/Art-Readable-Code-Theory-Practice-ebook/dp/B0064CZ1XE/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=
+:END:
+
+** [[http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X][When Breath Becomes Air]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Vivek @ Jaaga
+:URL:      http://www.amazon.com/When-Breath-Becomes-Paul-Kalanithi/dp/081298840X
+:END:
+
+** [[http://www.amazon.com/Lean-In-Women-Work-Will/dp/0385349947][Lean In: Women, Work, and the Will to Lead]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: in an [[https://www.linkedin.com/pulse/20140311110227-69244073-8-ways-to-say-no-without-hurting-your-image][article]] shared by Sasha
+:URL:      http://www.amazon.com/Lean-In-Women-Work-Will/dp/0385349947
+:END:
+
+** [[http://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281][The Wall Street Journal Guide to Information Graphics: The Dos and Don'ts of Presenting Data, Facts, and Figures]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: [[https://medium.com/truth-labs/designing-data-driven-interfaces-a75d62997631#.we5f4bbbf][Article]] on designing data driven interfaces
+:URL:      http://www.amazon.com/Street-Journal-Guide-Information-Graphics/dp/0393347281
+:END:
+
+** [[https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1][The Good Muslim: A Novel eBook: Tahmima Anam: Amazon.in: Kindle Store]] :fiction:
+:PROPERTIES:
+:SUGGESTED_BY: An article on [[http://www.thehindu.com/thread/politics-and-policy/article8572707.ece][Tagore]] in The Hindu
+:URL:      https://www.amazon.in/Good-Muslim-Novel-Tahmima-Anam-ebook/dp/B004QWZCAQ?ie=UTF8&qid=1462697550&ref_=tmm_kin_swatch_0&sr=8-1
+:END:
+
+** [[https://www.amazon.com/Being-Certain-Believing-Right-Youre/dp/031254152X?ie=UTF8&linkCode=sl1&linkId=88c2e2c7330317d41fe75ae73efa043c&ref_=as_li_ss_tl&tag=entsblo-20][On Being Certain: Believing You Are Right Even When You're Not]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: From a MarkManson [[http://markmanson.net/trust][article]]
+:URL:      https://www.amazon.com/Being-Certain-Believing-Right-Youre/dp/031254152X
+:END:
+
+** [[https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010?ie=UTF8&keywords=better%20angels%20of%20our%20nature&linkCode=sl1&linkId=24e5d3b8ff79704bbb9e94222a79128e&qid=1462126638&ref_=as_li_ss_tl&sr=8-1&tag=entsblo-20][The Better Angels of Our Nature: Why Violence Has Declined]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Markmason's [[http://markmanson.net/trust][article]]
+:URL:      https://www.amazon.com/Better-Angels-Our-Nature-Violence/dp/0143122010
+:END:
+
+** [[http://www.amazon.in/gp/product/0393309401/ref=x_gr_w_bb?ie=UTF8&tag=x_gr_w_bb_in-21&linkCode=as2&camp=3626&creative=24790][Our Inner Conflicts - A Constructive Theory of Neurosis Rev]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: Lisa on Zulip
+:URL:      http://www.amazon.in/gp/product/0393309401/
+:END:
+
+** [[http://www.amazon.in/Blood-My-Hands-Confessions-Encounters/dp/9351772586?ie=UTF8&keywords=blood%20on%20my%20hands&qid=1465628271&ref_=sr_1_1&sr=8-1][Blood on My Hands: Confessions of Staged Encounters]]           :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY:  Twitterland
+:URL:      http://www.amazon.in/Blood-My-Hands-Confessions-Encounters/dp/9351772586
+:END:
+
+** [[https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815][Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: In a data [[https://soundcloud.com/nssd-podcast/episode-17-diurnal-high-variance][podcast]]
+:URL:      https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815
+:END:
+
+** [[https://www.amazon.in/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A/ref=sr_1_1?ie=UTF8&qid=1465880952&sr=8-1&keywords=working+effectively+with+legacy+code][Working Effectively with Legacy Code (Robert C. Martin Series) eBook: Michael Feathers: Amazon.in: Kindle Store]] :nonfiction:programming:
+:PROPERTIES:
+:SUGGESTED_BY: Apprenticeship Patterns
+:URL: https://www.amazon.in/Working-Effectively-Legacy-Robert-Martin-ebook/dp/B005OYHF0A/ref=sr_1_1?ie=UTF8&qid=1465880952&sr=8-1&keywords=working+effectively+with+legacy+code
+:END:
+
+** [[http://www.amazon.in/Road-Penguin-UK-Modern-Classics/dp/0141182679][On the Road: Penguin UK Edition (Penguin Modern Classics)]] :fiction:
+:PROPERTIES:
+:SUGGESTED_BY: The Art of Learning
+:URL: http://www.amazon.in/Road-Penguin-UK-Modern-Classics/dp/0141182679
+:END:
+
+** [[http://www.amazon.in/Labyrinths-Penguin-Modern-Classics-Borges/dp/0141184841?ie=UTF8&keywords=jorge%20luis%20borges&qid=1465907284&ref_=sr_1_3&s=books&sr=1-3][Labyrinths (Penguin Modern Classics)]] :fiction:
+:PROPERTIES:
+:SUGGESTED_BY: Niku
+:URL: http://www.amazon.in/Labyrinths-Penguin-Modern-Classics-Borges/dp/0141184841
+:END:
+
+** [[https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365][Algorithms to Live By: The Computer Science of Human Decisions]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: an article shared by [[https://medium.com/the-long-now-foundation/solving-hard-decisions-1dabb1dbd14b#.urdva9rit][Annax]]
+:URL:      https://www.amazon.com/Algorithms-Live-Computer-Science-Decisions/dp/1627790365
+:END:
+
+** [[https://www.amazon.in/One-Part-Woman-Perumal-Murugan-ebook/dp/B00GZQDISO?ie=UTF8&qid=1467980642&ref_=tmm_kin_swatch_0&sr=8-1][One Part Woman eBook: Perumal Murugan: Amazon.in: Kindle Store]] :fiction:
+:PROPERTIES:
+:SUGGESTED_BY: A case in the Madras High Court
+:URL:      https://www.amazon.in/One-Part-Woman-Perumal-Murugan-ebook/dp/B00GZQDISO?ie=UTF8&qid=1467980642&ref_=tmm_kin_swatch_0&sr=8-1
+:END:
+
+** [[http://www.amazon.in/Power-Noticing-What-Best-Leaders/dp/147670029X?ie=UTF8&keywords=power%20of%20noticing&qid=1468926557&ref_=sr_1_1&sr=8-1][The Power of Noticing: What the Best Leaders See]] :nonfiction:psychology:
+:PROPERTIES:
+:SUGGESTED_BY: An article in [[https://hbr.org/2016/05/keep-a-list-of-unethical-things-youll-never-do][HBR]]
+:URL:      http://www.amazon.in/Power-Noticing-What-Best-Leaders/dp/147670029X?ie=UTF8&keywords=power%20of%20noticing&qid=1468926557&ref_=sr_1_1&sr=8-1
+:END:
+
+** [[https://www.amazon.in/Mistakes-Were-Made-but-Not-ebook/dp/B01BNSI53G?ie=UTF8&keywords=mistakes%20were%20made%20but%20not%20by%20me&qid=1468941791&ref_=sr_1_2&s=books&sr=1-2][Mistakes Were Made (but Not by Me): Why We Justify Foolish Beliefs, Bad Decisions and Hurtful Acts eBook: Carol Tavris, Elliot Aronson: Amazon.in: Books]] :nonfiction:psychology:
+:PROPERTIES:
+:SUGGESTED_BY: An article in [[https://hbr.org/2016/05/keep-a-list-of-unethical-things-youll-never-do][HBR]]
+:URL:      https://www.amazon.in/Mistakes-Were-Made-but-Not-ebook/dp/B01BNSI53G?ie=UTF8&keywords=mistakes%20were%20made%20but%20not%20by%20me&qid=1468941791&ref_=sr_1_2&s=books&sr=1-2
+:END:
+
+** [[https://www.amazon.in/Gujarat-Files-Rana-Ayyub-ebook/dp/B01FWD9F2I?ie=UTF8&qid=1468994296&ref_=tmm_kin_swatch_0&sr=8-1][Gujarat Files eBook: Rana Ayyub: Amazon.in: Kindle Store]] :nonfiction:politics:
+:PROPERTIES:
+:SUGGESTED_BY: [[https://www.youtube.com/watch?v=2q32D9PlIcA][NL interview]] of Rana
+:URL:      https://www.amazon.in/Gujarat-Files-Rana-Ayyub-ebook/dp/B01FWD9F2I?ie=UTF8&qid=1468994296&ref_=tmm_kin_swatch_0&sr=8-1
+:END:
+
+** [[http://www.amazon.in/Great-Derangement-Climate-Unthinkable-Lectures/dp/022632303X][The Great Derangement: Climate Change and the Unthinkable (Berlin Family Lectures)]] :nonfiction:environment:
+:PROPERTIES:
+:SUGGESTED_BY: Conversation with [[http://www.livemint.com/Leisure/zo1459rOwDTjYN9Wr1ZJqJ/Amitav-Ghosh-We-are-living-our-lives-as-though-we-are-mad.html][Amitav Ghosh]]
+:URL:      http://www.amazon.in/Great-Derangement-Climate-Unthinkable-Lectures/dp/022632303X
+:END:
+
+** [[http://www.amazon.in/Blink-Power-Thinking-Without/dp/0316010669][Blink: The Power of Thinking Without Thinking]] :nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY:  Multiple random places including Mark manson's article
+:URL:      http://www.amazon.in/Blink-Power-Thinking-Without/dp/0316010669
+:END:
+
+** [[http://www.amazon.in/Mysticism-Logic-Essays-Bertrand-Russell/dp/1605200034?ie=UTF8&tag=braipick-20][Mysticism and Logic and Other Essays]] :nonfiction:philosophy:science:
+:PROPERTIES:
+:SUGGESTED_BY: [[https://www.brainpickings.org/2016/05/13/bertrand-russell-mysticism-logic-time/][Maria Popova]]
+:URL:      http://www.amazon.in/Mysticism-Logic-Essays-Bertrand-Russell/dp/1605200034?ie=UTF8&tag=braipick-20
+:END:
+
+** [[http://www.amazon.in/Routledge-Great-Minds-Complete-Believe/dp/0415854768?ie=UTF8&*Version*=1&*entries*=0][Routledge Great Minds: Complete Set: What I Believe]] :philosophy:life:atheism:
+:PROPERTIES:
+:SUGGESTED_BY: [[https://www.brainpickings.org/2015/02/03/bertrand-russell-immortality-good-life/][Maria Popova]]
+:URL:      http://www.amazon.in/Routledge-Great-Minds-Complete-Believe/dp/0415854768?ie=UTF8&*Version*=1&*entries*=0
+:END:
+
+** [[https://www.amazon.in/Women-Science-Fearless-Pioneers-Changed-ebook/dp/B017G7KJRS?ie=UTF8&qid=&ref_=tmm_kin_swatch_0&sr=][Women in Science: 50 Fearless Pioneers Who Changed the World eBook: Rachel Ignotofsky: Amazon.in: Kindle Store]] :feminism:nonfiction:
+:PROPERTIES:
+:SUGGESTED_BY: [[https://www.brainpickings.org/2016/07/28/women-in-science-rachel-ignotofsky/][Maria Popova]]
+:URL:      https://www.amazon.in/Women-Science-Fearless-Pioneers-Changed-ebook/dp/B017G7KJRS?ie=UTF8&qid=&ref_=tmm_kin_swatch_0&sr=
+:END:
+
+** [[https://www.amazon.in/Free-Man-Aman-Sethi-ebook/dp/B008M7S0M8?][A Free Man eBook: Aman Sethi: Amazon.in: Kindle Store]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: Manvi Dhillon [[https://www.youtube.com/watch?v=TxiFF_TV-K0][interview]]
+   :URL:      https://www.amazon.in/Free-Man-Aman-Sethi-ebook/dp/B008M7S0M8?
+   :END:
+
+** [[https://www.amazon.in/Working-People-Talk-About-What-ebook/dp/B006CPAREQ/ref=sr_1_fkmr0_1?ie=UTF8&qid=1470393912&sr=8-1-fkmr0&keywords=working+by+stud+sturkel][Working: People Talk About What They Do All Day and How They Feel About What They Do eBook: Studs Terkel: Amazon.in: Kindle Store]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: Manvi Dhillon [[https://www.youtube.com/watch?v=TxiFF_TV-K0][interview]]
+   :URL:      https://www.amazon.in/Working-People-Talk-About-What-ebook/dp/B006CPAREQ/
+   :END:
+
+* COMMENT Maintaining this list
+- A how-to: http://danshipper.com/how-to-read-a-lot-of-books
+- TODO states
+  - READING :: Currently reading. Should ideally be just one item
+  - TOREVIEW :: Need to post a review/notes
+  - TOREAD :: To read immediately (limit to 5)
+  - No TODO state :: Everything else
+
+# Local Variables:
+# org-columns-skip-archived-trees: nil
+# End:
