@@ -410,6 +410,24 @@ Every book that has caught my eye, since I started keeping this list.
    :URL:      https://www.amazon.in/Working-People-Talk-About-What-ebook/dp/B006CPAREQ/
    :END:
 
+** [[http://www.amazon.in/Streetcar-Desire-Penguin-Modern-Classics/dp/0141190272?ie=UTF8&keywords=a%20streetcar%20named%20desire&qid=1470682015&ref_=sr_1_1&sr=8-1][A Streetcar Named Desire (Penguin Modern Classics)]] :fiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: Random internet person
+   :URL:      http://www.amazon.in/Streetcar-Desire-Penguin-Modern-Classics/dp/0141190272?ie=UTF8&keywords=a%20streetcar%20named%20desire&qid=1470682015&ref_=sr_1_1&sr=8-1
+   :END:
+
+** [[https://www.amazon.in/Optimism-Bias-were-wired-bright-ebook/dp/B005RZB6VU?ie=UTF8&qid=&ref_=tmm_kin_swatch_0&sr=][The Optimism Bias: Why we're wired to look on the bright side eBook: Tali Sharot: Amazon.in: Kindle Store]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: A TED talk by the author
+   :URL:      https://www.amazon.in/Optimism-Bias-were-wired-bright-ebook/dp/B005RZB6VU
+   :END:
+
+** [[http://www.amazon.in/exec/obidos/ASIN/159285849X/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0520271440&linkCode=as2&tag=teco06-20][The Gifts of Imperfection: Let Go of Who You Think You're Supposed to be and Embrace Who You are]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: A TED talk by the author
+   :URL:      http://www.amazon.in/exec/obidos/ASIN/159285849X
+   :END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states

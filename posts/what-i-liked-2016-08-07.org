@@ -1,0 +1,26 @@
+#+BEGIN_COMMENT
+.. title: What I liked 2016-08-07
+.. slug: what-i-liked-2016-08-07
+.. date: 2016-08-16 17:58:24 UTC+05:30
+.. tags: draft, bookmarks, life, blab, happy, blag
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+[[http://www.indiaspend.com/cover-story/cool-data-visualisation-reveals-extent-of-global-warming-28723][Great visualizations]] about how global temperatures have been changing in the
+last ~165 years.  If you are still a global warming skeptic, you definitely
+must see them.
+
+[[http://www.nytimes.com/interactive/2016/08/09/sports/olympics/2016-08-09-olympics-phelps-vs-phelps.html][These visualizations]] of Michael Phelps' performances at Olympics over the years
+by NYTimes are great, too!
+
+I came across these delightful videos ([[https://www.youtube.com/watch?v=XatrFO1N0gY][1]], [[https://www.youtube.com/watch?v=RQtuJnS5lPQ][2]]) of girls and boys playing cricket
+at Haji Public School.  Look ma, no sexism in [[http://theladiesfinger.com/tata-salt-ad-babita-kumari/][coverage of sports]].
+
+This (Telugu) interview of Dr Jayaprakash Narayan is [[https://www.youtube.com/watch?v=xKF_HqEXLZI][truly inspiring]].  His
+[[https://www.youtube.com/watch?v=Uyr31JYwftI][conversation with Sadhguru Jaggi Vasudev]] was unexpectedly insightful, and
+covers a wide variety of topics -- spirituality, religion, politics in India,
+socialism vs. capitalism.
