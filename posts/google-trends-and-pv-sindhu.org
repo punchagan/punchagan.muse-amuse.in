@@ -69,7 +69,7 @@ even visible, clearly.
 So, these other terms (wiki & caste being auto-suggested ones) are nowhere near
 the actual number of searches being made for PV Sindhu's name alone.
 
-Lets get rid of the name graph to get a closer look at the other terms.
+Let's get rid of the name graph to get a closer look at the other terms.
 
 https://c6.staticflickr.com/9/8191/29105184165_133734e300_b.jpg
 
@@ -93,14 +93,15 @@ https://c8.staticflickr.com/9/8169/29105184295_f3e1448d10_b.jpg
 
 https://c6.staticflickr.com/9/8049/29105184245_6e691d318d_b.jpg
 
+
 If you are wondering how much effect the appearance of the caste term in
 auto-suggest is having, I don't think that's much because wiki and images are
-the other auto-suggest terms that appear.
+the other auto-suggest terms, with no surges in the number of searches.
 
 * Trends from the Telugu states
 
 We could see that the two Telugu states were more worried about the caste, than
-the rest of the country.  Lets see how abnormal they are.
+the rest of the country.  Let's see how abnormal they are.
 
 https://c8.staticflickr.com/9/8293/29105183935_5bc55c03b4_b.jpg
 
@@ -110,7 +111,7 @@ You can definitely see the red line more prominently.  In case, of Andhra the
 peak searches for caste are at about 5% of the name searches.  A statistically
 significant difference from the country.
 
-Lets zoom in at the auto-suggest terms alone.
+Let's zoom in at the auto-suggest terms alone.
 
 https://c7.staticflickr.com/9/8317/28818617430_bca8ed9d1a_b.jpg
 
