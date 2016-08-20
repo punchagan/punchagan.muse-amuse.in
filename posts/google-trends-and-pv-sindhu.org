@@ -130,22 +130,24 @@ The click bait articles are succeeding and getting more people to do these
 searches.  Its not because the term appears in auto-suggest because the other
 auto-suggested terms don't follow this trend.
 
-*NOTE*: The trends and screen-shots for the states are newer. 12:30-16:30 or so.
+*NOTE*: The trends and screen-shots for the states are slightly more recent
+than the others.
 
 * Conclusion
 
-If you'd like to look at more trends data yourself, just go [[https://www.google.com/trends/explore?date=now%25207-d&geo=IN&q=pv%2520sindhu,pv%2520sindhu%2520caste,porn,movies][here]] and add/remove
-terms for comparison.  Some fun terms to try: Kashmir, Independence day,
-Facebook.
+If you still feel *Many* Indians were searching for Sindhu's caste, while she
+was fighting it out, go ahead and play with Google trends [[https://www.google.com/trends/explore?date=now%25207-d&geo=IN&q=pv%2520sindhu,pv%2520sindhu%2520caste,porn,movies][here]].  Add/remove
+terms, change the time and location filters.  Some terms that could be
+interesting to add to the comparison are: Kashmir, Independence day, Facebook.
 
 Without a context, I don't really see the point of these news items.  It seems
 more click-bait-y than useful to me.  If you are really using Google Trends to
 write an article, [[https://medium.com/@dannypage/stop-using-google-trends-a5014dd32588#.js332qw0h][Danny Page has some really good advice]].
 
-I looked at the search results and then found that this article wasn't the only
-one like it.  I didn't bother to read more of them, but I really hope at least
-some of them are talking sense and not all of them are click-baits.  Is any of
-them really trying to contribute to the discussion on caste, meaningfully?
+Later, I looked at the search results and then found that this article wasn't
+the only one like it.  I didn't bother to read the others, but I really hope at
+least some of them are talking sense.  Is any of them really trying to
+contribute to the discussion on caste, meaningfully?
 
 Also, the actual search results don't seem to give useful answers to the poor
 souls who are so curious about Sindhu's caste.  I hope none of these articles
