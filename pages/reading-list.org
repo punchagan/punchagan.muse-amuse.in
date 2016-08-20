@@ -428,6 +428,24 @@ Every book that has caught my eye, since I started keeping this list.
    :URL:      http://www.amazon.in/exec/obidos/ASIN/159285849X
    :END:
 
+** [[https://www.amazon.in/Sapiens-Humankind-Yuval-Noah-Harari-ebook/dp/B00K7ED54M/][Sapiens: A Brief History of Humankind eBook: Yuval Noah Harari: Amazon.in: Kindle Store]] :nonfiction:
+   :PROPERTIES:
+   :SUGGESTED_BY: 9 on slack
+   :URL:      https://www.amazon.in/Sapiens-Humankind-Yuval-Noah-Harari-ebook/dp/B00K7ED54M/
+   :END:
+
+** [[https://www.amazon.com/gp/product/B00G3L6JQ4?redirect=true&pldnSite=1#nav-subnav][How Not to Be Wrong: The Power of Mathematical Thinking, Jordan Ellenberg - Amazon.com]] :math:
+   :PROPERTIES:
+   :SUGGESTED_BY: Glowing [[http://scattered-thoughts.net/blog/2016/08/15/notes-on-how-not-to-be-wrong/][recommendation]] by Jamie
+   :URL:      https://www.amazon.com/gp/product/B00G3L6JQ4?redirect=true&pldnSite=1#nav-subnav
+   :END:
+
+** [[https://www.amazon.in/gp/product/B004PYDAPE?pldnSite=1#nav-subnav][How to Read a Book (A Touchstone book) eBook: Charles Van Doren, Mortimer J. Adler: Amazon.in: Kindle Store]] :nonfiction:reading:
+   :PROPERTIES:
+   :SUGGESTED_BY: [[https://www.amazon.in/gp/product/B004PYDAPE?pldnSite=1#nav-subnav][Notes]] by Jamie
+   :URL:      https://www.amazon.in/gp/product/B004PYDAPE?pldnSite=1#nav-subnav
+   :END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
