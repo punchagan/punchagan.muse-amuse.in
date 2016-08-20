@@ -1,8 +1,8 @@
 #+BEGIN_COMMENT
-.. title: Google Trends and PV Sindhu
-.. slug: google-trends-and-pv-sindhu
-.. date: 2016-08-20 11:27:15 UTC+05:30
-.. tags: draft
+.. title: Google Trends, Clickbaits, and PV Sindhu
+.. slug: google-trends-clickbaits-and-pv-sindhu
+.. date: 2016-08-20 22:59:13 UTC+05:30
+.. tags: blag, data, statistics, india, internet, news
 .. category:
 .. link:
 .. description:
@@ -94,13 +94,14 @@ https://c8.staticflickr.com/9/8169/29105184295_f3e1448d10_b.jpg
 https://c6.staticflickr.com/9/8049/29105184245_6e691d318d_b.jpg
 
 - And this is how it looks by the evening (17:00-21:00).  Well done, folks!
+  The click bait articles totally succeeded!
 
 https://c4.staticflickr.com/9/8144/29032147971_c9c3c13fdc_b.jpg
 
-
-If you are wondering how much effect the appearance of the caste term in
-auto-suggest is having, I don't think that's much because wiki and images are
-the other auto-suggest terms, with no surges in the number of searches.
+If you are wondering how much effect the auto suggestions are having in
+suggesting people to try searching for caste, I don't think that is much
+because wiki and images are the other auto-suggest terms, with no such surges
+in the number of searches.
 
 * Trends from the Telugu states
 
@@ -111,9 +112,9 @@ https://c8.staticflickr.com/9/8293/29105183935_5bc55c03b4_b.jpg
 
 https://c3.staticflickr.com/9/8395/28483785994_89f1c999e4_b.jpg
 
-You can definitely see the red line more prominently.  In case, of Andhra the
+You can definitely see the red line more prominently.  In case of Andhra the
 peak searches for caste are at about 5% of the name searches.  A statistically
-significant difference from the country.
+significant difference from the rest of the country.
 
 Let's zoom in at the auto-suggest terms alone.
 
@@ -126,13 +127,10 @@ From about 1/5th of the maximum number of searches for rules, the maximum
 number of caste searches jumps to about twice.  Telangana also is different,
 but much less so.
 
-Again, look at TN's trends to see what's been happening in the last few hours.
+Tamil Nadu's trends below for comparison.  You can't help noticing the last few
+hours, can you?
 
 https://c3.staticflickr.com/9/8426/28818617290_eb4b3a2535_b.jpg
-
-The click bait articles are succeeding and getting more people to do these
-searches.  Its not because the term appears in auto-suggest because the other
-auto-suggested terms don't follow this trend.
 
 *NOTE*: The trends and screen-shots for the states are slightly more recent
 than the others.
@@ -142,7 +140,7 @@ than the others.
 Without a context, I don't really see the point of these "news" articles.  It
 seems more click-bait-y than useful to me.
 
-If you still feel *Many* Indians were searching for Sindhu's caste, while she
+If you still feel *many* Indians were searching for Sindhu's caste, while she
 was fighting it out, go ahead and play with Google trends [[https://www.google.com/trends/explore?date=now%25207-d&geo=IN&q=pv%2520sindhu,pv%2520sindhu%2520caste,porn,movies][here]].  Add/remove
 terms, change the time and location filters.  Some terms that could be
 interesting to add to the comparison are: Kashmir, Independence day, Facebook.
@@ -158,3 +156,8 @@ help them out.
 
 Finally, if you are using Google Trends to write an article, [[https://medium.com/@dannypage/stop-using-google-trends-a5014dd32588#.js332qw0h][Danny Page has
 some really good advice]].
+
+-----
+
+Thanks to [[https://twitter.com/kamalx][Kamal]], [[https://twitter.com/baali_][baali]] and [[https://twitter.com/cloud9trt][9]] for reading and reviewing drafts of this.  Errors
+mine, obviously.
