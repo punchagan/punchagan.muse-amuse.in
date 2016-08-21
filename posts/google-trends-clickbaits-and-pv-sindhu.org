@@ -9,6 +9,8 @@
 .. type: text
 #+END_COMMENT
 
+*UPDATE [2016-08-21 Sun 12:15]*: There's an [[http://indiafacts.org/lie-graphs-newsminute/][excellent article]] on this by
+Sankrant Sanu on India Facts.
 
 TL;DR
 
