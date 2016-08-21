@@ -100,7 +100,7 @@ mapping. ")
             (format "<img src=\"%s\" >" url))
         (shell-command-on-region
          (point-min) (point-max)
-         (format "pygmentize -f html -O encoding=utf8 -g -l %s" lang)
+         (format "pygmentize -f html -O encoding=utf8 -l %s" lang)
          (buffer-name) t)
         (buffer-string)))))
 
