@@ -14,7 +14,7 @@ NYTimes has been doing some amazing visualizations for the Olympics and this
 [[http://www.nytimes.com/interactive/2016/08/15/sports/olympics/usain-bolt-mens-100-meters-final.html][time lapse visualization]] of Bolt's 100m Gold is great!
 
 [[https://vimeo.com/107036411][The History Project]] produced a book called Partitioned Histories that tries to
-constrast the narratives of India and Pakistan on their histories using school
+contrast the narratives of India and Pakistan on their histories using school
 history text books. What a great idea!
 
 [[https://www.youtube.com/watch?v=Jr9_xvfr6bI][This video]] about the Sunshine Orchestra being trained and tutored by Rahman and
