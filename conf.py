@@ -65,7 +65,6 @@ NAVIGATION_LINKS = {
         # link, fa-name, title
         ('/index.html', 'home', 'Home'),
         ('/posts/index.html', 'pencil', 'Blog'),
-        ('/archive.html', 'archive', 'Archives'),
         ('/tags/index.html', 'tags', 'Tags'),
         ('/projects/', 'cogs', 'Projects'),
         ('/tags/cat_recursecenter-checkins.html', 'magic', 'Recurse Center Logs'),
@@ -183,7 +182,7 @@ CREATE_SINGLE_ARCHIVE = True
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / index.html
 # ARCHIVE_PATH = ""
-# ARCHIVE_FILENAME = "archive.html"
+ARCHIVE_FILENAME = "index.html"
 
 # Final locations are:
 # output / TRANSLATION[lang] / RSS_PATH / rss.xml
