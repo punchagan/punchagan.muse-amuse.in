@@ -2,7 +2,7 @@
 .. title: Create a Public Jupyter Server, quickly!
 .. slug: create-a-public-jupyter-server-quickly
 .. date: 2016-08-25 02:13:05 UTC+05:30
-.. tags: draft
+.. tags: hack, python, ipython, blag
 .. category:
 .. link:
 .. description:
@@ -11,19 +11,18 @@
 
 
 I create public Jupyter notebooks once in a while, to collaborate with a
-friend, or to make it easier for myself to work on a remote machine, where I
-have to interact with images, etc.
+friend, or to make it easier for myself to work with data on a remote machine.
 
-Each time, there are a couple of steps that I need to take, set a password in
-the configuration, and create certificate files for https.
+Each time I need to look up the [[http://jupyter-notebook.readthedocs.io/en/latest/public_server.html][docs]], and manually set-up a few things, before
+I can start using the notebook.
 
 I just wrote a bash script that does the following, quickly -
 
-- Create a new virtualenv
-- Install Jupyter
-- Set a password
+- Install Jupyter into a temporary virtualenv
 - Create certificate files
-- Start the server
+- Start the server with https enabled and a password
 - Delete all temporary files, when the server is shutdown
 
 #+HTML: <script src="https://gist-it.appspot.com/github/punchagan/dot-files/blob/master/bin/jupyter-server.sh"></script>
+
+You can get it [[https://github.com/punchagan/dot-files/blob/master/bin/jupyter-server.sh][here]], if you'd like to use it.
