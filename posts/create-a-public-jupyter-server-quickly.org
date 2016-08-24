@@ -26,4 +26,4 @@ I just wrote a bash script that does the following, quickly -
 - Start the server
 - Delete all temporary files, when the server is shutdown
 
-#+HTML: <script src="http://gist-it.appspot.com/github/punchagan/dot-files/blob/master/bin/jupyter-server.sh"></script>
+#+HTML: <script src="https://gist-it.appspot.com/github/punchagan/dot-files/blob/master/bin/jupyter-server.sh"></script>
