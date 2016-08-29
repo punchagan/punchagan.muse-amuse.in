@@ -1,0 +1,26 @@
+#+BEGIN_COMMENT
+.. title: What I liked 2016-08-21
+.. slug: what-i-liked-2016-08-21
+.. date: 2016-08-29 21:58:58 UTC+05:30
+.. tags: bookmarks, life, blab, happy, blag
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+
+Vox has a nice short video on [[http://www.vox.com/2015/11/19/9758062/y-axis-zero-chart][shutting up about the y-axis]] -- It's long past
+time to say no to y-axis fundamentalism, they say.
+
+The New York Times has a [[http://www.nytimes.com/interactive/2016/08/08/sports/olympics/history-olympic-dominance-charts.html][great visual history]] of which countries have dominated
+the Summer Olympics.
+
+This [[http://www.espn.in/olympics/story/_/id/17191749/dipa-vaults-biggest-stage][story]] of Dipa by ESPN is an inspirational read.
+
+An old post on a [[http://rigsomelight.com/2013/09/09/frameless-geodesic-dome.html][Frameless Geodesic Dome]] that Bruce Hauman (of [[https://github.com/bhauman/][Figwheel fame]])
+built himself is very cool!
+
+This [[https://www.techinasia.com/millions-bank-saif-partnersbacked-gozoomo-shuts-shop-heres-happened][article]] on India's Gozoomo shutting down shop and returning VC money is
+heartening and gives me some hope about startups in India.
