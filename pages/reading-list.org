@@ -446,6 +446,12 @@ Every book that has caught my eye, since I started keeping this list.
    :URL:      https://www.amazon.in/gp/product/B004PYDAPE?pldnSite=1#nav-subnav
    :END:
 
+** [[https://www.amazon.com/How-Cook-Everything-Basics-Food--/dp/0470528060/][How to Cook Everything The Basics: All You Need to Make Great Food--With 1,000 Photos]] :nonfiction:cooking:
+   :PROPERTIES:
+   :SUGGESTED_BY: Zulip recommendation
+   :URL:      https://www.amazon.com/How-Cook-Everything-Basics-Food--/dp/0470528060/
+   :END:
+
 * COMMENT Maintaining this list
 - A how-to: http://danshipper.com/how-to-read-a-lot-of-books
 - TODO states
