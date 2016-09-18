@@ -1,0 +1,267 @@
+#+BEGIN_COMMENT
+.. title: What I liked 2016-09-11
+.. slug: what-i-liked-2016-09-11
+.. date: 2016-09-18 22:14:00 UTC+05:30
+.. tags: draft
+.. category:
+.. link:
+.. description:
+.. type: text
+#+END_COMMENT
+
+
+
+- [[http://nordic.businessinsider.com/freeman-dyson-interview-2016-9][Legendary physicist Freeman Dyson talks about math, nuclear rockets, and astounding things about the universe - Business Insider Nordic]]
+
+
+- [[http://scroll.in/article/722369/the-changing-map-of-india-from-1-ad-to-the-20th-century][The changing map of India from 1 AD to the 20th century]]
+
+
+- [[http://digg.com/2016/design-discrimination][Discrimination By Design - Digg]]
+
+
+- [[http://www.newslaundry.com/2016/09/08/will-the-cauvery-be-a-watery-political-grave-for-congress/][Will the Cauvery be a watery political grave for Congress? | Newslaundry]]
+
+
+- [[http://blog.amjith.com/levelling-up][Levelling Up - Brain Spill]]
+I still need access to the expert when I'm stuck, but that access should not be
+as easy as turning my head to ask a question. I prefer that access to be
+through an email where I'm forced to write my thoughts down. Describing my
+problem in written form usually triggers cognitive dissonance and I end up
+solving the issue before hitting send.
+
+- [[http://motherboard.vice.com/read/a-loud-sound-just-shut-down-a-banks-data-center-for-10-hours][A Loud Sound Just Shut Down a Bank's Data Center for 10 Hours | Motherboard]]
+
+
+- [[https://zapier.com/blog/productive-remote-work/][Be Productive Anywhere: 8 Proven Strategies for Better Remote Work]]
+
+
+- [[http://blogs.microsoft.co.il/dorony/2016/09/04/4-tips-for-starting-a-new-dev-job/][4 Tips for Starting a New Dev Job | Doron's .NET Space]]
+
+
+- [[http://scroll.stfi.re/article/815470/why-open-defecation-in-india-will-end-only-with-the-annihilation-of-caste?sf=kjnbryw][Untitled (http://scroll.stfi.re/article/815470/why-open-defecation-in-india-will-end-only-with-the-annihilation-of-caste?sf=kjnbryw&utm_content=bufferc2f2d&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)]]
+Why #OpenDefecation in #India will end only with the annihilation of caste
+
+#sanitation SwachhBharat
+
+- [[http://sachachua.com/blog/2016/09/2016-09-12-emacs-news/][2016-09-12 Emacs News - sacha chua :: living an awesome life]]
+
+
+- [[https://twitter.com/ishaparihar/status/775206881635799041/photo/1][Twitter]]
+Change of workplace this week #Kathmandu @akvo #southasia prep for
+#NepalTrackDay @jigmylama
+
+- [[https://www.flickr.com/photos/bjelkeman/29590629036/][Flickr]]
+The @Akvo dev team meeting starten in Riga
+
+- [[http://www.ted.com/][TED: Ideas worth spreading]]
+I gave a TED talk about cryptocurrencies and it's the featured talk on today!
+
+- [[http://www.ted.com/talks/neha_narula_the_future_of_money][Neha Narula: The future of money | TED Talk | TED.com]]
+I gave a TED talk about cryptocurrencies and it's the featured talk on today!
+
+- [[https://twitter.com/IndiaHistorypic/status/775356846223691778/photo/1][Twitter]]
+RT @IndiaHistorypic: Writer R.K.Narayan ( Malgudi Days ) Was Born In Madras
+,Tamil Nadu But Lived In Mysore , Karnataka #Peace #cauvery
+
+- [[https://twitter.com/twittshi/status/775394980571582464/photo/1][Twitter]]
+I know i enjoy the company of animals more than humans #aboutMe #iloveme #iLove
+#illustrat…
+
+- [[https://www.instagram.com/p/BKQ-qPYA_jQ/][Instagram]]
+I know i enjoy the company of animals more than humans #aboutMe #iloveme #iLove
+#illustrat…
+
+- [[http://www.nytimes.com/2016/09/13/well/eat/how-the-sugar-industry-shifted-blame-to-fat.html?_r=0][How the Sugar Industry Shifted Blame to Fat - The New York Times]]
+
+
+- [[https://twitter.com/thej/status/775341481292816385][Twitter]]
+RT @aadvaark: Weep for #Bengaluru
+
+- [[https://signalvnoise.com/posts/3124-give-it-five-minutes][Give it five minutes – Signal v. Noise]]
+
+
+- [[https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html][isMounted is an Antipattern | React]]
+
+
+- [[https://twitter.com/Wander_Ponder/status/775600018380103680/photo/1][Twitter]]
+Couldn't buy bread 'cause ask the stores are closed, so I baked my own. 😊
+
+- [[https://www.wired.com/2016/09/machine-learning-can-identify-pixelated-faces-researchers-show/][Untitled (https://www.wired.com/2016/09/machine-learning-can-identify-pixelated-faces-researchers-show/)]]
+Interesting to consider how #AI may affect privacy retrospectively
+#machinelearning
+
+- [[http://sethgodin.typepad.com/seths_blog/2016/09/a-value-creation-checklist.html][Seth's Blog: A value creation checklist]]
+
+
+- [[https://googleblog.blogspot.com/2016/09/an-extinct-world-brought-back-to-life.html][(500) https://googleblog.blogspot.com/2016/09/an-extinct-world-brought-back-to-life.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+blogspot/MKuf+(Official+Google+Blog)]]
+An extinct world brought back to life with Google Arts & Culture
+
+- [[https://www.instagram.com/p/BKTXCKQjt57/][Instagram]]
+We escaped! #akvodevweek #escaperoom @ Real Quest
+
+- [[http://www.dhakatribune.com/bangladesh/2016/09/13/rivers-blood-dhaka/][Rivers of blood in Dhaka | Dhaka Tribune]]
+Extremely disturbing. Rainwater and the blood of sacrificial animals...
+
+Rivers of blood in Dhaka via @DhakaTribune
+
+- [[https://www.technologyreview.com/s/602369/adblock-plus-wants-to-make-money-by-serving-you-more-ads/][Adblock Plus Wants to Make Money by Serving You More Ads]]
+Adblock Plus wants to create a marketplace for ads that abide by a set of
+guidelines to make ads less annoying.
+
+- [[http://qz.com/780367/rio-2016-four-visually-disabled-paralympians-ran-the-1500m-race-faster-than-the-olympics-gold-medallist/][Rio 2016: Four visually-disabled Paralympians ran the 1,500m race faster than the Olympic gold medallist — Quartz]]
+Four visually-disabled Paralympians ran the 1,500m race faster than the Olympic
+gold medalist
+
+- [[https://medium.com/learning-new-stuff/machine-learning-in-a-year-cdb0b0ebd29c#.94if873ov][Machine Learning in a Year – Learning New Stuff – Medium]]
+
+
+- [[https://www.engadget.com/2016/09/13/russian-hackers-olympic-health-data/][Russian hackers leak health data from Olympic athletes]]
+
+
+- [[https://twitter.com/NeelaVanam/status/775896000741289984/photo/1][Twitter]]
+Jasmine Rice, Chrysanthemum Avial, Hibiscus Poppadoms... A simple sadya from
+#gardenart. #HappyOnam to all of you.
+
+- [[https://twitter.com/scoopwhoopnews/status/775842835597631488/video/1][Twitter]]
+RT @scoopwhoopnews: The moment @DevJhajharia broke his own world record to win
+a 2nd gold medal. Listen to the commentator! #Goosebumps
+
+- [[http://scroll.in/article/816445/the-story-of-how-karnataka-and-tamil-nadu-mismanaged-their-water-and-then-blamed-each-other][The story of how Karnataka and Tamil Nadu mismanaged their water and then blamed each other]]
+
+
+- [[http://akvo.org/blog/workshop-powerful-storytelling/][Workshop Powerful Storytelling | Akvo.org]]
+
+
+- [[http://reactkungfu.com/2015/07/approaches-to-testing-react-components-an-overview/][Approaches to testing React components - an overview - React Kung Fu]]
+
+
+- [[https://www.toptal.com/react/how-react-components-make-ui-testing-easy][UI Testing with React Components | Toptal]]
+
+
+- [[https://www.buzzfeed.com/andreborges/17-brilliant-indian-podcasts-thatll-make-you-a-funner-smarte#.kcbJj6anv][17 Brilliant Indian Podcasts That'll Make You A Funner, Smarter, Better Informed Person]]
+17 Brilliant Indian Podcasts That'll Make You A Funner, Smarter, Better
+Informed Person
+
+- [[https://twitter.com/BuzzFeedIndia/status/776050430816104448/photo/1][Twitter]]
+17 Brilliant Indian Podcasts That'll Make You A Funner, Smarter, Better
+Informed Person
+
+- [[https://twitter.com/diipti/status/776271202344062976/photo/1][Twitter]]
+When you wakeup to this view😍 #mashobra #hillstationsofindia
+
+- [[https://www.youtube.com/watch?v=6I67wiV2n6E&feature=youtu.be][JSFoo 2016 Live - YouTube]]
+RT @hasgeek: If you weren't able to make it to @jsfoo, you can still catch up
+with all the action here -
+
+- [[http://scroll.in/article/816517/im-upper-caste-and-im-proud-of-it-and-thats-where-the-problem-lies][The TM Krishna column: 'I'm upper-caste and I'm proud of it – and that's where the problem lies']]
+
+
+- [[https://speakerdeck.com/abhinavrastogi/next-gen-web-scaling-progressive-web-apps][Next Gen Web: Scaling Progressive Web Apps // Speaker Deck]]
+
+
+- [[http://thewebivore.com/number-1-advice-for-getting-into-web-development/][My #1 advice for getting into web development - Pam The Webivore]]
+
+
+- [[https://www.buzzfeed.com/andreborges/17-brilliant-indian-podcasts-thatll-make-you-a-funner-smarte#.emGDXZXlN][17 Brilliant Indian Podcasts That'll Make You A Funner, Smarter, Better Informed Person]]
+
+
+- [[http://tiny.cc/nxtgen][Next Gen Web: Scaling Progressive Web Apps // Speaker Deck]]
+RT @_abhinavrastogi: It's always a treat to speak for an attentive audience at
+a well organised conference! @jsfoo Here's the slides:
+
+- [[http://alexwlchan.net/talks/hypothesis-intro/][Introduction to property-based testing - alexwlchan]]
+
+
+- [[https://devchat.tv/js-jabber/169-jsj-property-based-testing-quickcheck-with-zach-kessin][169 JSJ Property-based Testing (QuickCheck) with Zach Kessin]]
+
+
+- [[https://getpocket.com/@e81p2Tb9A4by6d28a0g566ag85d1A457b98O34L088N813J99ejkiob0UdiDk2e6/share/1130706][Chemistry of Hand-Pump Waters in Ghana, Mali, and Niger, West Africa: Potential Health Effects ☆]]
+Great information on Water quality
+
+- [[https://www.theguardian.com/global-development-professionals-network/2016/sep/13/secret-aid-worker-greece-has-exposed-the-aid-communitys-failures?CMP=share_btn_tw][Secret aid worker: Greece has exposed the aid community's failures | Global Development Professionals Network | The Guardian]]
+Secret aid worker: Greece has exposed the aid community's failures
+
+- [[https://www.flickr.com/photos/88773605@N02/29699091155/][Flickr]]
+Akvo dev team week - Riga 2016 #flickr #Akvo
+
+- [[https://docs.google.com/forms/d/e/1FAIpQLScCbEeqm-4dW_JfXqmKeBSS-aMkjmQ6bUeyuW8Nk64S49lSaw/viewform][ScriptEd Volunteer Application]]
+RT @SashaLaundy: Are you a programmer of any kind in NYC? Sign up now to
+volunteer with ScriptEd to teach the youth about CS!
+
+- [[https://twitter.com/clojurewest/status/776464408738488322][Twitter]]
+RT @swannodette: Not giving a talk, but I want to hear yours!
+
+- [[https://twitter.com/ScribblingOn/status/776488146779328512/photo/1][Twitter]]
+The next time you've an existential crisis, look at this beautiful thing &
+it'll go away.
+
+- [[https://speakerdeck.com/jaisanth/know-your-application-rendering-inside-out][Know Your Application Rendering Inside Out // Speaker Deck]]
+Slides of my talk from yesterday on "Know your Application Rendering Inside
+Out" are available here - @jsfoo #jsfoo
+
+- [[http://www.ycombinator.com/future/elon/][Y Combinator - Elon Musk Interview]]
+
+
+- [[https://twitter.com/kobier/status/776423199860850688][Twitter]]
+This is a brilliant 222-second video overview of !!Con 2016!
+
+- [[http://www.medium.com/@fluorideindia/freedom-from-fluorosis-how-long-will-it-take-74617f18961e][Freedom from Fluorosis: how long will it take – Medium]]
+Each new example of #Skeletal #Fluorosis reminds us of the deep divide and
+neglect in #ModernSociety. How long??
+
+- [[http://www.huffingtonpost.in/2016/09/15/how-bengaluru-policed-helped-through-social-media-in-times-of-cr/?utm_hp_ref=in-homepage][How Bengaluru City Police Came Through On Social Media During The Cauvery Crisis]]
+RT @goyal_abhei: How our social media desk was a guiding light amidst the
+rumour mongering on WhatsApp etc @BlrCityPolice
+
+- [[https://www.youtube.com/watch?v=5lrPpZ1YE80][The Dosa Returns! Raghuram Rajan speaks at a Federal Bank event. - YouTube]]
+
+
+- [[https://www.technologyreview.com/s/602344/the-extraordinary-link-between-deep-neural-networks-and-the-nature-of-the-universe/][The Extraordinary Link Between Deep Neural Networks and the Nature of the Universe]]
+
+
+- [[https://a16z.com/2016/09/11/vc-economics/][16 Definitions on the Economics of VC – Andreessen Horowitz]]
+
+
+- [[https://a16z.com/2016/09/01/marks-offmark/][When Is a "Mark" Not a Mark? – Andreessen Horowitz]]
+
+
+- [[https://www.fastcodesign.com/3062292/evidence/brainstorming-is-dumb][Brainstorming Is Dumb | Co.Design | business + design]]
+
+
+- [[https://www.internationalrivers.org/campaigns/reservoir-emissions][Reservoir Emissions | International Rivers]]
+
+
+- [[https://twitter.com/Calvinn_Hobbes/status/776624613526605824/photo/1][Twitter]]
+RT @Calvinn_Hobbes: ❤️
+
+- [[https://deepmind.com/blog/wavenet-generative-model-raw-audio/][WaveNet: A Generative Model for Raw Audio | DeepMind]]
+
+
+- [[http://scroll.in/article/816569/why-being-a-right-leaning-gay-man-isnt-an-oxymoron][I am a gay Indian man and still lean to the Right. Here's why]]
+
+
+- [[http://blogs.timesofindia.indiatimes.com/toi-edit-page/wrangles-over-water-as-karnataka-and-tamil-nadu-slug-it-out-pakistan-wages-a-water-war-on-india/][Wrangles over water: As Karnataka and Tamil Nadu slug it out, Pakistan wages a water war on India - TOI Blogs]]
+
+
+- [[http://m.rediff.com/news/column/savitrishaming-and-why-women-must-not-drink/20160915.htm][#SavitriShaming and why women must not drink - Rediff.com India News]]
+
+
+- [[https://twitter.com/TheQuint/status/776723147865415680/photo/1][Twitter]]
+Exclusive: @RonnieScrewvala on business in #Bollywood and the challenges from
+@NetflixIndia @AmazonIN @Hotstartweets
+
+- [[https://childrenspark.slack.com/messages/sports/files/F2CC53CCS/][sports | Children's Park Slack]]
+
+
+- [[https://hbr.org/2016/09/men-choose-differently-when-they-choose-with-other-men][Men Choose Differently When They Choose with Other Men]]
+
+
+- [[https://www.youtube.com/watch?v=jfSNxVqprvM&feature=youtu.be][Image worth spreading: Cosmic Eye (Original in HD) - YouTube]]
+
+
+- [[https://www.youtube.com/watch?v=VkTCL6Nqm6Y&feature=youtu.be][OSCON 2014: How Instagram.com Works; Pete Hunt - YouTube]]
+Playing catch-up with @reactjs from the ground up: via @YouTube
+
+- [[https://twitter.com/ThePracticalDev/status/776824046977748992/photo/1][Twitter]]
+RT @ThePracticalDev: She runs C shells by the seashore
