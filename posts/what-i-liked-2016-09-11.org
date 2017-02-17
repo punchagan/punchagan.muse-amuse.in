@@ -47,45 +47,12 @@ Why #OpenDefecation in #India will end only with the annihilation of caste
 - [[http://sachachua.com/blog/2016/09/2016-09-12-emacs-news/][2016-09-12 Emacs News - sacha chua :: living an awesome life]]
 
 
-- [[https://twitter.com/ishaparihar/status/775206881635799041/photo/1][Twitter]]
-Change of workplace this week #Kathmandu @akvo #southasia prep for
-#NepalTrackDay @jigmylama
-
-- [[https://www.flickr.com/photos/bjelkeman/29590629036/][Flickr]]
-The @Akvo dev team meeting starten in Riga
-
-- [[http://www.ted.com/][TED: Ideas worth spreading]]
-I gave a TED talk about cryptocurrencies and it's the featured talk on today!
-
 - [[http://www.ted.com/talks/neha_narula_the_future_of_money][Neha Narula: The future of money | TED Talk | TED.com]]
 I gave a TED talk about cryptocurrencies and it's the featured talk on today!
 
-- [[https://twitter.com/IndiaHistorypic/status/775356846223691778/photo/1][Twitter]]
-RT @IndiaHistorypic: Writer R.K.Narayan ( Malgudi Days ) Was Born In Madras
-,Tamil Nadu But Lived In Mysore , Karnataka #Peace #cauvery
-
-- [[https://twitter.com/twittshi/status/775394980571582464/photo/1][Twitter]]
-I know i enjoy the company of animals more than humans #aboutMe #iloveme #iLove
-#illustrat…
-
-- [[https://www.instagram.com/p/BKQ-qPYA_jQ/][Instagram]]
-I know i enjoy the company of animals more than humans #aboutMe #iloveme #iLove
-#illustrat…
-
 - [[http://www.nytimes.com/2016/09/13/well/eat/how-the-sugar-industry-shifted-blame-to-fat.html?_r=0][How the Sugar Industry Shifted Blame to Fat - The New York Times]]
 
-
-- [[https://twitter.com/thej/status/775341481292816385][Twitter]]
-RT @aadvaark: Weep for #Bengaluru
-
 - [[https://signalvnoise.com/posts/3124-give-it-five-minutes][Give it five minutes – Signal v. Noise]]
-
-
-- [[https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html][isMounted is an Antipattern | React]]
-
-
-- [[https://twitter.com/Wander_Ponder/status/775600018380103680/photo/1][Twitter]]
-Couldn't buy bread 'cause ask the stores are closed, so I baked my own. 😊
 
 - [[https://www.wired.com/2016/09/machine-learning-can-identify-pixelated-faces-researchers-show/][Untitled (https://www.wired.com/2016/09/machine-learning-can-identify-pixelated-faces-researchers-show/)]]
 Interesting to consider how #AI may affect privacy retrospectively
@@ -181,20 +148,6 @@ Great information on Water quality
 
 - [[https://www.theguardian.com/global-development-professionals-network/2016/sep/13/secret-aid-worker-greece-has-exposed-the-aid-communitys-failures?CMP=share_btn_tw][Secret aid worker: Greece has exposed the aid community's failures | Global Development Professionals Network | The Guardian]]
 Secret aid worker: Greece has exposed the aid community's failures
-
-- [[https://www.flickr.com/photos/88773605@N02/29699091155/][Flickr]]
-Akvo dev team week - Riga 2016 #flickr #Akvo
-
-- [[https://docs.google.com/forms/d/e/1FAIpQLScCbEeqm-4dW_JfXqmKeBSS-aMkjmQ6bUeyuW8Nk64S49lSaw/viewform][ScriptEd Volunteer Application]]
-RT @SashaLaundy: Are you a programmer of any kind in NYC? Sign up now to
-volunteer with ScriptEd to teach the youth about CS!
-
-- [[https://twitter.com/clojurewest/status/776464408738488322][Twitter]]
-RT @swannodette: Not giving a talk, but I want to hear yours!
-
-- [[https://twitter.com/ScribblingOn/status/776488146779328512/photo/1][Twitter]]
-The next time you've an existential crisis, look at this beautiful thing &
-it'll go away.
 
 - [[https://speakerdeck.com/jaisanth/know-your-application-rendering-inside-out][Know Your Application Rendering Inside Out // Speaker Deck]]
 Slides of my talk from yesterday on "Know your Application Rendering Inside

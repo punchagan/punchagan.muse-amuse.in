@@ -327,6 +327,7 @@ brighter perspectives on life.
 - Ten years from now, make sure you can say that you chose your life, you
   didn’t settle for it. -- Mandy Hale, The Single Woman
 
+
 #+HTML: </div>
 
 #+HTML: <script type="text/javascript" src="/assets/js/quotes.js" async></script>
