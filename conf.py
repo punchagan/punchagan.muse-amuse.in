@@ -614,6 +614,7 @@ DISABLED_PLUGINS = [
     'py3_switch',
     'redirect',
     'render_authors',
+    'classify_authors',
     'render_galleries',
     'render_listings',
     'rst2html',
