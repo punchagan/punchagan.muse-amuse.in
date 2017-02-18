@@ -1,0 +1,16 @@
+#+BEGIN_COMMENT
+.. title: Search
+.. slug: search
+.. date: 2017-02-18 11:16:14 UTC+05:30
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+.. nocomments: True
+#+END_COMMENT
+
+#+BEGIN_HTML
+<input type="text" id="tipue_search_input" placeholder="Search this site">
+<div id="tipue_search_content"></div>
+#+END_HTML

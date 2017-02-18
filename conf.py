@@ -72,6 +72,7 @@ NAVIGATION_LINKS = {
         ('/quotes.html', 'quote-right', 'Quotes'),
         ('/reading-list.html', 'book', 'Reading List'),
         ('/rss.xml', 'rss', 'RSS'),
+        ('/search.html', 'search', 'Search'),
         ('https://github.com/punchagan', 'github', 'GitHub'),
         ('https://twitter.com/punchagan', 'twitter', 'Twitter'),
         ('mailto:{}'.format(BLOG_EMAIL), 'at', 'Email'),
@@ -496,12 +497,7 @@ INDEX_DISPLAY_POST_COUNT = 10
 # Show only teasers in the RSS feed? Default to True
 # RSS_TEASERS = True
 
-SEARCH_FORM = """
-<span class="navbar-form pull-left">
-<input type="text" class="sidebar-nav-item" id="tipue_search_input" placeholder="Search this site">
-</span>
-<div id="tipue_search_content"></div>
-"""
+# SEARCH_FORM = ""
 
 # Use content distribution networks for jquery and twitter-bootstrap css and js
 # If this is True, jquery is served from the Google CDN and twitter-bootstrap
@@ -530,15 +526,18 @@ BODY_END = """<script type="text/javascript">
 
 </script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.0.0/fuse.min.js"></script>
-<script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
-<script type="text/javascript" src="/assets/js/tipuesearch.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/Tipue-Search/3.1.0/tipuesearch_set.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/Tipue-Search/3.1.0/tipuesearch.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-    $('#tipue_search_input').tipuesearch({
+    var config = {
         'mode': 'json',
         'contentLocation': '/assets/js/tipuesearch_content.json',
-        'showUrl': false
-    });
+        'showURL': false,
+        'show': 20,
+        'descriptiveWords': 20
+    }
+    $('#tipue_search_input').tipuesearch(config);
 });
 </script>
 
