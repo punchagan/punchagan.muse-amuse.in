@@ -508,7 +508,7 @@ USE_CDN = True
 
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </HEAD>
-EXTRA_HEAD_DATA = """<link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">"""
+EXTRA_HEAD_DATA = """<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/Tipue-Search/3.1.0/tipuesearch.css">"""
 
 # Google analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
