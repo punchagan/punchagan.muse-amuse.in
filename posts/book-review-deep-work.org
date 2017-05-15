@@ -10,7 +10,7 @@
 #+END_COMMENT
 
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT HTML
 {{% book
     cover=https://farm9.staticflickr.com/8785/28638939131_605f26bddb_o.jpg
     isbn=1455586692
@@ -19,7 +19,7 @@
     name="Deep Work: Rules for Focused Success in a Distracted World"
     read="2016-08-01"
     rating="4/5" %}}
-#+END_HTML
+#+END_EXPORT
 
 Nothing presented in the book is totally new, and though some arguments aren't
 entirely clear, most of it makes sense from experience.

@@ -10,7 +10,7 @@
 #+END_COMMENT
 
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT HTML
 {{% book
     cover=https://farm2.staticflickr.com/1656/24408821265_6f067fe523_o.jpg
     isbn=080241270X
@@ -19,7 +19,7 @@
     name="5 Love Languages"
     read="2016-01-13"
     rating="5/5" %}}
-#+END_HTML
+#+END_EXPORT
 
 I first heard of this book in a discussion on relationships amongst friends
 from RC.  The discussion was quite interesting and the book received more than

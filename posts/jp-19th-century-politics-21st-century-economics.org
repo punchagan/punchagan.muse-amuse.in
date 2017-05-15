@@ -10,13 +10,13 @@
 :CLOCK:
 :END:
 
-#+begin_html
+#+begin_EXPORT html
   <object type="application/x-shockwave-flash" style="width:640px;
                                                       height:385px;"
           data="http://www.youtube.com/v/5zxPJs6R2z8">
     <param name="movie" value="http://www.youtube.com/v/5zxPJs6R2z8"/>
   </object>
-#+end_html
+#+end_EXPORT
 
 Can they co-exist?
 
