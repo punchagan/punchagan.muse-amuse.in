@@ -5,7 +5,7 @@
 
 ;; Uncomment these lines and change the path to your org source to
 ;; add use it.
-(let* ((org-lisp-dir "~/.emacs.d/src/org/lisp"))
+(let* ((org-lisp-dir "~/.emacs.d.bk/site-lisp/org-mode/lisp"))
   (when (file-directory-p org-lisp-dir)
       (add-to-list 'load-path org-lisp-dir)
       (require 'org)))
