@@ -1,16 +1,20 @@
 <div class="post-list">
-  {% if not posts %} {% set posts=site.posts %} {% endif %}
-  {% set count=count|int %}
+  <% posts=site.posts %>
   <table class="post-list">
-    {% for post in posts[:count] %}
+    % for post in posts[:int(count)]:
+      <% date = post.date.strftime("%d %b %Y") %>
       <tr class="post-list-item">
           <td class="post-list-date">
-              {{ post.date.strftime("%d %b %Y") }}
+            <time class="published dt-published"
+                   itemprop="datePublished"
+                   title="${date}">
+              ${date}
+            </time>
           </td>
           <td>
-              <a href="{{post.permalink()}}">{{post.title()|e}}</a>
+              <a href="${post.permalink()}">${post.title()|h}</a>
           </td>
       </tr>
-    {% endfor %}
+    % endfor
   </table>
 </div>

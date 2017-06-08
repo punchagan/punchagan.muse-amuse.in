@@ -35,6 +35,6 @@
     background: #ccc;
 }
 
-#tipue_search_input {
-    background: #fff;
+.post-list-date {
+    min-width: 7em;
 }

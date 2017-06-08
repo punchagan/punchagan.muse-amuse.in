@@ -1,0 +1,14 @@
+#+BEGIN_COMMENT
+.. title: punchagan's web home
+.. slug: index
+.. date: 2017-06-08 13:08:42 UTC+05:30
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type: text
+.. nocomments: True
+#+END_COMMENT
+
+* All blog posts
+{{% post-list count=10000 %}}
