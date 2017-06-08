@@ -1,5 +1,5 @@
 #+BEGIN_COMMENT
-.. title: punchagan's web home
+.. title:
 .. slug: index
 .. date: 2017-06-08 13:08:42 UTC+05:30
 .. tags:
@@ -8,6 +8,7 @@
 .. description:
 .. type: text
 .. nocomments: True
+.. hidetitle: True
 #+END_COMMENT
 
 * All blog posts
