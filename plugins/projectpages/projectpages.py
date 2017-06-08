@@ -37,13 +37,16 @@ class ProjectPages(Task):
 
     name = 'projectpages'
     dates = {}
+    conf_project_path = 'projects'
 
     def set_site(self, site):
+        """Set Nikola site."""
         site.register_path_handler('project', self.project_path)
-        site._GLOBAL_CONTEXT['project_path'] = site.config['PROJECT_PATH']
+        self.conf_project_path = site.config.get('PROJECT_PATH', 'projects')
+        site._GLOBAL_CONTEXT['project_path'] = self.conf_project_path
         site._GLOBAL_CONTEXT['project_index'] = {}
         for lang, tpath in site.config['TRANSLATIONS'].items():
-            site._GLOBAL_CONTEXT['project_index'][lang] = '/' + os.path.join(tpath, site.config['PROJECT_PATH'], site.config['INDEX_FILE']).replace('\\', '/')
+            site._GLOBAL_CONTEXT['project_index'][lang] = '/' + os.path.join(tpath, self.conf_project_path, site.config['INDEX_FILE']).replace('\\', '/')
 
         # If you want to use breadcrumbs as provided by the crumbs template:
 
@@ -54,11 +57,12 @@ class ProjectPages(Task):
         return super(ProjectPages, self).set_site(site)
 
     def project_path(self, name, lang):
+        """Generate links to project pages."""
         return [_f for _f in self.projects[name].permalink(lang).split('/') if _f]
 
     def is_project(self, p):
         """Test projecthood of a page."""
-        return p.destination_path(lang=self.kw['default_lang']).startswith(self.site.config['PROJECT_PATH'])
+        return p.destination_path(lang=self.kw['default_lang']).startswith(self.conf_project_path)
 
     def find_projects(self):
         """Find all projects."""
@@ -81,6 +85,8 @@ class ProjectPages(Task):
             del data[p.meta[lang]['slug']]['date']
             if 'tags' in data[p.meta[lang]['slug']]:
                 del data[p.meta[lang]['slug']]['tags']
+            if 'hyphenate' in data[p.meta[lang]['slug']]:
+                del data[p.meta[lang]['slug']]['hyphenate']
             data[p.meta[lang]['slug']]['permalink'] = p.permalink(lang)
             data[p.meta[lang]['slug']]['text'] = p.text(lang)
         with open(jdst, 'w') as fh:
@@ -93,7 +99,7 @@ class ProjectPages(Task):
         self.image_ext_list.extend(self.site.config.get('EXTRA_IMAGE_EXTENSIONS', []))
 
         self.kw = {
-            'project_path': self.site.config['PROJECT_PATH'],
+            'project_path': self.conf_project_path,
             'index_file': self.site.config['INDEX_FILE'],
             'strip_indexes': self.site.config['STRIP_INDEXES'],
             'output_folder': self.site.config['OUTPUT_FOLDER'],
@@ -112,6 +118,7 @@ class ProjectPages(Task):
 
         template_name = "projects.tmpl"
 
+        self.site.scan_posts()
         self.find_projects()
 
         # Create index.html for each language
