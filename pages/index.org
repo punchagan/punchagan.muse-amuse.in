@@ -1,5 +1,5 @@
 #+BEGIN_COMMENT
-.. title:
+.. title: Index
 .. slug: index
 .. date: 2017-06-08 13:08:42 UTC+05:30
 .. tags:
