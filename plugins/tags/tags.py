@@ -33,7 +33,7 @@ from os.path import relpath
 import re
 from textwrap import dedent
 
-from nikola.plugins.compile.ipynb import current_nbformat, flag as ipy_flag, ipy_modern, nbformat
+from nikola.plugins.compile.ipynb import current_nbformat, flag as ipy_flag, nbformat
 from nikola.plugin_categories import Command
 from nikola.utils import bytes_str, LOGGER, sys_decode, unicode_str
 
@@ -679,10 +679,7 @@ def _replace_ipynb_tags(post, tags):
     metadata['tags'] = ','.join(tags)
 
     with io.open(post.source_path, "w+", encoding="utf8") as fd:
-        if ipy_modern:
-            nbformat.write(nb, fd, 4)
-        else:
-            nbformat.write(nb, fd, 'ipynb')
+        nbformat.write(nb, fd, 4)
 
 def _replace_tags_line(post, tags):
     """ Replaces the line that lists the tags, with given tags. """
