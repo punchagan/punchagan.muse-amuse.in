@@ -121,7 +121,7 @@ POSTS = (
     ("posts/*.ipynb", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.org", "", "post.tmpl"),
+    ("pages/*.org", "", "page.tmpl"),
     ("projects/*.org", "projects", "project.tmpl"),
 )
 PROJECT_PATH = 'projects'
