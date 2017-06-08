@@ -28,9 +28,11 @@
 .rc-scout {
     max-width: 1.5rem;
     max-height: 1.5rem;
-    position: absolute;
-    top: 1.125em;
-    left: 1em;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    padding: 4px !important;
+    background: #ccc;
 }
 
 #tipue_search_input {

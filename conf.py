@@ -58,26 +58,35 @@ TRANSLATIONS = {
     # "es": "./es",
 }
 
+navigation_links_en = (
+    # link, fa-name, title
+    ('/index.html', 'home', 'Home'),
+    ('/posts/index.html', 'pencil', 'Blog'),
+    ('/tags/index.html', 'tags', 'Tags'),
+    ('/projects/', 'cogs', 'Projects'),
+    ('/tags/cat_recursecenter-checkins.html', 'magic', 'Recurse Center Logs'),
+    ('/tags/cat_bookmarks.html', 'bookmark', 'Bookmarks'),
+    ('/quotes.html', 'quote-right', 'Quotes'),
+    # ('/reading-list.html', 'book', 'Reading List'),
+    ('/rss.xml', 'rss', 'RSS'),
+    # ('/search.html', 'search', 'Search'),
+    ('https://github.com/punchagan', 'github', 'GitHub'),
+    ('https://twitter.com/punchagan', 'twitter', 'Twitter'),
+    ('mailto:{}'.format(BLOG_EMAIL), 'at', 'Email'),
+    ('http://creativecommons.org/licenses/by-sa/4.0/', 'creative-commons', 'CC-BY-SA')
+)
+
+def fa_navigation_links(navigation_links):
+    """Return tuple of navigation links using Font Awesome"""
+    return [
+        (link, '<small><i title="{name}" class="fa fa-{icon}"></i></small>'.format(name=name, icon=icon))
+        for link, icon, name in navigation_links
+    ]
+
 # Links for the sidebar / navigation bar.
 # You should provide a key-value pair for each used language.
 NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        # link, fa-name, title
-        ('/index.html', 'home', 'Home'),
-        ('/posts/index.html', 'pencil', 'Blog'),
-        ('/tags/index.html', 'tags', 'Tags'),
-        ('/projects/', 'cogs', 'Projects'),
-        ('/tags/cat_recursecenter-checkins.html', 'magic', 'Recurse Center Logs'),
-        ('/tags/cat_bookmarks.html', 'bookmark', 'Bookmarks'),
-        ('/quotes.html', 'quote-right', 'Quotes'),
-        ('/reading-list.html', 'book', 'Reading List'),
-        ('/rss.xml', 'rss', 'RSS'),
-        ('/search.html', 'search', 'Search'),
-        ('https://github.com/punchagan', 'github', 'GitHub'),
-        ('https://twitter.com/punchagan', 'twitter', 'Twitter'),
-        ('mailto:{}'.format(BLOG_EMAIL), 'at', 'Email'),
-        ('http://creativecommons.org/licenses/by-sa/4.0/', 'creative-commons', 'CC-BY')
-    ),
+    DEFAULT_LANG: fa_navigation_links(navigation_links_en),
 }
 
 # Below this point, everything is optional
@@ -316,7 +325,7 @@ INDEXES_STATIC = False
 
 
 # Name of the theme to use.
-THEME = "lanyon"
+THEME = "hack"
 
 # Color scheme to be used for code blocks. If your theme provides
 # "assets/css/code.css" this is ignored.
@@ -508,7 +517,10 @@ USE_CDN = True
 
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </HEAD>
-EXTRA_HEAD_DATA = """<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/Tipue-Search/3.1.0/tipuesearch.css">"""
+EXTRA_HEAD_DATA = """
+<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/Tipue-Search/3.1.0/tipuesearch.css">
+"""
 
 # Google analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
@@ -526,23 +538,9 @@ BODY_END = """<script type="text/javascript">
 
 </script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fuse.js/1.0.0/fuse.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/Tipue-Search/3.1.0/tipuesearch_set.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/Tipue-Search/3.1.0/tipuesearch.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    var config = {
-        'mode': 'json',
-        'contentLocation': '/assets/js/tipuesearch_content.json',
-        'showURL': false,
-        'show': 20,
-        'descriptiveWords': 20
-    }
-    $('#tipue_search_input').tipuesearch(config);
-});
-</script>
 
 <!-- RC Scout -->
-<div class="rc-scout wrap" title="Want to become a better programmer?"></div>
+<div class="dark-grey rc-scout wrap" title="Want to become a better programmer?"></div>
 <script async defer src="https://www.recurse-scout.com/loader.js?t=8b0acf2a60ae4365bee9568bede83f28"></script>
 
 """
@@ -598,9 +596,6 @@ $(document).ready(function() {
 
 TIMEZONE = 'Asia/Kolkata'
 
-# Categories that don't show up in the main indexes and the RSS feeds.
-NO_INDEX_CATEGORIES = set(['hackerschool-checkins', 'bookmarks', 'quotes'])
-
 # If webassets is installed, bundle JS and CSS to make site loading faster
 USE_BUNDLES = True
 
@@ -609,7 +604,7 @@ DISABLED_PLUGINS = [
     'bootswatch_theme',
     'gzip',
     'install_theme',
-    'mako',
+    # 'mako',
     'py3_switch',
     'redirect',
     'render_authors',
@@ -621,6 +616,7 @@ DISABLED_PLUGINS = [
     'share',
     'version',
     # 'popular_posts',
+    'related_posts',
     'comments',  # enabled disqus
 ]
 
@@ -639,3 +635,4 @@ LINK_CHECK_WHITELIST = ['this-is-a-fun-hack', 'subsample.png']
 # It can be anything, data, functions, modules, etc.
 
 GLOBAL_CONTEXT = {}
+GLOBAL_CONTEXT['HACK_VARIANT'] = 'dark-grey'
