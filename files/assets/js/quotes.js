@@ -68,12 +68,12 @@ var add_buttons = function () {
     var quotes = document.querySelectorAll('.quotes .org-ul li');
     var count = quotes.length;
 
-    var nav = document.createElement("div");
-    nav.setAttribute('class', 'pagination');
+    var nav = document.createElement("ul");
+    nav.setAttribute('class', 'pager hidden-print postpromonav');
     quote_container.insertBefore(nav, quote_container.firstChild);
 
-    var random = document.createElement("span");
-    random.setAttribute('class', 'pagination-item older');
+    var random = document.createElement("li");
+    random.setAttribute('class', 'previous');
     nav.appendChild(random);
 
     var random_quote = document.createElement("a");
@@ -83,8 +83,8 @@ var add_buttons = function () {
     random_quote.textContent = "Show Random Quote";
     random.appendChild(random_quote);
 
-    var show = document.createElement("span");
-    show.setAttribute('class', 'pagination-item newer');
+    var show = document.createElement("li");
+    show.setAttribute('class', 'next');
     nav.appendChild(show);
 
     var show_quotes = document.createElement("a");
