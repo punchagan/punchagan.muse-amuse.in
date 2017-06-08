@@ -1,10 +1,10 @@
 .book-figure {
     max-height: 200px;
-    padding: 20px;
 }
 
 .book-figure-media {
     float: left;
+    margin: 0 1em 1em 0;
 }
 
 .book-figure-info {
