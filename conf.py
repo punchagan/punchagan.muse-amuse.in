@@ -122,6 +122,7 @@ POSTS = (
 )
 PAGES = (
     ("pages/*.org", "", "page.tmpl"),
+    ("pages/*.html", "", "page.tmpl"),
     ("projects/*.org", "projects", "project.tmpl"),
 )
 PROJECT_PATH = 'projects'
