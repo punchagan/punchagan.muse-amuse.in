@@ -1,0 +1,13 @@
++++
+title = "A Second Blog..."
+date = "2007-04-04T00:00:00+05:30"
+tags = ["ology", "posts", "wordpress"]
+draft = false
++++
+
+-   It can't really be called a Second Blog... because I won't be
+    posting any new stuff there...
+-   I just started it to have a Wordpress experience...
+-   I started it to know.. to compare... and to choose...
+-   I started it just for fun...
+-   I started it because Blogspot may soon be blocked on campus!!!
