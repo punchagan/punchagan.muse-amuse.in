@@ -1,0 +1,18 @@
+<div class="book-figure">
+
+    <div class="book-figure-media" style="display: inline;">
+        <a class="book-figure-image" href="{{ .Params.book_url }}" target="_blank">
+            <img src="{{ .Params.book_cover }}" alt="{{ .Params.book_name }}" style="height: 150px; width: auto; margin: 0;"/>
+        </a>
+    </div>
+
+    <div class="book-figure-info" style="display: inline; position: absolute">
+        <ul style="list-style: none">
+            <li><span style="font-style: italic">Author: </span><span>{{ .Params.book_author }}</span></li>
+            <li><span style="font-style: italic">ISBN: </span><span>{{ .Params.book_isbn }}</span></li>
+            <li><span style="font-style: italic">Finished reading: </span><span>{{ .Params.book_read | dateFormat .Site.Params.dateform }}</span></li>
+            <li><span style="font-style: italic">Rating: </span><span>{{ .Params.book_rating }}</span></li>
+        </ul>
+    </div>
+
+</div>
