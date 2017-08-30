@@ -9,6 +9,8 @@
         </div>
     </div>
 </section>
+{{ partial "footer.html" . }}
+
 <script type="text/javascript">
  var maxPatternLength = 64;
  var get_search_string = function(){
@@ -30,6 +32,10 @@
      }
  };
 
+ var loading_suggestions = function(done){
+     document.querySelector('.suggestion > a').text = done ? 'Visit home page': 'Loading suggestions...';
+ };
+
  var show_results = function(entries) {
      document.querySelector('.suggestion > a').remove();
      var suggestions = document.querySelector('.suggestion');
@@ -49,6 +55,7 @@
      });
  };
 
+ loading_suggestions();
  var pages = [];
  {{range .Site.Pages}}
  pages.push({
@@ -67,6 +74,7 @@
  results.splice(5);
  if (results.length > 0) {
      show_results(results);
- }
+ } else {
+     loading_suggestions(true);
+};
 </script>
-{{ partial "footer.html" . }}
