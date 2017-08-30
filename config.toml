@@ -10,21 +10,26 @@ paginate = 10000
 rssLimit = 25
 googleAnalytics = "UA-21111013-1"
 canonifyURLs = true
+
 [params]
-author = ""
-github = "punchagan"
-goodreads = "58550413-punch"
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 latestpostcount = 5
-description = ""
 hide_author = true
 highlightjs = true
+powered_by = false
+show_menu = true
+progressively = true
+
+author = ""
+description = ""
+
+logofile = "/images/logo.svg"
+
+copyright = "© 2017"
+copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
+
+github = "punchagan"
 twitter = "punchagan"
 email = "punchagan@muse-amuse.in"
-powered_by = false
-dateform = "Jan 2, 2006"
-logofile = "/images/logo.svg"
-show_menu = true
-dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-progressively = true
-copyright = "© 2017 Puneeth Chaganti"
-copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
+goodreads = "58550413-punch"
