@@ -1,9 +1,9 @@
-+++
-title = "Some fun from #org-mode"
-date = "2010-10-02T00:00:00+05:30"
-tags = ["emacs", "IRC", "note", "org2blog", "orgmode"]
-draft = false
-+++
+---
+title : "Some fun from #org-mode"
+date : "2010-10-02T00:00:00+05:30"
+tags : ["emacs", "IRC", "note", "org2blog", "orgmode"]
+draft : false
+---
 
 This is a conversation from #org-mode, published without
 permission from `plovs`, `BerntH` and `bremner`. If any of you

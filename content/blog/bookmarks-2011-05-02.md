@@ -1,14 +1,15 @@
-+++
-title = "Bookmarks [2011/05/02]"
-date = "2011-05-02T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2011/05/02]"
+date : "2011-05-02T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Google’s secret perk? A private hackerspace - Hack a Day](http://hackaday.com/2011/04/27/googles-secret-perk-a-private-hackerspace/)
 
     tags: work, hack
+
+<!--listend-->
 
 -   [Dictionary of Algorithms and Data Structures](http://xlinux.nist.gov/dads/)
 
@@ -16,13 +17,19 @@ draft = false
 
     This is a dictionary of algorithms, algorithmic techniques, data structures, archetypal problems, and related definitions.
 
+<!--listend-->
+
 -   [Lunch - Joel on Software](http://www.joelonsoftware.com/items/2011/04/28.html)
 
     tags: society, work, friends
 
+<!--listend-->
+
 -   [If programming languages were religions...](http://www.itu.dk/courses/BPRD/E2010/religion.txt)
 
     tags: programming, langugage, humour, software
+
+<!--listend-->
 
 -   [The Joel Test: 12 Steps to Better Code - Joel on Software](http://www.joelonsoftware.com/articles/fog0000000043.html)
 

@@ -1,9 +1,9 @@
-+++
-title = "Refile to date-tree"
-date = "2010-07-30T00:00:00+05:30"
-tags = ["code", "emacs", "orgmode"]
-draft = false
-+++
+---
+title : "Refile to date-tree"
+date : "2010-07-30T00:00:00+05:30"
+tags : ["code", "emacs", "orgmode"]
+draft : false
+---
 
 Useful to refile notes to the journal file, which is a
 date-tree. `org-refile` isn't convenient to refile stuff to a

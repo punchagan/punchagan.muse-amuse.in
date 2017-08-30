@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-31"
-date = 2014-08-01T10:38:57-04:00
-tags = ["C"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-31"
+date : 2014-08-01T10:38:57-04:00
+tags : ["C"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I continued with doing the initial parts of the book, and didn't pair with
     Stephanie today.

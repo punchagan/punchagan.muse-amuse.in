@@ -1,9 +1,9 @@
-+++
-title = "Raising Windows using Python"
-date = "2010-11-03T00:00:00+05:30"
-tags = ["python"]
-draft = false
-+++
+---
+title : "Raising Windows using Python"
+date : "2010-11-03T00:00:00+05:30"
+tags : ["python"]
+draft : false
+---
 
 Posting a small snippet of code, that I've been using for months
 now, on the request of a friend [^fn:1].
@@ -14,7 +14,7 @@ commonly used programs --- Emacs(Mod4+E), Firefox(Mod4+F) and the
 Terminal(Mod4+T). I'm using a neat tool called xdotool [^fn:2] to
 search for windows using titles.
 
--   `Mod4+E` is mapped to `~/bin/raise.py emacs`
+-   <kbd>Mod4+E</kbd> is mapped to `~/bin/raise.py emacs`
 
 Similarly, for firefox and terminal.
 

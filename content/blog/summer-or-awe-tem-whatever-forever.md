@@ -1,9 +1,9 @@
-+++
-title = "Summer or Awe-TEM!! Whatever... Forever"
-date = "2007-06-13T00:00:00+05:30"
-tags = ["blab", "ology", "ps"]
-draft = false
-+++
+---
+title : "Summer or Awe-TEM!! Whatever... Forever"
+date : "2007-06-13T00:00:00+05:30"
+tags : ["blab", "ology", "ps"]
+draft : false
+---
 
 Writing from Delhi, doing my PS at NPL! One would imagine, that I
 am here enjoying myself; that I am enjoying thoroughly the

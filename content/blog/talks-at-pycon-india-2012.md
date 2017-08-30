@@ -1,9 +1,9 @@
-+++
-title = "Talks at PyCon India 2012"
-date = "2012-09-02T00:00:00+05:30"
-tags = ["death", "python", "scipy"]
-draft = false
-+++
+---
+title : "Talks at PyCon India 2012"
+date : "2012-09-02T00:00:00+05:30"
+tags : ["death", "python", "scipy"]
+draft : false
+---
 
 PyCon is back to Bangalore for the 4th edition.  I've been to all
 the previous three editions, and I'm looking forward to this one.

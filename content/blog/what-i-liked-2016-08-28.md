@@ -1,10 +1,10 @@
-+++
-title = "What I liked 2016-08-28"
-date = "2016-09-05T00:00:00+05:30"
-tags = ["blab", "blag", "happy", "life"]
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "What I liked 2016-08-28"
+date : "2016-09-05T00:00:00+05:30"
+tags : ["blab", "blag", "happy", "life"]
+categories : ["bookmarks"]
+draft : false
+---
 
 I liked [this article](http://smo.nu/how-to-have-healthy-relationships-as-a-developer/) advising developers on having healthy relationships.  Most
 of it is common sense stuff -- "Whether it be a side project or main project,

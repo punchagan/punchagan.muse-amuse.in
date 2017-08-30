@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2014/03/23]"
-date = "2014-03-23T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2014/03/23]"
+date : "2014-03-23T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Replacing \`import\` with \`accio\`: A Dive into Bootstrapping and Python's Grammar](http://mathamy.com/import-accio-bootstrapping-python-grammar.html)
 

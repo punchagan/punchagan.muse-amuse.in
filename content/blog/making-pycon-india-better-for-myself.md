@@ -1,9 +1,9 @@
-+++
-title = "Making PyCon India better (for myself)"
-date = 2014-10-14T07:53:47-04:00
-tags = ["event", "pycon"]
-draft = false
-+++
+---
+title : "Making PyCon India better (for myself)"
+date : 2014-10-14T07:53:47-04:00
+tags : ["event", "pycon"]
+draft : false
+---
 
 I've [ranted before](./notes-from-pycon.html) about PyCon not meeting my expectations, and I even skipped
 going to the last PyCon.  Somehow, I hoped that it would be better this year,

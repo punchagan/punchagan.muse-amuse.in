@@ -1,9 +1,9 @@
-+++
-title = "Level-up Tools"
-date = "2016-05-23T00:00:00+05:30"
-tags = ["blab", "blag", "learning", "life", "programming"]
-draft = false
-+++
+---
+title : "Level-up Tools"
+date : "2016-05-23T00:00:00+05:30"
+tags : ["blab", "blag", "learning", "life", "programming"]
+draft : false
+---
 
 Thanks to a [friend](https://twitter.com/baali_) I got an upgrade to our still-being-setup kitchen.  I now
 have a non-stick pan along with a few more new additions.  I would previously

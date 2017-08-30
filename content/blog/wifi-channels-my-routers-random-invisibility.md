@@ -1,9 +1,9 @@
-+++
-title = "WiFi Channels & my router's random invisibility"
-date = "2015-04-22T00:00:00+05:30"
-tags = ["blag", "debugging", "hardware", "howto"]
-draft = false
-+++
+---
+title : "WiFi Channels & my router's random invisibility"
+date : "2015-04-22T00:00:00+05:30"
+tags : ["blag", "debugging", "hardware", "howto"]
+draft : false
+---
 
 To update some data plan changes, I had to restart my router today.  I did so
 from the (web) admin interface, from my dad's laptop. Guess what!  The router

@@ -1,10 +1,10 @@
-+++
-title = "What I liked 2016-07-10"
-date = "2016-07-27T00:00:00+05:30"
-tags = ["blab", "happy", "life"]
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "What I liked 2016-07-10"
+date : "2016-07-27T00:00:00+05:30"
+tags : ["blab", "happy", "life"]
+categories : ["bookmarks"]
+draft : false
+---
 
 Airtel's [response](https://twitter.com/airtelnews/status/753518084732878848) to [@karthikb351](https://twitter.com/karthikb351)'s write up on how they are [sniffing and
 censoring CloudFlare's traffic in India](https://medium.com/@karthikb351/airtel-is-sniffing-and-censoring-cloudflares-traffic-in-india-and-they-don-t-even-know-it-90935f7f6d98#---0-257.ftneqcpnh) was funny but sad, though, not totally

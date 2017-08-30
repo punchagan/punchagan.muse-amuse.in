@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-14"
-date = 2014-07-15T18:25:15-04:00
-tags = ["numpy", "python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-14"
+date : 2014-07-15T18:25:15-04:00
+tags : ["numpy", "python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Monday morning checkins for our group had only two people. That was strange!
     Very strange!

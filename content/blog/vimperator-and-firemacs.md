@@ -1,9 +1,9 @@
-+++
-title = "Vimperator and Firemacs!"
-date = "2010-07-28T00:00:00+05:30"
-tags = ["emacs", "ology"]
-draft = false
-+++
+---
+title : "Vimperator and Firemacs!"
+date : "2010-07-28T00:00:00+05:30"
+tags : ["emacs", "ology"]
+draft : false
+---
 
 For the uninitiated, vimperator is an emacs plugin to get Firefox
 working with vim keybindings and firemacs [^fn:1] is for emacs keybindings.

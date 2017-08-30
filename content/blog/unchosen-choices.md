@@ -1,9 +1,9 @@
-+++
-title = "Unchosen Choices??!"
-date = "2007-05-02T00:00:00+05:30"
-tags = ["blab", "life"]
-draft = false
-+++
+---
+title : "Unchosen Choices??!"
+date : "2007-05-02T00:00:00+05:30"
+tags : ["blab", "life"]
+draft : false
+---
 
 I was just wondering, a couple of nights ago, at dinner.. "When
 did I first decide that I would be doing Engineering?" The answer
@@ -52,6 +52,8 @@ later... :D
 > or metal or energy. Then it brings homes to men or women. Then it
 > elevates the standard of living and adds to the comforts of
 > life. This is the engineer's high privilege. -- Herbert Hoover
+
+<!--quoteend-->
 
 > What really interests me is whether God had any choice in the
 > creation of the world. -- Albert Einstein

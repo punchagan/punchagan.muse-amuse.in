@@ -1,9 +1,9 @@
-+++
-title = "numpy, pacman and me"
-date = "2010-01-31T00:00:00+05:30"
-tags = ["linux", "numpy", "ology", "orgmode", "python"]
-draft = false
-+++
+---
+title : "numpy, pacman and me"
+date : "2010-01-31T00:00:00+05:30"
+tags : ["linux", "numpy", "ology", "orgmode", "python"]
+draft : false
+---
 
 I'm now officially a part of the Arch Linux community! Arch Linux
 is a lightweight and flexible Linux® distribution that tries to

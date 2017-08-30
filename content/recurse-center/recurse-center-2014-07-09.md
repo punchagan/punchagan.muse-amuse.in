@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-09"
-date = 2014-07-10T10:21:45-04:00
-tags = ["python", "unicode"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-09"
+date : 2014-07-10T10:21:45-04:00
+tags : ["python", "unicode"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Unicode issues: it turned out that (atleast) one of the files had a character
     that wasn't UTF-8 encoded. I got around it by trying 'utf-8', if not falling

@@ -1,9 +1,7 @@
-+++
-title = "Projects"
-date = "2017-07-27T21:13:01+05:30"
-tags = []
-draft = false
-+++
+---
+title : "Projects"
+draft : false
+---
 
 This is a list of some of the projects that I have worked on in the past, or am
 currently working on.

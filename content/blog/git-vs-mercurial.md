@@ -1,9 +1,9 @@
-+++
-title = "git vs. mercurial"
-date = "2010-08-01T00:00:00+05:30"
-tags = ["git"]
-draft = false
-+++
+---
+title : "git vs. mercurial"
+date : "2010-08-01T00:00:00+05:30"
+tags : ["git"]
+draft : false
+---
 
 At work, we use hg and to be frank, I haven't really got the
 hang of using it well. I've recently started using git for my own

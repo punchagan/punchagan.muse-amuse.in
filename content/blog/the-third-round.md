@@ -1,9 +1,9 @@
-+++
-title = "The Third Round."
-date = "2008-09-13T00:00:00+05:30"
-tags = ["blab", "job", "me"]
-draft = false
-+++
+---
+title : "The Third Round."
+date : "2008-09-13T00:00:00+05:30"
+tags : ["blab", "job", "me"]
+draft : false
+---
 
 This post is just to keep up a promise that I made to a friend of mine (well,
 actually myself).  Presently, its the placement heat in our campus and people

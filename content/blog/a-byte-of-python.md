@@ -1,9 +1,9 @@
-+++
-title = "A Byte of Python"
-date = "2008-09-07T00:00:00+05:30"
-tags = ["book", "ology", "python"]
-draft = false
-+++
+---
+title : "A Byte of Python"
+date : "2008-09-07T00:00:00+05:30"
+tags : ["book", "ology", "python"]
+draft : false
+---
 
 This post's been inspired by a wonderful book, "A Byte of
 Python"[^fn:1] by Swaroop C H. The book has been revised after a

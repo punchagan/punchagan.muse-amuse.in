@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-02"
-date = 2014-07-05T09:57:57-04:00
-tags = ["python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-02"
+date : 2014-07-05T09:57:57-04:00
+tags : ["python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I pushed the code onto [github](https://github.com/punchagan/cinspect) to let Allison and Tom review it, and Tom was
     quite excited by the idea of having it.

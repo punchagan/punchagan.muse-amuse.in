@@ -1,9 +1,9 @@
-+++
-title = "Cold"
-date = "2013-11-13T00:00:00+05:30"
-tags = ["blab", "cold", "fiction", "life", "story"]
-draft = false
-+++
+---
+title : "Cold"
+date : "2013-11-13T00:00:00+05:30"
+tags : ["blab", "cold", "fiction", "life", "story"]
+draft : false
+---
 
 It was a pleasant Saturday evening in the middle of the winter. Christmas was
 just round the corner and love in the air. The sun was just setting and

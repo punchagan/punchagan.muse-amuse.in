@@ -1,9 +1,9 @@
-+++
-title = "Assist time"
-date = "2016-06-14T00:00:00+05:30"
-tags = ["blab", "blag", "productivity", "programming", "time"]
-draft = false
-+++
+---
+title : "Assist time"
+date : "2016-06-14T00:00:00+05:30"
+tags : ["blab", "blag", "productivity", "programming", "time"]
+draft : false
+---
 
 I sometimes hang out on [#org-mode](http://webchat.freenode.net/?channels=%2523org-mode) or [#nikola](http://webchat.freenode.net/?channels=%2523nikola) and answer questions. I usually am
 not able to answer off the top of my head and I look up docs or dig through the

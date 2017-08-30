@@ -1,9 +1,9 @@
-+++
-title = "A smarter 404 page"
-date = "2013-11-11T00:00:00+05:30"
-tags = ["code", "fuzzy_search", "hack", "js"]
-draft = false
-+++
+---
+title : "A smarter 404 page"
+date : "2013-11-11T00:00:00+05:30"
+tags : ["code", "fuzzy-search", "hack", "js"]
+draft : false
+---
 
 [Voodoo](http://twitter.com/avudem) found a broken link referring to a one of my posts, on Quora.
 Given that I have changed my site generator a bunch of times now, it

@@ -1,9 +1,9 @@
-+++
-title = "The Joy of a 'Project!'"
-date = "2006-11-06T00:00:00+05:30"
-tags = ["blab", "lafootgiri", "ology", "project"]
-draft = false
-+++
+---
+title : "The Joy of a 'Project!'"
+date : "2006-11-06T00:00:00+05:30"
+tags : ["blab", "lafootgiri", "ology", "project"]
+draft : false
+---
 
 Just finished the 'Test-2'. Here's the first
 post that can genuinely be called "mine"...

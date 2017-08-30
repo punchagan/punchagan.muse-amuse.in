@@ -1,9 +1,9 @@
-+++
-title = "Pair Blogging"
-date = "2010-08-08T00:00:00+05:30"
-tags = ["idea", "note"]
-draft = false
-+++
+---
+title : "Pair Blogging"
+date : "2010-08-08T00:00:00+05:30"
+tags : ["idea", "note"]
+draft : false
+---
 
 I like the idea of pair blogging. Cate and Sacha, seem to be doing
 it (intentionally or not). One person blogs on a topic he/she's

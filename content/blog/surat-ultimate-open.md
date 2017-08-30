@@ -1,9 +1,9 @@
-+++
-title = "Surat Ultimate Open"
-date = "2013-03-26T00:00:00+05:30"
-tags = ["awesome", "first", "fun", "sport", "surat", "ultimate"]
-draft = false
-+++
+---
+title : "Surat Ultimate Open"
+date : "2013-03-26T00:00:00+05:30"
+tags : ["awesome", "first", "fun", "sport", "surat", "ultimate"]
+draft : false
+---
 
 About 20 of us, gathered at Andheri Station, to leave for Surat.
 I was the only one playing in his/her first tournament, and it was

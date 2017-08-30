@@ -1,10 +1,9 @@
-+++
-title = "Recurse Center, 2014-06-12"
-date = 2014-06-12T12:05:44-04:00
-tags = []
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-12"
+date : 2014-06-12T12:05:44-04:00
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Came to know about the project that Tom is working on for being able
     to auth integration of GitHub and Hacker School.  This will be useful

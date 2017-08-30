@@ -1,9 +1,9 @@
-+++
-title = "Long Lost Letters...."
-date = "2007-03-24T00:00:00+05:30"
-tags = ["blab", "letter"]
-draft = false
-+++
+---
+title : "Long Lost Letters...."
+date : "2007-03-24T00:00:00+05:30"
+tags : ["blab", "letter"]
+draft : false
+---
 
 A few days back I received a letter from a friend, via post! [I
 know most of you can't believe this... but ya.. its true..] I

@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-17"
-date = 2014-06-17T10:09:08-04:00
-tags = ["haskell"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-17"
+date : 2014-06-17T10:09:08-04:00
+tags : ["haskell"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I've been bookmarking the interesting links that people post on
     Zulip and have a lot of reading to do.   It would be nice if I had

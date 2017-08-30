@@ -1,9 +1,9 @@
-+++
-title = "Unitedly Independent!?"
-date = "2007-08-15T00:00:00+05:30"
-tags = ["blab", "india", "politics"]
-draft = false
-+++
+---
+title : "Unitedly Independent!?"
+date : "2007-08-15T00:00:00+05:30"
+tags : ["blab", "india", "politics"]
+draft : false
+---
 
 First things first...
 

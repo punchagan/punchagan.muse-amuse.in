@@ -1,9 +1,9 @@
-+++
-title = "Asking vs. Figuring out"
-date = "2010-09-15T00:00:00+05:30"
-tags = ["note", "thought", "time"]
-draft = false
-+++
+---
+title : "Asking vs. Figuring out"
+date : "2010-09-15T00:00:00+05:30"
+tags : ["note", "thought", "time"]
+draft : false
+---
 
 Should one take the easy route of asking someone who knows, if she
 is sitting right next to you? Or should we try and find out first,

@@ -1,9 +1,9 @@
-+++
-title = "GetHub: Chrome Notifications for Github updates"
-date = "2011-03-02T00:00:00+05:30"
-tags = ["chrome", "code", "first", "git", "software"]
-draft = false
-+++
+---
+title : "GetHub: Chrome Notifications for Github updates"
+date : "2011-03-02T00:00:00+05:30"
+tags : ["chrome", "code", "first", "git", "software"]
+draft : false
+---
 
 Over the last two days, I hacked up my first Chrome extension.
 I've been using Chrome only for the past couple of weeks or so and

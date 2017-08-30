@@ -1,9 +1,9 @@
-+++
-title = "Awe[ful] @ Science !!?!??!"
-date = "2006-12-21T00:00:00+05:30"
-tags = ["blab", "kids", "life", "ology", "science"]
-draft = false
-+++
+---
+title : "Awe[ful] @ Science !!?!??!"
+date : "2006-12-21T00:00:00+05:30"
+tags : ["blab", "kids", "life", "ology", "science"]
+draft : false
+---
 
 I was at the B.M Birla Science Musuem yesterday... it was calm
 with no one in there.. the only people i could see were the

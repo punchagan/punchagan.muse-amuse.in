@@ -1,9 +1,9 @@
-+++
-title = "The PS-1 Ballyhoo..."
-date = "2007-04-06T00:00:00+05:30"
-tags = ["blab", "ps"]
-draft = false
-+++
+---
+title : "The PS-1 Ballyhoo..."
+date : "2007-04-06T00:00:00+05:30"
+tags : ["blab", "ps"]
+draft : false
+---
 
 PS stands for Practice School...
 

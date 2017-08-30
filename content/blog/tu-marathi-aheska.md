@@ -1,9 +1,9 @@
-+++
-title = "tu marathi aheska?"
-date = "2010-08-15T00:00:00+05:30"
-tags = ["india", "note"]
-draft = false
-+++
+---
+title : "tu marathi aheska?"
+date : "2010-08-15T00:00:00+05:30"
+tags : ["india", "note"]
+draft : false
+---
 
 It's just a co-incidence that this post is coming on
 Independence day.

@@ -1,9 +1,9 @@
-+++
-title = "Error: Missing one hebrew character"
-date = "2012-11-21T00:00:00+05:30"
-tags = ["internet", "passwords", "web"]
-draft = false
-+++
+---
+title : "Error: Missing one hebrew character"
+date : "2012-11-21T00:00:00+05:30"
+tags : ["internet", "passwords", "web"]
+draft : false
+---
 
 Dear owner-of-a-random-web-startup,
 

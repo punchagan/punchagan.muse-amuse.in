@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-22"
-date = 2014-06-22T15:58:32-04:00
-tags = ["audio", "haskell", "projects"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-22"
+date : 2014-06-22T15:58:32-04:00
+tags : ["audio", "haskell", "projects"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I finished parts of the phonebook task today.  The code looks ugly,
     and very un-haskelly.  I asked for feedback on it, but I guess its

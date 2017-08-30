@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-03"
-date = 2014-07-05T09:49:37-04:00
-tags = ["django", "python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-03"
+date : 2014-07-05T09:49:37-04:00
+tags : ["django", "python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I got distracted trying to add a hack to Hacker School's [blaggregator](https://github.com/sursh/blaggregator), to
     enable posting to different channels on zulip.
@@ -21,7 +21,7 @@ draft = false
     fixed. Essentially it involved removing a blacklist file that an old version
     of Nvidia drivers left behind in
     `/usr/share/grub-gfxpayload-lists/blacklist/` and setting
-    `GRUB_GFXMODE=1920x1080` in `/etc/default/grub`.
+    <kbd>GRUB_GFXMODE=1920x1080</kbd> in `/etc/default/grub`.
 -   Later in the evening I also bought the domain `octo.cat`, given there were a
     bunch of people buying cat domains, and talking about it on Zulip!
 

@@ -1,9 +1,9 @@
-+++
-title = "I'm back"
-date = "2010-07-17T00:00:00+05:30"
-tags = ["blab", "first", "org2blog", "web"]
-draft = false
-+++
+---
+title : "I'm back"
+date : "2010-07-17T00:00:00+05:30"
+tags : ["blab", "first", "org2blog", "web"]
+draft : false
+---
 
 After a short break, I'm back to blogging!
 A few things have changed meanwhile. A lot haven't.

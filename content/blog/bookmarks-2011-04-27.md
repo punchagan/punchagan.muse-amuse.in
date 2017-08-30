@@ -1,14 +1,15 @@
-+++
-title = "Bookmarks [2011/04/27]"
-date = "2011-04-27T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2011/04/27]"
+date : "2011-04-27T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Ordered by Date](http://graphics.pixar.com/library/)
 
     tags: howto
+
+<!--listend-->
 
 -   [Groklaw - 1 + 1 (pat. pending) — Mathematics, Software and Free Speech](http://www.groklaw.net/article.php?story=20110426051819346)
 
@@ -23,6 +24,8 @@ draft = false
     these fundamental truths, so they can apply that technical
     knowledge to their field of skill.
 
+<!--listend-->
+
 -   [cdixon.org – chris dixon's blog / There are two kinds of people in the world](http://cdixon.org/2011/04/26/there-are-two-kinds-of-people-in-the-world/)
 
     tags: life, startup, advice, people
@@ -31,6 +34,8 @@ draft = false
     your life on the line, made commitments to investors, employees,
     customers and friends, and tried – against all the forces in the
     world that try to keep new ideas down – to make something new.
+
+<!--listend-->
 
 -   [What is Coq ? | The Coq Proof Assistant](http://coq.inria.fr/what-is-coq)
 
@@ -43,6 +48,8 @@ draft = false
     -   to interactively develop formal proofs of these theorems;
     -   to machine-check these proofs by a relatively small certification "kernel";
     -   to extract certified programs to languages like Objective Caml, Haskell or Scheme.
+
+<!--listend-->
 
 -   [Your taste is why your own work disappoints you](http://kottke.org/11/04/your-taste-is-why-your-own-work-disappoints-you)
 

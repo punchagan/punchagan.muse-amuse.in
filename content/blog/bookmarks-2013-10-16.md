@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/10/16]"
-date = "2013-10-16T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/10/16]"
+date : "2013-10-16T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [linux   How can I register a custom protocol with xdg?   Super User](http://superuser.com/questions/162092/how-can-i-register-a-custom-protocol-with-xdg/309343#309343)
 

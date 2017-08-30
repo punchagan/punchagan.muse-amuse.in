@@ -1,9 +1,9 @@
-+++
-title = "Lost Control??"
-date = "2007-09-22T00:00:00+05:30"
-tags = ["blab", "exams", "lafootgiri"]
-draft = false
-+++
+---
+title : "Lost Control??"
+date : "2007-09-22T00:00:00+05:30"
+tags : ["blab", "exams", "lafootgiri"]
+draft : false
+---
 
 **Caution**: This post is just some arbit crap, that arose from some
  internal probing. Its utterly worthless for any reader other than

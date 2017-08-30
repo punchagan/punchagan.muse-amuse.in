@@ -1,9 +1,9 @@
-+++
-title = "Augmented assignment in Python"
-date = "2010-10-04T00:00:00+05:30"
-tags = ["note", "numpy", "ology", "python"]
-draft = false
-+++
+---
+title : "Augmented assignment in Python"
+date : "2010-10-04T00:00:00+05:30"
+tags : ["note", "numpy", "ology", "python"]
+draft : false
+---
 
 If you are new to `Python`, you should probably stop reading here.
 But, if you have used `Python` and `numpy`, then read on. Before, that
@@ -26,11 +26,11 @@ print a
 ```
 
 Both the code blocks, look really the same, until you look carefully.
-Under normal circumstances `a = a + b` and `a += b` behave exactly
+Under normal circumstances <kbd>a = a + b</kbd> and <kbd>a += b</kbd> behave exactly
 similarly, and we really don't need to bother about the differences
 between them.
 
-But, `+=`, which is an augmented assignment operator, actually tries
+But, <kbd>+=</kbd>, which is an augmented assignment operator, actually tries
 to perform the operation in-place, unlike the other statement where
 `+` actually returns a new object which is again being referenced by
 the name `a`.

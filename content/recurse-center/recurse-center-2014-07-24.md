@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-24"
-date = 2014-07-24T09:53:03-04:00
-tags = ["python", "raspberry_pi"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-24"
+date : 2014-07-24T09:53:03-04:00
+tags : ["python", "raspberry-pi"]
+categories : ["recursecenter"]
+draft : false
+---
 
 ## Glowing LEDs and me {#glowing-leds-and-me}
 

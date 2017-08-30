@@ -1,9 +1,9 @@
-+++
-title = "Blogs, Feeds and Readers"
-date = "2010-04-20T00:00:00+05:30"
-tags = ["blab"]
-draft = false
-+++
+---
+title : "Blogs, Feeds and Readers"
+date : "2010-04-20T00:00:00+05:30"
+tags : ["blab"]
+draft : false
+---
 
 I want to be a part of the "reader-space" of blogs or web-sites
 rather than a part of the Google-reader ecosystem.

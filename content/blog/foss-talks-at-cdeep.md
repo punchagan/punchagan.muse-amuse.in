@@ -1,9 +1,9 @@
-+++
-title = "FOSS talks at CDEEP"
-date = "2009-07-10T00:00:00+05:30"
-tags = ["ology"]
-draft = false
-+++
+---
+title : "FOSS talks at CDEEP"
+date : "2009-07-10T00:00:00+05:30"
+tags : ["ology"]
+draft : false
+---
 
 I had the opportunity to attend a FOSS talk session organized by
 Center for Distance Education Engineering Programme (CDEEP) as a

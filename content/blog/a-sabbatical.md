@@ -1,9 +1,9 @@
-+++
-title = "A sabbatical"
-date = "2008-07-04T00:00:00+05:30"
-tags = ["blab", "emacs", "IRC", "ology"]
-draft = false
-+++
+---
+title : "A sabbatical"
+date : "2008-07-04T00:00:00+05:30"
+tags : ["blab", "emacs", "IRC", "ology"]
+draft : false
+---
 
 This post, is a different one in a couple of ways.
 

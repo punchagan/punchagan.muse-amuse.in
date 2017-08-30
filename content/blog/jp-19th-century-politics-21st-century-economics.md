@@ -1,9 +1,9 @@
-+++
-title = "JP - 19th Century Politics & 21st Century Economics"
-date = "2010-11-05T00:00:00+05:30"
-tags = ["notes", "politics"]
-draft = false
-+++
+---
+title : "JP - 19th Century Politics & 21st Century Economics"
+date : "2010-11-05T00:00:00+05:30"
+tags : ["notes", "politics"]
+draft : false
+---
 
 <object type="application/x-shockwave-flash" style="width:640px;
                                                     height:385px;"

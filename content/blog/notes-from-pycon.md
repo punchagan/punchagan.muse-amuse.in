@@ -1,9 +1,9 @@
-+++
-title = "Notes from Pycon"
-date = "2010-09-29T00:00:00+05:30"
-tags = ["event", "python"]
-draft = false
-+++
+---
+title : "Notes from Pycon"
+date : "2010-09-29T00:00:00+05:30"
+tags : ["event", "python"]
+draft : false
+---
 
 Just back after attending PyCon India '10. It was not as exciting
 as I hoped it would be.  That's generally the case with any

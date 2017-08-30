@@ -1,9 +1,9 @@
-+++
-title = "First 100!"
-date = "2010-08-22T00:00:00+05:30"
-tags = ["cycling", "herohawk", "mumbai", "nomadic"]
-draft = false
-+++
+---
+title : "First 100!"
+date : "2010-08-22T00:00:00+05:30"
+tags : ["cycling", "herohawk", "mumbai", "nomadic"]
+draft : false
+---
 
 We, Ritesh and I, finished our first 100+km ride -- approximately
 110km. Yo!

@@ -1,9 +1,9 @@
-+++
-title = "Good, Bad or Human?"
-date = "2009-08-22T00:00:00+05:30"
-tags = ["blab", "human", "life"]
-draft = false
-+++
+---
+title : "Good, Bad or Human?"
+date : "2009-08-22T00:00:00+05:30"
+tags : ["blab", "human", "life"]
+draft : false
+---
 
 Well, this could be called a post after ages, considering that
 most of previous posts have just been 'news reports'. I have been

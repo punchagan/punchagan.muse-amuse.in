@@ -1,10 +1,9 @@
-+++
-title = "Recurse Center, 2014-06-21"
-date = 2014-06-22T16:16:34-04:00
-tags = []
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-21"
+date : 2014-06-22T16:16:34-04:00
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I spent most of Saturday, thinking about what I should be doing for
     the next few weeks, and what I really want to get out of Hacker

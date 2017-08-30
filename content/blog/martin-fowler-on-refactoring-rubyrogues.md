@@ -1,9 +1,9 @@
-+++
-title = "Martin Fowler on Refactoring @ RubyRogues"
-date = "2014-10-25T00:00:00+05:30"
-tags = ["advice", "code", "programming"]
-draft = false
-+++
+---
+title : "Martin Fowler on Refactoring @ RubyRogues"
+date : "2014-10-25T00:00:00+05:30"
+tags : ["advice", "code", "programming"]
+draft : false
+---
 
 I stumbled on a [Ruby Rogues podcast](http://rubyrogues.com/178-rr-book-club-refactoring-ruby-with-martin-fowler/) yesterday, which had [Martin Fowler](http://martinfowlwer.com) as the
 guest.  I really enjoyed the discussion on Refactoring (the noun, the verb and

@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-27"
-date = 2014-08-28T09:51:30-04:00
-tags = ["PIL", "python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-27"
+date : 2014-08-28T09:51:30-04:00
+tags : ["PIL", "python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I spent the whole of yesterday just working on the LED-bot.
 -   Spent some time cleaning up meta-stuff about the project, making it a real

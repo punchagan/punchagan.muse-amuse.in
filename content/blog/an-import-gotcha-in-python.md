@@ -1,9 +1,9 @@
-+++
-title = "An import gotcha in Python"
-date = "2012-08-20T00:00:00+05:30"
-tags = ["python"]
-draft = false
-+++
+---
+title : "An import gotcha in Python"
+date : "2012-08-20T00:00:00+05:30"
+tags : ["python"]
+draft : false
+---
 
 Pankaj and I were stuck with this weird bug recently.  We had
 a class `A` and a subclass `B` and an instance of B, b, was
@@ -62,8 +62,10 @@ for module in sys.modules:
         print module, sys.modules[module]
 ```
 
-    isinstance(b, A) --> False
-    <class 'bar.A'> --> <class 'bar.A'>
-    <class 'baz.bar.B'> --> <class 'baz.bar.B'>
-    baz.bar <module 'baz.bar' from '/tmp/baz/bar.pyc'>
-    bar <module 'bar' from 'bar.pyc'>
+```text
+isinstance(b, A) --> False
+<class 'bar.A'> --> <class 'bar.A'>
+<class 'baz.bar.B'> --> <class 'baz.bar.B'>
+baz.bar <module 'baz.bar' from '/tmp/baz/bar.pyc'>
+bar <module 'bar' from 'bar.pyc'>
+```

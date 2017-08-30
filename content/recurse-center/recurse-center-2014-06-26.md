@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-26"
-date = 2014-06-26T09:30:20-04:00
-tags = ["dtmf", "fft"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-26"
+date : 2014-06-26T09:30:20-04:00
+tags : ["dtmf", "fft"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I played around a little bit with my `emacs` configuration and got `jedi`
     working, with virtualenvs, thanks to `virtualenvwrapper.el`

@@ -1,9 +1,9 @@
-+++
-title = "A couple of counting functions"
-date = "2010-09-17T00:00:00+05:30"
-tags = ["code", "emacs"]
-draft = false
-+++
+---
+title : "A couple of counting functions"
+date : "2010-09-17T00:00:00+05:30"
+tags : ["code", "emacs"]
+draft : false
+---
 
 I had a strict character limit of 180 chars for something I was
 writing. I just wrote a simple function to count characters in a

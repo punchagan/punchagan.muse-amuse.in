@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/10/28]"
-date = "2013-10-28T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/10/28]"
+date : "2013-10-28T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Some misconceptions about Hacker School](http://composition.al/blog/2013/07/31/some-misconceptions-about-hacker-school/)
 

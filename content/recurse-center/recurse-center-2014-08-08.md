@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-08"
-date = 2014-08-09T20:56:22-04:00
-tags = ["chrome", "emacs", "python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-08"
+date : 2014-08-09T20:56:22-04:00
+tags : ["chrome", "emacs", "python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I spent the morning doing some white-boarding interview practice with a Jorge
     and Brian.

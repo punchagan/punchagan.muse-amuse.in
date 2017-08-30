@@ -1,10 +1,10 @@
-+++
-title = "What I liked 2016-07-17"
-date = "2016-07-27T00:00:00+05:30"
-tags = ["blab", "happy", "life"]
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "What I liked 2016-07-17"
+date : "2016-07-27T00:00:00+05:30"
+tags : ["blab", "happy", "life"]
+categories : ["bookmarks"]
+draft : false
+---
 
 [@9](https://twitter.com/cloud9trt) shared this story about [Peter Norman](http://www.filmsforaction.org/articles/the-white-man-in-that-photo/). Woah, so inspirational!
 

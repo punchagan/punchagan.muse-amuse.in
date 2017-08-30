@@ -1,9 +1,9 @@
-+++
-title = "Monikers and the Internet"
-date = "2010-02-27T00:00:00+05:30"
-tags = ["internet", "ology"]
-draft = false
-+++
+---
+title : "Monikers and the Internet"
+date : "2010-02-27T00:00:00+05:30"
+tags : ["internet", "ology"]
+draft : false
+---
 
 Like most bloggers, I keep looking at my blogs hits once in a
 while. (Sometimes inspires to write better; and more often.) The

@@ -1,9 +1,8 @@
-+++
-title = "Bloggerstock: Do-over"
-date = "2010-09-30T00:00:00+05:30"
-tags = []
-draft = false
-+++
+---
+title : "Bloggerstock: Do-over"
+date : "2010-09-30T00:00:00+05:30"
+draft : false
+---
 
 This post is by Dominick Mills, coming to us, thanks to
 Bloggerstock.  Dominick aka Lije blogs at Lije's Mindstate.  My post

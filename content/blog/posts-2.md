@@ -1,9 +1,9 @@
-+++
-title = "Posts.. 2"
-date = "2007-07-26T00:00:00+05:30"
-tags = ["blab", "posts"]
-draft = false
-+++
+---
+title : "Posts.. 2"
+date : "2007-07-26T00:00:00+05:30"
+tags : ["blab", "posts"]
+draft : false
+---
 
 These days my strolls, in the blog-o-sphere, have grown manifold
 both in their numbers and lengths. And with every passing

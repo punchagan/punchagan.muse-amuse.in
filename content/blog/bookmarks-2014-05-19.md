@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2014/05/19]"
-date = "2014-05-19T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2014/05/19]"
+date : "2014-05-19T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [The Meaning of Life | Derek Sivers](http://sivers.org/ml)
 

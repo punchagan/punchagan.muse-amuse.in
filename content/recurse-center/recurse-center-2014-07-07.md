@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-07"
-date = 2014-07-08T10:07:20-04:00
-tags = ["programming", "python", "thought", "writing"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-07"
+date : 2014-07-08T10:07:20-04:00
+tags : ["programming", "python", "thought", "writing"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   As preparation for a one-on-one this week with one of the facilitators, I was
     wondering if I was really getting better as a programmer, by doing what I am

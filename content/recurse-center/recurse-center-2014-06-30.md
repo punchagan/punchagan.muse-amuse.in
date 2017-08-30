@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-30"
-date = 2014-07-01T18:42:48-04:00
-tags = ["ios", "pairing"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-30"
+date : 2014-07-01T18:42:48-04:00
+tags : ["ios", "pairing"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   During the weekend, I read up a lot about HMMs and related stuff.
 -   During the day, I tried to start writing code for different parts of the

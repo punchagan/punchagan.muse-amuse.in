@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-25"
-date = 2014-06-25T09:51:07-04:00
-tags = ["fft", "goals", "life"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-25"
+date : 2014-06-25T09:51:07-04:00
+tags : ["fft", "goals", "life"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I like how some of the people here are taking check-ins so seriously.  A
     bunch of people posted messages on Zulip, informing that they would not be

@@ -1,9 +1,9 @@
-+++
-title = "One Hundred"
-date = "2010-08-17T00:00:00+05:30"
-tags = ["note", "thanks"]
-draft = false
-+++
+---
+title : "One Hundred"
+date : "2010-08-17T00:00:00+05:30"
+tags : ["note", "thanks"]
+draft : false
+---
 
 The previous post, was the **One Hundredth** post on this blog. As 9
 suggested, I just want to say Yay! and thank my readers!

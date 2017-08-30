@@ -1,9 +1,9 @@
-+++
-title = "Is Disney buying MIT??"
-date = "2006-10-25T00:00:00+05:30"
-tags = ["blab", "hack", "ology"]
-draft = false
-+++
+---
+title : "Is Disney buying MIT??"
+date : "2006-10-25T00:00:00+05:30"
+tags : ["blab", "hack", "ology"]
+draft : false
+---
 
 {{<figure src="//hacks.mit.edu/Hacks/by_year/1998/disney_buys_mit/web.hacked.screenshot.medium.gif">}}
 

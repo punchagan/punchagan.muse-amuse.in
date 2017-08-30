@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-11"
-date = 2014-07-13T19:09:29-04:00
-tags = ["python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-11"
+date : 2014-07-13T19:09:29-04:00
+tags : ["python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I didn't spend much time at Hacker School on Friday.  I reached a bit late
     for the start of "Recursion day", and did a few problems.  The problems were

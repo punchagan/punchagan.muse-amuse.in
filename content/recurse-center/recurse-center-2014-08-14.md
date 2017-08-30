@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-14"
-date = 2014-08-15T18:09:59-04:00
-tags = ["python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-14"
+date : 2014-08-15T18:09:59-04:00
+tags : ["python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I spent the morning cleaning up the "repr" functions of the diff classes, so
     that the diff of functions between two modules can be printed out in a

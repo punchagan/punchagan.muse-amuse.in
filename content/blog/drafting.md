@@ -1,9 +1,9 @@
-+++
-title = "Drafting"
-date = "2010-08-07T00:00:00+05:30"
-tags = ["cycling", "note", "technique"]
-draft = false
-+++
+---
+title : "Drafting"
+date : "2010-08-07T00:00:00+05:30"
+tags : ["cycling", "note", "technique"]
+draft : false
+---
 
 Drafting behind trucks (when cycling) could be a great energy
 saver.  I came across this idea when reading up a blog post by a

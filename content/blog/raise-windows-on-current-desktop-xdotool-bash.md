@@ -1,9 +1,9 @@
-+++
-title = "Raise windows (on current desktop) xdotool & bash"
-date = "2010-11-06T00:00:00+05:30"
-tags = ["code", "hack"]
-draft = false
-+++
+---
+title : "Raise windows (on current desktop) xdotool & bash"
+date : "2010-11-06T00:00:00+05:30"
+tags : ["code", "hack"]
+draft : false
+---
 
 I posted a snippet [^fn:1] of python code that used xdotool to
 raise windows.  I got one patch from dusual [^fn:2] that

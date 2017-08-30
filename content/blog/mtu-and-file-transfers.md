@@ -1,9 +1,9 @@
-+++
-title = "MTU and file transfers"
-date = "2010-12-06T00:00:00+05:30"
-tags = ["ssh"]
-draft = false
-+++
+---
+title : "MTU and file transfers"
+date : "2010-12-06T00:00:00+05:30"
+tags : ["ssh"]
+draft : false
+---
 
 A note to self, but may benefit someone facing a similar problem.
 

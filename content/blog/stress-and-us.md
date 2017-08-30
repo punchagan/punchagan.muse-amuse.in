@@ -1,9 +1,9 @@
-+++
-title = "Stress and us"
-date = "2009-09-25T00:00:00+05:30"
-tags = ["blab", "ology", "stress"]
-draft = false
-+++
+---
+title : "Stress and us"
+date : "2009-09-25T00:00:00+05:30"
+tags : ["blab", "ology", "stress"]
+draft : false
+---
 
 _[Cross-posted on the FOSSEE Blog]_
 

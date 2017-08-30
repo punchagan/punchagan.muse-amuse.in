@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/10/18]"
-date = "2013-10-18T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/10/18]"
+date : "2013-10-18T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [The code documentation fallacy | Jussi's development blog](http://voices.canonical.com/jussi.pakkanen/2012/09/25/the-code-documentation-fallacy/)
 

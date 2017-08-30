@@ -1,9 +1,9 @@
-+++
-title = "To Ananthagiri"
-date = "2011-01-01T00:00:00+05:30"
-tags = ["cycling", "hyderabad", "lafoot"]
-draft = false
-+++
+---
+title : "To Ananthagiri"
+date : "2011-01-01T00:00:00+05:30"
+tags : ["cycling", "hyderabad", "lafoot"]
+draft : false
+---
 
 I had been to Ananthagiri, near Vikarabad for a 2 day ride.  It was
 a fun ride.  Thanks to Atlanta Foundation for renting the cyles.

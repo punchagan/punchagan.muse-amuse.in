@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-19"
-date = 2014-08-20T18:06:53-04:00
-tags = ["python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-19"
+date : 2014-08-20T18:06:53-04:00
+tags : ["python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I spent most of the day working through David Beazly's tutorials on
     generators and coroutines, and it was mind bending.

@@ -1,9 +1,9 @@
-+++
-title = "Gone!"
-date = "2008-02-23T00:00:00+05:30"
-tags = ["blab", "death"]
-draft = false
-+++
+---
+title : "Gone!"
+date : "2008-02-23T00:00:00+05:30"
+tags : ["blab", "death"]
+draft : false
+---
 
 In memory of two gems, Koteshwar Rao Sir and Madhusudhan.
 

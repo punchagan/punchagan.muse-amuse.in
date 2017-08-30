@@ -1,9 +1,9 @@
-+++
-title = "talk at GNUnify' 10"
-date = "2010-02-28T00:00:00+05:30"
-tags = ["image_processing", "ology", "python", "scipy"]
-draft = false
-+++
+---
+title : "talk at GNUnify' 10"
+date : "2010-02-28T00:00:00+05:30"
+tags : ["image-processing", "ology", "python", "scipy"]
+draft : false
+---
 
 Shantanu and I conducted a workshop on Scipy at GNUnify '10. It
 was intended to be an introduction to Scipy and Numpy through

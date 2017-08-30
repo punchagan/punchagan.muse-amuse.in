@@ -1,9 +1,9 @@
-+++
-title = "erc-notifications when Emacs not in focus"
-date = "2014-11-06T00:00:00+05:30"
-tags = ["emacs", "hack"]
-draft = false
-+++
+---
+title : "erc-notifications when Emacs not in focus"
+date : "2014-11-06T00:00:00+05:30"
+tags : ["emacs", "hack"]
+draft : false
+---
 
 I have been trying to get ERC working with notifications. Julien Danjou's
 wonderful [notifications](https://julien.danjou.info/blog/2012/erc-notifications) module for ERC is great, but it is annoying to get

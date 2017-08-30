@@ -1,9 +1,9 @@
-+++
-title = "blog-admin and Nikola"
-date = "2016-05-21T00:00:00+05:30"
-tags = ["blab", "blag", "blog", "emacs", "nikola"]
-draft = false
-+++
+---
+title : "blog-admin and Nikola"
+date : "2016-05-21T00:00:00+05:30"
+tags : ["blab", "blag", "blog", "emacs", "nikola"]
+draft : false
+---
 
 Another post about blogging.
 

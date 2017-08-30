@@ -1,9 +1,9 @@
-+++
-title = "Tedium in work-flows"
-date = "2016-05-19T00:00:00+05:30"
-tags = ["blab", "programming", "user_experience", "workflow"]
-draft = false
-+++
+---
+title : "Tedium in work-flows"
+date : "2016-05-19T00:00:00+05:30"
+tags : ["blab", "programming", "user-experience", "workflow"]
+draft : false
+---
 
 I use [Nikola](http://getnikola.com) for generating this blog. When creating a new post, it prompts for
 a title, and creates a file for the post.

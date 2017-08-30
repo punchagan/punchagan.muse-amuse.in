@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2014/11/01]"
-date = "2014-11-01T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2014/11/01]"
+date : "2014-11-01T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [50 Ways To Love Someone | Thought Catalog](http://thoughtcatalog.com/brianna-wiest/2013/04/50-ways-to-love-someone/)
 

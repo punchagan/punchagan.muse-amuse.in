@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-23"
-date = 2014-06-23T04:38:29-04:00
-tags = ["conference", "git", "principle"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-23"
+date : 2014-06-23T04:38:29-04:00
+tags : ["conference", "git", "principle"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   The Apprenticeship patterns book is very interesting!  I shall
     continue to read it and start create daily/weekly rituals from the

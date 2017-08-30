@@ -1,9 +1,9 @@
-+++
-title = "CET-ting their Lives??!!"
-date = "2007-05-18T00:00:00+05:30"
-tags = ["blab", "hyderabad"]
-draft = false
-+++
+---
+title : "CET-ting their Lives??!!"
+date : "2007-05-18T00:00:00+05:30"
+tags : ["blab", "hyderabad"]
+draft : false
+---
 
 Phew! I'm back home after one of my worst semesters so far. [there
 have been only 4 upto now!! :P] {Also, not one of the better ones
@@ -76,6 +76,8 @@ enough....]
 > Every time you wake up and ask yourself, What good things am I
 > going to do today? Remember that when the sun goes down at sunset
 > it will take a part of your life with it -- Douglas Adams
+
+<!--quoteend-->
 
 > Adapt yourself to the things among which your lot has been cast
 > and love sincerely the fellow creatures with whom destiny has

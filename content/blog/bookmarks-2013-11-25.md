@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/11/25]"
-date = "2013-11-25T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/11/25]"
+date : "2013-11-25T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [The Math Trick Behind MP3s, JPEGs, and Homer Simpson’s Face - Facts So Romantic - Nautilus](http://nautil.us/blog/the-math-trick-behind-mp3s-jpegs-and-homer-simpsons-face)
 

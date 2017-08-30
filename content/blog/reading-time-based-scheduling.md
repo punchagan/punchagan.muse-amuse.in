@@ -1,9 +1,9 @@
-+++
-title = "Reading-time based scheduling"
-date = "2016-06-06T00:00:00+05:30"
-tags = ["blag", "hack", "idea", "programming", "reading"]
-draft = false
-+++
+---
+title : "Reading-time based scheduling"
+date : "2016-06-06T00:00:00+05:30"
+tags : ["blag", "hack", "idea", "programming", "reading"]
+draft : false
+---
 
 I had posted a link to an poem written on Medium on a Slack channel that I use
 with friends.  A friend said that she liked the fact that the Slack article

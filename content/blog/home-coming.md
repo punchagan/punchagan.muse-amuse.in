@@ -1,9 +1,9 @@
-+++
-title = "Home Coming!"
-date = "2008-05-15T00:00:00+05:30"
-tags = ["blab", "lafootgiri", "python"]
-draft = false
-+++
+---
+title : "Home Coming!"
+date : "2008-05-15T00:00:00+05:30"
+tags : ["blab", "lafootgiri", "python"]
+draft : false
+---
 
 I'll be on board the Amaravathi Express in less than three hours
 from now! Bags packed, I'm waiting for the sun to rise, the World

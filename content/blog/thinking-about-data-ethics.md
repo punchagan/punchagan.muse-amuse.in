@@ -1,9 +1,9 @@
-+++
-title = "Thinking about Data Ethics"
-date = "2016-05-25T00:00:00+05:30"
-tags = ["blab", "blag", "data", "ethics", "programming"]
-draft = false
-+++
+---
+title : "Thinking about Data Ethics"
+date : "2016-05-25T00:00:00+05:30"
+tags : ["blab", "blag", "data", "ethics", "programming"]
+draft : false
+---
 
 Earlier this month, a researcher made a dataset containing the profiles of about
 70,000 users public. He didn't really see a problem in doing this because he

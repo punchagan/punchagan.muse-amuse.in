@@ -1,9 +1,9 @@
-+++
-title = "Learning about Spaced Repetition, SuperMemo, Org-drill, et al."
-date = "2014-10-24T00:00:00+05:30"
-tags = ["learning", "life", "memory", "software"]
-draft = false
-+++
+---
+title : "Learning about Spaced Repetition, SuperMemo, Org-drill, et al."
+date : "2014-10-24T00:00:00+05:30"
+tags : ["learning", "life", "memory", "software"]
+draft : false
+---
 
 I have been reading a bunch of articles on the SuperMemo site (including the
 [original thesis](http://www.supermemo.com/english/ol.htm) of P. A. Wozniack, the creator of SuperMemo).  I initially

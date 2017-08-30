@@ -1,9 +1,9 @@
-+++
-title = "Git powered wikis improved: My bit"
-date = "2011-02-04T00:00:00+05:30"
-tags = ["code", "contribute", "emacs", "foss", "git", "orgmode"]
-draft = false
-+++
+---
+title : "Git powered wikis improved: My bit"
+date : "2011-02-04T00:00:00+05:30"
+tags : ["code", "contribute", "emacs", "foss", "git", "orgmode"]
+draft : false
+---
 
 I accidentally came across the blog-post Git-powered wikis
 improved - GitHub. And this particular paragraph caught my

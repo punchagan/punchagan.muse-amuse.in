@@ -1,9 +1,9 @@
-+++
-title = "A Song for a Chum..."
-date = "2007-04-25T00:00:00+05:30"
-tags = ["blab", "song"]
-draft = false
-+++
+---
+title : "A Song for a Chum..."
+date : "2007-04-25T00:00:00+05:30"
+tags : ["blab", "song"]
+draft : false
+---
 
 I just put this song here... for
 
@@ -13,7 +13,6 @@ I just put this song here... for
 4.  I've heard to this song.. N times last night..
 5.  and for a Dear Friend of mine... .....
 
-<p class="verse">
 Pray for me brother<br />
 Pray for me brother<br />
 Pray for me sister<br />
@@ -72,7 +71,6 @@ We need to coming together just to win this race<br />
 Need to be feeling the power, need to be feeling the faith<br />
 We need to coming together just to win this race (twice)<br />
 Are you searching for a reason to be kind ?<br />
-</p>
 
 -- Pray For Me Brother (2007)
 Composed by A.R.Rahman

@@ -1,11 +1,11 @@
-+++
-title = "Simple org-clock and gnome/pidgin integration"
-date = 2014-10-22T16:43:35-04:00
-tags = ["code", "emacs", "orgmode"]
-draft = false
-+++
+---
+title : "Simple org-clock and gnome/pidgin integration"
+date : 2014-10-22T16:43:35-04:00
+tags : ["code", "emacs", "orgmode"]
+draft : false
+---
 
-**See update [below](#org885d845)**
+**See update [below](#orge999abb)**
 
 I have been trying to get back to using org-mode and its clocking
 functionality, more often than not.  I used to use it a lot, a few years ago,

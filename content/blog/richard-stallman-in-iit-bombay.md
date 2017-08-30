@@ -1,9 +1,9 @@
-+++
-title = "Richard Stallman in IIT-Bombay"
-date = "2010-09-01T00:00:00+05:30"
-tags = ["rms", "software"]
-draft = false
-+++
+---
+title : "Richard Stallman in IIT-Bombay"
+date : "2010-09-01T00:00:00+05:30"
+tags : ["rms", "software"]
+draft : false
+---
 
 RMS will be in IIT-Bombay on the 6th of this month. He will "speak
 about the goals and philosophy of the Free Software Movement, and

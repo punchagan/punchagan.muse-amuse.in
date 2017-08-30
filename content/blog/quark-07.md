@@ -1,9 +1,9 @@
-+++
-title = "Quark 07"
-date = "2007-03-05T00:00:00+05:30"
-tags = ["fest", "ology", "quark"]
-draft = false
-+++
+---
+title : "Quark 07"
+date : "2007-03-05T00:00:00+05:30"
+tags : ["fest", "ology", "quark"]
+draft : false
+---
 
 This post is to promote QUARK'07... This post is here... little
 due to my desire.. and almost totally bcos somebody [the ppl here

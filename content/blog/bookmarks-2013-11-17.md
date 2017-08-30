@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/11/17]"
-date = "2013-11-17T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/11/17]"
+date : "2013-11-17T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [You are NOT a Software Engineer!   Chris Aitchison](http://www.chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/)
 

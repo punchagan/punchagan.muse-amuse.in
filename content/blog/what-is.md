@@ -1,11 +1,10 @@
-+++
-title = "What is... ?"
-date = "2008-07-11T00:00:00+05:30"
-tags = ["blab", "life", "poem"]
-draft = false
-+++
+---
+title : "What is... ?"
+date : "2008-07-11T00:00:00+05:30"
+tags : ["blab", "life", "poem"]
+draft : false
+---
 
-<p class="verse">
 This is a free world,<br />
 you are free to will and whim,<br />
 can it, at the cost of,<br />
@@ -42,4 +41,3 @@ How else would war, uncalled for<br />
 bring about world peace?<br />
 <br />
 I want my piece is all I hear.<br />
-</p>

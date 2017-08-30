@@ -1,10 +1,10 @@
-+++
-title = "What I liked 2016-07-03"
-date = "2016-07-27T00:00:00+05:30"
-tags = ["blab", "happy", "life"]
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "What I liked 2016-07-03"
+date : "2016-07-27T00:00:00+05:30"
+tags : ["blab", "happy", "life"]
+categories : ["bookmarks"]
+draft : false
+---
 
 I really enjoyed reading the [full judgement](http://muse-amuse.in/~punchagan/317574828-Perumal-Judgment.pdf) given by the Madras High Court in
 the Perumal Murugan case.  The court said something [on the lines of](http://scroll.in/article/811211/the-right-to-write-key-bits-from-the-judgment-that-brings-author-perumal-murugan-back-from-the-dead): not all

@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/12/04]"
-date = "2013-12-04T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/12/04]"
+date : "2013-12-04T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Bringing a dream to life - The Von Wong](http://www.vonwong.com/blog/bringing-a-dream-to-life/)
 

@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-23"
-date = 2014-07-23T10:51:51-04:00
-tags = ["python", "raspberry_pi"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-23"
+date : 2014-07-23T10:51:51-04:00
+tags : ["python", "raspberry-pi"]
+categories : ["recursecenter"]
+draft : false
+---
 
 ## Shairplay and WS2801 {#shairplay-and-ws2801}
 

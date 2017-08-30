@@ -1,11 +1,10 @@
-+++
-title = "Hand in Glove"
-date = "2011-05-20T00:00:00+05:30"
-tags = ["life", "love", "me", "poem"]
-draft = false
-+++
+---
+title : "Hand in Glove"
+date : "2011-05-20T00:00:00+05:30"
+tags : ["life", "love", "me", "poem"]
+draft : false
+---
 
-<p class="verse">
 the time, together spent,<br />
 the memories cherished,<br />
 all the love, concern and care<br />
@@ -25,7 +24,6 @@ may you, in all that we shared<br />
 find strength to go on, if en-route<br />
 our paths diverged; you may have to wait,<br />
 but you shall see me, on the other side!<br />
-</p>
 
 ---
 

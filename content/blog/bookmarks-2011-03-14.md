@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2011/03/14]"
-date = "2011-03-14T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2011/03/14]"
+date : "2011-03-14T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Your Code Sucks - Girl Developer](http://www.girldeveloper.com/2010/07/your-code-sucks.html)
 
@@ -12,6 +11,8 @@ draft = false
 
     the only person's code that sucks is my own, and the reason why it
     sucks is I just haven't learned how to make it better yet.
+
+<!--listend-->
 
 -   [How I lost my faith (very long) - comp.lang.lisp | Google Groups](http://groups.google.com/group/comp.lang.lisp/msg/6f75cfb5a289d3f6?pli=1)
 
@@ -28,6 +29,8 @@ draft = false
     Lisp.  For example, my language of choice for doing Web development
     now is Python.
 
+<!--listend-->
+
 -   [SuperCollider - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/SuperCollider)
 
     tags: algorithms, programming, research
@@ -35,6 +38,8 @@ draft = false
     an efficient and expressive dynamic programming language which makes
     it an interesting framework for acoustic research, algorithmic music
     and interactive programming.
+
+<!--listend-->
 
 -   [Those Gray Beard Hackers And Their Tall Stories | jacquesmattheij.com](http://jacquesmattheij.com/Those+Gray+Beard+Hackers+And+Their+Tall+Stories)
 
@@ -51,6 +56,8 @@ draft = false
 
     Creativity knows no limits in a restricted environment. But
     productivity does.
+
+<!--listend-->
 
 -   [Free software is what we humans are talking more about — Free Software Foundation — working together for free software](http://www.fsf.org/blogs/community/peterb)
 

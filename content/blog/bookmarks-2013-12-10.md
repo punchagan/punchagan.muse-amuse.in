@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/12/10]"
-date = "2013-12-10T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/12/10]"
+date : "2013-12-10T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [The Mental Glitch That Makes Us Throw Good Money After Bad - Facts So Romantic - Nautilus](http://nautil.us/blog/the-mental-glitch-that-makes-us-throw-good-money-after-bad?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication)
 

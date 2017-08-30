@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-26"
-date = 2014-08-27T10:23:27-04:00
-tags = ["python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-26"
+date : 2014-08-27T10:23:27-04:00
+tags : ["python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I spent most of the day refactoring the code for the LED Bot, and am happy
     with the way it looks right now.

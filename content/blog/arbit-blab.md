@@ -1,9 +1,9 @@
-+++
-title = "arbit blab"
-date = "2008-11-26T00:00:00+05:30"
-tags = ["blab", "lafootgiri", "life"]
-draft = false
-+++
+---
+title : "arbit blab"
+date : "2008-11-26T00:00:00+05:30"
+tags : ["blab", "lafootgiri", "life"]
+draft : false
+---
 
 Well, just another post to make it clear that
 

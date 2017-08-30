@@ -1,9 +1,9 @@
-+++
-title = "Non-e-Moments??!!"
-date = "2007-04-13T00:00:00+05:30"
-tags = ["blab", "life", "ology"]
-draft = false
-+++
+---
+title : "Non-e-Moments??!!"
+date : "2007-04-13T00:00:00+05:30"
+tags : ["blab", "life", "ology"]
+draft : false
+---
 
 A few days back.. we [the usual gang of Ringo,9,UC,Vudum n
 me.. along with a lot of others who joined us later] were in the

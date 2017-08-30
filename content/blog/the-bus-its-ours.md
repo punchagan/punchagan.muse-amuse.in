@@ -1,9 +1,9 @@
-+++
-title = "The Bus, its Ours!"
-date = "2008-06-11T00:00:00+05:30"
-tags = ["blab", "hyderabad"]
-draft = false
-+++
+---
+title : "The Bus, its Ours!"
+date : "2008-06-11T00:00:00+05:30"
+tags : ["blab", "hyderabad"]
+draft : false
+---
 
 I hadn't been much in the City for the past three years. I've had
 a little trouble recollecting the exact routes and corresponding

@@ -1,9 +1,9 @@
-+++
-title = "org/elisp - sorting list of org-links on description"
-date = "2010-08-20T00:00:00+05:30"
-tags = ["code", "emacs", "note", "orgmode"]
-draft = false
-+++
+---
+title : "org/elisp - sorting list of org-links on description"
+date : "2010-08-20T00:00:00+05:30"
+tags : ["code", "emacs", "note", "orgmode"]
+draft : false
+---
 
 A small utility function that I used to sort the names of people
 who commented on my blog.

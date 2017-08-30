@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-29"
-date = 2014-07-29T11:20:24-04:00
-tags = ["C", "hack", "raspberry_pi"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-29"
+date : 2014-07-29T11:20:24-04:00
+tags : ["C", "hack", "raspberry-pi"]
+categories : ["recursecenter"]
+draft : false
+---
 
 ## Hacking: learning by breaking stuff {#hacking-learning-by-breaking-stuff}
 

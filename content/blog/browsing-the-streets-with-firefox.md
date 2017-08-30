@@ -1,9 +1,9 @@
-+++
-title = "Browsing the streets with Firefox"
-date = "2012-09-02T00:00:00+05:30"
-tags = ["bicycling", "fun"]
-draft = false
-+++
+---
+title : "Browsing the streets with Firefox"
+date : "2012-09-02T00:00:00+05:30"
+tags : ["bicycling", "fun"]
+draft : false
+---
 
 I bought a new bike, about a month ago, and today was the first
 longish ride on it.  Well, longish compared to my ~1.5km rides to

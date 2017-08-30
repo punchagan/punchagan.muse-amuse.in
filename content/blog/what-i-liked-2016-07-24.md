@@ -1,10 +1,10 @@
-+++
-title = "What I liked 2016-07-24"
-date = "2016-07-31T00:00:00+05:30"
-tags = ["blab", "happy", "life"]
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "What I liked 2016-07-24"
+date : "2016-07-31T00:00:00+05:30"
+tags : ["blab", "happy", "life"]
+categories : ["bookmarks"]
+draft : false
+---
 
 This week was relatively quiet for me.  But, here's what I liked, mostly from
 my twitter timeline.  If you follow me on twitter, there may not be anything

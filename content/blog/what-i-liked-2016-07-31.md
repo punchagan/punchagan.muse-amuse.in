@@ -1,10 +1,10 @@
-+++
-title = "What I liked 2016-07-31"
-date = "2016-08-08T00:00:00+05:30"
-tags = ["blab", "blag", "happy", "life"]
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "What I liked 2016-07-31"
+date : "2016-08-08T00:00:00+05:30"
+tags : ["blab", "blag", "happy", "life"]
+categories : ["bookmarks"]
+draft : false
+---
 
 Lots of Olympics stuff this week!
 

@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-21"
-date = 2014-08-22T10:33:34-04:00
-tags = ["jobs", "python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-21"
+date : 2014-08-22T10:33:34-04:00
+tags : ["jobs", "python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I added an additional view to xtab, to see all the pages that were killed,
     and reopen them, if you so choose.

@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-20"
-date = 2014-06-20T08:58:40-04:00
-tags = ["haskell", "jobs", "oauth"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-20"
+date : 2014-06-20T08:58:40-04:00
+tags : ["haskell", "jobs", "oauth"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Fridays are optional in Hacker School, and people are given help
     with preparation for job interviews.

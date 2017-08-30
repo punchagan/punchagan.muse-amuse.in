@@ -1,9 +1,9 @@
-+++
-title = "PyCon India 2016 - Propose a talk"
-date = "2016-05-31T00:00:00+05:30"
-tags = ["advice", "blab", "blag", "conference", "pycon", "talks"]
-draft = false
-+++
+---
+title : "PyCon India 2016 - Propose a talk"
+date : "2016-05-31T00:00:00+05:30"
+tags : ["advice", "blab", "blag", "conference", "pycon", "talks"]
+draft : false
+---
 
 CFP for PyCon 2016 is [open](https://in.pycon.org/cfp/2016/proposals/) and you should propose a talk!
 

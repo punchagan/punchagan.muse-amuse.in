@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2011/05/06]"
-date = "2011-05-06T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2011/05/06]"
+date : "2011-05-06T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Wuv « Oculus](http://daddysan.wordpress.com/2011/04/24/wuv/#)
 
@@ -12,17 +11,23 @@ draft = false
 
     We wuv that you wuv us. We wuv that you wuv. We wuv you too.
 
+<!--listend-->
+
 -   [How I Turned Down $300,000 from Microsoft to go Full-Time on GitHub](http://tom.preston-werner.com/2008/10/18/how-i-turned-down-300k)
 
     tags: life, github, adventure, money, work, startup
 
     When I’m old and dying, I plan to look back on my life and say “wow, that was an adventure,” not “wow, I sure felt safe.”
 
+<!--listend-->
+
 -   [The last post - Penmachine - Derek K. Miller](http://www.penmachine.com/2011/05/the-last-post)
 
     tags: life, death, love, advice
 
     pursue what they enjoy, and what stimulates their minds, as much as possible—so they can be ready for opportunities, as well as not disappointed when things go sideways, as they inevitably do.
+
+<!--listend-->
 
 -   [The story of George — ayttm's most prolific non-developing contributor](http://tech.bluesmoon.info/2011/05/story-of-george-ayttms-most-prolific.html)
 

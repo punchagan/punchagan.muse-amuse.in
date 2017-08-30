@@ -1,9 +1,9 @@
-+++
-title = "Playing music using mpsyt from Emacs"
-date = "2015-04-20T00:00:00+05:30"
-tags = ["blag", "emacs", "mpsyt", "python"]
-draft = false
-+++
+---
+title : "Playing music using mpsyt from Emacs"
+date : "2015-04-20T00:00:00+05:30"
+tags : ["blag", "emacs", "mpsyt", "python"]
+draft : false
+---
 
 I've started using the wonderful [mpsyt](https://github.com/np1/mps-youtube/) to play any music from youtube, since
 I'm not really interested in the video.  But, since I use emacs for chat/IRC, I

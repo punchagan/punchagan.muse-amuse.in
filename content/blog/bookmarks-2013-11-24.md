@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/11/24]"
-date = "2013-11-24T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/11/24]"
+date : "2013-11-24T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Circuit Scribe: Draw Circuits Instantly by Electroninks Incorporated — Kickstarter](http://www.kickstarter.com/projects/electroninks/circuit-scribe-draw-circuits-instantly)
 

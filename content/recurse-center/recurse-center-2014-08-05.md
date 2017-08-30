@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-05"
-date = 2014-08-05T23:44:33-04:00
-tags = ["nikola", "raspberry_pi"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-05"
+date : 2014-08-05T23:44:33-04:00
+tags : ["nikola", "raspberry-pi"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Spent a couple of hours in the morning, trying to revive a html template for
     blaggregator, that I missed out on committing previously, and wiped out due

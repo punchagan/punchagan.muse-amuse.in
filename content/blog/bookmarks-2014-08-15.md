@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2014/08/15]"
-date = 2014-08-15T22:07:28-04:00
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2014/08/15]"
+date : 2014-08-15T22:07:28-04:00
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Code is not literature](http://www.gigamonkeys.com/code-reading/)
 

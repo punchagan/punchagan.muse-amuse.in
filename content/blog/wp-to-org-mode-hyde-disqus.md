@@ -1,9 +1,9 @@
-+++
-title = "WP to org-mode + hyde + disqus"
-date = "2010-10-22T00:00:00+05:30"
-tags = ["orgmode", "wordpress"]
-draft = false
-+++
+---
+title : "WP to org-mode + hyde + disqus"
+date : "2010-10-22T00:00:00+05:30"
+tags : ["orgmode", "wordpress"]
+draft : false
+---
 
 Hello World!
 
@@ -139,5 +139,4 @@ blogging habits.
 [^fn:5]: Disqus - Homepage
 [^fn:6]: Github - Jekyll
 [^fn:7]: Documentation - Django Templates
-[^fn:8]: I feel it is capable of doing that.  It's just my
-incapability that prevented me from trying it out.
+[^fn:8]: I feel it is capable of doing that. It's just my incapability that prevented me from trying it out.

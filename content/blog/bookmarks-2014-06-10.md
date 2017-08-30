@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2014/06/10]"
-date = "2014-06-10T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2014/06/10]"
+date : "2014-06-10T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Marss86](http://marss86.org/~marss86/index.php/Home)
 

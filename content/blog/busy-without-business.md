@@ -1,9 +1,9 @@
-+++
-title = "Busy without Business..."
-date = "2007-06-30T00:00:00+05:30"
-tags = ["blab", "freedom", "ps"]
-draft = false
-+++
+---
+title : "Busy without Business..."
+date : "2007-06-30T00:00:00+05:30"
+tags : ["blab", "freedom", "ps"]
+draft : false
+---
 
 Yes, that's what my PS's been like.. It hasn't turned out to be as
 great a learning experience as one would imagine it to be..  [or

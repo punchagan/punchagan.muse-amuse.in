@@ -1,9 +1,9 @@
-+++
-title = "Happy Teachers' Day!"
-date = "2010-09-05T00:00:00+05:30"
-tags = ["note"]
-draft = false
-+++
+---
+title : "Happy Teachers' Day!"
+date : "2010-09-05T00:00:00+05:30"
+tags : ["note"]
+draft : false
+---
 
 Well, it turned out to be not so Happy. I came to know of this
 sad news. A prof published his students' work as his own, with

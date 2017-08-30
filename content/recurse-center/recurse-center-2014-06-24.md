@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-24"
-date = 2014-06-24T09:44:34-04:00
-tags = ["crypto", "pandas"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-24"
+date : 2014-06-24T09:44:34-04:00
+tags : ["crypto", "pandas"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I worked for the whole day on implementing [an algorithm](http://www.tandfonline.com/doi/abs/10.1080/0161-119591883944) to analyze a
     cipher text, and guess the substitution cipher used.  The algorithm
@@ -28,8 +28,8 @@ draft = false
     could have been totally sure that it works!  (I was manually reading
     off values in the array, and probably messed up somewhere)
 
-    FWIW, the code now reads `_D['a'], D_['b'] = D_['b'].copy(),
-      D_['a'].copy()`
+    FWIW, the code now reads <kbd>_D['a'], D_['b'] = D_['b'].copy(),
+      D_['a'].copy()</kbd>
 -   The algo seems to need about 1000 characters to get past the 90%
     accuracy mark.  I could probably tweak it a little to perform
     better, but I'm going to leave it here, for now, and move on to the

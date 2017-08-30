@@ -1,11 +1,10 @@
-+++
-title = "Who I am"
-date = "2010-10-04T00:00:00+05:30"
-tags = ["blab", "life", "poem"]
-draft = false
-+++
+---
+title : "Who I am"
+date : "2010-10-04T00:00:00+05:30"
+tags : ["blab", "life", "poem"]
+draft : false
+---
 
-<p class="verse">
 I'm not the body that dies<br />
 on missing a beat or one breath.<br />
 I'm not the mind, so fickle,<br />
@@ -28,4 +27,3 @@ and all of it that I spread.<br />
 <br />
 Don't cry, when I die,<br />
 for I never really will.<br />
-</p>

@@ -1,11 +1,10 @@
-+++
-title = "I wish a Wish."
-date = "2008-07-12T00:00:00+05:30"
-tags = ["birthday", "blab", "poem"]
-draft = false
-+++
+---
+title : "I wish a Wish."
+date : "2008-07-12T00:00:00+05:30"
+tags : ["birthday", "blab", "poem"]
+draft : false
+---
 
-<p class="verse">
 On a day, Wonderful,<br />
 'm filled with emotion<br />
 inexpressible<br />
@@ -31,7 +30,6 @@ silence, I choose,<br />
 for, it speaks louder than words.<br />
 I just say,<br />
 Happy Birthday, mate.<br />
-</p>
 
 ---
 

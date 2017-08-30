@@ -1,10 +1,9 @@
-+++
-title = "Recurse Center, 2014-08-25"
-date = 2014-08-26T10:21:07-04:00
-tags = []
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-25"
+date : 2014-08-26T10:21:07-04:00
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I spent some time cleaning up my [gitqus](https://github.com/punchagan/crumb) code.  I plan to try it out on a
     "real site" today, and do a little polish of the UI.

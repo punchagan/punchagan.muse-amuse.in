@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-17"
-date = 2014-08-18T21:59:07-04:00
-tags = ["python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-17"
+date : 2014-08-18T21:59:07-04:00
+tags : ["python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 ## Friday {#friday}
 

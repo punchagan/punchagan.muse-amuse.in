@@ -1,9 +1,9 @@
-+++
-title = "Elfeed hook to fetch full content"
-date = "2015-12-19T00:00:00+05:30"
-tags = ["blag", "elfeed", "emacs", "hack", "pinboard"]
-draft = false
-+++
+---
+title : "Elfeed hook to fetch full content"
+date : "2015-12-19T00:00:00+05:30"
+tags : ["blag", "elfeed", "emacs", "hack", "pinboard"]
+draft : false
+---
 
 I have started to use [Pinboard](http://pinboard.in)'s `unread` tag as my to-read list.  It has a
 bookmark-let that works pretty well for adding stuff into my "to-read" list.  I

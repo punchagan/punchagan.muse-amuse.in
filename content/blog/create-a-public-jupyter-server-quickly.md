@@ -1,9 +1,9 @@
-+++
-title = "Create a Public Jupyter Server, quickly!"
-date = "2016-08-25T00:00:00+05:30"
-tags = ["blag", "hack", "ipython", "python"]
-draft = false
-+++
+---
+title : "Create a Public Jupyter Server, quickly!"
+date : "2016-08-25T00:00:00+05:30"
+tags : ["blag", "hack", "ipython", "python"]
+draft : false
+---
 
 I create public Jupyter notebooks once in a while, to collaborate with a
 friend, or to make it easier for myself to work with data on a remote machine.

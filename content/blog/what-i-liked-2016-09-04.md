@@ -1,10 +1,10 @@
-+++
-title = "What I liked 2016-09-04"
-date = "2016-09-12T00:00:00+05:30"
-tags = ["blab", "blag", "happy", "life"]
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "What I liked 2016-09-04"
+date : "2016-09-12T00:00:00+05:30"
+tags : ["blab", "blag", "happy", "life"]
+categories : ["bookmarks"]
+draft : false
+---
 
 This week was a busy one, and I didn't really consume too much web content.
 

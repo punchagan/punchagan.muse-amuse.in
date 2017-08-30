@@ -1,9 +1,9 @@
-+++
-title = "A GNU and a friend"
-date = "2010-09-07T00:00:00+05:30"
-tags = ["blab", "ology"]
-draft = false
-+++
+---
+title : "A GNU and a friend"
+date : "2010-09-07T00:00:00+05:30"
+tags : ["blab", "ology"]
+draft : false
+---
 
 I now have a GNU! I bought it (a GNU soft toy) in memory of my friend
 swathanthran from #emacs-in.  RIP swathanthran

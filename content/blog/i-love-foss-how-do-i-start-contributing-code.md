@@ -1,10 +1,10 @@
-+++
-title = "I love FOSS.  How do I start contributing (code)?"
-date = "2011-03-28T00:00:00+05:30"
-tags = ["contribute", "foss", "howto", "newbie"]
-draft = false
-best = true
-+++
+---
+title : "I love FOSS.  How do I start contributing (code)?"
+date : "2011-03-28T00:00:00+05:30"
+tags : ["contribute", "foss", "howto", "newbie"]
+draft : false
+best : true
+---
 
 ## Why this article? {#why-this-article}
 
@@ -152,43 +152,14 @@ For more, read How to Become a Hacker by Eric Raymond.
 Happy Hacking!
 
 [^fn:1]: I'm writing in the Indian context.
-[^fn:2]: All of this is generic advice, but students applying to programs like
-GSoC, may find it useful.
+[^fn:2]: All of this is generic advice, but students applying to programs like GSoC, may find it useful.
 [^fn:3]: Teach Yourself Programming in Ten Years by Peter Norvig.
-[^fn:4]: Getting yourself a GitHub account and _socializing_ there is a lot
-of fun and helps quite a bit.  GitHub is my Facebook!
-[^fn:5]: I started learning Python from _the Python tutorial_ and some other
-sources and doing the examples in them.  It was good, but I think I started
-learning more, and better, when I started solving problems from Project Euler.
-And writing an IRC bot in Python, taught me a lot more than all of this.
-[^fn:6]: I recommend Python, but I am definitely biased.  Any language that
-is generic enough would do, really.
-
-1.  It gets you off the blocks, very quickly.
-2.  It is easy to learn.
-3.  It is batteries included. Read as, comes bundled with a huge bunch of
-    libraries.
-4.  It is general purpose enough. Read as, it has libraries that let you do
-    anything, you'd possibly want to do.
-5.  There's a lot of Python code around, that you can read andlearn from.
-[^fn:7]: You may have to learn to use a version control system; at the very
-least cloning and pulling updates.
-[^fn:8]: Org-mode is the only project that I really contribute to, actively.
-I **really** liked the way the community gels together and the kind of people on
-the list.  There are some really knowledgeable, friendly and helpful people.
-It feels great to be a part of the community.
-[^fn:9]: There have been instances, where it took me half a day to fix
-something, that would've been fixed in about an hour by someone more
-comfortable with the code.  But, I think everybody goes through this stage.
-This is how you learn.
-[^fn:10]: A few months ago, I was part of a sprint on the numpy-scipy
-eco-system.  We had somewhere around 50 patches (a lot of them were
-documentation fixes) submitted to all the projects!  Most of the people were
-submitting their first patch and I think it was a great opportunity for them to
-start.  [I should try and get back to them.]
-[^fn:11]: Org-mode is really awesome, and I use it for everything I write.  Blog
-posts are a big part of what I write, and so, I wanted to write them in
-orgmode.  And so, org2blog was born.
-[^fn:12]: I recently wrote a Chrome extension, thanks to a friend's idea.
-Inspired by Gmail notifications, a GitHub addict wanted notifications for
-activity in GitHub.
+[^fn:4]: Getting yourself a GitHub account and _socializing_ there is a lot of fun and helps quite a bit. GitHub is my Facebook!
+[^fn:5]: I started learning Python from _the Python tutorial_ and some other sources and doing the examples in them. It was good, but I think I started learning more, and better, when I started solving problems from Project Euler. And writing an IRC bot in Python, taught me a lot more than all of this.
+[^fn:6]: I recommend Python, but I am definitely biased. Any language that is generic enough would do, really. 1. It gets you off the blocks, very quickly. 2. It is easy to learn. 3. It is batteries included. Read as, comes bundled with a huge bunch of libraries. 4. It is general purpose enough. Read as, it has libraries that let you do anything, you'd possibly want to do. 5. There's a lot of Python code around, that you can read andlearn from.
+[^fn:7]: You may have to learn to use a version control system; at the very least cloning and pulling updates.
+[^fn:8]: Org-mode is the only project that I really contribute to, actively. I **really** liked the way the community gels together and the kind of people on the list. There are some really knowledgeable, friendly and helpful people. It feels great to be a part of the community.
+[^fn:9]: There have been instances, where it took me half a day to fix something, that would've been fixed in about an hour by someone more comfortable with the code. But, I think everybody goes through this stage. This is how you learn.
+[^fn:10]: A few months ago, I was part of a sprint on the numpy-scipy eco-system. We had somewhere around 50 patches (a lot of them were documentation fixes) submitted to all the projects! Most of the people were submitting their first patch and I think it was a great opportunity for them to start. [I should try and get back to them.]
+[^fn:11]: Org-mode is really awesome, and I use it for everything I write. Blog posts are a big part of what I write, and so, I wanted to write them in orgmode. And so, org2blog was born.
+[^fn:12]: I recently wrote a Chrome extension, thanks to a friend's idea. Inspired by Gmail notifications, a GitHub addict wanted notifications for activity in GitHub.

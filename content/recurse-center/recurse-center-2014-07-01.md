@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-01"
-date = 2014-07-02T10:04:10-04:00
-tags = ["cpython", "python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-01"
+date : 2014-07-02T10:04:10-04:00
+tags : ["cpython", "python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I happily let myself get distracted from all the math!  I had seen a [tweet](https://twitter.com/ballingt/status/483394809411825665) by
     Tom during the weekend, asking if there was any package that let users

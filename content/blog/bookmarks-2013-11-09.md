@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/11/09]"
-date = "2013-11-09T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/11/09]"
+date : "2013-11-09T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [leftnode/get-shit-done](https://github.com/leftnode/get-shit-done)
 

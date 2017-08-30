@@ -1,9 +1,9 @@
-+++
-title = "Save the Map -- Please respond"
-date = "2016-05-28T00:00:00+05:30"
-tags = ["blag", "india", "legal", "maps"]
-draft = false
-+++
+---
+title : "Save the Map -- Please respond"
+date : "2016-05-28T00:00:00+05:30"
+tags : ["blag", "india", "legal", "maps"]
+draft : false
+---
 
 The Ministry of Home Affairs put out a [draft](http://mha.nic.in/sites/upload_files/mha/files/GeospatialBill_05052016_eve.pdf) and an RFC for a Geo-spatial bill
 

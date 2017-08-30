@@ -1,9 +1,9 @@
-+++
-title = "A \"Free Software\" Hack!!"
-date = "2006-10-10T00:00:00+05:30"
-tags = ["blab", "fsf", "hack", "ology"]
-draft = false
-+++
+---
+title : "A \"Free Software\" Hack!!"
+date : "2006-10-10T00:00:00+05:30"
+tags : ["blab", "fsf", "hack", "ology"]
+draft : false
+---
 
 {{<figure src="../images/freesoftware.hack.jpg">}}
 

@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-08"
-date = 2014-07-09T01:24:07-04:00
-tags = ["python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-08"
+date : 2014-07-09T01:24:07-04:00
+tags : ["python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I had gone to the emacs weekly meetup, and Samer demonstrated some of the
     things he liked, and discovered recently.

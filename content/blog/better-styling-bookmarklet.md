@@ -1,9 +1,9 @@
-+++
-title = "Better styling bookmarklet"
-date = "2016-06-07T00:00:00+05:30"
-tags = ["blag", "hack", "web"]
-draft = false
-+++
+---
+title : "Better styling bookmarklet"
+date : "2016-06-07T00:00:00+05:30"
+tags : ["blag", "hack", "web"]
+draft : false
+---
 
 Some sites that I like a lot for their content, have zero styling on them.
 I find it pretty hard to read when the lines are long and I have to read all

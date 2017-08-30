@@ -1,9 +1,9 @@
-+++
-title = "PyCon India '10"
-date = "2010-08-16T00:00:00+05:30"
-tags = ["conference", "event", "note", "python"]
-draft = false
-+++
+---
+title : "PyCon India '10"
+date : "2010-08-16T00:00:00+05:30"
+tags : ["conference", "event", "note", "python"]
+draft : false
+---
 
 Looks like PyCon India 2010 is going to be great fun!  With 80
 talk submissions, quite a few interesting ones, this time's PyCon

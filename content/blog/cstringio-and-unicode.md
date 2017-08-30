@@ -1,9 +1,9 @@
-+++
-title = "cStringIO and unicode"
-date = "2012-12-03T00:00:00+05:30"
-tags = ["bug", "note", "python"]
-draft = false
-+++
+---
+title : "cStringIO and unicode"
+date : "2012-12-03T00:00:00+05:30"
+tags : ["bug", "note", "python"]
+draft : false
+---
 
 StringIO in the cStringIO module in Python 2.7.2 doesn't handle
 unicode strings properly.  This bug has bitten me on a couple of

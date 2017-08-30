@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2012/04/12]"
-date = "2012-04-12T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2012/04/12]"
+date : "2012-04-12T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [briancarper.net (λ) - Keeping bash history in sync on disk and between multiple terminals](http://briancarper.net/blog/248/)
 
@@ -12,13 +11,19 @@ draft = false
 
     ="history -n; history -a"
 
+<!--listend-->
+
 -   [UnicodeEncoding - PythonInfo Wiki](http://wiki.python.org/moin/UnicodeEncoding)
 
     tags: python, advice, programming, tips
 
+<!--listend-->
+
 -   [Python Unicode Objects](http://effbot.org/zone/unicode-objects.htm)
 
     tags: python, advice, programming, notes
+
+<!--listend-->
 
 -   [Letters of Note: C. S. Lewis on Writing](http://www.lettersofnote.com/2012/04/c-s-lewis-on-writing.html)
 
@@ -31,6 +36,8 @@ draft = false
     when we've read the description. You see, all those words
     (horrifying, wonderful, hideous, exquisite) are only like saying
     to your readers, "Please will you do my job for me."
+
+<!--listend-->
 
 -   [Waking up early, 10 tips that work](http://rodrigohaenggi.com/posts/waking-up-early-10-tips-that-work/)
 

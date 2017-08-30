@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/11/29]"
-date = "2013-11-29T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/11/29]"
+date : "2013-11-29T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [For Billions of People, “Wasting Time” Makes Little Sense - Facts So Romantic - Nautilus](http://nautil.us/blog/for-billions-of-people-wasting-time-makes-little-sense)
 

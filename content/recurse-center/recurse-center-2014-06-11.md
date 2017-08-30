@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-11"
-date = 2014-06-11T15:02:11-04:00
-tags = ["github", "haskell", "idea"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-11"
+date : 2014-06-11T15:02:11-04:00
+tags : ["github", "haskell", "idea"]
+categories : ["recursecenter"]
+draft : false
+---
 
 ## Plan {#plan}
 

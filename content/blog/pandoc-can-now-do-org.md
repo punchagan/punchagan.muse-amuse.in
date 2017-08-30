@@ -1,9 +1,9 @@
-+++
-title = "Pandoc can now do Org"
-date = "2010-12-06T00:00:00+05:30"
-tags = ["emacs", "haskell", "orgmode"]
-draft = false
-+++
+---
+title : "Pandoc can now do Org"
+date : "2010-12-06T00:00:00+05:30"
+tags : ["emacs", "haskell", "orgmode"]
+draft : false
+---
 
 Pandoc is a haskell library and a command line tool, that can
 convert markup from one to another and it does it pretty well.

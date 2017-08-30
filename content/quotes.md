@@ -1,9 +1,8 @@
-+++
-title = "Quotes"
-date = "2016-12-19T00:00:00+05:30"
-tags = []
-draft = false
-+++
+---
+title : "Quotes"
+date : "2016-12-19T00:00:00+05:30"
+draft : false
+---
 
 A collection of quotes. I keep coming back to them for inspiration. Or for
 brighter perspectives on life.
@@ -48,8 +47,7 @@ brighter perspectives on life.
 -   Feeling gratitude and not expressing it is like wrapping a present and not
     giving it. -- _William Arthur Ward_
 
--   <p class="verse">
-    Where the mind is without fear and the head held high;<br />
+-   Where the mind is without fear and the head held high;<br />
     Where knowledge is free;<br />
     Where the world has not been broken up into fragments by narrow domestic walls;<br />
     Where words come out from the depth of truth;<br />
@@ -57,7 +55,6 @@ brighter perspectives on life.
     Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit;<br />
     Where the mind is led forward by Thee into ever-widening thought and action;<br />
     Into that heaven of freedom, my Father, let my country awake.<br />
-    </p>
 
     _Rabindranath Tagore -- Let My Country Awake_
 
@@ -169,14 +166,12 @@ brighter perspectives on life.
 
 -   The road to wisdom? -- Well, it's plain and simple to express:
 
-    <p class="verse">
     Err<br />
     and err<br />
     and err again<br />
     but less<br />
     and less<br />
     and less.<br />
-    </p>
 
     -- _Piet Hein (Grooks)_
 

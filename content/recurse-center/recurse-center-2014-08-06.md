@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-06"
-date = 2014-08-07T10:57:15-04:00
-tags = ["raspberry_pi"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-06"
+date : 2014-08-07T10:57:15-04:00
+tags : ["raspberry-pi"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Finished working through the first 5 chapters of the baking pi course, and am
     excited to start working on the video stuff, today!

@@ -1,9 +1,9 @@
-+++
-title = "3 tips for those shipping (commercial) apps"
-date = "2012-11-28T00:00:00+05:30"
-tags = ["enthought", "programming", "software", "tips"]
-draft = false
-+++
+---
+title : "3 tips for those shipping (commercial) apps"
+date : "2012-11-28T00:00:00+05:30"
+tags : ["enthought", "programming", "software", "tips"]
+draft : false
+---
 
 Here are some very generic (and paraphrased) notes from a short
 talk today, by Deepankar Sharma.

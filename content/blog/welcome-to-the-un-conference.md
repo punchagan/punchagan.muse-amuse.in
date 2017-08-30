@@ -1,9 +1,9 @@
-+++
-title = "Welcome to the Un-Conference"
-date = "2007-02-14T00:00:00+05:30"
-tags = ["ology"]
-draft = false
-+++
+---
+title : "Welcome to the Un-Conference"
+date : "2007-02-14T00:00:00+05:30"
+tags : ["ology"]
+draft : false
+---
 
 **Here comes the WikiCamp!!**
 

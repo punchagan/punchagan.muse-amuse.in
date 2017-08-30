@@ -1,9 +1,9 @@
-+++
-title = "Looking through the view finder"
-date = "2010-07-26T00:00:00+05:30"
-tags = ["camera", "note"]
-draft = false
-+++
+---
+title : "Looking through the view finder"
+date : "2010-07-26T00:00:00+05:30"
+tags : ["camera", "note"]
+draft : false
+---
 
 After a trek, I had an interesting conversation with Ritesh, about
 taking pictures during a trip. He said, he started to realize that

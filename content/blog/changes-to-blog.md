@@ -1,9 +1,9 @@
-+++
-title = "Changes to Blog"
-date = "2011-02-02T00:00:00+05:30"
-tags = ["blog", "orgmode", "python"]
-draft = false
-+++
+---
+title : "Changes to Blog"
+date : "2011-02-02T00:00:00+05:30"
+tags : ["blog", "orgmode", "python"]
+draft : false
+---
 
 Well, as you can see, I've changed my blog a bit.  I had been
 trying to make it gel well with org-mode and looking for ways to

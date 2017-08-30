@@ -1,9 +1,9 @@
-+++
-title = "A Confession"
-date = "2009-09-13T00:00:00+05:30"
-tags = ["blab", "mumbai"]
-draft = false
-+++
+---
+title : "A Confession"
+date : "2009-09-13T00:00:00+05:30"
+tags : ["blab", "mumbai"]
+draft : false
+---
 
 Lost in thought, in the maddening crowd waiting for the next train
 on a Sunday evening, I was staring blankly, looking at nothing in

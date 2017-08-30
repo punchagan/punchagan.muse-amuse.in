@@ -1,9 +1,9 @@
-+++
-title = "Happy gNew Year!!"
-date = "2007-01-01T00:00:00+05:30"
-tags = ["blab", "lafootgiri", "ology", "thanks"]
-draft = false
-+++
+---
+title : "Happy gNew Year!!"
+date : "2007-01-01T00:00:00+05:30"
+tags : ["blab", "lafootgiri", "ology", "thanks"]
+draft : false
+---
 
 Hi! I'm a bit late...(courtesy:lightning quick network speeds
 @coll...{I started this post a couple of weeks back, at

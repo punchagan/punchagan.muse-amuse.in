@@ -1,9 +1,9 @@
-+++
-title = "Posts..."
-date = "2007-06-21T00:00:00+05:30"
-tags = ["blab", "posts"]
-draft = false
-+++
+---
+title : "Posts..."
+date : "2007-06-21T00:00:00+05:30"
+tags : ["blab", "posts"]
+draft : false
+---
 
 I am beginning to notice something about my posts [ok.. there
 aren't many that make it here.. :P] There are sometimes, when I

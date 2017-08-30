@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/12/05]"
-date = "2013-12-05T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/12/05]"
+date : "2013-12-05T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Raspberry Pi Python Adventures: IEEE 754/854, when it is needed](http://raspberry-python.blogspot.in/2013/10/ieee-754854-when-it-is-needed.html)
 

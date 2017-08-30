@@ -1,9 +1,9 @@
-+++
-title = "Competition and Population"
-date = "2010-07-30T00:00:00+05:30"
-tags = ["idea", "note"]
-draft = false
-+++
+---
+title : "Competition and Population"
+date : "2010-07-30T00:00:00+05:30"
+tags : ["idea", "note"]
+draft : false
+---
 
 I've often got bad service from "service providers" - hotels,
 restaurants, phone services, Internet services etc. I guess that's

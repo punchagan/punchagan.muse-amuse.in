@@ -1,10 +1,9 @@
-+++
-title = "Recurse Center, 2014-07-15"
-date = 2014-07-16T21:54:59-04:00
-tags = []
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-15"
+date : 2014-07-16T21:54:59-04:00
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Micheal demo-ed paredit mode in the emacs-club meetup, and I learnt a bunch
     of things I didn't know about it.

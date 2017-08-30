@@ -1,11 +1,10 @@
-+++
-title = "who am I?"
-date = "2008-12-02T00:00:00+05:30"
-tags = ["blab", "life", "poem"]
-draft = false
-+++
+---
+title : "who am I?"
+date : "2008-12-02T00:00:00+05:30"
+tags : ["blab", "life", "poem"]
+draft : false
+---
 
-<p class="verse">
 dead and lifeless, in a box I lie<br />
 just my size, to be buried deep somewhere,<br />
 arranged with flowers, bright and fragrant<br />
@@ -34,4 +33,3 @@ is who you are", my Master answered,<br />
 "Life's fragrance is in service,<br />
 it grows and unfurls, far and wide,<br />
 long after you are lifeless and dead"<br />
-</p>

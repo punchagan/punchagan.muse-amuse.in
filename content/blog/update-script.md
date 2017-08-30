@@ -1,9 +1,9 @@
-+++
-title = "Update Script"
-date = "2008-07-08T00:00:00+05:30"
-tags = ["ology", "python", "wordpress"]
-draft = false
-+++
+---
+title : "Update Script"
+date : "2008-07-08T00:00:00+05:30"
+tags : ["ology", "python", "wordpress"]
+draft : false
+---
 
 Well, this isn't an update of how I'm doing on my sabbatical. Its
 just been 3 days and I'm doing pretty fine.  I just finished

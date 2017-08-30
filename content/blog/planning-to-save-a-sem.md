@@ -1,9 +1,9 @@
-+++
-title = "Planning... to save a Sem!!??"
-date = "2007-02-13T00:00:00+05:30"
-tags = ["blab", "exams", "life", "ology", "poem"]
-draft = false
-+++
+---
+title : "Planning... to save a Sem!!??"
+date : "2007-02-13T00:00:00+05:30"
+tags : ["blab", "exams", "life", "ology", "poem"]
+draft : false
+---
 
 We are less than a week away from our supposedly dreaded
 'test-1'... n i have no clue even about what the syllabus is, in
@@ -41,7 +41,6 @@ I realise this time of my life is as precious as any
 other... (probably more...) and i need to make the most of
 it.... but what is that "most"?? [It's definitely not sleep!]
 
-<p class="verse">
 I wish to put together,<br />
 all my time, energy and matter<br />
 to do a job, little<br />
@@ -58,7 +57,6 @@ but it must come<br />
 before I get back home<br />
 needn't create an uproar<br />
 but before the end of semsester four<br />
-</p>
 
 [Don't mistake this for a poem... for it is not!! Its just some
 scribbling of mine.. which will keep me alive if at the end of
@@ -69,7 +67,6 @@ Sometimes I lie awake at night, and I ask, "Where have I gone
 wrong?"  Then a voice inside says to me, "This is going to take
 more than one night."  -- Charles M. Schulz
 
-<p class="verse">
 Little Things.<br />
 Little drops of water,<br />
 Little grains of sand,<br />
@@ -80,4 +77,3 @@ Humble though they be,<br />
 Make the mighty ages<br />
 Of eternity.<br />
 --  Ebenezer Cobham Brewer.<br />
-</p>

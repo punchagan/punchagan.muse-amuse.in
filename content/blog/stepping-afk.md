@@ -1,9 +1,9 @@
-+++
-title = "Stepping AFK"
-date = "2016-06-03T00:00:00+05:30"
-tags = ["blab", "blag", "programming", "thought"]
-draft = false
-+++
+---
+title : "Stepping AFK"
+date : "2016-06-03T00:00:00+05:30"
+tags : ["blab", "blag", "programming", "thought"]
+draft : false
+---
 
 In the past few weeks, I noticed three instances where I was forced to take a
 break exactly when I was ready to jump in and write some code to fix a bug or

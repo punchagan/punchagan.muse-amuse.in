@@ -1,9 +1,9 @@
-+++
-title = "Bookmarks and Quotes plugin"
-date = "2013-10-19T00:00:00+05:30"
-tags = ["blog", "code", "nikola", "orgmode"]
-draft = false
-+++
+---
+title : "Bookmarks and Quotes plugin"
+date : "2013-10-19T00:00:00+05:30"
+tags : ["blog", "code", "nikola", "orgmode"]
+draft : false
+---
 
 I used to have a separate page for bookmarks and quotes on the old
 blog.  They will now be shared as regular posts with 5 or more

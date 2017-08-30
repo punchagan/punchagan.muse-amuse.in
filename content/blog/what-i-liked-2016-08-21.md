@@ -1,10 +1,10 @@
-+++
-title = "What I liked 2016-08-21"
-date = "2016-08-29T00:00:00+05:30"
-tags = ["blab", "blag", "happy", "life"]
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "What I liked 2016-08-21"
+date : "2016-08-29T00:00:00+05:30"
+tags : ["blab", "blag", "happy", "life"]
+categories : ["bookmarks"]
+draft : false
+---
 
 Vox has a nice short video on [shutting up about the y-axis](http://www.vox.com/2015/11/19/9758062/y-axis-zero-chart) -- It's long past
 time to say no to y-axis fundamentalism, they say.

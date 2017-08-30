@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2014/10/10]"
-date = 2014-10-10T05:24:19-04:00
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2014/10/10]"
+date : 2014-10-10T05:24:19-04:00
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [frog hop - technicalities: "not rocket science" (the story of monotone and bors)](http://graydon.livejournal.com/186550.html)
 
@@ -12,6 +11,8 @@ draft = false
     repository of code that always passes all the tests
 
 -   [Intellectual conversations - Image (500×700)](https://pbs.twimg.com/media/BwIsAVMIUAEReH3.jpg)
+
+<!--listend-->
 
 -   [When You're at the Crossroads of Should and Must](http://firstround.com/article/What-to-Do-at-the-Crossroads-of-Should-and-Must)
       This is a story about two roads — Should and Must. It’s a pep talk for anyone

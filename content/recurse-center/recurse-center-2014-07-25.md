@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-25"
-date = 2014-07-25T09:25:50-04:00
-tags = ["python", "vcs"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-25"
+date : 2014-07-25T09:25:50-04:00
+tags : ["python", "vcs"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   We worked on writing our own (toy) version control system on Friday, as a
     part of job prep.  I paired with Sophia, and we got upto the point where we

@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-09"
-date = 2014-06-10T10:21:06-04:00
-tags = ["haskell", "intro"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-09"
+date : 2014-06-10T10:21:06-04:00
+tags : ["haskell", "intro"]
+categories : ["recursecenter"]
+draft : false
+---
 
 Finally, I'm at Hacker School.  The day began with introductions,
 breakfast and welcomes to HackerSchool.

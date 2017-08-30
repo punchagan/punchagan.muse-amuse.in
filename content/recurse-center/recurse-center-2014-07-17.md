@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-17"
-date = 2014-07-19T16:45:12-04:00
-tags = ["python", "raspberry_pi"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-17"
+date : 2014-07-19T16:45:12-04:00
+tags : ["python", "raspberry-pi"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Kyle and I did a demo of our spectrum analyzer/visualizer during the
     presenations.  It was fun to work on, though we mostly just followed a

@@ -1,9 +1,9 @@
-+++
-title = "Advice - Programming in Elisp"
-date = "2010-08-06T00:00:00+05:30"
-tags = ["advice", "emacs", "note", "programming"]
-draft = false
-+++
+---
+title : "Advice - Programming in Elisp"
+date : "2010-08-06T00:00:00+05:30"
+tags : ["advice", "emacs", "note", "programming"]
+draft : false
+---
 
 Below is a mail sent by Eric Schulte to the org-mode mailing list
 answering a query on how to write elisp for org-mode. I am

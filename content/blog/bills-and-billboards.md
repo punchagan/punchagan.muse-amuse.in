@@ -1,9 +1,9 @@
-+++
-title = "Bills and Billboards"
-date = "2008-05-20T00:00:00+05:30"
-tags = ["blab", "money", "work"]
-draft = false
-+++
+---
+title : "Bills and Billboards"
+date : "2008-05-20T00:00:00+05:30"
+tags : ["blab", "money", "work"]
+draft : false
+---
 
 I was travelling in a bus today, when I overheard two people
 sitting behind me. One of the guy was telling the other about his

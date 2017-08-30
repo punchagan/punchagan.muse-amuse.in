@@ -1,9 +1,9 @@
-+++
-title = "Gateway get away"
-date = "2010-03-28T00:00:00+05:30"
-tags = ["cycling", "herohawk", "mumbai", "nomadic"]
-draft = false
-+++
+---
+title : "Gateway get away"
+date : "2010-03-28T00:00:00+05:30"
+tags : ["cycling", "herohawk", "mumbai", "nomadic"]
+draft : false
+---
 
 A Rocking.. err.. Pebbling.. err.. Pedaling Trip. IIT Bombay,
 Powai to the Gateway of India. I simply loved it!

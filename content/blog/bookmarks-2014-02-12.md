@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2014/02/12]"
-date = "2014-02-12T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2014/02/12]"
+date : "2014-02-12T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Learning to Code vs Learning Computer Science ← Terence Eden's Blog](http://shkspr.mobi/blog/2014/02/learning-to-code-vs-learning-computer-science/)
 

@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/12/16]"
-date = "2013-12-16T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/12/16]"
+date : "2013-12-16T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Things You Should Never Do, Part I - Joel on Software](http://www.joelonsoftware.com/articles/fog0000000069.html)
 

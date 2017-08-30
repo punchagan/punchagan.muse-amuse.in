@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2014/05/04]"
-date = "2014-05-04T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2014/05/04]"
+date : "2014-05-04T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Learning Rust | Mauveweb](http://mauveweb.co.uk/posts/2014/04/learning-rust.html)
 

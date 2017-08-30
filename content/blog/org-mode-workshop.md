@@ -1,9 +1,9 @@
-+++
-title = "Org-mode Workshop"
-date = "2011-06-22T00:00:00+05:30"
-tags = ["emacs", "hyderabad", "orgmode"]
-draft = false
-+++
+---
+title : "Org-mode Workshop"
+date : "2011-06-22T00:00:00+05:30"
+tags : ["emacs", "hyderabad", "orgmode"]
+draft : false
+---
 
 Well, I'm not sure if it's worth writing about.  I conducted my
 first org-mode workshop along with Prof. Venkatesh Choppella at

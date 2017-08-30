@@ -1,18 +1,18 @@
-+++
-title = "Notes on \"5 Love Languages\""
-date = "2016-01-12T00:00:00+05:30"
-tags = ["blag", "book", "book_notes", "life", "love"]
-categories = ["book_notes"]
-draft = false
-type = "book_notes"
-book_cover = "https://farm2.staticflickr.com/1656/24408821265_6f067fe523_o.jpg"
-book_isbn = "080241270X"
-book_author = "Gary Chapman"
-book_url = "http://www.amazon.com/gp/product/080241270X"
-book_name = "5 Love Languages"
-book_read = 2016-01-13
-book_rating = "5/5"
-+++
+---
+title : "Notes on \"5 Love Languages\""
+date : "2016-01-12T00:00:00+05:30"
+tags : ["blag", "book", "book-notes", "life", "love"]
+categories : ["book-notes"]
+draft : false
+type : "book_notes"
+book_cover : "https://farm2.staticflickr.com/1656/24408821265_6f067fe523_o.jpg"
+book_isbn : "080241270X"
+book_author : "Gary Chapman"
+book_url : "http://www.amazon.com/gp/product/080241270X"
+book_name : "5 Love Languages"
+book_read : 2016-01-13
+book_rating : "5/5"
+---
 
 I first heard of this book in a discussion on relationships amongst friends
 from RC.  The discussion was quite interesting and the book received more than

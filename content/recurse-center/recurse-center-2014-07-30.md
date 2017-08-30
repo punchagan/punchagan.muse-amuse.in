@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-30"
-date = 2014-07-31T08:40:16-04:00
-tags = ["C", "networking"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-30"
+date : 2014-07-31T08:40:16-04:00
+tags : ["C", "networking"]
+categories : ["recursecenter"]
+draft : false
+---
 
 ## (Re) Learning C {#re--learning-c}
 

@@ -1,11 +1,10 @@
-+++
-title = "Alone..."
-date = "2007-05-10T00:00:00+05:30"
-tags = ["blab", "poem"]
-draft = false
-+++
+---
+title : "Alone..."
+date : "2007-05-10T00:00:00+05:30"
+tags : ["blab", "poem"]
+draft : false
+---
 
-<p class="verse">
 i am feeling terribly alone<br />
 i feel like i did never before<br />
 and this poem, therefore...<br />
@@ -22,7 +21,6 @@ and i never felt so lonely...<br />
 <br />
 i wonder why, then<br />
 do i feel terribly alone.<br />
-</p>
 
 ----
 btw

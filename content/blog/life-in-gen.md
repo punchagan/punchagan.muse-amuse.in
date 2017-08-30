@@ -1,9 +1,9 @@
-+++
-title = "Life \"In-gen\""
-date = "2007-11-21T00:00:00+05:30"
-tags = ["blab", "exams", "lafootgiri", "quark"]
-draft = false
-+++
+---
+title : "Life \"In-gen\""
+date : "2007-11-21T00:00:00+05:30"
+tags : ["blab", "exams", "lafootgiri", "quark"]
+draft : false
+---
 
 Another post, with nothing concrete to say...
 

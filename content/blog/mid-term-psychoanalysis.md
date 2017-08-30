@@ -1,9 +1,9 @@
-+++
-title = "Mid-Term 'Psycho'Analysis"
-date = "2008-07-15T00:00:00+05:30"
-tags = ["blab", "emacs", "internet", "ology"]
-draft = false
-+++
+---
+title : "Mid-Term 'Psycho'Analysis"
+date : "2008-07-15T00:00:00+05:30"
+tags : ["blab", "emacs", "internet", "ology"]
+draft : false
+---
 
 Its been 10 days on my sabbatical. I have done reasonably well
 during the first week, but now its getting on my nerves. I have

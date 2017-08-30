@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-28"
-date = 2014-07-28T22:23:39-04:00
-tags = ["C", "python", "version_control"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-28"
+date : 2014-07-28T22:23:39-04:00
+tags : ["C", "python", "version-control"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   There seemed to be excitement in the space to have Jessica around.  We had
     coffee with her, and I chatted with her briefly. She encouraged me to try and

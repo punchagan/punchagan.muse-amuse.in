@@ -1,11 +1,10 @@
-+++
-title = "Love Unvoiced"
-date = "2011-05-20T00:00:00+05:30"
-tags = ["life", "love", "me", "poem"]
-draft = false
-+++
+---
+title : "Love Unvoiced"
+date : "2011-05-20T00:00:00+05:30"
+tags : ["life", "love", "me", "poem"]
+draft : false
+---
 
-<p class="verse">
 <br />
 Hard, I tried, to stay mum,<br />
 and keep it all within.<br />
@@ -37,4 +36,3 @@ does it need to be told. All over me,<br />
 it's written; and you, sure, read me!<br />
 Love you, for being the more loving one!<br />
 <br />
-</p>

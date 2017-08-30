@@ -1,9 +1,9 @@
-+++
-title = "org-drill for making it stick!"
-date = "2015-01-17T00:00:00+05:30"
-tags = ["blag", "emacs", "hack", "hackerschool", "learning", "orgmode"]
-draft = false
-+++
+---
+title : "org-drill for making it stick!"
+date : "2015-01-17T00:00:00+05:30"
+tags : ["blag", "emacs", "hack", "hackerschool", "learning", "orgmode"]
+draft : false
+---
 
 Those who read the [last](https://punchagan.muse-amuse.in/posts/learning-to-use-org-drill.html) [few](https://punchagan.muse-amuse.in/posts/learning-about-spaced-repetition-supermemo-org-drill-et-al.html) [posts](https://punchagan.muse-amuse.in/posts/more-input-sources-for-org-drill.html) here, would know that I have been
 experimenting with [org-drill](http://orgmode.org/worg/org-contrib/org-drill.html) (a spaced repetition extension to [Org mode](http://orgmode.org/)).  I

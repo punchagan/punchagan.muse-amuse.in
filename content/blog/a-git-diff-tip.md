@@ -1,9 +1,9 @@
-+++
-title = "A git-diff tip"
-date = "2012-08-22T00:00:00+05:30"
-tags = ["git", "version_control"]
-draft = false
-+++
+---
+title : "A git-diff tip"
+date : "2012-08-22T00:00:00+05:30"
+tags : ["git", "version-control"]
+draft : false
+---
 
 One of the things with git that you can mess-up, if you are not
 used to, is git diff.  A friend of mine was trying to add a couple

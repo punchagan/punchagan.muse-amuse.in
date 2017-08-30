@@ -1,9 +1,9 @@
-+++
-title = "Revelations...."
-date = "2007-03-18T00:00:00+05:30"
-tags = ["blab", "quark"]
-draft = false
-+++
+---
+title : "Revelations...."
+date : "2007-03-18T00:00:00+05:30"
+tags : ["blab", "quark"]
+draft : false
+---
 
 Revelations..Revelations...Revelations.
 

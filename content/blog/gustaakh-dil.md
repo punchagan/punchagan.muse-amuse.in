@@ -1,9 +1,9 @@
-+++
-title = "Gustaakh Dil"
-date = "2012-11-24T00:00:00+05:30"
-tags = ["love", "lyrics", "song"]
-draft = false
-+++
+---
+title : "Gustaakh Dil"
+date : "2012-11-24T00:00:00+05:30"
+tags : ["love", "lyrics", "song"]
+draft : false
+---
 
 I really liked this song, गुस्ताख दिल (Gustaakh dil) from the movie
 English Vinglish.  Lyrics by Swanand Kirkire are deep and
@@ -13,7 +13,6 @@ I was looking for the lyrics on the web, and none of the sites
 seemed to have got it totally right.  Shantanu and I listened to
 it a bunch of times and think we have got it all right, here.
 
-<p class="verse">
 गुस्ताख दिल<br />
 दिल में मुश्किल<br />
 मुश्किल में दिल<br />
@@ -68,4 +67,3 @@ it a bunch of times and think we have got it all right, here.
 दिल में मुश्किल<br />
 मुश्किल में दिल<br />
 (मुश्किल में दिल)<br />
-</p>

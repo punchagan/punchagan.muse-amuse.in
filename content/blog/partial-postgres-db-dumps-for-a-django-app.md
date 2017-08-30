@@ -1,9 +1,9 @@
-+++
-title = "Partial postgres db dumps for a Django app"
-date = "2016-01-10T00:00:00+05:30"
-tags = ["blag", "django", "postgres", "sql"]
-draft = false
-+++
+---
+title : "Partial postgres db dumps for a Django app"
+date : "2016-01-10T00:00:00+05:30"
+tags : ["blag", "django", "postgres", "sql"]
+draft : false
+---
 
 Off late, I have been working with a large `postgres` database that is used by
 an app built in `Django`.  I wanted a partial dump of the database to try out

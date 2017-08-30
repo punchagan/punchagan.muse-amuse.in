@@ -1,9 +1,8 @@
-+++
-title = "Using tmux to \"screen share\""
-date = "2014-11-24T00:00:00+05:30"
-tags = []
-draft = false
-+++
+---
+title : "Using tmux to \"screen share\""
+date : "2014-11-24T00:00:00+05:30"
+draft : false
+---
 
 I wanted to pair with a friend of mine, exploring Magit mode in Emacs.  There
 are a couple of projects to make it easy to use tmux(-like) to simplify this.

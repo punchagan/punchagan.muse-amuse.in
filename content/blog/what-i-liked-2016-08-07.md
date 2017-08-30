@@ -1,10 +1,10 @@
-+++
-title = "What I liked 2016-08-07"
-date = "2016-08-16T00:00:00+05:30"
-tags = ["blab", "blag", "happy", "life"]
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "What I liked 2016-08-07"
+date : "2016-08-16T00:00:00+05:30"
+tags : ["blab", "blag", "happy", "life"]
+categories : ["bookmarks"]
+draft : false
+---
 
 [Great visualizations](http://www.indiaspend.com/cover-story/cool-data-visualisation-reveals-extent-of-global-warming-28723) about how global temperatures have been changing in the
 last ~165 years.  If you are still a global warming skeptic, you definitely

@@ -1,11 +1,10 @@
-+++
-title = "Just another bunch"
-date = "2010-03-18T00:00:00+05:30"
-tags = ["blab", "life", "poem"]
-draft = false
-+++
+---
+title : "Just another bunch"
+date : "2010-03-18T00:00:00+05:30"
+tags : ["blab", "life", "poem"]
+draft : false
+---
 
-<p class="verse">
 Come spring -<br />
 a fresh lease of green<br />
 drapes the bare branches.<br />
@@ -32,4 +31,3 @@ Until silence falls upon, when all<br />
 of them are gone. The tree, knowing well,<br />
 watches on - it won't be long before<br />
 a new bunch springs up to sing the song.<br />
-</p>

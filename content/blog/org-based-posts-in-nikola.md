@@ -1,9 +1,9 @@
-+++
-title = "Org based posts in Nikola"
-date = "2014-04-20T00:00:00+05:30"
-tags = ["blog", "emacs", "nikola", "orgmode"]
-draft = false
-+++
+---
+title : "Org based posts in Nikola"
+date : "2014-04-20T00:00:00+05:30"
+tags : ["blog", "emacs", "nikola", "orgmode"]
+draft : false
+---
 
 [Chen Bin](http://binchen.org/) asked me to share my Nikola+Org work-flow, and share an
 example post.

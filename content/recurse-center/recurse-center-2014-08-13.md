@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-13"
-date = 2014-08-14T11:11:59-04:00
-tags = ["python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-13"
+date : 2014-08-14T11:11:59-04:00
+tags : ["python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I feel like I didn't get much done yesterday.
 -   I mostly worked on the API differ, but didn't get much done.  I have a few

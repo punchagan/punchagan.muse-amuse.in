@@ -1,9 +1,9 @@
-+++
-title = "The Journey minus \"The Man!\""
-date = "2006-12-17T00:00:00+05:30"
-tags = ["blab", "death"]
-draft = false
-+++
+---
+title : "The Journey minus \"The Man!\""
+date : "2006-12-17T00:00:00+05:30"
+tags : ["blab", "death"]
+draft : false
+---
 
 I am back Home!! After one more ordinary semester, (academically,
 otherwise quite a dramatic one actually) finally i'm back home! On
@@ -65,12 +65,10 @@ known him and known by him... with awe and reverence we think of
 him... we just love him! But I'll always miss that call of his,
 "Chogni!"
 
-<p class="verse">
 _Luka Chuppi bahut hui..._<br />
 _saamne aa ja naa..._<br />
 _kahan kahan dhoonda tujhe..._<br />
 _thak gai hai ab teri maa..._<br />
-</p>
 
 _Edit:_
 _1. 9's Post on Hari is here_

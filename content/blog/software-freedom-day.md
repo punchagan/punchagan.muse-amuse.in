@@ -1,9 +1,9 @@
-+++
-title = "Software Freedom Day"
-date = "2008-09-21T00:00:00+05:30"
-tags = ["blab", "freedom", "ology", "software"]
-draft = false
-+++
+---
+title : "Software Freedom Day"
+date : "2008-09-21T00:00:00+05:30"
+tags : ["blab", "freedom", "ology", "software"]
+draft : false
+---
 
 Three Cheers to 'Free Software'!
 

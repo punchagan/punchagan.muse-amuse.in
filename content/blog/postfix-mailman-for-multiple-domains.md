@@ -1,9 +1,9 @@
-+++
-title = "Postfix + Mailman for Multiple Domains."
-date = "2009-08-05T00:00:00+05:30"
-tags = ["ology"]
-draft = false
-+++
+---
+title : "Postfix + Mailman for Multiple Domains."
+date : "2009-08-05T00:00:00+05:30"
+tags : ["ology"]
+draft : false
+---
 
 Well, there are a hazaar tutorials on setting up Postfix and
 Mailman for Debian for a single domain. There were a few for doing

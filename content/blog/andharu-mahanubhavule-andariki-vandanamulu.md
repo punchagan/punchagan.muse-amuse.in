@@ -1,9 +1,9 @@
-+++
-title = "Andharu Mahanubhavule... Andariki Vandanamulu.."
-date = "2007-03-27T00:00:00+05:30"
-tags = ["blab", "life", "thanks"]
-draft = false
-+++
+---
+title : "Andharu Mahanubhavule... Andariki Vandanamulu.."
+date : "2007-03-27T00:00:00+05:30"
+tags : ["blab", "life", "thanks"]
+draft : false
+---
 
 There's a post already with 'exactly' this name.... by 9... here...
 But this post doesn't have much to do with his post... [or may be it does??]

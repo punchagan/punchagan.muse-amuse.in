@@ -1,9 +1,9 @@
-+++
-title = "Lafoot or Lafoobot!"
-date = "2008-05-26T00:00:00+05:30"
-tags = ["IRC", "lafootgiri", "ology", "python"]
-draft = false
-+++
+---
+title : "Lafoot or Lafoobot!"
+date : "2008-05-26T00:00:00+05:30"
+tags : ["IRC", "lafootgiri", "ology", "python"]
+draft : false
+---
 
 Summer'08! I'm at home, doing nothing practically. :| No
 Internships, No Projects, No GRE plans (a little pushing for GRE

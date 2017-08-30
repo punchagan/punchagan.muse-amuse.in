@@ -1,9 +1,9 @@
-+++
-title = "My talk at SciPy.in 2010"
-date = "2010-12-20T00:00:00+05:30"
-tags = ["python", "scipy"]
-draft = false
-+++
+---
+title : "My talk at SciPy.in 2010"
+date : "2010-12-20T00:00:00+05:30"
+tags : ["python", "scipy"]
+draft : false
+---
 
 I gave a short talk titled, _Pictures, Songs and Python_ in this
 year's edition of SciPy India.  The talk was a beginner level

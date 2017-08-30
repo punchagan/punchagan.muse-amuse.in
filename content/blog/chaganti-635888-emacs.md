@@ -1,9 +1,9 @@
-+++
-title = "CHAGANTI 635888 Emacs"
-date = "2011-02-03T00:00:00+05:30"
-tags = ["contribute", "emacs", "fsf", "orgmode"]
-draft = false
-+++
+---
+title : "CHAGANTI 635888 Emacs"
+date : "2011-02-03T00:00:00+05:30"
+tags : ["contribute", "emacs", "fsf", "orgmode"]
+draft : false
+---
 
 > Puneeth Chaganti, hereby agrees as follows:
 >

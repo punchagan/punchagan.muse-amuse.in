@@ -1,9 +1,9 @@
-+++
-title = "Telugu Rendering in Ubuntu..."
-date = "2007-07-11T00:00:00+05:30"
-tags = ["ology", "ubuntu"]
-draft = false
-+++
+---
+title : "Telugu Rendering in Ubuntu..."
+date : "2007-07-11T00:00:00+05:30"
+tags : ["ology", "ubuntu"]
+draft : false
+---
 
 I had problems with this and tried quite a few things to get it
 working...  [uninstalling and re-installing

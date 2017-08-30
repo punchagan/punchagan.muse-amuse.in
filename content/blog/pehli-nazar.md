@@ -1,9 +1,9 @@
-+++
-title = "Pehli Nazar"
-date = "2010-03-02T00:00:00+05:30"
-tags = ["book", "camera", "india", "nomadic", "photo", "travel"]
-draft = false
-+++
+---
+title : "Pehli Nazar"
+date : "2010-03-02T00:00:00+05:30"
+tags : ["book", "camera", "india", "nomadic", "photo", "travel"]
+draft : false
+---
 
 This post is my attempt to start a travelogue. I hope to capture
 the "All India Tour" phase of my life (as people have started to

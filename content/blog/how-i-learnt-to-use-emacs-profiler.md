@@ -1,9 +1,9 @@
-+++
-title = "How I learnt to use Emacs' profiler"
-date = "2015-01-03T00:00:00+05:30"
-tags = ["emacs", "orgmode", "programming"]
-draft = false
-+++
+---
+title : "How I learnt to use Emacs' profiler"
+date : "2015-01-03T00:00:00+05:30"
+tags : ["emacs", "orgmode", "programming"]
+draft : false
+---
 
 I learnt to use Emacs' profiler yesterday, after many hours of yak-shaving,
 trying to get [Memacs](https://github.com/novoid/Memacs) working.  Memacs is a [memory extension](http://en.wikipedia.org/wiki/Memex) system for Emacs
@@ -78,7 +78,7 @@ You can view the information being collected, at any point of time using
 
 The report is a nice, interactive tree with the percentage of time spent in
 each call. You can stop profiling by calling `(profiler-stop)`.  If you have
-more than one report, you can compare them by hitting `=` in one of the report
+more than one report, you can compare them by hitting <kbd>=</kbd> in one of the report
 buffers.  I'm definitely going to use this for other things! (like speeding up
 my startup?)
 

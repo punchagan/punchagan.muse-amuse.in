@@ -1,9 +1,9 @@
-+++
-title = "Deoriatal and Chandrashila"
-date = "2016-04-18T00:00:00+05:30"
-tags = ["himalaya", "travel", "trek"]
-draft = false
-+++
+---
+title : "Deoriatal and Chandrashila"
+date : "2016-04-18T00:00:00+05:30"
+tags : ["himalaya", "travel", "trek"]
+draft : false
+---
 
 It was the final day and after about 5 hours of descent through the hills on the
 road, we had stopped for lunch about 100km from Haridwar. Of the 14 people who

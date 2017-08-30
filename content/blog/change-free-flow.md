@@ -1,9 +1,9 @@
-+++
-title = "Change & Free flow"
-date = "2010-07-30T00:00:00+05:30"
-tags = ["idea", "money", "note", "people"]
-draft = false
-+++
+---
+title : "Change & Free flow"
+date : "2010-07-30T00:00:00+05:30"
+tags : ["idea", "money", "note", "people"]
+draft : false
+---
 
 No.  Not the Obama change.  I'm talking of change as in small
 denominations of cash.  Everybody is reluctant to part with

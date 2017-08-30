@@ -1,10 +1,10 @@
-+++
-title = "What I liked 2016-08-14"
-date = "2016-08-22T00:00:00+05:30"
-tags = ["blab", "blag", "happy", "life"]
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "What I liked 2016-08-14"
+date : "2016-08-22T00:00:00+05:30"
+tags : ["blab", "blag", "happy", "life"]
+categories : ["bookmarks"]
+draft : false
+---
 
 NYTimes has been doing some amazing visualizations for the Olympics and this
 [time lapse visualization](http://www.nytimes.com/interactive/2016/08/15/sports/olympics/usain-bolt-mens-100-meters-final.html) of Bolt's 100m Gold is great!

@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2014/01/17]"
-date = "2014-01-17T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2014/01/17]"
+date : "2014-01-17T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Who-T: On commit messages](http://who-t.blogspot.in/2009/12/on-commit-messages.html)
 

@@ -1,9 +1,9 @@
-+++
-title = "GitHub Cue: Recommendations for GitHub Repos"
-date = "2011-08-05T00:00:00+05:30"
-tags = ["app", "chrome", "code", "github", "hack"]
-draft = false
-+++
+---
+title : "GitHub Cue: Recommendations for GitHub Repos"
+date : "2011-08-05T00:00:00+05:30"
+tags : ["app", "chrome", "code", "github", "hack"]
+draft : false
+---
 
 If you aren't already aware of it, I'm one of those people who
 goes around saying, "GitHub is my Facebook".  I spend quite a lot

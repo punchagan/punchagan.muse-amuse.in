@@ -1,9 +1,9 @@
-+++
-title = "More input sources for org-drill"
-date = "2014-11-04T00:00:00+05:30"
-tags = ["emacs", "hack", "learning", "orgmode"]
-draft = false
-+++
+---
+title : "More input sources for org-drill"
+date : "2014-11-04T00:00:00+05:30"
+tags : ["emacs", "hack", "learning", "orgmode"]
+draft : false
+---
 
 I've been trying to use `org-drill` regularly for the last few weeks.  I don't
 know how well it's been going but I have been sticking to the routine

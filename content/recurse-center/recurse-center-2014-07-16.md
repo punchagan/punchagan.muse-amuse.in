@@ -1,10 +1,9 @@
-+++
-title = "Recurse Center, 2014-07-16"
-date = 2014-07-17T13:57:46-04:00
-tags = []
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-16"
+date : 2014-07-17T13:57:46-04:00
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Started pairing with Kyle on his idea of building a spectrum analyzer on the
     RaspberryPi using a LED Strip.  Both of us were fairly new to the RPi, and we

@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-27"
-date = 2014-06-29T09:36:32-04:00
-tags = ["hmm", "python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-27"
+date : 2014-06-29T09:36:32-04:00
+tags : ["hmm", "python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   This Friday we worked on building our own URL shorteners.  It was a fun
     exercise, and I built one that is not persistent, in the two hours.  I worked

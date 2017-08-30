@@ -1,9 +1,9 @@
-+++
-title = "Thanks Sacha"
-date = "2010-07-30T00:00:00+05:30"
-tags = ["code", "emacs", "note", "org2blog", "thanks"]
-draft = false
-+++
+---
+title : "Thanks Sacha"
+date : "2010-07-30T00:00:00+05:30"
+tags : ["code", "emacs", "note", "org2blog", "thanks"]
+draft : false
+---
 
 I just wanted to thank Sacha Chua for bearing with my newbie elisp
 code and trying out org2blog.

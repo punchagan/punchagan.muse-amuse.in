@@ -1,9 +1,9 @@
-+++
-title = "Popularly Unpopular??"
-date = "2007-03-01T00:00:00+05:30"
-tags = ["blab", "lisp", "ology"]
-draft = false
-+++
+---
+title : "Popularly Unpopular??"
+date : "2007-03-01T00:00:00+05:30"
+tags : ["blab", "lisp", "ology"]
+draft : false
+---
 
 Popular opinion isn't everything..... Its not necessary that we
 always go with the popular opinion, or take that option which most

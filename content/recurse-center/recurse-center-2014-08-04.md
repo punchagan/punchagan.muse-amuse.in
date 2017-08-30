@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-04"
-date = 2014-08-04T16:19:59-04:00
-tags = ["raspberry_pi"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-04"
+date : 2014-08-04T16:19:59-04:00
+tags : ["raspberry-pi"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   A bunch of worked on getting LEDs to blink, by writing some assembly code.
 

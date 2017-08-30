@@ -1,9 +1,9 @@
-+++
-title = "OAuth2 demystified"
-date = 2014-06-20T10:09:51-04:00
-tags = ["hackerschool", "oauth2"]
-draft = false
-+++
+---
+title : "OAuth2 demystified"
+date : 2014-06-20T10:09:51-04:00
+tags : ["hackerschool", "oauth2"]
+draft : false
+---
 
 ## Motivation {#motivation}
 
@@ -47,28 +47,6 @@ spec)
 
 ## Protocol Flow {#protocol-flow}
 
-```ditaa
-
-+----------+                               +---------------+
-|          |--(A)- Authorization Request ->|   Resource    |
-|          |                               |     Owner     |
-|          |<-(B)-- Authorization Grant ---|     (Jane)    |
-|          |                               +---------------+
-|          |
-|          |                               +---------------+
-|          |--(C)-- Authorization Grant -->| Authorization |
-| Client   |                               |     Server    |
-| (Printo) |<-(D)----- Access Token -------|    (Google)   |
-|          |                               +---------------+
-|          |
-|          |                               +---------------+
-|          |--(E)----- Access Token ------>|    Resource   |
-|          |                               |     Server    |
-|          |<-(F)--- Protected Resource ---|    (Picasa)   |
-+----------+                               +---------------+
-
-```
-
 The flow occurs through a sequence of user actions, client requests
 and user-agent (browser) redirects.
 
@@ -106,39 +84,6 @@ _authorization code_ as an authorization grant, and using a _Bearer_
 type token.  This work-flow is explained in the diagram below (taken
 from the spec document).  This diagram zooms in, onto the steps A-D
 in the diagram above.
-
-```ditaa
-
-  +----------+
-  | Resource |
-  |   Owner  |
-  |          |
-  +----------+
-       ^
-       |
-      (B)
-  +----+-----+          Client Identifier      +---------------+
-  |          +----(A)-- & Redirection URI ---->|               |
-  |  User-   |                                 | Authorization |
-  |  Agent   +----(B)-- User authenticates --->|      Server   |
-  |          |                                 |               |
-  |          +----(C)-- Authorization Code ---<|               |
-  +-+----+---+                                 +---------------+
-    |    |                                         ^      v
-   (A)  (C)                                        |      |
-    |    |                                         |      |
-    ^    v                                         |      |
-  +---------+                                      |      |
-  |         |>---(D)-- Authorization Code ---------'      |
-  |  Client |          & Redirection URI                  |
-  |         |                                             |
-  |         |<---(E)----- Access Token -------------------'
-  +---------+       (w/ Optional Refresh Token)
-
-Note: The lines illustrating steps (A), (B), and (C) are broken into
-two parts as they pass through the user-agent.
-
-```
 
 This [python code snippet](https://gist.github.com/punchagan/76e8771fc26cd243f3ac) is a simple implementation of this
 workflow, using the Hacker School API.

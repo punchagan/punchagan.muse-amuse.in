@@ -1,9 +1,9 @@
-+++
-title = "Sage Days 25, Mumbai, India"
-date = "2010-07-21T00:00:00+05:30"
-tags = ["event", "math", "ology", "python", "software"]
-draft = false
-+++
+---
+title : "Sage Days 25, Mumbai, India"
+date : "2010-07-21T00:00:00+05:30"
+tags : ["event", "math", "ology", "python", "software"]
+draft : false
+---
 
 ## What is 'Sage Days'? {#what-is-sage-days}
 

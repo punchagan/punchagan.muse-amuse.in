@@ -1,9 +1,9 @@
-+++
-title = "Presentation or Tribulation??"
-date = "2007-04-28T00:00:00+05:30"
-tags = ["blab"]
-draft = false
-+++
+---
+title : "Presentation or Tribulation??"
+date : "2007-04-28T00:00:00+05:30"
+tags : ["blab"]
+draft : false
+---
 
 This semester [2-2] I had to give two presentations! As if that
 was not enough trouble, the courses were (Principles of)
@@ -128,10 +128,14 @@ post. Such a long one. I don't know....]
 > Only two things are infinite, the universe and human stupidity,
 > and I'm not sure about the former. --Albert Einstein
 
+<!--quoteend-->
+
 > Seek wisdom, not knowledge. Knowledge is of the past, Wisdom is of
 > the future. -- Ancient Indian Proverb. It is the first of all
 > problems for a man to find out what kind of work he is to do in
 > this universe. -- Thomas Carlyle
+
+<!--quoteend-->
 
 > Only two things are infinite, the universe and human stupidity,
 > and I'm not sure about the former. -- Albert Einstein

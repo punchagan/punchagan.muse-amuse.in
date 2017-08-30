@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-12"
-date = 2014-08-13T10:30:30-04:00
-tags = ["python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-12"
+date : 2014-08-13T10:30:30-04:00
+tags : ["python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   An issue I was seeing with `pip` and a package installed in
     `system-site-packages` turned out to be non-reproducible.  It was probably

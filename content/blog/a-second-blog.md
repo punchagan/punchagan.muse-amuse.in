@@ -1,9 +1,9 @@
-+++
-title = "A Second Blog..."
-date = "2007-04-04T00:00:00+05:30"
-tags = ["ology", "posts", "wordpress"]
-draft = false
-+++
+---
+title : "A Second Blog..."
+date : "2007-04-04T00:00:00+05:30"
+tags : ["ology", "posts", "wordpress"]
+draft : false
+---
 
 -   It can't really be called a Second Blog... because I won't be
     posting any new stuff there...

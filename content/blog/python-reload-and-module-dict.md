@@ -1,9 +1,9 @@
-+++
-title = "Python reload and module dict"
-date = "2016-06-23T00:00:00+05:30"
-tags = ["blag", "python"]
-draft = false
-+++
+---
+title : "Python reload and module dict"
+date : "2016-06-23T00:00:00+05:30"
+tags : ["blag", "python"]
+draft : false
+---
 
 I was trying to play around with Nikola's code today and learnt about a
 documented weirdness of Python's reload.
@@ -37,8 +37,6 @@ documented weirdness of Python's reload.
     print(conf.PLUGINS)
     ```
 
-        AttributeError: module 'conf' has no attribute 'PLUGINS'
-
 -   The code for `conf` has been updated, but the module doesn't yet have a
     `PLUGINS` attribute, since the new module isn't imported until we reload.
 
@@ -48,8 +46,6 @@ documented weirdness of Python's reload.
     print(conf.PLUGINS)
     ```
 
-        AttributeError: module 'conf' has no attribute 'PLUGINS'
-
 -   `PLUGINS` has the expected value, after the reload
 
     ```python
@@ -57,8 +53,6 @@ documented weirdness of Python's reload.
     importlib.reload(conf)
     print(conf.PLUGINS)
     ```
-
-        ['rss']
 
 -   What happens when we revert to the `ORIGINAL` code, and reload the module?
 
@@ -69,8 +63,6 @@ documented weirdness of Python's reload.
     importlib.reload(conf)
     print(conf.PLUGINS, "<---Whaaaat!")
     ```
-
-        ['rss'] <---Whaaaat!
 
 The behavior is well documented, along with a reasoning of why it is the way it
 is, but you can trip over it if you don't know. I hit a bug and was wondering

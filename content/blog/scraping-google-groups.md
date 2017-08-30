@@ -1,9 +1,9 @@
-+++
-title = "Scraping Google Groups"
-date = "2013-12-31T00:00:00+05:30"
-tags = ["email", "hack", "idea", "mumbai", "ultimate"]
-draft = false
-+++
+---
+title : "Scraping Google Groups"
+date : "2013-12-31T00:00:00+05:30"
+tags : ["email", "hack", "idea", "mumbai", "ultimate"]
+draft : false
+---
 
 I was playing around with a few ideas for creating a timeline for the
 mumbai ultimate group, and as a part of playing around with stuff, for

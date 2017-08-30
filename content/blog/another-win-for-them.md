@@ -1,9 +1,9 @@
-+++
-title = "Another win for them!"
-date = "2010-08-16T00:00:00+05:30"
-tags = ["note"]
-draft = false
-+++
+---
+title : "Another win for them!"
+date : "2010-08-16T00:00:00+05:30"
+tags : ["note"]
+draft : false
+---
 
 South Central Railways(SCR) has banned photography in stations, as
 a measure to prevent Terrorism. Terrorism by definition is "the

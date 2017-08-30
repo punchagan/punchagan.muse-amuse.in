@@ -1,9 +1,9 @@
-+++
-title = "Say Howdy with Emacs!"
-date = "2015-05-28T00:00:00+05:30"
-tags = ["blag", "code", "emacs", "hack", "howdy"]
-draft = false
-+++
+---
+title : "Say Howdy with Emacs!"
+date : "2015-05-28T00:00:00+05:30"
+tags : ["blag", "code", "emacs", "hack", "howdy"]
+draft : false
+---
 
 Staying in touch with people is something I'm not very good at.  Since I am not
 on popular (among my friends/family) networks -- FB and Whatsapp -- I don't
@@ -20,12 +20,12 @@ make it easier to hook up email, chat, etc. to this.
 I ended up writing a small utility called [howdy](https://github.com/punchagan/howdy/) to help me keep in touch with
 people. It currently has only a couple of features:
 
--   `M-x howdy` lets me update the last contacted timestamp for a contact.
+-   <kbd>M-x howdy</kbd> lets me update the last contacted timestamp for a contact.
 -   Shows me contacts that I'm out of touch in the agenda, once I add the
     following snippet to an agenda file.
 
     ```org
-    * Howdy
+    ​* Howdy
       %%(howdy-howdy)
     ```
 

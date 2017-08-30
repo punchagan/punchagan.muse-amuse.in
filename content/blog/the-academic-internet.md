@@ -1,9 +1,9 @@
-+++
-title = "The 'Academic' Internet"
-date = "2008-10-10T00:00:00+05:30"
-tags = ["internet", "ology"]
-draft = false
-+++
+---
+title : "The 'Academic' Internet"
+date : "2008-10-10T00:00:00+05:30"
+tags : ["internet", "ology"]
+draft : false
+---
 
 > **Notice for the Internet Usage**
 >

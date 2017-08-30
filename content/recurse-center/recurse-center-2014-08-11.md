@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-11"
-date = 2014-08-11T11:16:08-04:00
-tags = ["django", "python", "twitter"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-11"
+date : 2014-08-11T11:16:08-04:00
+tags : ["django", "python", "twitter"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I spent about an hour in the morning testing out the staging blaggregator
     instance, and things seemed to work as expected.  Side note, I got added as a

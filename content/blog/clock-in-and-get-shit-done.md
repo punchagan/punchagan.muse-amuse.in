@@ -1,9 +1,9 @@
-+++
-title = "Clock in and get-shit-done"
-date = "2015-12-22T00:00:00+05:30"
-tags = ["blag", "emacs", "orgmode"]
-draft = false
-+++
+---
+title : "Clock in and get-shit-done"
+date : "2015-12-22T00:00:00+05:30"
+tags : ["blag", "emacs", "orgmode"]
+draft : false
+---
 
 I had [setup](./simple-org-clock-and-gnomepidgin-integration.html) a couple of hooks about an year ago that turn off all notifications
 while I'm clocking in. But, I find myself switching to the browser and jumping

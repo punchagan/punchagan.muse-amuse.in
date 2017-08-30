@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-06-18"
-date = 2014-06-18T10:29:29-04:00
-tags = ["elm", "haskell", "vm"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-18"
+date : 2014-06-18T10:29:29-04:00
+tags : ["elm", "haskell", "vm"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Amber [talked about](http://www.subsymbol.org/2014/06/hacker-school-tuesday-june-17th-2014.html) "exploring only until the current task is done"
     and moving on, which is could really be a lost opportunity to learn

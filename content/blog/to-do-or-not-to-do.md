@@ -1,11 +1,10 @@
-+++
-title = "To do or not to do"
-date = "2009-04-22T00:00:00+05:30"
-tags = ["blab", "inspiration", "life", "poem"]
-draft = false
-+++
+---
+title : "To do or not to do"
+date : "2009-04-22T00:00:00+05:30"
+tags : ["blab", "inspiration", "life", "poem"]
+draft : false
+---
 
-<p class="verse">
 Achieve something, I'm often reminded,<br />
 achieve something, something that's worthwhile.<br />
 Don't just kill time, they say,<br />
@@ -29,7 +28,6 @@ teach you to do things that are right<br />
 and at the end of it all, you'll<br />
 never regret what you've done<br />
 but, only what you couldn't!<br />
-</p>
 
 ----
 

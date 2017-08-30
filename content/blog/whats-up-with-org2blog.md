@@ -1,9 +1,9 @@
-+++
-title = "What's up with org2blog?"
-date = "2011-01-15T00:00:00+05:30"
-tags = ["org2blog", "wordpress"]
-draft = false
-+++
+---
+title : "What's up with org2blog?"
+date : "2011-01-15T00:00:00+05:30"
+tags : ["org2blog", "wordpress"]
+draft : false
+---
 
 Another post on `org2blog`.  Yes, the project is still alive. ;)
 Well, frankly quite a few people seem to be using it, and I

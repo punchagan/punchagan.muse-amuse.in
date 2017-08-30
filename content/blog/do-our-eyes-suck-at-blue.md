@@ -1,9 +1,9 @@
-+++
-title = "Do our eyes suck at blue?"
-date = "2010-11-13T00:00:00+05:30"
-tags = ["fun", "hack", "image_processing", "python"]
-draft = false
-+++
+---
+title : "Do our eyes suck at blue?"
+date : "2010-11-13T00:00:00+05:30"
+tags : ["fun", "hack", "image-processing", "python"]
+draft : false
+---
 
 This is some fun I had, trying to replicate what was written in
 this post. I had been trying to understand what was happening

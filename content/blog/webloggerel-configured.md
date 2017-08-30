@@ -1,9 +1,9 @@
-+++
-title = "Weblogger.el configured!"
-date = "2009-03-19T00:00:00+05:30"
-tags = ["emacs", "ology"]
-draft = false
-+++
+---
+title : "Weblogger.el configured!"
+date : "2009-03-19T00:00:00+05:30"
+tags : ["emacs", "ology"]
+draft : false
+---
 
 If you see this post, it means weblogger has been successfully
 configured in emacs.  Emacs Rocks. \m/

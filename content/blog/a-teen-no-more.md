@@ -1,9 +1,9 @@
-+++
-title = "A Teen, No more."
-date = "2007-10-16T00:00:00+05:30"
-tags = ["birthday", "blab"]
-draft = false
-+++
+---
+title : "A Teen, No more."
+date : "2007-10-16T00:00:00+05:30"
+tags : ["birthday", "blab"]
+draft : false
+---
 
 As I start this post, the rear-part of my body aches, after a nice
 thrashing from the hostel junta. Apparently this is my gift on

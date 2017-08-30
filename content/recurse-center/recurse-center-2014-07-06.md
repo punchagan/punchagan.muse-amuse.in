@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-06"
-date = 2014-07-07T23:28:39-04:00
-tags = ["code", "python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-06"
+date : 2014-07-07T23:28:39-04:00
+tags : ["code", "python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 I took it easy during the weekend, and went on a nice camp with my a cousin's
 family to TobyHanna State Park for a day or so, and spent the remaining (long)

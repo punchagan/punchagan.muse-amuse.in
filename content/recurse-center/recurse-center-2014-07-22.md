@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-07-22"
-date = 2014-07-22T10:46:36-04:00
-tags = ["learning", "python", "raspberry_pi"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-07-22"
+date : 2014-07-22T10:46:36-04:00
+tags : ["learning", "python", "raspberry-pi"]
+categories : ["recursecenter"]
+draft : false
+---
 
 ## Mel's talks {#mel-s-talks}
 

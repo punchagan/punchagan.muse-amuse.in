@@ -1,10 +1,10 @@
-+++
-title = "Recurse Center, 2014-08-18"
-date = 2014-08-19T13:11:49-04:00
-tags = ["elixir", "python"]
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-08-18"
+date : 2014-08-19T13:11:49-04:00
+tags : ["elixir", "python"]
+categories : ["recursecenter"]
+draft : false
+---
 
 -   I refactored the API-diff code, and am pretty happy with what I have right
     now, and need to add support for diffing Classes. I'm considering using

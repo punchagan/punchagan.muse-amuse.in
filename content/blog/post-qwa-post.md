@@ -1,9 +1,9 @@
-+++
-title = "Post-Q,W,A Post"
-date = "2008-03-23T00:00:00+05:30"
-tags = ["blab", "fest", "quark"]
-draft = false
-+++
+---
+title : "Post-Q,W,A Post"
+date : "2008-03-23T00:00:00+05:30"
+tags : ["blab", "fest", "quark"]
+draft : false
+---
 
 Back again with another khichdi of a post.
 

@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/11/04]"
-date = "2013-11-04T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/11/04]"
+date : "2013-11-04T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [bash   What are the special dollar sign shell variables?   Stack Overflow](http://stackoverflow.com/questions/5163144/what-are-the-special-dollar-sign-shell-variables)
     -   Positional parameters $1,$2,$3… and their corresponding array

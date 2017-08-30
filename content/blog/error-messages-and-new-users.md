@@ -1,9 +1,9 @@
-+++
-title = "Error messages and new users"
-date = "2016-05-17T00:00:00+05:30"
-tags = ["blab", "programming", "software", "user_experience"]
-draft = false
-+++
+---
+title : "Error messages and new users"
+date : "2016-05-17T00:00:00+05:30"
+tags : ["blab", "programming", "software", "user-experience"]
+draft : false
+---
 
 I was helping a friend of mine setup [his blog](http://jajoosam.github.io) and we were trying to use [Hexo](http://hexo.io) --
 a static site generator.  We chose a Javascript based tool since he's trying to

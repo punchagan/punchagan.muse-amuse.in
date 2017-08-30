@@ -1,9 +1,9 @@
-+++
-title = "Shoot!"
-date = "2009-12-23T00:00:00+05:30"
-tags = ["blab", "camera"]
-draft = false
-+++
+---
+title : "Shoot!"
+date : "2009-12-23T00:00:00+05:30"
+tags : ["blab", "camera"]
+draft : false
+---
 
 I've been caught "shooting" with a camera and looked upon as
 'terrorist' material. Not once or twice, but 4 times, at 3

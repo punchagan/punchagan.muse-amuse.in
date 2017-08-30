@@ -1,9 +1,9 @@
-+++
-title = "Aluva to Mumbai"
-date = "2010-08-03T00:00:00+05:30"
-tags = ["note"]
-draft = false
-+++
+---
+title : "Aluva to Mumbai"
+date : "2010-08-03T00:00:00+05:30"
+tags : ["note"]
+draft : false
+---
 
 Heavy down-pour and landslides caused our train to be delayed by
 over 12 hours. But the journey was on the whole enjoyable.

@@ -1,9 +1,9 @@
-+++
-title = "Mathematics and Me"
-date = "2007-03-06T00:00:00+05:30"
-tags = ["blab", "math"]
-draft = false
-+++
+---
+title : "Mathematics and Me"
+date : "2007-03-06T00:00:00+05:30"
+tags : ["blab", "math"]
+draft : false
+---
 
 Imagine a kid reading Shakespeare's Othello or As You Like
 it...[or may be some other classic poem...] with great difficulty

@@ -1,9 +1,9 @@
-+++
-title = "PS Ramblings"
-date = "2007-07-18T00:00:00+05:30"
-tags = ["blab", "ps"]
-draft = false
-+++
+---
+title : "PS Ramblings"
+date : "2007-07-18T00:00:00+05:30"
+tags : ["blab", "ps"]
+draft : false
+---
 
 Note: This post isn't of much use to others (may be the same with
 other posts too.. :P) Just a few ramblings of the 2 month stay @

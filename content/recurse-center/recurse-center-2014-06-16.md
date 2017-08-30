@@ -1,10 +1,9 @@
-+++
-title = "Recurse Center, 2014-06-16"
-date = 2014-06-16T10:09:08-04:00
-tags = []
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-16"
+date : 2014-06-16T10:09:08-04:00
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Didn't do anything during the weekend.  Hopefully, this won't be the
     case all of the weekends.  I had fun with my cousins, though.

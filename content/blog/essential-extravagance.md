@@ -1,9 +1,9 @@
-+++
-title = "Essential-Extravagance??!!"
-date = "2007-03-10T00:00:00+05:30"
-tags = ["blab", "fest", "life", "money"]
-draft = false
-+++
+---
+title : "Essential-Extravagance??!!"
+date : "2007-03-10T00:00:00+05:30"
+tags : ["blab", "fest", "life", "money"]
+draft : false
+---
 
 A DJ nite's going on here.. for WAVES.... I just went there for a
 while....  The arrangements were pretty good... with Huge huge

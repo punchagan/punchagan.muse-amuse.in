@@ -1,9 +1,9 @@
-+++
-title = "Selling Temples -- A How-to"
-date = "2012-04-10T00:00:00+05:30"
-tags = ["humour", "india", "people"]
-draft = false
-+++
+---
+title : "Selling Temples -- A How-to"
+date : "2012-04-10T00:00:00+05:30"
+tags : ["humour", "india", "people"]
+draft : false
+---
 
 Disclaimer: All characters appearing in this work are divine.  Any
 resemblance to real or divine persons, living or dead, is purely

@@ -1,10 +1,10 @@
-+++
-title = "Google Trends, Clickbaits, and PV Sindhu"
-date = "2016-08-20T00:00:00+05:30"
-tags = ["blag", "data", "india", "internet", "news", "statistics"]
-draft = false
-best = true
-+++
+---
+title : "Google Trends, Clickbaits, and PV Sindhu"
+date : "2016-08-20T00:00:00+05:30"
+tags : ["blag", "data", "india", "internet", "news", "statistics"]
+draft : false
+best : true
+---
 
 TL;DR
 

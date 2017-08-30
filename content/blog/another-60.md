@@ -1,9 +1,9 @@
-+++
-title = "Another 60 ..."
-date = "2010-07-18T00:00:00+05:30"
-tags = ["blab", "cycling", "herohawk", "mumbai", "nomadic"]
-draft = false
-+++
+---
+title : "Another 60 ..."
+date : "2010-07-18T00:00:00+05:30"
+tags : ["blab", "cycling", "herohawk", "mumbai", "nomadic"]
+draft : false
+---
 
 ~~I'd~~ We had been on a 60 km long trip today. My second one, and
 Ritesh's first. The map of our route is here. On the whole the ride

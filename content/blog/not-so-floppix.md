@@ -1,9 +1,9 @@
-+++
-title = "Not so Floppix..."
-date = "2007-12-11T00:00:00+05:30"
-tags = ["emacs", "lafootgiri", "ology"]
-draft = false
-+++
+---
+title : "Not so Floppix..."
+date : "2007-12-11T00:00:00+05:30"
+tags : ["emacs", "lafootgiri", "ology"]
+draft : false
+---
 
 **Disambiguation:** The original Linux on 2 Floppies is here.
 

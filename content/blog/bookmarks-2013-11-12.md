@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/11/12]"
-date = "2013-11-12T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/11/12]"
+date : "2013-11-12T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Fuse.js | K. Risk   JavaScript Refined](http://kiro.me/projects/fuse.html)
 

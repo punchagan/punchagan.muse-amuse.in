@@ -1,9 +1,9 @@
-+++
-title = "Windows©, Doors or Homes!??!"
-date = "2007-04-01T00:00:00+05:30"
-tags = ["blog", "ology", "rms", "song"]
-draft = false
-+++
+---
+title : "Windows©, Doors or Homes!??!"
+date : "2007-04-01T00:00:00+05:30"
+tags : ["blog", "ology", "rms", "song"]
+draft : false
+---
 
 A couple of days back.. one guy called green<sub>mamba</sub> asked me.. "Why
 do you use Linux (GNU/Linux) and not Windows? What is it that
@@ -30,7 +30,6 @@ Software... [Free as in Freedom, not as in Free Beer...(English is
 a wierd wierd Language...)]... The philosophy of Open
 Source... that brought me to it... This song says it the best...
 
-<p class="verse">
 Free Software Song --RMS<br />
 <br />
 Join us now and share the software;<br />
@@ -54,7 +53,6 @@ You'll be free, hackers, you'll be free.<br />
 <br />
 Join us now and share the software;<br />
 You'll be free, hackers, you'll be free.<br />
-</p>
 
 now I continue to use it.. for a variety of reasons..[they are NOT
 in the order of their priority/importance]

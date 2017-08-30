@@ -1,9 +1,9 @@
-+++
-title = "Eber-yone!?!"
-date = "2007-05-06T00:00:00+05:30"
-tags = ["blab", "exams"]
-draft = false
-+++
+---
+title : "Eber-yone!?!"
+date : "2007-05-06T00:00:00+05:30"
+tags : ["blab", "exams"]
+draft : false
+---
 
 Exam time now. Sleep time cut-down! [already compensated for,
 during the whole semester! :D] Getting up quite early during these

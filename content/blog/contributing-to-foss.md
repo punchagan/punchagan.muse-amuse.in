@@ -1,9 +1,9 @@
-+++
-title = "Contributing to FOSS"
-date = "2010-08-19T00:00:00+05:30"
-tags = ["contribute", "foss", "howto", "newbie", "note"]
-draft = false
-+++
+---
+title : "Contributing to FOSS"
+date : "2010-08-19T00:00:00+05:30"
+tags : ["contribute", "foss", "howto", "newbie", "note"]
+draft : false
+---
 
 gora asked for some good links (on ##linux-india) to redirect
 newbies, enthusiastic about contributing to FOSS.

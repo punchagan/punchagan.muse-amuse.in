@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/10/25]"
-date = "2013-10-25T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/10/25]"
+date : "2013-10-25T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Basic stuff I should be able to… | music muse amuse](http://filecalledlife.wordpress.com/2013/08/24/basic-stuff-i-should-be-able-to/)
 

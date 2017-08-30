@@ -1,9 +1,9 @@
-+++
-title = "Blogging with Nikola and Org-mode"
-date = "2013-10-16T00:00:00+05:30"
-tags = ["blog", "hack", "orgmode"]
-draft = false
-+++
+---
+title : "Blogging with Nikola and Org-mode"
+date : "2013-10-16T00:00:00+05:30"
+tags : ["blog", "hack", "orgmode"]
+draft : false
+---
 
 Sigh! I made yet another change to the way this blog gets published.
 But, I have a feeling this mechanism, is here to stay!

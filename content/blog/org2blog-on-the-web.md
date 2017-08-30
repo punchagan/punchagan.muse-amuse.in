@@ -1,9 +1,9 @@
-+++
-title = "org2blog on the web"
-date = "2010-08-29T00:00:00+05:30"
-tags = ["blab", "list", "ology", "org2blog", "web"]
-draft = false
-+++
+---
+title : "org2blog on the web"
+date : "2010-08-29T00:00:00+05:30"
+tags : ["blab", "list", "ology", "org2blog", "web"]
+draft : false
+---
 
 Well, it's been a week of lull on my blog.  Not that I'm very
 busy.  But, just didn't have anything to post.  I was feeling jobless

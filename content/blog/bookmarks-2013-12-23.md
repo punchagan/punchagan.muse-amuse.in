@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/12/23]"
-date = "2013-12-23T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/12/23]"
+date : "2013-12-23T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [The Quad - Timeline Photos | Facebook](https://www.facebook.com/photo.php?fbid=668783136478484&l=67fdeeba98)
 

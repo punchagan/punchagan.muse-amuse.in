@@ -1,10 +1,9 @@
-+++
-title = "Recurse Center, 2014-06-19"
-date = 2014-06-19T09:53:10-04:00
-tags = []
-categories = ["recursecenter"]
-draft = false
-+++
+---
+title : "Recurse Center, 2014-06-19"
+date : 2014-06-19T09:53:10-04:00
+categories : ["recursecenter"]
+draft : false
+---
 
 -   Yesterday was a bit more wandering than usual.  I still have to
     finish (actually, start) the last chapter in the UPenn course

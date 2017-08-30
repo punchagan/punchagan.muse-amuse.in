@@ -1,9 +1,9 @@
-+++
-title = "Super Power Play"
-date = "2010-03-13T00:00:00+05:30"
-tags = ["blab", "cricket", "money"]
-draft = false
-+++
+---
+title : "Super Power Play"
+date : "2010-03-13T00:00:00+05:30"
+tags : ["blab", "cricket", "money"]
+draft : false
+---
 
 My first Cricket match in a stadium. I regret that it was a
 T-20. I'm happy, though, to have got the darshan of bhaiyya a.k.a

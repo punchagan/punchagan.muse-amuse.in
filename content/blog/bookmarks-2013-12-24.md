@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/12/24]"
-date = "2013-12-24T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/12/24]"
+date : "2013-12-24T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Getting Started with Machine Learning » Thunderbolt Labs](http://thunderboltlabs.com/blog/2013/11/09/getting-started-with-machine-learning/)
 
@@ -42,7 +41,7 @@ draft = false
 
 -   [How can I list all tags in my Git repository by the date they were created? - Stack Overflow](http://stackoverflow.com/questions/6269927/how-can-i-list-all-tags-in-my-git-repository-by-the-date-they-were-created)
 
-    `git for-each-ref --sort=taggerdate --format '%(refname) %(taggerdate)' refs/tags`
+    <kbd>git for-each-ref --sort=taggerdate --format '%(refname) %(taggerdate)' refs/tags</kbd>
 
 -   [How To Lose Yourself | Thought Catalog](http://thoughtcatalog.com/brianna-wiest/2013/12/how-to-lose-yourself/)
 

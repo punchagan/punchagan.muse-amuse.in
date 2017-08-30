@@ -1,9 +1,9 @@
-+++
-title = "Happy Makar Sankranti"
-date = "2010-01-14T00:00:00+05:30"
-tags = ["blab"]
-draft = false
-+++
+---
+title : "Happy Makar Sankranti"
+date : "2010-01-14T00:00:00+05:30"
+tags : ["blab"]
+draft : false
+---
 
 {{<figure src="//www.google.co.in/logos/kitefestival2009-hp.gif">}}
 

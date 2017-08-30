@@ -1,9 +1,9 @@
-+++
-title = "Effortful things"
-date = "2016-06-11T00:00:00+05:30"
-tags = ["blab", "blag", "learning", "life"]
-draft = false
-+++
+---
+title : "Effortful things"
+date : "2016-06-11T00:00:00+05:30"
+tags : ["blab", "blag", "learning", "life"]
+draft : false
+---
 
 That dense book you want to read but has been lying on your desk while you
 procrastinate on twitter. You know you'll have to tune everything else out,

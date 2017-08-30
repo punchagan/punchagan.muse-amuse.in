@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2013/11/20]"
-date = "2013-11-20T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2013/11/20]"
+date : "2013-11-20T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [When Success Comes To You Easily | Amitbanerjee.net](http://amitbanerjee.net/complacency/)
 

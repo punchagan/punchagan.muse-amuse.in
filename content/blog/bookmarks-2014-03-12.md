@@ -1,10 +1,9 @@
-+++
-title = "Bookmarks [2014/03/12]"
-date = "2014-03-12T00:00:00+05:30"
-tags = []
-categories = ["bookmarks"]
-draft = false
-+++
+---
+title : "Bookmarks [2014/03/12]"
+date : "2014-03-12T00:00:00+05:30"
+categories : ["bookmarks"]
+draft : false
+---
 
 -   [Never judge a programmer by their commit history - Mehdi Khalili](http://www.mehdi-khalili.com/never-judge-a-programmer-by-their-commit-history#.UwiURItePPo.hackernews)
 

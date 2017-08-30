@@ -1,9 +1,9 @@
-+++
-title = "Let there be light, in skype!"
-date = "2014-03-29T00:00:00+05:30"
-tags = ["hack", "linux"]
-draft = false
-+++
+---
+title : "Let there be light, in skype!"
+date : "2014-03-29T00:00:00+05:30"
+tags : ["hack", "linux"]
+draft : false
+---
 
 At home, my video would always show a silhouette in G+ and Skype, and
 I always thought that this was because the lighting at home was not
