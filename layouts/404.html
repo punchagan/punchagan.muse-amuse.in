@@ -5,7 +5,7 @@
         <div class="content">
             <div class="num">404</div>
             <div class="detail">Sorry, this page does not exist.</div>
-            <div class="suggestion"><a href="/">Visit home page</a></div>
+            <div class="suggestion"><a href="/">Loading suggestions ...</a></div>
         </div>
     </div>
 </section>
@@ -32,8 +32,8 @@
      }
  };
 
- var loading_suggestions = function(done){
-     document.querySelector('.suggestion > a').text = done ? 'Visit home page': 'Loading suggestions...';
+ var no_suggestions = function(){
+     document.querySelector('.suggestion > a').text = 'Visit home page';
  };
 
  var show_results = function(entries) {
@@ -55,7 +55,6 @@
      });
  };
 
- loading_suggestions();
  var pages = [];
  {{range .Site.Pages}}
  pages.push({
@@ -75,6 +74,6 @@
  if (results.length > 0) {
      show_results(results);
  } else {
-     loading_suggestions(true);
+     no_suggestions();
 };
 </script>
