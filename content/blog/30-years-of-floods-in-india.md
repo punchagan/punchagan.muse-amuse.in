@@ -11,8 +11,10 @@ Inspired by [this post](https://www.axios.com/thirty-years-of-major-flooding-in-
 similar graphic for India. You can find an interactive version [here](https://punchagan.github.io/data-projects/30-years-floods/) -- hovering
 over each flooding, shows some more information about the event.
 
--   The graphic uses flooding related data from the [Dartmouth Flood Observatory](http://www.dartmouth.edu/~floods/Archives/index.html).
--   The data for 2017 events may not be up-to date.
+-   The graphic uses flooding related data from the [Dartmouth Flood Observatory](http://www.dartmouth.edu/~floods/Archives/index.html)
+-   The data for 2017 events is not up-to date.
+-   It is very likely that there is some missing data, and some inaccuracies in
+    the data. 1987, for instance, doesn't show the [Bihar flood](https://en.wikipedia.org/wiki/1987_Bihar_flood).
 -   The flood severity is indicated by the color of each shape
 -   Each shape represents the [geographic flood extents](http://www.dartmouth.edu/~floods/Archives/ArchiveNotes.html) - based on information
     obtained from news sources.
