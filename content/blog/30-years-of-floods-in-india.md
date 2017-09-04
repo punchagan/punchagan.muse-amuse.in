@@ -51,6 +51,17 @@ india_features = [
 ]
 data['features'] = india_features
 
+# FIX some names in the data
+NAME_FIXES = [
+    ('Tropical Storm K', 'Tropical Storm Komen'),
+    ('Tropical Storm Hudhug', 'Tropical Storm Hudhud'),
+]
+for feature in india_features:
+    for name, fix in NAME_FIXES:
+        cause = feature['properties']['MAINCAUSE']
+        if name in cause:
+            feature['properties']['MAINCAUSE'] = cause.replace(name, fix)
+
 with open('india-floods.json', 'w', encoding='latin-1') as f:
     json.dump(data, f)
 ```
