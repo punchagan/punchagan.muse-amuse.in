@@ -5,7 +5,7 @@ tags : ["data", "visualization", "climate", "blag"]
 draft : false
 ---
 
-{{<figure src="/images/30-years-flooding.png">}}
+{{<figure src="/images/30-years-floods-cyclone-names.png">}}
 
 Inspired by [this post](https://www.axios.com/thirty-years-of-major-flooding-in-the-united-states-2479957846.html) showing the major flooding events in the US, I created a
 similar graphic for India. You can find an interactive version [here](https://punchagan.github.io/data-projects/30-years-floods/) -- hovering
