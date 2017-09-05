@@ -20,6 +20,7 @@ highlightjs = true
 powered_by = false
 show_menu = true
 progressively = true
+social_banner="images/social_banner.jpg"
 
 author = ""
 description = ""
