@@ -1,6 +1,7 @@
 footnoteReturnLinkContents = "↩"
 disqusShortname = "rusticreverie"
 title = "Noetic Nought"
+description = "Punch's home on the web"
 enableRobotsTXT = true
 SectionPagesMenu = "main"
 languageCode = "en-US"
