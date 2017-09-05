@@ -1,8 +1,10 @@
 ---
 title : "30 years of floods in India"
+description : "A visualization of 30 odd years of floods in India"
 date : "2017-09-03T19:01:00+05:30"
 tags : ["data", "visualization", "climate", "blag"]
 draft : false
+meta_img : "images/30-years-floods-cyclone-names.png"
 ---
 
 {{<figure src="/images/30-years-floods-cyclone-names.png">}}
