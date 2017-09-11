@@ -3,7 +3,7 @@ title : "Blog trends from word clouds"
 description : "Year wise Word clouds for my blog posts"
 date : "2017-09-11T22:15:00+05:30"
 tags : ["data", "visualization", "blog", "blag"]
-draft : true
+draft : false
 meta_img : "images/word-cloud-top.gif"
 ---
 
@@ -24,12 +24,11 @@ The word cloud doesn't seem very useful or insightful, but was fun to generate.
 Each year's cloud seems to have some words that gives me a sense of some major
 events/themes for that year, though it may not be very apparent to anybody other
 than me.
-The years with a lot of posts, seem to have clear winners, but the words turned
-out to be very generic. For example, 2007 has words that are huge -- repeating a
-lot of times, but they turn out to be words like "life", "time", etc.
 
-To try to get rid of the generic words in the word cloud, I tried a quick and
-dirty `tf-idf` based word-cloud, but it didn't really seem to help.
+The years which have a lot of posts have clear winners, but the winning words
+are quite generic. For example, 2007 has words like "life", "time", etc., as
+winners. To try to get rid of the generic words in the word cloud, I tried a
+quick and dirty `tf-idf` based word-cloud, but it didn't really seem to help.
 
 {{<figure src="/images/word-cloud-tfidf.gif">}}
 
