@@ -1,7 +1,7 @@
 ---
 title : "Emacs frame as a pop-up input"
 date : "2017-09-14T22:26:00+05:30"
-tags : ["emacs", "hack", "life", "writing"]
+tags : ["emacs", "hack", "life", "writing", "blag"]
 draft : false
 meta_img : "images/emacs-frame.png"
 ---
