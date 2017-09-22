@@ -2,7 +2,7 @@
 title : "Prime Ministers of India - Simple d3 timeline"
 date : "2017-09-21T21:25:00+05:30"
 tags : ["india", "visualization", "blag", "project"]
-draft : true
+draft : false
 meta_img : "images/prime-ministers-of-india.png"
 ---
 
