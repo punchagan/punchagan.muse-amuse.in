@@ -1,6 +1,7 @@
 ---
 title : "HT interactives"
 date : 2017-09-28T00:46:00+05:30
+tags : ["blab", "writing", "data", "india", "visualization"]
 draft : false
 ---
 
