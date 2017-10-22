@@ -8,6 +8,7 @@ languageCode = "en-US"
 baseurl = "https://punchagan.muse-amuse.in/"
 theme = "cocoa-eh"
 paginate = 10000
+summaryLength = 100000
 rssLimit = 25
 googleAnalytics = "UA-21111013-1"
 canonifyURLs = true
