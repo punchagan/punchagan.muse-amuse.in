@@ -1,6 +1,7 @@
 ---
 title : "Quotes"
-date : "2016-12-19T00:00:00+05:30"
+date : 2016-12-19T00:00:00+05:30
+tags : ["nav"]
 draft : false
 ---
 
