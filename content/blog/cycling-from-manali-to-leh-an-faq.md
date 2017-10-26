@@ -1,8 +1,13 @@
 ---
 title : "Cycling from Manali to Leh - An FAQ"
+description : "Some memories, notes, tips and advice from our attempt at cycling from Manali to Leh"
 date : 2017-10-26T12:55:00+05:30
 draft : false
+meta_img : "images/baralachala.jpg"
 ---
+
+{{<figure src="/images/baralachala.jpg">}}
+
 
 ## So, you cycled from Manali to Leh? {#so-you-cycled-from-manali-to-leh}
 
