@@ -2,11 +2,43 @@
 title : "Cycling from Manali to Leh - An FAQ"
 description : "Some memories, notes, tips and advice from our attempt at cycling from Manali to Leh"
 date : 2017-10-26T12:55:00+05:30
+tags : ["cycling", "himalaya", "travel", "blag", "life"]
 draft : false
 meta_img : "images/baralachala.jpg"
 ---
 
 {{<figure src="/images/baralachala.jpg">}}
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ol>
+<li><a href="#so-you-cycled-from-manali-to-leh">So, you cycled from Manali to Leh?</a></li>
+<li><a href="#who-is-we">Who is "we"?</a></li>
+<li><a href="#how-did-you-decide-to-do-this"> How did you decide to do this?</a></li>
+<li><a href="#what-is-the-maximum-elevation-you-cycled-to"> What is the maximum elevation you cycled to?</a></li>
+<li><a href="#how-long-did-the-whole-ride-take"> How long did the whole ride take?</a></li>
+<li><a href="#was-it-really-hard-why-couldn-t-you-finish-the-ride"> Was it really hard? Why couldn't you finish the ride?</a></li>
+<li><a href="#so-you-do-really-need-a-support-vehicle"> So, you do really need a support vehicle?</a></li>
+<li><a href="#how-much-did-the-support-vehicle-cost-you"> How much did the support vehicle cost you?</a></li>
+<li><a href="#did-you-carry-your-own-bikes"> Did you carry your own bikes?</a></li>
+<li><a href="#did-the-flights-charge-you-for-the-bikes"> Did the flights charge you for the bikes?</a></li>
+<li><a href="#would-you-recommend-me-to-carry-my-bike"> Would you recommend me to carry my bike?</a></li>
+<li><a href="#what-cycle-spares-tools-did-you-carry"> What cycle spares/tools did you carry?</a></li>
+<li><a href="#what-sort-of-preparation-did-you-do-for-this-ride"> What sort of preparation did you do for this ride?</a></li>
+<li><a href="#can-you-share-your-ride-plan"> Can you share your ride plan?</a></li>
+<li><a href="#what-we-actually-rode"> What was a typical day during the trip, like?</a></li>
+<li><a href="#original-plan"> What was the most enjoyable part of the ride?</a></li>
+<li><a href="#what-was-a-typical-day-during-the-trip-like"> What was the most challenging part of the ride?</a></li>
+<li><a href="#what-was-the-most-enjoyable-part-of-the-ride"> You keep saying it was cold, how cold was it really?</a></li>
+<li><a href="#what-was-the-most-challenging-part-of-the-ride"> Did you meet any interesting people en-route?</a></li>
+<li><a href="#you-keep-saying-it-was-cold-how-cold-was-it-really"> Would you do this again?</a></li>
+<li><a href="#did-you-meet-any-interesting-people-en-route"> If yes, which part of the year would you do it?</a></li>
+<li><a href="#would-you-do-this-again"> If not, what other routes would you try?</a></li>
+<li><a href="#if-yes-which-part-of-the-year-would-you-do-it"> Do you have any pictures that you can share?</a></li>
+</ol>
+</div>
+</div>
 
 
 ## So, you cycled from Manali to Leh? {#so-you-cycled-from-manali-to-leh}
@@ -203,6 +235,8 @@ climbs during this ride much less steeper than some of the Kalhatti ones.
     ahead of us to finish the day.
 -   It was humbing to see all the BRO folks working to keep the roads open and
     functional! A big salute to them!
+-   Each time we had a truck or some bikers pass by, we would wave at them or show
+    thumbs up, and it would give us some additional energy to keep pushing ahead.
 -   The tree covered road in Sissu was just mind blowingly beautiful, with all the
     trees golden and yellow, preparing for the fall.
 -   It was also nice to turn 30, in the hills. Vivek tried to make it as special,
