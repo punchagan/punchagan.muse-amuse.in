@@ -1,6 +1,7 @@
 ---
 title : "Cycling from Manali to Leh - An FAQ"
-draft : true
+date : 2017-10-26T12:55:00+05:30
+draft : false
 ---
 
 ## So, you cycled from Manali to Leh? {#so-you-cycled-from-manali-to-leh}
@@ -95,9 +96,14 @@ You'll have to make arrangements to get the bike returned back to the place you
 rent it from -- this can get a little tricky.
 
 If you already own a bike, and can it packed in a proper box, I would highly
-recommend that. We hadn't paid enough attention to packing our bikes, and one of
-our bikes took quite some beating on the way to Delhi. On the way back, we
-managed to get the bike packed in a box and it was a breeze.
+recommend that. The derailleurs, the shifters, and other such moving parts need
+to be well packed and guarded. Use a box or a cycling bag to put it in. Get
+professional help from a cycle retailer nearby, if required. This is one thing
+you cannot take any chances on, or your whole trip may be jeopardized!
+
+We hadn't paid enough attention to packing our bikes, and one of our bikes took
+quite some beating on the way to Delhi. On the way back, we managed to get the
+bike packed in a box and it was a breeze.
 
 
 ## What cycle spares/tools did you carry? {#what-cycle-spares-tools-did-you-carry}
@@ -226,6 +232,13 @@ winds during the day were quite chilly, and got worse as we gained altitude.
 -   All the aachos and aamas in the shops/guest houses/etc that we went to were
     really nice to us. Most of the folks in the shops were planning to leave in a
     few days after we had met them since it had gotten really cold.
+
+-   We had our camp-site at Marhi in the compound of a HP state guest house. The
+    care taker walks up to us, while we are setting up the tent, and says, "Idhar
+    kahi par bhi baithna mana hai, 10 hazaar ka fine lag jaayega. Udhar toilet
+    bana hua hai", pointing to the public toilets in a distance, "paisa nahi
+    lagega". We had a good laugh, and ended up wondering if it was Swach Bharat
+    showing some effect.
 
 We probably would've talked to a lot more people, and met a lot more interesting
 people, if we were there in better weather and didn't have a support vehicle
