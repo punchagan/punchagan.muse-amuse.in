@@ -5,6 +5,7 @@ date : 2017-10-26T12:55:00+05:30
 tags : ["cycling", "himalaya", "travel", "blag", "life"]
 draft : false
 meta_img : "images/baralachala.jpg"
+best : true
 ---
 
 {{<figure src="/images/baralachala.jpg">}}
