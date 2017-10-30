@@ -233,7 +233,7 @@ climbs during this ride much less steeper than some of the Kalhatti ones.
 -   The feeling of reaching the top of passes was quite thrilling, for both
     Rohtang and Baralacha La. Nakee La, not so much, since we still had about 30km
     ahead of us to finish the day.
--   It was humbing to see all the BRO folks working to keep the roads open and
+-   It was humbling to see all the BRO folks working to keep the roads open and
     functional! A big salute to them!
 -   Each time we had a truck or some bikers pass by, we would wave at them or show
     thumbs up, and it would give us some additional energy to keep pushing ahead.
@@ -294,7 +294,7 @@ noise on the road.
 
 ## If yes, which part of the year would you do it? {#if-yes-which-part-of-the-year-would-you-do-it}
 
-Late August or mid-September might be a better time. We'd also need to look out
+Late August to mid-September might be a better time. We'd also need to look out
 for rains and land-slides, though.
 
 
