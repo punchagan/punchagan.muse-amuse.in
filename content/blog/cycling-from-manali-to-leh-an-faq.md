@@ -10,36 +10,32 @@ best : true
 
 {{<figure src="/images/baralachala.jpg">}}
 
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ol>
-<li><a href="#so-you-cycled-from-manali-to-leh">So, you cycled from Manali to Leh?</a></li>
-<li><a href="#who-is-we">Who is "we"?</a></li>
-<li><a href="#how-did-you-decide-to-do-this"> How did you decide to do this?</a></li>
-<li><a href="#what-is-the-maximum-elevation-you-cycled-to"> What is the maximum elevation you cycled to?</a></li>
-<li><a href="#how-long-did-the-whole-ride-take"> How long did the whole ride take?</a></li>
-<li><a href="#was-it-really-hard-why-couldn-t-you-finish-the-ride"> Was it really hard? Why couldn't you finish the ride?</a></li>
-<li><a href="#so-you-do-really-need-a-support-vehicle"> So, you do really need a support vehicle?</a></li>
-<li><a href="#how-much-did-the-support-vehicle-cost-you"> How much did the support vehicle cost you?</a></li>
-<li><a href="#did-you-carry-your-own-bikes"> Did you carry your own bikes?</a></li>
-<li><a href="#did-the-flights-charge-you-for-the-bikes"> Did the flights charge you for the bikes?</a></li>
-<li><a href="#would-you-recommend-me-to-carry-my-bike"> Would you recommend me to carry my bike?</a></li>
-<li><a href="#what-cycle-spares-tools-did-you-carry"> What cycle spares/tools did you carry?</a></li>
-<li><a href="#what-sort-of-preparation-did-you-do-for-this-ride"> What sort of preparation did you do for this ride?</a></li>
-<li><a href="#can-you-share-your-ride-plan"> Can you share your ride plan?</a></li>
-<li><a href="#what-we-actually-rode"> What was a typical day during the trip, like?</a></li>
-<li><a href="#original-plan"> What was the most enjoyable part of the ride?</a></li>
-<li><a href="#what-was-a-typical-day-during-the-trip-like"> What was the most challenging part of the ride?</a></li>
-<li><a href="#what-was-the-most-enjoyable-part-of-the-ride"> You keep saying it was cold, how cold was it really?</a></li>
-<li><a href="#what-was-the-most-challenging-part-of-the-ride"> Did you meet any interesting people en-route?</a></li>
-<li><a href="#you-keep-saying-it-was-cold-how-cold-was-it-really"> Would you do this again?</a></li>
-<li><a href="#did-you-meet-any-interesting-people-en-route"> If yes, which part of the year would you do it?</a></li>
-<li><a href="#would-you-do-this-again"> If not, what other routes would you try?</a></li>
-<li><a href="#if-yes-which-part-of-the-year-would-you-do-it"> Do you have any pictures that you can share?</a></li>
-</ol>
-</div>
-</div>
+
+## Table of Contents
+
+1.  [So, you cycled from Manali to Leh?](#so-you-cycled-from-manali-to-leh)
+2.  [Who is "we"?](#who-is-we)
+3.  [How did you decide to do this?](#how-did-you-decide-to-do-this)
+4.  [What is the maximum elevation you cycled to?](#what-is-the-maximum-elevation-you-cycled-to)
+5.  [How long did the whole ride take?](#how-long-did-the-whole-ride-take)
+6.  [Was it really hard? Why couldn't you finish the ride?](#was-it-really-hard-why-couldn-t-you-finish-the-ride)
+7.  [So, you do really need a support vehicle?](#so-you-do-really-need-a-support-vehicle)
+8.  [How much did the support vehicle cost you?](#how-much-did-the-support-vehicle-cost-you)
+9.  [Did you carry your own bikes?](#did-you-carry-your-own-bikes)
+10. [Did the flights charge you for the bikes?](#did-the-flights-charge-you-for-the-bikes)
+11. [Would you recommend me to carry my bike?](#would-you-recommend-me-to-carry-my-bike)
+12. [What cycle spares/tools did you carry?](#what-cycle-spares-tools-did-you-carry)
+13. [What sort of preparation did you do for this ride?](#what-sort-of-preparation-did-you-do-for-this-ride)
+14. [Can you share your ride plan?](#can-you-share-your-ride-plan)
+15. [What was a typical day during the trip, like?](#what-was-a-typical-day-during-the-trip-like)
+16. [What was the most enjoyable part of the ride?](#what-was-the-most-enjoyable-part-of-the-ride)
+17. [What was the most challenging part of the ride?](#what-was-the-most-challenging-part-of-the-ride)
+18. [You keep saying it was cold, how cold was it really?](#you-keep-saying-it-was-cold-how-cold-was-it-really)
+19. [Did you meet any interesting people en-route?](#did-you-meet-any-interesting-people-en-route)
+20. [Would you do this again?](#would-you-do-this-again)
+21. [If yes, which part of the year would you do it?](#if-yes-which-part-of-the-year-would-you-do-it)
+22. [If not, what other routes would you try?](#if-not-what-other-routes-would-you-try)
+23. [Do you have any pictures that you can share?](#do-you-have-any-pictures-that-you-can-share)
 
 
 ## So, you cycled from Manali to Leh? {#so-you-cycled-from-manali-to-leh}
