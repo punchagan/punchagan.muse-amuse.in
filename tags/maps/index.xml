@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maps on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/maps/</link>
+    <description>Recent content in Maps on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 28 May 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/maps/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Save the Map -- Please respond</title>
+      <link>https://punchagan.muse-amuse.in/blog/save-the-map-please-respond/</link>
+      <pubDate>Sat, 28 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/save-the-map-please-respond/</guid>
+      <description>The Ministry of Home Affairs put out a draft and an RFC for a Geo-spatial bill
+ To regulate the acquisition, dissemination, publication and distribution of geospatial information of India which is likely to affect the security, sovereignty and integrity of India.
+ Even if you put aside questions about how a vetting process, for &amp;ldquo;dealing with&amp;rdquo; any geospatial information, would help with the said goals, the bill defines geospatial information so broadly that even taking a geo-tagged picture at the Taj mahal or sharing the location of your house for a meal delivery would have you breaking the law.
+A group of volunteers made Save the map which has more information on this, along with a draft response that you can send to the Ministry. Please respond before June 2nd, 2016.</description>
+    </item>
+    
+  </channel>
+</rss>

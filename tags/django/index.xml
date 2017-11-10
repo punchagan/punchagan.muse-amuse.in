@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/django/</link>
+    <description>Recent content in Django on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sun, 10 Jan 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Partial postgres db dumps for a Django app</title>
+      <link>https://punchagan.muse-amuse.in/blog/partial-postgres-db-dumps-for-a-django-app/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/partial-postgres-db-dumps-for-a-django-app/</guid>
+      <description>Off late, I have been working with a large postgres database that is used by an app built in Django. I wanted a partial dump of the database to try out some experimental clean up scripts. I haven&amp;rsquo;t really used databases before, and the last time I had to do this I did it in a pretty ad-hoc fashion. This time around, I tried to do it more methodically and to document it.
+The Django Route I looked around for tools that let you do this, and found django-fixture-magic. I first tried it out on my older partial dump (10% as large as the original db) and it turned out to be reasonably fast and worked well, after making a few changes to get it working with Python 3.x. Its kitchensink flag to the dump_object seemed like a promising option, but didn&amp;rsquo;t really seem to get all the required tables for ManyToManyFields. I worked around it, by getting a dump of all the models which were related using Django&amp;rsquo;s dumpdata.
+Get a dump with objects of interest The dump_object command lets you run commands to select the objects that you want to have in the dump, and that is quite a useful thing.
+python manage.py dump_object dataset.Product -k --query &#39;{&amp;quot;subcategory_id__in&amp;quot;: [1886, ...]}&#39; &amp;gt; products.json  Also, get a dump of related tables.
+# Dump of related fields python manage.py dumpdata dataset.Attribute &amp;gt; attributes.json  Create the new empty db Next, create a new database where this fixture can be loaded!
+# Create the db sudo su - postgres createdb mydb # Create a user, if required createuser -P  Grant access to the user In the psql prompt type the following to grant the user permissions for the database.
+GRANT ALL PRIVILEGES ON DATABASE mydb TO myuser;  Fix settings.py and create tables for the models. Make changes to settings.py to use the newly created database, and then create the tables used by the app, and then load the data.
+python manage.py syncdb python manage.py loaddata products.json  Too slow! This method worked and was reasonably fast when I was trying to get 20k rows from a table with about 200k rows, with all the dependencies.
+But, when I tried to get a dump of about 200k rows from a table with 2M rows, it was way too slow to be of any use. There could&amp;rsquo;ve been a couple of reasons for this, which I didn&amp;rsquo;t have the time to look into, and debug.
+ The web-server where the Django app was running, and the db server with the postgres database were on different machines in separate datacenters, which could&amp;rsquo;ve been adding a significant amount of latency.
+ Just the size of the database being much larger could be making it slower?
+  These are things I should be looking into and learning about, when I have more time at hand. For now, I needed a quicker way to get a dump. Even though the raw SQL route was more manual, it turned out to be much quicker.
+Raw SQL dump route Get a dump of the interesting tables First, I had to get a dump of all the tables with the data I was interested in, one-by-one.
+COPY (SELECT * FROM &amp;quot;dataset_product&amp;quot; WHERE (&amp;quot;dataset_product&amp;quot;.&amp;quot;subcategory_id&amp;quot; IN (319557, 94589, 332, 406, 626, 1886) AND &amp;quot;dataset_product&amp;quot;.&amp;quot;gender_id&amp;quot; = 1)) TO &#39;/tmp/products.tsv&#39; COPY (SELECT * FROM &amp;quot;dataset_photo&amp;quot; WHERE &amp;quot;dataset_photo&amp;quot;.&amp;quot;product_id&amp;quot; IN (SELECT U0.&amp;quot;id&amp;quot; FROM &amp;quot;dataset_product&amp;quot; U0 WHERE (U0.&amp;quot;subcategory_id&amp;quot; IN (319557, 94589, 332, 406, 626, 1886) AND U0.&amp;quot;gender_id&amp;quot; = 1))) TO &#39;/tmp/photos.tsv&#39; -- Copy a bunch of other tables!  Load the data from the dumps -- syncdb COPY dataset_product FROM &#39;/tmp/products.tsv&#39; ENCODING &#39;UTF8&#39;; COPY dataset_photo FROM &#39;/tmp/photos.tsv&#39; ENCODING &#39;UTF8&#39;; -- Copy a bunch of other tables!  Make tables writable Some of the tables did not let me write anything to them, until I altered the sequence for these tables.
+Automating It would be pretty nice if all of this was automated &amp;ndash; allow a user to enter exactly the same kind of a query that django-fixture-magic lets you run, and figure out the SQL copies that need to be done to get the requested dump. Its something that currently would qualify as yak-shaving, but may be a handy thing to have. Someone somewhere possibly already has something that does this.</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-11</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-11/</link>
+      <pubDate>Mon, 11 Aug 2014 11:16:08 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-11/</guid>
+      <description> I spent about an hour in the morning testing out the staging blaggregator instance, and things seemed to work as expected. Side note, I got added as a collaborator on the blaggregator repo! We worked through the first chapter on getting video working, but we mostly ended up just copying code rather than actually understanding/carefully studying it. I&amp;rsquo;m not sure how I feel about it, but we got to display fancy stuff. I wasn&amp;rsquo;t feeling like working on any of my &amp;lsquo;old&amp;rsquo;/&amp;lsquo;ongoing&amp;rsquo; projects, and since Mondays don&amp;rsquo;t feel very productive, I worked on writing a couple of simple scripts to create twitter lists of HSers, batch wise.
+For the HS API, I just reused some old code I had lying around from my experiments with the OAuth2 API, though I had to tweak it a little bit to be able to actually login, using requests. Something about CSRF tokens seems to have changed.
+In the process, I found that twitter&amp;rsquo;s API isn&amp;rsquo;t very pleasant to use. Or may be it&amp;rsquo;s the fact that I was using python twitter client without getting my own client id/key, but the whole experience of dealing with the twitter API wasn&amp;rsquo;t a pleasant one at all!
+ Amber, Daria and I also spent about an hour white-boarding some problems from the Cracking the Code Interview book.
+ I ended up fixing some minor issues with blaggregator and am hoping that the long pending PR will be merged today.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-03</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-03/</link>
+      <pubDate>Sat, 05 Jul 2014 09:49:37 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-03/</guid>
+      <description> I got distracted trying to add a hack to Hacker School&amp;rsquo;s blaggregator, to enable posting to different channels on zulip. I learnt a few things about Django. Commented out references to views that don&amp;rsquo;t exists breaks templating. Formsets didn&amp;rsquo;t seem very convenient to use, for editing data showing the user only partial forms. I played around with Clang for a bit, to try and use libclang to parse the C code for inspection, instead of writing one myself. It sometimes feels like an overkill, but it feels like it&amp;rsquo;ll make the whole code more robust. I&amp;rsquo;m not sure. I&amp;rsquo;ll need to play around for a bit more to decide. I also finally got around to fix the resolution of my tty shells. I was in a bus, and wanted my laptop&amp;rsquo;s battery to last longer, and decided to use a tty shell with just emacs running. But, the resolution sucked. So, I fixed. Essentially it involved removing a blacklist file that an old version of Nvidia drivers left behind in /usr/share/grub-gfxpayload-lists/blacklist/ and setting GRUB_GFXMODE=1920x1080 in /etc/default/grub. Later in the evening I also bought the domain octo.cat, given there were a bunch of people buying cat domains, and talking about it on Zulip!  Update [7/7/14]: I forgot to write about the presentations. There were interesting presentations!
+ Protagonist mesh networking The Execution Context toolmaker Building a better doorbot Fredis  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fsf on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/fsf/</link>
+    <description>Recent content in Fsf on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 03 Feb 2011 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/fsf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CHAGANTI 635888 Emacs</title>
+      <link>https://punchagan.muse-amuse.in/blog/chaganti-635888-emacs/</link>
+      <pubDate>Thu, 03 Feb 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/chaganti-635888-emacs/</guid>
+      <description>Puneeth Chaganti, hereby agrees as follows:
+Developer hereby agrees to assign and does hereby assign to FSF Developer&amp;rsquo;s copyright in changes and/or enhancements to the suite of programs known as GNU EMACS, including any accompanying documentation files and supporting files as well as the actual program code.
+ Yay! I can now write code, that can go into Org-mode and Emacs! I&amp;rsquo;m looking forward to this!</description>
+    </item>
+    
+    <item>
+      <title>A &#34;Free Software&#34; Hack!!</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-free-software-hack/</link>
+      <pubDate>Tue, 10 Oct 2006 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-free-software-hack/</guid>
+      <description>  Date: Sun, 31 Aug 2003 23:45:42 -0500 From: &amp;quot;Harley D. Eades III&amp;quot; To: rms@gnu.org Subject: Tribute to freedom. Hello, One late rainy night I had an idea. There is a hill on IL route 29 in Peoria IL, that people climb and write a small message across this hill for everyone to view from a far. What would be better than spreading my two most favorite words across this hill. So we set out with a little over 200 garbage bags and nearly 400 nails. 12:30am and rainy so you can figure that a hill of that size is going to be slippery (lol) nearly falling down hill with every step we start building each letter. At around 2:30am we have finished and now the sun will rise over a hill which spreads the words Free Software to every person that passes by. This is by far a vary small non-complex hack but I beleve it is a hack in it self. This is a tribute to Free Software [and the GNU Project]. Happy Hacking Harley D. Eades III FSF Associate Member Hacker  </description>
+    </item>
+    
+  </channel>
+</rss>

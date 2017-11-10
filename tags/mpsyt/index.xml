@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mpsyt on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/mpsyt/</link>
+    <description>Recent content in Mpsyt on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 20 Apr 2015 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/mpsyt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Playing music using mpsyt from Emacs</title>
+      <link>https://punchagan.muse-amuse.in/blog/playing-music-using-mpsyt-from-emacs/</link>
+      <pubDate>Mon, 20 Apr 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/playing-music-using-mpsyt-from-emacs/</guid>
+      <description>I&amp;rsquo;ve started using the wonderful mpsyt to play any music from youtube, since I&amp;rsquo;m not really interested in the video. But, since I use emacs for chat/IRC, I end up getting youtube links into emacs and opening them opens them up in my browser. I ended up writing some elisp to play the songs from within an instance of mpsyt running inside an emacs buffer.
+(defun pc/short-url-at-point () &amp;quot;Gets the short url at point. This function is required only because `thing-at-point-url-at-point&#39; ignores urls (without a scheme) that don&#39;t start with www.&amp;quot; (let ((bounds (thing-at-point-bounds-of-url-at-point t))) (when (and bounds (&amp;lt; (car bounds) (cdr bounds))) (buffer-substring-no-properties (car bounds) (cdr bounds))))) (defun pc/mpsyt-url (url) (let ((buffer (current-buffer)) (mpsyt-proc-name &amp;quot;*mpsyt*&amp;quot;)) ;; Start a new term with *mpsyt* if there isn&#39;t one (unless (get-process mpsyt-proc-name) (when (get-buffer mpsyt-proc-name) (kill-buffer (get-buffer mpsyt-proc-name))) (ansi-term &amp;quot;mpsyt&amp;quot; &amp;quot;mpsyt&amp;quot;)) ;; Play given url in mpsyt (let ((mpsyt-proc (get-process mpsyt-proc-name))) ;; If something is already playing, stop it and play this... (term-send-string mpsyt-proc &amp;quot;\n\n\n&amp;quot;) ;; We wait for a bit, since looking for the prompt seems to fail, sometimes? (sleep-for 1) (term-send-string mpsyt-proc &amp;quot;\n&amp;quot;) ;; Actually send the command to playurl (term-simple-send (get-process mpsyt-proc-name) (format &amp;quot;playurl %s&amp;quot; url))) (switch-to-buffer buffer))) (defun pc/mpsyt-url-at-point () &amp;quot;Play the URL at point using mpsyt.&amp;quot; (interactive) (let ((url (or (url-get-url-at-point) (pc/short-url-at-point)))) (if (not url) (message &amp;quot;No URL found&amp;quot;) (message (format &amp;quot;Playing %s with mpsyt&amp;quot; url)) (pc/mpsyt-url url))))  The current version of mpsyt crashes when run from inside emacs due to a bug in the code to get the terminal size, which should be fixed once this patch is merged.
+I would&amp;rsquo;ve expected thing-at-point-url-at-point to be able to find urls even when they don&amp;rsquo;t have a schema, but it tries to guess the schema from urls and fails to work when the url starts with youtube.com instead of www.youtube.com.
+I started off using the command-line interface of mpsyt by running it using shell-command or start-process. But, it seemed useful to have a buffer of mpsyt to switch to &amp;ndash; easier to search for new music, repeating songs, etc. Not all tasks/actions are achievable through mpsyt&amp;rsquo;s command line args.
+I ended up writing more code than I thought I would have to[1]. But, I&amp;rsquo;m pretty happy with how this all works, right now.
+[1] - Isn&amp;rsquo;t it true, more often than not?</description>
+    </item>
+    
+  </channel>
+</rss>

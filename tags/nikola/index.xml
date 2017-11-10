@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nikola on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/nikola/</link>
+    <description>Recent content in Nikola on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 21 May 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/nikola/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>blog-admin and Nikola</title>
+      <link>https://punchagan.muse-amuse.in/blog/blog-admin-and-nikola/</link>
+      <pubDate>Sat, 21 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/blog-admin-and-nikola/</guid>
+      <description>Another post about blogging.
+blog-admin now supports Nikola, thanks to yours truly. blog-admin is an Emacs package by CodeFalling that lets you view and manage your (static site generated) blog from within inside Emacs.
+Nikola&amp;rsquo;s command line utility is pretty nifty and does a bunch of useful things. I had a few utility functions to do common tasks like create new post and deploy blog. This worked well, but moment I came across this blog-admin&amp;rsquo;s tabular view, I was sold!
+org2blog (a blogging tool I used previously) had a tracking file that kept track of all the posts I made, and I used it quite a bit for navigation &amp;ndash; thanks to org-mode&amp;rsquo;s search functionality. The tabular view of blog-admin is even better! I really like the fact that the author has tried to keep the package generic enough to support any blog, and adding support for Nikola has been quite easy.
+The filtering functionality is crude, but good enough for a start. One thing I want to add is a preview functionality for drafts. Showing some (writing) statistics would also be nice &amp;ndash; No. posts in the last month, total published posts, etc. No promises, but you may see some of these things, soon. :)</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-05</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-05/</link>
+      <pubDate>Tue, 05 Aug 2014 23:44:33 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-05/</guid>
+      <description> Spent a couple of hours in the morning, trying to revive a html template for blaggregator, that I missed out on committing previously, and wiped out due to negligence in using `git clean`. Spent time post lunch working through the first two chapters of the baking pi course, by myself, reading up different references, and finally getting how I/O is mapped to the memory in ARM. Actually, almost. A variant of the example that I thought should work, doesn&amp;rsquo;t. So, I need to think/talk about it today. I sent a patch to Nikola for the lastdeploy timestamp being UTC. I was hoping to work around an issue with Blaggregator, by somehow fixing it on the client side, but that&amp;rsquo;s probably not the right way to go about it.  </description>
+    </item>
+    
+    <item>
+      <title>Org based posts in Nikola</title>
+      <link>https://punchagan.muse-amuse.in/blog/org-based-posts-in-nikola/</link>
+      <pubDate>Sun, 20 Apr 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org-based-posts-in-nikola/</guid>
+      <description>Chen Bin asked me to share my Nikola+Org work-flow, and share an example post.
+The org source for any post can be found by changing the URL of a post from .html to .org.
+I don&amp;rsquo;t have much of a work-flow, because I don&amp;rsquo;t post too often, but here is what I typically do, to make a new post.
+I start off by creating a new post using
+$ nikola new_post  and then give the post a title and start editing the post in Emacs.
+I have a simple snippet that lets me insert tags, based on existing tags.
+ Once I&amp;rsquo;m happy with the content of a post, I run nikola auto to build the source and serve it locally, and see if the post &amp;ldquo;looks&amp;rdquo; reasonable, after being rendered.
+Once, I&amp;rsquo;m happy with it, I commit the post and deploy it using nikola deploy.
+I also have a plugin, that posts captured bookmarks and quotes onto the blog, with a single command. I should probably make the sources of my blog open, and push it onto GitHub.
+Update [2015-05-13 Wed]
+ I use my own plugin for Nikola which lets me write posts in org-mode. There is a similar plugin by Chen Bin, that exports posts to intermediate html, that is then used by Nikola.
+ The source for my blog is now on GitHub
+ I also have custom elisp to be able to make a new post, and deploy the site from within Emacs.
+  </description>
+    </item>
+    
+    <item>
+      <title>Bookmarks and Quotes plugin</title>
+      <link>https://punchagan.muse-amuse.in/blog/bookmarks-and-quotes-plugin/</link>
+      <pubDate>Sat, 19 Oct 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/bookmarks-and-quotes-plugin/</guid>
+      <description>I used to have a separate page for bookmarks and quotes on the old blog. They will now be shared as regular posts with 5 or more bookmarks/quotes. I use a bookmarklet in my browser to capture links to an org-file using org-capture protocol and then I have a small plugin to Nikola, that looks at such captured bookmarks and quotes and makes new posts out of them. This workflow is inspired by Brett Trepestra&amp;rsquo;s web excursions plugin.
+The plugin is currently a part of my blog source, and not published to Nikola&amp;rsquo;s plugin repository since it is very specific to my setup. But if anybody is interested, I can publish the code somewhere public.
+If you are interested to get these links and bookmarks into your feed reader, you can subscribe to their feed: [quotes], bookmarks. These posts will also make it to the main feed, though.
+UPDATE [2015-11-15 Sun 20:45]
+ The quotes feed no longer exists! The bookmarks feed doesn&amp;rsquo;t really get too many updates. I use pinboard for my bookmarks, now.  </description>
+    </item>
+    
+  </channel>
+</rss>

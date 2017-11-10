@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vcs on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/vcs/</link>
+    <description>Recent content in Vcs on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Fri, 25 Jul 2014 09:25:50 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/vcs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-07-25</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-25/</link>
+      <pubDate>Fri, 25 Jul 2014 09:25:50 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-25/</guid>
+      <description> We worked on writing our own (toy) version control system on Friday, as a part of job prep. I paired with Sophia, and we got upto the point where we had diffs working, when we decided to refactor the code with some tests and stuff. The party was brilliant with a lot of activity. All the project installations looked so cool, and it was so much fun! I spent some time during the weekend watching the &amp;ldquo;Anatomy of Matplotlib&amp;rdquo; lectures. I started some work with poking around Matplotlib&amp;rsquo;s template backend, and trying to start writing and ascii backend. Also, I was trying to help UC setup GrooveBasin on his raspberry pi, and helped him configure jasper on it.  </description>
+    </item>
+    
+  </channel>
+</rss>

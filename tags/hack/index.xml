@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/hack/</link>
+    <description>Recent content in Hack on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 14 Sep 2017 22:26:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Emacs frame as a pop-up input</title>
+      <link>https://punchagan.muse-amuse.in/blog/emacs-frame-as-a-pop-up-input/</link>
+      <pubDate>Thu, 14 Sep 2017 22:26:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/emacs-frame-as-a-pop-up-input/</guid>
+      <description>I wanted to try using a dialog box/pop-up window as a prompt to remind me to periodically make journal entries. I had the following requirements:
+ Simple, light-weight dialog box that allows text of arbitrary length Ability to launch the dialog from the shell Ability to have some placeholder or template text, each time the dialog is shown Save the input text to a specific org-mode file Write as little code of my own, as possible, to do this  I had initially thought about using a tool like zenity, or write a simple dialog box in Python using Qt, wx or even tk, and then yank the input text at the desired location. This probably wouldn&amp;rsquo;t have turned out to be too hard, but getting things to look and work exactly the way I wanted would have required more code than I was willing to write or maintain.
+After avoiding doing this for a while, I finally realized that I could simply use Emacs with a new frame with the appropriate dimensions, and with the correct file/buffer open to the desired location. This would
+ eliminate the need for me to write the UI myself eliminate the need to do text manipulation in code, to yank it at the right place, in the right form. By directly opening up the editor at the required location, the onus is on me (as a text inputting user) to put it in, the way I want it. additionally provide me the comfort of being able to write with the full power of Emacs - keybindings and all that jazz. let me leverage elisp to do essentially whatever I want with the buffer being displayed as the dialog box.  I ended up with a command that looks something like this
+emacsclient -c -n\ -F &#39;((title . &amp;quot;Title&amp;quot;) (left . (+ 550)) (top . (+ 400)) (width . 110) (height . 12))&#39;\ -e &#39;(pc/open-journal-buffer)&#39;   This worked pretty nicely, except for the fact that with gnome-shell, the pop-up frame doesn&amp;rsquo;t always appear raised. It often gets hidden in the Emacs windows group, and the whole idea of the pop-up acting as a reminder goes for a toss! But, thanks to this Ask Ubuntu post, I could fix this pretty easily.
+emacsclient -c -n\ -F &#39;((title . &amp;quot;Title&amp;quot;) (left . (+ 550)) (top . (+ 400)) (width . 110) (height . 12))&#39;\ -e &#39;(progn (pc/open-journal-buffer) (raise-frame) (x-focus-frame (selected-frame)))&#39;  </description>
+    </item>
+    
+    <item>
+      <title>Create a Public Jupyter Server, quickly!</title>
+      <link>https://punchagan.muse-amuse.in/blog/create-a-public-jupyter-server-quickly/</link>
+      <pubDate>Thu, 25 Aug 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/create-a-public-jupyter-server-quickly/</guid>
+      <description>I create public Jupyter notebooks once in a while, to collaborate with a friend, or to make it easier for myself to work with data on a remote machine.
+Each time I need to look up the docs, and manually set-up a few things, before I can start using the notebook.
+I just wrote a bash script that does the following, quickly -
+ Install Jupyter into a temporary virtualenv Create certificate files Start the server with https enabled and a password Delete all temporary files, when the server is shutdown   You can get it here, if you&amp;rsquo;d like to use it.</description>
+    </item>
+    
+    <item>
+      <title>Better styling bookmarklet</title>
+      <link>https://punchagan.muse-amuse.in/blog/better-styling-bookmarklet/</link>
+      <pubDate>Tue, 07 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/better-styling-bookmarklet/</guid>
+      <description>Some sites that I like a lot for their content, have zero styling on them. I find it pretty hard to read when the lines are long and I have to read all the way on my screen.
+I had a simple bookmarklet until now that just changed the width of the page.
+document.getElementsByTagName(&#39;body&#39;)[0].setAttribute(&#39;style&#39;, &#39;width: 600px&#39;)  Kamal shared with me a recommendation for 7 simple styling rules that will make pages easier to read. I liked them, and modified my bookmarklet to use these rules now.
+ Drag and drop the link below onto your bookmarks bar if you want to use it.
+Better website
+The code in a readable format is below.
+// Create new stylesheet (function() { // Create the &amp;lt;style&amp;gt; tag var style = document.createElement(&amp;quot;style&amp;quot;); // Add the &amp;lt;style&amp;gt; element to the page document.head.appendChild(style); // Add rules from bettermotherfuckingwebsite.com var sheet = style.sheet; sheet.insertRule(&amp;quot;body{ margin:40px auto; max-width:650px; line-height:1.6; font-size:18px; color:#444; padding:0 10px; }&amp;quot;); sheet.insertRule(&amp;quot;h1,h2,h3{ line-height:1.2 }&amp;quot;); })();  Update [2016-06-07 Tue]: baali pointed me to Firefox&amp;rsquo;s Reader View which works well too.</description>
+    </item>
+    
+    <item>
+      <title>Reading-time based scheduling</title>
+      <link>https://punchagan.muse-amuse.in/blog/reading-time-based-scheduling/</link>
+      <pubDate>Mon, 06 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/reading-time-based-scheduling/</guid>
+      <description>I had posted a link to an poem written on Medium on a Slack channel that I use with friends. A friend said that she liked the fact that the Slack article preview had the reading time from Medium in it. She could decide whether or not she wanted to read the poem or any other article at that moment.
+This gave me the idea for a reading time extension for my browser, or my feed reader or my bookmarks &amp;ndash; my reading list. The first version should be able to compute or extract the reading time for an article or a tab in my browser, and index them. I want to be able to specify the amount of time I will be able to spend reading, and be presented with something from my reading list. I think this would help with scheduling the reading of longer articles, and also to actually help me get through my reading list.
+Reading time estimates that use heuristics based on word-count may not really work, and may do more harm than good. But, it may still be worth a try to see if it helps my reading habits in any way. A quick search pointed me to this extension, that can give the reading time for any page but doesn&amp;rsquo;t really do what I want.</description>
+    </item>
+    
+    <item>
+      <title>Elfeed hook to fetch full content</title>
+      <link>https://punchagan.muse-amuse.in/blog/elfeed-hook-to-fetch-full-content/</link>
+      <pubDate>Sat, 19 Dec 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/elfeed-hook-to-fetch-full-content/</guid>
+      <description>I have started to use Pinboard&amp;rsquo;s unread tag as my to-read list. It has a bookmark-let that works pretty well for adding stuff into my &amp;ldquo;to-read&amp;rdquo; list. I then catch up on this list using elfeed and subscribing to the unread items&amp;rsquo; RSS feed. The work-flow is pretty nice for adding stuff into the list, and finding items on the list. But, when it comes to the actual reading part, the entries in the feed don&amp;rsquo;t have the actual content I want to read, and I end up opening the links in a browser.
+Inspired by a comment from FiloSottile, I realized it should be pretty easy to setup a hook that fetches the actual content to make my reading work-flow smoother. I wrote a small script, using python-readability, to fetch the page content, given a URL. This script is then hooked onto elfeed-new-entry-hook, to fetch content of for new entries as they are fetched. All the old entries can be easily fixed with a single call to elfeed-apply-hooks-now.
+(defun pc/get-url-content (url) &amp;quot;Fetches the content for a url.&amp;quot; (shell-command-to-string (format &amp;quot;~/bin/get_article.py %s&amp;quot; url))) (defun pc/get-entry-content (entry) &amp;quot;Fetches content for pinboard entries that are not tweets.&amp;quot; (interactive (let ((entry elfeed-show-entry)) (list entry))) (let ((url (elfeed-entry-link entry)) (feed-id (elfeed-deref (elfeed-entry-feed-id entry))) (content (elfeed-deref (elfeed-entry-content entry)))) (when (and (s-matches? &amp;quot;feeds.pinboard.in/&amp;quot; feed-id) (not (s-matches? &amp;quot;twitter.com/\\|pdf$\\|png$\\|jpg$&amp;quot; url)) (string-equal &amp;quot;&amp;quot; content)) (setq content (pc/get-url-content url)) (setf (elfeed-entry-content entry) (elfeed-ref content))))) (add-hook &#39;elfeed-new-entry-hook #&#39;pc/get-entry-content)  </description>
+    </item>
+    
+    <item>
+      <title>Say Howdy with Emacs!</title>
+      <link>https://punchagan.muse-amuse.in/blog/say-howdy-with-emacs/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/say-howdy-with-emacs/</guid>
+      <description>Staying in touch with people is something I&amp;rsquo;m not very good at. Since I am not on popular (among my friends/family) networks &amp;ndash; FB and Whatsapp &amp;ndash; I don&amp;rsquo;t even see random updates from people, to get some sense of being in touch.
+I recently read some old posts by Sacha Chua and was inspired by how much code she had for contact management in her old blog posts. I was inspired by this post in particular to try and be more meticulous about how I stay in touch with people. Michael Fogleman blogged about his contact management work-flow using keepintouch. It seemed to do most of what I wanted, but I wanted this to be integrated with my org-contacts-db and I felt having native elisp code would make it easier to hook up email, chat, etc. to this.
+I ended up writing a small utility called howdy to help me keep in touch with people. It currently has only a couple of features:
+ M-x howdy lets me update the last contacted timestamp for a contact. Shows me contacts that I&amp;rsquo;m out of touch in the agenda, once I add the following snippet to an agenda file.
+​* Howdy %%(howdy-howdy)   I also have a few hooks to hook up jabber messages and email to update the db. I&amp;rsquo;ve added them to howdy-hooks.el in case anybody else wants to use them. They can also be used as examples to write other hooks. Feel free to contribute other hooks or suggest improvements. The library also ships with a modest test suite, that will hopefully make it easier for others to contribute.
+I&amp;rsquo;m looking forward to experimenting with this over the next few weeks and improving it. Hopefully, it&amp;rsquo;ll help me keep in touch, better than I do now.</description>
+    </item>
+    
+    <item>
+      <title>org-drill for making it stick!</title>
+      <link>https://punchagan.muse-amuse.in/blog/org-drill-for-making-it-stick/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org-drill-for-making-it-stick/</guid>
+      <description>Those who read the last few posts here, would know that I have been experimenting with org-drill (a spaced repetition extension to Org mode). I have been using the system (almost) religiously for the past 2 months, and I do find that it has helped a great deal! (in some respects). I have also spent a considerable amount of time trying to reduce the friction to put new stuff into the system, and am constantly on the look out for further improvements.
+Using this system has definitely helped with retention, and I find that I can recall quite a few things I have read a few weeks ago, that I would normally have been unable to. Though, I can recall a lot of information, I have been having a feeling of &amp;ldquo;fragmentation&amp;rdquo;: the feeling of just retaining individual bits/fragments of information, while losing out on actually internalizing the knowledge; not seeing the big picture, etc.
+Wozniak (the author of super-memo) warns against learning without understanding, and memorizing before actually learning stuff. I haven&amp;rsquo;t consciously added stuff into the system that I didn&amp;rsquo;t understand (when I added it), but, later it does feel like I have lost some connections or the understanding, and am only holding onto the fragments of information.
+The problems as explained in (read: as interpreted by me from) Make it Stick appear to be:
+ The understanding (if any) at the time of adding stuff into the spaced-repetition system is untested. It may just be familiarity masquerading as understanding.
+ The lack of any spaced repetitions for the overall concept/understanding and actual repetitions only for individual bits doesn&amp;rsquo;t help retention of the understanding (even if there was any, in the first place).
+  To work around this, I&amp;rsquo;m going to try adding questions that test understanding, to the system. The Super-memo team strongly recommends keeping the drill items small and easy to answer. This may be helpful in keeping each drill session short, but I would really like to add conceptual questions to the system, and see how it goes. I hacked org-drill to allow me to type out answers, before looking at the &amp;ldquo;correct&amp;rdquo; ones. This is an adaptation of a system that a fellow Hacker Schooler uses, and shared. Also, hopefully forcing myself to type out the answer will help me get around the problem of sometimes saying &amp;ldquo;yeah I know that&amp;rdquo;, then looking at the answer only to reaffirm the feeling of familiarity, rather than actually testing myself. I&amp;rsquo;m still going to continue adding quick and short questions that test &amp;ldquo;bits of information&amp;rdquo;, though. But, hopefully the additional conceptual questions are going to tie things together and help fill in the gaps. Lets see how this goes!
+For those interested, my hacks to org-drill below. The code is really a hack, and welcome any suggestions on cleaning up the code.
+(advice-add &#39;org-drill-presentation-prompt :around &#39;pc/org-drill-presentation-prompt) (defun pc/org-drill-presentation-prompt (old-fun &amp;amp;rest fmt-and-args) &amp;quot;A presentation prompt that allows capturing answers.&amp;quot; (let ((cb (current-buffer)) (heading (nth 4 (org-heading-components))) (entry-id (org-entry-get (point) &amp;quot;ID&amp;quot;)) (input &amp;quot;&amp;quot;)) (switch-to-buffer-other-window &amp;quot;*org-capture-drill-answer*&amp;quot;) (org-mode) (insert &amp;quot;# Hit C-c C-c once you are done answering!\n&amp;quot;) (org-insert-heading-respect-content) (insert (format &amp;quot;Answer: %s&amp;quot; heading)) (org-entry-put (point) &amp;quot;QUESTION_ID&amp;quot; entry-id) (goto-char (point-max)) (insert &amp;quot; &amp;quot;) (org-time-stamp-inactive &#39;(16)) (insert &amp;quot;\n\n &amp;quot;) (while (not (and input (equal input &amp;quot;&amp;quot;))) (ignore-errors (execute-kbd-macro input)) (setq input (read-key-sequence nil))) (switch-to-buffer-other-window cb) (apply old-fun fmt-and-args))) (advice-add &#39;org-drill-reschedule :around &#39;pc/org-drill-reschedule) (defun pc/org-drill-reschedule (old-fun) &amp;quot;Calls the original reschedule, but also archives the answer&amp;quot; (prog1 (funcall old-fun) (let ((cb (current-buffer))) (switch-to-buffer-other-window &amp;quot;*org-capture-drill-answer*&amp;quot;) (pc/org-refile-to-datetree &amp;quot;drill.org_archive&amp;quot;) (message (buffer-name)) (switch-to-buffer-other-window cb) (kill-buffer &amp;quot;*org-capture-drill-answer*&amp;quot;)))) (require &#39;org-datetree) (defun pc/org-refile-to-datetree (journal) &amp;quot;Refile an entry to journal file&#39;s date-tree&amp;quot; (interactive &amp;quot;fRefile to: &amp;quot;) (let* ((journal (expand-file-name journal org-directory)) (date-string (or (org-entry-get (point) &amp;quot;TIMESTAMP_IA&amp;quot;) (org-entry-get (point) &amp;quot;TIMESTAMP&amp;quot;))) (dct (decode-time (or (and date-string (org-time-string-to-time date-string)) (current-time)))) (date (list (nth 4 dct) (nth 3 dct) (nth 5 dct)))) (org-cut-subtree) (with-current-buffer (or (find-buffer-visiting journal) (find-file-noselect journal)) (org-mode) (save-excursion (org-datetree-file-entry-under (current-kill 0) date) (bookmark-set &amp;quot;org-refile-last-stored&amp;quot;))) (message &amp;quot;Refiled to %s&amp;quot; journal)))  </description>
+    </item>
+    
+    <item>
+      <title>Jabber message queue</title>
+      <link>https://punchagan.muse-amuse.in/blog/jabber-message-queue/</link>
+      <pubDate>Wed, 10 Dec 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/jabber-message-queue/</guid>
+      <description>I&amp;rsquo;ve always wanted to be able to queue up messages to send to friends, until I go online the next time. I tried using email instead of chat a few times, or just ended up staying online with a busy status.
+Finally, now that I have started using jabber-mode for chatting from within Emacs, I took out the time to write a &amp;ldquo;queuing system&amp;rdquo; for sending chat messages, similar to the mail queue for smtpmail. Instead of persisting sexps, though, I persist the messages in a JSON format and the queue is flushed every time I connect to jabber, in a jabber-post-connect-hook.
+To make the interface as similar to the interface available when I am online, I hacked completion for the to ID using email addresses in my address book (mu4e~contact-list). I really like the fact that the chat buffer opens up, and I can type and send messages like I usually do. Hitting RET after typing a message queues it up, instead of trying to send it. Smooth!
+The code is in my .emacs</description>
+    </item>
+    
+    <item>
+      <title>erc-notifications when Emacs not in focus</title>
+      <link>https://punchagan.muse-amuse.in/blog/erc-notifications-when-emacs-not-in-focus/</link>
+      <pubDate>Thu, 06 Nov 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/erc-notifications-when-emacs-not-in-focus/</guid>
+      <description>I have been trying to get ERC working with notifications. Julien Danjou&amp;rsquo;s wonderful notifications module for ERC is great, but it is annoying to get notifications even when Emacs is in focus.
+I had looked at circe-notifications, which has the feature but uses xdotool and xprop to do it. I was looking for something simpler, though&amp;hellip; and it suddenly struck me that I have an auto-save hook in Emacs that is run when I focus out of it. I wondered if I could disable and enable notifications on focus, and it worked.
+In case it is useful for somebody else -
+(add-to-list &#39;erc-modules &#39;notifications) (erc-notifications-mode) (add-hook &#39;focus-out-hook &#39;erc-notifications-enable) (add-hook &#39;focus-in-hook &#39;erc-notifications-disable)  I wonder if there are some corner cases where this doesn&amp;rsquo;t work, and that&amp;rsquo;s why the author of circe-notifications chose the tools that he did.</description>
+    </item>
+    
+    <item>
+      <title>More input sources for org-drill</title>
+      <link>https://punchagan.muse-amuse.in/blog/more-input-sources-for-org-drill/</link>
+      <pubDate>Tue, 04 Nov 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/more-input-sources-for-org-drill/</guid>
+      <description>I&amp;rsquo;ve been trying to use org-drill regularly for the last few weeks. I don&amp;rsquo;t know how well it&amp;rsquo;s been going but I have been sticking to the routine religiously. I haven&amp;rsquo;t yet really tried out incremental reading, but in an attempt to make it as easy as possible, I wanted to have a pdf-reader integration, and some kind of integration with Kindle highlights. Browser integration is pretty straight-forward, thanks to some simple java-script.
+I looked for a pdf-reader with some sort of plugin support, but I found nothing in Evince or Okular. I thought about pdfjs but it seemed slightly clunky to open pdfs in a browser, though I might shift to this if I don&amp;rsquo;t like what I finally ended up with. Good old xpdf seemed to be the only pdf reader that had some support for custom keybindings that allowed users to run external commands. With a little Python, I was able to setup a work-flow to capture snippets from xpdf, to add to org-drill. Custom key-bindings somehow don&amp;rsquo;t seem to work on xpdf bundled on Ubuntu. So, I ended up downloading and using the binary available on the xpdf site.
+For Kindle highlights support, with minor updates to Thamer Mahmoud&amp;rsquo;s clip2org, I have a simple way of getting all the &amp;ldquo;new&amp;rdquo; clippings/highlights as org-drill headlines. I haven&amp;rsquo;t really started using this, and once I do, I may end-up automating even the merging of these items into the org-drill notes file. I&amp;rsquo;m looking forward to making better use of my Kindle, with this feature!
+I don&amp;rsquo;t know if it would be useful to have more context information like section titles/chapter titles when capturing from html/pdf, but it seems like an interesting problem to try to solve.
+Also, it might be easier(?) if I probably tried to have a DE level keybinding, and some code to get selection and file name of the currently active window/application.</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-29</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-29/</link>
+      <pubDate>Tue, 29 Jul 2014 11:20:24 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-29/</guid>
+      <description> Hacking: learning by breaking stuff  Post lunch, I started pairing with Stephanie on the exercises in the Hacking book, and that turned out to be super fun! We got through the chapter on exploitation, which focussed on stack overflows, heap overflows, overflows in function pointers, and string formatting exploits. It acted as more than a gentle refresher for C, and was super fun! Running the examples on a 64bit system, added an additional amount of thinking required, and was good, IMO. I hadn&amp;rsquo;t worked along with Stephanie on the material in the first two chapters. So, I went back home and tried to catch up, but couldn&amp;rsquo;t get all of it done.  Miscellaneous  I spent part of the morning wrapping up the install script for the raspberry project, and cleaning up the repository. It looks reasonable now, and I think I&amp;rsquo;m done with it until the end of HackerSchool. I also tried to look for &amp;ldquo;easy&amp;rdquo; python issues that would involve me writing some C code, but didn&amp;rsquo;t really find anything other than documentation&amp;hellip; I guess, I should pick a module and look for bugs in it, instead. Also, while chatting with a friend, I had to explain that I don&amp;rsquo;t mention the last names of people or link to them, for privacy reasons. Hacker School is particularly careful about not divulging information about who are at Hacker School each batch, and I want to keep that tradition.  </description>
+    </item>
+    
+    <item>
+      <title>Let there be light, in skype!</title>
+      <link>https://punchagan.muse-amuse.in/blog/let-there-be-light-in-skype/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/let-there-be-light-in-skype/</guid>
+      <description>At home, my video would always show a silhouette in G+ and Skype, and I always thought that this was because the lighting at home was not sufficient. At office, the video was decent. But, moving to sit right under the light also didn&amp;rsquo;t help much.
+Struggling with a bunch of tools like v4lctl, guvcview didn&amp;rsquo;t help. But, during these struggles I noticed that cheese would show me bright and cheerful, while all the other programs showed my silhouette.
+I set out to &amp;ldquo;fake&amp;rdquo; the output of cheese as a video device that skype and other programs could use. But, I didn&amp;rsquo;t have to go all the way. I ended up using v4l2loopback to create a loopback video device, and just using gst-launch to redirect video to that device, did the trick! Thanks gstreamer! Thanks v4l2loopback! :)
+Here&amp;rsquo;s a convenient script to use it every time I need it.
+ </description>
+    </item>
+    
+    <item>
+      <title>Scraping Google Groups</title>
+      <link>https://punchagan.muse-amuse.in/blog/scraping-google-groups/</link>
+      <pubDate>Tue, 31 Dec 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/scraping-google-groups/</guid>
+      <description>I was playing around with a few ideas for creating a timeline for the mumbai ultimate group, and as a part of playing around with stuff, for that idea, I ended up wanting to scrape all the emails on our google group. After looking around a little bit, I failed to find anything that claims to be able to do this.
+So I ended up writing my own hacky script to download all the emails sent on the group. Like I said, this is a hack and can be improved quite a bit, but I am not inclined to do anything about it, right now. Since, everything about google groups is ajaxy, this script uses selenium and does things on the page, that one would do by hand. It&amp;rsquo;s not something that I am proud of, but it does the job!</description>
+    </item>
+    
+    <item>
+      <title>A smarter 404 page</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-smarter-404-page/</link>
+      <pubDate>Mon, 11 Nov 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-smarter-404-page/</guid>
+      <description>Voodoo found a broken link referring to a one of my posts, on Quora. Given that I have changed my site generator a bunch of times now, it is quite possible that there are other broken links at various other places. So, I implemented a smart 404 page for the site, yesterday. It is very similar to something I came across on brettterpstra&amp;rsquo;s site. I just hooked up fuse.js with Nikola&amp;rsquo;s tipue-search plugin&amp;rsquo;s output file. My glue code essentially, just figures out the search term from the URL, performs a Fuse search on the json data created by Nikola&amp;rsquo;s search plugin, and returns a list of top 5 results. It just took me about an hour to write, but is pretty useful, I think.
+(View source of the 404 page)</description>
+    </item>
+    
+    <item>
+      <title>Blogging with Nikola and Org-mode</title>
+      <link>https://punchagan.muse-amuse.in/blog/blogging-with-nikola-and-org-mode/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/blogging-with-nikola-and-org-mode/</guid>
+      <description>Sigh! I made yet another change to the way this blog gets published. But, I have a feeling this mechanism, is here to stay!
+We&amp;rsquo;ve been using Nikola quite regularly for our Ultimate site, and I quite like it. I&amp;rsquo;ve also contributed a bunch of features to Nikola to get it to work the way I would like it to. This weekend I ported my blog from o-blog to Nikola. The only thing that was stopping me from doing it, until now is the fact that all my posts are in org markup and porting them over to one of the formats that Nikola supports would be a PITA. So, I wrote a pretty simple plugin to Nikola to support posting from org files. And then with a little Python, I was able to move everything over to use Nikola.
+Hopefully, I&amp;rsquo;ll keep my blog more updated, from here on!</description>
+    </item>
+    
+    <item>
+      <title>GitHub Cue: Recommendations for GitHub Repos</title>
+      <link>https://punchagan.muse-amuse.in/blog/github-cue-recommendations-for-github-repos/</link>
+      <pubDate>Fri, 05 Aug 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/github-cue-recommendations-for-github-repos/</guid>
+      <description>If you aren&amp;rsquo;t already aware of it, I&amp;rsquo;m one of those people who goes around saying, &amp;ldquo;GitHub is my Facebook&amp;rdquo;. I spend quite a lot of time on GitHub, browsing the work of various people, looking at loads of interesting stuff that people built. I keep jumping between people pages and projects using the Watchers/Watching &amp;amp; Followers/Following pages. This way, I do come across interesting people and projects, but the SNR is too low. I wanted a better way to be able to see stuff, that I find interesting. That&amp;rsquo;s how the idea for this Chromium app &amp;ndash; GitHub Cue &amp;ndash; was born.
+@baali and I hacked on this, during the last few days and got it working. It works as follows, (from the README) &amp;mdash;
+ Scrapes all the descriptions of the repositories being watched by the user. Key terms are extracted from this description text using the Yahoo Term Extractor. A list of languages is obtained, based on the languages of the repositories, the user if watching. GitHub searches are performed for a combination of 3 randomly chosen languages and 5 random key terms. 10 random repositories out of all these, are shown.  This is a very simplistic algorithm, but works decently for my purposes. Ideally, I would&amp;rsquo;ve liked to use a Collaborative Filtering algorithm, but I found the data to be too sparse, and the amount of computation to be too much to be done on the fly. I wasn&amp;rsquo;t really interested in pre-computing stuff and putting it onto my server. I settled down to the next best thing I could think of.
+I would appreciate any further ideas and suggestions. Thanks!</description>
+    </item>
+    
+    <item>
+      <title>Do our eyes suck at blue?</title>
+      <link>https://punchagan.muse-amuse.in/blog/do-our-eyes-suck-at-blue/</link>
+      <pubDate>Sat, 13 Nov 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/do-our-eyes-suck-at-blue/</guid>
+      <description> This is some fun I had, trying to replicate what was written in this post. I had been trying to understand what was happening here, and found this post on Hacker News very helpful.
+It is a known fact that our eyes have more cones for green and red as compared to blue. The Bayer filter used for digital camera lenses is based upon this principle. This post tries to illustrate that using the following two arguments.
+ Looking at only the blue channel of an image looks very dark. Tripling the pixel size of blue channel doesn&amp;rsquo;t cause much distortion in the final image.  Hence, our eyes suck at blue.
+Their argument is flawed, but we could try and improve a few things.
+Looking at the blue channel. This is definitely flawed, since the intensity of blue in the image they have taken may be less and hence giving us a false positive.
+We could instead gray-scale the image and use these pixel values in the 3 channels and look at the images.
+This also eliminates the problem of the image being captured through a Bayer filter.
+Here&amp;rsquo;s some python code to do the same. (uses matplotlib)
+def show_channels(I): for i in range(3): J = zeros_like(I) J[:, :, i] = I[:, :, i] figure(i) imshow(J) def show_grey_channels(I): K = average(I, axis=2) for i in range(3): J = zeros_like(I) J[:, :, i] = K figure(i+10) imshow(J)  Pixelating the blue channel Again, there was this argument of use of Bayer filter affecting the image and the like.
+What I did was to swap the channels, and then look at the images. However I swapped the channels, the image where the green channel was pixelated always looked the worst. The difference between blue and red was less noticeable, I feel.
+Here&amp;rsquo;s the code.
+def zoom(x, factor=2): rows, cols = x.shape row_stride, col_stride = x.strides view = np.lib.stride_tricks.as_strided(x, (rows, factor, cols, factor), (row_stride, 0, col_stride, 0)) return view.reshape((rows*factor, cols*factor)) def subsample(I): for i in range(3): J = I.copy() J[:, :, i] = zoom(I[::4, ::4, i], 4) figure(i) title(&amp;quot;%s channel subsampled&amp;quot; %colors[i]) imshow(J) def swap_subsample(I, k=1): for c, color in enumerate(colors): print &amp;quot;%s &amp;lt;-- %s&amp;quot; %(colors[c], colors[(c+k)%3]) for i in range(3): J = zeros_like(I) for j in range(3): J[:, :, j] = I[:, :, (j+k)%3] J[:, :, i] = zoom(I[::4, ::4, (i+k)%3], 4) figure(i+10) title(&amp;quot;%s channel subsampled&amp;quot; %colors[i]) imshow(J)  Images Here are a few images. (View them in their original size)
+  </description>
+    </item>
+    
+    <item>
+      <title>Raise windows (on current desktop) xdotool &amp; bash</title>
+      <link>https://punchagan.muse-amuse.in/blog/raise-windows-on-current-desktop-xdotool-bash/</link>
+      <pubDate>Sat, 06 Nov 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/raise-windows-on-current-desktop-xdotool-bash/</guid>
+      <description>I posted a snippet 1 of python code that used xdotool to raise windows. I got one patch from dusual 2 that enabled raising of windows in the current workspace only.
+More importantly, Jordan gave a one-liner 3 in bash, that could do the same thing as my long and elaborate python snippet. I had a feeling that this would be much shorter in bash, but I don&amp;rsquo;t feel comfortable writing bash scripts. :P
+Below is a bash snippet that tries to incorporates both the changes. :)
+found=0 for win in `xdotool search --class $1`; do if [ `xdotool get_desktop_for_window $win` -eq `xdotool get_desktop` ]; then found=1; break; fi; done if [ $found -eq 1 ]; then xdotool windowactivate $win; else $1; fi  Note: When you&amp;rsquo;ve visual effects enabled (the default option on Ubuntu), getting the current desktop/workspace doesn&amp;rsquo;t work, probably because Root Window properties are being messed around by it.
+Note2: search takes an option --screen. It&amp;rsquo;d be nice if it also had an option --desktop. This task could then be done in a one-liner.
+ My python snippet ↩ dusual on twitter ↩ Jordan&amp;rsquo;s one liner ↩   </description>
+    </item>
+    
+    <item>
+      <title>Is Disney buying MIT??</title>
+      <link>https://punchagan.muse-amuse.in/blog/is-disney-buying-mit/</link>
+      <pubDate>Wed, 25 Oct 2006 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/is-disney-buying-mit/</guid>
+      <description>On April Fools Day of 1998, hackers broke into the MIT web server and changed the MIT home page to indicate that The Walt Disney Company had purchased MIT for $6.9 billion.
+The hacked page contained a link fake to a press release titled Walt Disney Corporation to Acquire MIT for $6.9 Billion.
+Later that day the MIT News Office issued a press release titled MIT says &amp;ldquo;Disney buys MIT&amp;rdquo; hack revealed by low price</description>
+    </item>
+    
+    <item>
+      <title>A &#34;Free Software&#34; Hack!!</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-free-software-hack/</link>
+      <pubDate>Tue, 10 Oct 2006 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-free-software-hack/</guid>
+      <description>  Date: Sun, 31 Aug 2003 23:45:42 -0500 From: &amp;quot;Harley D. Eades III&amp;quot; To: rms@gnu.org Subject: Tribute to freedom. Hello, One late rainy night I had an idea. There is a hill on IL route 29 in Peoria IL, that people climb and write a small message across this hill for everyone to view from a far. What would be better than spreading my two most favorite words across this hill. So we set out with a little over 200 garbage bags and nearly 400 nails. 12:30am and rainy so you can figure that a hill of that size is going to be slippery (lol) nearly falling down hill with every step we start building each letter. At around 2:30am we have finished and now the sun will rise over a hill which spreads the words Free Software to every person that passes by. This is by far a vary small non-complex hack but I beleve it is a hack in it self. This is a tribute to Free Software [and the GNU Project]. Happy Hacking Harley D. Eades III FSF Associate Member Hacker  </description>
+    </item>
+    
+  </channel>
+</rss>

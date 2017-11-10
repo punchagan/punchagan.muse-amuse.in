@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oauth2 on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/oauth2/</link>
+    <description>Recent content in Oauth2 on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Fri, 20 Jun 2014 10:09:51 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/oauth2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OAuth2 demystified</title>
+      <link>https://punchagan.muse-amuse.in/blog/oauth2-demystified/</link>
+      <pubDate>Fri, 20 Jun 2014 10:09:51 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/oauth2-demystified/</guid>
+      <description>Motivation I was trying to pair on writing a simple app that uses Hacker School&amp;rsquo;s OAuth2 API, and hit a roadblock on the first step of requesting an authorization from the user. Once the user authorized my app, I would see an error that said, &amp;ldquo;The authorization server does not support this response type&amp;rdquo;. I was using a client library that I had used before, and the server was using a what seemed like a popular implementation for ruby on rails. Getting weird errors is not done!
+I have used OAuth2 based authentication before, but the thought of using it always makes me a little nervous, just because
+ I don&amp;rsquo;t understand it very well. Like almost everything else, there seem to be so many libraries for doing this in Python, and I&amp;rsquo;m never sure which one to use, or which one I used the last time around. Not understanding the protocol also doesn&amp;rsquo;t let me debug anything that comes up.  To fix this, I set about to read and understand the OAuth2 protocol. This blog post is an attempt to record it for future reference, and possibly act as a reference for others.
+Why OAuth OAuth is simply a way for an end-user to allow third parties to use protected data, without sharing the user&amp;rsquo;s credentials with the third-party.
+For example, an end-user (Jane) can grant a printing service (Printo) access to her protected photos stored at a photo-sharing service (Picasa), without sharing her username and password with the printing service. Instead, she authenticates directly with a server trusted by the photo-sharing service, which issues the printing service delegation-specific credentials. (example from the OAuth 2.0 spec)
+Protocol Flow The flow occurs through a sequence of user actions, client requests and user-agent (browser) redirects.
+ (A) Printo asks Jane to allow using Picasa Data. The request can be sent directly to Jane, but is usually routed via Picasa/Google.
+ (B) Printo gets back an authorization grant, which is a credential representing Jane&amp;rsquo;s authorization or approval. The type of the actual grant credential depends on the type of request that Printo used.
+ (C, D) Printo gets back to Google with the credentials it obtained in the previous step and obtains a token that it can use to talk with Picasa.
+ (E, F) Printo asks for the desired photo with the token it obtained previously, and Picasa gives back the photo to print. Jane gets her framed photo!
+  But before any of this happens, the client needs to register with the authorization server and obtain a client_id and client_secret, that will be used to identify the client making the requests.
+Pythonized &amp;ldquo;authorization code&amp;rdquo; work-flow. The OAuth2 spec allows the authorization request/grant to be of 4 different types. It also allows some flexibility in the token type.
+In my experience, the most common work-flow seems to be using an authorization code as an authorization grant, and using a Bearer type token. This work-flow is explained in the diagram below (taken from the spec document). This diagram zooms in, onto the steps A-D in the diagram above.
+This python code snippet is a simple implementation of this workflow, using the Hacker School API.
+ Conclusion I think, I understand the OAuth2 spec a lot better now, and hope that this will help others understand it, too. And more importantly, I won&amp;rsquo;t get nervous when I have to add it to my projects.
+Also, oauthlib for Python seems to be a pretty thorough implementation of the spec, and requests-oauthlib seems to wrap it for use with requests. I think I&amp;rsquo;m going to use this in my future projects.</description>
+    </item>
+    
+  </channel>
+</rss>

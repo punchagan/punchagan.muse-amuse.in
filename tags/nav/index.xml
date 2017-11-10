@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nav on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/nav/</link>
+    <description>Recent content in Nav on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/nav/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Projects</title>
+      <link>https://punchagan.muse-amuse.in/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/projects/</guid>
+      <description>This is a list of some of the projects that I have worked on in the past, or am currently working on.
+Howdy Inspired by Sacha Chua and Michael Fogleman to try to keep in touch with friends and family better, I built a tool to keep track of my interactions.
+Cows &amp;amp; Bulls I built this site, in memory of the best cows &amp;amp; bulls player I&amp;rsquo;ve known. It is a simple client-side page with javascript that works offline too.
+Statiki Statiki leverages free and open services and software like GitHub, TravisCI and Nikola to provide a means of deploying static websites, without needing any setup on the users&amp;rsquo; machine.
+GetHub GetHub was made for the geeks whose primary Social Network is GitHub and who keep checking for updates, a dozen times every hour. :)
+This extension was written when pop-up notifications were newly introduced into Chrome, and I was excited by it. I now prefer a workspace with fewer distractions, and no longer use this.
+Nikola orgmode plugin Nikola supports multiple markup formats as input, orgmode being one of them. The support for this is added by this plugin, and this blog is generated using this plugin.
+cinspect cinspect attempts to extend Python&amp;rsquo;s built-in inspect module to add &amp;ldquo;inspection&amp;rdquo; for Python&amp;rsquo;s builtins and other objects not written in Python. It uses libclang to parse C-code and indexes it to allow looking up the source of the required objects, using an inspect-like API.
+The original idea was from a friend, Tom Ballinger, who also helped me design and test it out.
+Blaggregator Recursers write awesome blog posts all over the internet, and blaggregator is a Django powered site that aggregates all these posts. (You will need an RC login to view it).
+The project was originally thought of, and built by Sasha. I&amp;rsquo;ve added a bunch of features to it, and help with maintaining it.
+Nikola Nikola is a static site and blog generator written in Python that can generate a blog from input in many different markup formats.
+This website has been generated using Nikola. I use the development branch of Nikola and actively contribute to the development of features that I need or fix bugs that affect me.
+org2blog I no longer actively maintain org2blog since I don&amp;rsquo;t use any Wordpress blogs, anymore. If you are interested in maintaining this project, do get in touch.</description>
+    </item>
+    
+    <item>
+      <title>Quotes</title>
+      <link>https://punchagan.muse-amuse.in/quotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/quotes/</guid>
+      <description>A collection of quotes. I keep coming back to them for inspiration. Or for brighter perspectives on life.
+ Furious activity is no substitute for understanding. &amp;ndash; H.H. Williams &amp;ndash; Activity
+ A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects. &amp;ndash; Robert A. Heinlein &amp;ndash; Human Beings
+ Nothing ever becomes real till it is experienced &amp;ndash; even a proverb is no proverb to you till your life has illustrated it. &amp;ndash; John Keats
+ We lie loudest when we lie to ourselves. &amp;ndash; Eric Hoffer
+ The first hour of the morning is the rudder of the day. &amp;ndash; Henry Ward Beecher
+ Programs must be written for people to read, and only incidentally for machines to execute. &amp;ndash; Abelson &amp;amp; Sussman &amp;ndash; SICP, preface to the first edition
+ In everyone&amp;rsquo;s life, at some time, our inner fire goes out. It is then burst into flame by an encounter with another human being. We should all be thankful for those people who rekindle the inner spirit. &amp;ndash; Albert Schweitzer, 1875 - 1965
+ Anyone who cannot cope with mathematics is not fully human. At best he is a tolerable subhuman who has learned to wear shoes, bathe and not make messes in the house. &amp;ndash; Lazarus Long, Time Enough for Love
+ You probably wouldn&amp;rsquo;t worry about what people think of you if you could know how seldom they do. &amp;ndash; Olin Miller
+ If you judge people, you have no time to love them. &amp;ndash; Mother Teresa
+ Feeling gratitude and not expressing it is like wrapping a present and not giving it. &amp;ndash; William Arthur Ward
+ Where the mind is without fear and the head held high;
+Where knowledge is free;
+Where the world has not been broken up into fragments by narrow domestic walls;
+Where words come out from the depth of truth;
+Where tireless striving stretches its arms towards perfection;
+Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit;
+Where the mind is led forward by Thee into ever-widening thought and action;
+Into that heaven of freedom, my Father, let my country awake.
+Rabindranath Tagore &amp;ndash; Let My Country Awake
+ The true Enlightenment thinker, the true rationalist, never wants to talk anyone into anything. No, he does not even want to convince; all the time he is aware that he may be wrong. Above all, he values the intellectual independence of others too highly to want to convince them in important matters. He would much rather invite contradiction, preferably in the form of rational and disciplined criticism. He seeks not to convince but to arouse &amp;ndash; to challenge others to form free opinions. &amp;ndash; Karl Popper &amp;ndash; On Freedom
+ Don&amp;rsquo;t ask yourself what the world needs; ask yourself what makes you come alive. And then go and do that. Because what the world needs is people who have come alive. &amp;ndash; Howard Thurman
+ All you need is love. But a little chocolate now and then doesn&amp;rsquo;t hurt. &amp;ndash; Charles M Schultz
+ Somewhere in the world someone is training when you are not. When you race him, he will win. &amp;ndash; Tom Fleming
+ Because when something happens, she&amp;rsquo;s the person I want to tell. The most basic indicator of love. &amp;ndash; David Levithan
+ If you are not embarrassed by the first version of your product, you&amp;rsquo;ve launched too late. &amp;ndash; Reid Hoffman
+ Nothing of me is original. I am the combined effort of everyone I&amp;rsquo;ve ever known. &amp;ndash; Chuck Palahniuk
+ I fell in love with the way you sleep; slowly then all at once &amp;ndash; John Green
+ The enjoyment of one&amp;rsquo;s tools is an essential ingredient of successful work. &amp;ndash; Donald E. Knuth
+ Respect yourself enough to walk away from anything that no longer serves you, grows you, or makes you happy. &amp;ndash; Robert Tew
+ It is not in the stars to hold our destiny but in ourselves. &amp;ndash; William Shakespeare
+ I saw that my life was a vast glowing empty page and I could do anything I wanted. &amp;ndash; Jack Kerouac
+ The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for. &amp;ndash; Bob Marley
+ Scientists study the world as it is; engineers create the world that has never been. &amp;ndash; Theodore von Karman
+ If you can love someone with your whole heart, even one person, then there&amp;rsquo;s salvation in life. Even if you can’t get together with that person. &amp;ndash; Haruki Murakami
+ The truth is rarely pure and never simple &amp;ndash; Oscar Wilde
+ Memories warm you up from the inside. But they also tear you apart. &amp;ndash; Haruki Murakami
+ We are what we repeatedly do. Excellence, then, is not an act, but a habit. &amp;ndash; Aristotle
+ Life is a tragedy when seen in close-up, but a comedy in a long-shot. &amp;ndash; Charlie Chaplin
+ Another flaw in the human character is that everyone wants to build and nobody wants to do maintenance. &amp;ndash; Kurt Vonnegut
+ In three words I can sum up everything I&amp;rsquo;ve learned about life: it goes on. &amp;ndash; Robert Frost
+ Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. &amp;ndash; Brian Kernighan
+ Lighthouses don’t go running all over an island looking for boats to save; they just stand there shining. &amp;ndash; Anne Lamott
+ Life is an awful, ugly place to not have a best friend. &amp;ndash; Sarah Dessen
+ Warning: everything saved will be lost. &amp;ndash; Wii notification
+ Happiness is nothing more than good health and a bad memory. &amp;ndash; Albert Schweitzer
+ Silence is the language of god. All else is poor translation. &amp;ndash; Rumi
+ To love at all is to be vulnerable. Love anything, and your heart will certainly be wrung and possibly be broken. If you want to make sure of keeping it intact, you must give your heart to no one, not even to an animal. Wrap it carefully round with hobbies and little luxuries; avoid all entanglements; lock it up safe in the casket or coffin of your selfishness. But in that casket &amp;ndash; safe, dark, motionless, airless &amp;ndash; it will change. It will not be broken; it will become unbreakable, impenetrable, irredeemable. The alternative to tragedy, or at least to the risk of tragedy, is damnation. The only place outside of Heaven where you can be perfectly safe from all the dangers and perturbations of love is Hell. &amp;ndash; C. S. Lewis
+ Quality is the result of a million selfless acts of care &amp;ndash; not just of any great method that descends from the heavens. That these acts are simple doesn&amp;rsquo;t mean that they are simplistic; and it hardly means that they are easy. They are nonetheless the fabric of greatness and, more so, of beauty in any human endeavor. To ignore them is not yet to be fully human. &amp;ndash; James O. Coplien, Foreword to Clean Code
+ We are all in the same boat, in a stormy sea, and we owe each other a terrible loyalty. &amp;ndash; G.K. Chesterton
+ The road to wisdom? &amp;ndash; Well, it&amp;rsquo;s plain and simple to express:
+Err
+and err
+and err again
+but less
+and less
+and less.
+&amp;ndash; Piet Hein (Grooks)
+ My idea of dominating is that I get all of the players on my team to play better than if I wasn&amp;rsquo;t there. &amp;ndash; Ben Wiggins
+ It is a risk to love. What if it doesn&amp;rsquo;t work out? Ah, but what if it does. &amp;ndash; Peter McWilliams
+ Wherever you go, go with all your heart &amp;ndash; Confucius
+ Satisfaction of one&amp;rsquo;s curiosity is one of the greatest sources of happiness in life. &amp;ndash; Linus Pauling
+ I wanted to change the world. But I have found that the only thing one can be sure of changing is oneself. &amp;ndash; Aldous Huxley
+ The true voyage of discovery consists not of going to new places, but of having a new pair of eyes. &amp;ndash; Marcel Proust (1871–1922)
+ All that is necessary for evil to triumph is for good men to do nothing. &amp;ndash; Edmund Burke
+ I think that it&amp;rsquo;s extraordinarily important that we in computer science keep fun in computing. When it started out, it was an awful lot of fun. Of course, the paying customers got shafted every now and then, and after a while we began to take their complaints seriously. We began to feel as if we really were responsible for the successful, error-free perfect use of these machines. I don&amp;rsquo;t think we are. I think we&amp;rsquo;re responsible for stretching them, setting them off in new directions, and keeping fun in the house. I hope the field of computer science never loses its sense of fun. Above all, I hope we don&amp;rsquo;t become missionaries. Don&amp;rsquo;t feel as if you&amp;rsquo;re Bible salesmen. The world has too many of those already. What you know about computing other people will learn. Don&amp;rsquo;t feel as if the key to successful computing is only in your hands. What&amp;rsquo;s in your hands, I think and hope, is intelligence: the ability to see the machine as more than when you were first led up to it, that you can make it more. &amp;ndash; Alan J. Perlis (April 1, 1922-February 7, 1990)
+ Forgetting is like radiation: you cannot smell it, you cannot taste it, and when you finally notice the damage, it is already irreversible &amp;ndash; Piotr Wozniack
+ Computer Science is no more about computers than astronomy is about telescopes &amp;ndash; Edsger Dijkstra
+ Do anything, but let it produce joy. &amp;ndash; Walt Whitman
+ Learn to value yourself, which means: fight for your happiness &amp;ndash; Ayn Rand
+ If you don&amp;rsquo;t stand for something you will fall for anything &amp;ndash; Malcolm X
+ Do you want to know who you are? Don&amp;rsquo;t ask. Act! Action will delineate and define you &amp;ndash; Thomas Jefferson
+ We will be held accountable for all the permitted pleasures we failed to enjoy. &amp;ndash; Talmud Yerwshalmi
+ It&amp;rsquo;s so easy to hate. It takes strength to be gentle and kind. &amp;ndash; The Smiths
+ To be trusted is a greater compliment than being loved &amp;ndash; George MacDonald
+ I am more convinced than ever. Conceptual integrity is central to product quality. &amp;ndash; Fred Brooks
+ If the software doesn&amp;rsquo;t have to work, you can always meet any other requirement. &amp;ndash; Gerald Weinberg
+ Twenty years from now you will be more disappointed by the things that you didn&amp;rsquo;t do than by the ones you did. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover. &amp;ndash; Mark Twain
+ Be careful when you fight the monsters, lest you become one. &amp;ndash; Friedrich Nietzsche
+ Assume nobody else has any idea what they&amp;rsquo;re doing either. A lot of people refuse to try something because they feel they don&amp;rsquo;t know enough about it or they assume other people must have already tried everything they could have thought of. Well, few people really have any idea how to do things right and even fewer are to try new things, so usually if you give your best shot at something you&amp;rsquo;ll do pretty well. &amp;ndash; Aaron Swartz
+ What makes this advice especially hollow and pious is that I am not dead yet. If it were any good, I could easily take it myself. &amp;ndash; Kurt Vonnegut, in a letter to his daughter Nanny
+ Go out and walk. That is the glory of life. &amp;ndash; Artist Maira Kalman
+ I think it&amp;rsquo;s pretty cool that there are tutorials to do things that are pretty near the state of the art. &amp;ndash; Dan L. on tutorials in Theano for doing Deep Learning stuff
+ All things worth doing are frustrating. How much satisfaction do you get from doing something easy? &amp;ndash; Joe Armstrong on Twitter
+ Be happy with what you have. Be excited about what you want. &amp;ndash; Alan Cohen
+ If you love something, be prepared to lose it. &amp;ndash; Haruki Murakami in a Tweet
+ Let death be what takes us, not lack of imagination &amp;ndash; BJ Miller in a TED talk
+ One doesn&amp;rsquo;t discover new lands without consenting to lose sight, for a very long time, of the shore. &amp;ndash; André Gide in Les faux-monnayeurs [The Counterfeiters]
+ A good life is not a life without problems. A good life is a life with good problems. &amp;ndash; Mark Manson in a blog post
+ HEY, FRIENDS. PLEASE BOTHER ME. &amp;ndash; Kara M on Zulip on &amp;ldquo;What really matters&amp;rdquo;.
+ Joy is the best makeup &amp;ndash; Anne Lamott
+ I am rarely happier than when spending an entire day programming my computer to perform automatically a task that would otherwise take me a good ten seconds to do by hand &amp;ndash; Douglas Adams in Last Chance to See.
+ Don&amp;rsquo;t wait for a light to appear at the end of the tunnel, stride down there and light the bloody thing yourself. &amp;ndash; Sara Henderson in From Strength to Strength
+ It doesn&amp;rsquo;t matter where you are, you are nowhere compared to where you can go. &amp;ndash; Bob Proctor
+ Quality is never an accident; it is always the result of high intention, sincere effort, intelligent direction and skillful execution; it represents the wise choice of many alternatives. &amp;ndash; William A. Foster
+ How we spend our days is, of course, how we spend our lives &amp;ndash; Annie Dillard
+ The truth is, most of us discover where we are headed when we arrive. &amp;ndash; Bill Watterson
+ The people you love aren&amp;rsquo;t interruptions, they’re the reason you work at all. Give &amp;lsquo;em a hug. &amp;ndash; Jason Zimdars in this post
+ Attention is the rarest and purest form of generosity. &amp;ndash; Simone Weil
+ Ten years from now, make sure you can say that you chose your life, you didn’t settle for it. &amp;ndash; Mandy Hale, The Single Woman
+   </description>
+    </item>
+    
+  </channel>
+</rss>

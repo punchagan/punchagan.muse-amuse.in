@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Org2blog on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/org2blog/</link>
+    <description>Recent content in Org2blog on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 15 Jan 2011 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/org2blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What&#39;s up with org2blog?</title>
+      <link>https://punchagan.muse-amuse.in/blog/whats-up-with-org2blog/</link>
+      <pubDate>Sat, 15 Jan 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/whats-up-with-org2blog/</guid>
+      <description>Another post on org2blog. Yes, the project is still alive. ;) Well, frankly quite a few people seem to be using it, and I regularly get bug-reports and feature requests. I&amp;rsquo;m happy. :)
+Actually, this post is to announce a change in the namespace of my org2blog. It turns out that there is another package that is called org2blog, but it posts to blogger. Tehom, the author of the other package got in touch with me, and we tried to clean up a few things. In this process, we decided to use two different namespaces, to avoid conflicts if a particular user has both the packages loaded. I am going to use org2blog/wp as my namespace prefix, instead of the older org2blog. So, if you are posting a sub-tree, you&amp;rsquo;ll need to use the org2blog/wp-post-subtree function, instead of org2blog-post-subtree.
+We, Tehom and I, did discuss the possibility of merging the two packages into a single huge package, but we think the amount of work is far greater than the payoffs. So, the packages continue to be called org2blog but we reference each others packages, to reduce the confusion, amongst users.
+org2blog/wp version 0.4 comes with the new namespace.</description>
+    </item>
+    
+    <item>
+      <title>Some fun from #org-mode</title>
+      <link>https://punchagan.muse-amuse.in/blog/some-fun-from-org-mode/</link>
+      <pubDate>Sat, 02 Oct 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/some-fun-from-org-mode/</guid>
+      <description>This is a conversation from #org-mode, published without permission from plovs, BerntH and bremner. If any of you want any of the content removed, I will do so.
+  hi all
+ hi punchagan [18:36]
+ BerntH: ever used/tried blorg or blorgit? [18:47]
+ I like the way org-publish works, but blorg exports one org file as a blog. If blorg were to be re-written on top of org-publish, how should it be done? use one file per post or just one file for the whole blog? [18:52]
+ punchagan: another option is to use ikiwiki and use the org-mode plugin to render pages. This is what i do, although only a bit of the site is in org. [19:44]
+ bremner: can I have a look at your site? [19:45]
+ sure, it ain&amp;rsquo;t pretty, but: www.cs.unb.ca/~bremner [19:46]
+ thanks. I&amp;rsquo;ll keep this in mind. [19:47]
+ I just loved the way this site looks and behaves &amp;ndash; http://julien.danjou.info/projects.html
+ well, the side bar at least is possible with ikiwiki. Other than that I suppose it is mainly a matter of css [19:48]
+ punchagan: nope [19:49]
+ ok BerntH [19:50]
+ punchagan ikiwiki does have an org-mode plugin [19:56]
+ plovs: yes, bremner told me that and I&amp;rsquo;ve seen on Worg too. :)
+ punchagan ah, yes, sorry
+ plovs: it&amp;rsquo;s alright. [19:59]
+ punchagan another possibility is org2blog, which uses wordpress
+ plovs: I&amp;rsquo;m the author of it. :D
+ lol, ik, that punchagan [20:17]
+ lol
+ plovs: were you kidding? or serious? [20:19]
+ punchagan sorry to say i was serious, but it will not happen again :-)
+ i really like org2blog, played with it yesterday
+ plovs: no. I was just wondering if you were playing around with me. :P
+ I&amp;rsquo;m happy some one thinks it is useful.
+ lol, no, i just didn&amp;rsquo;t recognized your name, although it is kind of hard to miss [20:21]
+ I hope you don&amp;rsquo;t mind, if I make this anecdote public?
+ </description>
+    </item>
+    
+    <item>
+      <title>org2blog on the web</title>
+      <link>https://punchagan.muse-amuse.in/blog/org2blog-on-the-web/</link>
+      <pubDate>Sun, 29 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org2blog-on-the-web/</guid>
+      <description>Well, it&amp;rsquo;s been a week of lull on my blog. Not that I&amp;rsquo;m very busy. But, just didn&amp;rsquo;t have anything to post. I was feeling jobless today and searched the web for org2blog users. Here is what I found.
+ This is a test post from org2blog
+ Posting from emacs and org-mode
+ Vim vs Emacs, or why it really doesn’t matter
+ Posting subtree from org-mode buffer (take 2)
+ Here’s a test post to wordpress for Org2blog – an Emacs plugin
+ Primeiro post usando org2blog
+ Emacs中绘图－ ditaa篇
+ org2blog on identi.ca
+ Marcel van der Boom &amp;ndash; StatusNet
+  </description>
+    </item>
+    
+    <item>
+      <title>org2blog annoyance</title>
+      <link>https://punchagan.muse-amuse.in/blog/org2blog-annoyance/</link>
+      <pubDate>Tue, 03 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org2blog-annoyance/</guid>
+      <description>I hate it when I&amp;rsquo;m trying out things with org2blog - fixing bugs or adding features - and my testing buffer gets posted. Why do I keep passing the prefix argument with C-u? I should probably work with a local instance of WordPress.</description>
+    </item>
+    
+    <item>
+      <title>Thanks Sacha</title>
+      <link>https://punchagan.muse-amuse.in/blog/thanks-sacha/</link>
+      <pubDate>Fri, 30 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/thanks-sacha/</guid>
+      <description>I just wanted to thank Sacha Chua for bearing with my newbie elisp code and trying out org2blog.
+Also, thanks for the two patches she sent.
+ Feature addition - Posting sub-trees instead of whole buffers. I had this feature in mind, and had started working on it after her request, but she was too quick for me! ;) Cleaning up of the code that uploads images.  I&amp;rsquo;m loving it!</description>
+    </item>
+    
+    <item>
+      <title>I&#39;m back</title>
+      <link>https://punchagan.muse-amuse.in/blog/im-back/</link>
+      <pubDate>Sat, 17 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/im-back/</guid>
+      <description>After a short break, I&amp;rsquo;m back to blogging! A few things have changed meanwhile. A lot haven&amp;rsquo;t.
+ Noetic Nought shall now be called Rustic Reverie.
+ The Blogs I read page is now manually populated. More pages might be coming soon.
+ My web presence has almost been reduced to just this blog. I hope to be blogging more often this time around. I guess I&amp;rsquo;ll have shorter and more frequent posts. &amp;ldquo;Release early, Release often.&amp;rdquo;
+ I&amp;rsquo;ve been inspired by Sacha Chua and her wonderful blog. She puts up anything that -
+ she may look up in future. could be remotely useful to anybody on this planet.  I like her idea of &amp;ldquo;thinking of writing as sketching&amp;rdquo;. &amp;ldquo;Keep repeating yourself, until the core message floats to the top&amp;rdquo;. It feels similar to the idea - &amp;ldquo;Release early, Release often.&amp;rdquo;
+ Also, Thanks to Madhu and Vattam who set an impossibly high standard by having their resumes and letters of recommendations and other &amp;ldquo;personal&amp;rdquo; stuff on version control on public repositories.
+ All my posts will be made from org2blog - a little org-mode based client that I hacked up. Emacs and Org-mode all the way! This is the first post by me (and probably anybody) from org2blog!
+  </description>
+    </item>
+    
+  </channel>
+</rss>

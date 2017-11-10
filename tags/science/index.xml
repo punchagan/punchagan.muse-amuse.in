@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/science/</link>
+    <description>Recent content in Science on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 24 Dec 2012 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Best Practices for Scientific Computing</title>
+      <link>https://punchagan.muse-amuse.in/blog/best-practices-for-scientific-computing/</link>
+      <pubDate>Mon, 24 Dec 2012 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/best-practices-for-scientific-computing/</guid>
+      <description> Shantanu and I gave a short talk titled &amp;ldquo;Software Carpentry for Scientists&amp;rdquo; for the graduate students of Chemical Engineering department, IISc, this Friday. We gave a short introduction to Git, TDD, Numpy/Scipy, etc and mentioned a few things from Greg Wilson et al&amp;rsquo;s paper.
+I promised to revert to them with links to a few resources. I figured it would be more beneficial, if I just put it in a publicly available place.
+A summary of the paper by Greg Wilson et. al., is below.
+Useful resources Software Carpentry  Paper by Greg Wilson et. al. Software Carpentry  Git &amp;amp; version control  http://bit.ly/VfbOww http://karlagius.com/2009/01/09/version-control-for-the-masses/ http://try.github.com http://betterexplained.com/articles/a-visual-guide-to-version-control/ http://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/  TDD  http://software-carpentry.org/4_0/test/index.html https://www.google.co.in/?q=TDD+matlab  SciPy  http://scipy-lectures.github.com  Python  http://docs.python.org/tutorial  GUI tools in Python  http://code.enthought.com/projects/traits/docs/html/tutorials/traits_ui_scientific_app.html http://docs.enthought.com/traits http://docs.enthought.com/traitsui http://docs.enthought.com/enaml  Summary of paper by Greg Wilson et. al.  Write programs for people, not computers  a program should not require its readers to hold more than a handful of facts in memory at once. names should be consistent, distinctive and meaningful. code style and formatting should be consistent. all aspects of software development should be broken down into tasks roughly an hour long  Automate repetitive tasks  rely on the computer to repeat tasks save recent commands in a file for re-use use a build to automate scientific work-flows  Use the computer to record history  software tools should be used to track computational work automatically.  Make incremental changes  work in small steps with frequent feedback and course correction  Use version control  use a version control system everything that has been created manually should be put in version control  Don&amp;rsquo;t repeat yourself (or others)  every piece of data must have a single authoritative representation in the system code should be modularized rather than copied and pasted re-use code instead of rewriting it  Plan for mistakes  add assertions to programs to check their operation use an off-the-shelf unit testing library use all available oracles when testing programs turn bugs into test cases use a symbolic debugger  Optimize software only after it works correctly  use a profiler to identify bottlenecks write code in the highest-level language possible  Document design and purpose, not mechanics  document interfaces and reasons, not implementations refactor code instead of explaining how it works embed the documentation for a piece of software in that software  Collaborate  use pre-merge code reviews use pair programming when bringing someone new up to speed and when tackling particularly tricky problems use an issue tracking tool   </description>
+    </item>
+    
+    <item>
+      <title>Awe[ful] @ Science !!?!??!</title>
+      <link>https://punchagan.muse-amuse.in/blog/aweful-science/</link>
+      <pubDate>Thu, 21 Dec 2006 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/aweful-science/</guid>
+      <description>I was at the B.M Birla Science Musuem yesterday&amp;hellip; it was calm with no one in there.. the only people i could see were the sweepers and cleaners.. the place was dull and lifeless&amp;hellip; I dint like it.. but slowly.. as the afternoon progressed.. people started coming in and by 5 in the evening.. there were quite a few in. The museum seemed to have sprung to life suddenly&amp;hellip; there was a lot of action all around with people enjoying in ( and trying to understand) the wonderful world of science&amp;hellip;.
+A lot of kids had come along with their parents&amp;hellip; to dive into the world of science&amp;hellip; they were enjoying it&amp;hellip; the parents also turned into kids and were having great fun&amp;hellip; it was a great sight&amp;hellip; the parents tried their best to demistify the happenings&amp;hellip; those with a science background did it from thier knowledge.. the others patiently went through the explanations&amp;hellip;
+The kids were thoroughly enjoying it&amp;hellip; I don&amp;rsquo;t know if they would later on in life remember what they learnt now&amp;hellip; but definitely a love for science and physics will be ignited in their hearts, it will fill their consciousness&amp;hellip; the spirit of curiosity will have multiplied manifold&amp;hellip; even the elders..connected with the child somewhere deep within themselves&amp;hellip; they too enjoyed the wonders of the world of science&amp;hellip;[and ofcourse the company and thrill in the eyes of their kids..] I too enjoyed the experience&amp;hellip; the experiments and the thrill of the others brought a smile to my face too&amp;hellip;. but it set me thinking&amp;hellip;
+If science can inspire so much awe.. what&amp;rsquo;s happening at our engineering colleges? When people have the chance to learn a whole lot of science and put it to practical use&amp;hellip; why isn&amp;rsquo;t it that they are excited about it? Why is it that people just endup mugging a few formulae just before exams and get over with it? Where&amp;rsquo;s the problem? Where is that curiosity, all of us had as a child, lost?
+I can recollect, in the last sem while doing experiments in the MT lab there wasn&amp;rsquo;t even a tenth of the awe or joy&amp;hellip; that i could see and feel at the museum&amp;hellip; why?? Is it that the child within us.. [the future engineers] dead? { If that&amp;rsquo;s true.. then the country is in deep trouble..} But I don&amp;rsquo;t think that&amp;rsquo;s true&amp;hellip; I enjoyed my visit to the museum totally&amp;hellip;and I am sure every other &amp;lsquo;to be engineer&amp;rsquo; would have too.. then where&amp;rsquo;s the trouble?
+I don&amp;rsquo;t know exactly&amp;hellip; but I wonder if its because everything is equated to marks and grades&amp;hellip; all that matters to an engineering student [and the world around him/her..] is his/her CG or %age&amp;hellip; Is this what the country needs? Were the &amp;lsquo;temples of Learning&amp;rsquo;- the IIT&amp;rsquo;s and a whole lot of other technical institutions set-up for this very pupose? Of what use are those engineers to the country, who aren&amp;rsquo;t in awe of science and engineering, whose spirit of curiosity has been overpowered and suppressed by the present education system?
+Isn&amp;rsquo;t it time we have a closer look at our education system&amp;hellip; why are we still sticking to the &amp;lsquo;British sytem&amp;rsquo; introduced during a colonial rule.. to break the back bone of our nation&amp;hellip; to supress our ability to think rationally.. to produce third rate clerks to work for them at lower wages? Why is the emphasis on marks and grades growing exponentially? Shouldn&amp;rsquo;t we start working to cut this growth at its root? Is this sytem good enough to produce &amp;ldquo;real&amp;rdquo; engineers, doctors, lawyers, journos, CA&amp;rsquo;s, architects, designers, writers, artists etc etc..
+Where have all the gurukuls of the ancient past and the Santiniketans of the recent past gone? Isn&amp;rsquo;t the country in desparate need of more of these &amp;lsquo;temples of learning&amp;rsquo;??
+The highest education is that which does not merely give us information but makes our life in harmony with all existence. &amp;ndash; Rabindranath Tagore
+Science is a wonderful thing if one does not have to earn one&amp;rsquo;s living at it &amp;ndash;Albert Einstein</description>
+    </item>
+    
+  </channel>
+</rss>

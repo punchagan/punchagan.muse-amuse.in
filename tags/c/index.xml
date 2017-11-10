@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/c/</link>
+    <description>Recent content in C on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 04 Aug 2014 16:10:41 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-08-03</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-03/</link>
+      <pubDate>Mon, 04 Aug 2014 16:10:41 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-03/</guid>
+      <description> Friday  On Friday, I didn&amp;rsquo;t do the exercises that everyone else doing job prep were doing. I wanted to continue writing C code, and continued to work on the bencode parser in C. I barely was able to finish adding support for lists. I got comfortable using Valgrind, in the process of debugging a stupidity of not using realloc correctly. What I was able to write with Python in an hour or so, I have been writing for about a day, in C, and haven&amp;rsquo;t yet finished it! It definitely doesn&amp;rsquo;t help that my C is very rusty&amp;hellip;  Saturday &amp;amp; Sunday  I didn&amp;rsquo;t work much, and went around New York with Madhu. We went to quite a few places around here, the highlight being, the view of Manhattan&amp;rsquo;s skyline from the Staten Island Ferry. NYC&amp;rsquo;s library also had an interesting exhibhition on the history of America, just before and during WW-I. On Sunday, I tried out Mary TTS on the raspberry pi, and it is simply unusable. I then, started writing a simple wrapper around Google&amp;rsquo;s tts that is used by Google translate. The TTS part is more or less working right now, the next step would be to deploy it on the RaspberryPi and start using it as a radio, to see what my needs are like. Hooking it up to Jasper client seems like a good idea, right now&amp;hellip; though I&amp;rsquo;m not sure if it would work very well, with the pi&amp;rsquo;s audio output drowning out the voice commands.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-31</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-31/</link>
+      <pubDate>Fri, 01 Aug 2014 10:38:57 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-31/</guid>
+      <description> I continued with doing the initial parts of the book, and didn&amp;rsquo;t pair with Stephanie today. I gave a super-short presentation, introducing people to pdb, IPython&amp;rsquo;s tracer. I just started writing a Bencoding parser in C, but I&amp;rsquo;m having trouble thinking about all the memory allocations and stuff. It feels so nostalgic! :P  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-30</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-30/</link>
+      <pubDate>Thu, 31 Jul 2014 08:40:16 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-30/</guid>
+      <description> (Re) Learning C  Stephanie and I worked through the Networking chapter of the book.
+ We faced some issues with writing 0 bytes to memory, since most of the code was dealing with strings. I still haven&amp;rsquo;t figured out how to do this, correctly.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-29</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-29/</link>
+      <pubDate>Tue, 29 Jul 2014 11:20:24 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-29/</guid>
+      <description> Hacking: learning by breaking stuff  Post lunch, I started pairing with Stephanie on the exercises in the Hacking book, and that turned out to be super fun! We got through the chapter on exploitation, which focussed on stack overflows, heap overflows, overflows in function pointers, and string formatting exploits. It acted as more than a gentle refresher for C, and was super fun! Running the examples on a 64bit system, added an additional amount of thinking required, and was good, IMO. I hadn&amp;rsquo;t worked along with Stephanie on the material in the first two chapters. So, I went back home and tried to catch up, but couldn&amp;rsquo;t get all of it done.  Miscellaneous  I spent part of the morning wrapping up the install script for the raspberry project, and cleaning up the repository. It looks reasonable now, and I think I&amp;rsquo;m done with it until the end of HackerSchool. I also tried to look for &amp;ldquo;easy&amp;rdquo; python issues that would involve me writing some C code, but didn&amp;rsquo;t really find anything other than documentation&amp;hellip; I guess, I should pick a module and look for bugs in it, instead. Also, while chatting with a friend, I had to explain that I don&amp;rsquo;t mention the last names of people or link to them, for privacy reasons. Hacker School is particularly careful about not divulging information about who are at Hacker School each batch, and I want to keep that tradition.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-28</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-28/</link>
+      <pubDate>Mon, 28 Jul 2014 22:23:39 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-28/</guid>
+      <description> There seemed to be excitement in the space to have Jessica around. We had coffee with her, and I chatted with her briefly. She encouraged me to try and send a patch to CPython, that involved debugging and fixing some C issues. I spent some time with Tom, while he tried to get cinspect working for him, and it seemed like having the developer next to you, helped. As always. We didn&amp;rsquo;t make any fixes to the code, but it worked. I spent the afternoon, adding tests for a simple issue, to see how patches are sent. Later, I paired with Sophia for an hour to refactor the vcs code. It&amp;rsquo;s beginning to look much better than what it used to, and I like that. Jessica&amp;rsquo;s talk on buffer overflows was enlightening and entertaining. It was very similar to a talk that Max gave on one of the thursdays, but it was exciting nevertheless. After the talk, I am inspired to try and work through the Hacking: Art of exploitation, at some point. I&amp;rsquo;m beginning to feel like time at HackerSchool running out!  </description>
+    </item>
+    
+  </channel>
+</rss>

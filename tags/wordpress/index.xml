@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/wordpress/</link>
+    <description>Recent content in Wordpress on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 15 Jan 2011 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What&#39;s up with org2blog?</title>
+      <link>https://punchagan.muse-amuse.in/blog/whats-up-with-org2blog/</link>
+      <pubDate>Sat, 15 Jan 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/whats-up-with-org2blog/</guid>
+      <description>Another post on org2blog. Yes, the project is still alive. ;) Well, frankly quite a few people seem to be using it, and I regularly get bug-reports and feature requests. I&amp;rsquo;m happy. :)
+Actually, this post is to announce a change in the namespace of my org2blog. It turns out that there is another package that is called org2blog, but it posts to blogger. Tehom, the author of the other package got in touch with me, and we tried to clean up a few things. In this process, we decided to use two different namespaces, to avoid conflicts if a particular user has both the packages loaded. I am going to use org2blog/wp as my namespace prefix, instead of the older org2blog. So, if you are posting a sub-tree, you&amp;rsquo;ll need to use the org2blog/wp-post-subtree function, instead of org2blog-post-subtree.
+We, Tehom and I, did discuss the possibility of merging the two packages into a single huge package, but we think the amount of work is far greater than the payoffs. So, the packages continue to be called org2blog but we reference each others packages, to reduce the confusion, amongst users.
+org2blog/wp version 0.4 comes with the new namespace.</description>
+    </item>
+    
+    <item>
+      <title>WP to org-mode &#43; hyde &#43; disqus</title>
+      <link>https://punchagan.muse-amuse.in/blog/wp-to-org-mode-hyde-disqus/</link>
+      <pubDate>Fri, 22 Oct 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/wp-to-org-mode-hyde-disqus/</guid>
+      <description> Hello World!
+My first post at my new home. Obviously, it was going to be about the move. You knew it, didn&amp;rsquo;t you? ;)
+Well, I got some space on the web, along with a few friends. Thanks to my org-mode fanboyism, I now use it to maintain my homepage. I&amp;rsquo;ve successfully completed import of my Wordpress posts and comments. :)
+I now use  Emacs and Org-mode 1 to write my posts. org-hyde.el 2 to publish html in a hyde parse-able format. hyde 3 to convert the html pages into a blog. org-publish to publish other pages in my home page. git 4 and a bash script for publishing. Disqus 5 for the comment system.  Yes, I know it sounds rather complicated. :) But, now that I have it set up, it&amp;rsquo;s not all that difficult to make a post. It&amp;rsquo;s just a matter of one git commit and push. I need to fine-tune the shell script a bit, though.
+How I moved The move definitely wasn&amp;rsquo;t trivial. I guess, I could&amp;rsquo;ve started afresh but, what fun would that have been? ;)
+This roughly how I did things &amp;ndash; in the order that I did them.
+Choosing hyde I looked at a handful of options to maintain a blog, using org-mode &amp;mdash; blorg, org-jekyll, blorgit, ikiwiki. After some assessment, I decided upon org-jekyll and jekyll. But then, I accidentally stumbled upon hyde.
+I decided to go with hyde instead of jekyll 6 since
+ It&amp;rsquo;s in Python. I didn&amp;rsquo;t want to start figuring out Ruby, now. It uses Django templates 7. And Django is something, I wish to learn. I&amp;rsquo;ve started with that. :)  Clean up org-jekyll to work with hyde. I then &amp;ldquo;ported&amp;rdquo; org-jekyll.el into org-hyde.el.
+ removed stuff like categories and languages, that I was not going to use. Added some code w.r.t timestamps, from org2blog, to it, so that my older org2blog posts could be easily ported.  Clean up older org2blog posts org2blog can post either buffers or subtrees. I had posts in both formats. I converted all of them into subtrees of one tree, using some Python.
+Import older posts This was the most painful posts. Importing all the old posts from Wordpress. org-mode really needs a XHTML/XML importer!
+I did all sorts of crazy stuff to get this done.
+ used pandoc to convert html to markdown wrote some throw away regex code to convert markdown to org-mode. wrote more regex code to convert html to org-mode. hacked up a lot of stuff and finally got all the posts into org format! :)  A workflow for publishing Set up git along with some bash code, to have a mechanism to minimize the effort in making a blog post. All this is still a lot of work, compared to the ease with which I used to use org2blog. That&amp;rsquo;s partly due to ssh restrictions in my hostel.
+CSS clean-up I&amp;rsquo;m using the same CSS for org-mode published files and hyde published files. I had to clean up my hyde templates and the CSS to make both of them look similar.
+My first tryst with CSS hasn&amp;rsquo;t been all that bad. :)
+Installing disqus and importing comments Using disqus was one thing, I wasn&amp;rsquo;t sure I wanted to do. I would&amp;rsquo;ve loved it if comments could be managed with org-mode too. ;) 8
+Anyway, I finally decided to go with it, and I&amp;rsquo;m quite happy with it. :)
+I loved the ease with which comments could be imported.
+ Import Wordpress comments using the export xml file. Generate a CSV file containing the URL map &amp;ndash; mapping the newer urls to the older ones. Upload the CSV file and tada!  Conclusion I got to learn quite a few things, during all of this. I also have some bits of code, that I can share with you, in case you are interested. Leave a comment, if you wish. :)
+I&amp;rsquo;m just hoping to reduce the additional steps required in publishing to ensure it doesn&amp;rsquo;t add to my already erratic blogging habits.
+ Org-mode - Homepage ↩ Org-hyde is a port of org-jekyll.el ↩ Hyde - Github ↩ Git - Homepage ↩ Disqus - Homepage ↩ Github - Jekyll ↩ Documentation - Django Templates ↩ I feel it is capable of doing that. It&amp;rsquo;s just my incapability that prevented me from trying it out. ↩   </description>
+    </item>
+    
+    <item>
+      <title>Lesson with RSS feeds &amp; Wordpress</title>
+      <link>https://punchagan.muse-amuse.in/blog/lesson-with-rss-feeds-wordpress/</link>
+      <pubDate>Wed, 04 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/lesson-with-rss-feeds-wordpress/</guid>
+      <description>In a world of (RSS &amp;amp; Atom) feeds, deleting your posts is not the way to do it.
+First re-post using no content and give the post some time for it to be caught by the feed aggregators. Then, delete your post.
+Update: This post also has similar advice.</description>
+    </item>
+    
+    <item>
+      <title>org2blog annoyance</title>
+      <link>https://punchagan.muse-amuse.in/blog/org2blog-annoyance/</link>
+      <pubDate>Tue, 03 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org2blog-annoyance/</guid>
+      <description>I hate it when I&amp;rsquo;m trying out things with org2blog - fixing bugs or adding features - and my testing buffer gets posted. Why do I keep passing the prefix argument with C-u? I should probably work with a local instance of WordPress.</description>
+    </item>
+    
+    <item>
+      <title>Update Script</title>
+      <link>https://punchagan.muse-amuse.in/blog/update-script/</link>
+      <pubDate>Tue, 08 Jul 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/update-script/</guid>
+      <description>Well, this isn&amp;rsquo;t an update of how I&amp;rsquo;m doing on my sabbatical. Its just been 3 days and I&amp;rsquo;m doing pretty fine. I just finished writing a script to keep my blogs page in sync with my google-reader (well not exactly). The script parses an xml export of my google-reader-subscriptions and updates the edits the html of my unnought-blogs page. period.
+There are a couple of things I don&amp;rsquo;t like about this script.
+Firstly, I don&amp;rsquo;t want to keep exporting my google-reader-subscription each time I make changes. The script should be able to directly sync with my google-reader without me having to export the file. [I have read about the atom subscriptions feed of Google Reader, but haven&amp;rsquo;t been able to get it right.] Hopefully, I&amp;rsquo;ll be able to do it in the near future.
+Secondly, The blog author&amp;rsquo;s name is non-existent. I can&amp;rsquo;t do anything about this though.
+Also, In the process, I had the chance to look a geeky ad. I found it at the weirdest of places!
+ header: X-hacker: If you&amp;rsquo;re reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+ ps :
+ The source is GPLv2 licensed. Get in touch, if you&amp;rsquo;d like to have a look.  </description>
+    </item>
+    
+    <item>
+      <title>A Second Blog...</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-second-blog/</link>
+      <pubDate>Wed, 04 Apr 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-second-blog/</guid>
+      <description> It can&amp;rsquo;t really be called a Second Blog&amp;hellip; because I won&amp;rsquo;t be posting any new stuff there&amp;hellip; I just started it to have a Wordpress experience&amp;hellip; I started it to know.. to compare&amp;hellip; and to choose&amp;hellip; I started it just for fun&amp;hellip; I started it because Blogspot may soon be blocked on campus!!!  </description>
+    </item>
+    
+  </channel>
+</rss>

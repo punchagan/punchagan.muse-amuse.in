@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Fri, 08 Aug 2014 18:15:09 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-08-07</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-07/</link>
+      <pubDate>Fri, 08 Aug 2014 18:15:09 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-07/</guid>
+      <description> C stuff  In the morning I cleaned up the code to open torrent files, and parse them. I worked on a function to do encode text properly, and Sophia helped me find out that I had to use unsigned chars in it. I looked at Sophia&amp;rsquo;s threaded ftp server in C, and gave some suggestions on how the code could be refactored.  Baking Pi  We still didn&amp;rsquo;t get to the video stuff, yesterday. We finished the first 5 chapters, though, and have a SOS pattern display. I&amp;rsquo;m really looking forward to doing the cool video stuff.  Miscellaneous  William Skeith, gave a talk on using SSH keys for web-authentication, which was pretty interesting.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-06</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-06/</link>
+      <pubDate>Thu, 07 Aug 2014 10:57:15 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-06/</guid>
+      <description> Finished working through the first 5 chapters of the baking pi course, and am excited to start working on the video stuff, today! Spent some time pairing with Sindhu on her url checker, and later in the night helped her out with a small bug in her GitHub activity leaderboard script. I spent some time adding dict parsing support to the bencode parser. And also cleaned up the tests. The electronics hobbyists were doing some cool stuff, and I joined them for a bit. We tried some cheap motion sensors, but they didn&amp;rsquo;t work very well, and probably need to be calibrated.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-05</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-05/</link>
+      <pubDate>Tue, 05 Aug 2014 23:44:33 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-05/</guid>
+      <description> Spent a couple of hours in the morning, trying to revive a html template for blaggregator, that I missed out on committing previously, and wiped out due to negligence in using `git clean`. Spent time post lunch working through the first two chapters of the baking pi course, by myself, reading up different references, and finally getting how I/O is mapped to the memory in ARM. Actually, almost. A variant of the example that I thought should work, doesn&amp;rsquo;t. So, I need to think/talk about it today. I sent a patch to Nikola for the lastdeploy timestamp being UTC. I was hoping to work around an issue with Blaggregator, by somehow fixing it on the client side, but that&amp;rsquo;s probably not the right way to go about it.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-04</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-04/</link>
+      <pubDate>Mon, 04 Aug 2014 16:19:59 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-04/</guid>
+      <description> A bunch of worked on getting LEDs to blink, by writing some assembly code.
+ I goofed off post-lunch, and cleaned up the code for the Google Translate based TTS client.
+ I tried to continue working on the bencode parser, to add support for dictionaries, but I couldn&amp;rsquo;t get much work done before it was time for the Monday talk.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-03</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-03/</link>
+      <pubDate>Mon, 04 Aug 2014 16:10:41 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-03/</guid>
+      <description> Friday  On Friday, I didn&amp;rsquo;t do the exercises that everyone else doing job prep were doing. I wanted to continue writing C code, and continued to work on the bencode parser in C. I barely was able to finish adding support for lists. I got comfortable using Valgrind, in the process of debugging a stupidity of not using realloc correctly. What I was able to write with Python in an hour or so, I have been writing for about a day, in C, and haven&amp;rsquo;t yet finished it! It definitely doesn&amp;rsquo;t help that my C is very rusty&amp;hellip;  Saturday &amp;amp; Sunday  I didn&amp;rsquo;t work much, and went around New York with Madhu. We went to quite a few places around here, the highlight being, the view of Manhattan&amp;rsquo;s skyline from the Staten Island Ferry. NYC&amp;rsquo;s library also had an interesting exhibhition on the history of America, just before and during WW-I. On Sunday, I tried out Mary TTS on the raspberry pi, and it is simply unusable. I then, started writing a simple wrapper around Google&amp;rsquo;s tts that is used by Google translate. The TTS part is more or less working right now, the next step would be to deploy it on the RaspberryPi and start using it as a radio, to see what my needs are like. Hooking it up to Jasper client seems like a good idea, right now&amp;hellip; though I&amp;rsquo;m not sure if it would work very well, with the pi&amp;rsquo;s audio output drowning out the voice commands.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-29</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-29/</link>
+      <pubDate>Tue, 29 Jul 2014 11:20:24 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-29/</guid>
+      <description> Hacking: learning by breaking stuff  Post lunch, I started pairing with Stephanie on the exercises in the Hacking book, and that turned out to be super fun! We got through the chapter on exploitation, which focussed on stack overflows, heap overflows, overflows in function pointers, and string formatting exploits. It acted as more than a gentle refresher for C, and was super fun! Running the examples on a 64bit system, added an additional amount of thinking required, and was good, IMO. I hadn&amp;rsquo;t worked along with Stephanie on the material in the first two chapters. So, I went back home and tried to catch up, but couldn&amp;rsquo;t get all of it done.  Miscellaneous  I spent part of the morning wrapping up the install script for the raspberry project, and cleaning up the repository. It looks reasonable now, and I think I&amp;rsquo;m done with it until the end of HackerSchool. I also tried to look for &amp;ldquo;easy&amp;rdquo; python issues that would involve me writing some C code, but didn&amp;rsquo;t really find anything other than documentation&amp;hellip; I guess, I should pick a module and look for bugs in it, instead. Also, while chatting with a friend, I had to explain that I don&amp;rsquo;t mention the last names of people or link to them, for privacy reasons. Hacker School is particularly careful about not divulging information about who are at Hacker School each batch, and I want to keep that tradition.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-24</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-24/</link>
+      <pubDate>Thu, 24 Jul 2014 09:53:03 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-24/</guid>
+      <description> Glowing LEDs and me  It turned out that the SPI driver exposed a faster way to write bits, writing to all the LEDs at once, instead of one at a time, and this was sufficient to get things working!
+ Kyle and I started to have enough, of the glowing LEDs and decided to wrap up the project, but, Nick had different ideas for us! We had talked about having the music stream via airplay, but Nick got his DJing tools, and it would be too bad to not use it for the party, but doing that meant Airplay&amp;rsquo;s delay wouldn&amp;rsquo;t help the DJ. So, we connected a line-in, and thought we&amp;rsquo;d be done if we just read the input and used that data. But, it turns out that&amp;rsquo;s not so simple because sending data over the wire, added noise to it, and in a whole range of frequencies! I tried removing all the fourier coefficients which were lower than a threshold, but I felt like it didn&amp;rsquo;t work very well, until Nick reduced the gain of this output on the amp to the very minimum. Finally, Kyle and I decided that this was good enough for the party!
+ I also hacked up a quick script to read a font file, and use the grey values to get ascii characters to show up on the LED strip.
+  Miscellaneous  While trying to find the RPi on the network, I learnt that sudo nmap -sP 10.0.1.* gives us the hostname as well, instead of just IPs. sudo being the key, here.
+ Kyle and I went and grabbed dinner in a restaurant in west village. It was good to sit down and talk about various things, and eat. The glowing LEDs were totally out of my mind for that period, and the break was good!
+ There were a bunch of HSers doing mock-interviews and it was fun to watch, so I stayed on until quite late, when all of us headed out together.
+  Today  I&amp;rsquo;m excited about trying to build a small version control system from scratch today!
+ Though I have had quite a bit of glowing LEDs in my face for the past week, I may suck up to it, and figure out how to do scrolling text on the display.
+ Also, excited to see how all the cool projects will come together in the party tonight!
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-23</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-23/</link>
+      <pubDate>Wed, 23 Jul 2014 10:51:51 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-23/</guid>
+      <description> Shairplay and WS2801  Kyle mounted the LEDs onto a cardboard, and packaged it to look cool.
+ We thought we were done with the project, until we found out we weren&amp;rsquo;t! The LEDs all lighted up correctly, when we played the audio from a file on disk, but streaming messed something up! Only the first few columns lighted up, when we were listening on the stream.
+ We spent the whole evening trying to debug the issue, and eliminated quite a few hypothesis, but weren&amp;rsquo;t able to fix it, yet.
+  Miscellaneous  rntz live coded a parser for us yesterday, and I learnt a few things about parsers. I&amp;rsquo;m glad I went to the discussion/talk.
+ I started working through the videos of Anatomy of Matplotlib, and hope to get new insights into how it works.
+  Today  Today will be spent mostly trying to get streaming audio working.
+ I feel like debugging this, will take my understanding of the hardware-software interface to a new level.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-22</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-22/</link>
+      <pubDate>Tue, 22 Jul 2014 10:46:36 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-22/</guid>
+      <description> Mel&amp;rsquo;s talks  Mel&amp;rsquo;s talk in the morning was brilliant! I wonder why it&amp;rsquo;s not a part of recommended reading for Hacker Schoolers, or referred to, in the manual. Logically, it makes sense that Mel came now, so that she didn&amp;rsquo;t have to come twice to talk to the firsts and seconds, but it would have been great to have had this talk in the first week of Hacker School! Mel gave us a lot of new information and insights into education and learning styles. I also like the fact that she gave us all a good vocabulary to think about and discuss stuff related to learning. I will try to think, and apply as much of this as I can, for the rest of my time here. She talked about test driven learning which seemed very interesting. Instead of just saying, &amp;ldquo;wow that would be an interesting thing to do&amp;rdquo;, stop for a moment, think about what you are trying to learn, and how you will assess if you have learnt what you wanted to, and then dive into the project. The learning styles workshop was pretty good too, though I feel like I don&amp;rsquo;t know myself well enough, and I unable to properly &amp;ldquo;bucket&amp;rdquo; myself. Later, I took a quiz, and ended up fairly close to the middle, in all the dimensions. Mel introduced us to the idea of cognitive apprenticeship, and encouraged us to try out the different modes when pairing. I really liked the idea of Zone of proximal development and I will try to take the advice of spending most of the rest of my time here in this zone. Do I (really) care? Motivation and mindset, &amp;hellip; Be courageous!  Airplay and Raspberry Pi  I was trying to wrap libshairport and use it on the RPi to be able to listen to songs being streamed on Airplay, and use that data to drive the LEDs. Shairport, a tool written in C seemed to work. My attempts to wrap libshairport, which is a fork of shairport converting it into a library, failed miserably. The trouble was essentially getting Airplay to discover my service. I tried a bunch of things with pybonjour and avahi, but wasn&amp;rsquo;t able to get it right. Finally, I tried just announcing the service with shairport, and actually running a python script that wraps libshairport to listen to the data. But, this didn&amp;rsquo;t work and iTunes complained that this Airplay device is not compatible. Before going much further with this, I found shairplay which is a tool similar to shairport, but came with a library, and also Python bindings! I happily used this to get stuff working! I&amp;rsquo;m interested to see today, what exactly I was missing yesterday!  Emacs club  I demoed org-mode to a bunch of people for about half an hour, and it was good to see people being blown away by what it can do, exactly the way I was, when I first came across it.  Today  Work on RPi to clean up a few things for the party. Compare libshairplay and libshairport to see what I was doing wrong, yesterday. May be write up the whole thing, and make the code available. Learn a little bit about Parsers from rntz.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-21</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-21/</link>
+      <pubDate>Tue, 22 Jul 2014 10:46:29 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-21/</guid>
+      <description> Yesterday  It was exciting to have so many new Hacker Schoolers in the space. But, the excitement was kinda distracting too.
+ I spent most of the day looking at shairport, and libshairport and trying to wrap it, so I can use it to get data for the spectrum analyzer via the Air-play protocol. I was able to call it using ctypes, but it doesn&amp;rsquo;t seem discoverable.
+ I also briefly looked at Julia and dwm, to try and port dwm to Julia. It doesn&amp;rsquo;t seem like too much work, but is going to take me a while given how comfortable I&amp;rsquo;m with both Julia and C.
+ Yaron Minsky&amp;rsquo;s talk on distributed systems was a great introduction to Distributed systems.
+ After the talk, I spent a little time updating my notes from an old org-mode workshop to present it at the emacs user group meet up today.
+  Today  I hope to get the spectrum analyzer to use libshairport and be able to play music sent through Air play.
+ Spend some time talking to the emacs user group about org-mode.
+ If I have any time, after getting this to work, I may play around with the dwm port.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-20</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-20/</link>
+      <pubDate>Mon, 21 Jul 2014 12:13:46 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-20/</guid>
+      <description> Saturday &amp;amp; Sunday  During the weekend, I had this idea of building a personalized &amp;ldquo;radio&amp;rdquo; for myself using a Raspberry pi. The idea is to have a service where all my bookmarks, and feeds are accumulated to, instead of eating up valuable browser tab real estate. And then, I could use a Raspberry pi to randomly play content off of it, based on a theme.
+ I worked on getting things together for it, during the weekend. The project is more like a &amp;ldquo;thing that needs to be done&amp;rdquo;, rather than something that puts me out of my comfort zone, atleast as far as I can see. So, I&amp;rsquo;m just going to work on it as a background thing, between other projects, etc.
+ Festival seemed OK initially, while I was trying things out, but when I actually used it to read me a blog post, it was really terrible! I tried demos of a few commercial tools, and they seem much better than what festival had to offer. I wonder what it would take to get Festival, up there. I tried using Google&amp;rsquo;s translate service&amp;rsquo;s tts (unofficial API) and it seemed so good! But, it limits each request to 100 bytes, and the audio will have to be downloaded via the Network.
+ Madhu pointed me to MaryTTS, which seemed to be an active project and it seemed to be much better than Festival, though not as good as Google&amp;rsquo;s tts. I&amp;rsquo;m going to try getting it to run on a Pi, next.
+  Monday  I don&amp;rsquo;t really know what I&amp;rsquo;m doing to work on, today. I have been playing around with the Pi, for the past week-ish, and it has been fun! Kyle and I will probably work more on tweaking it, to get it to work the way we want it, for the party!
+ I also did a little bit of Julia with Sean, and it was fun. I may try playing around with it, a little bit, but not sure what to work on. May be continue working through the think-complexity book using Julia?
+ Or jump into something I totally don&amp;rsquo;t know about, inspired by listening to Julia Evans&amp;rsquo; podcast for Ruby Rogues. I just got this idea of trying to write a window manager to understand how X works, and what wayland is&amp;hellip; I could try porting dwm or i3wm to Julia.
+ There&amp;rsquo;s a whole new bunch of excited Hacker Schoolers in the space, and its very exciting!
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-17</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-17/</link>
+      <pubDate>Sat, 19 Jul 2014 16:45:12 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-17/</guid>
+      <description> Kyle and I did a demo of our spectrum analyzer/visualizer during the presenations. It was fun to work on, though we mostly just followed a tutorial on the web, and made use of a bunch of libraries. I spent the night in HackerSchool. I was cleaning up the code in the tutorial we were trying to follow. Also, cleaned up the install.sh used by lightshowpi project to not do all the ugly sudo setups, and use a Python virtualenv and install into that. Refactored the ugly looking music part of the tutorial into a smaller script with only the functionality that we were going to use. We hit an interesting bug that would light up all the LEDs on the strip, once in a while. I didn&amp;rsquo;t notice it during the night, because I had a &amp;ldquo;decay&amp;rdquo; factor (the max factor by which the height of the columns should get reduced between successive updates) was 0.9, but when the decay factor was reduced to a lower value, it would happen quite often. Also, we didn&amp;rsquo;t see this happening before. So, we thought the bug was in the code I had written, when I should have been sleeping. After reading and debugging my code for a bit, with Kyle and Sean, I thought it was something hardware related that we were doing wrong. But, it turns out that a library we were using lit-up the whole strip, when start and end values were both zero, instead of not lighting up anything! Also, we hit another off-by one error, just before the demo. I didn&amp;rsquo;t do the math for splitting the strip into columns too carefully, and we hadn&amp;rsquo;t noticed the off-by one error until we taped up the strip into different columns on a pillar for demo. There were some cool presentations by others. I&amp;rsquo;ll update the list on Monday, since I currently don&amp;rsquo;t remember them all! Looking at the list of names on the registration sheet would help! The cleaned up code is here  </description>
+    </item>
+    
+  </channel>
+</rss>

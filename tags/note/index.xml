@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/note/</link>
+    <description>Recent content in Note on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 03 Dec 2012 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>cStringIO and unicode</title>
+      <link>https://punchagan.muse-amuse.in/blog/cstringio-and-unicode/</link>
+      <pubDate>Mon, 03 Dec 2012 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/cstringio-and-unicode/</guid>
+      <description>StringIO in the cStringIO module in Python 2.7.2 doesn&amp;rsquo;t handle unicode strings properly. This bug has bitten me on a couple of occasions, in the recent past.
+Just making a note for myself:
+ Use StringIO if speed doesn&amp;rsquo;t matter so much. Whenever possible, just convert the input to StringIO to a string, if what you are doing doesn&amp;rsquo;t really require unicode strings.  Or may be it&amp;rsquo;s just time to move up to Python 2.7.3</description>
+    </item>
+    
+    <item>
+      <title>Augmented assignment in Python</title>
+      <link>https://punchagan.muse-amuse.in/blog/augmented-assignment-in-python/</link>
+      <pubDate>Mon, 04 Oct 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/augmented-assignment-in-python/</guid>
+      <description>If you are new to Python, you should probably stop reading here. But, if you have used Python and numpy, then read on. Before, that try these bits of code.
+import numpy a = numpy.array([1,2]) a = a + 0.5j print a  The &amp;ldquo;same thing&amp;rdquo;, in a slightly different way.
+import numpy a = numpy.array([1,2]) a += 0.5j print a  Both the code blocks, look really the same, until you look carefully. Under normal circumstances a = a + b and a += b behave exactly similarly, and we really don&amp;rsquo;t need to bother about the differences between them.
+But, +=, which is an augmented assignment operator, actually tries to perform the operation in-place, unlike the other statement where + actually returns a new object which is again being referenced by the name a.
+But, when dealing with numpy arrays, this will lead to trouble. When assigning to an array, it&amp;rsquo;s dtype is not changed and hence the trouble.
+The right way to use the augmented assignment operator, would be:
+import numpy a = numpy.array([1,2], dtype=complex) a += 0.5j print a  The same thing is explained in this thread. Also, Thanks to Bhanukiran for asking me this.</description>
+    </item>
+    
+    <item>
+      <title>Some fun from #org-mode</title>
+      <link>https://punchagan.muse-amuse.in/blog/some-fun-from-org-mode/</link>
+      <pubDate>Sat, 02 Oct 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/some-fun-from-org-mode/</guid>
+      <description>This is a conversation from #org-mode, published without permission from plovs, BerntH and bremner. If any of you want any of the content removed, I will do so.
+  hi all
+ hi punchagan [18:36]
+ BerntH: ever used/tried blorg or blorgit? [18:47]
+ I like the way org-publish works, but blorg exports one org file as a blog. If blorg were to be re-written on top of org-publish, how should it be done? use one file per post or just one file for the whole blog? [18:52]
+ punchagan: another option is to use ikiwiki and use the org-mode plugin to render pages. This is what i do, although only a bit of the site is in org. [19:44]
+ bremner: can I have a look at your site? [19:45]
+ sure, it ain&amp;rsquo;t pretty, but: www.cs.unb.ca/~bremner [19:46]
+ thanks. I&amp;rsquo;ll keep this in mind. [19:47]
+ I just loved the way this site looks and behaves &amp;ndash; http://julien.danjou.info/projects.html
+ well, the side bar at least is possible with ikiwiki. Other than that I suppose it is mainly a matter of css [19:48]
+ punchagan: nope [19:49]
+ ok BerntH [19:50]
+ punchagan ikiwiki does have an org-mode plugin [19:56]
+ plovs: yes, bremner told me that and I&amp;rsquo;ve seen on Worg too. :)
+ punchagan ah, yes, sorry
+ plovs: it&amp;rsquo;s alright. [19:59]
+ punchagan another possibility is org2blog, which uses wordpress
+ plovs: I&amp;rsquo;m the author of it. :D
+ lol, ik, that punchagan [20:17]
+ lol
+ plovs: were you kidding? or serious? [20:19]
+ punchagan sorry to say i was serious, but it will not happen again :-)
+ i really like org2blog, played with it yesterday
+ plovs: no. I was just wondering if you were playing around with me. :P
+ I&amp;rsquo;m happy some one thinks it is useful.
+ lol, no, i just didn&amp;rsquo;t recognized your name, although it is kind of hard to miss [20:21]
+ I hope you don&amp;rsquo;t mind, if I make this anecdote public?
+ </description>
+    </item>
+    
+    <item>
+      <title>Asking vs. Figuring out</title>
+      <link>https://punchagan.muse-amuse.in/blog/asking-vs-figuring-out/</link>
+      <pubDate>Wed, 15 Sep 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/asking-vs-figuring-out/</guid>
+      <description>Should one take the easy route of asking someone who knows, if she is sitting right next to you? Or should we try and find out first, before asking her? Should one value his time more than others&amp;rsquo; or others&amp;rsquo; time more than his own?
+Would we learn more if we tried to find out ourselves? Does learning more, make sense? Is it worth spending the extra time?
+I&amp;rsquo;m just talking of simple things that you could figure out by spending a couple of minutes of searching the web or 5 minutes of thinking or 10 minutes of reading a book.</description>
+    </item>
+    
+    <item>
+      <title>Happy Teachers&#39; Day!</title>
+      <link>https://punchagan.muse-amuse.in/blog/happy-teachers-day/</link>
+      <pubDate>Sun, 05 Sep 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/happy-teachers-day/</guid>
+      <description>Well, it turned out to be not so Happy. I came to know of this sad news. A prof published his students&amp;rsquo; work as his own, with no mention of their names! This guy is such a shame to his profession! Shame!
+I wonder how this guy has even been able to sleep every night. Isn&amp;rsquo;t there something called a conscience?</description>
+    </item>
+    
+    <item>
+      <title>org/elisp - sorting list of org-links on description</title>
+      <link>https://punchagan.muse-amuse.in/blog/orgelisp-sorting-list-of-org-links-on-description/</link>
+      <pubDate>Fri, 20 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/orgelisp-sorting-list-of-org-links-on-description/</guid>
+      <description>A small utility function that I used to sort the names of people who commented on my blog.
+(defun org-get-link-desc-from-list () &amp;quot;&amp;quot;&amp;quot; Get link description of a list item containing just links &amp;quot;&amp;quot;&amp;quot; (let* ((item-beg (point)) (item-end (org-end-of-item)) (cur-item (buffer-substring-no-properties item-beg item-end))) (goto-char item-beg) (org-columns-compact-links cur-item)))  sort-lines wasn&amp;rsquo;t good enough for me, since it was sorting alphabetically and it ended up being the sorted order of the urls and not the names. This function, when used with org-sort-entries-or-items gave me what I wanted.
+Thanks to benny (on #org-mode), I also learnt the difference between let and let*.</description>
+    </item>
+    
+    <item>
+      <title>Contributing to FOSS</title>
+      <link>https://punchagan.muse-amuse.in/blog/contributing-to-foss/</link>
+      <pubDate>Thu, 19 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/contributing-to-foss/</guid>
+      <description>gora asked for some good links (on ##linux-india) to redirect newbies, enthusiastic about contributing to FOSS.
+I dug up a few links from the web - some that I read, when I was starting off with using GNU/Linux and FOSS, others are newer links.
+Just making a note of them here; hoping someone would find it useful.
+ How to Become a Hacker - A definitive how-to on becoming a hacker. Answers all the right questions. :)
+ Philosophy of the GNU Project - This is the page, where I started. Thanks to Voodoo for giving me the link to this page. I distinctly remember that day. :) I&amp;rsquo;m going to pass on this link to any newbie who comes my way, no matter how much bashing I get from other FOSS evangelists.
+ 6 Easy Ways To Get Started Programming Open Source - A neat list giving steps to get started with programming for open source. I like #4. Understanding the social dynamics of the project is an important thing which is often overlooked by newbies.
+ OpenHatch - A community site to help newbies get started with contributing to FOSS. A cool site. Also, here is a story about OpenHatch.
+ Look at the Numbers! - an interesting paper giving quantitative data in support of using FOSS.
+ Ubuntu - Code of Conduct - A nice description of general conduct expected in any of the FOSS communities, not just Ubuntu.
+  I&amp;rsquo;d be happy to add any other links that any of you share. Thanks!</description>
+    </item>
+    
+    <item>
+      <title>One Hundred</title>
+      <link>https://punchagan.muse-amuse.in/blog/one-hundred/</link>
+      <pubDate>Tue, 17 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/one-hundred/</guid>
+      <description>The previous post, was the One Hundredth post on this blog. As 9 suggested, I just want to say Yay! and thank my readers!
+I&amp;rsquo;d like to thank all the people who gave me those small nudges to write something down here and hope at least one person has found something useful here.
+Thanks to all the people dropping in here, regularly; Bearing with whatever sort of stuff I put up here. :)
+Thanks to everybody who took the time to comment here.
+ 9 Abhijeet Aditya Sengupta Akash AlexM [Amit Sethi] Anagha arunchaganty [arunvudem] avinashsonee chaitu Cuckoo damodar fangzhzh [Illipi] leezii Madhusudan.C.S neha niku [Phillip Hagge] [priya] rahul ringO Rini Ritesh rohitj Sacha Chua Sandeep [Shantanu] [Srinivas Chaganti] [srujan] Stefan Sumanth Surya सु Swapnil Syam uc Vandith vinaywarrier  Special thanks to niku, Rini, and ntveem for inspiring me with their blogs. [All three of them have moved on to better things than blogging.]</description>
+    </item>
+    
+    <item>
+      <title>Another win for them!</title>
+      <link>https://punchagan.muse-amuse.in/blog/another-win-for-them/</link>
+      <pubDate>Mon, 16 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/another-win-for-them/</guid>
+      <description>South Central Railways(SCR) has banned photography in stations, as a measure to prevent Terrorism. Terrorism by definition is &amp;ldquo;the act of terrorizing; a mode of government by terror or intimidation.&amp;rdquo; Doesn&amp;rsquo;t this decision by SCR define a victory for the people they are trying to stop?
+Anyway, if you are carrying a camera and are tempted to shoot in the railway station, go get a permission letter from the Chief PRO. :-/</description>
+    </item>
+    
+    <item>
+      <title>PyCon India &#39;10</title>
+      <link>https://punchagan.muse-amuse.in/blog/pycon-india-10/</link>
+      <pubDate>Mon, 16 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pycon-india-10/</guid>
+      <description>Looks like PyCon India 2010 is going to be great fun! With 80 talk submissions, quite a few interesting ones, this time&amp;rsquo;s PyCon should be much better than last year&amp;rsquo;s. Also, David Goodger of docutils and ReST fame will be the keynote speaker!
+ Dates: [2010-09-25 Sat]&amp;#x2013;[2010-09-26 Sun] Venue: MSRIT, Bangalore RSVP here!   </description>
+    </item>
+    
+    <item>
+      <title>tu marathi aheska?</title>
+      <link>https://punchagan.muse-amuse.in/blog/tu-marathi-aheska/</link>
+      <pubDate>Sun, 15 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/tu-marathi-aheska/</guid>
+      <description>It&amp;rsquo;s just a co-incidence that this post is coming on Independence day.
+Last night I was in an auto with a couple of friends, and the auto couldn&amp;rsquo;t get up a slope and stopped near the edge of the slope which was leading onto a main road. We had to get down from the auto, and after a lot of fight, the auto got on top. As the driver was trying hard to get the auto moving, a guy comes over and starts talking to him in Marathi. I&amp;rsquo;m not sure if he was a traffic police. He was dressed in white, but didn&amp;rsquo;t really look like one.
+After asking a few questions, but not getting any replies, the guy asks him in Hindi, if he understands Marathi, and on getting a negative reply, starts shouting on him!
+The guy harasses the driver, asking him to handover his license and threatens him of horrible consequences, if he doesn&amp;rsquo;t do so. We tried to intervene saying, we want to leave early and stuff, but the auto refused to start. The driver asked us to leave and said he&amp;rsquo;ll take care of the matter.
+And then, today I hear people talking of national integration and stuff. I hear stuff about changing the country, getting rid of corrupt politicians and all the high ideals crap. I keep hearing all sorts of patriotic songs that I hear only twice a year. Not once more than that.
+Why is it that we talk of all this only on these two days of National importance? Why are these songs played only twice a year? Don&amp;rsquo;t we get that feeling of patriotism on other days? Isn&amp;rsquo;t patriotism a &amp;ldquo;true&amp;rdquo; feeling?
+I think, India will only take a leap in it&amp;rsquo;s progress, when that happens.</description>
+    </item>
+    
+    <item>
+      <title>Restoring GRUB with Grub2</title>
+      <link>https://punchagan.muse-amuse.in/blog/restoring-grub-with-grub2/</link>
+      <pubDate>Tue, 10 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/restoring-grub-with-grub2/</guid>
+      <description>It&amp;rsquo;s a one liner with grub2.
+$ sudo grub-install --root-directory=/mount/point/of/root/ /dev/sdX  where sdX is sda,sdb,.. depending on which hard-drive it is on.
+This is the first instance when I found grub2 to be better than grub.</description>
+    </item>
+    
+    <item>
+      <title>Pair Blogging</title>
+      <link>https://punchagan.muse-amuse.in/blog/pair-blogging/</link>
+      <pubDate>Sun, 08 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pair-blogging/</guid>
+      <description>I like the idea of pair blogging. Cate and Sacha, seem to be doing it (intentionally or not). One person blogs on a topic he/she&amp;rsquo;s presently thinking about and the other person posts his/her views on the same issue. Well, comments are meant for that, but a blog post seems to give you greater freedom.
+PS: I called it pair-blogging. I don&amp;rsquo;t know if it already has a name or if pair-blogging means something else.</description>
+    </item>
+    
+    <item>
+      <title>Drafting</title>
+      <link>https://punchagan.muse-amuse.in/blog/drafting/</link>
+      <pubDate>Sat, 07 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/drafting/</guid>
+      <description>Drafting behind trucks (when cycling) could be a great energy saver. I came across this idea when reading up a blog post by a cyclist.
+The idea is similar to birds flying in a V-shape to get a greater lift. While drafting, the goal is to reduce the drag force.
+Pacelines in cycling races are formed precisely for this reason. This page has a short summary of what drafting is all about.
+Should be trying this out, the next time around.</description>
+    </item>
+    
+    <item>
+      <title>Advice - Programming in Elisp</title>
+      <link>https://punchagan.muse-amuse.in/blog/advice-programming-in-elisp/</link>
+      <pubDate>Fri, 06 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/advice-programming-in-elisp/</guid>
+      <description>Below is a mail sent by Eric Schulte to the org-mode mailing list answering a query on how to write elisp for org-mode. I am reproducing it here, since it is useful advice for me. The actual thread is here.
+The way that I learned how to program in emacs lisp was mainly using two commands `elisp-index-search&amp;rsquo; bound to `C-h e&amp;rsquo; on my system, and most importantly `describe-function&amp;rsquo; bound to `C-h f&amp;rsquo;. With `describe-function&amp;rsquo; you can look at the source code of functions whose behavior you are familiar with, you can then copy portions of the code to your scratch buffer where they can be edited and evaluated with `eval-defun&amp;rsquo; bound to `C-M-x&amp;rsquo;. Now with Babel, instead of doing this in the scratch buffer you could do this in emacs-lisp code blocks in an org file, enabling notes and hierarchical organization &amp;ndash; it can be nice to have your noodling all collected in one file for later reference.
+If you are going to do any serious work with lisp, I would emphatically recommend using paredit-mode, and becoming friends with the Sexp movement functions
+C-M-f runs the command paredit-forward C-M-b runs the command paredit-backward C-M-u runs the command backward-up-list C-M-k runs the command kill-sexp C-y runs the command yank
+They allow you to manipulate lisp code on the level of logical expressions, the utility of which can not be over stated.
+As for working with Org-mode in particular, I&amp;rsquo;d recommend looking at the documentation and source-code of Org-mode functions with `describe-function&amp;rsquo;, and then looking for how these functions are actually used in the Org-mode code base with `rgrep&amp;rsquo;.
+For a more structured learning experience, I&amp;rsquo;ve heard very good things about http://www.gnu.org/software/emacs/emacs-lisp-intro/, although I haven&amp;rsquo;t used it myself.
+Hope this helps. Happy Hacking &amp;ndash; Eric</description>
+    </item>
+    
+    <item>
+      <title>Lesson with RSS feeds &amp; Wordpress</title>
+      <link>https://punchagan.muse-amuse.in/blog/lesson-with-rss-feeds-wordpress/</link>
+      <pubDate>Wed, 04 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/lesson-with-rss-feeds-wordpress/</guid>
+      <description>In a world of (RSS &amp;amp; Atom) feeds, deleting your posts is not the way to do it.
+First re-post using no content and give the post some time for it to be caught by the feed aggregators. Then, delete your post.
+Update: This post also has similar advice.</description>
+    </item>
+    
+    <item>
+      <title>Aluva to Mumbai</title>
+      <link>https://punchagan.muse-amuse.in/blog/aluva-to-mumbai/</link>
+      <pubDate>Tue, 03 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/aluva-to-mumbai/</guid>
+      <description>Heavy down-pour and landslides caused our train to be delayed by over 12 hours. But the journey was on the whole enjoyable.
+The novelty of the journey was that we had a bus ride from Adavali to Ratnagiri, arranged by the Indian Railways, owing to bad tracks near Ratnagiri. It was very well planned and neatly executed. Kudos Indian Railways! The Konkan Rail route was at it&amp;rsquo;s usual best.
+[2010-08-15 Sun] UPDATE: A post by Nishanth is here.</description>
+    </item>
+    
+    <item>
+      <title>org2blog annoyance</title>
+      <link>https://punchagan.muse-amuse.in/blog/org2blog-annoyance/</link>
+      <pubDate>Tue, 03 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org2blog-annoyance/</guid>
+      <description>I hate it when I&amp;rsquo;m trying out things with org2blog - fixing bugs or adding features - and my testing buffer gets posted. Why do I keep passing the prefix argument with C-u? I should probably work with a local instance of WordPress.</description>
+    </item>
+    
+    <item>
+      <title>Change &amp; Free flow</title>
+      <link>https://punchagan.muse-amuse.in/blog/change-free-flow/</link>
+      <pubDate>Fri, 30 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/change-free-flow/</guid>
+      <description>No. Not the Obama change. I&amp;rsquo;m talking of change as in small denominations of cash. Everybody is reluctant to part with it. There&amp;rsquo;s always a problem with getting it. I&amp;rsquo;m often worried before getting into a bus or an auto, or going to a shop whether or not the guy would give me change for a 50, 100 or a 500. People so reluctant to &amp;ldquo;part&amp;rdquo; with it. What are they saving it for?
+I think the situation would be much better if people readily gave it, when required. There would be a free flow and if not anything more, I wouldn&amp;rsquo;t have to worry about it when going somewhere. But, I &amp;ldquo;feel&amp;rdquo; this would actually reduce the instances when both the parties don&amp;rsquo;t have enough change with them. What do you think?</description>
+    </item>
+    
+    <item>
+      <title>Competition and Population</title>
+      <link>https://punchagan.muse-amuse.in/blog/competition-and-population/</link>
+      <pubDate>Fri, 30 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/competition-and-population/</guid>
+      <description>I&amp;rsquo;ve often got bad service from &amp;ldquo;service providers&amp;rdquo; - hotels, restaurants, phone services, Internet services etc. I guess that&amp;rsquo;s due to the population in India. If one customer goes back unhappy that doesn&amp;rsquo;t really make a difference, because there would be hundred others already waiting in the queue.
+You, as a, service provider would get your share of customers and profits, no matter how bad you are. Thanks to the population.
+One solution could be, to write about the bad service you got from a provider and make people aware of it, but often there aren&amp;rsquo;t enough options, for others to choose from. Inevitably, the bad service provider is going to get some customers. What&amp;rsquo;s the way out?</description>
+    </item>
+    
+    <item>
+      <title>Thanks Sacha</title>
+      <link>https://punchagan.muse-amuse.in/blog/thanks-sacha/</link>
+      <pubDate>Fri, 30 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/thanks-sacha/</guid>
+      <description>I just wanted to thank Sacha Chua for bearing with my newbie elisp code and trying out org2blog.
+Also, thanks for the two patches she sent.
+ Feature addition - Posting sub-trees instead of whole buffers. I had this feature in mind, and had started working on it after her request, but she was too quick for me! ;) Cleaning up of the code that uploads images.  I&amp;rsquo;m loving it!</description>
+    </item>
+    
+    <item>
+      <title>Looking through the view finder</title>
+      <link>https://punchagan.muse-amuse.in/blog/looking-through-the-view-finder/</link>
+      <pubDate>Mon, 26 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/looking-through-the-view-finder/</guid>
+      <description>After a trek, I had an interesting conversation with Ritesh, about taking pictures during a trip. He said, he started to realize that when he&amp;rsquo;s lost in the cycle of click, see, analyze, click, &amp;hellip; when he&amp;rsquo;s got a cam in his hand. He didn&amp;rsquo;t have a cam on this trek and thoroughly enjoyed it!
+I connect to this phenomenon, as well. I think, like Ritesh says, having separate trips for Photography makes sense. On other trips, we could be clicking, but just for the sake of memory. Trying to get amazing photographs shouldn&amp;rsquo;t be a goal. I should refrain from -
+ looking at the output and adjusting repeatedly until it&amp;rsquo;s perfect. clicking too many pictures in a given length of time.  For both of this, a film camera seems to be the solution!
+What say, Ritesh?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/blog/</link>
+    <description>Recent content in Blog on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 11 Sep 2017 22:15:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog trends from word clouds</title>
+      <link>https://punchagan.muse-amuse.in/blog/blog-trends-from-word-clouds/</link>
+      <pubDate>Mon, 11 Sep 2017 22:15:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/blog-trends-from-word-clouds/</guid>
+      <description>I came across a couple of fun word clouds, and felt like generating a word cloud for my blog content to get a sense of the major themes on my blog, over the years.
+With some simple Python code, I was able to parse the blog and get the word frequency over the years. I then used a modified version of this d3 example to generate a word cloud.
+Using all the words used in each year to generate the word-cloud, made it very noisy. So, I switched to using only the top 50 words for each year.
+ The word cloud doesn&amp;rsquo;t seem very useful or insightful, but was fun to generate. Each year&amp;rsquo;s cloud seems to have some words that gives me a sense of some major events/themes for that year, though it may not be very apparent to anybody other than me.
+The years which have a lot of posts have clear winners, but the winning words are quite generic. For example, 2007 has words like &amp;ldquo;life&amp;rdquo;, &amp;ldquo;time&amp;rdquo;, etc., as winners. To try to get rid of the generic words in the word cloud, I tried a quick and dirty tf-idf based word-cloud, but it didn&amp;rsquo;t really seem to help.
+ I might get back to this later, to try and improve the tf=idf word cloud. There are also other problems, like code-blocks in posts contributing variable names, urls contributing domain names, etc.
+Also, a simple line chart of the usage of tags vs. year might give a better sense of the themes in the blog by year, even though it may not look as fancy as a word-cloud.</description>
+    </item>
+    
+    <item>
+      <title>Back, Hopefully</title>
+      <link>https://punchagan.muse-amuse.in/blog/back-hopefully/</link>
+      <pubDate>Fri, 01 Sep 2017 22:47:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/back-hopefully/</guid>
+      <description>I haven&amp;rsquo;t written anything here for almost a year. I needed to break the silence. So, here we go with a not-so-useful post showing how frequently I have been posting to this blog, to get a sense of how long this break has been in comparison to other silences in the past.
+Neither the code below, nor the plots are very insightful. But, I just hope this will get me started on the path to blogging more regularly. See you around!
+Parsed post content I wrote some code to parse the content of the blog, and each post object looks something like this:
+{&#39;date&#39;: datetime.datetime(2010, 3, 17, 18, 30, tzinfo=&amp;lt;UTC&amp;gt;), &#39;draft&#39;: False, &#39;tags&#39;: [&#39;blab&#39;, &#39;life&#39;, &#39;poem&#39;], &#39;title&#39;: &#39;Just another bunch&#39;} Post count: 190  Post frequency by year import pandas posts = pandas.DataFrame(posts) counts = posts[&#39;date&#39;].groupby(posts[&#39;date&#39;].dt.year).count() plot = counts.plot(kind=&#39;bar&#39;, figsize=(8, 6)) plot.set_xlabel(&#39;Years&#39;) plot.set_ylabel(&#39;# of posts&#39;)   Post frequency by month # Add a DatetimeIndex to the Dataframe posts.index = pandas.DatetimeIndex(posts[&#39;date&#39;].values) counts = posts[&#39;date&#39;].groupby(pandas.TimeGrouper(&#39;M&#39;)).count() ax = counts.plot(kind=&#39;bar&#39;, figsize=(12, 8)) n = 5 ticks = ax.xaxis.get_ticklocs() labels = counts.index.strftime(&#39;%Y-%m&#39;) labels = ax.xaxis.set_ticklabels(labels[::n]) ticks = ax.xaxis.set_ticks(ticks[::n]) ax.set_xlabel(&#39;year-month&#39;) ax.set_ylabel(&#39;# of posts&#39;)   Work-flow I jumped onto the hugo bandwagon too.
+I was totally impressed by how fast it is, and have been meaning to try it out for a while, but wasn&amp;rsquo;t impressed with the built-in org-mode support it came with. This changed when I finally came across the ox-hugo package that does a wonderful job of exporting blog posts from an org file to hugo&amp;rsquo;s markdown format. I have contributed a couple of patches to it, to make it work better for myself and hopefully for others too.
+Also, for this post, I used ob-ipython with the enhancements from scimax and it has really made the whole experience quite enjoyable.
+Among other things, I think one of the reasons for those peaks in the second half of 2010, was having a smooth work-flow. My current work-flow feels pretty nice too, and I hope it&amp;rsquo;ll reduce some of the friction in writing more posts.
+Onwards!</description>
+    </item>
+    
+    <item>
+      <title>blog-admin and Nikola</title>
+      <link>https://punchagan.muse-amuse.in/blog/blog-admin-and-nikola/</link>
+      <pubDate>Sat, 21 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/blog-admin-and-nikola/</guid>
+      <description>Another post about blogging.
+blog-admin now supports Nikola, thanks to yours truly. blog-admin is an Emacs package by CodeFalling that lets you view and manage your (static site generated) blog from within inside Emacs.
+Nikola&amp;rsquo;s command line utility is pretty nifty and does a bunch of useful things. I had a few utility functions to do common tasks like create new post and deploy blog. This worked well, but moment I came across this blog-admin&amp;rsquo;s tabular view, I was sold!
+org2blog (a blogging tool I used previously) had a tracking file that kept track of all the posts I made, and I used it quite a bit for navigation &amp;ndash; thanks to org-mode&amp;rsquo;s search functionality. The tabular view of blog-admin is even better! I really like the fact that the author has tried to keep the package generic enough to support any blog, and adding support for Nikola has been quite easy.
+The filtering functionality is crude, but good enough for a start. One thing I want to add is a preview functionality for drafts. Showing some (writing) statistics would also be nice &amp;ndash; No. posts in the last month, total published posts, etc. No promises, but you may see some of these things, soon. :)</description>
+    </item>
+    
+    <item>
+      <title>Org based posts in Nikola</title>
+      <link>https://punchagan.muse-amuse.in/blog/org-based-posts-in-nikola/</link>
+      <pubDate>Sun, 20 Apr 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org-based-posts-in-nikola/</guid>
+      <description>Chen Bin asked me to share my Nikola+Org work-flow, and share an example post.
+The org source for any post can be found by changing the URL of a post from .html to .org.
+I don&amp;rsquo;t have much of a work-flow, because I don&amp;rsquo;t post too often, but here is what I typically do, to make a new post.
+I start off by creating a new post using
+$ nikola new_post  and then give the post a title and start editing the post in Emacs.
+I have a simple snippet that lets me insert tags, based on existing tags.
+ Once I&amp;rsquo;m happy with the content of a post, I run nikola auto to build the source and serve it locally, and see if the post &amp;ldquo;looks&amp;rdquo; reasonable, after being rendered.
+Once, I&amp;rsquo;m happy with it, I commit the post and deploy it using nikola deploy.
+I also have a plugin, that posts captured bookmarks and quotes onto the blog, with a single command. I should probably make the sources of my blog open, and push it onto GitHub.
+Update [2015-05-13 Wed]
+ I use my own plugin for Nikola which lets me write posts in org-mode. There is a similar plugin by Chen Bin, that exports posts to intermediate html, that is then used by Nikola.
+ The source for my blog is now on GitHub
+ I also have custom elisp to be able to make a new post, and deploy the site from within Emacs.
+  </description>
+    </item>
+    
+    <item>
+      <title>Bookmarks and Quotes plugin</title>
+      <link>https://punchagan.muse-amuse.in/blog/bookmarks-and-quotes-plugin/</link>
+      <pubDate>Sat, 19 Oct 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/bookmarks-and-quotes-plugin/</guid>
+      <description>I used to have a separate page for bookmarks and quotes on the old blog. They will now be shared as regular posts with 5 or more bookmarks/quotes. I use a bookmarklet in my browser to capture links to an org-file using org-capture protocol and then I have a small plugin to Nikola, that looks at such captured bookmarks and quotes and makes new posts out of them. This workflow is inspired by Brett Trepestra&amp;rsquo;s web excursions plugin.
+The plugin is currently a part of my blog source, and not published to Nikola&amp;rsquo;s plugin repository since it is very specific to my setup. But if anybody is interested, I can publish the code somewhere public.
+If you are interested to get these links and bookmarks into your feed reader, you can subscribe to their feed: [quotes], bookmarks. These posts will also make it to the main feed, though.
+UPDATE [2015-11-15 Sun 20:45]
+ The quotes feed no longer exists! The bookmarks feed doesn&amp;rsquo;t really get too many updates. I use pinboard for my bookmarks, now.  </description>
+    </item>
+    
+    <item>
+      <title>Blogging with Nikola and Org-mode</title>
+      <link>https://punchagan.muse-amuse.in/blog/blogging-with-nikola-and-org-mode/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/blogging-with-nikola-and-org-mode/</guid>
+      <description>Sigh! I made yet another change to the way this blog gets published. But, I have a feeling this mechanism, is here to stay!
+We&amp;rsquo;ve been using Nikola quite regularly for our Ultimate site, and I quite like it. I&amp;rsquo;ve also contributed a bunch of features to Nikola to get it to work the way I would like it to. This weekend I ported my blog from o-blog to Nikola. The only thing that was stopping me from doing it, until now is the fact that all my posts are in org markup and porting them over to one of the formats that Nikola supports would be a PITA. So, I wrote a pretty simple plugin to Nikola to support posting from org files. And then with a little Python, I was able to move everything over to use Nikola.
+Hopefully, I&amp;rsquo;ll keep my blog more updated, from here on!</description>
+    </item>
+    
+    <item>
+      <title>Changes to Blog</title>
+      <link>https://punchagan.muse-amuse.in/blog/changes-to-blog/</link>
+      <pubDate>Wed, 02 Feb 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/changes-to-blog/</guid>
+      <description>Well, as you can see, I&amp;rsquo;ve changed my blog a bit. I had been trying to make it gel well with org-mode and looking for ways to allow me to share arbit stuff with separate feeds for tags, separate pages with independent feeds, etc.
+I finally got around to tweaking the code of reprise to be able to do this. There are still a few things I would like to change, but I&amp;rsquo;ll make the changes gradually. The looks are also straight from uddegal&amp;rsquo;s [[reprise, with a few tiny tweaks. I hope it is alright to be using it. I really liked the theme.
+Every tag now has a separate feed. /tags/emacs.atom will give you the feed of emacs for instance. Also, I plan to have a couple of more pages, one for all the interesting links I come across and another for interesting quotes. Both of these pages, have their own feeds too (quotes.atom and links.atom).
+In the spirit of minimalism, I got rid of comments. I&amp;rsquo;ve been looking for ways of having comments without all the javascript cruft from disqus, but I didn&amp;rsquo;t find any satisfactory way to do this. So, the site will have no comments. You can write to me, in case you&amp;rsquo;ve something to say to me.
+Adios.</description>
+    </item>
+    
+    <item>
+      <title>Windows©, Doors or Homes!??!</title>
+      <link>https://punchagan.muse-amuse.in/blog/windowsc-doors-or-homes/</link>
+      <pubDate>Sun, 01 Apr 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/windowsc-doors-or-homes/</guid>
+      <description>A couple of days back.. one guy called greenmamba asked me.. &amp;ldquo;Why do you use Linux (GNU/Linux) and not Windows? What is it that makes LinuxGNU/Linux] so special for you?&amp;rdquo; I avoided that question then.. {I was in no mood of answering questions&amp;hellip; Exams had finished just the day before!!} I am trying to answer it now&amp;hellip; greenmamba also told me that Roopesh said, &amp;ldquo;I use it because I can look at the source code. I am allowed to look at how things work and fiddle with the way they work!&amp;ldquo;&amp;hellip; I knew it immediately that this was not the reason for me.[I rarely looked at source code&amp;hellip; and making changes to it.. haha..] So what is it? I think I can answer this question if I get back to the time when I started using Linux&amp;hellip;[hehe.. not too long ago!! :P]
+So how did I start using GNU/Linux? How did &amp;ldquo;we&amp;rdquo; first meet? It was during last summer holidays.. that Voods sent me this link &amp;hellip; [I had definitely used GNU/Linux on a few occasions before&amp;hellip; but.. this was when I really began using it&amp;hellip;] and within hours I was a fan of GNU/Linux!\![and Richard M Stallman (RMS)]
+So its the &amp;ldquo;philosophy&amp;rdquo;&amp;hellip; The philosophy of Free Software&amp;hellip; [Free as in Freedom, not as in Free Beer&amp;hellip;(English is a wierd wierd Language&amp;hellip;)]&amp;hellip; The philosophy of Open Source&amp;hellip; that brought me to it&amp;hellip; This song says it the best&amp;hellip;
+Free Software Song &amp;ndash;RMS
+Join us now and share the software;
+You&amp;rsquo;ll be free, hackers, you&amp;rsquo;ll be free.
+Join us now and share the software;
+You&amp;rsquo;ll be free, hackers, you&amp;rsquo;ll be free.
+Hoarders may get piles of money,
+That is true, hackers, that is true.
+But they cannot help their neighbors;
+That&amp;rsquo;s not good, hackers, that&amp;rsquo;s not good.
+When we have enough free software
+At our call, hackers, at our call,
+We&amp;rsquo;ll throw out those dirty licenses
+Ever more, hackers, ever more.
+Join us now and share the software;
+You&amp;rsquo;ll be free, hackers, you&amp;rsquo;ll be free.
+Join us now and share the software;
+You&amp;rsquo;ll be free, hackers, you&amp;rsquo;ll be free.
+now I continue to use it.. for a variety of reasons..[they are NOT in the order of their priority/importance]
+ Firstly, using Linux gives me a sense of community&amp;hellip; a sense of oneness [this can&amp;rsquo;t happen with Windows.. because you can&amp;rsquo;t share stuff&amp;hellip; :-(] I have begun to hate the concept of Proprietary Software&amp;hellip; can you believe that.. &amp;ldquo;Sharing stuff.. makes us PIRATES!!&amp;rdquo;
+ I am a growing fan of the Command Line&amp;hellip; It simply rocks!!
+ There&amp;rsquo;s almost no problem of Viruses/Malware.. You simply don&amp;rsquo;t need an Anti-Virus..(that needs to be updated every night.. or u&amp;rsquo;ll have nightmares&amp;hellip;)
+ Then there&amp;rsquo;s this wonderful concept of Live-CDs.. {specially Knoppix.. Its absolutely awesome!} It put me(us?) out of soup&amp;hellip; a lotta times&amp;hellip;
+ The fiddle factor&amp;hellip; I have just started to fiddle with things(&amp;hellip;source codes&amp;hellip; I added a small feature to my dc-client Microdc2].. the feature of away messages.. it feels gr8! :P)
+ One of my best friend is using it too! [you know who&amp;hellip;]
+ The Mascot looks cool!! ;) [I liked the GNU mascot too! (It&amp;rsquo;s on my side-bar) ]
+ The name &amp;ldquo;LINUX&amp;rdquo;!! [There&amp;rsquo;s so many flavors(Distros) of Linux.. that I can keep trying different ones.. all my life :P.. presently with Slackware!]
+ Its Fun!! and I want to use it&amp;hellip;
+ and finally&amp;hellip; Windows sucks! [I don&amp;rsquo;t have to use it&amp;hellip; :P]!!
+  Value your freedom or you will lose it, teaches history. &amp;ldquo;Don&amp;rsquo;t bother us with politics,&amp;rdquo; respond those who don&amp;rsquo;t want to learn. &amp;ndash;Richard Stallman
+When you say, &amp;ldquo;I wrote a program that crashed Windows&amp;rdquo;, people just stare at you blankly and say, &amp;ldquo;Hey, I got those with the system, for free&amp;rdquo;. &amp;ndash;Linus Torvalds
+&amp;ldquo;What happens when you read some doc and either it doesn&amp;rsquo;t answer your question or is demonstrably wrong? In Linux, you say &amp;ldquo;Linux sucks&amp;rdquo; and go read the code. In Windows/Oracle/etc you say &amp;ldquo;Windows sucks&amp;rdquo; and start banging your head against the wall.&amp;rdquo; &amp;mdash; Denis Vlasenko on linux kernel mailing list
+&amp;ldquo;The box said that I needed to have Windows 98 or better&amp;hellip; so I installed Linux.&amp;rdquo; &amp;ndash; LinuxNewbie.org</description>
+    </item>
+    
+  </channel>
+</rss>

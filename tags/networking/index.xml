@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/networking/</link>
+    <description>Recent content in Networking on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 31 Jul 2014 08:40:16 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-07-30</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-30/</link>
+      <pubDate>Thu, 31 Jul 2014 08:40:16 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-30/</guid>
+      <description> (Re) Learning C  Stephanie and I worked through the Networking chapter of the book.
+ We faced some issues with writing 0 bytes to memory, since most of the code was dealing with strings. I still haven&amp;rsquo;t figured out how to do this, correctly.
+  </description>
+    </item>
+    
+  </channel>
+</rss>

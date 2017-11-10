@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Time on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/time/</link>
+    <description>Recent content in Time on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 14 Jun 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/time/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Assist time</title>
+      <link>https://punchagan.muse-amuse.in/blog/assist-time/</link>
+      <pubDate>Tue, 14 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/assist-time/</guid>
+      <description>I sometimes hang out on #org-mode or #nikola and answer questions. I usually am not able to answer off the top of my head and I look up docs or dig through the code. Sometimes, we find ready-made documented answers, but other times we end up contributing some documentation, filing an issue, submitting a patch or hacking up something for that super-special use-case.
+Until now, I looked at this time as IRC time, which loosely translates to distraction time. But, I&amp;rsquo;m usually learning about the tools I use a little bit more. Even when I&amp;rsquo;m not, I&amp;rsquo;m helping someone do something they want to do. Sometimes empowering them to fix future problems on their own. And indirectly making the user community a wee-bit happier, and possibly the software a tiny bit better.
+This isn&amp;rsquo;t limited just to helping someone on IRC. Helping out a co-worker do something that they are new to, or just adding a comment or editing a Stack-overflow answer may end up in the &amp;ldquo;distraction time&amp;rdquo; bin, just because you weren&amp;rsquo;t doing something on your TODO list. It needn&amp;rsquo;t be.
+Taking cue from scorers in Football, I decided to call this time assist time and to try to start seeing this time as (semi-)productive. Naming helps.</description>
+    </item>
+    
+    <item>
+      <title>Asking vs. Figuring out</title>
+      <link>https://punchagan.muse-amuse.in/blog/asking-vs-figuring-out/</link>
+      <pubDate>Wed, 15 Sep 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/asking-vs-figuring-out/</guid>
+      <description>Should one take the easy route of asking someone who knows, if she is sitting right next to you? Or should we try and find out first, before asking her? Should one value his time more than others&amp;rsquo; or others&amp;rsquo; time more than his own?
+Would we learn more if we tried to find out ourselves? Does learning more, make sense? Is it worth spending the extra time?
+I&amp;rsquo;m just talking of simple things that you could figure out by spending a couple of minutes of searching the web or 5 minutes of thinking or 10 minutes of reading a book.</description>
+    </item>
+    
+  </channel>
+</rss>

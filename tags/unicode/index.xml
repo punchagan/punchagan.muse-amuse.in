@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unicode on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/unicode/</link>
+    <description>Recent content in Unicode on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 10 Jul 2014 10:21:45 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/unicode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-07-09</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-09/</link>
+      <pubDate>Thu, 10 Jul 2014 10:21:45 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-09/</guid>
+      <description> Unicode issues: it turned out that (atleast) one of the files had a character that wasn&amp;rsquo;t UTF-8 encoded. I got around it by trying &amp;lsquo;utf-8&amp;rsquo;, if not falling back to &amp;lsquo;iso-8859-1&amp;rsquo;. Now that I think about it, I should fallback to &amp;lsquo;utf-8&amp;rsquo; with replace, if that doesn&amp;rsquo;t work either. I did a little clean up on the way the indexes were stored, to be able to have a getfile, to mimic inspect&amp;rsquo;s API. I also &amp;ldquo;improved&amp;rdquo; the IPython startup script to monkey-patch the source code formatter/colorizer to not break with C modules. The one-on-one with Allison was pretty useful, and I feel a little more relaxed now. I paired with Kyle to get streaming audio working for his OSX app. It doesn&amp;rsquo;t work yet, but we made progress! Hope to get it working today. I spent the late evening trying to refactor some of the code and clean it up. Also, updating the py-clang code to the latest version fixed the issue of unknown cursor kinds. I may present my project in today&amp;rsquo;s presentations!  </description>
+    </item>
+    
+  </channel>
+</rss>

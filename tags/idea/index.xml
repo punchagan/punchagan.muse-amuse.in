@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Idea on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/idea/</link>
+    <description>Recent content in Idea on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 06 Jun 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/idea/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reading-time based scheduling</title>
+      <link>https://punchagan.muse-amuse.in/blog/reading-time-based-scheduling/</link>
+      <pubDate>Mon, 06 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/reading-time-based-scheduling/</guid>
+      <description>I had posted a link to an poem written on Medium on a Slack channel that I use with friends. A friend said that she liked the fact that the Slack article preview had the reading time from Medium in it. She could decide whether or not she wanted to read the poem or any other article at that moment.
+This gave me the idea for a reading time extension for my browser, or my feed reader or my bookmarks &amp;ndash; my reading list. The first version should be able to compute or extract the reading time for an article or a tab in my browser, and index them. I want to be able to specify the amount of time I will be able to spend reading, and be presented with something from my reading list. I think this would help with scheduling the reading of longer articles, and also to actually help me get through my reading list.
+Reading time estimates that use heuristics based on word-count may not really work, and may do more harm than good. But, it may still be worth a try to see if it helps my reading habits in any way. A quick search pointed me to this extension, that can give the reading time for any page but doesn&amp;rsquo;t really do what I want.</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-06-11</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-11/</link>
+      <pubDate>Wed, 11 Jun 2014 15:02:11 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-11/</guid>
+      <description> Plan Continue with the Haskell tutorials, with additional reading from Real World Haskell.
+Actual  Finished exercises 4 and 5.  Learnt about Type classes in Haskell and how to create them and make data types instances of them. Also came across a new algorithm of sieving called the Sieve of Sundaram, which was discovered by a student. Surprisingly, I never heard of it before!   Miscellaneous  A few of us had an interesting discussion about various places people grew up in and visited, and the cultures, etc. Idea: implement a GitHub dashboard for organizations (say, HS batches) that give you different statistics, and interesting graphs. (Use elm?) [Update: Tom is working on HS and GitHub integration. So, that&amp;rsquo;s perfect!]  </description>
+    </item>
+    
+    <item>
+      <title>Scraping Google Groups</title>
+      <link>https://punchagan.muse-amuse.in/blog/scraping-google-groups/</link>
+      <pubDate>Tue, 31 Dec 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/scraping-google-groups/</guid>
+      <description>I was playing around with a few ideas for creating a timeline for the mumbai ultimate group, and as a part of playing around with stuff, for that idea, I ended up wanting to scrape all the emails on our google group. After looking around a little bit, I failed to find anything that claims to be able to do this.
+So I ended up writing my own hacky script to download all the emails sent on the group. Like I said, this is a hack and can be improved quite a bit, but I am not inclined to do anything about it, right now. Since, everything about google groups is ajaxy, this script uses selenium and does things on the page, that one would do by hand. It&amp;rsquo;s not something that I am proud of, but it does the job!</description>
+    </item>
+    
+    <item>
+      <title>Pair Blogging</title>
+      <link>https://punchagan.muse-amuse.in/blog/pair-blogging/</link>
+      <pubDate>Sun, 08 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pair-blogging/</guid>
+      <description>I like the idea of pair blogging. Cate and Sacha, seem to be doing it (intentionally or not). One person blogs on a topic he/she&amp;rsquo;s presently thinking about and the other person posts his/her views on the same issue. Well, comments are meant for that, but a blog post seems to give you greater freedom.
+PS: I called it pair-blogging. I don&amp;rsquo;t know if it already has a name or if pair-blogging means something else.</description>
+    </item>
+    
+    <item>
+      <title>Change &amp; Free flow</title>
+      <link>https://punchagan.muse-amuse.in/blog/change-free-flow/</link>
+      <pubDate>Fri, 30 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/change-free-flow/</guid>
+      <description>No. Not the Obama change. I&amp;rsquo;m talking of change as in small denominations of cash. Everybody is reluctant to part with it. There&amp;rsquo;s always a problem with getting it. I&amp;rsquo;m often worried before getting into a bus or an auto, or going to a shop whether or not the guy would give me change for a 50, 100 or a 500. People so reluctant to &amp;ldquo;part&amp;rdquo; with it. What are they saving it for?
+I think the situation would be much better if people readily gave it, when required. There would be a free flow and if not anything more, I wouldn&amp;rsquo;t have to worry about it when going somewhere. But, I &amp;ldquo;feel&amp;rdquo; this would actually reduce the instances when both the parties don&amp;rsquo;t have enough change with them. What do you think?</description>
+    </item>
+    
+    <item>
+      <title>Competition and Population</title>
+      <link>https://punchagan.muse-amuse.in/blog/competition-and-population/</link>
+      <pubDate>Fri, 30 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/competition-and-population/</guid>
+      <description>I&amp;rsquo;ve often got bad service from &amp;ldquo;service providers&amp;rdquo; - hotels, restaurants, phone services, Internet services etc. I guess that&amp;rsquo;s due to the population in India. If one customer goes back unhappy that doesn&amp;rsquo;t really make a difference, because there would be hundred others already waiting in the queue.
+You, as a, service provider would get your share of customers and profits, no matter how bad you are. Thanks to the population.
+One solution could be, to write about the bad service you got from a provider and make people aware of it, but often there aren&amp;rsquo;t enough options, for others to choose from. Inevitably, the bad service provider is going to get some customers. What&amp;rsquo;s the way out?</description>
+    </item>
+    
+  </channel>
+</rss>

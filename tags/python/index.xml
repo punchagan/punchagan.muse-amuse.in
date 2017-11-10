@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/python/</link>
+    <description>Recent content in Python on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 25 Aug 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Create a Public Jupyter Server, quickly!</title>
+      <link>https://punchagan.muse-amuse.in/blog/create-a-public-jupyter-server-quickly/</link>
+      <pubDate>Thu, 25 Aug 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/create-a-public-jupyter-server-quickly/</guid>
+      <description>I create public Jupyter notebooks once in a while, to collaborate with a friend, or to make it easier for myself to work with data on a remote machine.
+Each time I need to look up the docs, and manually set-up a few things, before I can start using the notebook.
+I just wrote a bash script that does the following, quickly -
+ Install Jupyter into a temporary virtualenv Create certificate files Start the server with https enabled and a password Delete all temporary files, when the server is shutdown   You can get it here, if you&amp;rsquo;d like to use it.</description>
+    </item>
+    
+    <item>
+      <title>Python reload and module dict</title>
+      <link>https://punchagan.muse-amuse.in/blog/python-reload-and-module-dict/</link>
+      <pubDate>Thu, 23 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/python-reload-and-module-dict/</guid>
+      <description>I was trying to play around with Nikola&amp;rsquo;s code today and learnt about a documented weirdness of Python&amp;rsquo;s reload.
+ Below are two versions of code &amp;ndash; ORIGINAL and UPDATED respectively referring to the orginial code and the code after changes. The code only has a PLUGINS list, which is changed in each version of the code.
+# Work in a temporary directory import os import tempfile os.chdir(tempfile.mkdtemp()) # Module content, original and updated ORIGINAL = &amp;quot;# PLUGINS = []&amp;quot; UPDATED = &amp;quot;PLUGINS = [&#39;rss&#39;]&amp;quot; def create_conf_file(content): &amp;quot;&amp;quot;&amp;quot;Create a conf.py module with given content.&amp;quot;&amp;quot;&amp;quot; with open(&#39;conf.py&#39;, &#39;w&#39;) as f: f.write(content)  conf doesn&amp;rsquo;t have a PLUGINS attribute in the ORIGINAL code. It&amp;rsquo;s been commented out!
+create_conf_file(ORIGINAL) import conf # PLUGINS is not defined in the module, originally. print(conf.PLUGINS)  The code for conf has been updated, but the module doesn&amp;rsquo;t yet have a PLUGINS attribute, since the new module isn&amp;rsquo;t imported until we reload.
+create_conf_file(UPDATED) import conf print(conf.PLUGINS)  PLUGINS has the expected value, after the reload
+import importlib importlib.reload(conf) print(conf.PLUGINS)  What happens when we revert to the ORIGINAL code, and reload the module?
+# We write back the original file. PLUGINS should be empty! create_conf_file(ORIGINAL) import conf importlib.reload(conf) print(conf.PLUGINS, &amp;quot;&amp;lt;---Whaaaat!&amp;quot;)   The behavior is well documented, along with a reasoning of why it is the way it is, but you can trip over it if you don&amp;rsquo;t know. I hit a bug and was wondering if there was a race condition somewhere, until I read the docs for reload. On reload, the module dict is updated, instead of creating a new dict. Any values not redefined in the new code for the module remain unchanged.</description>
+    </item>
+    
+    <item>
+      <title>Playing music using mpsyt from Emacs</title>
+      <link>https://punchagan.muse-amuse.in/blog/playing-music-using-mpsyt-from-emacs/</link>
+      <pubDate>Mon, 20 Apr 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/playing-music-using-mpsyt-from-emacs/</guid>
+      <description>I&amp;rsquo;ve started using the wonderful mpsyt to play any music from youtube, since I&amp;rsquo;m not really interested in the video. But, since I use emacs for chat/IRC, I end up getting youtube links into emacs and opening them opens them up in my browser. I ended up writing some elisp to play the songs from within an instance of mpsyt running inside an emacs buffer.
+(defun pc/short-url-at-point () &amp;quot;Gets the short url at point. This function is required only because `thing-at-point-url-at-point&#39; ignores urls (without a scheme) that don&#39;t start with www.&amp;quot; (let ((bounds (thing-at-point-bounds-of-url-at-point t))) (when (and bounds (&amp;lt; (car bounds) (cdr bounds))) (buffer-substring-no-properties (car bounds) (cdr bounds))))) (defun pc/mpsyt-url (url) (let ((buffer (current-buffer)) (mpsyt-proc-name &amp;quot;*mpsyt*&amp;quot;)) ;; Start a new term with *mpsyt* if there isn&#39;t one (unless (get-process mpsyt-proc-name) (when (get-buffer mpsyt-proc-name) (kill-buffer (get-buffer mpsyt-proc-name))) (ansi-term &amp;quot;mpsyt&amp;quot; &amp;quot;mpsyt&amp;quot;)) ;; Play given url in mpsyt (let ((mpsyt-proc (get-process mpsyt-proc-name))) ;; If something is already playing, stop it and play this... (term-send-string mpsyt-proc &amp;quot;\n\n\n&amp;quot;) ;; We wait for a bit, since looking for the prompt seems to fail, sometimes? (sleep-for 1) (term-send-string mpsyt-proc &amp;quot;\n&amp;quot;) ;; Actually send the command to playurl (term-simple-send (get-process mpsyt-proc-name) (format &amp;quot;playurl %s&amp;quot; url))) (switch-to-buffer buffer))) (defun pc/mpsyt-url-at-point () &amp;quot;Play the URL at point using mpsyt.&amp;quot; (interactive) (let ((url (or (url-get-url-at-point) (pc/short-url-at-point)))) (if (not url) (message &amp;quot;No URL found&amp;quot;) (message (format &amp;quot;Playing %s with mpsyt&amp;quot; url)) (pc/mpsyt-url url))))  The current version of mpsyt crashes when run from inside emacs due to a bug in the code to get the terminal size, which should be fixed once this patch is merged.
+I would&amp;rsquo;ve expected thing-at-point-url-at-point to be able to find urls even when they don&amp;rsquo;t have a schema, but it tries to guess the schema from urls and fails to work when the url starts with youtube.com instead of www.youtube.com.
+I started off using the command-line interface of mpsyt by running it using shell-command or start-process. But, it seemed useful to have a buffer of mpsyt to switch to &amp;ndash; easier to search for new music, repeating songs, etc. Not all tasks/actions are achievable through mpsyt&amp;rsquo;s command line args.
+I ended up writing more code than I thought I would have to[1]. But, I&amp;rsquo;m pretty happy with how this all works, right now.
+[1] - Isn&amp;rsquo;t it true, more often than not?</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-27</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-27/</link>
+      <pubDate>Thu, 28 Aug 2014 09:51:30 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-27/</guid>
+      <description> I spent the whole of yesterday just working on the LED-bot. Spent some time cleaning up meta-stuff about the project, making it a real package, adding a setup.py, added LICENSE &amp;amp; AUTHOR files, etc. I found it really frustrating that there&amp;rsquo;s no good/standard way to remove duplication of information between pip&amp;rsquo;s requirements.txt and install_requires We got the bot running on the Beagle Bone, but it turned out to be too slow. After some playing around with trying to get rid of Python for-loops, I was able to use PIL&amp;rsquo;s image.tobytes and some image cropping to get the data to be sent to the LEDs, and it sped up the display quite a bit.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-26</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-26/</link>
+      <pubDate>Wed, 27 Aug 2014 10:23:27 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-26/</guid>
+      <description> I spent most of the day refactoring the code for the LED Bot, and am happy with the way it looks right now. My talk at Hack and Tell went OK. I was distracted by livereveal not displaying properly on the smaller resolution, and not being able to mirror screens! There were a bunch of interesting talks presented by the others. http://comparea.org, Taxis and Rainbows were the most interesting ones for me.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-20</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-20/</link>
+      <pubDate>Fri, 22 Aug 2014 22:43:04 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-20/</guid>
+      <description> I finished going through the third of Dave Beazley&amp;rsquo;s tutorials on Generators and Co-routines. Also refactored api-diff to use astroid, instead of the ast module. Kinda happy with what I have, for now. May be more, later&amp;hellip;  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-21</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-21/</link>
+      <pubDate>Fri, 22 Aug 2014 10:33:34 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-21/</guid>
+      <description> I added an additional view to xtab, to see all the pages that were killed, and reopen them, if you so choose. Also, cleaned up the api-diff project and renamed it to what-changed. Started thinking about building the GitHub organization dashboard, that I thought would be interesting to have, since the 1st or 2nd week of Hacker School. A bunch of awesome thursday presentations, and job fair and awesome food by Chef Warren!  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-19</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-19/</link>
+      <pubDate>Wed, 20 Aug 2014 18:06:53 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-19/</guid>
+      <description> I spent most of the day working through David Beazly&amp;rsquo;s tutorials on generators and coroutines, and it was mind bending. I learnt about send and throw methods on generators! I hadn&amp;rsquo;t heard of them before, and was totally surprised to come across them. I spent a little time late in the day getting class diffs working, and refactoring the api-diff tool to remove duplication of code between classes and modules. But, not very happy with the way I did it.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-18</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-18/</link>
+      <pubDate>Tue, 19 Aug 2014 13:11:49 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-18/</guid>
+      <description> I refactored the API-diff code, and am pretty happy with what I have right now, and need to add support for diffing Classes. I&amp;rsquo;m considering using Atstroid instead of Python&amp;rsquo;s ast module, since some of the work that I want to do, has already been done for me. With the white-boarding group, we worked on a set of simple exercises for strings and arrays. José Valim&amp;rsquo;s presentation on Elixir was interesting and got me reading up a stuff about concurrency, and related stuff. Thanks!  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-17</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-17/</link>
+      <pubDate>Mon, 18 Aug 2014 21:59:07 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-17/</guid>
+      <description>Friday  Updated my HS profile page with projects that I worked on, and a short bio. Joined the group discussing algorithmic complexity Submitted a pull request to blaggregator to fix issues with broken profile images.  Saturday &amp;amp; Sunday I almost didn&amp;rsquo;t write any code during the weekend.</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-14</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-14/</link>
+      <pubDate>Fri, 15 Aug 2014 18:09:59 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-14/</guid>
+      <description> I spent the morning cleaning up the &amp;ldquo;repr&amp;rdquo; functions of the diff classes, so that the diff of functions between two modules can be printed out in a somewhat meaningful way.
+ I spent most of the afternoon, preparing to make a small presentation on how sys.path works in Python. I thought I didn&amp;rsquo;t do as good a job of it, as I would&amp;rsquo;ve liked, but Tom thought it was not too bad&amp;hellip;
+ Looks like another of those days, where I didn&amp;rsquo;t get much done&amp;hellip; I spent the evening finishing off Homeland. It&amp;rsquo;s a brilliant book, and everyone who cares about the Government and policies and technology MUST read it! Thanks Cory.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-13</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-13/</link>
+      <pubDate>Thu, 14 Aug 2014 11:11:59 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-13/</guid>
+      <description> I feel like I didn&amp;rsquo;t get much done yesterday. I mostly worked on the API differ, but didn&amp;rsquo;t get much done. I have a few tests, and some code for diffing two functions, but I&amp;rsquo;m not very happy with it. I helped Giorgio and Carlos with using my client only hs_oauth script/library, for their Zulip bot. The white boarding group worked on some binary related problems, and it was fun. I looked at how the HS OAuth backend works on blaggregator and thought about how to go about fixing the issue of broken images on the site. The problem happens because the image URLs are returned from the HS API calls, that are made whenever a user logs in(?), and the URLs are cached. Since, HS uses cloudfront for its assets, the URLs expire after a period of time, and the cached urls in blag&amp;rsquo;s database need to be updated. There could be two ways of doing it -
+ Check if the URL 404s, every time a URL is requested, on the server side. Do it on the client side, with some javascript magic.  Intuitively, I feel like 2. would be better, but Madhu suggested that 1. wouldn&amp;rsquo;t be that bad either. We could try both out, and see which works better I suppose.
+I&amp;rsquo;d be interested to try this out, sometime.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-12</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-12/</link>
+      <pubDate>Wed, 13 Aug 2014 10:30:30 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-12/</guid>
+      <description> An issue I was seeing with pip and a package installed in system-site-packages turned out to be non-reproducible. It was probably PEBKAC. I was wondering around in the morning trying to find something to work on. I decided to work on Pankaj&amp;rsquo;s idea to write a tool that gives you API differences between two versions of a library. It would be useful to have the list of public API changes in a library you use, to estimate the cost of updating to the newer version, without having to manually go through all the changes. I spent some time talking to Sophia, and looking at her FTP server&amp;rsquo;s refactored code.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-11</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-11/</link>
+      <pubDate>Mon, 11 Aug 2014 11:16:08 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-11/</guid>
+      <description> I spent about an hour in the morning testing out the staging blaggregator instance, and things seemed to work as expected. Side note, I got added as a collaborator on the blaggregator repo! We worked through the first chapter on getting video working, but we mostly ended up just copying code rather than actually understanding/carefully studying it. I&amp;rsquo;m not sure how I feel about it, but we got to display fancy stuff. I wasn&amp;rsquo;t feeling like working on any of my &amp;lsquo;old&amp;rsquo;/&amp;lsquo;ongoing&amp;rsquo; projects, and since Mondays don&amp;rsquo;t feel very productive, I worked on writing a couple of simple scripts to create twitter lists of HSers, batch wise.
+For the HS API, I just reused some old code I had lying around from my experiments with the OAuth2 API, though I had to tweak it a little bit to be able to actually login, using requests. Something about CSRF tokens seems to have changed.
+In the process, I found that twitter&amp;rsquo;s API isn&amp;rsquo;t very pleasant to use. Or may be it&amp;rsquo;s the fact that I was using python twitter client without getting my own client id/key, but the whole experience of dealing with the twitter API wasn&amp;rsquo;t a pleasant one at all!
+ Amber, Daria and I also spent about an hour white-boarding some problems from the Cracking the Code Interview book.
+ I ended up fixing some minor issues with blaggregator and am hoping that the long pending PR will be merged today.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-08</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-08/</link>
+      <pubDate>Sat, 09 Aug 2014 20:56:22 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-08/</guid>
+      <description> I spent the morning doing some white-boarding interview practice with a Jorge and Brian. I spent the rest of the day, playing with PyPy and working through a tutorial that teaches us to write a BF interpreter. I spent the Saturday revamping my Emacs config. The main issue with my config was having a &amp;ldquo;package&amp;rdquo; list, of all the packages that the configuration uses, in case we are trying to duplicate it elsewhere. I noticed that this gets out of sync, because I install packages by hand and never update this list. I wrote up some code, that keeps this list in sync with all the packages I have installed. I configured el-get to play well with my config, and am pretty happy with my setup, though I still have to add some matching/searching features with helm/ido/whatever else. I spent the Sunday writing a patch to xtab to be able to limit the number of tabs in Chromium by the memory it uses.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-03</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-03/</link>
+      <pubDate>Mon, 04 Aug 2014 16:10:41 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-03/</guid>
+      <description> Friday  On Friday, I didn&amp;rsquo;t do the exercises that everyone else doing job prep were doing. I wanted to continue writing C code, and continued to work on the bencode parser in C. I barely was able to finish adding support for lists. I got comfortable using Valgrind, in the process of debugging a stupidity of not using realloc correctly. What I was able to write with Python in an hour or so, I have been writing for about a day, in C, and haven&amp;rsquo;t yet finished it! It definitely doesn&amp;rsquo;t help that my C is very rusty&amp;hellip;  Saturday &amp;amp; Sunday  I didn&amp;rsquo;t work much, and went around New York with Madhu. We went to quite a few places around here, the highlight being, the view of Manhattan&amp;rsquo;s skyline from the Staten Island Ferry. NYC&amp;rsquo;s library also had an interesting exhibhition on the history of America, just before and during WW-I. On Sunday, I tried out Mary TTS on the raspberry pi, and it is simply unusable. I then, started writing a simple wrapper around Google&amp;rsquo;s tts that is used by Google translate. The TTS part is more or less working right now, the next step would be to deploy it on the RaspberryPi and start using it as a radio, to see what my needs are like. Hooking it up to Jasper client seems like a good idea, right now&amp;hellip; though I&amp;rsquo;m not sure if it would work very well, with the pi&amp;rsquo;s audio output drowning out the voice commands.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-28</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-28/</link>
+      <pubDate>Mon, 28 Jul 2014 22:23:39 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-28/</guid>
+      <description> There seemed to be excitement in the space to have Jessica around. We had coffee with her, and I chatted with her briefly. She encouraged me to try and send a patch to CPython, that involved debugging and fixing some C issues. I spent some time with Tom, while he tried to get cinspect working for him, and it seemed like having the developer next to you, helped. As always. We didn&amp;rsquo;t make any fixes to the code, but it worked. I spent the afternoon, adding tests for a simple issue, to see how patches are sent. Later, I paired with Sophia for an hour to refactor the vcs code. It&amp;rsquo;s beginning to look much better than what it used to, and I like that. Jessica&amp;rsquo;s talk on buffer overflows was enlightening and entertaining. It was very similar to a talk that Max gave on one of the thursdays, but it was exciting nevertheless. After the talk, I am inspired to try and work through the Hacking: Art of exploitation, at some point. I&amp;rsquo;m beginning to feel like time at HackerSchool running out!  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-25</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-25/</link>
+      <pubDate>Fri, 25 Jul 2014 09:25:50 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-25/</guid>
+      <description> We worked on writing our own (toy) version control system on Friday, as a part of job prep. I paired with Sophia, and we got upto the point where we had diffs working, when we decided to refactor the code with some tests and stuff. The party was brilliant with a lot of activity. All the project installations looked so cool, and it was so much fun! I spent some time during the weekend watching the &amp;ldquo;Anatomy of Matplotlib&amp;rdquo; lectures. I started some work with poking around Matplotlib&amp;rsquo;s template backend, and trying to start writing and ascii backend. Also, I was trying to help UC setup GrooveBasin on his raspberry pi, and helped him configure jasper on it.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-24</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-24/</link>
+      <pubDate>Thu, 24 Jul 2014 09:53:03 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-24/</guid>
+      <description> Glowing LEDs and me  It turned out that the SPI driver exposed a faster way to write bits, writing to all the LEDs at once, instead of one at a time, and this was sufficient to get things working!
+ Kyle and I started to have enough, of the glowing LEDs and decided to wrap up the project, but, Nick had different ideas for us! We had talked about having the music stream via airplay, but Nick got his DJing tools, and it would be too bad to not use it for the party, but doing that meant Airplay&amp;rsquo;s delay wouldn&amp;rsquo;t help the DJ. So, we connected a line-in, and thought we&amp;rsquo;d be done if we just read the input and used that data. But, it turns out that&amp;rsquo;s not so simple because sending data over the wire, added noise to it, and in a whole range of frequencies! I tried removing all the fourier coefficients which were lower than a threshold, but I felt like it didn&amp;rsquo;t work very well, until Nick reduced the gain of this output on the amp to the very minimum. Finally, Kyle and I decided that this was good enough for the party!
+ I also hacked up a quick script to read a font file, and use the grey values to get ascii characters to show up on the LED strip.
+  Miscellaneous  While trying to find the RPi on the network, I learnt that sudo nmap -sP 10.0.1.* gives us the hostname as well, instead of just IPs. sudo being the key, here.
+ Kyle and I went and grabbed dinner in a restaurant in west village. It was good to sit down and talk about various things, and eat. The glowing LEDs were totally out of my mind for that period, and the break was good!
+ There were a bunch of HSers doing mock-interviews and it was fun to watch, so I stayed on until quite late, when all of us headed out together.
+  Today  I&amp;rsquo;m excited about trying to build a small version control system from scratch today!
+ Though I have had quite a bit of glowing LEDs in my face for the past week, I may suck up to it, and figure out how to do scrolling text on the display.
+ Also, excited to see how all the cool projects will come together in the party tonight!
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-23</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-23/</link>
+      <pubDate>Wed, 23 Jul 2014 10:51:51 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-23/</guid>
+      <description> Shairplay and WS2801  Kyle mounted the LEDs onto a cardboard, and packaged it to look cool.
+ We thought we were done with the project, until we found out we weren&amp;rsquo;t! The LEDs all lighted up correctly, when we played the audio from a file on disk, but streaming messed something up! Only the first few columns lighted up, when we were listening on the stream.
+ We spent the whole evening trying to debug the issue, and eliminated quite a few hypothesis, but weren&amp;rsquo;t able to fix it, yet.
+  Miscellaneous  rntz live coded a parser for us yesterday, and I learnt a few things about parsers. I&amp;rsquo;m glad I went to the discussion/talk.
+ I started working through the videos of Anatomy of Matplotlib, and hope to get new insights into how it works.
+  Today  Today will be spent mostly trying to get streaming audio working.
+ I feel like debugging this, will take my understanding of the hardware-software interface to a new level.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-22</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-22/</link>
+      <pubDate>Tue, 22 Jul 2014 10:46:36 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-22/</guid>
+      <description> Mel&amp;rsquo;s talks  Mel&amp;rsquo;s talk in the morning was brilliant! I wonder why it&amp;rsquo;s not a part of recommended reading for Hacker Schoolers, or referred to, in the manual. Logically, it makes sense that Mel came now, so that she didn&amp;rsquo;t have to come twice to talk to the firsts and seconds, but it would have been great to have had this talk in the first week of Hacker School! Mel gave us a lot of new information and insights into education and learning styles. I also like the fact that she gave us all a good vocabulary to think about and discuss stuff related to learning. I will try to think, and apply as much of this as I can, for the rest of my time here. She talked about test driven learning which seemed very interesting. Instead of just saying, &amp;ldquo;wow that would be an interesting thing to do&amp;rdquo;, stop for a moment, think about what you are trying to learn, and how you will assess if you have learnt what you wanted to, and then dive into the project. The learning styles workshop was pretty good too, though I feel like I don&amp;rsquo;t know myself well enough, and I unable to properly &amp;ldquo;bucket&amp;rdquo; myself. Later, I took a quiz, and ended up fairly close to the middle, in all the dimensions. Mel introduced us to the idea of cognitive apprenticeship, and encouraged us to try out the different modes when pairing. I really liked the idea of Zone of proximal development and I will try to take the advice of spending most of the rest of my time here in this zone. Do I (really) care? Motivation and mindset, &amp;hellip; Be courageous!  Airplay and Raspberry Pi  I was trying to wrap libshairport and use it on the RPi to be able to listen to songs being streamed on Airplay, and use that data to drive the LEDs. Shairport, a tool written in C seemed to work. My attempts to wrap libshairport, which is a fork of shairport converting it into a library, failed miserably. The trouble was essentially getting Airplay to discover my service. I tried a bunch of things with pybonjour and avahi, but wasn&amp;rsquo;t able to get it right. Finally, I tried just announcing the service with shairport, and actually running a python script that wraps libshairport to listen to the data. But, this didn&amp;rsquo;t work and iTunes complained that this Airplay device is not compatible. Before going much further with this, I found shairplay which is a tool similar to shairport, but came with a library, and also Python bindings! I happily used this to get stuff working! I&amp;rsquo;m interested to see today, what exactly I was missing yesterday!  Emacs club  I demoed org-mode to a bunch of people for about half an hour, and it was good to see people being blown away by what it can do, exactly the way I was, when I first came across it.  Today  Work on RPi to clean up a few things for the party. Compare libshairplay and libshairport to see what I was doing wrong, yesterday. May be write up the whole thing, and make the code available. Learn a little bit about Parsers from rntz.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-21</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-21/</link>
+      <pubDate>Tue, 22 Jul 2014 10:46:29 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-21/</guid>
+      <description> Yesterday  It was exciting to have so many new Hacker Schoolers in the space. But, the excitement was kinda distracting too.
+ I spent most of the day looking at shairport, and libshairport and trying to wrap it, so I can use it to get data for the spectrum analyzer via the Air-play protocol. I was able to call it using ctypes, but it doesn&amp;rsquo;t seem discoverable.
+ I also briefly looked at Julia and dwm, to try and port dwm to Julia. It doesn&amp;rsquo;t seem like too much work, but is going to take me a while given how comfortable I&amp;rsquo;m with both Julia and C.
+ Yaron Minsky&amp;rsquo;s talk on distributed systems was a great introduction to Distributed systems.
+ After the talk, I spent a little time updating my notes from an old org-mode workshop to present it at the emacs user group meet up today.
+  Today  I hope to get the spectrum analyzer to use libshairport and be able to play music sent through Air play.
+ Spend some time talking to the emacs user group about org-mode.
+ If I have any time, after getting this to work, I may play around with the dwm port.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-20</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-20/</link>
+      <pubDate>Mon, 21 Jul 2014 12:13:46 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-20/</guid>
+      <description> Saturday &amp;amp; Sunday  During the weekend, I had this idea of building a personalized &amp;ldquo;radio&amp;rdquo; for myself using a Raspberry pi. The idea is to have a service where all my bookmarks, and feeds are accumulated to, instead of eating up valuable browser tab real estate. And then, I could use a Raspberry pi to randomly play content off of it, based on a theme.
+ I worked on getting things together for it, during the weekend. The project is more like a &amp;ldquo;thing that needs to be done&amp;rdquo;, rather than something that puts me out of my comfort zone, atleast as far as I can see. So, I&amp;rsquo;m just going to work on it as a background thing, between other projects, etc.
+ Festival seemed OK initially, while I was trying things out, but when I actually used it to read me a blog post, it was really terrible! I tried demos of a few commercial tools, and they seem much better than what festival had to offer. I wonder what it would take to get Festival, up there. I tried using Google&amp;rsquo;s translate service&amp;rsquo;s tts (unofficial API) and it seemed so good! But, it limits each request to 100 bytes, and the audio will have to be downloaded via the Network.
+ Madhu pointed me to MaryTTS, which seemed to be an active project and it seemed to be much better than Festival, though not as good as Google&amp;rsquo;s tts. I&amp;rsquo;m going to try getting it to run on a Pi, next.
+  Monday  I don&amp;rsquo;t really know what I&amp;rsquo;m doing to work on, today. I have been playing around with the Pi, for the past week-ish, and it has been fun! Kyle and I will probably work more on tweaking it, to get it to work the way we want it, for the party!
+ I also did a little bit of Julia with Sean, and it was fun. I may try playing around with it, a little bit, but not sure what to work on. May be continue working through the think-complexity book using Julia?
+ Or jump into something I totally don&amp;rsquo;t know about, inspired by listening to Julia Evans&amp;rsquo; podcast for Ruby Rogues. I just got this idea of trying to write a window manager to understand how X works, and what wayland is&amp;hellip; I could try porting dwm or i3wm to Julia.
+ There&amp;rsquo;s a whole new bunch of excited Hacker Schoolers in the space, and its very exciting!
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-17</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-17/</link>
+      <pubDate>Sat, 19 Jul 2014 16:45:12 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-17/</guid>
+      <description> Kyle and I did a demo of our spectrum analyzer/visualizer during the presenations. It was fun to work on, though we mostly just followed a tutorial on the web, and made use of a bunch of libraries. I spent the night in HackerSchool. I was cleaning up the code in the tutorial we were trying to follow. Also, cleaned up the install.sh used by lightshowpi project to not do all the ugly sudo setups, and use a Python virtualenv and install into that. Refactored the ugly looking music part of the tutorial into a smaller script with only the functionality that we were going to use. We hit an interesting bug that would light up all the LEDs on the strip, once in a while. I didn&amp;rsquo;t notice it during the night, because I had a &amp;ldquo;decay&amp;rdquo; factor (the max factor by which the height of the columns should get reduced between successive updates) was 0.9, but when the decay factor was reduced to a lower value, it would happen quite often. Also, we didn&amp;rsquo;t see this happening before. So, we thought the bug was in the code I had written, when I should have been sleeping. After reading and debugging my code for a bit, with Kyle and Sean, I thought it was something hardware related that we were doing wrong. But, it turns out that a library we were using lit-up the whole strip, when start and end values were both zero, instead of not lighting up anything! Also, we hit another off-by one error, just before the demo. I didn&amp;rsquo;t do the math for splitting the strip into columns too carefully, and we hadn&amp;rsquo;t noticed the off-by one error until we taped up the strip into different columns on a pillar for demo. There were some cool presentations by others. I&amp;rsquo;ll update the list on Monday, since I currently don&amp;rsquo;t remember them all! Looking at the list of names on the registration sheet would help! The cleaned up code is here  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-14</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-14/</link>
+      <pubDate>Tue, 15 Jul 2014 18:25:15 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-14/</guid>
+      <description>  Monday morning checkins for our group had only two people. That was strange! Very strange!  Work on cinspect  I wrote up a README since David (an alum at Hacker School) showed interest in the project. But, he probably isn&amp;rsquo;t that interested anymore since the code base is Python2.x only. I got rid of assumptions that method names would start with the module name or the type name, and actually look up references to the names in the definitions of types or objects. I also improved the test-suite to actually download sources of CPython and index them. They take very very long!! I tried to get it working with Numpy, but getting all the headers to include wasn&amp;rsquo;t as easy as I assumed it would be!  </description>
+    </item>
+    
+  </channel>
+</rss>

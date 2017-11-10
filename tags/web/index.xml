@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/web/</link>
+    <description>Recent content in Web on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 07 Jun 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Better styling bookmarklet</title>
+      <link>https://punchagan.muse-amuse.in/blog/better-styling-bookmarklet/</link>
+      <pubDate>Tue, 07 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/better-styling-bookmarklet/</guid>
+      <description>Some sites that I like a lot for their content, have zero styling on them. I find it pretty hard to read when the lines are long and I have to read all the way on my screen.
+I had a simple bookmarklet until now that just changed the width of the page.
+document.getElementsByTagName(&#39;body&#39;)[0].setAttribute(&#39;style&#39;, &#39;width: 600px&#39;)  Kamal shared with me a recommendation for 7 simple styling rules that will make pages easier to read. I liked them, and modified my bookmarklet to use these rules now.
+ Drag and drop the link below onto your bookmarks bar if you want to use it.
+Better website
+The code in a readable format is below.
+// Create new stylesheet (function() { // Create the &amp;lt;style&amp;gt; tag var style = document.createElement(&amp;quot;style&amp;quot;); // Add the &amp;lt;style&amp;gt; element to the page document.head.appendChild(style); // Add rules from bettermotherfuckingwebsite.com var sheet = style.sheet; sheet.insertRule(&amp;quot;body{ margin:40px auto; max-width:650px; line-height:1.6; font-size:18px; color:#444; padding:0 10px; }&amp;quot;); sheet.insertRule(&amp;quot;h1,h2,h3{ line-height:1.2 }&amp;quot;); })();  Update [2016-06-07 Tue]: baali pointed me to Firefox&amp;rsquo;s Reader View which works well too.</description>
+    </item>
+    
+    <item>
+      <title>Error: Missing one hebrew character</title>
+      <link>https://punchagan.muse-amuse.in/blog/error-missing-one-hebrew-character/</link>
+      <pubDate>Wed, 21 Nov 2012 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/error-missing-one-hebrew-character/</guid>
+      <description>Dear owner-of-a-random-web-startup,
+Thank you for starting your brand new, awesome web service. But, please don&amp;rsquo;t expect me to use it, if you ask me to have a password with atleast one upper-case letter, one numeral, one symbol and one unicode hindi character and 20 hebrew characters. Is it really so essential to enforce such complicated rules on my passwords, making it difficult for me to remember what password I used? Isn&amp;rsquo;t OAuth and OpenID so much easier to use? If you really want to enforce such complex rules on my password, at least show the arbitrary rules you enforce on me, at the login prompt too!
+Sincerely, A frustrated-web-monkey</description>
+    </item>
+    
+    <item>
+      <title>org2blog on the web</title>
+      <link>https://punchagan.muse-amuse.in/blog/org2blog-on-the-web/</link>
+      <pubDate>Sun, 29 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org2blog-on-the-web/</guid>
+      <description>Well, it&amp;rsquo;s been a week of lull on my blog. Not that I&amp;rsquo;m very busy. But, just didn&amp;rsquo;t have anything to post. I was feeling jobless today and searched the web for org2blog users. Here is what I found.
+ This is a test post from org2blog
+ Posting from emacs and org-mode
+ Vim vs Emacs, or why it really doesn’t matter
+ Posting subtree from org-mode buffer (take 2)
+ Here’s a test post to wordpress for Org2blog – an Emacs plugin
+ Primeiro post usando org2blog
+ Emacs中绘图－ ditaa篇
+ org2blog on identi.ca
+ Marcel van der Boom &amp;ndash; StatusNet
+  </description>
+    </item>
+    
+    <item>
+      <title>I&#39;m back</title>
+      <link>https://punchagan.muse-amuse.in/blog/im-back/</link>
+      <pubDate>Sat, 17 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/im-back/</guid>
+      <description>After a short break, I&amp;rsquo;m back to blogging! A few things have changed meanwhile. A lot haven&amp;rsquo;t.
+ Noetic Nought shall now be called Rustic Reverie.
+ The Blogs I read page is now manually populated. More pages might be coming soon.
+ My web presence has almost been reduced to just this blog. I hope to be blogging more often this time around. I guess I&amp;rsquo;ll have shorter and more frequent posts. &amp;ldquo;Release early, Release often.&amp;rdquo;
+ I&amp;rsquo;ve been inspired by Sacha Chua and her wonderful blog. She puts up anything that -
+ she may look up in future. could be remotely useful to anybody on this planet.  I like her idea of &amp;ldquo;thinking of writing as sketching&amp;rdquo;. &amp;ldquo;Keep repeating yourself, until the core message floats to the top&amp;rdquo;. It feels similar to the idea - &amp;ldquo;Release early, Release often.&amp;rdquo;
+ Also, Thanks to Madhu and Vattam who set an impossibly high standard by having their resumes and letters of recommendations and other &amp;ldquo;personal&amp;rdquo; stuff on version control on public repositories.
+ All my posts will be made from org2blog - a little org-mode based client that I hacked up. Emacs and Org-mode all the way! This is the first post by me (and probably anybody) from org2blog!
+  </description>
+    </item>
+    
+  </channel>
+</rss>

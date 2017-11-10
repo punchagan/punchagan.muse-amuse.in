@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/code/</link>
+    <description>Recent content in Code on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 28 May 2015 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Say Howdy with Emacs!</title>
+      <link>https://punchagan.muse-amuse.in/blog/say-howdy-with-emacs/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/say-howdy-with-emacs/</guid>
+      <description>Staying in touch with people is something I&amp;rsquo;m not very good at. Since I am not on popular (among my friends/family) networks &amp;ndash; FB and Whatsapp &amp;ndash; I don&amp;rsquo;t even see random updates from people, to get some sense of being in touch.
+I recently read some old posts by Sacha Chua and was inspired by how much code she had for contact management in her old blog posts. I was inspired by this post in particular to try and be more meticulous about how I stay in touch with people. Michael Fogleman blogged about his contact management work-flow using keepintouch. It seemed to do most of what I wanted, but I wanted this to be integrated with my org-contacts-db and I felt having native elisp code would make it easier to hook up email, chat, etc. to this.
+I ended up writing a small utility called howdy to help me keep in touch with people. It currently has only a couple of features:
+ M-x howdy lets me update the last contacted timestamp for a contact. Shows me contacts that I&amp;rsquo;m out of touch in the agenda, once I add the following snippet to an agenda file.
+​* Howdy %%(howdy-howdy)   I also have a few hooks to hook up jabber messages and email to update the db. I&amp;rsquo;ve added them to howdy-hooks.el in case anybody else wants to use them. They can also be used as examples to write other hooks. Feel free to contribute other hooks or suggest improvements. The library also ships with a modest test suite, that will hopefully make it easier for others to contribute.
+I&amp;rsquo;m looking forward to experimenting with this over the next few weeks and improving it. Hopefully, it&amp;rsquo;ll help me keep in touch, better than I do now.</description>
+    </item>
+    
+    <item>
+      <title>Martin Fowler on Refactoring @ RubyRogues</title>
+      <link>https://punchagan.muse-amuse.in/blog/martin-fowler-on-refactoring-rubyrogues/</link>
+      <pubDate>Sat, 25 Oct 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/martin-fowler-on-refactoring-rubyrogues/</guid>
+      <description>I stumbled on a Ruby Rogues podcast yesterday, which had Martin Fowler as the guest. I really enjoyed the discussion on Refactoring (the noun, the verb and the book!)
+Martin clarified in the podcast that refactoring (the verb/process) is a sequence of very small refactorings, while you keep making sure that you can run the test suite always. A refactoring (noun) is a change where you change the structure of the code without any externally observable changes, with the intent of making it easier to understand and cheaper to change in future.
+I also really liked the metaphor of a &amp;lsquo;healthy code base&amp;rsquo;. Refactoring is, then, the process of keeping healthy &amp;ndash; exercise, speaking metaphorically. You can stack up all the exercise you need to do, until you get really unfit. Refactoring, similarly, needs to be done regularly, to keep the code base healthy. This lets you go faster, in the future.
+I also really liked the advise about trying to push back the mental contexts you build, while trying to debug/understand some code that is not very clear, by refactoring the code to make it clearer. Code needn&amp;rsquo;t be one big chunk of cryptographic text. Code is writing. It should be clear and understandable. Or, at least we should strive to make it so!
+The discussion, as always on this podcast, was very lively, pleasant and enjoyable! Enjoy!</description>
+    </item>
+    
+    <item>
+      <title>Simple org-clock and gnome/pidgin integration</title>
+      <link>https://punchagan.muse-amuse.in/blog/simple-org-clock-and-gnomepidgin-integration/</link>
+      <pubDate>Wed, 22 Oct 2014 16:43:35 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/simple-org-clock-and-gnomepidgin-integration/</guid>
+      <description> See update below
+I have been trying to get back to using org-mode and its clocking functionality, more often than not. I used to use it a lot, a few years ago, and haven&amp;rsquo;t been using it, since I had been in my last job.
+To help with it, I decided to integrate clocking in and out with changing status on Pidgin, and turning notifications on and off in Gnome. Here&amp;rsquo;s a few lines of code that does this for me.
+(defadvice org-clock-in (after pc/org-clock-in (&amp;amp;optional select start-time)) &amp;quot;Turn gnome notifications off.&amp;quot; (dbus-send-signal :session &amp;quot;org.gnome.SessionManager&amp;quot; &amp;quot;/org/gnome/SessionManager/Presence&amp;quot; &amp;quot;org.gnome.SessionManager.Presence&amp;quot; &amp;quot;SetStatus&amp;quot; 2) (shell-command &amp;quot;purple-remote setstatus?status=unavailable&amp;quot;)) (defadvice org-clock-out (after pc/org-clock-out (&amp;amp;optional switch-to-state fail-quietly at-time)) &amp;quot;Turn gnome notifications back on.&amp;quot; (dbus-send-signal :session &amp;quot;org.gnome.SessionManager&amp;quot; &amp;quot;/org/gnome/SessionManager/Presence&amp;quot; &amp;quot;org.gnome.SessionManager.Presence&amp;quot; &amp;quot;SetStatus&amp;quot; 0) (shell-command &amp;quot;purple-remote setstatus?status=available&amp;quot;))  Update &amp;lt;2014-11-01 Sat&amp;gt; @baali tried to use my code, and it turns out it didn&amp;rsquo;t work for him, because I forgot to mention that (ad-activate &#39;org-clock-in) needs to be run, after the defadvice code. I have no idea how it worked for me, without doing that. May be because I have defadvice for other functions?
+Also, while debugging this, I found that defadvice is a deprecated way of doing this, and add-function is the way to go now. But, instead of advising the function, I decided to make use of org-clock-in-hook.
+Here is the new code.
+(defun pc/turn-off-notifications () &amp;quot;Turn gnome notifications off.&amp;quot; (dbus-send-signal :session &amp;quot;org.gnome.SessionManager&amp;quot; &amp;quot;/org/gnome/SessionManager/Presence&amp;quot; &amp;quot;org.gnome.SessionManager.Presence&amp;quot; &amp;quot;SetStatus&amp;quot; 2) (shell-command &amp;quot;purple-remote setstatus?status=unavailable&amp;quot;)) (defun pc/turn-on-notifications () &amp;quot;Turn gnome notifications back on.&amp;quot; (dbus-send-signal :session &amp;quot;org.gnome.SessionManager&amp;quot; &amp;quot;/org/gnome/SessionManager/Presence&amp;quot; &amp;quot;org.gnome.SessionManager.Presence&amp;quot; &amp;quot;SetStatus&amp;quot; 0) (shell-command &amp;quot;purple-remote setstatus?status=available&amp;quot;)) (add-hook &#39;org-clock-in-hook &#39;pc/turn-off-notifications) (add-hook &#39;org-clock-out-hook &#39;pc/turn-on-notifications)  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-06</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-06/</link>
+      <pubDate>Mon, 07 Jul 2014 23:28:39 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-06/</guid>
+      <description>I took it easy during the weekend, and went on a nice camp with my a cousin&amp;rsquo;s family to TobyHanna State Park for a day or so, and spent the remaining (long) weekend at their place in PA. It was a pretty nice break!
+Yesterday evening, I talked to Madhu about how ugly my code looked while I was trying to use libclang, and he told me that he found a lot of wrapped C++/C libraries end up being that way, and I also realized that using the Python AST library seemed much cleaner, because it just contained Python objects, but representing C/C++ objects in an AST and interacting with them in Python, isn&amp;rsquo;t that clean.
+I cleaned up my code, and removed all the ugly regexes to use libclang to do the parsing of the libs, and get the source code. I basically got all the tests passing, but they were taking an order of magnitude longer to run. So, I guess the next step is to cache things somehow.
+I also added support for viewing the sources of built-in types. It was pretty simple, once I had everything working with libclang.</description>
+    </item>
+    
+    <item>
+      <title>A smarter 404 page</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-smarter-404-page/</link>
+      <pubDate>Mon, 11 Nov 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-smarter-404-page/</guid>
+      <description>Voodoo found a broken link referring to a one of my posts, on Quora. Given that I have changed my site generator a bunch of times now, it is quite possible that there are other broken links at various other places. So, I implemented a smart 404 page for the site, yesterday. It is very similar to something I came across on brettterpstra&amp;rsquo;s site. I just hooked up fuse.js with Nikola&amp;rsquo;s tipue-search plugin&amp;rsquo;s output file. My glue code essentially, just figures out the search term from the URL, performs a Fuse search on the json data created by Nikola&amp;rsquo;s search plugin, and returns a list of top 5 results. It just took me about an hour to write, but is pretty useful, I think.
+(View source of the 404 page)</description>
+    </item>
+    
+    <item>
+      <title>Bookmarks and Quotes plugin</title>
+      <link>https://punchagan.muse-amuse.in/blog/bookmarks-and-quotes-plugin/</link>
+      <pubDate>Sat, 19 Oct 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/bookmarks-and-quotes-plugin/</guid>
+      <description>I used to have a separate page for bookmarks and quotes on the old blog. They will now be shared as regular posts with 5 or more bookmarks/quotes. I use a bookmarklet in my browser to capture links to an org-file using org-capture protocol and then I have a small plugin to Nikola, that looks at such captured bookmarks and quotes and makes new posts out of them. This workflow is inspired by Brett Trepestra&amp;rsquo;s web excursions plugin.
+The plugin is currently a part of my blog source, and not published to Nikola&amp;rsquo;s plugin repository since it is very specific to my setup. But if anybody is interested, I can publish the code somewhere public.
+If you are interested to get these links and bookmarks into your feed reader, you can subscribe to their feed: [quotes], bookmarks. These posts will also make it to the main feed, though.
+UPDATE [2015-11-15 Sun 20:45]
+ The quotes feed no longer exists! The bookmarks feed doesn&amp;rsquo;t really get too many updates. I use pinboard for my bookmarks, now.  </description>
+    </item>
+    
+    <item>
+      <title>GitHub Cue: Recommendations for GitHub Repos</title>
+      <link>https://punchagan.muse-amuse.in/blog/github-cue-recommendations-for-github-repos/</link>
+      <pubDate>Fri, 05 Aug 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/github-cue-recommendations-for-github-repos/</guid>
+      <description>If you aren&amp;rsquo;t already aware of it, I&amp;rsquo;m one of those people who goes around saying, &amp;ldquo;GitHub is my Facebook&amp;rdquo;. I spend quite a lot of time on GitHub, browsing the work of various people, looking at loads of interesting stuff that people built. I keep jumping between people pages and projects using the Watchers/Watching &amp;amp; Followers/Following pages. This way, I do come across interesting people and projects, but the SNR is too low. I wanted a better way to be able to see stuff, that I find interesting. That&amp;rsquo;s how the idea for this Chromium app &amp;ndash; GitHub Cue &amp;ndash; was born.
+@baali and I hacked on this, during the last few days and got it working. It works as follows, (from the README) &amp;mdash;
+ Scrapes all the descriptions of the repositories being watched by the user. Key terms are extracted from this description text using the Yahoo Term Extractor. A list of languages is obtained, based on the languages of the repositories, the user if watching. GitHub searches are performed for a combination of 3 randomly chosen languages and 5 random key terms. 10 random repositories out of all these, are shown.  This is a very simplistic algorithm, but works decently for my purposes. Ideally, I would&amp;rsquo;ve liked to use a Collaborative Filtering algorithm, but I found the data to be too sparse, and the amount of computation to be too much to be done on the fly. I wasn&amp;rsquo;t really interested in pre-computing stuff and putting it onto my server. I settled down to the next best thing I could think of.
+I would appreciate any further ideas and suggestions. Thanks!</description>
+    </item>
+    
+    <item>
+      <title>GetHub: Chrome Notifications for Github updates</title>
+      <link>https://punchagan.muse-amuse.in/blog/gethub-chrome-notifications-for-github-updates/</link>
+      <pubDate>Wed, 02 Mar 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/gethub-chrome-notifications-for-github-updates/</guid>
+      <description>Over the last two days, I hacked up my first Chrome extension. I&amp;rsquo;ve been using Chrome only for the past couple of weeks or so and I begin to like it, though some of the extensions aren&amp;rsquo;t as mature as I would&amp;rsquo;ve liked.
+The original idea was floated by my friend, Madhu, and Lee helped me quite a bit, while I was working on it.
+What does it do? It is a simple extension, that shows pop-ups, whenever there is an update in your GitHub &amp;ldquo;Wall&amp;rdquo; (yes, this is a Facebook world) or News Feed as they call it.
+After installation, you will need to save your username and token for the extension to work.
+Where to get it? Presently, you will need to get it from GitHub.
+I might add it to the Chrome Web Store, once I see more people using it. I couldn&amp;rsquo;t justify, to myself, paying the initial one-time verification fee that Google asks for.
+UPDATE: [2011-03-04 Fri]  Added GetHub to the store
+Comments and Feedback  Feel free to write to me at punchagan+gethub@jeemail.com Or file issues at GitHub.  Happy GitHubbing!</description>
+    </item>
+    
+    <item>
+      <title>Git powered wikis improved: My bit</title>
+      <link>https://punchagan.muse-amuse.in/blog/git-powered-wikis-improved-my-bit/</link>
+      <pubDate>Fri, 04 Feb 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/git-powered-wikis-improved-my-bit/</guid>
+      <description>I accidentally came across the blog-post Git-powered wikis improved - GitHub. And this particular paragraph caught my eye:
+ The new editor has the capability to support every markup language that GitHub Wikis support. If you&amp;rsquo;re a fan of Markdown, Textile, pod or RDoc, the function bar buttons (e.g. bold, italic, underline, etc.) will now work. We&amp;rsquo;ve even written brand new inline help for many of GitHub Wiki&amp;rsquo;s supported markup languages.
+The language definitions the editor uses are JSON-based and easy to edit. If you&amp;rsquo;d like us to support a markup language that we don&amp;rsquo;t currently support, Gollum, GitHub&amp;rsquo;s wiki software, is entirely open source &amp;ndash; fork our code and send us a pull request with changes that support your choice language.
+ I sent a quick patch for org-mode in the function bar, and it has been accepted. :)
+If not anything more, I hope, at least a couple of curious people will explore org-mode and find it useful.</description>
+    </item>
+    
+    <item>
+      <title>Raise windows (on current desktop) xdotool &amp; bash</title>
+      <link>https://punchagan.muse-amuse.in/blog/raise-windows-on-current-desktop-xdotool-bash/</link>
+      <pubDate>Sat, 06 Nov 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/raise-windows-on-current-desktop-xdotool-bash/</guid>
+      <description>I posted a snippet 1 of python code that used xdotool to raise windows. I got one patch from dusual 2 that enabled raising of windows in the current workspace only.
+More importantly, Jordan gave a one-liner 3 in bash, that could do the same thing as my long and elaborate python snippet. I had a feeling that this would be much shorter in bash, but I don&amp;rsquo;t feel comfortable writing bash scripts. :P
+Below is a bash snippet that tries to incorporates both the changes. :)
+found=0 for win in `xdotool search --class $1`; do if [ `xdotool get_desktop_for_window $win` -eq `xdotool get_desktop` ]; then found=1; break; fi; done if [ $found -eq 1 ]; then xdotool windowactivate $win; else $1; fi  Note: When you&amp;rsquo;ve visual effects enabled (the default option on Ubuntu), getting the current desktop/workspace doesn&amp;rsquo;t work, probably because Root Window properties are being messed around by it.
+Note2: search takes an option --screen. It&amp;rsquo;d be nice if it also had an option --desktop. This task could then be done in a one-liner.
+ My python snippet ↩ dusual on twitter ↩ Jordan&amp;rsquo;s one liner ↩   </description>
+    </item>
+    
+    <item>
+      <title>A couple of counting functions</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-couple-of-counting-functions/</link>
+      <pubDate>Fri, 17 Sep 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-couple-of-counting-functions/</guid>
+      <description>I had a strict character limit of 180 chars for something I was writing. I just wrote a simple function to count characters in a region or a buffer. Another function to count the words.
+(defun count-chars () &amp;quot;Count the number of chars in a buffer or region.&amp;quot; (interactive) (let* ((beg (if (region-active-p) (region-beginning) (point-min))) (end (if (region-active-p) (region-end) (point-max)))) (message (number-to-string (- end beg)))))  (defun count-words () &amp;quot;Count the number of words in a buffer or region.&amp;quot; (interactive) (let* ((beg (if (region-active-p) (region-beginning) (point-min))) (end (if (region-active-p) (region-end) (point-max))) (count 0)) (save-excursion (goto-char beg) (while (&amp;lt; (point) end) (forward-word) (setq count (1+ count)))) (message (int-to-string count))))  </description>
+    </item>
+    
+    <item>
+      <title>org/elisp - sorting list of org-links on description</title>
+      <link>https://punchagan.muse-amuse.in/blog/orgelisp-sorting-list-of-org-links-on-description/</link>
+      <pubDate>Fri, 20 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/orgelisp-sorting-list-of-org-links-on-description/</guid>
+      <description>A small utility function that I used to sort the names of people who commented on my blog.
+(defun org-get-link-desc-from-list () &amp;quot;&amp;quot;&amp;quot; Get link description of a list item containing just links &amp;quot;&amp;quot;&amp;quot; (let* ((item-beg (point)) (item-end (org-end-of-item)) (cur-item (buffer-substring-no-properties item-beg item-end))) (goto-char item-beg) (org-columns-compact-links cur-item)))  sort-lines wasn&amp;rsquo;t good enough for me, since it was sorting alphabetically and it ended up being the sorted order of the urls and not the names. This function, when used with org-sort-entries-or-items gave me what I wanted.
+Thanks to benny (on #org-mode), I also learnt the difference between let and let*.</description>
+    </item>
+    
+    <item>
+      <title>Refile to date-tree</title>
+      <link>https://punchagan.muse-amuse.in/blog/refile-to-date-tree/</link>
+      <pubDate>Fri, 30 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/refile-to-date-tree/</guid>
+      <description>Useful to refile notes to the journal file, which is a date-tree. org-refile isn&amp;rsquo;t convenient to refile stuff to a date-tree.
+(defun my/org-refile-to-journal () &amp;quot;Refile an entry to journal file&#39;s date-tree&amp;quot; (interactive) (require &#39;org-datetree) (let ((journal (expand-file-name &amp;quot;journal.org&amp;quot; org-directory)) post-date) (setq post-date (or (org-entry-get (point) &amp;quot;TIMESTAMP_IA&amp;quot;) (org-entry-get (point) &amp;quot;TIMESTAMP&amp;quot;))) (setq post-date (nthcdr 3 (parse-time-string post-date))) (setq post-date (list (cadr post-date) (car post-date) (caddr post-date))) (org-cut-subtree) (with-current-buffer (or (find-buffer-visiting journal) (find-file-noselect journal)) (save-excursion (org-datetree-file-entry-under (current-kill 0) post-date) (bookmark-set &amp;quot;org-refile-last-stored&amp;quot;))) (message &amp;quot;Refiled to %s&amp;quot; journal)) (setq this-command &#39;my/org-refile-to-journal)) (defun my/org-agenda-refile-to-journal () &amp;quot;Refile the item at point to journal.&amp;quot; (interactive) (let* ((marker (or (org-get-at-bol &#39;org-hd-marker) (org-agenda-error))) (buffer (marker-buffer marker)) (pos (marker-position marker))) (with-current-buffer buffer (save-excursion (save-restriction (widen) (goto-char marker) (org-remove-subtree-entries-from-agenda) (my/org-refile-to-journal))))) (org-agenda-redo)) (org-defkey org-agenda-mode-map (kbd &amp;quot;C-c C-S-w&amp;quot;) &#39;my/org-agenda-refile-to-journal) (org-defkey org-mode-map (kbd &amp;quot;C-c C-S-w&amp;quot;) &#39;my/org-refile-to-journal)  Enjoy!
+Update [2016-06-16 Thu] Raam Dev pointed me to an issue and a suggested fix, that I have updated the above code with.</description>
+    </item>
+    
+    <item>
+      <title>Thanks Sacha</title>
+      <link>https://punchagan.muse-amuse.in/blog/thanks-sacha/</link>
+      <pubDate>Fri, 30 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/thanks-sacha/</guid>
+      <description>I just wanted to thank Sacha Chua for bearing with my newbie elisp code and trying out org2blog.
+Also, thanks for the two patches she sent.
+ Feature addition - Posting sub-trees instead of whole buffers. I had this feature in mind, and had started working on it after her request, but she was too quick for me! ;) Cleaning up of the code that uploads images.  I&amp;rsquo;m loving it!</description>
+    </item>
+    
+  </channel>
+</rss>

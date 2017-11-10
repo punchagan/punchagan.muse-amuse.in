@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/event/</link>
+    <description>Recent content in Event on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 14 Oct 2014 07:53:47 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Making PyCon India better (for myself)</title>
+      <link>https://punchagan.muse-amuse.in/blog/making-pycon-india-better-for-myself/</link>
+      <pubDate>Tue, 14 Oct 2014 07:53:47 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/making-pycon-india-better-for-myself/</guid>
+      <description>I&amp;rsquo;ve ranted before about PyCon not meeting my expectations, and I even skipped going to the last PyCon. Somehow, I hoped that it would be better this year, but no such thing happened.
+ I should strictly not attend any talks, at the next conference I am at. Even if the topic seems interesting, I should refrain from attending any talks, unless I know that a speaker is entertaining.
+ I should be going there to meet old friends, meet a few new people, and mostly hacking on my stuff. May be aim to show something at the lightning talks at the end of second day, based on what I did during the rest of the event.
+ Participate more actively in open spaces, and may be initiate or suggest some myself. Sprints for bug fixing, adding new features to a project may be a good way to get new developers to start contributing to FOSS projects. It would be even better to be in touch with folks before the event, and use this opportunity to iron out kinks.
+  I think the talks could be improved drastically. A lot[1][2] has been said, already. Here&amp;rsquo;s a summary of how I see it.
+ Beginner/Novice talks doesn&amp;rsquo;t mean bad talks. A talk with a good narrative, that drives home a point, that may be familiar to most of the audience, would still make a good talk. I don&amp;rsquo;t mind reading a good blog post/book on a topic I already know, because there is joy in reading/listening to &amp;ldquo;good&amp;rdquo; stuff.
+ Talks cannot be judged by titles or an abstract. Taking inspiration from PyCon US, we could
+ Ask for a video recording of a previous talk or a short home-made recording of the speaker presenting some topic.
+ Ask for a granular outline [6] along with rough timing information, instead of just an abstract.
+ Have a bunch of resources [3][4][5] available for speakers to improve on their proposals/accepted talks.
+ Have a bunch of 20 or 30 minute talks, and very few longer (45 min) talk slots.
+ Encourage speakers to try connecting their laptops and iron out &amp;ldquo;presentation&amp;rdquo; kinks on the day before their talks/lunch/other allotted times. Technical issues like fonts being too small, mics not working, adjusting the volume/other settings for the speaker, etc. can and should be fixed before hand.
+ The talk review committee could also take notes from attending some of the talks, and compare it against their notes when they accepted the talk, to improve the talk selection process. Some of it could be valuable feedback for the speakers too.
+   [1] https://plus.google.com/+sankarshanmukhopadhyay/posts/8QY4o3hiyLT
+[2] https://mail.python.org/pipermail/inpycon/2014-October/009189.html
+[3] https://us.pycon.org/2015/speaking/proposal-resources/
+[4] http://doughellmann.com/2011/10/18/how-i-review-a-pycon-talk-proposal.html
+[5] http://www.craigkerstiens.com/2012/06/19/pro-tips-for-conference-talks/
+[6] https://us.pycon.org/2015/speaking/proposal_advice/samples/SpacePug/</description>
+    </item>
+    
+    <item>
+      <title>Notes from Pycon</title>
+      <link>https://punchagan.muse-amuse.in/blog/notes-from-pycon/</link>
+      <pubDate>Wed, 29 Sep 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/notes-from-pycon/</guid>
+      <description>Just back after attending PyCon India &amp;lsquo;10. It was not as exciting as I hoped it would be. That&amp;rsquo;s generally the case with any conference I attend. (I guess, I expect too much from them. :P)
+The keynote by David Goodger (pronounced like Badger :) was &amp;ldquo;Good&amp;rdquo;. It was a very simple one talking of how to get Python into the workplace. His simple recommendation was to use Python if we saw any opportunity where it could be used, without bothering about permissions, convincing people etc. &amp;ldquo;It&amp;rsquo;s better to ask for forgiveness, than for permission.&amp;rdquo; He spoke of myths around Python &amp;ndash; scripting language, dynamic language, too much white space, toy language, nobody uses it. He concluded the talk, by saying mentioning Indian driving to be an indication of some quick reflexes that we Indians have. ;) On the whole it was an enlightening, humorous and enjoyable talk.
+I didn&amp;rsquo;t attend too many of other talks. Amongst the ones that I did attend, I particularly liked the one by Asim Mittal on using the Nintendo Wii with Python.
+On some thought about my experiences at conferences, I think conferences shouldn&amp;rsquo;t have any talks at all. Or atleast, I shouldn&amp;rsquo;t be attending conferences for talks. They are an excuse to catch-up with people. Conferences should have only lightning talks of 10 mins and sprints. Talks, with an extensive explanation of stuff that can be easily found on the web, are a waste of time.</description>
+    </item>
+    
+    <item>
+      <title>PyCon India &#39;10</title>
+      <link>https://punchagan.muse-amuse.in/blog/pycon-india-10/</link>
+      <pubDate>Mon, 16 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pycon-india-10/</guid>
+      <description>Looks like PyCon India 2010 is going to be great fun! With 80 talk submissions, quite a few interesting ones, this time&amp;rsquo;s PyCon should be much better than last year&amp;rsquo;s. Also, David Goodger of docutils and ReST fame will be the keynote speaker!
+ Dates: [2010-09-25 Sat]&amp;#x2013;[2010-09-26 Sun] Venue: MSRIT, Bangalore RSVP here!   </description>
+    </item>
+    
+    <item>
+      <title>Sage Days 25, Mumbai, India</title>
+      <link>https://punchagan.muse-amuse.in/blog/sage-days-25-mumbai-india/</link>
+      <pubDate>Wed, 21 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/sage-days-25-mumbai-india/</guid>
+      <description> What is &amp;lsquo;Sage Days&amp;rsquo;? Sage Days is a confluence of present and prospective SAGE Users and Developers. It is an opportunity to come together to share ideas, brainstorm and hack on Sage. Sage Days 25 is the 25th version of Sage Days, and is being organized in Mumbai, India. In order to cater to an Indian audience and scenario, this version has been tweaked slightly. Sage Days 25 has beginner level tutorials, in addition to the usual talks and sprints, to help new users get started with Sage and help promote the use of Sage in India.
+What is Sage? Sage is a free, open-source mathematics software system licensed under the GPL. It combines the power of numerous existing open-source packages into a common Python-based interface. It&amp;rsquo;s mission is to create a &amp;ldquo;viable free open source alternative to Magma, Maple, Mathematica and Matlab&amp;rdquo;. Sage has tools for a broad range of mathematical areas like Linear Algebra, Calculus, Symbolic Math, Plotting, Rings &amp;amp; Groups, Graph Theory, Number Theory and Cryptography. Essentially, &amp;ldquo;it can do anything from mapping a 12-dimensional object to calculating rainfall patterns under global warming&amp;rdquo; - as Science Daily puts it . Eager to get started? Start here. Apart from being feature rich, it&amp;rsquo;s usability is one of it&amp;rsquo;s greatest strengths. Sage Notebook, a web-interface for all the math you&amp;rsquo;ll ever want to do, is really the killer feature! As the Sage Marketing page says, &amp;ldquo;The SAGE GUI surely works on your computer box, because it just runs in Firefox!&amp;ldquo;. Try it Now!
+Why should you attend? Sage Days 25 is being attended by the creator and lead developer of Sage, Prof. William Stein. It will also be attended by other developers of Sage. This would be a great opportunity to meet and interact with them! The conference will be attended by a plethora of enthusiastic people from all over the country who use Sage or are interested in doing so. The conference will also see the presence of many mathematicians interested in software. Who knows, you may run into someone you&amp;rsquo;d want to collaborate with, for your future work! This event will be a great learning experience, if you are even remotely interested in math and software for it!
+When and Where?  Venue: IIT-Bombay, Mumbai, India Dates: August 9-12, 2010 Tentative Schedule Register Here Click here for more info  </description>
+    </item>
+    
+  </channel>
+</rss>

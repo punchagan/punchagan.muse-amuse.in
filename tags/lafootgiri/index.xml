@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lafootgiri on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/lafootgiri/</link>
+    <description>Recent content in Lafootgiri on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Wed, 26 Nov 2008 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/lafootgiri/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>arbit blab</title>
+      <link>https://punchagan.muse-amuse.in/blog/arbit-blab/</link>
+      <pubDate>Wed, 26 Nov 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/arbit-blab/</guid>
+      <description>Well, just another post to make it clear that
+ I&amp;rsquo;m still alive I haven&amp;rsquo;t forgotten that I have a blog I haven&amp;rsquo;t forgotten my blog&amp;rsquo;s password I haven&amp;rsquo;t lost the ability to write arbit crap. I&amp;rsquo;m not busy with anything interesting My Keyboard works fine  Arbit stuff going on around me off-late.
+ We&amp;rsquo;ve had our official farewell; So we&amp;rsquo;ve officially bid goodbye to B.I.T.S - Goa. People tried their best to make the occasion appear &amp;ldquo;senti&amp;rdquo; but it seemed more like &amp;ldquo;psenti&amp;rdquo; for me. I wonder why our VC calls BITS as B.I.T.S; is it something similar to people choosing to call SAP as S.A.P? Most of the advice given was of a copy-book style. But I liked one of them, though it wasn&amp;rsquo;t expressed well enough for me - Learning from Books still remains an important way of learning, even if work teaches you a LOT. College now has its own Debian Repository hosted on a server running Hardy. Hats off to bad\sector for showing the enthu to get things done. The LUG here&amp;rsquo;s got a great bunch of people right now and its growing in leaps and bounds. I&amp;rsquo;m excited. A couple of my friends picked up Debian recently and apparently both of them are loving it thoroughly. Linux, as addictive as ever. It&amp;rsquo;s been a while since I&amp;rsquo;ve been on the winning side in carroms. Its so boring to be on the losing side for so long. Word is not a document exchange format1 ; Use html, plain text, pdf or the open document format.(if you are not averse to openness) [I mention this now because I faced a lot of trouble recently trying to handle some .doc files which replaced the html pages that were being used on the PS site.] So often, little things get blown out of proportion, so quickly. Or its just that not everybody sees them as &amp;lsquo;little&amp;rsquo; things. On slow connections, the download &amp;lsquo;handler&amp;rsquo; of firefox does really poorly. It&amp;rsquo;s next to impossible to download anything over half an MB. This from the preface of SICP2 ,a text book for an introductory course on Computer Programming at MIT
+ Our design of this introductory computer-science subject reflects two major concerns. First, we want to establish the idea that a computer language is not just a way of getting a computer to perform operations but rather that it is a novel formal medium for expressing ideas about methodology. Thus, programs must be written for people to read, and only incidentally for machines to execute. Second, we believe that the essential material to be addressed by a subject at this level is not the syntax of particular programming-language constructs, nor clever algorithms for computing particular functions efficiently, nor even the mathematical analysis of algorithms and the foundations of computing, but rather the techniques used to control the intellectual complexity of large software systems.
+ I would like to see a few courses developed on similar lines here.
+ Gmail themes are good. I only tried the &amp;ldquo;Terminal&amp;rdquo; theme, though. I loved it!
+ For the very first time, I upgraded a distro. I successfully moved to Intrepid from Hardy. (and that too with the campus net!) This was before the repositories had been set-up. Now, it should be a much simpler job to achieve the same
+ Just got the news of more Violence in Mumbai; What the hell do these people want? I end this post here.
+  Here&amp;rsquo;s an xkcd strip I liked.   Word is not a document exchange format ↩ Structure and Interpretation of Computer Programs ↩   </description>
+    </item>
+    
+    <item>
+      <title>Lafoot or Lafoobot!</title>
+      <link>https://punchagan.muse-amuse.in/blog/lafoot-or-lafoobot/</link>
+      <pubDate>Mon, 26 May 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/lafoot-or-lafoobot/</guid>
+      <description>Summer&amp;rsquo;08! I&amp;rsquo;m at home, doing nothing practically. :| No Internships, No Projects, No GRE plans (a little pushing for GRE has just started from the junta around.)
+Just to kill some time and to learn some Python, I have begun to write an IRC chat bot &amp;lt;lafoobot&amp;gt; [Lafoot + Bot]. The present haven of lafoobot is #fosskelog @ irc.freenode.net. Join in, if you want to have a chat! ;) Lafoobot can presently do very few things
+ &amp;ldquo;Yoyo&amp;rdquo;, a newly joined user &amp;ldquo;Hello&amp;rdquo;/ &amp;ldquo;Yoyo&amp;rdquo;, a user or pass on a Hello/Yoyo from user to another. Gives Local time / GMT Gives a random word and its meaning [put in for the junta preparing for GRE ;)] Gives out an MOTD or a fortune when it first joins \#fosskelog Googles a search term and returns the top 5 results (This is my favourite feature and this is the reason partially for this post. &amp;ldquo;!google lafoobot&amp;rdquo; doesn&amp;rsquo;t return anything. Hopefully not anymore.)  If you have ideas for any other features or if you want to have a look at the source, comment here or join #fosskelog. lafoobot&amp;rsquo;s code is licensed under GPLv2!
+Other than this, the summer has been relatively uneventful but for the two FOSS events I attended. Yes, two events, Sat and Sun, both by Twincling (There are two different Twinclings! Don&amp;rsquo;t ask me why) Hoping to have some more action this summer!
+PS: There&amp;rsquo;s a Big discussion presently on whether lafoobot is a he or a she. ;) What do you think?</description>
+    </item>
+    
+    <item>
+      <title>Home Coming!</title>
+      <link>https://punchagan.muse-amuse.in/blog/home-coming/</link>
+      <pubDate>Thu, 15 May 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/home-coming/</guid>
+      <description>I&amp;rsquo;ll be on board the Amaravathi Express in less than three hours from now! Bags packed, I&amp;rsquo;m waiting for the sun to rise, the World to wake up.
+I have set my self an objective of completing 40 problems from Project Euler. I have done 39. [With exams going on I consider it good progress] I will be attempting to push off the last one before leaving. Here I come, Project Euler. Here I come, Hyderabad!</description>
+    </item>
+    
+    <item>
+      <title>Not so Floppix...</title>
+      <link>https://punchagan.muse-amuse.in/blog/not-so-floppix/</link>
+      <pubDate>Tue, 11 Dec 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/not-so-floppix/</guid>
+      <description>Disambiguation: The original Linux on 2 Floppies is here.
+I, post this from a remastered version of Knoppix that we named Floppix!
+It all actually began, with me deciding to do a bit of Emacs-ing at home during the winter hols but I don&amp;rsquo;t have a Linux box at home. Live-CD is the way to go! But then Emacs doesn&amp;rsquo;t \*usually\* go with Live-CDs. So I decided to get around making my own. :) [Dunnet &amp;ldquo;Dunnet Game&amp;rdquo;), an Adventure game in Emacs, played a crucial role in motivating me to go ahead!] The rest as they say is history&amp;hellip;.
+Actually, I tried a debootstrap from my Debian etch but I couldn&amp;rsquo;t manage to get the initrd working. [[http://avudem.blogspot.com &amp;ldquo;Voodoo&amp;rdquo;][I ain&amp;rsquo;t this geekish, its only that I am incapable of putting these terms in a simpler language.] After numerous futile attempt, I gave up for the time being and that&amp;rsquo;s when the genius of [Voodoo]] came in, he took a different route. Remastering Knoppix.[Modifying an existing Live-CD of Knoppix]
+I won&amp;rsquo;t get into the exact details of how we got about it. There&amp;rsquo;s a lot of online help available for that.
+A few highlights, for the curious reader&amp;hellip;
+ got rid of the default KDE and replaced it with Fluxbox. [actually Floppix = Fluxbox + Knoppix :P] added emacs, cmucl, slime, octave, linuxdcpp, vlc and others. got rid of other packages which we weren&amp;rsquo;t going to use. changed the boot message changed the default background image. removed the default boot image [ couldn&amp;rsquo;t change it as the image we chose wasn&amp;rsquo;t being properly converted to lss16 format ] tested the CD with Qemu [size of the iso got more than 700MB] removed a few other not so regularly used packages [including wine!] burnt the CD Logged in!  Now, that I&amp;rsquo;ve logged in, I realize we managed to quite a decent job. Obviously we weren&amp;rsquo;t perfect. It was the first time and done in quite a hurry. [btw, we have our end-sems going on; I&amp;rsquo;ve no exam tomorrow though] I was able to listen to music, connect to the DC, play a game of dunnet and make a blogpost! We also missed a few packages, for instance a screen shot capture program! But it ain&amp;rsquo;t too bad, still a long way to go though!
+Just hoping we manage to make it better, as we get better at it! ;)
+Here comes FloppixV0.1!
+Update [3/1/08]: I never knew that GIMP could capture screenshots! ImageMagick can do that too. I had two programs at hand and thought I had none! Here&amp;rsquo;s a Screenshot of the Floppix Desktop.
+ Picture Source [for the Background Image] : 9
+Update 2 [4/1/08]: There is already a floppy distro of Linux called Floppix. I knew about this only when some one searching for it reached my blog. Guess I should do something about this. [I&amp;rsquo;ll be able to do it only after getting back to campus,though]</description>
+    </item>
+    
+    <item>
+      <title>Life &#34;In-gen&#34;</title>
+      <link>https://punchagan.muse-amuse.in/blog/life-in-gen/</link>
+      <pubDate>Wed, 21 Nov 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/life-in-gen/</guid>
+      <description>Another post, with nothing concrete to say&amp;hellip;
+ These are just a few random musings, for those curious about my life and for the good health of my Blog which is so close to its death.. College (+ Hostel) is amongst few places, that everyone on Earth(&amp;amp; elsewhere) \*must\* get the chance to be in. There&amp;rsquo;s a whole new world out here, with hell a lotuva things you can do, Here and Only Here&amp;hellip; [I am not, by any means, talking of acads!] Projects. Yes they are a part of almost all my random stuff&amp;hellip; cos I just Love them, when they are self-assigned and off-hand. They get even more exciting, when the learning curve is Steep! Deadlines can be wonderful things, if only I learn to respect them. Lab-Tests, i guess, are amongst the most hyped tests in the World! They aren&amp;rsquo;t worth all that fuss. Grades ain&amp;rsquo;t everything in Life. Not even if you are doing Engineering! I live amidst /wonderful* singers, marvelous music composers, facile lyric writers, cool Hackers, amazing photographers, inspiring poets and what not. [Why the hell do people then, look just for the *&amp;ldquo;industrious&amp;rdquo;/ grade scorers?] Music and Sleep are Great Healers. Laughter, too, is a close competitor. GNU/Linux is addictive. More n more people getting addicted, everyday! RHCE&amp;rsquo;s got a pretty interesting test. Its rare to be interested in undergoing the torture of a test, ain&amp;rsquo;t it? Rules seem to be total crap, until you get the chance to look at them from above. Quark&amp;rsquo;08 coming up! Gottu gear up for it! Comprees?? They don&amp;rsquo;t bother me so much any more. Finally, for those who found all the above stuff boring and dumb&amp;hellip; here&amp;rsquo;s some food for thought &amp;gt; The Best things in Life aren&amp;rsquo;t Things&amp;hellip;   </description>
+    </item>
+    
+    <item>
+      <title>Lost Control??</title>
+      <link>https://punchagan.muse-amuse.in/blog/lost-control/</link>
+      <pubDate>Sat, 22 Sep 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/lost-control/</guid>
+      <description>Caution: This post is just some arbit crap, that arose from some internal probing. Its utterly worthless for any reader other than myself. This could possibly even be classified narcissistic or whatever that&amp;rsquo;s called.
+Presently, I&amp;rsquo;ve got tests going on and they are half way through. Considering this and the fact that its been over a month since I last posted, writing a post now doesn&amp;rsquo;t make much sense, does it?[If my blog&amp;rsquo;s been dormant so long, can&amp;rsquo;t it be so for a couple of days more?] But things I&amp;rsquo;ve been up to off-late, don&amp;rsquo;t make much sense. [in the past, at least they made sense to me if not to others.] This post is just about that, going from being senseless to at least being less sense [and hopefully, to being sensible]
+I&amp;rsquo;ve screwed up the tests so far, and don&amp;rsquo;t think will be doing much better in the others too. Even otherwise, I haven&amp;rsquo;t done anything good, anything that feels great, anything that feels right, in the past couple of months (years?? decades??) [except for one video with &amp;lsquo;the gang&amp;rsquo;, i didn&amp;rsquo;t contribute much though]. Let alone accomplishing something nice, I haven&amp;rsquo;t even been attempting anything decent enough. My priorities have gone haywire, or may be not, may be I&amp;rsquo;m just doing things that are very low on the scale or may be I&amp;rsquo;m not doing anything, things are just hapenning.
+ I&amp;rsquo;ve slept through &amp;lsquo;n&amp;rsquo; classes both inside and outside the classroom I&amp;rsquo;ve stayed awake all night downloading some crap for my comp. I had been worrying about keeping my blog alive. Made numerous attempts to post something, even if its no big deal not posting regularly. Changed 4 different OSes in a couple of days! been ages since I last visited the Library. Slept through the morning lotsa times, even if I enjoy EBER-ing Bunked bathing just because i&amp;rsquo;ll have more clothes to wash!  The list is pretty long. It ain&amp;rsquo;t sensible to be putting down the whole thing here. I guess I&amp;rsquo;ve just been trying to escape things. Running from doing important stuff. I&amp;rsquo;ve had enough. Its high time I do something about it. I&amp;rsquo;ve decided to get in control of my life, rather than being controlled by arbit stuff like sleep, a blog, a grade, an addiction, a song, a cricket match, a rain, a meal, a game of carrom, a prof&amp;rsquo;s accent, a course, a test or other such trivialities.
+I wish to get back on track!!
+..to get back into the habit of doing things I love, at the time and place I like.
+..to doing things that give me joy, in the true sense. Not momentary, passing pleasures.
+Hopefully, with some effort, I will. (A nudge is all it takes.)
+btw, if this post was a total bouncer, this is for you&amp;hellip;.
+ Time is the wisest Counselor. Exams come in a close second! &amp;ndash; punchagan
+ </description>
+    </item>
+    
+    <item>
+      <title>Teach Yourself Programming in Ten Years!!</title>
+      <link>https://punchagan.muse-amuse.in/blog/teach-yourself-programming-in-ten-years/</link>
+      <pubDate>Fri, 02 Feb 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/teach-yourself-programming-in-ten-years/</guid>
+      <description>Here&amp;rsquo;s an interesting article by Peter Norvig, Director of Research Google I have just copied the whole essay here&amp;hellip; also here&amp;rsquo;s a link to the Original one&amp;hellip;
+Update: - [2010-10-11 Mon]  - Removed the copied content</description>
+    </item>
+    
+    <item>
+      <title>Happy gNew Year!!</title>
+      <link>https://punchagan.muse-amuse.in/blog/happy-gnew-year/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/happy-gnew-year/</guid>
+      <description>Hi! I&amp;rsquo;m a bit late&amp;hellip;(courtesy:lightning quick network speeds @coll&amp;hellip;{I started this post a couple of weeks back, at home&amp;hellip; and its been rotting all this while, in my drafts!} ) [Its already time when the resolutions taken just a couple of weeks back fade away into oblivion&amp;hellip; ] but anyways.. Wish You a Very Happy gNew Year!! oops.. Happy New Year!
+Actually this year started of for me not as the usual Happy New Year.. but as Happy gNew Year! I have been gifted a new PC by my mom n dad for the new year&amp;hellip; and that too an AMD system, (Believe it or Not..) preloaded with Linux Red Hat Enterprise Linux 4]! {Its like a fairy tale for me&amp;hellip;} Its an AMD Athlon 3200+ with (512+256)MB RAM and 80GBHDD&amp;hellip;. and an awesome 17&amp;rdquo; TFT Monitor!!
+I am happy that my resolutions to have a go at the comp&amp;hellip; [ and use it to the best of my abilities to learn about s/w and h/w&amp;hellip;. to try n imbibe in myself the spirit of true hacking&amp;hellip;] haven&amp;rsquo;t yet gone down the drain! { I&amp;rsquo;ve already ripped open the HCL company seal on my box&amp;hellip; and opened it up a couple of times to fiddle with my HDD and RAM&amp;hellip; }
+A couple of days after I got the comp&amp;hellip; I tried installing Debian&amp;hellip; and being a NooB doesn&amp;rsquo;t help..(does it?).. I messed up the X-Server&amp;hellip; After some desperate attempts to get the thing working.. I gave up&amp;hellip;&amp;hellip;. [I had some ebooks etc. downloaded on my comp at home, which I wished to dump on my comp]. So I persisted&amp;hellip; I tried FC 6 [Fedora Core] &amp;hellip;. everything was fine until the final step&amp;hellip; FC refused to show me the Login screen!! Finally at 3 am I gave up&amp;hellip;. I planned to get the most valuable stuff onto a CD and set things right, back in the comforts of my room and the company of Voodoo, but that was not to be&amp;hellip;.
+At 10am, (I just woke up then), I find that the comp at home refuses to turn ON!! I thought it was some petty problem like a loose contact somewhere, which could be set right easily.. but after an hour of struggle.. I realise that the problem is serious.. {The SMPS had blown off} [looks like a Hindi Movie,doesn&amp;rsquo;t it??]
+Then began the real fun!! I somehow managed to connect the old hard disk to the new Mother Board&amp;hellip;[my new cabinet is quite small&amp;hellip; I now realize that I placed the HDD in quite a precarious position&amp;hellip;].. but there was no OS on either HDD&amp;hellip; [the &amp;ldquo;Windows&amp;rdquo; on the old one&amp;hellip;. din&amp;rsquo;t open&amp;hellip; they felt awkward in their new environs&amp;hellip; ;-) ] I would have returned back to coll without any of my stuff.. but for Knoppix (live) &amp;hellip; it saved the day for me!! Finally I managed to dump my stuff onto the new HDD&amp;hellip; [All &amp;rsquo;s well that ends well!! :-)] Now I&amp;rsquo;ve got both the Linux distro&amp;rsquo;s [Debian and FC-6] along with all the stuff I collected at home! [ Thanks to V00d00!! ] along with a little confidence that I am not too bad at handling H/W!
+When I look back at this whole episode&amp;hellip; It feels as if nature had conspired&amp;hellip;. to keep this one resolution of mine ALIVE&amp;hellip;. to ignite in me the fire of &amp;ldquo;the spirit of true hacking&amp;rdquo;&amp;hellip; [ I hope that I play my part well.. (nature played its brilliantly&amp;hellip;) and pick up a zillionth part of the commitment ( and dedication to hacking) of the Hackers from the Hacker Land!! ]
+Here&amp;rsquo;s a pic of one of the very few cool things I could get my comp to do&amp;hellip;.. [ I accessed the Remote Desktop Server on my own system&amp;hellip;..]
+ The Hacker Ethic : Access to computers and anything which might teach you something about the way the world works should be unlimited and total. Always yield to the Hands-On Imperative! &amp;ndash; Steven Levy&amp;rsquo;s &amp;ldquo;Hackers : The Heroes of The Computer Revolution&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>The Joy of a &#39;Project!&#39;</title>
+      <link>https://punchagan.muse-amuse.in/blog/the-joy-of-a-project/</link>
+      <pubDate>Mon, 06 Nov 2006 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/the-joy-of-a-project/</guid>
+      <description>Just finished the &amp;lsquo;Test-2&amp;rsquo;. Here&amp;rsquo;s the first post that can genuinely be called &amp;ldquo;mine&amp;rdquo;&amp;hellip;
+With my last minute &amp;lsquo;C2S&amp;rsquo; plans [Co-operate to Survive&amp;hellip; does it ring any bells??] failing to work, the tests did their job,cleaned me up [both literally and metaphorically]. Though I didn&amp;rsquo;t learn much while preparing for the tests, the syllabus gave me a brain wave (surprised to find that my Brain is still ticking&amp;hellip;. after more than one year of Engg.) : Build my first Computer game!! [Don&amp;rsquo;t expect too much from it&amp;hellip; I&amp;rsquo;m a novice at programming and my game doesn&amp;rsquo;t even have a GUI as of now!]
+I had been doing a l&amp;rsquo;l bit of C programming off late but, I never learnt &amp;lsquo;file management&amp;rsquo; until the &amp;ldquo;Test-2&amp;rdquo; forced me to, and Viola! I embarked on a self assigned, &amp;ldquo;Project - Hangman&amp;rdquo;.
+Here&amp;rsquo;s a peek at the game&amp;hellip; [after a lot of testing and debugging (the use of technical terms is just a matter of &amp;ldquo;phantee&amp;rdquo;)]
+&amp;ldquo;Phantee&amp;rdquo;- a typical hyderabadi term; has no literal english translation; refers to &amp;ldquo;concealing ignorance in style&amp;rdquo; ??
+The basics were quite simple and were done in two hours&amp;hellip; but then began the real test! The program needed a lot of improvements to make it &amp;ldquo;Playable&amp;rdquo; but, the tests were less than a week away.
+I managed to find enough time even during the tests (it doesn&amp;rsquo;t really matter whether you spend a week, a day or just an hour mugging - you are bound to be cleaned up!), and finished most of the stuff within a week.
+There were quite a few road blocks which I had to get around. Amongst other things, obtaining a &amp;lsquo;decent&amp;rsquo; database of words was one. Initially, I wrote another program for building up a dbase of your own. This wasn&amp;rsquo;t good enough&amp;hellip;. so, with some ideas from Arunodai, I successfully integrated a dbase of 14000 words [picked it from another version of hangman] with my own version. After one whole week of debugging and improving {with an annoying disturbance called &amp;lsquo;Test-2&amp;rsquo;}, now my game is quite &amp;lsquo;playable&amp;rsquo; (i.e it can be played by people other than me).
+So you might say, &amp;ldquo;what&amp;rsquo;s the big-deal about writing a simple program of about hundred lines, that can randomly display words and check if you guess it right within seven turns?&amp;ldquo;. This l&amp;rsquo;ll project of mine may seem like a Pro&amp;rsquo;jest&amp;rsquo; to many! [writing a complex code, messing it up, debugging it for one whole week, etc just for the sake of creating a simple game, that can be played if you have a friend,a pen and a paper. Doing so muchfor a game, that already has &amp;lsquo;n&amp;rsquo; version, seems very foolish and a collosal waste of time and effort. Doesn&amp;rsquo;t it??] Obviously, that&amp;rsquo;s not a great achievement, its not something thats worth a mention in the Guiness Book of World Records or something. But it taught me a lot of stuff, stuff that you can&amp;rsquo;t learn from books,stuff that you can&amp;rsquo;t learn by mugging [I wonder if you can learn anything under the sun by &amp;ldquo;Mugging&amp;rdquo;], stuff that you can only learn by experience.I learnt a lot more of Computer Programming through this project, than I learnt through two, &amp;lsquo;3-point&amp;rsquo; courses!! {Of course, I wouldn&amp;rsquo;t have even dreamt of doing such a thing, if not for these two courses, that introduced me to programming and taught me the essentials}. Can&amp;rsquo;t such projects make the other courses a joy too?
+This brings me to our recent TRW [Technical Report Writing] project. You might wonder what kind of projects could be given in this kind of a course. We were asked to write a report on &amp;lsquo;Waste Management&amp;rsquo; in our college, and to include some suggestions on the ways to improve it. Though this was an interesting job, with scope for some field activity and other such stuff, we [a group of six members] successfully turned the &amp;lsquo;project&amp;rsquo; into a Pro&amp;rsquo;jest&amp;rsquo;!! [that&amp;rsquo;s my personal view; the others in the group may disagree].But still, we learnt a lot on Report writing. A lot more than what we learnt by reading pages and pages of instructions, on the techniques of writing good reports,by the so called experts.
+Both the projects helped me understand stuff better and to put them to use. Why can&amp;rsquo;t all courses have little projects, along with the routine stuff? Will it not improve my understanding of the subject matter? Will I not learn a great deal of things more than I do by mugging things up, just a week before the tests? Will it not be an experience, a lesson, of its own??
+ I see and I forget. I hear and I remember. I do and I understand. &amp;ndash;A Chinese Proverb.
+ I wonder if my &amp;ldquo;Engineering&amp;rdquo;, will ever be a joy for me?
+I am looking forward to more Projects&amp;hellip; to make engineering a joy for me!! [it doesn&amp;rsquo;t matter even if they&amp;rsquo;re self-assigned ;-) ]</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Version Control on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/version-control/</link>
+    <description>Recent content in Version Control on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 28 Jul 2014 22:23:39 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/version-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-07-28</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-28/</link>
+      <pubDate>Mon, 28 Jul 2014 22:23:39 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-28/</guid>
+      <description> There seemed to be excitement in the space to have Jessica around. We had coffee with her, and I chatted with her briefly. She encouraged me to try and send a patch to CPython, that involved debugging and fixing some C issues. I spent some time with Tom, while he tried to get cinspect working for him, and it seemed like having the developer next to you, helped. As always. We didn&amp;rsquo;t make any fixes to the code, but it worked. I spent the afternoon, adding tests for a simple issue, to see how patches are sent. Later, I paired with Sophia for an hour to refactor the vcs code. It&amp;rsquo;s beginning to look much better than what it used to, and I like that. Jessica&amp;rsquo;s talk on buffer overflows was enlightening and entertaining. It was very similar to a talk that Max gave on one of the thursdays, but it was exciting nevertheless. After the talk, I am inspired to try and work through the Hacking: Art of exploitation, at some point. I&amp;rsquo;m beginning to feel like time at HackerSchool running out!  </description>
+    </item>
+    
+    <item>
+      <title>A git-diff tip</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-git-diff-tip/</link>
+      <pubDate>Wed, 22 Aug 2012 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-git-diff-tip/</guid>
+      <description>One of the things with git that you can mess-up, if you are not used to, is git diff. A friend of mine was trying to add a couple of new files, and changes to existing files. But, he was on the wrong branch, and wanted to change to a different branch, before committing. Being new to git, he wanted to take a patch. Reset the changes, apply the patch back.
+This is what he did
+git add new_file.txt git add old_file1.txt old_file2.txt # don&#39;t add old_file3.txt  Oh, damn, I want to change the branch.
+git diff &amp;gt; a.patch git reset --hard git checkout other-branch  Let me commit my changes&amp;hellip;
+git apply a.patch git commit -m git show  Oh crap! Where are my new files? They aren&amp;rsquo;t commited! Lemme add them.
+ls new_file.txt ls: cannot access new_file.txt: No such file or directory  Dammit! Where are my changes gone?
+The problem was with git diff. It gives only the only the un-staged changes. --cached option has to specified, to get the staged changes in the diff output. git diff HEAD shows diff output with both staged and un-staged changes.
+But the whole workflow above is a beginners workflow. A user comfortable with git would&amp;rsquo;ve committed and then moved the commit around using cherry-pick or the like.
+git add &amp;lt;all-files&amp;gt; git commit -m &amp;quot;My awesome changes.&amp;quot; #committed on branch1 git checkout other-branch git cherry-pick branch1  </description>
+    </item>
+    
+  </channel>
+</rss>

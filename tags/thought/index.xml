@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thought on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/thought/</link>
+    <description>Recent content in Thought on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Fri, 03 Jun 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/thought/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stepping AFK</title>
+      <link>https://punchagan.muse-amuse.in/blog/stepping-afk/</link>
+      <pubDate>Fri, 03 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/stepping-afk/</guid>
+      <description>In the past few weeks, I noticed three instances where I was forced to take a break exactly when I was ready to jump in and write some code to fix a bug or add a small feature. I had to step out of the house and take a walk to meet someone, etc.
+I ended up getting ideas during the walks, which significantly changed and simplified how I would&amp;rsquo;ve implemented things, if not for those breaks. Even if I did end up zeroing down to those solutions, I am pretty sure it would&amp;rsquo;ve taken a couple of not-so-good attempts and much longer than it did.
+Context switches are usually considered to be expensive for programmers, but taking a break at the exact time when I had all the required context loaded into my head seemed to help. It was also probably helpful that I was taking a walk, and there wasn&amp;rsquo;t really any other inputs or outputs competing for the space in my head.
+This got me thinking about doing this more deliberately &amp;ndash; I&amp;rsquo;d love to hear about any experiences or any experiments any of you have done with this. Also, I&amp;rsquo;m reminded of Rich Hickey&amp;rsquo;s Hammock Driven Development talk and I wonder if this is a smaller/different version of it, and makes me want to try out the things he suggests more deliberately. If any of you has thoughts and suggestions, I&amp;rsquo;d love to hear from you!</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-07</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-07/</link>
+      <pubDate>Tue, 08 Jul 2014 10:07:20 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-07/</guid>
+      <description> As preparation for a one-on-one this week with one of the facilitators, I was wondering if I was really getting better as a programmer, by doing what I am doing. I have heard at numerous places that reading and reflection are keys to getting better. I feel like I haven&amp;rsquo;t been giving these things much attention in the past couple of weeks. I don&amp;rsquo;t catch up on reading all the awesome reading material shared on Zulip and I switched from writing this blog post first thing in the morning, to any-time-after-lunch. I don&amp;rsquo;t think this worked out very well. Writing the post worked as a way to reflect on what I had done yesterday, and what I should be doing today. So, I am back to writing the blog post, first thing in the morning! Yesterday, I worked on indexing the Python sources in a way that the inspection code can look up, later. During this process, I found that my code to use libclang&amp;rsquo;s AST wasn&amp;rsquo;t generic enough, and I had to clean it up to be able to extract useful information from any file in the cpython sources. We also got to attend a super-awesome talk by Steve Labnik! He talked about his progression from being an application developer, to writing libraries, to working on languages (as a professional developer). He made a lot of interesting and inspiring points during his talk. Some of those that stuck with me are:
+ None of these is particularly harder than any of the other. Depending on each person&amp;rsquo;s personality, or the way their brain works, they are good at doing one or the other. Getting good at programming is a matter of showing up, more than about the &amp;ldquo;genes&amp;rdquo;. He repeated quite a few times that he disliked the idea of &amp;ldquo;baby hacker&amp;rdquo;, and left out the story of his childhood and college programming days! I&amp;rsquo;m totally stealing his idea of meeting every saturday at 1pm, with a bunch of friends and working until it was 10pm or so, when they could get cheap beer and food! And he did this all through his college! It is interesting that this idea is so similar to Hacker School!  It was a very enjoyable and inspiring talk on the whole.
+ The plan for today is to actually have the parsed information dumped into some persistent format, and modify the inspect code to actually use it.
+ I will also be pairing with Kyle for a few hours on working through some of http://mitpress.mit.edu/books/audio-programming-book
+  </description>
+    </item>
+    
+    <item>
+      <title>Asking vs. Figuring out</title>
+      <link>https://punchagan.muse-amuse.in/blog/asking-vs-figuring-out/</link>
+      <pubDate>Wed, 15 Sep 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/asking-vs-figuring-out/</guid>
+      <description>Should one take the easy route of asking someone who knows, if she is sitting right next to you? Or should we try and find out first, before asking her? Should one value his time more than others&amp;rsquo; or others&amp;rsquo; time more than his own?
+Would we learn more if we tried to find out ourselves? Does learning more, make sense? Is it worth spending the extra time?
+I&amp;rsquo;m just talking of simple things that you could figure out by spending a couple of minutes of searching the web or 5 minutes of thinking or 10 minutes of reading a book.</description>
+    </item>
+    
+  </channel>
+</rss>

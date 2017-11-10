@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/jobs/</link>
+    <description>Recent content in Jobs on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Fri, 22 Aug 2014 10:33:34 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/jobs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-08-21</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-21/</link>
+      <pubDate>Fri, 22 Aug 2014 10:33:34 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-21/</guid>
+      <description> I added an additional view to xtab, to see all the pages that were killed, and reopen them, if you so choose. Also, cleaned up the api-diff project and renamed it to what-changed. Started thinking about building the GitHub organization dashboard, that I thought would be interesting to have, since the 1st or 2nd week of Hacker School. A bunch of awesome thursday presentations, and job fair and awesome food by Chef Warren!  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-06-20</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-20/</link>
+      <pubDate>Fri, 20 Jun 2014 08:58:40 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-20/</guid>
+      <description> Fridays are optional in Hacker School, and people are given help with preparation for job interviews. This week&amp;rsquo;s exercise was a &amp;ldquo;know-your-language&amp;rdquo; type exercise and I decided to do it with Haskell, and confirmed the fact that I didn&amp;rsquo;t know it too well. :) I spent the afternoon writing the blog-post on OAuth2, and adding support for converting ditaa code blocks to png using Pygments. It may not have been the best use of time, but anyway&amp;hellip;  </description>
+    </item>
+    
+  </channel>
+</rss>

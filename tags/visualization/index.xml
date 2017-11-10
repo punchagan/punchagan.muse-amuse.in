@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/visualization/</link>
+    <description>Recent content in Visualization on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 28 Sep 2017 00:46:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HT interactives</title>
+      <link>https://punchagan.muse-amuse.in/blog/ht-interactives/</link>
+      <pubDate>Thu, 28 Sep 2017 00:46:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/ht-interactives/</guid>
+      <description>I recently discovered the interactives by HindustanTimes, and thoroughly loved some of them. It felt like a fresh breath of air amongst all the other Indian data driven journalism that I have been coming across in the recent past.
+The visualizations are a lot more interactive than some of the other Indian publications. These remind me of NYT&amp;rsquo;s interactives, which are amongst the best you&amp;rsquo;d see, while more often than not exploring data in the Indian context. I really like that they explore a variety of ways of doing these visualizations, and don&amp;rsquo;t just fit the data into one of the many standard options available in a visualization library.
+It feels like they are willing to take their time to do these visualizations, and are willing to collect data from multiple sources, and combine multiple datasets to tell a story. I also like the fact that the visualizations and the articles are more open-ended, allowing users to interact with and explore the data, rather than trying to come up with an article full of conclusions with a click-baity title. The fact that one of the sections is called Just for Fun speaks to me.
+The data and the code used in most of these interactives is open and available on GitHub, which is nice!
+On the whole, I think they are doing pretty good work, and I shall be on the lookout for even better stuff from them. I&amp;rsquo;m sure I&amp;rsquo;ll pick up a thing or two from their work, in my projects. Hopefully, other teams doing similar work will also learn from there and produce more good stuff for greedy readers like me.</description>
+    </item>
+    
+    <item>
+      <title>Prime Ministers of India - Simple d3 timeline</title>
+      <link>https://punchagan.muse-amuse.in/blog/prime-ministers-of-india-simple-d3-timeline/</link>
+      <pubDate>Thu, 21 Sep 2017 21:25:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/prime-ministers-of-india-simple-d3-timeline/</guid>
+      <description>I have been working on a simple time-line showing the terms of Prime Ministers of India. Currently, the time-line is not very useful and only shows the duration of the term in the time0line, with some pictures, with the hover tool-tip linking to a Wikipedia page. The interactive version is here.
+A simple extension of this would be to add historical events of different types over this time-line, with links to more information on these events. I&amp;rsquo;m not entirely sure, where I&amp;rsquo;m going with this, though.
+Any ideas and suggestions are more than welcome.</description>
+    </item>
+    
+    <item>
+      <title>Blog trends from word clouds</title>
+      <link>https://punchagan.muse-amuse.in/blog/blog-trends-from-word-clouds/</link>
+      <pubDate>Mon, 11 Sep 2017 22:15:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/blog-trends-from-word-clouds/</guid>
+      <description>I came across a couple of fun word clouds, and felt like generating a word cloud for my blog content to get a sense of the major themes on my blog, over the years.
+With some simple Python code, I was able to parse the blog and get the word frequency over the years. I then used a modified version of this d3 example to generate a word cloud.
+Using all the words used in each year to generate the word-cloud, made it very noisy. So, I switched to using only the top 50 words for each year.
+ The word cloud doesn&amp;rsquo;t seem very useful or insightful, but was fun to generate. Each year&amp;rsquo;s cloud seems to have some words that gives me a sense of some major events/themes for that year, though it may not be very apparent to anybody other than me.
+The years which have a lot of posts have clear winners, but the winning words are quite generic. For example, 2007 has words like &amp;ldquo;life&amp;rdquo;, &amp;ldquo;time&amp;rdquo;, etc., as winners. To try to get rid of the generic words in the word cloud, I tried a quick and dirty tf-idf based word-cloud, but it didn&amp;rsquo;t really seem to help.
+ I might get back to this later, to try and improve the tf=idf word cloud. There are also other problems, like code-blocks in posts contributing variable names, urls contributing domain names, etc.
+Also, a simple line chart of the usage of tags vs. year might give a better sense of the themes in the blog by year, even though it may not look as fancy as a word-cloud.</description>
+    </item>
+    
+    <item>
+      <title>30 years of floods in India</title>
+      <link>https://punchagan.muse-amuse.in/blog/30-years-of-floods-in-india/</link>
+      <pubDate>Sun, 03 Sep 2017 19:01:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/30-years-of-floods-in-india/</guid>
+      <description>Inspired by this post showing the major flooding events in the US, I created a similar graphic for India. You can find an interactive version here &amp;ndash; hovering over each flooding, shows some more information about the event.
+ The graphic uses flooding related data from the Dartmouth Flood Observatory The data for 2017 events is not up-to date. It is very likely that there is some missing data, and some inaccuracies in the data. 1987, for instance, doesn&amp;rsquo;t show the Bihar flood. The flood severity is indicated by the color of each shape Each shape represents the geographic flood extents - based on information obtained from news sources. The data for India map shape is obtained from this topojson collection  It is interesting to look at the severity definitions here &amp;ndash; the extreme class floods, for instance, are defined to be those that have an estimated recurrence interval of over 100 years. In a span of 30 odd years, there are a whole bunch of regions which have been affected by extreme floods. Yet another case in point showing that the climate change shit has really hit the roof!
+Code I used ogr2ogr to convert the shape file obtained from the Dartmouth Flood Observatory
+ogr2ogr -f geoJSON data/floods.json FloodArchive_region.shp  This file turned out to be about 6MB. I created a file with only Indian floods by parsing the json file.
+import json with open(&#39;floods.json&#39;, encoding=&#39;latin-1&#39;) as f: data = json.load(f) india_features = [ feature for feature in data[&#39;features&#39;] if feature[&#39;properties&#39;][&#39;COUNTRY&#39;] == &#39;India&#39; ] data[&#39;features&#39;] = india_features # FIX some names in the data NAME_FIXES = [ (&#39;Tropical Storm K&#39;, &#39;Tropical Storm Komen&#39;), (&#39;Tropical Storm Hudhug&#39;, &#39;Tropical Storm Hudhud&#39;), ] for feature in india_features: for name, fix in NAME_FIXES: cause = feature[&#39;properties&#39;][&#39;MAINCAUSE&#39;] if name in cause: feature[&#39;properties&#39;][&#39;MAINCAUSE&#39;] = cause.replace(name, fix) with open(&#39;india-floods.json&#39;, &#39;w&#39;, encoding=&#39;latin-1&#39;) as f: json.dump(data, f)  The visualization code itself is about a hundred odd lines of d3 code.</description>
+    </item>
+    
+  </channel>
+</rss>

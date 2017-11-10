@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lisp on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/lisp/</link>
+    <description>Recent content in Lisp on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Fri, 02 Mar 2007 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/lisp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lisp as an Alternative to Java</title>
+      <link>https://punchagan.muse-amuse.in/blog/lisp-as-an-alternative-to-java/</link>
+      <pubDate>Fri, 02 Mar 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/lisp-as-an-alternative-to-java/</guid>
+      <description>Here&amp;rsquo;s more on LISP&amp;hellip; one more article from Peter Norvig.. This is another of his on my blog&amp;hellip; Look at the follow-up study document.. its good&amp;hellip;
+Update: - [2010-10-11 Mon]  - Removed the article&amp;rsquo;s copy.</description>
+    </item>
+    
+    <item>
+      <title>Popularly Unpopular??</title>
+      <link>https://punchagan.muse-amuse.in/blog/popularly-unpopular/</link>
+      <pubDate>Thu, 01 Mar 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/popularly-unpopular/</guid>
+      <description>Popular opinion isn&amp;rsquo;t everything&amp;hellip;.. Its not necessary that we always go with the popular opinion, or take that option which most people endorse.. here&amp;rsquo;s a case in point&amp;hellip; an article by Paul Graham..(You can also read it @ http://www.paulgraham.com/iflisp.html)
+Update - [2010-10-11 Mon]  - Removed the copy of the article.</description>
+    </item>
+    
+  </channel>
+</rss>

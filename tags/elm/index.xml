@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elm on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/elm/</link>
+    <description>Recent content in Elm on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Wed, 18 Jun 2014 10:29:29 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/elm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-06-18</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-18/</link>
+      <pubDate>Wed, 18 Jun 2014 10:29:29 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-18/</guid>
+      <description> Amber talked about &amp;ldquo;exploring only until the current task is done&amp;rdquo; and moving on, which is could really be a lost opportunity to learn something new and gain a better understanding of the system I am working with. Having something (anything not directly related to the current project I&amp;rsquo;m working on) scheduled for later in the day, doesn&amp;rsquo;t seem to do me much good. I feel distracted for quite a long period before the scheduled time. Abstractions and layers were talked about in the second exercise on Applicatives&amp;hellip; Layering, FTW! I spent about an hour or so in the afternoon reading the paper, One VM to rule them all. It talked about Truffle: an API to implement an AST parser for any language and Graal: a JIT compiler for the ASTs. Later in the day, I also went to the Papers we love meetup. The presentation and the talks were quite interesting! I also started looking at Elm and playing with it.  </description>
+    </item>
+    
+  </channel>
+</rss>

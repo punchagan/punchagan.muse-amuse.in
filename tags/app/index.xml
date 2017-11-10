@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/app/</link>
+    <description>Recent content in App on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Fri, 05 Aug 2011 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GitHub Cue: Recommendations for GitHub Repos</title>
+      <link>https://punchagan.muse-amuse.in/blog/github-cue-recommendations-for-github-repos/</link>
+      <pubDate>Fri, 05 Aug 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/github-cue-recommendations-for-github-repos/</guid>
+      <description>If you aren&amp;rsquo;t already aware of it, I&amp;rsquo;m one of those people who goes around saying, &amp;ldquo;GitHub is my Facebook&amp;rdquo;. I spend quite a lot of time on GitHub, browsing the work of various people, looking at loads of interesting stuff that people built. I keep jumping between people pages and projects using the Watchers/Watching &amp;amp; Followers/Following pages. This way, I do come across interesting people and projects, but the SNR is too low. I wanted a better way to be able to see stuff, that I find interesting. That&amp;rsquo;s how the idea for this Chromium app &amp;ndash; GitHub Cue &amp;ndash; was born.
+@baali and I hacked on this, during the last few days and got it working. It works as follows, (from the README) &amp;mdash;
+ Scrapes all the descriptions of the repositories being watched by the user. Key terms are extracted from this description text using the Yahoo Term Extractor. A list of languages is obtained, based on the languages of the repositories, the user if watching. GitHub searches are performed for a combination of 3 randomly chosen languages and 5 random key terms. 10 random repositories out of all these, are shown.  This is a very simplistic algorithm, but works decently for my purposes. Ideally, I would&amp;rsquo;ve liked to use a Collaborative Filtering algorithm, but I found the data to be too sparse, and the amount of computation to be too much to be done on the fly. I wasn&amp;rsquo;t really interested in pre-computing stuff and putting it onto my server. I settled down to the next best thing I could think of.
+I would appreciate any further ideas and suggestions. Thanks!</description>
+    </item>
+    
+  </channel>
+</rss>

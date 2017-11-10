@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dtmf on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/dtmf/</link>
+    <description>Recent content in Dtmf on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 26 Jun 2014 09:30:20 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/dtmf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-06-26</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-26/</link>
+      <pubDate>Thu, 26 Jun 2014 09:30:20 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-26/</guid>
+      <description> I played around a little bit with my emacs configuration and got jedi working, with virtualenvs, thanks to virtualenvwrapper.el Continue to work on the singal processing stuff and built a DTMF decoder using FFTs. It&amp;rsquo;s able to decode audacity generated audio, but not recorded ones. I&amp;rsquo;m not sure what I&amp;rsquo;m doing wrong, yet. As with every Thursday, there were a bunch of interesting presentations:  A rice cooker hooked up to an arduino in an afternoon! A presentation on how scopes act as monoids An implementation of Eularian Video Magnification A regex engine visualizer using NetworkX. A tag system to organize your files A web-socket based chat client A Go Parser written in Go &amp;hellip;   </description>
+    </item>
+    
+  </channel>
+</rss>

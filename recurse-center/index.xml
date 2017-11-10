@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recurse-centers on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/recurse-center/</link>
+    <description>Recent content in Recurse-centers on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Fri, 29 Aug 2014 12:24:44 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/recurse-center/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-08-28</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-28/</link>
+      <pubDate>Fri, 29 Aug 2014 12:24:44 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-28/</guid>
+      <description>All good things must come to an end, and so did our batch! We got our Hacker School t-shirts, and had a super fun picnic at Prospect Park.</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-27</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-27/</link>
+      <pubDate>Thu, 28 Aug 2014 09:51:30 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-27/</guid>
+      <description> I spent the whole of yesterday just working on the LED-bot. Spent some time cleaning up meta-stuff about the project, making it a real package, adding a setup.py, added LICENSE &amp;amp; AUTHOR files, etc. I found it really frustrating that there&amp;rsquo;s no good/standard way to remove duplication of information between pip&amp;rsquo;s requirements.txt and install_requires We got the bot running on the Beagle Bone, but it turned out to be too slow. After some playing around with trying to get rid of Python for-loops, I was able to use PIL&amp;rsquo;s image.tobytes and some image cropping to get the data to be sent to the LEDs, and it sped up the display quite a bit.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-26</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-26/</link>
+      <pubDate>Wed, 27 Aug 2014 10:23:27 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-26/</guid>
+      <description> I spent most of the day refactoring the code for the LED Bot, and am happy with the way it looks right now. My talk at Hack and Tell went OK. I was distracted by livereveal not displaying properly on the smaller resolution, and not being able to mirror screens! There were a bunch of interesting talks presented by the others. http://comparea.org, Taxis and Rainbows were the most interesting ones for me.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-25</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-25/</link>
+      <pubDate>Tue, 26 Aug 2014 10:21:07 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-25/</guid>
+      <description> I spent some time cleaning up my gitqus code. I plan to try it out on a &amp;ldquo;real site&amp;rdquo; today, and do a little polish of the UI.
+ I worked with Dana and Marcus fixing a bunch of issues with the HS LED Screen. I might work on it for a little bit today, doing a little more clean-up of the architecture.
+ The Monday talk was Mary live coding a space invaders game. It was a fun talk, that was very well planned.
+ During the walk to the talk, Bert, Maia and I were talking about the idea of a School where projects were the atom of the curriculum, instead of courses.
+ I&amp;rsquo;ll spend some time preparing my talk for tonight&amp;rsquo;s hack-and-tell.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-24</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-24/</link>
+      <pubDate>Mon, 25 Aug 2014 10:23:53 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-24/</guid>
+      <description> Friday  I started playing around with React.js to see how I could build the GitHub organization dashboard, that I plan to.  Saturday  Got a horrendous idea of implementing a disqus-like commenting system using GitHub&amp;rsquo;s issue comments, and ran with it. It seems technically feasible based on some initial implementation. I need to clean-up/rewrite the prototype code on Monday.  Sunday  Spent the day with cousins at Central Park Zoo, Upper East Side River front.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-20</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-20/</link>
+      <pubDate>Fri, 22 Aug 2014 22:43:04 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-20/</guid>
+      <description> I finished going through the third of Dave Beazley&amp;rsquo;s tutorials on Generators and Co-routines. Also refactored api-diff to use astroid, instead of the ast module. Kinda happy with what I have, for now. May be more, later&amp;hellip;  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-21</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-21/</link>
+      <pubDate>Fri, 22 Aug 2014 10:33:34 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-21/</guid>
+      <description> I added an additional view to xtab, to see all the pages that were killed, and reopen them, if you so choose. Also, cleaned up the api-diff project and renamed it to what-changed. Started thinking about building the GitHub organization dashboard, that I thought would be interesting to have, since the 1st or 2nd week of Hacker School. A bunch of awesome thursday presentations, and job fair and awesome food by Chef Warren!  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-19</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-19/</link>
+      <pubDate>Wed, 20 Aug 2014 18:06:53 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-19/</guid>
+      <description> I spent most of the day working through David Beazly&amp;rsquo;s tutorials on generators and coroutines, and it was mind bending. I learnt about send and throw methods on generators! I hadn&amp;rsquo;t heard of them before, and was totally surprised to come across them. I spent a little time late in the day getting class diffs working, and refactoring the api-diff tool to remove duplication of code between classes and modules. But, not very happy with the way I did it.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-18</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-18/</link>
+      <pubDate>Tue, 19 Aug 2014 13:11:49 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-18/</guid>
+      <description> I refactored the API-diff code, and am pretty happy with what I have right now, and need to add support for diffing Classes. I&amp;rsquo;m considering using Atstroid instead of Python&amp;rsquo;s ast module, since some of the work that I want to do, has already been done for me. With the white-boarding group, we worked on a set of simple exercises for strings and arrays. José Valim&amp;rsquo;s presentation on Elixir was interesting and got me reading up a stuff about concurrency, and related stuff. Thanks!  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-17</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-17/</link>
+      <pubDate>Mon, 18 Aug 2014 21:59:07 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-17/</guid>
+      <description>Friday  Updated my HS profile page with projects that I worked on, and a short bio. Joined the group discussing algorithmic complexity Submitted a pull request to blaggregator to fix issues with broken profile images.  Saturday &amp;amp; Sunday I almost didn&amp;rsquo;t write any code during the weekend.</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-14</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-14/</link>
+      <pubDate>Fri, 15 Aug 2014 18:09:59 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-14/</guid>
+      <description> I spent the morning cleaning up the &amp;ldquo;repr&amp;rdquo; functions of the diff classes, so that the diff of functions between two modules can be printed out in a somewhat meaningful way.
+ I spent most of the afternoon, preparing to make a small presentation on how sys.path works in Python. I thought I didn&amp;rsquo;t do as good a job of it, as I would&amp;rsquo;ve liked, but Tom thought it was not too bad&amp;hellip;
+ Looks like another of those days, where I didn&amp;rsquo;t get much done&amp;hellip; I spent the evening finishing off Homeland. It&amp;rsquo;s a brilliant book, and everyone who cares about the Government and policies and technology MUST read it! Thanks Cory.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-13</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-13/</link>
+      <pubDate>Thu, 14 Aug 2014 11:11:59 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-13/</guid>
+      <description> I feel like I didn&amp;rsquo;t get much done yesterday. I mostly worked on the API differ, but didn&amp;rsquo;t get much done. I have a few tests, and some code for diffing two functions, but I&amp;rsquo;m not very happy with it. I helped Giorgio and Carlos with using my client only hs_oauth script/library, for their Zulip bot. The white boarding group worked on some binary related problems, and it was fun. I looked at how the HS OAuth backend works on blaggregator and thought about how to go about fixing the issue of broken images on the site. The problem happens because the image URLs are returned from the HS API calls, that are made whenever a user logs in(?), and the URLs are cached. Since, HS uses cloudfront for its assets, the URLs expire after a period of time, and the cached urls in blag&amp;rsquo;s database need to be updated. There could be two ways of doing it -
+ Check if the URL 404s, every time a URL is requested, on the server side. Do it on the client side, with some javascript magic.  Intuitively, I feel like 2. would be better, but Madhu suggested that 1. wouldn&amp;rsquo;t be that bad either. We could try both out, and see which works better I suppose.
+I&amp;rsquo;d be interested to try this out, sometime.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-12</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-12/</link>
+      <pubDate>Wed, 13 Aug 2014 10:30:30 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-12/</guid>
+      <description> An issue I was seeing with pip and a package installed in system-site-packages turned out to be non-reproducible. It was probably PEBKAC. I was wondering around in the morning trying to find something to work on. I decided to work on Pankaj&amp;rsquo;s idea to write a tool that gives you API differences between two versions of a library. It would be useful to have the list of public API changes in a library you use, to estimate the cost of updating to the newer version, without having to manually go through all the changes. I spent some time talking to Sophia, and looking at her FTP server&amp;rsquo;s refactored code.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-11</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-11/</link>
+      <pubDate>Mon, 11 Aug 2014 11:16:08 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-11/</guid>
+      <description> I spent about an hour in the morning testing out the staging blaggregator instance, and things seemed to work as expected. Side note, I got added as a collaborator on the blaggregator repo! We worked through the first chapter on getting video working, but we mostly ended up just copying code rather than actually understanding/carefully studying it. I&amp;rsquo;m not sure how I feel about it, but we got to display fancy stuff. I wasn&amp;rsquo;t feeling like working on any of my &amp;lsquo;old&amp;rsquo;/&amp;lsquo;ongoing&amp;rsquo; projects, and since Mondays don&amp;rsquo;t feel very productive, I worked on writing a couple of simple scripts to create twitter lists of HSers, batch wise.
+For the HS API, I just reused some old code I had lying around from my experiments with the OAuth2 API, though I had to tweak it a little bit to be able to actually login, using requests. Something about CSRF tokens seems to have changed.
+In the process, I found that twitter&amp;rsquo;s API isn&amp;rsquo;t very pleasant to use. Or may be it&amp;rsquo;s the fact that I was using python twitter client without getting my own client id/key, but the whole experience of dealing with the twitter API wasn&amp;rsquo;t a pleasant one at all!
+ Amber, Daria and I also spent about an hour white-boarding some problems from the Cracking the Code Interview book.
+ I ended up fixing some minor issues with blaggregator and am hoping that the long pending PR will be merged today.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-08</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-08/</link>
+      <pubDate>Sat, 09 Aug 2014 20:56:22 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-08/</guid>
+      <description> I spent the morning doing some white-boarding interview practice with a Jorge and Brian. I spent the rest of the day, playing with PyPy and working through a tutorial that teaches us to write a BF interpreter. I spent the Saturday revamping my Emacs config. The main issue with my config was having a &amp;ldquo;package&amp;rdquo; list, of all the packages that the configuration uses, in case we are trying to duplicate it elsewhere. I noticed that this gets out of sync, because I install packages by hand and never update this list. I wrote up some code, that keeps this list in sync with all the packages I have installed. I configured el-get to play well with my config, and am pretty happy with my setup, though I still have to add some matching/searching features with helm/ido/whatever else. I spent the Sunday writing a patch to xtab to be able to limit the number of tabs in Chromium by the memory it uses.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-07</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-07/</link>
+      <pubDate>Fri, 08 Aug 2014 18:15:09 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-07/</guid>
+      <description> C stuff  In the morning I cleaned up the code to open torrent files, and parse them. I worked on a function to do encode text properly, and Sophia helped me find out that I had to use unsigned chars in it. I looked at Sophia&amp;rsquo;s threaded ftp server in C, and gave some suggestions on how the code could be refactored.  Baking Pi  We still didn&amp;rsquo;t get to the video stuff, yesterday. We finished the first 5 chapters, though, and have a SOS pattern display. I&amp;rsquo;m really looking forward to doing the cool video stuff.  Miscellaneous  William Skeith, gave a talk on using SSH keys for web-authentication, which was pretty interesting.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-06</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-06/</link>
+      <pubDate>Thu, 07 Aug 2014 10:57:15 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-06/</guid>
+      <description> Finished working through the first 5 chapters of the baking pi course, and am excited to start working on the video stuff, today! Spent some time pairing with Sindhu on her url checker, and later in the night helped her out with a small bug in her GitHub activity leaderboard script. I spent some time adding dict parsing support to the bencode parser. And also cleaned up the tests. The electronics hobbyists were doing some cool stuff, and I joined them for a bit. We tried some cheap motion sensors, but they didn&amp;rsquo;t work very well, and probably need to be calibrated.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-05</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-05/</link>
+      <pubDate>Tue, 05 Aug 2014 23:44:33 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-05/</guid>
+      <description> Spent a couple of hours in the morning, trying to revive a html template for blaggregator, that I missed out on committing previously, and wiped out due to negligence in using `git clean`. Spent time post lunch working through the first two chapters of the baking pi course, by myself, reading up different references, and finally getting how I/O is mapped to the memory in ARM. Actually, almost. A variant of the example that I thought should work, doesn&amp;rsquo;t. So, I need to think/talk about it today. I sent a patch to Nikola for the lastdeploy timestamp being UTC. I was hoping to work around an issue with Blaggregator, by somehow fixing it on the client side, but that&amp;rsquo;s probably not the right way to go about it.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-04</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-04/</link>
+      <pubDate>Mon, 04 Aug 2014 16:19:59 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-04/</guid>
+      <description> A bunch of worked on getting LEDs to blink, by writing some assembly code.
+ I goofed off post-lunch, and cleaned up the code for the Google Translate based TTS client.
+ I tried to continue working on the bencode parser, to add support for dictionaries, but I couldn&amp;rsquo;t get much work done before it was time for the Monday talk.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-03</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-03/</link>
+      <pubDate>Mon, 04 Aug 2014 16:10:41 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-03/</guid>
+      <description> Friday  On Friday, I didn&amp;rsquo;t do the exercises that everyone else doing job prep were doing. I wanted to continue writing C code, and continued to work on the bencode parser in C. I barely was able to finish adding support for lists. I got comfortable using Valgrind, in the process of debugging a stupidity of not using realloc correctly. What I was able to write with Python in an hour or so, I have been writing for about a day, in C, and haven&amp;rsquo;t yet finished it! It definitely doesn&amp;rsquo;t help that my C is very rusty&amp;hellip;  Saturday &amp;amp; Sunday  I didn&amp;rsquo;t work much, and went around New York with Madhu. We went to quite a few places around here, the highlight being, the view of Manhattan&amp;rsquo;s skyline from the Staten Island Ferry. NYC&amp;rsquo;s library also had an interesting exhibhition on the history of America, just before and during WW-I. On Sunday, I tried out Mary TTS on the raspberry pi, and it is simply unusable. I then, started writing a simple wrapper around Google&amp;rsquo;s tts that is used by Google translate. The TTS part is more or less working right now, the next step would be to deploy it on the RaspberryPi and start using it as a radio, to see what my needs are like. Hooking it up to Jasper client seems like a good idea, right now&amp;hellip; though I&amp;rsquo;m not sure if it would work very well, with the pi&amp;rsquo;s audio output drowning out the voice commands.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-31</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-31/</link>
+      <pubDate>Fri, 01 Aug 2014 10:38:57 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-31/</guid>
+      <description> I continued with doing the initial parts of the book, and didn&amp;rsquo;t pair with Stephanie today. I gave a super-short presentation, introducing people to pdb, IPython&amp;rsquo;s tracer. I just started writing a Bencoding parser in C, but I&amp;rsquo;m having trouble thinking about all the memory allocations and stuff. It feels so nostalgic! :P  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-30</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-30/</link>
+      <pubDate>Thu, 31 Jul 2014 08:40:16 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-30/</guid>
+      <description> (Re) Learning C  Stephanie and I worked through the Networking chapter of the book.
+ We faced some issues with writing 0 bytes to memory, since most of the code was dealing with strings. I still haven&amp;rsquo;t figured out how to do this, correctly.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-29</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-29/</link>
+      <pubDate>Tue, 29 Jul 2014 11:20:24 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-29/</guid>
+      <description> Hacking: learning by breaking stuff  Post lunch, I started pairing with Stephanie on the exercises in the Hacking book, and that turned out to be super fun! We got through the chapter on exploitation, which focussed on stack overflows, heap overflows, overflows in function pointers, and string formatting exploits. It acted as more than a gentle refresher for C, and was super fun! Running the examples on a 64bit system, added an additional amount of thinking required, and was good, IMO. I hadn&amp;rsquo;t worked along with Stephanie on the material in the first two chapters. So, I went back home and tried to catch up, but couldn&amp;rsquo;t get all of it done.  Miscellaneous  I spent part of the morning wrapping up the install script for the raspberry project, and cleaning up the repository. It looks reasonable now, and I think I&amp;rsquo;m done with it until the end of HackerSchool. I also tried to look for &amp;ldquo;easy&amp;rdquo; python issues that would involve me writing some C code, but didn&amp;rsquo;t really find anything other than documentation&amp;hellip; I guess, I should pick a module and look for bugs in it, instead. Also, while chatting with a friend, I had to explain that I don&amp;rsquo;t mention the last names of people or link to them, for privacy reasons. Hacker School is particularly careful about not divulging information about who are at Hacker School each batch, and I want to keep that tradition.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-28</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-28/</link>
+      <pubDate>Mon, 28 Jul 2014 22:23:39 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-28/</guid>
+      <description> There seemed to be excitement in the space to have Jessica around. We had coffee with her, and I chatted with her briefly. She encouraged me to try and send a patch to CPython, that involved debugging and fixing some C issues. I spent some time with Tom, while he tried to get cinspect working for him, and it seemed like having the developer next to you, helped. As always. We didn&amp;rsquo;t make any fixes to the code, but it worked. I spent the afternoon, adding tests for a simple issue, to see how patches are sent. Later, I paired with Sophia for an hour to refactor the vcs code. It&amp;rsquo;s beginning to look much better than what it used to, and I like that. Jessica&amp;rsquo;s talk on buffer overflows was enlightening and entertaining. It was very similar to a talk that Max gave on one of the thursdays, but it was exciting nevertheless. After the talk, I am inspired to try and work through the Hacking: Art of exploitation, at some point. I&amp;rsquo;m beginning to feel like time at HackerSchool running out!  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-25</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-25/</link>
+      <pubDate>Fri, 25 Jul 2014 09:25:50 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-25/</guid>
+      <description> We worked on writing our own (toy) version control system on Friday, as a part of job prep. I paired with Sophia, and we got upto the point where we had diffs working, when we decided to refactor the code with some tests and stuff. The party was brilliant with a lot of activity. All the project installations looked so cool, and it was so much fun! I spent some time during the weekend watching the &amp;ldquo;Anatomy of Matplotlib&amp;rdquo; lectures. I started some work with poking around Matplotlib&amp;rsquo;s template backend, and trying to start writing and ascii backend. Also, I was trying to help UC setup GrooveBasin on his raspberry pi, and helped him configure jasper on it.  </description>
+    </item>
+    
+  </channel>
+</rss>

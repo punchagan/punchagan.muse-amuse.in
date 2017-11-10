@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/learning/</link>
+    <description>Recent content in Learning on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 11 Jun 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Effortful things</title>
+      <link>https://punchagan.muse-amuse.in/blog/effortful-things/</link>
+      <pubDate>Sat, 11 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/effortful-things/</guid>
+      <description>That dense book you want to read but has been lying on your desk while you procrastinate on twitter. You know you&amp;rsquo;ll have to tune everything else out, and read slowly, word by word, trying to understand and make sense.
+That vague blog post idea swirling in your head while you look at cat pictures, one after another. Distilling your thoughts and putting them down for general consumption is a lot of thinking and effort away.
+That ${cool_programming_thing} that a talk got you excited about so long ago. But, watching talks and intending to start using it is all you do about it. You know its going to take a fair amount of reading, thinking and time, before you can really use it well.
+Like all those squats and lifts you dread, these things are building your muscle. The thing about building muscle &amp;ndash; it needs effort and feels like so much hard work.
+You can&amp;rsquo;t build muscles effortlessly. Go do those effortful things! Only if you care about those muscles, anyway.</description>
+    </item>
+    
+    <item>
+      <title>Level-up Tools</title>
+      <link>https://punchagan.muse-amuse.in/blog/level-up-tools/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/level-up-tools/</guid>
+      <description>Thanks to a friend I got an upgrade to our still-being-setup kitchen. I now have a non-stick pan along with a few more new additions. I would previously use a bowl that people usually use to boil milk etc. for making whatever I did. The non-stick pan feels so great! It has made it a lot simpler to make some of the things I used to, because its non-stick. And it has vastly expanded the possibilities of things I can make, by virtue of being flat and wide based. The pan is such a great addition to my kitchen paraphernalia, and it adds a new dimension to the kind of things I can make. I&amp;rsquo;m not here to write a user review for it, though.
+What are such tools in other things that you do, that drastically changed the way you did something, or added a new dimension to the kinds of things you could do, tools that make you feel like you have a new super-power? Learning to write Python (after starting off with C) seemed to give me so much power allowing me to focus on the problem, rather than fussing over the low level details. Sasha mentions in this post how using a Spaced Repetition System like Anki drastically improved her efficiency because she could focus on thinking about higher level things rather than trying to recall or search for what method or function to use to do something.
+What are some such level-up tools for you? Is there a systematic approach to discovering tools?</description>
+    </item>
+    
+    <item>
+      <title>org-drill for making it stick!</title>
+      <link>https://punchagan.muse-amuse.in/blog/org-drill-for-making-it-stick/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org-drill-for-making-it-stick/</guid>
+      <description>Those who read the last few posts here, would know that I have been experimenting with org-drill (a spaced repetition extension to Org mode). I have been using the system (almost) religiously for the past 2 months, and I do find that it has helped a great deal! (in some respects). I have also spent a considerable amount of time trying to reduce the friction to put new stuff into the system, and am constantly on the look out for further improvements.
+Using this system has definitely helped with retention, and I find that I can recall quite a few things I have read a few weeks ago, that I would normally have been unable to. Though, I can recall a lot of information, I have been having a feeling of &amp;ldquo;fragmentation&amp;rdquo;: the feeling of just retaining individual bits/fragments of information, while losing out on actually internalizing the knowledge; not seeing the big picture, etc.
+Wozniak (the author of super-memo) warns against learning without understanding, and memorizing before actually learning stuff. I haven&amp;rsquo;t consciously added stuff into the system that I didn&amp;rsquo;t understand (when I added it), but, later it does feel like I have lost some connections or the understanding, and am only holding onto the fragments of information.
+The problems as explained in (read: as interpreted by me from) Make it Stick appear to be:
+ The understanding (if any) at the time of adding stuff into the spaced-repetition system is untested. It may just be familiarity masquerading as understanding.
+ The lack of any spaced repetitions for the overall concept/understanding and actual repetitions only for individual bits doesn&amp;rsquo;t help retention of the understanding (even if there was any, in the first place).
+  To work around this, I&amp;rsquo;m going to try adding questions that test understanding, to the system. The Super-memo team strongly recommends keeping the drill items small and easy to answer. This may be helpful in keeping each drill session short, but I would really like to add conceptual questions to the system, and see how it goes. I hacked org-drill to allow me to type out answers, before looking at the &amp;ldquo;correct&amp;rdquo; ones. This is an adaptation of a system that a fellow Hacker Schooler uses, and shared. Also, hopefully forcing myself to type out the answer will help me get around the problem of sometimes saying &amp;ldquo;yeah I know that&amp;rdquo;, then looking at the answer only to reaffirm the feeling of familiarity, rather than actually testing myself. I&amp;rsquo;m still going to continue adding quick and short questions that test &amp;ldquo;bits of information&amp;rdquo;, though. But, hopefully the additional conceptual questions are going to tie things together and help fill in the gaps. Lets see how this goes!
+For those interested, my hacks to org-drill below. The code is really a hack, and welcome any suggestions on cleaning up the code.
+(advice-add &#39;org-drill-presentation-prompt :around &#39;pc/org-drill-presentation-prompt) (defun pc/org-drill-presentation-prompt (old-fun &amp;amp;rest fmt-and-args) &amp;quot;A presentation prompt that allows capturing answers.&amp;quot; (let ((cb (current-buffer)) (heading (nth 4 (org-heading-components))) (entry-id (org-entry-get (point) &amp;quot;ID&amp;quot;)) (input &amp;quot;&amp;quot;)) (switch-to-buffer-other-window &amp;quot;*org-capture-drill-answer*&amp;quot;) (org-mode) (insert &amp;quot;# Hit C-c C-c once you are done answering!\n&amp;quot;) (org-insert-heading-respect-content) (insert (format &amp;quot;Answer: %s&amp;quot; heading)) (org-entry-put (point) &amp;quot;QUESTION_ID&amp;quot; entry-id) (goto-char (point-max)) (insert &amp;quot; &amp;quot;) (org-time-stamp-inactive &#39;(16)) (insert &amp;quot;\n\n &amp;quot;) (while (not (and input (equal input &amp;quot;&amp;quot;))) (ignore-errors (execute-kbd-macro input)) (setq input (read-key-sequence nil))) (switch-to-buffer-other-window cb) (apply old-fun fmt-and-args))) (advice-add &#39;org-drill-reschedule :around &#39;pc/org-drill-reschedule) (defun pc/org-drill-reschedule (old-fun) &amp;quot;Calls the original reschedule, but also archives the answer&amp;quot; (prog1 (funcall old-fun) (let ((cb (current-buffer))) (switch-to-buffer-other-window &amp;quot;*org-capture-drill-answer*&amp;quot;) (pc/org-refile-to-datetree &amp;quot;drill.org_archive&amp;quot;) (message (buffer-name)) (switch-to-buffer-other-window cb) (kill-buffer &amp;quot;*org-capture-drill-answer*&amp;quot;)))) (require &#39;org-datetree) (defun pc/org-refile-to-datetree (journal) &amp;quot;Refile an entry to journal file&#39;s date-tree&amp;quot; (interactive &amp;quot;fRefile to: &amp;quot;) (let* ((journal (expand-file-name journal org-directory)) (date-string (or (org-entry-get (point) &amp;quot;TIMESTAMP_IA&amp;quot;) (org-entry-get (point) &amp;quot;TIMESTAMP&amp;quot;))) (dct (decode-time (or (and date-string (org-time-string-to-time date-string)) (current-time)))) (date (list (nth 4 dct) (nth 3 dct) (nth 5 dct)))) (org-cut-subtree) (with-current-buffer (or (find-buffer-visiting journal) (find-file-noselect journal)) (org-mode) (save-excursion (org-datetree-file-entry-under (current-kill 0) date) (bookmark-set &amp;quot;org-refile-last-stored&amp;quot;))) (message &amp;quot;Refiled to %s&amp;quot; journal)))  </description>
+    </item>
+    
+    <item>
+      <title>More input sources for org-drill</title>
+      <link>https://punchagan.muse-amuse.in/blog/more-input-sources-for-org-drill/</link>
+      <pubDate>Tue, 04 Nov 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/more-input-sources-for-org-drill/</guid>
+      <description>I&amp;rsquo;ve been trying to use org-drill regularly for the last few weeks. I don&amp;rsquo;t know how well it&amp;rsquo;s been going but I have been sticking to the routine religiously. I haven&amp;rsquo;t yet really tried out incremental reading, but in an attempt to make it as easy as possible, I wanted to have a pdf-reader integration, and some kind of integration with Kindle highlights. Browser integration is pretty straight-forward, thanks to some simple java-script.
+I looked for a pdf-reader with some sort of plugin support, but I found nothing in Evince or Okular. I thought about pdfjs but it seemed slightly clunky to open pdfs in a browser, though I might shift to this if I don&amp;rsquo;t like what I finally ended up with. Good old xpdf seemed to be the only pdf reader that had some support for custom keybindings that allowed users to run external commands. With a little Python, I was able to setup a work-flow to capture snippets from xpdf, to add to org-drill. Custom key-bindings somehow don&amp;rsquo;t seem to work on xpdf bundled on Ubuntu. So, I ended up downloading and using the binary available on the xpdf site.
+For Kindle highlights support, with minor updates to Thamer Mahmoud&amp;rsquo;s clip2org, I have a simple way of getting all the &amp;ldquo;new&amp;rdquo; clippings/highlights as org-drill headlines. I haven&amp;rsquo;t really started using this, and once I do, I may end-up automating even the merging of these items into the org-drill notes file. I&amp;rsquo;m looking forward to making better use of my Kindle, with this feature!
+I don&amp;rsquo;t know if it would be useful to have more context information like section titles/chapter titles when capturing from html/pdf, but it seems like an interesting problem to try to solve.
+Also, it might be easier(?) if I probably tried to have a DE level keybinding, and some code to get selection and file name of the currently active window/application.</description>
+    </item>
+    
+    <item>
+      <title>Learning about Spaced Repetition, SuperMemo, Org-drill, et al.</title>
+      <link>https://punchagan.muse-amuse.in/blog/learning-about-spaced-repetition-supermemo-org-drill-et-al/</link>
+      <pubDate>Fri, 24 Oct 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/learning-about-spaced-repetition-supermemo-org-drill-et-al/</guid>
+      <description>I have been reading a bunch of articles on the SuperMemo site (including the original thesis of P. A. Wozniack, the creator of SuperMemo). I initially started off trying to understand the algorithms SM2,5 and 8 which org-drill implements, but reading the articles has given me a lot of general background and theory on how memory works, and why SuperMemo is as effective as it is (for those who stick with it). This blog post is an attempt to summarize and capture what I have read in all those articles, and not get lost in them. I would recommend reading the thesis and the suggested reading there, yourself, but if you really don&amp;rsquo;t want to &amp;ndash; this blog post + the summary in here, and here would be a good alternative.
+ Memory works by repetition. Each time you recall a fact, the time it takes for the memory to fade increases. Spaced repetition is the idea of repeating items, just when you are about to forget them &amp;ndash; trying to optimize the time spent on learning, as well as the retention of learned material.
+ Prioritization of the items we need to learn is key to being able to stick to Spaced repetition. Beginners tend to be over-enthusiastic about the technique and fill up their system with stuff that they don&amp;rsquo;t really care about. Applicability of the knowledge you are trying to gain, is a good test for whether or not it goes into your system.
+ Each version of SuperMemo comes with a slightly modified (on most occassions, improved!) algorithm. SM2, SM5, &amp;hellip; refer to these algorithms. Org-drill currently supports only sm2,5 and 8. It may be worth looking at sm15/16 and seeing if it can be implemented and is worth doing. In any case, using any of these is way better than not using Spaced repetition at all.
+ Understanding what we are trying to learn goes a long way in helping memory. It is, therefore, good to start with basic material. People have been surprised by how easily the advanced stuff fell into place, once they had the basics covered.
+ Keep items in the system simple. Stick to the minimum information principle. Keeping it simple, doesn&amp;rsquo;t mean you leave out on learning the complex stuff; instead break it into simpler components. Simpler items has the following advantages:
+ Simple is easier to remember. Simpler items are easier to schedule. You get more resolution to figure out what the problem areas are. Simple makes brings in redundancy automatically. And redundancy is good for memory, just like it is for managing hardware failure.  Keep learning fun! Don&amp;rsquo;t make review sessions a chore. Think about the material you are reviewing. Edit/delete/improve items based on your reviews, then and there. Stay active.
+ It is useful to add a link to the source of the items added to your system, considering that you wish to use the system over a long period of time (ideally, the rest of your life!)
+ Prioritize, add examples, appeal to your emotional state, link to existing knowledge, use images. Anything else that works for you! Use all of these techniques, that work well and you probably already use in everyday life, in the items you add to your system, to make them easier to recall.
+ Being physically fit and healthy is important for being so mentally. Exercise, sleep, eat well, avoid caffeine.
+ Try incremental reading, as an input source of items into your memory system.
+  </description>
+    </item>
+    
+    <item>
+      <title>Learning to use Org-drill</title>
+      <link>https://punchagan.muse-amuse.in/blog/learning-to-use-org-drill/</link>
+      <pubDate>Tue, 14 Oct 2014 00:07:04 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/learning-to-use-org-drill/</guid>
+      <description>Org-drill is an Org-mode extension that provides spaced-repetition and flash-card functionality. It has a wonderful documentation on Worg, but somehow I couldn&amp;rsquo;t get myself to read the whole document, and setup org-drill, until now.
+The setup is quite straight forward, once you have org-mode along with the contrib packages. Just (require &#39;org-drill), and you are all set! To add a new card, all you need to do is add a :drill: tag to the items you wish to &amp;ldquo;Org-drill&amp;rdquo;. You can start a review session with simply M-x org-drill. You will be shown flash cards, and you can rate how correct and comfortable you were, in answering the questions. Based on your responses, the cards are scheduled for review. Start another review session, whenever you need one!
+What I could only understand once I got myself to read the whole document was that:
+ The default scope of a drill session is the current file. But, you can start sessions with scopes like current tree, current directory, or a specified list of files. This is super-useful!
+ The review sessions are not automatically scheduled, based on when you schedule failed flash-cards. Scheduling the review for a card only sets a due-date for them, and effects, what you are asked in your next session.
+  Cram mode and incremental reading are also things I want to try, as I go along.
+Happy Learning!</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-22</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-22/</link>
+      <pubDate>Tue, 22 Jul 2014 10:46:36 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-22/</guid>
+      <description> Mel&amp;rsquo;s talks  Mel&amp;rsquo;s talk in the morning was brilliant! I wonder why it&amp;rsquo;s not a part of recommended reading for Hacker Schoolers, or referred to, in the manual. Logically, it makes sense that Mel came now, so that she didn&amp;rsquo;t have to come twice to talk to the firsts and seconds, but it would have been great to have had this talk in the first week of Hacker School! Mel gave us a lot of new information and insights into education and learning styles. I also like the fact that she gave us all a good vocabulary to think about and discuss stuff related to learning. I will try to think, and apply as much of this as I can, for the rest of my time here. She talked about test driven learning which seemed very interesting. Instead of just saying, &amp;ldquo;wow that would be an interesting thing to do&amp;rdquo;, stop for a moment, think about what you are trying to learn, and how you will assess if you have learnt what you wanted to, and then dive into the project. The learning styles workshop was pretty good too, though I feel like I don&amp;rsquo;t know myself well enough, and I unable to properly &amp;ldquo;bucket&amp;rdquo; myself. Later, I took a quiz, and ended up fairly close to the middle, in all the dimensions. Mel introduced us to the idea of cognitive apprenticeship, and encouraged us to try out the different modes when pairing. I really liked the idea of Zone of proximal development and I will try to take the advice of spending most of the rest of my time here in this zone. Do I (really) care? Motivation and mindset, &amp;hellip; Be courageous!  Airplay and Raspberry Pi  I was trying to wrap libshairport and use it on the RPi to be able to listen to songs being streamed on Airplay, and use that data to drive the LEDs. Shairport, a tool written in C seemed to work. My attempts to wrap libshairport, which is a fork of shairport converting it into a library, failed miserably. The trouble was essentially getting Airplay to discover my service. I tried a bunch of things with pybonjour and avahi, but wasn&amp;rsquo;t able to get it right. Finally, I tried just announcing the service with shairport, and actually running a python script that wraps libshairport to listen to the data. But, this didn&amp;rsquo;t work and iTunes complained that this Airplay device is not compatible. Before going much further with this, I found shairplay which is a tool similar to shairport, but came with a library, and also Python bindings! I happily used this to get stuff working! I&amp;rsquo;m interested to see today, what exactly I was missing yesterday!  Emacs club  I demoed org-mode to a bunch of people for about half an hour, and it was good to see people being blown away by what it can do, exactly the way I was, when I first came across it.  Today  Work on RPi to clean up a few things for the party. Compare libshairplay and libshairport to see what I was doing wrong, yesterday. May be write up the whole thing, and make the code available. Learn a little bit about Parsers from rntz.  </description>
+    </item>
+    
+    <item>
+      <title>Teach Yourself Programming in Ten Years!!</title>
+      <link>https://punchagan.muse-amuse.in/blog/teach-yourself-programming-in-ten-years/</link>
+      <pubDate>Fri, 02 Feb 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/teach-yourself-programming-in-ten-years/</guid>
+      <description>Here&amp;rsquo;s an interesting article by Peter Norvig, Director of Research Google I have just copied the whole essay here&amp;hellip; also here&amp;rsquo;s a link to the Original one&amp;hellip;
+Update: - [2010-10-11 Mon]  - Removed the copied content</description>
+    </item>
+    
+  </channel>
+</rss>

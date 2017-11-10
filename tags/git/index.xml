@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/git/</link>
+    <description>Recent content in Git on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 23 Jun 2014 04:38:29 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-06-23</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-23/</link>
+      <pubDate>Mon, 23 Jun 2014 04:38:29 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-23/</guid>
+      <description> The Apprenticeship patterns book is very interesting! I shall continue to read it and start create daily/weekly rituals from the actions prescribed in the book! I was reading this post on git gc, reflog, etc. and wanted to see what the default values were for some of the configurable variables. But, the git config command didn&amp;rsquo;t help. Developer/code defaults are also a part of the &amp;ldquo;config&amp;rdquo; system, and any tools to inspect config variables should display them, if no other values have been set explicitly! &amp;ldquo;If experience is built upon failure as much as success, then you need a more or less private space where you can seek out failure.&amp;rdquo; &amp;ndash; Apprenticeship Patterns. Our check-in groups changed, but 3 of us from our last check-in group are together again! Most of the day was spent with Git. In the morning, I learned that setting push.default to nothing will prevent pushing any branches without specifying explicitly which branch I want to push. Also, later in the day, Alan gave a presentation mapping the internals of git to the commands, trying to give everyone a better mental model of Git. I spent some time trying to get jedi integration for emacs. It should&amp;rsquo;ve worked out of the box, but I&amp;rsquo;m not sure the ELPA repositories have proper dependency/version management. Seems to be the problem, everywhere! Dependencies of a package get updated, and the package starts acting up&amp;hellip; Chaitu sent me a link about solving mazes using Finite Automata, and I spent some time trying to write a simple solver, and compare it with Nava&amp;rsquo;s breadth first search. But, it looks like we broke her code during the refactor. I may get back to this, at some point. I also spent a few minutes talking to Kyle, while he was trying to implement a simple version of the NTP protocol. The algorithm it turns out, is pretty simple. I started reading a little bit on crypt-analysis for Simple Substitution ciphers, and I&amp;rsquo;ll try implementing one of the algorithms today. The day ended with yummy pizza and video watching! We watched &amp;ndash;  Bret Victor, Inventing on Principle (54 min) Gary Bernhardt, WAT (4 min) Guy Steele, Growing a Language (53 min)   </description>
+    </item>
+    
+    <item>
+      <title>A git-diff tip</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-git-diff-tip/</link>
+      <pubDate>Wed, 22 Aug 2012 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-git-diff-tip/</guid>
+      <description>One of the things with git that you can mess-up, if you are not used to, is git diff. A friend of mine was trying to add a couple of new files, and changes to existing files. But, he was on the wrong branch, and wanted to change to a different branch, before committing. Being new to git, he wanted to take a patch. Reset the changes, apply the patch back.
+This is what he did
+git add new_file.txt git add old_file1.txt old_file2.txt # don&#39;t add old_file3.txt  Oh, damn, I want to change the branch.
+git diff &amp;gt; a.patch git reset --hard git checkout other-branch  Let me commit my changes&amp;hellip;
+git apply a.patch git commit -m git show  Oh crap! Where are my new files? They aren&amp;rsquo;t commited! Lemme add them.
+ls new_file.txt ls: cannot access new_file.txt: No such file or directory  Dammit! Where are my changes gone?
+The problem was with git diff. It gives only the only the un-staged changes. --cached option has to specified, to get the staged changes in the diff output. git diff HEAD shows diff output with both staged and un-staged changes.
+But the whole workflow above is a beginners workflow. A user comfortable with git would&amp;rsquo;ve committed and then moved the commit around using cherry-pick or the like.
+git add &amp;lt;all-files&amp;gt; git commit -m &amp;quot;My awesome changes.&amp;quot; #committed on branch1 git checkout other-branch git cherry-pick branch1  </description>
+    </item>
+    
+    <item>
+      <title>GetHub: Chrome Notifications for Github updates</title>
+      <link>https://punchagan.muse-amuse.in/blog/gethub-chrome-notifications-for-github-updates/</link>
+      <pubDate>Wed, 02 Mar 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/gethub-chrome-notifications-for-github-updates/</guid>
+      <description>Over the last two days, I hacked up my first Chrome extension. I&amp;rsquo;ve been using Chrome only for the past couple of weeks or so and I begin to like it, though some of the extensions aren&amp;rsquo;t as mature as I would&amp;rsquo;ve liked.
+The original idea was floated by my friend, Madhu, and Lee helped me quite a bit, while I was working on it.
+What does it do? It is a simple extension, that shows pop-ups, whenever there is an update in your GitHub &amp;ldquo;Wall&amp;rdquo; (yes, this is a Facebook world) or News Feed as they call it.
+After installation, you will need to save your username and token for the extension to work.
+Where to get it? Presently, you will need to get it from GitHub.
+I might add it to the Chrome Web Store, once I see more people using it. I couldn&amp;rsquo;t justify, to myself, paying the initial one-time verification fee that Google asks for.
+UPDATE: [2011-03-04 Fri]  Added GetHub to the store
+Comments and Feedback  Feel free to write to me at punchagan+gethub@jeemail.com Or file issues at GitHub.  Happy GitHubbing!</description>
+    </item>
+    
+    <item>
+      <title>Git powered wikis improved: My bit</title>
+      <link>https://punchagan.muse-amuse.in/blog/git-powered-wikis-improved-my-bit/</link>
+      <pubDate>Fri, 04 Feb 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/git-powered-wikis-improved-my-bit/</guid>
+      <description>I accidentally came across the blog-post Git-powered wikis improved - GitHub. And this particular paragraph caught my eye:
+ The new editor has the capability to support every markup language that GitHub Wikis support. If you&amp;rsquo;re a fan of Markdown, Textile, pod or RDoc, the function bar buttons (e.g. bold, italic, underline, etc.) will now work. We&amp;rsquo;ve even written brand new inline help for many of GitHub Wiki&amp;rsquo;s supported markup languages.
+The language definitions the editor uses are JSON-based and easy to edit. If you&amp;rsquo;d like us to support a markup language that we don&amp;rsquo;t currently support, Gollum, GitHub&amp;rsquo;s wiki software, is entirely open source &amp;ndash; fork our code and send us a pull request with changes that support your choice language.
+ I sent a quick patch for org-mode in the function bar, and it has been accepted. :)
+If not anything more, I hope, at least a couple of curious people will explore org-mode and find it useful.</description>
+    </item>
+    
+    <item>
+      <title>git vs. mercurial</title>
+      <link>https://punchagan.muse-amuse.in/blog/git-vs-mercurial/</link>
+      <pubDate>Sun, 01 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/git-vs-mercurial/</guid>
+      <description>At work, we use hg and to be frank, I haven&amp;rsquo;t really got the hang of using it well. I&amp;rsquo;ve recently started using git for my own work and I&amp;rsquo;m loving it.
+I chose git because
+ github seems to be a nice place to hang around, as compared to bit-bucket. org-mode uses git and I need to learn to use git, if I intend  contribute anything to org-mode.
+But after using git for a month or so, I&amp;rsquo;m totally loving using git. The way it handles merges is awesome. People go gaga over it&amp;rsquo;s speed.
+But for me, it&amp;rsquo;s the way it handles branches. I can have any number of branches on my machine, while pushing only changes in the master branch, upstream. I can easily merge changes from one branch to another. After putting up a lot of fight, I couldn&amp;rsquo;t make hg do this. Not as well as git does it!
+I&amp;rsquo;ve now decided to convert my personal repositories to git.
+This blog post shows how to.</description>
+    </item>
+    
+  </channel>
+</rss>

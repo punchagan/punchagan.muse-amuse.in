@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 10 Aug 2010 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Restoring GRUB with Grub2</title>
+      <link>https://punchagan.muse-amuse.in/blog/restoring-grub-with-grub2/</link>
+      <pubDate>Tue, 10 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/restoring-grub-with-grub2/</guid>
+      <description>It&amp;rsquo;s a one liner with grub2.
+$ sudo grub-install --root-directory=/mount/point/of/root/ /dev/sdX  where sdX is sda,sdb,.. depending on which hard-drive it is on.
+This is the first instance when I found grub2 to be better than grub.</description>
+    </item>
+    
+    <item>
+      <title>Telugu Rendering in Ubuntu...</title>
+      <link>https://punchagan.muse-amuse.in/blog/telugu-rendering-in-ubuntu/</link>
+      <pubDate>Wed, 11 Jul 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/telugu-rendering-in-ubuntu/</guid>
+      <description>I had problems with this and tried quite a few things to get it working&amp;hellip; [uninstalling and re-installing packages&amp;hellip; downloading fonts.. etc.. ] but couldn&amp;rsquo;t until I found help here&amp;hellip;
+[Apparently there&amp;rsquo;s a bug in the Pothana font (in Feisty)]
+[ Don&amp;rsquo;t worry if you can&amp;rsquo;t figure out what&amp;rsquo;s the big deal in linking to an already existing post.. :P]</description>
+    </item>
+    
+  </channel>
+</rss>

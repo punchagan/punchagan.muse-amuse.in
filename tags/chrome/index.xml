@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chrome on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/chrome/</link>
+    <description>Recent content in Chrome on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 09 Aug 2014 20:56:22 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-08-08</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-08/</link>
+      <pubDate>Sat, 09 Aug 2014 20:56:22 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-08/</guid>
+      <description> I spent the morning doing some white-boarding interview practice with a Jorge and Brian. I spent the rest of the day, playing with PyPy and working through a tutorial that teaches us to write a BF interpreter. I spent the Saturday revamping my Emacs config. The main issue with my config was having a &amp;ldquo;package&amp;rdquo; list, of all the packages that the configuration uses, in case we are trying to duplicate it elsewhere. I noticed that this gets out of sync, because I install packages by hand and never update this list. I wrote up some code, that keeps this list in sync with all the packages I have installed. I configured el-get to play well with my config, and am pretty happy with my setup, though I still have to add some matching/searching features with helm/ido/whatever else. I spent the Sunday writing a patch to xtab to be able to limit the number of tabs in Chromium by the memory it uses.  </description>
+    </item>
+    
+    <item>
+      <title>GitHub Cue: Recommendations for GitHub Repos</title>
+      <link>https://punchagan.muse-amuse.in/blog/github-cue-recommendations-for-github-repos/</link>
+      <pubDate>Fri, 05 Aug 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/github-cue-recommendations-for-github-repos/</guid>
+      <description>If you aren&amp;rsquo;t already aware of it, I&amp;rsquo;m one of those people who goes around saying, &amp;ldquo;GitHub is my Facebook&amp;rdquo;. I spend quite a lot of time on GitHub, browsing the work of various people, looking at loads of interesting stuff that people built. I keep jumping between people pages and projects using the Watchers/Watching &amp;amp; Followers/Following pages. This way, I do come across interesting people and projects, but the SNR is too low. I wanted a better way to be able to see stuff, that I find interesting. That&amp;rsquo;s how the idea for this Chromium app &amp;ndash; GitHub Cue &amp;ndash; was born.
+@baali and I hacked on this, during the last few days and got it working. It works as follows, (from the README) &amp;mdash;
+ Scrapes all the descriptions of the repositories being watched by the user. Key terms are extracted from this description text using the Yahoo Term Extractor. A list of languages is obtained, based on the languages of the repositories, the user if watching. GitHub searches are performed for a combination of 3 randomly chosen languages and 5 random key terms. 10 random repositories out of all these, are shown.  This is a very simplistic algorithm, but works decently for my purposes. Ideally, I would&amp;rsquo;ve liked to use a Collaborative Filtering algorithm, but I found the data to be too sparse, and the amount of computation to be too much to be done on the fly. I wasn&amp;rsquo;t really interested in pre-computing stuff and putting it onto my server. I settled down to the next best thing I could think of.
+I would appreciate any further ideas and suggestions. Thanks!</description>
+    </item>
+    
+    <item>
+      <title>GetHub: Chrome Notifications for Github updates</title>
+      <link>https://punchagan.muse-amuse.in/blog/gethub-chrome-notifications-for-github-updates/</link>
+      <pubDate>Wed, 02 Mar 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/gethub-chrome-notifications-for-github-updates/</guid>
+      <description>Over the last two days, I hacked up my first Chrome extension. I&amp;rsquo;ve been using Chrome only for the past couple of weeks or so and I begin to like it, though some of the extensions aren&amp;rsquo;t as mature as I would&amp;rsquo;ve liked.
+The original idea was floated by my friend, Madhu, and Lee helped me quite a bit, while I was working on it.
+What does it do? It is a simple extension, that shows pop-ups, whenever there is an update in your GitHub &amp;ldquo;Wall&amp;rdquo; (yes, this is a Facebook world) or News Feed as they call it.
+After installation, you will need to save your username and token for the extension to work.
+Where to get it? Presently, you will need to get it from GitHub.
+I might add it to the Chrome Web Store, once I see more people using it. I couldn&amp;rsquo;t justify, to myself, paying the initial one-time verification fee that Google asks for.
+UPDATE: [2011-03-04 Fri]  Added GetHub to the store
+Comments and Feedback  Feel free to write to me at punchagan+gethub@jeemail.com Or file issues at GitHub.  Happy GitHubbing!</description>
+    </item>
+    
+  </channel>
+</rss>

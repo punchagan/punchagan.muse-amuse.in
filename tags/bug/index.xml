@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bug on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/bug/</link>
+    <description>Recent content in Bug on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 03 Dec 2012 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>cStringIO and unicode</title>
+      <link>https://punchagan.muse-amuse.in/blog/cstringio-and-unicode/</link>
+      <pubDate>Mon, 03 Dec 2012 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/cstringio-and-unicode/</guid>
+      <description>StringIO in the cStringIO module in Python 2.7.2 doesn&amp;rsquo;t handle unicode strings properly. This bug has bitten me on a couple of occasions, in the recent past.
+Just making a note for myself:
+ Use StringIO if speed doesn&amp;rsquo;t matter so much. Whenever possible, just convert the input to StringIO to a string, if what you are doing doesn&amp;rsquo;t really require unicode strings.  Or may be it&amp;rsquo;s just time to move up to Python 2.7.3</description>
+    </item>
+    
+  </channel>
+</rss>

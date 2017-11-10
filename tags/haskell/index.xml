@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haskell on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/haskell/</link>
+    <description>Recent content in Haskell on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sun, 22 Jun 2014 15:58:32 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/haskell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-06-22</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-22/</link>
+      <pubDate>Sun, 22 Jun 2014 15:58:32 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-22/</guid>
+      <description> I finished parts of the phonebook task today. The code looks ugly, and very un-haskelly. I asked for feedback on it, but I guess its just too ugly for anyone to take the time out to comment on it, and help me improve it. I also tried to read up about Monads, and worked through exercises from a few different places. I haven&amp;rsquo;t yet finished the exercises in Chapter 12 of the UPenn course. I just looked at them today, and they seem like a complete bouncer at first glance. I went on a really long walk with Naren, and food-hopped with him while he was telling me stories about the various places he worked at and the kinds of things he has been working on, and things he liked and disliked about them. It has been a good weekend to spend with Naren! Also, the long walk and talking to Chaitu cleared my head a bit, and I decided to pause the Haskell tutorials and learning for the next couple of weeks. I don&amp;rsquo;t really have a project that needs me to learn Haskell, right now. I should stick to project and need based learning, which I enjoy the most. Right now, I feel like working on an key stroke acoustic emanation based key-logger. Just before applying to Hacker School, I came across the idea of side-channel attacks, and it sounded pretty exciting. I don&amp;rsquo;t intend to snoop onto anybody, but the project seems to be challenging enough, and I will have quite a bit to learn about. It will involve signal processing, and learning &amp;ndash; both areas that I have seemed interesting to me for long, but I haven&amp;rsquo;t really done anything in them. I plan to work on the idea for a couple of weeks, and review my progress and chart my future course. The problem appears to have 2 parts to it.  Processing audio, and extracting key-strokes from it. Identifying the text, based on a sequence of key-strokes. Though, in reality each press of a key may not sound the same, for a start assuming we are able to accurately get a sequence of key-strokes, the problem would reduce to solving a simple substitution cipher. I plan to start with this, tomorrow.  Also, I plan to hang out a lot more with Hacker Schoolers, and let myself be distracted a lot more by random discussions and activities, than I have allowed myself to be, in the past few weeks. I should be writing as much code as I can, while I&amp;rsquo;m here. But, I should also be rubbing elbows with the awesome folks, which I will only be able to virtually, once I&amp;rsquo;m out of here. Thanks to Amber, I also came across this interesting looking book called Apprenticeship patterns. I plan to read it over the next week or two. I haven&amp;rsquo;t been playing almost any Ultimate here. I atleast need to work out a conditioning and throwing practice schedule and start working on it, early next week. Tomorrow won&amp;rsquo;t work since it&amp;rsquo;s 5am and I&amp;rsquo;m still awake! I also probably need to get enough sleep! Looking forward to the next couple of weeks!  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-06-20</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-20/</link>
+      <pubDate>Fri, 20 Jun 2014 08:58:40 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-20/</guid>
+      <description> Fridays are optional in Hacker School, and people are given help with preparation for job interviews. This week&amp;rsquo;s exercise was a &amp;ldquo;know-your-language&amp;rdquo; type exercise and I decided to do it with Haskell, and confirmed the fact that I didn&amp;rsquo;t know it too well. :) I spent the afternoon writing the blog-post on OAuth2, and adding support for converting ditaa code blocks to png using Pygments. It may not have been the best use of time, but anyway&amp;hellip;  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-06-18</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-18/</link>
+      <pubDate>Wed, 18 Jun 2014 10:29:29 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-18/</guid>
+      <description> Amber talked about &amp;ldquo;exploring only until the current task is done&amp;rdquo; and moving on, which is could really be a lost opportunity to learn something new and gain a better understanding of the system I am working with. Having something (anything not directly related to the current project I&amp;rsquo;m working on) scheduled for later in the day, doesn&amp;rsquo;t seem to do me much good. I feel distracted for quite a long period before the scheduled time. Abstractions and layers were talked about in the second exercise on Applicatives&amp;hellip; Layering, FTW! I spent about an hour or so in the afternoon reading the paper, One VM to rule them all. It talked about Truffle: an API to implement an AST parser for any language and Graal: a JIT compiler for the ASTs. Later in the day, I also went to the Papers we love meetup. The presentation and the talks were quite interesting! I also started looking at Elm and playing with it.  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-06-17</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-17/</link>
+      <pubDate>Tue, 17 Jun 2014 10:09:08 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-17/</guid>
+      <description> I&amp;rsquo;ve been bookmarking the interesting links that people post on Zulip and have a lot of reading to do. It would be nice if I had an easy way to send stuff on to my kindle. (pdfs, html, etc.). Instapaper works, but doesn&amp;rsquo;t work as well as I would like it to. I just want a simple script that takes a list of urls and does the right thing. May be I will write something that uses Calibre, or even better someone already has. I worked through exercises 08 and 10 of the haskell course, yesterday. Chapter 8 was about how IO works in haskell. The exercise didn&amp;rsquo;t involve too much, except I wasted a lot of time on tracking a stupidity of mine. The next part of the course was an introduction to Functors, Applicative and Alternative. I&amp;rsquo;m not sure I totally understand and am comfortable with them, but I have been able to get through the exercises. I think it&amp;rsquo;s time for me to start working on some Elm tutorials, along with the Haskell exercises. Also, I had questions about when to use type, newtype and data and incidentally found this section that ended with the following summary: &amp;ldquo;If you just want your type signatures to look cleaner and be more descriptive, you probably want type synonyms. If you want to take an existing type and wrap it in a new type in order to make it an instance of a type class, chances are you&amp;rsquo;re looking for a newtype. And if you want to make something completely new, odds are good that you&amp;rsquo;re looking for the data keyword.&amp;rdquo;  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-06-11</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-11/</link>
+      <pubDate>Wed, 11 Jun 2014 15:02:11 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-11/</guid>
+      <description> Plan Continue with the Haskell tutorials, with additional reading from Real World Haskell.
+Actual  Finished exercises 4 and 5.  Learnt about Type classes in Haskell and how to create them and make data types instances of them. Also came across a new algorithm of sieving called the Sieve of Sundaram, which was discovered by a student. Surprisingly, I never heard of it before!   Miscellaneous  A few of us had an interesting discussion about various places people grew up in and visited, and the cultures, etc. Idea: implement a GitHub dashboard for organizations (say, HS batches) that give you different statistics, and interesting graphs. (Use elm?) [Update: Tom is working on HS and GitHub integration. So, that&amp;rsquo;s perfect!]  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-06-10</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-10/</link>
+      <pubDate>Wed, 11 Jun 2014 09:31:08 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-10/</guid>
+      <description>I came super early to try and get some work done in the quiet before the daily checkins time. Continued with the Haskell tutorial and reading the Real World Haskell.
+Finished a couple of exercises from the UPenn course, that were pretty straight forward.
+Also, finished a few exercises from chapter 3 of real world haskell, and partially finished implementing Graham scan for generating a convex hull for a set of points.
+The exercises from both the places involved mainly learning about Algebraic Data Types.
+Mary pinged me to ask how the first couple of days were, and it was good to talk to get a ping from her though I never talked to her.
+I&amp;rsquo;m going to continue working on the Haskell exercises today.
+I also got a couple of ideas for small projects:
+ Since, yelp is blocked from here, nobody can use yelp&amp;rsquo;s API and work on any projects. It may be helpful to have an API proxy server that runs on a different server and forwards any requests coming to it. A simple script to create a twitter list for each batch of Hacker School.  Doing them in Python would be pretty straight forward. I will try to work on these things in Haskell, once I&amp;rsquo;m reasonably comfortable with Haskell.</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-06-09</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-09/</link>
+      <pubDate>Tue, 10 Jun 2014 10:21:06 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-09/</guid>
+      <description>Finally, I&amp;rsquo;m at Hacker School. The day began with introductions, breakfast and welcomes to HackerSchool.
+The four rules of Hacker School were reiterated to all of us:
+ No (Feigning) surprise No Well-actuallys No Backseat driving No Subtle-isms  It was made clear that each of us should watch ourselves not to break these rules, and being called on breaking these rules is totally cool, and we should stop about it and think for a moment and move-on. Breaking the rules doesn&amp;rsquo;t make us bad hacker schoolers. We are all here to learn!
+I liked the idea of all of us being asked to list out the things that we are nervous about, and excited about. I was happy to find that a lot of the people were nervous about the similar kinds of things I was nervous about. I&amp;rsquo;m not alone!
+After the check-ins, I started off with the Introduction to Haskell course by Brent Yorgey. What I did was mostly a recap of what I learned from the first few chapters of Learn you a Haskell. I learnt about how credit card numbers are validated, apart from learning a little bit about lazy evaluation and thunks.
+The day ended with burritos and game night Mafia!</description>
+    </item>
+    
+    <item>
+      <title>Pandoc can now do Org</title>
+      <link>https://punchagan.muse-amuse.in/blog/pandoc-can-now-do-org/</link>
+      <pubDate>Mon, 06 Dec 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pandoc-can-now-do-org/</guid>
+      <description>Pandoc is a haskell library and a command line tool, that can convert markup from one to another and it does it pretty well. Until now it supported quite a few markups, but not orgmode. But now, Orgmode support has been added! Yay!
+But, it can only read from other formats and write to org-mode format. The other way around, is not possible, but you can do that straight from org-mode, right?
+I&amp;rsquo;ve often felt the need for an org-importer and hence decided to do something about it. I stumbled upon Pandoc, when I was moving my blog, and found it pretty neat. After, yet another request for an importer, on the org-mode mailing list, I decided to look at Pandoc. I was somehow under the impression that it was written in Python. But it turned out, I had to learn Haskell! A good excuse to learn a new language, eh? I brushed through a tutorial for a couple of days (and was blown off by the paradigm of the language) and was able to port the RST writer in Pandoc, to an Org writer. :)
+You can get the latest version from here</description>
+    </item>
+    
+  </channel>
+</rss>

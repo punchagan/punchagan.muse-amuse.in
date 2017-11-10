@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contribute on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/contribute/</link>
+    <description>Recent content in Contribute on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 28 Mar 2011 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/contribute/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I love FOSS.  How do I start contributing (code)?</title>
+      <link>https://punchagan.muse-amuse.in/blog/i-love-foss-how-do-i-start-contributing-code/</link>
+      <pubDate>Mon, 28 Mar 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/i-love-foss-how-do-i-start-contributing-code/</guid>
+      <description> Why this article? I teach (Science and Engineering) students and teachers to use Python for their computational tasks. I&amp;rsquo;m occasionally asked this question or something similar. I remember, it was not too long ago, that I asked this question very often. I asked anybody who was more experienced than me, &amp;ldquo;How do I start contributing (code) to FOSS?&amp;rdquo; and all the answers I got, were very similar. Also, my answer is not going to be radically different. But, I would still like to answer this question, because -
+ All the answers I got, were from big-time, experienced contributors. I suspect, they only vaguely remember how it feels to be just starting off. But, I am just starting off and I think my answer brings a slightly different perspective that would help others1. This piece of writing is meant to be one comprehensive compilation of things I want to share, if and when I&amp;rsquo;m asked this question in the future2. More than anything else, a reminder and reference for myself. I still have a long way to go. I only have a handful of contributions against my name (none of them earth shattering). I haven&amp;rsquo;t (yet) done my 10,000 hours of programming nor have I learned anything like half a dozen programming languages.3  Thanks to baali, Ringo and Voodoo for reading drafts of this article and giving some very valuable feedback to improve it.
+What should I do? I know how exciting the FOSS world seems, the first time we discover it. You are dying to contribute. You want to contribute, Right Now! But you&amp;rsquo;ve no clue, what, where and how. Relax. Give yourself time. You&amp;rsquo;ve a lifetime ahead of you. Explore. Explore, even more. Play with things, Try out stuff, Break stuff, Spill things all over the place. Have fun!4
+Given that you are reading this, I presume that, you do have access to the Internet. But, if you don&amp;rsquo;t, it could turn an impediment to your goal. Easy access to a decent internet connection is a prerequisite.
+Learn a programming language, well3. By learning, I don&amp;rsquo;t mean getting familiar with the syntax or passing a bunch of exams. Get familiar with the paradigms of the language. Learn to think in that language. Write code that does something real, instead of doing toy examples.5 Also, it helps know bits and pieces about the history and evolution of the language. This will give you a sense of why some features are present (or absent) and will help you program better, in that language6.
+Some projects will definitely catch your eye, while you are exploring. Start using the ones that you need. Follow them!
+Start with using the bleeding edge 7 software. Bleeding edge refers to the latest sources of the project, where the active development is going on. Given the continuous nature of software development, using the latest source,
+ prevents you from wasting time on fixing bugs that have already been fixed and lets you look at the latest changes being made and contribute effectively and easily  Also, start following the project&amp;rsquo;s mailing lists &amp;ndash; both the dev and the user lists, if they are separate. The user-list discussions will help you discover functionality and possibly give you some chance to peek at the source code, too. Don&amp;rsquo;t be surprised or worried if you don&amp;rsquo;t follow most of what goes on, in the dev-list. Be patient and keep at it. You will learn a lot about the what, why and how of the project. Also don&amp;rsquo;t be afraid to look foolish there! There wouldn&amp;rsquo;t be one developer who doesn&amp;rsquo;t have some embarrassing logs of stuff she said in public, in her initial days.
+Slowly you&amp;rsquo;ll start to learn the dynamics of the community &amp;ndash; how things function, the DOs and DON&amp;rsquo;Ts, etc 8. Also, there&amp;rsquo;s a good chance that the project has an active IRC channel. If it does, hanging out there will give you more insights. Contributing to the documentation, is often a useful step before contributing code. Cleaning up the documentation or writing documentation, often requires you to read the code and helps you understand it better.
+Next, start acting on Bug reports (or tiny feature requests). Start with trying to reproduce the bugs and sending confirmations. Gradually, start looking at the source and trying to figure out where the problem is. Be patient, with this 9 . Once you get comfortable with the code and the coding style, start sending code snippets and comments, explaining what you think might be the problem. One fine day, you will be able to send a full working patch! But, before that don&amp;rsquo;t hesitate to send partial fixes. You can learn a lot from the comments of the devs and looking at how they finally fixed it. Also, IRC could be a good place to ask for help, if you are stuck and are looking for some quick help, so you can move further.
+In all of this, it helps if you have one (or a bunch of) favorite area(s) or module(s) of the project, specially in a big project. You should pounce upon any issues in your favorite area.
+Participate in sprints. It&amp;rsquo;s not uncommon for projects to have regular sprints. Make it there 10! Also, a couple of developers may decide to meet up on a weekend and hack. If it&amp;rsquo;s happening in your neighborhood, ask if you can join. Don&amp;rsquo;t be surprised, if they shout out a big YES! You will definitely learn a lot, when there is help so close-by.
+A shortcut would be to start your own project! It is easier (in some ways) to release your own code under a FOSS license, than contribute to some of the existing projects. You don&amp;rsquo;t have to have your code approved by the project leads, you don&amp;rsquo;t need to mould your code to fit the standards of the project, you don&amp;rsquo;t have to read and understand all the (relevant parts of the) existing code, etc. But all of this, definitely teaches you a lot.
+As a beginner, I think it is important to solve your own problems, problems that you care about (at least at that point in time). Most of the projects, started off with their developers wanting to solve their own problems. Only, incidentally, they solved some of the World&amp;rsquo;s problems, too!
+Start small, though. Don&amp;rsquo;t start off with a project that aims to replace Chrome or Firefox as the best browser, or an editor to replace Vim or Emacs. Writing extensions to your favorite software could be a good place to start, for instance an Emacs minor/major mode11, a Chrome extension12, etc. Stand on the shoulders of giants!
+Also, take this as an opportunity to gain some of the skills that would be useful, when you want to start contributing to others projects.
+ Learn to use Version Control (Git + GitHub is awesome!) Learn to use build and setup tools. Learn about packaging and distributing your software. Learn how to license your code. Learn to Collaborate!  All of this, I hope, would suffice to get your first contribution in. But, there are a few things that will help you in the long run.
+Good English. Specially written communication, since that is how you would be communicating, more often than not. Fair or not, hackers are known to be very particular about good communication. I&amp;rsquo;m not exaggerating when I say, what you say may be ignored even if it makes perfect sense, if you said it in sloppy English.
+Using a *nix would put you in some great company. At the very least, you save time when looking for solutions to known problems. Using a good editor and learning to type quickly can be big productivity gains. You only get 24 hours a day!
+An understanding of licensing issues, can come in handy, many a times.
+For more, read How to Become a Hacker by Eric Raymond.
+Happy Hacking!
+ I&amp;rsquo;m writing in the Indian context. ↩ All of this is generic advice, but students applying to programs like GSoC, may find it useful. ↩ Teach Yourself Programming in Ten Years by Peter Norvig. ↩ Getting yourself a GitHub account and socializing there is a lot of fun and helps quite a bit. GitHub is my Facebook! ↩ I started learning Python from the Python tutorial and some other sources and doing the examples in them. It was good, but I think I started learning more, and better, when I started solving problems from Project Euler. And writing an IRC bot in Python, taught me a lot more than all of this. ↩ I recommend Python, but I am definitely biased. Any language that is generic enough would do, really. 1. It gets you off the blocks, very quickly. 2. It is easy to learn. 3. It is batteries included. Read as, comes bundled with a huge bunch of libraries. 4. It is general purpose enough. Read as, it has libraries that let you do anything, you&amp;rsquo;d possibly want to do. 5. There&amp;rsquo;s a lot of Python code around, that you can read andlearn from. ↩ You may have to learn to use a version control system; at the very least cloning and pulling updates. ↩ Org-mode is the only project that I really contribute to, actively. I really liked the way the community gels together and the kind of people on the list. There are some really knowledgeable, friendly and helpful people. It feels great to be a part of the community. ↩ There have been instances, where it took me half a day to fix something, that would&amp;rsquo;ve been fixed in about an hour by someone more comfortable with the code. But, I think everybody goes through this stage. This is how you learn. ↩ A few months ago, I was part of a sprint on the numpy-scipy eco-system. We had somewhere around 50 patches (a lot of them were documentation fixes) submitted to all the projects! Most of the people were submitting their first patch and I think it was a great opportunity for them to start. [I should try and get back to them.] ↩ Org-mode is really awesome, and I use it for everything I write. Blog posts are a big part of what I write, and so, I wanted to write them in orgmode. And so, org2blog was born. ↩ I recently wrote a Chrome extension, thanks to a friend&amp;rsquo;s idea. Inspired by Gmail notifications, a GitHub addict wanted notifications for activity in GitHub. ↩   </description>
+    </item>
+    
+    <item>
+      <title>Git powered wikis improved: My bit</title>
+      <link>https://punchagan.muse-amuse.in/blog/git-powered-wikis-improved-my-bit/</link>
+      <pubDate>Fri, 04 Feb 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/git-powered-wikis-improved-my-bit/</guid>
+      <description>I accidentally came across the blog-post Git-powered wikis improved - GitHub. And this particular paragraph caught my eye:
+ The new editor has the capability to support every markup language that GitHub Wikis support. If you&amp;rsquo;re a fan of Markdown, Textile, pod or RDoc, the function bar buttons (e.g. bold, italic, underline, etc.) will now work. We&amp;rsquo;ve even written brand new inline help for many of GitHub Wiki&amp;rsquo;s supported markup languages.
+The language definitions the editor uses are JSON-based and easy to edit. If you&amp;rsquo;d like us to support a markup language that we don&amp;rsquo;t currently support, Gollum, GitHub&amp;rsquo;s wiki software, is entirely open source &amp;ndash; fork our code and send us a pull request with changes that support your choice language.
+ I sent a quick patch for org-mode in the function bar, and it has been accepted. :)
+If not anything more, I hope, at least a couple of curious people will explore org-mode and find it useful.</description>
+    </item>
+    
+    <item>
+      <title>CHAGANTI 635888 Emacs</title>
+      <link>https://punchagan.muse-amuse.in/blog/chaganti-635888-emacs/</link>
+      <pubDate>Thu, 03 Feb 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/chaganti-635888-emacs/</guid>
+      <description>Puneeth Chaganti, hereby agrees as follows:
+Developer hereby agrees to assign and does hereby assign to FSF Developer&amp;rsquo;s copyright in changes and/or enhancements to the suite of programs known as GNU EMACS, including any accompanying documentation files and supporting files as well as the actual program code.
+ Yay! I can now write code, that can go into Org-mode and Emacs! I&amp;rsquo;m looking forward to this!</description>
+    </item>
+    
+    <item>
+      <title>Contributing to FOSS</title>
+      <link>https://punchagan.muse-amuse.in/blog/contributing-to-foss/</link>
+      <pubDate>Thu, 19 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/contributing-to-foss/</guid>
+      <description>gora asked for some good links (on ##linux-india) to redirect newbies, enthusiastic about contributing to FOSS.
+I dug up a few links from the web - some that I read, when I was starting off with using GNU/Linux and FOSS, others are newer links.
+Just making a note of them here; hoping someone would find it useful.
+ How to Become a Hacker - A definitive how-to on becoming a hacker. Answers all the right questions. :)
+ Philosophy of the GNU Project - This is the page, where I started. Thanks to Voodoo for giving me the link to this page. I distinctly remember that day. :) I&amp;rsquo;m going to pass on this link to any newbie who comes my way, no matter how much bashing I get from other FOSS evangelists.
+ 6 Easy Ways To Get Started Programming Open Source - A neat list giving steps to get started with programming for open source. I like #4. Understanding the social dynamics of the project is an important thing which is often overlooked by newbies.
+ OpenHatch - A community site to help newbies get started with contributing to FOSS. A cool site. Also, here is a story about OpenHatch.
+ Look at the Numbers! - an interesting paper giving quantitative data in support of using FOSS.
+ Ubuntu - Code of Conduct - A nice description of general conduct expected in any of the FOSS communities, not just Ubuntu.
+  I&amp;rsquo;d be happy to add any other links that any of you share. Thanks!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advice on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/advice/</link>
+    <description>Recent content in Advice on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 31 May 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/advice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PyCon India 2016 - Propose a talk</title>
+      <link>https://punchagan.muse-amuse.in/blog/pycon-india-2016-propose-a-talk/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pycon-india-2016-propose-a-talk/</guid>
+      <description> CFP for PyCon 2016 is open and you should propose a talk!
+There has been a lot of discussion on trying to improve the talk quality at the events. As my bit of contribution to this, below is a re-hash of some good advice from the internet on why you should give a talk, and how to submit a good proposal.
+Why?  You needn&amp;rsquo;t be an expert on a topic. If you have enough experience about something to help make the next person&amp;rsquo;s experience with it better, you are good.
+ Its a great way to find people who are interested in the same things as you are and to get to talk to them. If you are an introvert, you should definitely be speaking!
+ Proposing and giving a talk is about thinking about something hard enough to refine your thoughts, and being able to explain it to others. Its a useful skill to hone.
+  How?  Talks are entertainment. Pick a topic that you are excited about and fascinated by. Let it be a general topic that will have a significant number of people interested in it.
+ What you want the attendees to be telling their friends about your talk, after they go back. Make it the objective of your talk.
+ Submit a complete, clear and compelling proposal. Show the reviewers that you are willing to put in the effort to prepare for and to give a great talk. Here are a bunch of proposals to see and learn from.
+ Submit an outline along with your talk. Show the talk can be delivered in the given time and will be interesting. Include an indication of how much time you intend to spend on each part of your talk.
+ Choose a good title. The title is what catches the attention of your audience when they are trying to pick a talk. Avoid buzz words.
+ Get feedback. Like any writing, feedback can be helpful at all stages &amp;ndash; brainstorm while choosing topics to getting critique on the full abstract.
+ Convince the reviewers that you can give a well-rehearsed and entertaining &amp;ndash; link to previous talks you&amp;rsquo;ve given, include links to any testimonials you&amp;rsquo;ve received from your audience, etc. If you don&amp;rsquo;t have a previously recorded talk, give a small talk to your friends or colleagues and have it recorded.
+  References  PyCon US has some good advice on how to submit a proposal and most of it is generic enough for you to use for PyCon India, or any other conference.
+ These posts (1 2 and more) by Jesse Davis are so so good!
+ I also liked &amp;ldquo;The Talk on Talks&amp;rdquo; by Zach Holman.
+  </description>
+    </item>
+    
+    <item>
+      <title>Martin Fowler on Refactoring @ RubyRogues</title>
+      <link>https://punchagan.muse-amuse.in/blog/martin-fowler-on-refactoring-rubyrogues/</link>
+      <pubDate>Sat, 25 Oct 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/martin-fowler-on-refactoring-rubyrogues/</guid>
+      <description>I stumbled on a Ruby Rogues podcast yesterday, which had Martin Fowler as the guest. I really enjoyed the discussion on Refactoring (the noun, the verb and the book!)
+Martin clarified in the podcast that refactoring (the verb/process) is a sequence of very small refactorings, while you keep making sure that you can run the test suite always. A refactoring (noun) is a change where you change the structure of the code without any externally observable changes, with the intent of making it easier to understand and cheaper to change in future.
+I also really liked the metaphor of a &amp;lsquo;healthy code base&amp;rsquo;. Refactoring is, then, the process of keeping healthy &amp;ndash; exercise, speaking metaphorically. You can stack up all the exercise you need to do, until you get really unfit. Refactoring, similarly, needs to be done regularly, to keep the code base healthy. This lets you go faster, in the future.
+I also really liked the advise about trying to push back the mental contexts you build, while trying to debug/understand some code that is not very clear, by refactoring the code to make it clearer. Code needn&amp;rsquo;t be one big chunk of cryptographic text. Code is writing. It should be clear and understandable. Or, at least we should strive to make it so!
+The discussion, as always on this podcast, was very lively, pleasant and enjoyable! Enjoy!</description>
+    </item>
+    
+    <item>
+      <title>Best Practices for Scientific Computing</title>
+      <link>https://punchagan.muse-amuse.in/blog/best-practices-for-scientific-computing/</link>
+      <pubDate>Mon, 24 Dec 2012 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/best-practices-for-scientific-computing/</guid>
+      <description> Shantanu and I gave a short talk titled &amp;ldquo;Software Carpentry for Scientists&amp;rdquo; for the graduate students of Chemical Engineering department, IISc, this Friday. We gave a short introduction to Git, TDD, Numpy/Scipy, etc and mentioned a few things from Greg Wilson et al&amp;rsquo;s paper.
+I promised to revert to them with links to a few resources. I figured it would be more beneficial, if I just put it in a publicly available place.
+A summary of the paper by Greg Wilson et. al., is below.
+Useful resources Software Carpentry  Paper by Greg Wilson et. al. Software Carpentry  Git &amp;amp; version control  http://bit.ly/VfbOww http://karlagius.com/2009/01/09/version-control-for-the-masses/ http://try.github.com http://betterexplained.com/articles/a-visual-guide-to-version-control/ http://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/  TDD  http://software-carpentry.org/4_0/test/index.html https://www.google.co.in/?q=TDD+matlab  SciPy  http://scipy-lectures.github.com  Python  http://docs.python.org/tutorial  GUI tools in Python  http://code.enthought.com/projects/traits/docs/html/tutorials/traits_ui_scientific_app.html http://docs.enthought.com/traits http://docs.enthought.com/traitsui http://docs.enthought.com/enaml  Summary of paper by Greg Wilson et. al.  Write programs for people, not computers  a program should not require its readers to hold more than a handful of facts in memory at once. names should be consistent, distinctive and meaningful. code style and formatting should be consistent. all aspects of software development should be broken down into tasks roughly an hour long  Automate repetitive tasks  rely on the computer to repeat tasks save recent commands in a file for re-use use a build to automate scientific work-flows  Use the computer to record history  software tools should be used to track computational work automatically.  Make incremental changes  work in small steps with frequent feedback and course correction  Use version control  use a version control system everything that has been created manually should be put in version control  Don&amp;rsquo;t repeat yourself (or others)  every piece of data must have a single authoritative representation in the system code should be modularized rather than copied and pasted re-use code instead of rewriting it  Plan for mistakes  add assertions to programs to check their operation use an off-the-shelf unit testing library use all available oracles when testing programs turn bugs into test cases use a symbolic debugger  Optimize software only after it works correctly  use a profiler to identify bottlenecks write code in the highest-level language possible  Document design and purpose, not mechanics  document interfaces and reasons, not implementations refactor code instead of explaining how it works embed the documentation for a piece of software in that software  Collaborate  use pre-merge code reviews use pair programming when bringing someone new up to speed and when tackling particularly tricky problems use an issue tracking tool   </description>
+    </item>
+    
+    <item>
+      <title>Advice - Programming in Elisp</title>
+      <link>https://punchagan.muse-amuse.in/blog/advice-programming-in-elisp/</link>
+      <pubDate>Fri, 06 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/advice-programming-in-elisp/</guid>
+      <description>Below is a mail sent by Eric Schulte to the org-mode mailing list answering a query on how to write elisp for org-mode. I am reproducing it here, since it is useful advice for me. The actual thread is here.
+The way that I learned how to program in emacs lisp was mainly using two commands `elisp-index-search&amp;rsquo; bound to `C-h e&amp;rsquo; on my system, and most importantly `describe-function&amp;rsquo; bound to `C-h f&amp;rsquo;. With `describe-function&amp;rsquo; you can look at the source code of functions whose behavior you are familiar with, you can then copy portions of the code to your scratch buffer where they can be edited and evaluated with `eval-defun&amp;rsquo; bound to `C-M-x&amp;rsquo;. Now with Babel, instead of doing this in the scratch buffer you could do this in emacs-lisp code blocks in an org file, enabling notes and hierarchical organization &amp;ndash; it can be nice to have your noodling all collected in one file for later reference.
+If you are going to do any serious work with lisp, I would emphatically recommend using paredit-mode, and becoming friends with the Sexp movement functions
+C-M-f runs the command paredit-forward C-M-b runs the command paredit-backward C-M-u runs the command backward-up-list C-M-k runs the command kill-sexp C-y runs the command yank
+They allow you to manipulate lisp code on the level of logical expressions, the utility of which can not be over stated.
+As for working with Org-mode in particular, I&amp;rsquo;d recommend looking at the documentation and source-code of Org-mode functions with `describe-function&amp;rsquo;, and then looking for how these functions are actually used in the Org-mode code base with `rgrep&amp;rsquo;.
+For a more structured learning experience, I&amp;rsquo;ve heard very good things about http://www.gnu.org/software/emacs/emacs-lisp-intro/, although I haven&amp;rsquo;t used it myself.
+Hope this helps. Happy Hacking &amp;ndash; Eric</description>
+    </item>
+    
+  </channel>
+</rss>

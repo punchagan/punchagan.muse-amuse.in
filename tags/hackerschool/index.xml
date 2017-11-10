@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hackerschool on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/hackerschool/</link>
+    <description>Recent content in Hackerschool on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 17 Jan 2015 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/hackerschool/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>org-drill for making it stick!</title>
+      <link>https://punchagan.muse-amuse.in/blog/org-drill-for-making-it-stick/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org-drill-for-making-it-stick/</guid>
+      <description>Those who read the last few posts here, would know that I have been experimenting with org-drill (a spaced repetition extension to Org mode). I have been using the system (almost) religiously for the past 2 months, and I do find that it has helped a great deal! (in some respects). I have also spent a considerable amount of time trying to reduce the friction to put new stuff into the system, and am constantly on the look out for further improvements.
+Using this system has definitely helped with retention, and I find that I can recall quite a few things I have read a few weeks ago, that I would normally have been unable to. Though, I can recall a lot of information, I have been having a feeling of &amp;ldquo;fragmentation&amp;rdquo;: the feeling of just retaining individual bits/fragments of information, while losing out on actually internalizing the knowledge; not seeing the big picture, etc.
+Wozniak (the author of super-memo) warns against learning without understanding, and memorizing before actually learning stuff. I haven&amp;rsquo;t consciously added stuff into the system that I didn&amp;rsquo;t understand (when I added it), but, later it does feel like I have lost some connections or the understanding, and am only holding onto the fragments of information.
+The problems as explained in (read: as interpreted by me from) Make it Stick appear to be:
+ The understanding (if any) at the time of adding stuff into the spaced-repetition system is untested. It may just be familiarity masquerading as understanding.
+ The lack of any spaced repetitions for the overall concept/understanding and actual repetitions only for individual bits doesn&amp;rsquo;t help retention of the understanding (even if there was any, in the first place).
+  To work around this, I&amp;rsquo;m going to try adding questions that test understanding, to the system. The Super-memo team strongly recommends keeping the drill items small and easy to answer. This may be helpful in keeping each drill session short, but I would really like to add conceptual questions to the system, and see how it goes. I hacked org-drill to allow me to type out answers, before looking at the &amp;ldquo;correct&amp;rdquo; ones. This is an adaptation of a system that a fellow Hacker Schooler uses, and shared. Also, hopefully forcing myself to type out the answer will help me get around the problem of sometimes saying &amp;ldquo;yeah I know that&amp;rdquo;, then looking at the answer only to reaffirm the feeling of familiarity, rather than actually testing myself. I&amp;rsquo;m still going to continue adding quick and short questions that test &amp;ldquo;bits of information&amp;rdquo;, though. But, hopefully the additional conceptual questions are going to tie things together and help fill in the gaps. Lets see how this goes!
+For those interested, my hacks to org-drill below. The code is really a hack, and welcome any suggestions on cleaning up the code.
+(advice-add &#39;org-drill-presentation-prompt :around &#39;pc/org-drill-presentation-prompt) (defun pc/org-drill-presentation-prompt (old-fun &amp;amp;rest fmt-and-args) &amp;quot;A presentation prompt that allows capturing answers.&amp;quot; (let ((cb (current-buffer)) (heading (nth 4 (org-heading-components))) (entry-id (org-entry-get (point) &amp;quot;ID&amp;quot;)) (input &amp;quot;&amp;quot;)) (switch-to-buffer-other-window &amp;quot;*org-capture-drill-answer*&amp;quot;) (org-mode) (insert &amp;quot;# Hit C-c C-c once you are done answering!\n&amp;quot;) (org-insert-heading-respect-content) (insert (format &amp;quot;Answer: %s&amp;quot; heading)) (org-entry-put (point) &amp;quot;QUESTION_ID&amp;quot; entry-id) (goto-char (point-max)) (insert &amp;quot; &amp;quot;) (org-time-stamp-inactive &#39;(16)) (insert &amp;quot;\n\n &amp;quot;) (while (not (and input (equal input &amp;quot;&amp;quot;))) (ignore-errors (execute-kbd-macro input)) (setq input (read-key-sequence nil))) (switch-to-buffer-other-window cb) (apply old-fun fmt-and-args))) (advice-add &#39;org-drill-reschedule :around &#39;pc/org-drill-reschedule) (defun pc/org-drill-reschedule (old-fun) &amp;quot;Calls the original reschedule, but also archives the answer&amp;quot; (prog1 (funcall old-fun) (let ((cb (current-buffer))) (switch-to-buffer-other-window &amp;quot;*org-capture-drill-answer*&amp;quot;) (pc/org-refile-to-datetree &amp;quot;drill.org_archive&amp;quot;) (message (buffer-name)) (switch-to-buffer-other-window cb) (kill-buffer &amp;quot;*org-capture-drill-answer*&amp;quot;)))) (require &#39;org-datetree) (defun pc/org-refile-to-datetree (journal) &amp;quot;Refile an entry to journal file&#39;s date-tree&amp;quot; (interactive &amp;quot;fRefile to: &amp;quot;) (let* ((journal (expand-file-name journal org-directory)) (date-string (or (org-entry-get (point) &amp;quot;TIMESTAMP_IA&amp;quot;) (org-entry-get (point) &amp;quot;TIMESTAMP&amp;quot;))) (dct (decode-time (or (and date-string (org-time-string-to-time date-string)) (current-time)))) (date (list (nth 4 dct) (nth 3 dct) (nth 5 dct)))) (org-cut-subtree) (with-current-buffer (or (find-buffer-visiting journal) (find-file-noselect journal)) (org-mode) (save-excursion (org-datetree-file-entry-under (current-kill 0) date) (bookmark-set &amp;quot;org-refile-last-stored&amp;quot;))) (message &amp;quot;Refiled to %s&amp;quot; journal)))  </description>
+    </item>
+    
+    <item>
+      <title>OAuth2 demystified</title>
+      <link>https://punchagan.muse-amuse.in/blog/oauth2-demystified/</link>
+      <pubDate>Fri, 20 Jun 2014 10:09:51 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/oauth2-demystified/</guid>
+      <description>Motivation I was trying to pair on writing a simple app that uses Hacker School&amp;rsquo;s OAuth2 API, and hit a roadblock on the first step of requesting an authorization from the user. Once the user authorized my app, I would see an error that said, &amp;ldquo;The authorization server does not support this response type&amp;rdquo;. I was using a client library that I had used before, and the server was using a what seemed like a popular implementation for ruby on rails. Getting weird errors is not done!
+I have used OAuth2 based authentication before, but the thought of using it always makes me a little nervous, just because
+ I don&amp;rsquo;t understand it very well. Like almost everything else, there seem to be so many libraries for doing this in Python, and I&amp;rsquo;m never sure which one to use, or which one I used the last time around. Not understanding the protocol also doesn&amp;rsquo;t let me debug anything that comes up.  To fix this, I set about to read and understand the OAuth2 protocol. This blog post is an attempt to record it for future reference, and possibly act as a reference for others.
+Why OAuth OAuth is simply a way for an end-user to allow third parties to use protected data, without sharing the user&amp;rsquo;s credentials with the third-party.
+For example, an end-user (Jane) can grant a printing service (Printo) access to her protected photos stored at a photo-sharing service (Picasa), without sharing her username and password with the printing service. Instead, she authenticates directly with a server trusted by the photo-sharing service, which issues the printing service delegation-specific credentials. (example from the OAuth 2.0 spec)
+Protocol Flow The flow occurs through a sequence of user actions, client requests and user-agent (browser) redirects.
+ (A) Printo asks Jane to allow using Picasa Data. The request can be sent directly to Jane, but is usually routed via Picasa/Google.
+ (B) Printo gets back an authorization grant, which is a credential representing Jane&amp;rsquo;s authorization or approval. The type of the actual grant credential depends on the type of request that Printo used.
+ (C, D) Printo gets back to Google with the credentials it obtained in the previous step and obtains a token that it can use to talk with Picasa.
+ (E, F) Printo asks for the desired photo with the token it obtained previously, and Picasa gives back the photo to print. Jane gets her framed photo!
+  But before any of this happens, the client needs to register with the authorization server and obtain a client_id and client_secret, that will be used to identify the client making the requests.
+Pythonized &amp;ldquo;authorization code&amp;rdquo; work-flow. The OAuth2 spec allows the authorization request/grant to be of 4 different types. It also allows some flexibility in the token type.
+In my experience, the most common work-flow seems to be using an authorization code as an authorization grant, and using a Bearer type token. This work-flow is explained in the diagram below (taken from the spec document). This diagram zooms in, onto the steps A-D in the diagram above.
+This python code snippet is a simple implementation of this workflow, using the Hacker School API.
+ Conclusion I think, I understand the OAuth2 spec a lot better now, and hope that this will help others understand it, too. And more importantly, I won&amp;rsquo;t get nervous when I have to add it to my projects.
+Also, oauthlib for Python seems to be a pretty thorough implementation of the spec, and requests-oauthlib seems to wrap it for use with requests. I think I&amp;rsquo;m going to use this in my future projects.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elixir on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/elixir/</link>
+    <description>Recent content in Elixir on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 19 Aug 2014 13:11:49 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/elixir/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-08-18</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-18/</link>
+      <pubDate>Tue, 19 Aug 2014 13:11:49 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-18/</guid>
+      <description> I refactored the API-diff code, and am pretty happy with what I have right now, and need to add support for diffing Classes. I&amp;rsquo;m considering using Atstroid instead of Python&amp;rsquo;s ast module, since some of the work that I want to do, has already been done for me. With the white-boarding group, we worked on a set of simple exercises for strings and arrays. José Valim&amp;rsquo;s presentation on Elixir was interesting and got me reading up a stuff about concurrency, and related stuff. Thanks!  </description>
+    </item>
+    
+  </channel>
+</rss>

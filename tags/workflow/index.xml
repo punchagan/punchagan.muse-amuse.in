@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflow on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/workflow/</link>
+    <description>Recent content in Workflow on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 19 May 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tedium in work-flows</title>
+      <link>https://punchagan.muse-amuse.in/blog/tedium-in-work-flows/</link>
+      <pubDate>Thu, 19 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/tedium-in-work-flows/</guid>
+      <description>I use Nikola for generating this blog. When creating a new post, it prompts for a title, and creates a file for the post.
+Often I&amp;rsquo;m starting off with only a vague idea that needs to be fleshed out before it can be published (or discarded). It is quite difficult to come up with a title at this stage. I just want to start a draft and write things down!
+I could use a &amp;ldquo;draft-title&amp;rdquo; and change it after finishing a post, but this feels tedious &amp;ndash; requires 3 steps &amp;ndash; change the title, post filename and post slug. The last two steps are optional, really, but I feel they are important especially when the original title is very different from the new one.
+Being forced to come up with a title before anything else, feels tedious and, adds to the effort required to start off a new post. I shouldn&amp;rsquo;t really be worrying about the effort required to change the title of an unwritten post, but it happens subconsciously.
+To work around this, I now have a &amp;ldquo;re-title utility&amp;rdquo; in my editor that takes care of all the tedious details. I can start with a random title, like Draft-1, and change it when I&amp;rsquo;m done with the post. I feel this is going to lead to a lot more drafts, at the very least, if not published posts.
+Another work-flow related thing I came across recently was @Malabarba&amp;rsquo;s issue on CIDER (an IDE for Clojure in Emacs). The REPL takes a while to startup and this caused him to not use CIDER for running tests, if there wasn&amp;rsquo;t an already open REPL.
+The tedium that people feel effects how they use the tool. Not surprisingly, making tedious-feeling tasks a breeze with the tool also effects how and how much they use it. Subtle variations in a work-flow could make or break it. How do you discover such potential work-flow make-or-break-ers? I think, these things would help:
+ Use the tool yourself (dog-food) Talk to (or watch!) people using your tool Look at work-flows in other similar tools Thinking explicitly about various scenarios and simplifying or improving work-flows  I&amp;rsquo;d love to hear examples of this, and any ideas or thoughts you may have on identifying and fixing such things!</description>
+    </item>
+    
+  </channel>
+</rss>

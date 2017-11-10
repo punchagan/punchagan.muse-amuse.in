@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>List on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/list/</link>
+    <description>Recent content in List on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sun, 29 Aug 2010 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/list/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>org2blog on the web</title>
+      <link>https://punchagan.muse-amuse.in/blog/org2blog-on-the-web/</link>
+      <pubDate>Sun, 29 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org2blog-on-the-web/</guid>
+      <description>Well, it&amp;rsquo;s been a week of lull on my blog. Not that I&amp;rsquo;m very busy. But, just didn&amp;rsquo;t have anything to post. I was feeling jobless today and searched the web for org2blog users. Here is what I found.
+ This is a test post from org2blog
+ Posting from emacs and org-mode
+ Vim vs Emacs, or why it really doesn’t matter
+ Posting subtree from org-mode buffer (take 2)
+ Here’s a test post to wordpress for Org2blog – an Emacs plugin
+ Primeiro post usando org2blog
+ Emacs中绘图－ ditaa篇
+ org2blog on identi.ca
+ Marcel van der Boom &amp;ndash; StatusNet
+  </description>
+    </item>
+    
+  </channel>
+</rss>

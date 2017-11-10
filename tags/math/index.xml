@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/math/</link>
+    <description>Recent content in Math on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Wed, 21 Jul 2010 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sage Days 25, Mumbai, India</title>
+      <link>https://punchagan.muse-amuse.in/blog/sage-days-25-mumbai-india/</link>
+      <pubDate>Wed, 21 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/sage-days-25-mumbai-india/</guid>
+      <description> What is &amp;lsquo;Sage Days&amp;rsquo;? Sage Days is a confluence of present and prospective SAGE Users and Developers. It is an opportunity to come together to share ideas, brainstorm and hack on Sage. Sage Days 25 is the 25th version of Sage Days, and is being organized in Mumbai, India. In order to cater to an Indian audience and scenario, this version has been tweaked slightly. Sage Days 25 has beginner level tutorials, in addition to the usual talks and sprints, to help new users get started with Sage and help promote the use of Sage in India.
+What is Sage? Sage is a free, open-source mathematics software system licensed under the GPL. It combines the power of numerous existing open-source packages into a common Python-based interface. It&amp;rsquo;s mission is to create a &amp;ldquo;viable free open source alternative to Magma, Maple, Mathematica and Matlab&amp;rdquo;. Sage has tools for a broad range of mathematical areas like Linear Algebra, Calculus, Symbolic Math, Plotting, Rings &amp;amp; Groups, Graph Theory, Number Theory and Cryptography. Essentially, &amp;ldquo;it can do anything from mapping a 12-dimensional object to calculating rainfall patterns under global warming&amp;rdquo; - as Science Daily puts it . Eager to get started? Start here. Apart from being feature rich, it&amp;rsquo;s usability is one of it&amp;rsquo;s greatest strengths. Sage Notebook, a web-interface for all the math you&amp;rsquo;ll ever want to do, is really the killer feature! As the Sage Marketing page says, &amp;ldquo;The SAGE GUI surely works on your computer box, because it just runs in Firefox!&amp;ldquo;. Try it Now!
+Why should you attend? Sage Days 25 is being attended by the creator and lead developer of Sage, Prof. William Stein. It will also be attended by other developers of Sage. This would be a great opportunity to meet and interact with them! The conference will be attended by a plethora of enthusiastic people from all over the country who use Sage or are interested in doing so. The conference will also see the presence of many mathematicians interested in software. Who knows, you may run into someone you&amp;rsquo;d want to collaborate with, for your future work! This event will be a great learning experience, if you are even remotely interested in math and software for it!
+When and Where?  Venue: IIT-Bombay, Mumbai, India Dates: August 9-12, 2010 Tentative Schedule Register Here Click here for more info  </description>
+    </item>
+    
+    <item>
+      <title>Mathematics and Me</title>
+      <link>https://punchagan.muse-amuse.in/blog/mathematics-and-me/</link>
+      <pubDate>Tue, 06 Mar 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/mathematics-and-me/</guid>
+      <description>Imagine a kid reading Shakespeare&amp;rsquo;s Othello or As You Like it&amp;hellip;[or may be some other classic poem&amp;hellip;] with great difficulty he somehow manages to read the whole thing&amp;hellip; [with all the archaic language etc..] he understands the basic plot and the story and likes it&amp;hellip; but will he be able to appreciate the work? Will he be able to see the beauty of it?? Isn&amp;rsquo;t a good knowledge of Language a bare essential for one to enjoy a Literary work??
+Now consider a layman&amp;hellip; listening to Classical [say Carnatic] Music&amp;hellip; if he&amp;rsquo;s got no knowledge of the Basic structure and organisation of Music in general or a Raga in particular.. then he may enjoy the musical work&amp;hellip; listen to it happily&amp;hellip;. but will he get the taste of its nectar from the fine intricacies in it?? Isn&amp;rsquo;t a basic sense of Music&amp;hellip; a knowledge of the language of Music necessary to understand the fine points of a Musical piece??
+Isn&amp;rsquo;t the case similar with Science [Feynman says nature..]?? Without a proper knowledge base in Mathematics.. how would I possibly understand and appreciate Physics/Science (in general..) and Relativity in particular?? [I got this feeling, after class today, for the zillionth time&amp;hellip;] How can I possibly enjoy a course in Relativity without a proper Math background???
+I need to learn a lot of Mathematics.. its high time I do it&amp;hellip; :(
+To those who do not know mathematics it is difficult to get across a real feeling as to the beauty, the deepest beauty, of nature &amp;hellip; If you want to learn about nature, to appreciate nature, it is necessary to understand the language that she speaks in. &amp;ndash;Richard P. Feynman</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ios on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/ios/</link>
+    <description>Recent content in Ios on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 01 Jul 2014 18:42:48 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-06-30</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-30/</link>
+      <pubDate>Tue, 01 Jul 2014 18:42:48 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-30/</guid>
+      <description> During the weekend, I read up a lot about HMMs and related stuff. During the day, I tried to start writing code for different parts of the pipeline, and ended up reading about Mel frequency cepstrum related stuff, and wrote a little bit of code. Later, in the afternoon I paired with some of his iOS code, and helped him clean up some of it. I&amp;rsquo;m not sure how useful it was for him to pair with me, but &amp;hellip; The day ended with a talk by Jesse at EBay, titled Write an Excellent Programming Blog. I had already read up his blog post, when the talk was announced, and so, most of the content was known, but the Q&amp;amp;A session had some interesting suggestions on how to improve your actual writing.  </description>
+    </item>
+    
+  </channel>
+</rss>

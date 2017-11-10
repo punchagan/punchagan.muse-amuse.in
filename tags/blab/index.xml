@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blab on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/blab/</link>
+    <description>Recent content in Blab on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 28 Sep 2017 00:46:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/blab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HT interactives</title>
+      <link>https://punchagan.muse-amuse.in/blog/ht-interactives/</link>
+      <pubDate>Thu, 28 Sep 2017 00:46:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/ht-interactives/</guid>
+      <description>I recently discovered the interactives by HindustanTimes, and thoroughly loved some of them. It felt like a fresh breath of air amongst all the other Indian data driven journalism that I have been coming across in the recent past.
+The visualizations are a lot more interactive than some of the other Indian publications. These remind me of NYT&amp;rsquo;s interactives, which are amongst the best you&amp;rsquo;d see, while more often than not exploring data in the Indian context. I really like that they explore a variety of ways of doing these visualizations, and don&amp;rsquo;t just fit the data into one of the many standard options available in a visualization library.
+It feels like they are willing to take their time to do these visualizations, and are willing to collect data from multiple sources, and combine multiple datasets to tell a story. I also like the fact that the visualizations and the articles are more open-ended, allowing users to interact with and explore the data, rather than trying to come up with an article full of conclusions with a click-baity title. The fact that one of the sections is called Just for Fun speaks to me.
+The data and the code used in most of these interactives is open and available on GitHub, which is nice!
+On the whole, I think they are doing pretty good work, and I shall be on the lookout for even better stuff from them. I&amp;rsquo;m sure I&amp;rsquo;ll pick up a thing or two from their work, in my projects. Hopefully, other teams doing similar work will also learn from there and produce more good stuff for greedy readers like me.</description>
+    </item>
+    
+    <item>
+      <title>Back, Hopefully</title>
+      <link>https://punchagan.muse-amuse.in/blog/back-hopefully/</link>
+      <pubDate>Fri, 01 Sep 2017 22:47:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/back-hopefully/</guid>
+      <description>I haven&amp;rsquo;t written anything here for almost a year. I needed to break the silence. So, here we go with a not-so-useful post showing how frequently I have been posting to this blog, to get a sense of how long this break has been in comparison to other silences in the past.
+Neither the code below, nor the plots are very insightful. But, I just hope this will get me started on the path to blogging more regularly. See you around!
+Parsed post content I wrote some code to parse the content of the blog, and each post object looks something like this:
+{&#39;date&#39;: datetime.datetime(2010, 3, 17, 18, 30, tzinfo=&amp;lt;UTC&amp;gt;), &#39;draft&#39;: False, &#39;tags&#39;: [&#39;blab&#39;, &#39;life&#39;, &#39;poem&#39;], &#39;title&#39;: &#39;Just another bunch&#39;} Post count: 190  Post frequency by year import pandas posts = pandas.DataFrame(posts) counts = posts[&#39;date&#39;].groupby(posts[&#39;date&#39;].dt.year).count() plot = counts.plot(kind=&#39;bar&#39;, figsize=(8, 6)) plot.set_xlabel(&#39;Years&#39;) plot.set_ylabel(&#39;# of posts&#39;)   Post frequency by month # Add a DatetimeIndex to the Dataframe posts.index = pandas.DatetimeIndex(posts[&#39;date&#39;].values) counts = posts[&#39;date&#39;].groupby(pandas.TimeGrouper(&#39;M&#39;)).count() ax = counts.plot(kind=&#39;bar&#39;, figsize=(12, 8)) n = 5 ticks = ax.xaxis.get_ticklocs() labels = counts.index.strftime(&#39;%Y-%m&#39;) labels = ax.xaxis.set_ticklabels(labels[::n]) ticks = ax.xaxis.set_ticks(ticks[::n]) ax.set_xlabel(&#39;year-month&#39;) ax.set_ylabel(&#39;# of posts&#39;)   Work-flow I jumped onto the hugo bandwagon too.
+I was totally impressed by how fast it is, and have been meaning to try it out for a while, but wasn&amp;rsquo;t impressed with the built-in org-mode support it came with. This changed when I finally came across the ox-hugo package that does a wonderful job of exporting blog posts from an org file to hugo&amp;rsquo;s markdown format. I have contributed a couple of patches to it, to make it work better for myself and hopefully for others too.
+Also, for this post, I used ob-ipython with the enhancements from scimax and it has really made the whole experience quite enjoyable.
+Among other things, I think one of the reasons for those peaks in the second half of 2010, was having a smooth work-flow. My current work-flow feels pretty nice too, and I hope it&amp;rsquo;ll reduce some of the friction in writing more posts.
+Onwards!</description>
+    </item>
+    
+    <item>
+      <title>What I liked 2016-09-04</title>
+      <link>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-09-04/</link>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-09-04/</guid>
+      <description>This week was a busy one, and I didn&amp;rsquo;t really consume too much web content.
+A colleague mentioned that he was reading the book &amp;ndash; The Millennial Project: Colonizing the Galaxy in Eight Easy Steps and it seemed to have some interesting ideas that I&amp;rsquo;ve never come across before.
+The Berklee Indian Ensemble performed at the Bengaluru Ganesh Utsava and I went along with Sunil to their performance, which we thoroughly loved.
+I liked some of Chet Baker instrumentals that I listened to this week.</description>
+    </item>
+    
+    <item>
+      <title>What I liked 2016-08-28</title>
+      <link>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-08-28/</link>
+      <pubDate>Mon, 05 Sep 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-08-28/</guid>
+      <description>I liked this article advising developers on having healthy relationships. Most of it is common sense stuff &amp;ndash; &amp;ldquo;Whether it be a side project or main project, understand that sacrificing relationships isn&amp;rsquo;t worth it.&amp;rdquo;
+I really enjoyed this article by Priyanka on how she started talking to Auto Drivers. She shares a bunch of stories of drivers she talked to, that makes me wonder how many more such stories just go unheard, because I don&amp;rsquo;t talk.
+@scopatz wrote up a nice argument explaining why @github should add back BSD to the list of licenses shown on the site. It taught me a thing or two about BSD and MIT.
+I enjoyed spending the weekend at @mavin&amp;rsquo;s place, discussing continuous improvement in life, among other things. Also, had a lot of fun playing Psyche. The game is so addictive, but the app is not all that great. Someone should make a more robust app for this, or something that piggybacks on an existing network service like Telegram or Facebook chat or Google hangouts.
+Falling In Love At A Coffee Shop by Landon Pigg is a lovely song, that I discovered this week.</description>
+    </item>
+    
+    <item>
+      <title>What I liked 2016-08-21</title>
+      <link>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-08-21/</link>
+      <pubDate>Mon, 29 Aug 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-08-21/</guid>
+      <description>Vox has a nice short video on shutting up about the y-axis &amp;ndash; It&amp;rsquo;s long past time to say no to y-axis fundamentalism, they say.
+The New York Times has a great visual history of which countries have dominated the Summer Olympics.
+This story of Dipa by ESPN is an inspirational read.
+An old post on a Frameless Geodesic Dome that Bruce Hauman (of Figwheel fame) built himself is very cool!
+This article on India&amp;rsquo;s Gozoomo shutting down shop and returning VC money is heartening and gives me some hope about startups in India.</description>
+    </item>
+    
+    <item>
+      <title>What I liked 2016-08-14</title>
+      <link>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-08-14/</link>
+      <pubDate>Mon, 22 Aug 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-08-14/</guid>
+      <description>NYTimes has been doing some amazing visualizations for the Olympics and this time lapse visualization of Bolt&amp;rsquo;s 100m Gold is great!
+The History Project produced a book called Partitioned Histories that tries to contrast the narratives of India and Pakistan on their histories using school history text books. What a great idea!
+This video about the Sunshine Orchestra being trained and tutored by Rahman and his KM Music Conservatory is touching.
+Julia Evans&amp;rsquo; posts on how to decide and think about what to work on are great. &amp;ldquo;Even reliably recognizing good ideas is hard!&amp;rdquo;, she says, and this resonates with me. Writing a release email as a way to think about why you are doing something is great!
+Jasdev wrote about his monthly check-ins with friends. I thought they were such a great idea - simple, yet, powerful. &amp;ldquo;The only regret I have about these checkins is not starting sooner.&amp;ldquo;, he writes.
+This Vox article on America&amp;rsquo;s increasing wealth gap along racial lines is really well done and thought provoking.</description>
+    </item>
+    
+    <item>
+      <title>What I liked 2016-08-07</title>
+      <link>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-08-07/</link>
+      <pubDate>Tue, 16 Aug 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-08-07/</guid>
+      <description>Great visualizations about how global temperatures have been changing in the last ~165 years. If you are still a global warming skeptic, you definitely must see them.
+These visualizations of Michael Phelps&amp;rsquo; performances at Olympics over the years by NYTimes are great, too!
+I came across these delightful videos (1, 2) of girls and boys playing cricket at Haji Public School. Look ma, no sexism in coverage of sports.
+This (Telugu) interview of Dr Jayaprakash Narayan is truly inspiring. Also, YouTube recommended his conversation with Sadhguru Jaggi Vasudev, which was unexpectedly insightful, and covers a wide variety of topics &amp;ndash; spirituality, religion, social organizations, politics, socialism vs. capitalism.</description>
+    </item>
+    
+    <item>
+      <title>What I liked 2016-07-31</title>
+      <link>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-07-31/</link>
+      <pubDate>Mon, 08 Aug 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-07-31/</guid>
+      <description>Lots of Olympics stuff this week!
+I really liked this ad - Rukna Nahi Hai - wishing all the Olympians a wonderfully spirited competition, at Rio. Go!
+Brazilian marathoner Vanderlei Cordeiro de Lima, the man who lit the Olympic flame, inspires me with his spirit.
+This story of Mohan Kumar from Ambattur, a Chennai suburb is inspiring. &amp;ldquo;Now I am on the relay team. But in the next Olympics, I want to qualify for the individual event. That&amp;rsquo;s my aim.&amp;ldquo;, he says.
+@vandith recommended the Nike+ Training App to me and I really like it. They have some amazing workouts and pretty neat personalized workout plans.
+Coke Studio Pakistan is trying a delightful experiment with their show this time &amp;ndash; they are trying to use lights and vibrations to let the hearing-impaired experience the music on their show better!
+Sainath&amp;rsquo;s keynote at Film Writers Association conference was yet another of his thought-provoking speeches. He sends you down a spiral of thought, when he says, &amp;ldquo;How agonised we are when people die, and how untroubled we are by how they live&amp;rdquo;. I also enjoyed watching his (long) casual chat from an year ago, talking about his life and influences on him.
+David Sassoon the founder of InsideClimate News writes about Non-Profit journalism, the need for it, and how to have more of it. He writes about it in the American context, but India has its own share of troubles. I consume quite a bit of news from independent sources, but don&amp;rsquo;t really contribute to keep them going. I should turn this around.
+A bunch of residents of Urur Olcott Kuppam in Chennai responded to media&amp;rsquo;s broken coverage of TM Krishna&amp;rsquo;s Magsaysay award. I really liked how assertive they were about their role in the music festival, its role in their lives, and in clarifying how they see their fishing village as opposed to how the media portrayed it. They don&amp;rsquo;t mince any words.
+You can find my older weekly posts like this here.</description>
+    </item>
+    
+    <item>
+      <title>What I liked 2016-07-24</title>
+      <link>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-07-24/</link>
+      <pubDate>Sun, 31 Jul 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-07-24/</guid>
+      <description>This week was relatively quiet for me. But, here&amp;rsquo;s what I liked, mostly from my twitter timeline. If you follow me on twitter, there may not be anything new for you.
+This short video on how Nima made it to Ultimate&amp;rsquo;s most prestigious tournament made me cry each time I watched it. And movies/videos rarely make me cry.
+Sacha Chua writes about her baby&amp;rsquo;s Microphthalmia and says this &amp;ndash; &amp;ldquo;She&amp;rsquo;ll make an awesome pirate. Or cyborg. Or cyborg pirate. If she wants.&amp;rdquo; Woah!
+I discovered Rains Of Castamere by Krish Ashok and loved it. Some looping happened!
+@varungrover wrote argued for using better insults than &amp;lsquo;Presstitue&amp;rsquo; and I agree. I have had similar thoughts on the other insults he talks about.
+This tweet thread got me thinking about speaking up, and standing up, and how people fail to do it, and what could help prevent these failures.
+This picture of kids praying at Haji Public School gave me hope.</description>
+    </item>
+    
+    <item>
+      <title>What I liked 2016-07-03</title>
+      <link>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-07-03/</link>
+      <pubDate>Wed, 27 Jul 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-07-03/</guid>
+      <description>I really enjoyed reading the full judgement given by the Madras High Court in the Perumal Murugan case. The court said something on the lines of: not all art may be for everyone, and if you don&amp;rsquo;t like a book, throw it away. The judgement also made it clear that it is the responsibility of the state to ensure that things don&amp;rsquo;t go haywire using appropriate measures, and banning things left, right and center is not the way to deal with it.
+This letter that a Law professor wrote in response to a student&amp;rsquo;s complaint about him wearing a Black Lives Matter t-shirt is superb!
+Gabriel Weinberg&amp;rsquo;s post with a list of mental models that he found repeatedly useful has been great. There have also been some great comments on it! I wish to keep going back to the post.
+Anaghs shared a summary of Brian Christain&amp;rsquo;s Algorithms to Live By and the books seems really interesting. Added it to my reading list.
+This ad by BigBazaar for Eid touched a chord.
+Black Mirror&amp;rsquo;s The Entire History of You totally got to my head, and if you are interested in the future of technology and human behavior, I highly recommend watching this episode, if not all the episodes. Thanks to @9 for the recommendation.
+Calvin and Hobbes&amp;rsquo; Search is a fun project - search for Christmas, Life and Universe and enjoy the wisdom!
+Sowmya Rajendran&amp;rsquo;s post on how the menstrual cup touched her life more than anything else after the Internet, was an interesting read.
+The lights in the audience truly look &amp;ldquo;amazingly beautiful&amp;rdquo; in this Coldplay video.
+I&amp;rsquo;ll try and post things that made me happy or touched my heart, each week.</description>
+    </item>
+    
+    <item>
+      <title>What I liked 2016-07-10</title>
+      <link>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-07-10/</link>
+      <pubDate>Wed, 27 Jul 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-07-10/</guid>
+      <description>Airtel&amp;rsquo;s response to @karthikb351&amp;rsquo;s write up on how they are sniffing and censoring CloudFlare&amp;rsquo;s traffic in India was funny but sad, though, not totally unexpected. For instance, see @kingslyj&amp;rsquo;s version of how this might end.
+I loved this interview with Amanda Palmer where she talks about her stolen Ukulele, Music, her dad and her baby and her love for life comes across, like in everything else she does. &amp;lsquo;I want to get a couple of T-shirts printed for me and the baby that say: &amp;ldquo;We are determined to enjoy ourselves&amp;rdquo;&amp;lsquo;, she says.
+A year old but inspiring article on Serena Williams, shared by @baali. I like how she says, she&amp;rsquo;s opening the next door for the next person, like the many people who opened many doors for her. @baali also recommended this song from Neerja as background music, and I loved it!
+Pierre buttin&amp;rsquo;s screenshot art is amusing and gives a sense of how distracted he is, each day of the week, and how distracted we are, as a people.
+We were walking through the fields and bushes in Hampi and stopped at the gate of a private property. A bearded man with a calm look on his face asked us &amp;ldquo;Do you know where you are headed?&amp;ldquo;. And then let us walk across his beautiful nature home to the other side, where we found this amusing sign.
+Finally, this Nike India ad on Women in Sport is great!</description>
+    </item>
+    
+    <item>
+      <title>What I liked 2016-07-17</title>
+      <link>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-07-17/</link>
+      <pubDate>Wed, 27 Jul 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/what-i-liked-2016-07-17/</guid>
+      <description>@9 shared this story about Peter Norman. Woah, so inspirational!
+This conversation with Amitav Ghosh on his latest book The Great Derangement is pretty scary! He says, &amp;ldquo;You know that this great derangement is ultimately going to lead to a great unraveling, but to see it working itself out, day after day, in the news, it&amp;rsquo;s so terrifying. I mean, it&amp;rsquo;s here, it&amp;rsquo;s happening. You may not see it a direct connection between the events happening in the world today and the climate in general, but that relationship does exist. In Syria, everything started with a great drought. The Middle East, this entire Mediterranean region, is going through a historic drought. And if you think about how this tumult in the Arab world began, it was with protests over food in Tunisia. So what we&amp;rsquo;re facing really, if you like, is a catastrophic convergence of natural impacts and human impacts.&amp;rdquo; I ended up buying the book at Bookworm.
+This IndiaSpend article on how quotas have helped the disadvantaged caste students is a really well written article, with informative charts.
+Kenneth Reitz released Episode-2 of Import This, a podcast that I wasn&amp;rsquo;t aware of and ended up listening to Episode-1. I really liked the discussion on being considerate to others in communities that you are part of. The quote that this episode ends with, &amp;ldquo;Software is all about the people. Don&amp;rsquo;t dismiss them. Don&amp;rsquo;t dismiss their experience.&amp;ldquo;, resonated well with me.
+Julia Evans&amp;rsquo; how to be a wizard programmer sketch is rad! (tweet).
+I watched the movie Blind Side (2009) with friends, and really liked it. SJ and Oher together, they are a blast!</description>
+    </item>
+    
+    <item>
+      <title>Assist time</title>
+      <link>https://punchagan.muse-amuse.in/blog/assist-time/</link>
+      <pubDate>Tue, 14 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/assist-time/</guid>
+      <description>I sometimes hang out on #org-mode or #nikola and answer questions. I usually am not able to answer off the top of my head and I look up docs or dig through the code. Sometimes, we find ready-made documented answers, but other times we end up contributing some documentation, filing an issue, submitting a patch or hacking up something for that super-special use-case.
+Until now, I looked at this time as IRC time, which loosely translates to distraction time. But, I&amp;rsquo;m usually learning about the tools I use a little bit more. Even when I&amp;rsquo;m not, I&amp;rsquo;m helping someone do something they want to do. Sometimes empowering them to fix future problems on their own. And indirectly making the user community a wee-bit happier, and possibly the software a tiny bit better.
+This isn&amp;rsquo;t limited just to helping someone on IRC. Helping out a co-worker do something that they are new to, or just adding a comment or editing a Stack-overflow answer may end up in the &amp;ldquo;distraction time&amp;rdquo; bin, just because you weren&amp;rsquo;t doing something on your TODO list. It needn&amp;rsquo;t be.
+Taking cue from scorers in Football, I decided to call this time assist time and to try to start seeing this time as (semi-)productive. Naming helps.</description>
+    </item>
+    
+    <item>
+      <title>Effortful things</title>
+      <link>https://punchagan.muse-amuse.in/blog/effortful-things/</link>
+      <pubDate>Sat, 11 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/effortful-things/</guid>
+      <description>That dense book you want to read but has been lying on your desk while you procrastinate on twitter. You know you&amp;rsquo;ll have to tune everything else out, and read slowly, word by word, trying to understand and make sense.
+That vague blog post idea swirling in your head while you look at cat pictures, one after another. Distilling your thoughts and putting them down for general consumption is a lot of thinking and effort away.
+That ${cool_programming_thing} that a talk got you excited about so long ago. But, watching talks and intending to start using it is all you do about it. You know its going to take a fair amount of reading, thinking and time, before you can really use it well.
+Like all those squats and lifts you dread, these things are building your muscle. The thing about building muscle &amp;ndash; it needs effort and feels like so much hard work.
+You can&amp;rsquo;t build muscles effortlessly. Go do those effortful things! Only if you care about those muscles, anyway.</description>
+    </item>
+    
+    <item>
+      <title>Stepping AFK</title>
+      <link>https://punchagan.muse-amuse.in/blog/stepping-afk/</link>
+      <pubDate>Fri, 03 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/stepping-afk/</guid>
+      <description>In the past few weeks, I noticed three instances where I was forced to take a break exactly when I was ready to jump in and write some code to fix a bug or add a small feature. I had to step out of the house and take a walk to meet someone, etc.
+I ended up getting ideas during the walks, which significantly changed and simplified how I would&amp;rsquo;ve implemented things, if not for those breaks. Even if I did end up zeroing down to those solutions, I am pretty sure it would&amp;rsquo;ve taken a couple of not-so-good attempts and much longer than it did.
+Context switches are usually considered to be expensive for programmers, but taking a break at the exact time when I had all the required context loaded into my head seemed to help. It was also probably helpful that I was taking a walk, and there wasn&amp;rsquo;t really any other inputs or outputs competing for the space in my head.
+This got me thinking about doing this more deliberately &amp;ndash; I&amp;rsquo;d love to hear about any experiences or any experiments any of you have done with this. Also, I&amp;rsquo;m reminded of Rich Hickey&amp;rsquo;s Hammock Driven Development talk and I wonder if this is a smaller/different version of it, and makes me want to try out the things he suggests more deliberately. If any of you has thoughts and suggestions, I&amp;rsquo;d love to hear from you!</description>
+    </item>
+    
+    <item>
+      <title>PyCon India 2016 - Propose a talk</title>
+      <link>https://punchagan.muse-amuse.in/blog/pycon-india-2016-propose-a-talk/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pycon-india-2016-propose-a-talk/</guid>
+      <description> CFP for PyCon 2016 is open and you should propose a talk!
+There has been a lot of discussion on trying to improve the talk quality at the events. As my bit of contribution to this, below is a re-hash of some good advice from the internet on why you should give a talk, and how to submit a good proposal.
+Why?  You needn&amp;rsquo;t be an expert on a topic. If you have enough experience about something to help make the next person&amp;rsquo;s experience with it better, you are good.
+ Its a great way to find people who are interested in the same things as you are and to get to talk to them. If you are an introvert, you should definitely be speaking!
+ Proposing and giving a talk is about thinking about something hard enough to refine your thoughts, and being able to explain it to others. Its a useful skill to hone.
+  How?  Talks are entertainment. Pick a topic that you are excited about and fascinated by. Let it be a general topic that will have a significant number of people interested in it.
+ What you want the attendees to be telling their friends about your talk, after they go back. Make it the objective of your talk.
+ Submit a complete, clear and compelling proposal. Show the reviewers that you are willing to put in the effort to prepare for and to give a great talk. Here are a bunch of proposals to see and learn from.
+ Submit an outline along with your talk. Show the talk can be delivered in the given time and will be interesting. Include an indication of how much time you intend to spend on each part of your talk.
+ Choose a good title. The title is what catches the attention of your audience when they are trying to pick a talk. Avoid buzz words.
+ Get feedback. Like any writing, feedback can be helpful at all stages &amp;ndash; brainstorm while choosing topics to getting critique on the full abstract.
+ Convince the reviewers that you can give a well-rehearsed and entertaining &amp;ndash; link to previous talks you&amp;rsquo;ve given, include links to any testimonials you&amp;rsquo;ve received from your audience, etc. If you don&amp;rsquo;t have a previously recorded talk, give a small talk to your friends or colleagues and have it recorded.
+  References  PyCon US has some good advice on how to submit a proposal and most of it is generic enough for you to use for PyCon India, or any other conference.
+ These posts (1 2 and more) by Jesse Davis are so so good!
+ I also liked &amp;ldquo;The Talk on Talks&amp;rdquo; by Zach Holman.
+  </description>
+    </item>
+    
+    <item>
+      <title>Thinking about Data Ethics</title>
+      <link>https://punchagan.muse-amuse.in/blog/thinking-about-data-ethics/</link>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/thinking-about-data-ethics/</guid>
+      <description>Earlier this month, a researcher made a dataset containing the profiles of about 70,000 users public. He didn&amp;rsquo;t really see a problem in doing this because he felt he was only presenting already publicly available data in a more usable form. was only presenting it in a more usable form.
+Yesterday, I came across this quote in the very first chapter of Allen Downey&amp;rsquo;s book Think Stats which I liked a lot, and reminded me of this incident.
+ I hadn&amp;rsquo;t looked at the OKCupid data release and the discussion around it much, but I went back and read this article by a social media researcher who thinks a lot about these things.
+She puts forth a lot of interesting ideas to think about ethics. Some things that stood out to me are:
+ Ask yourself how the person whose data you are using feels about the data. Taking a &amp;lsquo;what if&amp;rsquo; impact approach to thinking about data and ethics.  Also, you needn&amp;rsquo;t really call yourself a researcher to be actually doing experiments with (or analyzing) &amp;ldquo;big-data&amp;rdquo; and discovering and putting out facts that have an impact &amp;ndash; however big or small. You should really go read the article, whether or not you are a researcher using data.
+Incidentally, there is a meet-up on Data Ethics this weekend in Bangalore. I&amp;rsquo;m excited to learn and think more about this, and talk to others who care.</description>
+    </item>
+    
+    <item>
+      <title>Level-up Tools</title>
+      <link>https://punchagan.muse-amuse.in/blog/level-up-tools/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/level-up-tools/</guid>
+      <description>Thanks to a friend I got an upgrade to our still-being-setup kitchen. I now have a non-stick pan along with a few more new additions. I would previously use a bowl that people usually use to boil milk etc. for making whatever I did. The non-stick pan feels so great! It has made it a lot simpler to make some of the things I used to, because its non-stick. And it has vastly expanded the possibilities of things I can make, by virtue of being flat and wide based. The pan is such a great addition to my kitchen paraphernalia, and it adds a new dimension to the kind of things I can make. I&amp;rsquo;m not here to write a user review for it, though.
+What are such tools in other things that you do, that drastically changed the way you did something, or added a new dimension to the kinds of things you could do, tools that make you feel like you have a new super-power? Learning to write Python (after starting off with C) seemed to give me so much power allowing me to focus on the problem, rather than fussing over the low level details. Sasha mentions in this post how using a Spaced Repetition System like Anki drastically improved her efficiency because she could focus on thinking about higher level things rather than trying to recall or search for what method or function to use to do something.
+What are some such level-up tools for you? Is there a systematic approach to discovering tools?</description>
+    </item>
+    
+    <item>
+      <title>blog-admin and Nikola</title>
+      <link>https://punchagan.muse-amuse.in/blog/blog-admin-and-nikola/</link>
+      <pubDate>Sat, 21 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/blog-admin-and-nikola/</guid>
+      <description>Another post about blogging.
+blog-admin now supports Nikola, thanks to yours truly. blog-admin is an Emacs package by CodeFalling that lets you view and manage your (static site generated) blog from within inside Emacs.
+Nikola&amp;rsquo;s command line utility is pretty nifty and does a bunch of useful things. I had a few utility functions to do common tasks like create new post and deploy blog. This worked well, but moment I came across this blog-admin&amp;rsquo;s tabular view, I was sold!
+org2blog (a blogging tool I used previously) had a tracking file that kept track of all the posts I made, and I used it quite a bit for navigation &amp;ndash; thanks to org-mode&amp;rsquo;s search functionality. The tabular view of blog-admin is even better! I really like the fact that the author has tried to keep the package generic enough to support any blog, and adding support for Nikola has been quite easy.
+The filtering functionality is crude, but good enough for a start. One thing I want to add is a preview functionality for drafts. Showing some (writing) statistics would also be nice &amp;ndash; No. posts in the last month, total published posts, etc. No promises, but you may see some of these things, soon. :)</description>
+    </item>
+    
+    <item>
+      <title>Tedium in work-flows</title>
+      <link>https://punchagan.muse-amuse.in/blog/tedium-in-work-flows/</link>
+      <pubDate>Thu, 19 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/tedium-in-work-flows/</guid>
+      <description>I use Nikola for generating this blog. When creating a new post, it prompts for a title, and creates a file for the post.
+Often I&amp;rsquo;m starting off with only a vague idea that needs to be fleshed out before it can be published (or discarded). It is quite difficult to come up with a title at this stage. I just want to start a draft and write things down!
+I could use a &amp;ldquo;draft-title&amp;rdquo; and change it after finishing a post, but this feels tedious &amp;ndash; requires 3 steps &amp;ndash; change the title, post filename and post slug. The last two steps are optional, really, but I feel they are important especially when the original title is very different from the new one.
+Being forced to come up with a title before anything else, feels tedious and, adds to the effort required to start off a new post. I shouldn&amp;rsquo;t really be worrying about the effort required to change the title of an unwritten post, but it happens subconsciously.
+To work around this, I now have a &amp;ldquo;re-title utility&amp;rdquo; in my editor that takes care of all the tedious details. I can start with a random title, like Draft-1, and change it when I&amp;rsquo;m done with the post. I feel this is going to lead to a lot more drafts, at the very least, if not published posts.
+Another work-flow related thing I came across recently was @Malabarba&amp;rsquo;s issue on CIDER (an IDE for Clojure in Emacs). The REPL takes a while to startup and this caused him to not use CIDER for running tests, if there wasn&amp;rsquo;t an already open REPL.
+The tedium that people feel effects how they use the tool. Not surprisingly, making tedious-feeling tasks a breeze with the tool also effects how and how much they use it. Subtle variations in a work-flow could make or break it. How do you discover such potential work-flow make-or-break-ers? I think, these things would help:
+ Use the tool yourself (dog-food) Talk to (or watch!) people using your tool Look at work-flows in other similar tools Thinking explicitly about various scenarios and simplifying or improving work-flows  I&amp;rsquo;d love to hear examples of this, and any ideas or thoughts you may have on identifying and fixing such things!</description>
+    </item>
+    
+    <item>
+      <title>Error messages and new users</title>
+      <link>https://punchagan.muse-amuse.in/blog/error-messages-and-new-users/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/error-messages-and-new-users/</guid>
+      <description>I was helping a friend of mine setup his blog and we were trying to use Hexo &amp;ndash; a static site generator. We chose a Javascript based tool since he&amp;rsquo;s trying to learn Javascript. I skimmed through active Javascript projects in this list and finally zeroed down upon Hexo based on its popularity. I promised to help my friend to set this up, but he first tried to do it on his own and got back to me after an hour or so, quite frustrated and almost on the verge of giving up setting it up. I didn&amp;rsquo;t expect this from a tool that had so many stars, forks, plugins and so much active development.
+We finally got it working, but we found that the error messages were horrendous &amp;ndash; even for someone who has been using free and open-source tools for a while now. Printing out errors from compiler or interpreter directly along with the stack trace is almost always the worst thing to do for a tool/utility (as opposed to an API or library). The stack trace is definitely useful, for developers trying to build upon or improve your tool. Have a debug or development mode where developers can get all the information they need.
+If you care about your users, especially new users, make sure you spend sufficient time on showing human-readable messages. If possible list the possible causes for every error along with tips for troubleshooting.</description>
+    </item>
+    
+    <item>
+      <title>Cold</title>
+      <link>https://punchagan.muse-amuse.in/blog/cold/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/cold/</guid>
+      <description>It was a pleasant Saturday evening in the middle of the winter. Christmas was just round the corner and love in the air. The sun was just setting and everything outside his window was given a fresh coat of snow, tickled by the red, quickly fading light. Not that he noticed. He stared blankly out of the window, looking at nothing in particular. He had just woken up from his afternoon nap; but he&amp;rsquo;d buy it if you told him he&amp;rsquo;d been sleeping for a year&amp;hellip;
+You could see the icy river crawling ahead, from his window. People walking over the bridge, a few camera flashes going off, people stopping over and looking far ahead into the horizon &amp;ndash; collecting their thoughts, couples walking hand-in-hand enjoying each others&amp;rsquo; company; You could see it all, from up there! But, as they say, you only see what you look for. And he, couldn&amp;rsquo;t see any of this. His looked out of his window and saw none of this.
+He is walking down the same bridge. He didn&amp;rsquo;t know where he was going; his head at least. His legs did; as always. He was walking down in his regular yellow shirt and black jeans, that you could mistake for a uniform, if you followed him for a few days. Extremely under-dressed for the chilly night, one would say. He kept walking down the main street, lined with shops brightly lit up for the festive season. The pavement bustled with with people walking with a spring in their step &amp;ndash; the spring that the festive season and all the love in the air brought to you. Not that he noticed it, or had any of it in his step.
+Soon, he&amp;rsquo;s walking through the park. The park that was built to celebrate time, ticking away furiously. Or to celebrate the time everyone in the world had, to enjoy themselves. He walked past the skating rink, with lots of people having the time of their life, ice skating; and a lot more, awaiting their turn. The first timers, old and young, making up for their inexperience, with their excitement; holding onto whatever they can, to finish each round, to start the next! The veterans, taking the center-stage and showing off their moves! He was barely aware of their presence and just walked on, past all the action.
+The music festival; he walked past it too, like the crowd didn&amp;rsquo;t exist, the noise didn&amp;rsquo;t, the music didn&amp;rsquo;t; like there was nothing happening! The fountain &amp;ldquo;felt&amp;rdquo; no different. The cold breeze, did sprinkle the water to quite a distance and everybody kept a safe distance to avoid the chilling shower, except for the kids, who found it amusing to run into the shower for a split second and run back madly. How could he walk just by it, and not feel a thing!
+The lakefront. That is where his legs always brought him in the end. The brilliantly lit skyline was a delight to watch, but I don&amp;rsquo;t believe he saw any of it. He just stared into it, blankly. He kept staring, as the night got chillier and the surroundings kept getting more and more deserted. Seconds ticked away, minutes and hours passed by! He stayed on, staring ahead. It didn&amp;rsquo;t matter how much below zero the mercury had gone. This wasn&amp;rsquo;t the first night he was spending staring into the nothingness. It turned out to be the coldest night, in a decade. But that didn&amp;rsquo;t matter to him. Nothing did. Nothing has, for a while now; Ever since he turned cold.</description>
+    </item>
+    
+    <item>
+      <title>Unread (8,762)</title>
+      <link>https://punchagan.muse-amuse.in/blog/unread-8762/</link>
+      <pubDate>Mon, 03 Jun 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/unread-8762/</guid>
+      <description>I am unread. Unlike you, who classify yourselves as well-read or not, I am classified as unread or not. Well, you could call me not well-read too, I guess. I was looked at once, my innards glanced through, and was hurriedly marked as unread, starred and tagged. Given my length, the care with which I was composed, and the flurry with which I was stowed away, I probably contain something important, to be read at the opportune moment, something to be cherished and to be replied to with diligence and care. I felt a sense of pride.
+I got composed and sent weeks ago, and have been lying here untouched, since. I get buried deeper and deeper every day, with a daily flood of newer stuff piling up onto me. While my composer, eagerly awaits a reply, (less and less eagerly each day, though) I have lost all hope of being read and replied to. I curse myself for carrying something so important. A thousand other replies have been sent, and a few thousand others composed here, but my turn hasn&amp;rsquo;t come, yet.
+How I wish, it&amp;rsquo;d be my turn today. How I wish, I could push my way up through to the top of the stack. How I wish, I could see the eager wait come to an end! How I wish, I&amp;rsquo;m given the attention I deserved, today! Reply, ASAP!
+PS: Apologies for all those emails that are still starred and unread, in my Inbox&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Who I am</title>
+      <link>https://punchagan.muse-amuse.in/blog/who-i-am/</link>
+      <pubDate>Mon, 04 Oct 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/who-i-am/</guid>
+      <description>I&amp;rsquo;m not the body that dies
+on missing a beat or one breath.
+I&amp;rsquo;m not the mind, so fickle,
+I&amp;rsquo;m in heaven one moment, and next in hell.
+I&amp;rsquo;m the moments I live,
+not the ones, in which I just exist.
+I&amp;rsquo;m the dreams I dream,
+those fulfilled, and not just yet.
+I am the occasions I grace
+and those, missed, where I am.
+I am the words I spoke,
+those I wrote, and those I will.
+I am all that I create,
+and the stuff that I catalyse.
+I am the love I receive,
+and all of it that I spread.
+Don&amp;rsquo;t cry, when I die,
+for I never really will.</description>
+    </item>
+    
+    <item>
+      <title>A GNU and a friend</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-gnu-and-a-friend/</link>
+      <pubDate>Tue, 07 Sep 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-gnu-and-a-friend/</guid>
+      <description>I now have a GNU! I bought it (a GNU soft toy) in memory of my friend swathanthran from #emacs-in. RIP swathanthran
+As a bonus, I got the chance to have a photograph with just RMS and me. Also, hoping the monetary contribution will be of some use to FSF-India.
+The thrill of getting the GNU (and the GNU itself) and shaking hands, getting photographed with RMS is dedicated to all the lafoots and specially to Voodoo, who taught me the meaning of the word &amp;ldquo;hacker&amp;rdquo;.
+Happy Hacking!
+ps: I just hope and pray nobody else does anything as stupid and shocking as what swathanthran did.</description>
+    </item>
+    
+  </channel>
+</rss>

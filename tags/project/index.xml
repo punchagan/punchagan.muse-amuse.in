@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/project/</link>
+    <description>Recent content in Project on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 21 Sep 2017 21:25:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prime Ministers of India - Simple d3 timeline</title>
+      <link>https://punchagan.muse-amuse.in/blog/prime-ministers-of-india-simple-d3-timeline/</link>
+      <pubDate>Thu, 21 Sep 2017 21:25:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/prime-ministers-of-india-simple-d3-timeline/</guid>
+      <description>I have been working on a simple time-line showing the terms of Prime Ministers of India. Currently, the time-line is not very useful and only shows the duration of the term in the time0line, with some pictures, with the hover tool-tip linking to a Wikipedia page. The interactive version is here.
+A simple extension of this would be to add historical events of different types over this time-line, with links to more information on these events. I&amp;rsquo;m not entirely sure, where I&amp;rsquo;m going with this, though.
+Any ideas and suggestions are more than welcome.</description>
+    </item>
+    
+    <item>
+      <title>The Joy of a &#39;Project!&#39;</title>
+      <link>https://punchagan.muse-amuse.in/blog/the-joy-of-a-project/</link>
+      <pubDate>Mon, 06 Nov 2006 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/the-joy-of-a-project/</guid>
+      <description>Just finished the &amp;lsquo;Test-2&amp;rsquo;. Here&amp;rsquo;s the first post that can genuinely be called &amp;ldquo;mine&amp;rdquo;&amp;hellip;
+With my last minute &amp;lsquo;C2S&amp;rsquo; plans [Co-operate to Survive&amp;hellip; does it ring any bells??] failing to work, the tests did their job,cleaned me up [both literally and metaphorically]. Though I didn&amp;rsquo;t learn much while preparing for the tests, the syllabus gave me a brain wave (surprised to find that my Brain is still ticking&amp;hellip;. after more than one year of Engg.) : Build my first Computer game!! [Don&amp;rsquo;t expect too much from it&amp;hellip; I&amp;rsquo;m a novice at programming and my game doesn&amp;rsquo;t even have a GUI as of now!]
+I had been doing a l&amp;rsquo;l bit of C programming off late but, I never learnt &amp;lsquo;file management&amp;rsquo; until the &amp;ldquo;Test-2&amp;rdquo; forced me to, and Viola! I embarked on a self assigned, &amp;ldquo;Project - Hangman&amp;rdquo;.
+Here&amp;rsquo;s a peek at the game&amp;hellip; [after a lot of testing and debugging (the use of technical terms is just a matter of &amp;ldquo;phantee&amp;rdquo;)]
+&amp;ldquo;Phantee&amp;rdquo;- a typical hyderabadi term; has no literal english translation; refers to &amp;ldquo;concealing ignorance in style&amp;rdquo; ??
+The basics were quite simple and were done in two hours&amp;hellip; but then began the real test! The program needed a lot of improvements to make it &amp;ldquo;Playable&amp;rdquo; but, the tests were less than a week away.
+I managed to find enough time even during the tests (it doesn&amp;rsquo;t really matter whether you spend a week, a day or just an hour mugging - you are bound to be cleaned up!), and finished most of the stuff within a week.
+There were quite a few road blocks which I had to get around. Amongst other things, obtaining a &amp;lsquo;decent&amp;rsquo; database of words was one. Initially, I wrote another program for building up a dbase of your own. This wasn&amp;rsquo;t good enough&amp;hellip;. so, with some ideas from Arunodai, I successfully integrated a dbase of 14000 words [picked it from another version of hangman] with my own version. After one whole week of debugging and improving {with an annoying disturbance called &amp;lsquo;Test-2&amp;rsquo;}, now my game is quite &amp;lsquo;playable&amp;rsquo; (i.e it can be played by people other than me).
+So you might say, &amp;ldquo;what&amp;rsquo;s the big-deal about writing a simple program of about hundred lines, that can randomly display words and check if you guess it right within seven turns?&amp;ldquo;. This l&amp;rsquo;ll project of mine may seem like a Pro&amp;rsquo;jest&amp;rsquo; to many! [writing a complex code, messing it up, debugging it for one whole week, etc just for the sake of creating a simple game, that can be played if you have a friend,a pen and a paper. Doing so muchfor a game, that already has &amp;lsquo;n&amp;rsquo; version, seems very foolish and a collosal waste of time and effort. Doesn&amp;rsquo;t it??] Obviously, that&amp;rsquo;s not a great achievement, its not something thats worth a mention in the Guiness Book of World Records or something. But it taught me a lot of stuff, stuff that you can&amp;rsquo;t learn from books,stuff that you can&amp;rsquo;t learn by mugging [I wonder if you can learn anything under the sun by &amp;ldquo;Mugging&amp;rdquo;], stuff that you can only learn by experience.I learnt a lot more of Computer Programming through this project, than I learnt through two, &amp;lsquo;3-point&amp;rsquo; courses!! {Of course, I wouldn&amp;rsquo;t have even dreamt of doing such a thing, if not for these two courses, that introduced me to programming and taught me the essentials}. Can&amp;rsquo;t such projects make the other courses a joy too?
+This brings me to our recent TRW [Technical Report Writing] project. You might wonder what kind of projects could be given in this kind of a course. We were asked to write a report on &amp;lsquo;Waste Management&amp;rsquo; in our college, and to include some suggestions on the ways to improve it. Though this was an interesting job, with scope for some field activity and other such stuff, we [a group of six members] successfully turned the &amp;lsquo;project&amp;rsquo; into a Pro&amp;rsquo;jest&amp;rsquo;!! [that&amp;rsquo;s my personal view; the others in the group may disagree].But still, we learnt a lot on Report writing. A lot more than what we learnt by reading pages and pages of instructions, on the techniques of writing good reports,by the so called experts.
+Both the projects helped me understand stuff better and to put them to use. Why can&amp;rsquo;t all courses have little projects, along with the routine stuff? Will it not improve my understanding of the subject matter? Will I not learn a great deal of things more than I do by mugging things up, just a week before the tests? Will it not be an experience, a lesson, of its own??
+ I see and I forget. I hear and I remember. I do and I understand. &amp;ndash;A Chinese Proverb.
+ I wonder if my &amp;ldquo;Engineering&amp;rdquo;, will ever be a joy for me?
+I am looking forward to more Projects&amp;hellip; to make engineering a joy for me!! [it doesn&amp;rsquo;t matter even if they&amp;rsquo;re self-assigned ;-) ]</description>
+    </item>
+    
+  </channel>
+</rss>

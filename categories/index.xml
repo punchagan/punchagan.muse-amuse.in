@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/categories/</link>
+    <description>Recent content in Categories on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 12 Jan 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book Notes</title>
+      <link>https://punchagan.muse-amuse.in/categories/book-notes/</link>
+      <pubDate>Tue, 12 Jan 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/categories/book-notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bookmarks</title>
+      <link>https://punchagan.muse-amuse.in/categories/bookmarks/</link>
+      <pubDate>Mon, 12 Sep 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/categories/bookmarks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recursecenter</title>
+      <link>https://punchagan.muse-amuse.in/categories/recursecenter/</link>
+      <pubDate>Fri, 29 Aug 2014 12:24:44 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/categories/recursecenter/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cpython on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/cpython/</link>
+    <description>Recent content in Cpython on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Wed, 02 Jul 2014 10:04:10 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/cpython/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-07-01</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-01/</link>
+      <pubDate>Wed, 02 Jul 2014 10:04:10 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-01/</guid>
+      <description> I happily let myself get distracted from all the math! I had seen a tweet by Tom during the weekend, asking if there was any package that let users inspect C sources of builtin modules like ruby&amp;rsquo;s pry-doc I spent the morning playing around with pry-doc, reading its code, etc. The latter part of the day was spent pairing with Tom, and figuring out what needs to be done to write a first cut version of something like this. Ugly regexes, FTW! I have something that works for most of the stuff, it seems! I also attended an interesting talk about Bit-torrent clients by an alum.  </description>
+    </item>
+    
+  </channel>
+</rss>

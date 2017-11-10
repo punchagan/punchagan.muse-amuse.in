@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/linux/</link>
+    <description>Recent content in Linux on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 29 Mar 2014 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Let there be light, in skype!</title>
+      <link>https://punchagan.muse-amuse.in/blog/let-there-be-light-in-skype/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/let-there-be-light-in-skype/</guid>
+      <description>At home, my video would always show a silhouette in G+ and Skype, and I always thought that this was because the lighting at home was not sufficient. At office, the video was decent. But, moving to sit right under the light also didn&amp;rsquo;t help much.
+Struggling with a bunch of tools like v4lctl, guvcview didn&amp;rsquo;t help. But, during these struggles I noticed that cheese would show me bright and cheerful, while all the other programs showed my silhouette.
+I set out to &amp;ldquo;fake&amp;rdquo; the output of cheese as a video device that skype and other programs could use. But, I didn&amp;rsquo;t have to go all the way. I ended up using v4l2loopback to create a loopback video device, and just using gst-launch to redirect video to that device, did the trick! Thanks gstreamer! Thanks v4l2loopback! :)
+Here&amp;rsquo;s a convenient script to use it every time I need it.
+ </description>
+    </item>
+    
+    <item>
+      <title>numpy, pacman and me</title>
+      <link>https://punchagan.muse-amuse.in/blog/numpy-pacman-and-me/</link>
+      <pubDate>Sun, 31 Jan 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/numpy-pacman-and-me/</guid>
+      <description>I&amp;rsquo;m now officially a part of the Arch Linux community! Arch Linux is a lightweight and flexible Linux® distribution that tries to Keep It Simple.
+I have started using arch from less than a week or so. It took me a while, not too long, to realize the beauty of this distro. I was trying to tweak the settings of my org-mode&amp;rsquo;s remember (on Karmic), trying to make it work the way I liked it. After breaking my head with .emacs and lisp for a while, I realized the version of my org-mode was way different from the version of the docs, I was reading. It didn&amp;rsquo;t take long to figure out, which version of org-mode to get. As a matter of curiosity, I checked AUR for the version, and true to Arch&amp;rsquo;s reputation it was bleeding edge! I was still using Karmic, since I hadn&amp;rsquo;t got my Arch installation working the way I like it, yet. Out of laziness. sudo reboot; to hell with laziness!
+I was setting up things I regularly use, tweaking my way around. After a day or so, I find python-numpy is out of date. And to top it, an orphaned package! I didn&amp;rsquo;t feel one bit good about this. After some futile attempts to suppress my discomfort, I sat down to work.
+After an afternoon of effort, I created my first PKGBUILD. :) I now have python-numpy installed using pacman! Pleasure to join the Arch User Community! Also, thanks to lifeeth and Lynus Vaz, for the sparks.
+PS: I&amp;rsquo;m using Arch with Openbox. It&amp;rsquo;s neat! PPS: org-mode is really awesome! It&amp;rsquo;s a world in itself. life in plain text, truly!]</description>
+    </item>
+    
+  </channel>
+</rss>

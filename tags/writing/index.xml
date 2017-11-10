@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/writing/</link>
+    <description>Recent content in Writing on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 28 Sep 2017 00:46:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HT interactives</title>
+      <link>https://punchagan.muse-amuse.in/blog/ht-interactives/</link>
+      <pubDate>Thu, 28 Sep 2017 00:46:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/ht-interactives/</guid>
+      <description>I recently discovered the interactives by HindustanTimes, and thoroughly loved some of them. It felt like a fresh breath of air amongst all the other Indian data driven journalism that I have been coming across in the recent past.
+The visualizations are a lot more interactive than some of the other Indian publications. These remind me of NYT&amp;rsquo;s interactives, which are amongst the best you&amp;rsquo;d see, while more often than not exploring data in the Indian context. I really like that they explore a variety of ways of doing these visualizations, and don&amp;rsquo;t just fit the data into one of the many standard options available in a visualization library.
+It feels like they are willing to take their time to do these visualizations, and are willing to collect data from multiple sources, and combine multiple datasets to tell a story. I also like the fact that the visualizations and the articles are more open-ended, allowing users to interact with and explore the data, rather than trying to come up with an article full of conclusions with a click-baity title. The fact that one of the sections is called Just for Fun speaks to me.
+The data and the code used in most of these interactives is open and available on GitHub, which is nice!
+On the whole, I think they are doing pretty good work, and I shall be on the lookout for even better stuff from them. I&amp;rsquo;m sure I&amp;rsquo;ll pick up a thing or two from their work, in my projects. Hopefully, other teams doing similar work will also learn from there and produce more good stuff for greedy readers like me.</description>
+    </item>
+    
+    <item>
+      <title>Emacs frame as a pop-up input</title>
+      <link>https://punchagan.muse-amuse.in/blog/emacs-frame-as-a-pop-up-input/</link>
+      <pubDate>Thu, 14 Sep 2017 22:26:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/emacs-frame-as-a-pop-up-input/</guid>
+      <description>I wanted to try using a dialog box/pop-up window as a prompt to remind me to periodically make journal entries. I had the following requirements:
+ Simple, light-weight dialog box that allows text of arbitrary length Ability to launch the dialog from the shell Ability to have some placeholder or template text, each time the dialog is shown Save the input text to a specific org-mode file Write as little code of my own, as possible, to do this  I had initially thought about using a tool like zenity, or write a simple dialog box in Python using Qt, wx or even tk, and then yank the input text at the desired location. This probably wouldn&amp;rsquo;t have turned out to be too hard, but getting things to look and work exactly the way I wanted would have required more code than I was willing to write or maintain.
+After avoiding doing this for a while, I finally realized that I could simply use Emacs with a new frame with the appropriate dimensions, and with the correct file/buffer open to the desired location. This would
+ eliminate the need for me to write the UI myself eliminate the need to do text manipulation in code, to yank it at the right place, in the right form. By directly opening up the editor at the required location, the onus is on me (as a text inputting user) to put it in, the way I want it. additionally provide me the comfort of being able to write with the full power of Emacs - keybindings and all that jazz. let me leverage elisp to do essentially whatever I want with the buffer being displayed as the dialog box.  I ended up with a command that looks something like this
+emacsclient -c -n\ -F &#39;((title . &amp;quot;Title&amp;quot;) (left . (+ 550)) (top . (+ 400)) (width . 110) (height . 12))&#39;\ -e &#39;(pc/open-journal-buffer)&#39;   This worked pretty nicely, except for the fact that with gnome-shell, the pop-up frame doesn&amp;rsquo;t always appear raised. It often gets hidden in the Emacs windows group, and the whole idea of the pop-up acting as a reminder goes for a toss! But, thanks to this Ask Ubuntu post, I could fix this pretty easily.
+emacsclient -c -n\ -F &#39;((title . &amp;quot;Title&amp;quot;) (left . (+ 550)) (top . (+ 400)) (width . 110) (height . 12))&#39;\ -e &#39;(progn (pc/open-journal-buffer) (raise-frame) (x-focus-frame (selected-frame)))&#39;  </description>
+    </item>
+    
+    <item>
+      <title>Back, Hopefully</title>
+      <link>https://punchagan.muse-amuse.in/blog/back-hopefully/</link>
+      <pubDate>Fri, 01 Sep 2017 22:47:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/back-hopefully/</guid>
+      <description>I haven&amp;rsquo;t written anything here for almost a year. I needed to break the silence. So, here we go with a not-so-useful post showing how frequently I have been posting to this blog, to get a sense of how long this break has been in comparison to other silences in the past.
+Neither the code below, nor the plots are very insightful. But, I just hope this will get me started on the path to blogging more regularly. See you around!
+Parsed post content I wrote some code to parse the content of the blog, and each post object looks something like this:
+{&#39;date&#39;: datetime.datetime(2010, 3, 17, 18, 30, tzinfo=&amp;lt;UTC&amp;gt;), &#39;draft&#39;: False, &#39;tags&#39;: [&#39;blab&#39;, &#39;life&#39;, &#39;poem&#39;], &#39;title&#39;: &#39;Just another bunch&#39;} Post count: 190  Post frequency by year import pandas posts = pandas.DataFrame(posts) counts = posts[&#39;date&#39;].groupby(posts[&#39;date&#39;].dt.year).count() plot = counts.plot(kind=&#39;bar&#39;, figsize=(8, 6)) plot.set_xlabel(&#39;Years&#39;) plot.set_ylabel(&#39;# of posts&#39;)   Post frequency by month # Add a DatetimeIndex to the Dataframe posts.index = pandas.DatetimeIndex(posts[&#39;date&#39;].values) counts = posts[&#39;date&#39;].groupby(pandas.TimeGrouper(&#39;M&#39;)).count() ax = counts.plot(kind=&#39;bar&#39;, figsize=(12, 8)) n = 5 ticks = ax.xaxis.get_ticklocs() labels = counts.index.strftime(&#39;%Y-%m&#39;) labels = ax.xaxis.set_ticklabels(labels[::n]) ticks = ax.xaxis.set_ticks(ticks[::n]) ax.set_xlabel(&#39;year-month&#39;) ax.set_ylabel(&#39;# of posts&#39;)   Work-flow I jumped onto the hugo bandwagon too.
+I was totally impressed by how fast it is, and have been meaning to try it out for a while, but wasn&amp;rsquo;t impressed with the built-in org-mode support it came with. This changed when I finally came across the ox-hugo package that does a wonderful job of exporting blog posts from an org file to hugo&amp;rsquo;s markdown format. I have contributed a couple of patches to it, to make it work better for myself and hopefully for others too.
+Also, for this post, I used ob-ipython with the enhancements from scimax and it has really made the whole experience quite enjoyable.
+Among other things, I think one of the reasons for those peaks in the second half of 2010, was having a smooth work-flow. My current work-flow feels pretty nice too, and I hope it&amp;rsquo;ll reduce some of the friction in writing more posts.
+Onwards!</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-07</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-07/</link>
+      <pubDate>Tue, 08 Jul 2014 10:07:20 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-07/</guid>
+      <description> As preparation for a one-on-one this week with one of the facilitators, I was wondering if I was really getting better as a programmer, by doing what I am doing. I have heard at numerous places that reading and reflection are keys to getting better. I feel like I haven&amp;rsquo;t been giving these things much attention in the past couple of weeks. I don&amp;rsquo;t catch up on reading all the awesome reading material shared on Zulip and I switched from writing this blog post first thing in the morning, to any-time-after-lunch. I don&amp;rsquo;t think this worked out very well. Writing the post worked as a way to reflect on what I had done yesterday, and what I should be doing today. So, I am back to writing the blog post, first thing in the morning! Yesterday, I worked on indexing the Python sources in a way that the inspection code can look up, later. During this process, I found that my code to use libclang&amp;rsquo;s AST wasn&amp;rsquo;t generic enough, and I had to clean it up to be able to extract useful information from any file in the cpython sources. We also got to attend a super-awesome talk by Steve Labnik! He talked about his progression from being an application developer, to writing libraries, to working on languages (as a professional developer). He made a lot of interesting and inspiring points during his talk. Some of those that stuck with me are:
+ None of these is particularly harder than any of the other. Depending on each person&amp;rsquo;s personality, or the way their brain works, they are good at doing one or the other. Getting good at programming is a matter of showing up, more than about the &amp;ldquo;genes&amp;rdquo;. He repeated quite a few times that he disliked the idea of &amp;ldquo;baby hacker&amp;rdquo;, and left out the story of his childhood and college programming days! I&amp;rsquo;m totally stealing his idea of meeting every saturday at 1pm, with a bunch of friends and working until it was 10pm or so, when they could get cheap beer and food! And he did this all through his college! It is interesting that this idea is so similar to Hacker School!  It was a very enjoyable and inspiring talk on the whole.
+ The plan for today is to actually have the parsed information dumped into some persistent format, and modify the inspect code to actually use it.
+ I will also be pairing with Kyle for a few hours on working through some of http://mitpress.mit.edu/books/audio-programming-book
+  </description>
+    </item>
+    
+    <item>
+      <title>Why I like Org as a markup</title>
+      <link>https://punchagan.muse-amuse.in/blog/why-i-like-org-as-a-markup/</link>
+      <pubDate>Wed, 12 Jan 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/why-i-like-org-as-a-markup/</guid>
+      <description>Org-mode, as a mode, is obviously awesome. The ability to move around whole blocks of text, for re-organizing documents and the usability of tables are just two brilliant features.
+But, the org markup itself is such a cool thing. I&amp;rsquo;ve been looking at rst all day, and it&amp;rsquo;s such a pain to find out where your headings are, what level your current sub-heading is at, etc. (I&amp;rsquo;ll probably do a bit better, with some getting used to. I&amp;rsquo;m an org-addict. ;)). With org-mode it&amp;rsquo;s so intuitive! It&amp;rsquo;s so easy to find out, with just one quick look! I don&amp;rsquo;t think any other markup has this coolness! Org-mode FTW!</description>
+    </item>
+    
+  </channel>
+</rss>

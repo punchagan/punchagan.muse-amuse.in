@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crypto on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/crypto/</link>
+    <description>Recent content in Crypto on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 24 Jun 2014 09:44:34 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-06-24</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-24/</link>
+      <pubDate>Tue, 24 Jun 2014 09:44:34 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-24/</guid>
+      <description> I worked for the whole day on implementing an algorithm to analyze a cipher text, and guess the substitution cipher used. The algorithm was pretty straight forward, and I had it &amp;ldquo;mostly&amp;rdquo; working, in a couple of hours. I then began to refactor it, and found that there was what looked like a bug, and I &amp;ldquo;fixed&amp;rdquo; it mindlessly. I was essentially trying to swap 2 rows, and columns of a pandas data frame. I had a data-frame D and its copy D_. I was trying to swap 2 rows and columns of D_. I found that the code was initially using the data from D to do the swap. To fix it, I checked if tuple unpacking did the right thing. It looked like it did. So, I used something like _D[&#39;a&#39;], D_[&#39;b&#39;] = D_[&#39;b&#39;], D_[&#39;a&#39;]. Essentially, changed D on the right hand side to D_. I thought I had tested this on the terminal, but after hours of debugging (along with fixing another minor issue), I later found out that the tuple unpacking doesn&amp;rsquo;t work and the swapped rows and columns actually become equal! I had suspected this initially, and had &amp;ldquo;tested&amp;rdquo; this manually, I thought. These are the kinds of things that should have tests for, I think. It wouldn&amp;rsquo;t have taken me too long to write a test, and I could have been totally sure that it works! (I was manually reading off values in the array, and probably messed up somewhere)
+FWIW, the code now reads D[&amp;lsquo;a&amp;rsquo;], D[&amp;lsquo;b&amp;rsquo;] = D[&amp;lsquo;b&amp;rsquo;].copy(), D[&amp;lsquo;a&amp;rsquo;].copy()
+ The algo seems to need about 1000 characters to get past the 90% accuracy mark. I could probably tweak it a little to perform better, but I&amp;rsquo;m going to leave it here, for now, and move on to the signal processing parts. I&amp;rsquo;m not totally sure how the signal processing would work, and whether we could actually map back the keystrokes to a substitution cipher enciphered text.
+ If required, the tweaks could be -
+ Use trigrams instead of bigrams Add a degree of dictionary look-ups: May be something like, look-up all the deciphered words, and try not swapping the characters that appear in most of the words that are in the dictionary.  This paper is 20 years old, and there would surely be work by others building on top of this, or doing it totally differently.
+  </description>
+    </item>
+    
+  </channel>
+</rss>

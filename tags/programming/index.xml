@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/programming/</link>
+    <description>Recent content in Programming on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 14 Jun 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Assist time</title>
+      <link>https://punchagan.muse-amuse.in/blog/assist-time/</link>
+      <pubDate>Tue, 14 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/assist-time/</guid>
+      <description>I sometimes hang out on #org-mode or #nikola and answer questions. I usually am not able to answer off the top of my head and I look up docs or dig through the code. Sometimes, we find ready-made documented answers, but other times we end up contributing some documentation, filing an issue, submitting a patch or hacking up something for that super-special use-case.
+Until now, I looked at this time as IRC time, which loosely translates to distraction time. But, I&amp;rsquo;m usually learning about the tools I use a little bit more. Even when I&amp;rsquo;m not, I&amp;rsquo;m helping someone do something they want to do. Sometimes empowering them to fix future problems on their own. And indirectly making the user community a wee-bit happier, and possibly the software a tiny bit better.
+This isn&amp;rsquo;t limited just to helping someone on IRC. Helping out a co-worker do something that they are new to, or just adding a comment or editing a Stack-overflow answer may end up in the &amp;ldquo;distraction time&amp;rdquo; bin, just because you weren&amp;rsquo;t doing something on your TODO list. It needn&amp;rsquo;t be.
+Taking cue from scorers in Football, I decided to call this time assist time and to try to start seeing this time as (semi-)productive. Naming helps.</description>
+    </item>
+    
+    <item>
+      <title>Reading-time based scheduling</title>
+      <link>https://punchagan.muse-amuse.in/blog/reading-time-based-scheduling/</link>
+      <pubDate>Mon, 06 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/reading-time-based-scheduling/</guid>
+      <description>I had posted a link to an poem written on Medium on a Slack channel that I use with friends. A friend said that she liked the fact that the Slack article preview had the reading time from Medium in it. She could decide whether or not she wanted to read the poem or any other article at that moment.
+This gave me the idea for a reading time extension for my browser, or my feed reader or my bookmarks &amp;ndash; my reading list. The first version should be able to compute or extract the reading time for an article or a tab in my browser, and index them. I want to be able to specify the amount of time I will be able to spend reading, and be presented with something from my reading list. I think this would help with scheduling the reading of longer articles, and also to actually help me get through my reading list.
+Reading time estimates that use heuristics based on word-count may not really work, and may do more harm than good. But, it may still be worth a try to see if it helps my reading habits in any way. A quick search pointed me to this extension, that can give the reading time for any page but doesn&amp;rsquo;t really do what I want.</description>
+    </item>
+    
+    <item>
+      <title>Stepping AFK</title>
+      <link>https://punchagan.muse-amuse.in/blog/stepping-afk/</link>
+      <pubDate>Fri, 03 Jun 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/stepping-afk/</guid>
+      <description>In the past few weeks, I noticed three instances where I was forced to take a break exactly when I was ready to jump in and write some code to fix a bug or add a small feature. I had to step out of the house and take a walk to meet someone, etc.
+I ended up getting ideas during the walks, which significantly changed and simplified how I would&amp;rsquo;ve implemented things, if not for those breaks. Even if I did end up zeroing down to those solutions, I am pretty sure it would&amp;rsquo;ve taken a couple of not-so-good attempts and much longer than it did.
+Context switches are usually considered to be expensive for programmers, but taking a break at the exact time when I had all the required context loaded into my head seemed to help. It was also probably helpful that I was taking a walk, and there wasn&amp;rsquo;t really any other inputs or outputs competing for the space in my head.
+This got me thinking about doing this more deliberately &amp;ndash; I&amp;rsquo;d love to hear about any experiences or any experiments any of you have done with this. Also, I&amp;rsquo;m reminded of Rich Hickey&amp;rsquo;s Hammock Driven Development talk and I wonder if this is a smaller/different version of it, and makes me want to try out the things he suggests more deliberately. If any of you has thoughts and suggestions, I&amp;rsquo;d love to hear from you!</description>
+    </item>
+    
+    <item>
+      <title>Thinking about Data Ethics</title>
+      <link>https://punchagan.muse-amuse.in/blog/thinking-about-data-ethics/</link>
+      <pubDate>Wed, 25 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/thinking-about-data-ethics/</guid>
+      <description>Earlier this month, a researcher made a dataset containing the profiles of about 70,000 users public. He didn&amp;rsquo;t really see a problem in doing this because he felt he was only presenting already publicly available data in a more usable form. was only presenting it in a more usable form.
+Yesterday, I came across this quote in the very first chapter of Allen Downey&amp;rsquo;s book Think Stats which I liked a lot, and reminded me of this incident.
+ I hadn&amp;rsquo;t looked at the OKCupid data release and the discussion around it much, but I went back and read this article by a social media researcher who thinks a lot about these things.
+She puts forth a lot of interesting ideas to think about ethics. Some things that stood out to me are:
+ Ask yourself how the person whose data you are using feels about the data. Taking a &amp;lsquo;what if&amp;rsquo; impact approach to thinking about data and ethics.  Also, you needn&amp;rsquo;t really call yourself a researcher to be actually doing experiments with (or analyzing) &amp;ldquo;big-data&amp;rdquo; and discovering and putting out facts that have an impact &amp;ndash; however big or small. You should really go read the article, whether or not you are a researcher using data.
+Incidentally, there is a meet-up on Data Ethics this weekend in Bangalore. I&amp;rsquo;m excited to learn and think more about this, and talk to others who care.</description>
+    </item>
+    
+    <item>
+      <title>Level-up Tools</title>
+      <link>https://punchagan.muse-amuse.in/blog/level-up-tools/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/level-up-tools/</guid>
+      <description>Thanks to a friend I got an upgrade to our still-being-setup kitchen. I now have a non-stick pan along with a few more new additions. I would previously use a bowl that people usually use to boil milk etc. for making whatever I did. The non-stick pan feels so great! It has made it a lot simpler to make some of the things I used to, because its non-stick. And it has vastly expanded the possibilities of things I can make, by virtue of being flat and wide based. The pan is such a great addition to my kitchen paraphernalia, and it adds a new dimension to the kind of things I can make. I&amp;rsquo;m not here to write a user review for it, though.
+What are such tools in other things that you do, that drastically changed the way you did something, or added a new dimension to the kinds of things you could do, tools that make you feel like you have a new super-power? Learning to write Python (after starting off with C) seemed to give me so much power allowing me to focus on the problem, rather than fussing over the low level details. Sasha mentions in this post how using a Spaced Repetition System like Anki drastically improved her efficiency because she could focus on thinking about higher level things rather than trying to recall or search for what method or function to use to do something.
+What are some such level-up tools for you? Is there a systematic approach to discovering tools?</description>
+    </item>
+    
+    <item>
+      <title>Tedium in work-flows</title>
+      <link>https://punchagan.muse-amuse.in/blog/tedium-in-work-flows/</link>
+      <pubDate>Thu, 19 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/tedium-in-work-flows/</guid>
+      <description>I use Nikola for generating this blog. When creating a new post, it prompts for a title, and creates a file for the post.
+Often I&amp;rsquo;m starting off with only a vague idea that needs to be fleshed out before it can be published (or discarded). It is quite difficult to come up with a title at this stage. I just want to start a draft and write things down!
+I could use a &amp;ldquo;draft-title&amp;rdquo; and change it after finishing a post, but this feels tedious &amp;ndash; requires 3 steps &amp;ndash; change the title, post filename and post slug. The last two steps are optional, really, but I feel they are important especially when the original title is very different from the new one.
+Being forced to come up with a title before anything else, feels tedious and, adds to the effort required to start off a new post. I shouldn&amp;rsquo;t really be worrying about the effort required to change the title of an unwritten post, but it happens subconsciously.
+To work around this, I now have a &amp;ldquo;re-title utility&amp;rdquo; in my editor that takes care of all the tedious details. I can start with a random title, like Draft-1, and change it when I&amp;rsquo;m done with the post. I feel this is going to lead to a lot more drafts, at the very least, if not published posts.
+Another work-flow related thing I came across recently was @Malabarba&amp;rsquo;s issue on CIDER (an IDE for Clojure in Emacs). The REPL takes a while to startup and this caused him to not use CIDER for running tests, if there wasn&amp;rsquo;t an already open REPL.
+The tedium that people feel effects how they use the tool. Not surprisingly, making tedious-feeling tasks a breeze with the tool also effects how and how much they use it. Subtle variations in a work-flow could make or break it. How do you discover such potential work-flow make-or-break-ers? I think, these things would help:
+ Use the tool yourself (dog-food) Talk to (or watch!) people using your tool Look at work-flows in other similar tools Thinking explicitly about various scenarios and simplifying or improving work-flows  I&amp;rsquo;d love to hear examples of this, and any ideas or thoughts you may have on identifying and fixing such things!</description>
+    </item>
+    
+    <item>
+      <title>Error messages and new users</title>
+      <link>https://punchagan.muse-amuse.in/blog/error-messages-and-new-users/</link>
+      <pubDate>Tue, 17 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/error-messages-and-new-users/</guid>
+      <description>I was helping a friend of mine setup his blog and we were trying to use Hexo &amp;ndash; a static site generator. We chose a Javascript based tool since he&amp;rsquo;s trying to learn Javascript. I skimmed through active Javascript projects in this list and finally zeroed down upon Hexo based on its popularity. I promised to help my friend to set this up, but he first tried to do it on his own and got back to me after an hour or so, quite frustrated and almost on the verge of giving up setting it up. I didn&amp;rsquo;t expect this from a tool that had so many stars, forks, plugins and so much active development.
+We finally got it working, but we found that the error messages were horrendous &amp;ndash; even for someone who has been using free and open-source tools for a while now. Printing out errors from compiler or interpreter directly along with the stack trace is almost always the worst thing to do for a tool/utility (as opposed to an API or library). The stack trace is definitely useful, for developers trying to build upon or improve your tool. Have a debug or development mode where developers can get all the information they need.
+If you care about your users, especially new users, make sure you spend sufficient time on showing human-readable messages. If possible list the possible causes for every error along with tips for troubleshooting.</description>
+    </item>
+    
+    <item>
+      <title>How I learnt to use Emacs&#39; profiler</title>
+      <link>https://punchagan.muse-amuse.in/blog/how-i-learnt-to-use-emacs-profiler/</link>
+      <pubDate>Sat, 03 Jan 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/how-i-learnt-to-use-emacs-profiler/</guid>
+      <description>I learnt to use Emacs&amp;rsquo; profiler yesterday, after many hours of yak-shaving, trying to get Memacs working. Memacs is a memory extension system for Emacs written by Karl Voit, that I have been meaning to try out for a long time now. Seeing lots of review posts at the turn of the year and watching Karl&amp;rsquo;s recent Emacs Chat with Sacha Chua pushed me to try and finally set it up.
+I started writing a module to create a Memacs file &amp;ndash; an org archive file &amp;ndash; from my browser history. It was pretty easy to write, and I had it spitting out a huge file with 22k entries after about a couple of hours of work. Then I excitedly pulled up my agenda, and turned on the option to view archived entries, only to be super-disappointed. It turned out to be extremely slow! Actually, the agenda never came up with the 22k entries file that I had. At least not in 5 or so minutes, before I got impatient. The performance was unacceptable even when I reduced it to 5k entries.
+I was pretty sure it wasn&amp;rsquo;t that slow for Karl in his demo and tweeted to him, asking for a workaround. Meanwhile, I looked at his dot-emacs, but wasn&amp;rsquo;t able to dig out what was needed to speed up things. He confirmed that his performance was way better than what I was getting.
+First, I ruled out the possibility of it being because of the SSD, since clearly my CPU usage was peaking, and the task was CPU bound and not I/O. Next, I tried using the same file on a different machine (with a different version of Emacs and org-mode), and it worked blazingly fast. So, it was either the version of Emacs or org-mode that I was using.
+I should have stopped, thought clearly, and started experimenting with org version, but hindsight is 20-20. I tried Ubuntu&amp;rsquo;s pre-built Emacs and agendas were fast! I suspected my Emacs build, since I recently started building Emacs from git. I built two or three other versions of Emacs, and wasted a lot of time, before realizing that I wasn&amp;rsquo;t using the org-mode source bundled inside Emacs for the tests, and there were two &amp;ldquo;independent&amp;rdquo; variables.
+Finally, I began bisecting org-mode&amp;rsquo;s source and found that all hell broke loose with an inconspicuous change around release 8.2.6. It turns out that org-overview was broken before this, and collapsing all the trees in a newly opened org-buffer (default option) wasn&amp;rsquo;t working. Once this bug was fixed, opening huge org files would slow down by a great deal, in turn causing agenda generation to be unbearably slow.
+All I had to do was add a #+STARTUP: showeverything to the top of the file. This speeded up things by about 50 times! It turns out, I later found out, that all of this is documented on Worg. I did try a few search engine queries, but sadly none of them brought this up. Adding the following to my config, speeded up agenda generation by about 150-200 times!
+(setq org-agenda-inhibit-startup t) ;; ~50x speedup (setq org-agenda-use-tag-inheritance nil) ;; 3-4x speedup  In the course of all this debugging, I learnt how to use Emacs&amp;rsquo; profiler. The profile reports along with git bisect, eventually helped me figure out what the problem was.
+To profile the CPU usage, all you have to do is add a call like
+(profiler-start &#39;cpu) ;; or M-x profiler-start  at the place where you wish to start it. Emacs will then start collecting information about where time is being spent, by sampling every sampling-interval seconds (default 106 nanoseconds = 1 milli second).
+You can view the information being collected, at any point of time using
+(profiler-report) ;; or M-x profiler-report  The report is a nice, interactive tree with the percentage of time spent in each call. You can stop profiling by calling (profiler-stop). If you have more than one report, you can compare them by hitting = in one of the report buffers. I&amp;rsquo;m definitely going to use this for other things! (like speeding up my startup?)
+Now that I have Memacs working with reasonably fast agenda views, I&amp;rsquo;m looking forward to collecting as much personal information as I can! Thanks Karl for writing Memacs. I am going to be a pretty heavy user, I think! There seem to be a few rough edges, though, and I hope to help smoothen them out a little bit, over the next few weeks.</description>
+    </item>
+    
+    <item>
+      <title>Martin Fowler on Refactoring @ RubyRogues</title>
+      <link>https://punchagan.muse-amuse.in/blog/martin-fowler-on-refactoring-rubyrogues/</link>
+      <pubDate>Sat, 25 Oct 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/martin-fowler-on-refactoring-rubyrogues/</guid>
+      <description>I stumbled on a Ruby Rogues podcast yesterday, which had Martin Fowler as the guest. I really enjoyed the discussion on Refactoring (the noun, the verb and the book!)
+Martin clarified in the podcast that refactoring (the verb/process) is a sequence of very small refactorings, while you keep making sure that you can run the test suite always. A refactoring (noun) is a change where you change the structure of the code without any externally observable changes, with the intent of making it easier to understand and cheaper to change in future.
+I also really liked the metaphor of a &amp;lsquo;healthy code base&amp;rsquo;. Refactoring is, then, the process of keeping healthy &amp;ndash; exercise, speaking metaphorically. You can stack up all the exercise you need to do, until you get really unfit. Refactoring, similarly, needs to be done regularly, to keep the code base healthy. This lets you go faster, in the future.
+I also really liked the advise about trying to push back the mental contexts you build, while trying to debug/understand some code that is not very clear, by refactoring the code to make it clearer. Code needn&amp;rsquo;t be one big chunk of cryptographic text. Code is writing. It should be clear and understandable. Or, at least we should strive to make it so!
+The discussion, as always on this podcast, was very lively, pleasant and enjoyable! Enjoy!</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-07-07</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-07/</link>
+      <pubDate>Tue, 08 Jul 2014 10:07:20 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-07/</guid>
+      <description> As preparation for a one-on-one this week with one of the facilitators, I was wondering if I was really getting better as a programmer, by doing what I am doing. I have heard at numerous places that reading and reflection are keys to getting better. I feel like I haven&amp;rsquo;t been giving these things much attention in the past couple of weeks. I don&amp;rsquo;t catch up on reading all the awesome reading material shared on Zulip and I switched from writing this blog post first thing in the morning, to any-time-after-lunch. I don&amp;rsquo;t think this worked out very well. Writing the post worked as a way to reflect on what I had done yesterday, and what I should be doing today. So, I am back to writing the blog post, first thing in the morning! Yesterday, I worked on indexing the Python sources in a way that the inspection code can look up, later. During this process, I found that my code to use libclang&amp;rsquo;s AST wasn&amp;rsquo;t generic enough, and I had to clean it up to be able to extract useful information from any file in the cpython sources. We also got to attend a super-awesome talk by Steve Labnik! He talked about his progression from being an application developer, to writing libraries, to working on languages (as a professional developer). He made a lot of interesting and inspiring points during his talk. Some of those that stuck with me are:
+ None of these is particularly harder than any of the other. Depending on each person&amp;rsquo;s personality, or the way their brain works, they are good at doing one or the other. Getting good at programming is a matter of showing up, more than about the &amp;ldquo;genes&amp;rdquo;. He repeated quite a few times that he disliked the idea of &amp;ldquo;baby hacker&amp;rdquo;, and left out the story of his childhood and college programming days! I&amp;rsquo;m totally stealing his idea of meeting every saturday at 1pm, with a bunch of friends and working until it was 10pm or so, when they could get cheap beer and food! And he did this all through his college! It is interesting that this idea is so similar to Hacker School!  It was a very enjoyable and inspiring talk on the whole.
+ The plan for today is to actually have the parsed information dumped into some persistent format, and modify the inspect code to actually use it.
+ I will also be pairing with Kyle for a few hours on working through some of http://mitpress.mit.edu/books/audio-programming-book
+  </description>
+    </item>
+    
+    <item>
+      <title>Best Practices for Scientific Computing</title>
+      <link>https://punchagan.muse-amuse.in/blog/best-practices-for-scientific-computing/</link>
+      <pubDate>Mon, 24 Dec 2012 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/best-practices-for-scientific-computing/</guid>
+      <description> Shantanu and I gave a short talk titled &amp;ldquo;Software Carpentry for Scientists&amp;rdquo; for the graduate students of Chemical Engineering department, IISc, this Friday. We gave a short introduction to Git, TDD, Numpy/Scipy, etc and mentioned a few things from Greg Wilson et al&amp;rsquo;s paper.
+I promised to revert to them with links to a few resources. I figured it would be more beneficial, if I just put it in a publicly available place.
+A summary of the paper by Greg Wilson et. al., is below.
+Useful resources Software Carpentry  Paper by Greg Wilson et. al. Software Carpentry  Git &amp;amp; version control  http://bit.ly/VfbOww http://karlagius.com/2009/01/09/version-control-for-the-masses/ http://try.github.com http://betterexplained.com/articles/a-visual-guide-to-version-control/ http://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/  TDD  http://software-carpentry.org/4_0/test/index.html https://www.google.co.in/?q=TDD+matlab  SciPy  http://scipy-lectures.github.com  Python  http://docs.python.org/tutorial  GUI tools in Python  http://code.enthought.com/projects/traits/docs/html/tutorials/traits_ui_scientific_app.html http://docs.enthought.com/traits http://docs.enthought.com/traitsui http://docs.enthought.com/enaml  Summary of paper by Greg Wilson et. al.  Write programs for people, not computers  a program should not require its readers to hold more than a handful of facts in memory at once. names should be consistent, distinctive and meaningful. code style and formatting should be consistent. all aspects of software development should be broken down into tasks roughly an hour long  Automate repetitive tasks  rely on the computer to repeat tasks save recent commands in a file for re-use use a build to automate scientific work-flows  Use the computer to record history  software tools should be used to track computational work automatically.  Make incremental changes  work in small steps with frequent feedback and course correction  Use version control  use a version control system everything that has been created manually should be put in version control  Don&amp;rsquo;t repeat yourself (or others)  every piece of data must have a single authoritative representation in the system code should be modularized rather than copied and pasted re-use code instead of rewriting it  Plan for mistakes  add assertions to programs to check their operation use an off-the-shelf unit testing library use all available oracles when testing programs turn bugs into test cases use a symbolic debugger  Optimize software only after it works correctly  use a profiler to identify bottlenecks write code in the highest-level language possible  Document design and purpose, not mechanics  document interfaces and reasons, not implementations refactor code instead of explaining how it works embed the documentation for a piece of software in that software  Collaborate  use pre-merge code reviews use pair programming when bringing someone new up to speed and when tackling particularly tricky problems use an issue tracking tool   </description>
+    </item>
+    
+    <item>
+      <title>3 tips for those shipping (commercial) apps</title>
+      <link>https://punchagan.muse-amuse.in/blog/3-tips-for-those-shipping-commercial-apps/</link>
+      <pubDate>Wed, 28 Nov 2012 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/3-tips-for-those-shipping-commercial-apps/</guid>
+      <description>Here are some very generic (and paraphrased) notes from a short talk today, by Deepankar Sharma.
+ Whenever you release a new major version, make sure you keep a copy of the whole &amp;ldquo;ecosystem&amp;rdquo; to be able to run it whenever you want. At any point in time, you should be able to run any version of your software. When writing benchmarks/tests/etc., try and ensure that you cover a broad spectrum of test data, to try and replicate the different types of data that users could possibly have. Don&amp;rsquo;t develop applications with modes. Be very careful before you add a new mode to your application, effectively adding one more code path to maintain. (Bonus) Beware of too much extensibility  </description>
+    </item>
+    
+    <item>
+      <title>Advice - Programming in Elisp</title>
+      <link>https://punchagan.muse-amuse.in/blog/advice-programming-in-elisp/</link>
+      <pubDate>Fri, 06 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/advice-programming-in-elisp/</guid>
+      <description>Below is a mail sent by Eric Schulte to the org-mode mailing list answering a query on how to write elisp for org-mode. I am reproducing it here, since it is useful advice for me. The actual thread is here.
+The way that I learned how to program in emacs lisp was mainly using two commands `elisp-index-search&amp;rsquo; bound to `C-h e&amp;rsquo; on my system, and most importantly `describe-function&amp;rsquo; bound to `C-h f&amp;rsquo;. With `describe-function&amp;rsquo; you can look at the source code of functions whose behavior you are familiar with, you can then copy portions of the code to your scratch buffer where they can be edited and evaluated with `eval-defun&amp;rsquo; bound to `C-M-x&amp;rsquo;. Now with Babel, instead of doing this in the scratch buffer you could do this in emacs-lisp code blocks in an org file, enabling notes and hierarchical organization &amp;ndash; it can be nice to have your noodling all collected in one file for later reference.
+If you are going to do any serious work with lisp, I would emphatically recommend using paredit-mode, and becoming friends with the Sexp movement functions
+C-M-f runs the command paredit-forward C-M-b runs the command paredit-backward C-M-u runs the command backward-up-list C-M-k runs the command kill-sexp C-y runs the command yank
+They allow you to manipulate lisp code on the level of logical expressions, the utility of which can not be over stated.
+As for working with Org-mode in particular, I&amp;rsquo;d recommend looking at the documentation and source-code of Org-mode functions with `describe-function&amp;rsquo;, and then looking for how these functions are actually used in the Org-mode code base with `rgrep&amp;rsquo;.
+For a more structured learning experience, I&amp;rsquo;ve heard very good things about http://www.gnu.org/software/emacs/emacs-lisp-intro/, although I haven&amp;rsquo;t used it myself.
+Hope this helps. Happy Hacking &amp;ndash; Eric</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Numpy on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/numpy/</link>
+    <description>Recent content in Numpy on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 15 Jul 2014 18:25:15 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/numpy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-07-14</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-14/</link>
+      <pubDate>Tue, 15 Jul 2014 18:25:15 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-14/</guid>
+      <description>  Monday morning checkins for our group had only two people. That was strange! Very strange!  Work on cinspect  I wrote up a README since David (an alum at Hacker School) showed interest in the project. But, he probably isn&amp;rsquo;t that interested anymore since the code base is Python2.x only. I got rid of assumptions that method names would start with the module name or the type name, and actually look up references to the names in the definitions of types or objects. I also improved the test-suite to actually download sources of CPython and index them. They take very very long!! I tried to get it working with Numpy, but getting all the headers to include wasn&amp;rsquo;t as easy as I assumed it would be!  </description>
+    </item>
+    
+    <item>
+      <title>Augmented assignment in Python</title>
+      <link>https://punchagan.muse-amuse.in/blog/augmented-assignment-in-python/</link>
+      <pubDate>Mon, 04 Oct 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/augmented-assignment-in-python/</guid>
+      <description>If you are new to Python, you should probably stop reading here. But, if you have used Python and numpy, then read on. Before, that try these bits of code.
+import numpy a = numpy.array([1,2]) a = a + 0.5j print a  The &amp;ldquo;same thing&amp;rdquo;, in a slightly different way.
+import numpy a = numpy.array([1,2]) a += 0.5j print a  Both the code blocks, look really the same, until you look carefully. Under normal circumstances a = a + b and a += b behave exactly similarly, and we really don&amp;rsquo;t need to bother about the differences between them.
+But, +=, which is an augmented assignment operator, actually tries to perform the operation in-place, unlike the other statement where + actually returns a new object which is again being referenced by the name a.
+But, when dealing with numpy arrays, this will lead to trouble. When assigning to an array, it&amp;rsquo;s dtype is not changed and hence the trouble.
+The right way to use the augmented assignment operator, would be:
+import numpy a = numpy.array([1,2], dtype=complex) a += 0.5j print a  The same thing is explained in this thread. Also, Thanks to Bhanukiran for asking me this.</description>
+    </item>
+    
+    <item>
+      <title>numpy, pacman and me</title>
+      <link>https://punchagan.muse-amuse.in/blog/numpy-pacman-and-me/</link>
+      <pubDate>Sun, 31 Jan 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/numpy-pacman-and-me/</guid>
+      <description>I&amp;rsquo;m now officially a part of the Arch Linux community! Arch Linux is a lightweight and flexible Linux® distribution that tries to Keep It Simple.
+I have started using arch from less than a week or so. It took me a while, not too long, to realize the beauty of this distro. I was trying to tweak the settings of my org-mode&amp;rsquo;s remember (on Karmic), trying to make it work the way I liked it. After breaking my head with .emacs and lisp for a while, I realized the version of my org-mode was way different from the version of the docs, I was reading. It didn&amp;rsquo;t take long to figure out, which version of org-mode to get. As a matter of curiosity, I checked AUR for the version, and true to Arch&amp;rsquo;s reputation it was bleeding edge! I was still using Karmic, since I hadn&amp;rsquo;t got my Arch installation working the way I like it, yet. Out of laziness. sudo reboot; to hell with laziness!
+I was setting up things I regularly use, tweaking my way around. After a day or so, I find python-numpy is out of date. And to top it, an orphaned package! I didn&amp;rsquo;t feel one bit good about this. After some futile attempts to suppress my discomfort, I sat down to work.
+After an afternoon of effort, I created my first PKGBUILD. :) I now have python-numpy installed using pacman! Pleasure to join the Arch User Community! Also, thanks to lifeeth and Lynus Vaz, for the sparks.
+PS: I&amp;rsquo;m using Arch with Openbox. It&amp;rsquo;s neat! PPS: org-mode is really awesome! It&amp;rsquo;s a world in itself. life in plain text, truly!]</description>
+    </item>
+    
+  </channel>
+</rss>

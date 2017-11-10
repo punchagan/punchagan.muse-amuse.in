@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Howdy on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/howdy/</link>
+    <description>Recent content in Howdy on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 28 May 2015 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/howdy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Say Howdy with Emacs!</title>
+      <link>https://punchagan.muse-amuse.in/blog/say-howdy-with-emacs/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/say-howdy-with-emacs/</guid>
+      <description>Staying in touch with people is something I&amp;rsquo;m not very good at. Since I am not on popular (among my friends/family) networks &amp;ndash; FB and Whatsapp &amp;ndash; I don&amp;rsquo;t even see random updates from people, to get some sense of being in touch.
+I recently read some old posts by Sacha Chua and was inspired by how much code she had for contact management in her old blog posts. I was inspired by this post in particular to try and be more meticulous about how I stay in touch with people. Michael Fogleman blogged about his contact management work-flow using keepintouch. It seemed to do most of what I wanted, but I wanted this to be integrated with my org-contacts-db and I felt having native elisp code would make it easier to hook up email, chat, etc. to this.
+I ended up writing a small utility called howdy to help me keep in touch with people. It currently has only a couple of features:
+ M-x howdy lets me update the last contacted timestamp for a contact. Shows me contacts that I&amp;rsquo;m out of touch in the agenda, once I add the following snippet to an agenda file.
+​* Howdy %%(howdy-howdy)   I also have a few hooks to hook up jabber messages and email to update the db. I&amp;rsquo;ve added them to howdy-hooks.el in case anybody else wants to use them. They can also be used as examples to write other hooks. Feel free to contribute other hooks or suggest improvements. The library also ships with a modest test suite, that will hopefully make it easier for others to contribute.
+I&amp;rsquo;m looking forward to experimenting with this over the next few weeks and improving it. Hopefully, it&amp;rsquo;ll help me keep in touch, better than I do now.</description>
+    </item>
+    
+  </channel>
+</rss>

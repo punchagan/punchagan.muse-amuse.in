@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ipython on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/ipython/</link>
+    <description>Recent content in Ipython on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 25 Aug 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/ipython/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Create a Public Jupyter Server, quickly!</title>
+      <link>https://punchagan.muse-amuse.in/blog/create-a-public-jupyter-server-quickly/</link>
+      <pubDate>Thu, 25 Aug 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/create-a-public-jupyter-server-quickly/</guid>
+      <description>I create public Jupyter notebooks once in a while, to collaborate with a friend, or to make it easier for myself to work with data on a remote machine.
+Each time I need to look up the docs, and manually set-up a few things, before I can start using the notebook.
+I just wrote a bash script that does the following, quickly -
+ Install Jupyter into a temporary virtualenv Create certificate files Start the server with https enabled and a password Delete all temporary files, when the server is shutdown   You can get it here, if you&amp;rsquo;d like to use it.</description>
+    </item>
+    
+  </channel>
+</rss>

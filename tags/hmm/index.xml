@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hmm on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/hmm/</link>
+    <description>Recent content in Hmm on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sun, 29 Jun 2014 09:36:32 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/hmm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-06-27</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-27/</link>
+      <pubDate>Sun, 29 Jun 2014 09:36:32 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-27/</guid>
+      <description> This Friday we worked on building our own URL shorteners. It was a fun exercise, and I built one that is not persistent, in the two hours. I worked on a not so important problem of having sorted query parameters, instead of the more important problem of having a persistent server. Anyway, I should be building something that works, first, before trying to solve the more interesting problems. At least on Fridays. I watched this old but interesting talk by Brandon Rhodes, titled The Mighty Dictionary, and played around with his _dictinfo module after-wards. I spent the rest of the evening reading up about Markov chains and Hidden Markov Models. I&amp;rsquo;m happy to finally understand what these terms mean, after seeing them being thrown around for so many years!  </description>
+    </item>
+    
+  </channel>
+</rss>

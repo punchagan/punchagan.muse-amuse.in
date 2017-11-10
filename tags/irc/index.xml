@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Irc on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/irc/</link>
+    <description>Recent content in Irc on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 02 Oct 2010 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/irc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Some fun from #org-mode</title>
+      <link>https://punchagan.muse-amuse.in/blog/some-fun-from-org-mode/</link>
+      <pubDate>Sat, 02 Oct 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/some-fun-from-org-mode/</guid>
+      <description>This is a conversation from #org-mode, published without permission from plovs, BerntH and bremner. If any of you want any of the content removed, I will do so.
+  hi all
+ hi punchagan [18:36]
+ BerntH: ever used/tried blorg or blorgit? [18:47]
+ I like the way org-publish works, but blorg exports one org file as a blog. If blorg were to be re-written on top of org-publish, how should it be done? use one file per post or just one file for the whole blog? [18:52]
+ punchagan: another option is to use ikiwiki and use the org-mode plugin to render pages. This is what i do, although only a bit of the site is in org. [19:44]
+ bremner: can I have a look at your site? [19:45]
+ sure, it ain&amp;rsquo;t pretty, but: www.cs.unb.ca/~bremner [19:46]
+ thanks. I&amp;rsquo;ll keep this in mind. [19:47]
+ I just loved the way this site looks and behaves &amp;ndash; http://julien.danjou.info/projects.html
+ well, the side bar at least is possible with ikiwiki. Other than that I suppose it is mainly a matter of css [19:48]
+ punchagan: nope [19:49]
+ ok BerntH [19:50]
+ punchagan ikiwiki does have an org-mode plugin [19:56]
+ plovs: yes, bremner told me that and I&amp;rsquo;ve seen on Worg too. :)
+ punchagan ah, yes, sorry
+ plovs: it&amp;rsquo;s alright. [19:59]
+ punchagan another possibility is org2blog, which uses wordpress
+ plovs: I&amp;rsquo;m the author of it. :D
+ lol, ik, that punchagan [20:17]
+ lol
+ plovs: were you kidding? or serious? [20:19]
+ punchagan sorry to say i was serious, but it will not happen again :-)
+ i really like org2blog, played with it yesterday
+ plovs: no. I was just wondering if you were playing around with me. :P
+ I&amp;rsquo;m happy some one thinks it is useful.
+ lol, no, i just didn&amp;rsquo;t recognized your name, although it is kind of hard to miss [20:21]
+ I hope you don&amp;rsquo;t mind, if I make this anecdote public?
+ </description>
+    </item>
+    
+    <item>
+      <title>A sabbatical</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-sabbatical/</link>
+      <pubDate>Fri, 04 Jul 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-sabbatical/</guid>
+      <description>This post, is a different one in a couple of ways.
+Firstly, I posted this from within emacs! I&amp;rsquo;m using the w3m browser within emacs to post this. I&amp;rsquo;ve started using (trying to use) emacs again. Hope to keep at it longer this time.
+Secondly, I wish to inform junta about my sabbatical for a couple of weeks. I have decided not to use IM/IRC/SocialNetworking sites for the next couple of weeks. [2008-07-06 Sun 00:00]&amp;ndash;[2008-07-19 Sat 23:59] I will, of course, be using mail and will also blog if and when I feel like. This is an experiment triggered by a few ideas from Chaitu1 and my own holiday lifestyle analysis. (Also Chaitu has volunteered to join me.) Hope to make it through and also get some valid, interesting results out of the experiment.
+Update: Firemacs add-on for firfox is very useful. I couldn&amp;rsquo;t get a decent browser for emacs that could open gmail, so I&amp;rsquo;m using Firefox with the Firemacs add-on to compose my mail. Its absolutely amazing. Believe me! [Jul 6, 2008]
+ Chaitu - Poetic Paradigm ↩   </description>
+    </item>
+    
+    <item>
+      <title>Lafoot or Lafoobot!</title>
+      <link>https://punchagan.muse-amuse.in/blog/lafoot-or-lafoobot/</link>
+      <pubDate>Mon, 26 May 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/lafoot-or-lafoobot/</guid>
+      <description>Summer&amp;rsquo;08! I&amp;rsquo;m at home, doing nothing practically. :| No Internships, No Projects, No GRE plans (a little pushing for GRE has just started from the junta around.)
+Just to kill some time and to learn some Python, I have begun to write an IRC chat bot &amp;lt;lafoobot&amp;gt; [Lafoot + Bot]. The present haven of lafoobot is #fosskelog @ irc.freenode.net. Join in, if you want to have a chat! ;) Lafoobot can presently do very few things
+ &amp;ldquo;Yoyo&amp;rdquo;, a newly joined user &amp;ldquo;Hello&amp;rdquo;/ &amp;ldquo;Yoyo&amp;rdquo;, a user or pass on a Hello/Yoyo from user to another. Gives Local time / GMT Gives a random word and its meaning [put in for the junta preparing for GRE ;)] Gives out an MOTD or a fortune when it first joins \#fosskelog Googles a search term and returns the top 5 results (This is my favourite feature and this is the reason partially for this post. &amp;ldquo;!google lafoobot&amp;rdquo; doesn&amp;rsquo;t return anything. Hopefully not anymore.)  If you have ideas for any other features or if you want to have a look at the source, comment here or join #fosskelog. lafoobot&amp;rsquo;s code is licensed under GPLv2!
+Other than this, the summer has been relatively uneventful but for the two FOSS events I attended. Yes, two events, Sat and Sun, both by Twincling (There are two different Twinclings! Don&amp;rsquo;t ask me why) Hoping to have some more action this summer!
+PS: There&amp;rsquo;s a Big discussion presently on whether lafoobot is a he or a she. ;) What do you think?</description>
+    </item>
+    
+  </channel>
+</rss>

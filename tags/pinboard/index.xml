@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pinboard on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/pinboard/</link>
+    <description>Recent content in Pinboard on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 19 Dec 2015 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/pinboard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Elfeed hook to fetch full content</title>
+      <link>https://punchagan.muse-amuse.in/blog/elfeed-hook-to-fetch-full-content/</link>
+      <pubDate>Sat, 19 Dec 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/elfeed-hook-to-fetch-full-content/</guid>
+      <description>I have started to use Pinboard&amp;rsquo;s unread tag as my to-read list. It has a bookmark-let that works pretty well for adding stuff into my &amp;ldquo;to-read&amp;rdquo; list. I then catch up on this list using elfeed and subscribing to the unread items&amp;rsquo; RSS feed. The work-flow is pretty nice for adding stuff into the list, and finding items on the list. But, when it comes to the actual reading part, the entries in the feed don&amp;rsquo;t have the actual content I want to read, and I end up opening the links in a browser.
+Inspired by a comment from FiloSottile, I realized it should be pretty easy to setup a hook that fetches the actual content to make my reading work-flow smoother. I wrote a small script, using python-readability, to fetch the page content, given a URL. This script is then hooked onto elfeed-new-entry-hook, to fetch content of for new entries as they are fetched. All the old entries can be easily fixed with a single call to elfeed-apply-hooks-now.
+(defun pc/get-url-content (url) &amp;quot;Fetches the content for a url.&amp;quot; (shell-command-to-string (format &amp;quot;~/bin/get_article.py %s&amp;quot; url))) (defun pc/get-entry-content (entry) &amp;quot;Fetches content for pinboard entries that are not tweets.&amp;quot; (interactive (let ((entry elfeed-show-entry)) (list entry))) (let ((url (elfeed-entry-link entry)) (feed-id (elfeed-deref (elfeed-entry-feed-id entry))) (content (elfeed-deref (elfeed-entry-content entry)))) (when (and (s-matches? &amp;quot;feeds.pinboard.in/&amp;quot; feed-id) (not (s-matches? &amp;quot;twitter.com/\\|pdf$\\|png$\\|jpg$&amp;quot; url)) (string-equal &amp;quot;&amp;quot; content)) (setq content (pc/get-url-content url)) (setf (elfeed-entry-content entry) (elfeed-ref content))))) (add-hook &#39;elfeed-new-entry-hook #&#39;pc/get-entry-content)  </description>
+    </item>
+    
+  </channel>
+</rss>

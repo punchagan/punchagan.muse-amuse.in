@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/email/</link>
+    <description>Recent content in Email on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 31 Dec 2013 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Scraping Google Groups</title>
+      <link>https://punchagan.muse-amuse.in/blog/scraping-google-groups/</link>
+      <pubDate>Tue, 31 Dec 2013 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/scraping-google-groups/</guid>
+      <description>I was playing around with a few ideas for creating a timeline for the mumbai ultimate group, and as a part of playing around with stuff, for that idea, I ended up wanting to scrape all the emails on our google group. After looking around a little bit, I failed to find anything that claims to be able to do this.
+So I ended up writing my own hacky script to download all the emails sent on the group. Like I said, this is a hack and can be improved quite a bit, but I am not inclined to do anything about it, right now. Since, everything about google groups is ajaxy, this script uses selenium and does things on the page, that one would do by hand. It&amp;rsquo;s not something that I am proud of, but it does the job!</description>
+    </item>
+    
+  </channel>
+</rss>

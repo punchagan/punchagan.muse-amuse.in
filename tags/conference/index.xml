@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conference on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/conference/</link>
+    <description>Recent content in Conference on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 31 May 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PyCon India 2016 - Propose a talk</title>
+      <link>https://punchagan.muse-amuse.in/blog/pycon-india-2016-propose-a-talk/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pycon-india-2016-propose-a-talk/</guid>
+      <description> CFP for PyCon 2016 is open and you should propose a talk!
+There has been a lot of discussion on trying to improve the talk quality at the events. As my bit of contribution to this, below is a re-hash of some good advice from the internet on why you should give a talk, and how to submit a good proposal.
+Why?  You needn&amp;rsquo;t be an expert on a topic. If you have enough experience about something to help make the next person&amp;rsquo;s experience with it better, you are good.
+ Its a great way to find people who are interested in the same things as you are and to get to talk to them. If you are an introvert, you should definitely be speaking!
+ Proposing and giving a talk is about thinking about something hard enough to refine your thoughts, and being able to explain it to others. Its a useful skill to hone.
+  How?  Talks are entertainment. Pick a topic that you are excited about and fascinated by. Let it be a general topic that will have a significant number of people interested in it.
+ What you want the attendees to be telling their friends about your talk, after they go back. Make it the objective of your talk.
+ Submit a complete, clear and compelling proposal. Show the reviewers that you are willing to put in the effort to prepare for and to give a great talk. Here are a bunch of proposals to see and learn from.
+ Submit an outline along with your talk. Show the talk can be delivered in the given time and will be interesting. Include an indication of how much time you intend to spend on each part of your talk.
+ Choose a good title. The title is what catches the attention of your audience when they are trying to pick a talk. Avoid buzz words.
+ Get feedback. Like any writing, feedback can be helpful at all stages &amp;ndash; brainstorm while choosing topics to getting critique on the full abstract.
+ Convince the reviewers that you can give a well-rehearsed and entertaining &amp;ndash; link to previous talks you&amp;rsquo;ve given, include links to any testimonials you&amp;rsquo;ve received from your audience, etc. If you don&amp;rsquo;t have a previously recorded talk, give a small talk to your friends or colleagues and have it recorded.
+  References  PyCon US has some good advice on how to submit a proposal and most of it is generic enough for you to use for PyCon India, or any other conference.
+ These posts (1 2 and more) by Jesse Davis are so so good!
+ I also liked &amp;ldquo;The Talk on Talks&amp;rdquo; by Zach Holman.
+  </description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-06-23</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-23/</link>
+      <pubDate>Mon, 23 Jun 2014 04:38:29 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-06-23/</guid>
+      <description> The Apprenticeship patterns book is very interesting! I shall continue to read it and start create daily/weekly rituals from the actions prescribed in the book! I was reading this post on git gc, reflog, etc. and wanted to see what the default values were for some of the configurable variables. But, the git config command didn&amp;rsquo;t help. Developer/code defaults are also a part of the &amp;ldquo;config&amp;rdquo; system, and any tools to inspect config variables should display them, if no other values have been set explicitly! &amp;ldquo;If experience is built upon failure as much as success, then you need a more or less private space where you can seek out failure.&amp;rdquo; &amp;ndash; Apprenticeship Patterns. Our check-in groups changed, but 3 of us from our last check-in group are together again! Most of the day was spent with Git. In the morning, I learned that setting push.default to nothing will prevent pushing any branches without specifying explicitly which branch I want to push. Also, later in the day, Alan gave a presentation mapping the internals of git to the commands, trying to give everyone a better mental model of Git. I spent some time trying to get jedi integration for emacs. It should&amp;rsquo;ve worked out of the box, but I&amp;rsquo;m not sure the ELPA repositories have proper dependency/version management. Seems to be the problem, everywhere! Dependencies of a package get updated, and the package starts acting up&amp;hellip; Chaitu sent me a link about solving mazes using Finite Automata, and I spent some time trying to write a simple solver, and compare it with Nava&amp;rsquo;s breadth first search. But, it looks like we broke her code during the refactor. I may get back to this, at some point. I also spent a few minutes talking to Kyle, while he was trying to implement a simple version of the NTP protocol. The algorithm it turns out, is pretty simple. I started reading a little bit on crypt-analysis for Simple Substitution ciphers, and I&amp;rsquo;ll try implementing one of the algorithms today. The day ended with yummy pizza and video watching! We watched &amp;ndash;  Bret Victor, Inventing on Principle (54 min) Gary Bernhardt, WAT (4 min) Guy Steele, Growing a Language (53 min)   </description>
+    </item>
+    
+    <item>
+      <title>PyCon India &#39;10</title>
+      <link>https://punchagan.muse-amuse.in/blog/pycon-india-10/</link>
+      <pubDate>Mon, 16 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pycon-india-10/</guid>
+      <description>Looks like PyCon India 2010 is going to be great fun! With 80 talk submissions, quite a few interesting ones, this time&amp;rsquo;s PyCon should be much better than last year&amp;rsquo;s. Also, David Goodger of docutils and ReST fame will be the keynote speaker!
+ Dates: [2010-09-25 Sat]&amp;#x2013;[2010-09-26 Sun] Venue: MSRIT, Bangalore RSVP here!   </description>
+    </item>
+    
+  </channel>
+</rss>

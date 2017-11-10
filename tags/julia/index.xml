@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julia on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/julia/</link>
+    <description>Recent content in Julia on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 22 Jul 2014 10:46:29 -0400</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/julia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recurse Center, 2014-07-21</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-21/</link>
+      <pubDate>Tue, 22 Jul 2014 10:46:29 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-07-21/</guid>
+      <description> Yesterday  It was exciting to have so many new Hacker Schoolers in the space. But, the excitement was kinda distracting too.
+ I spent most of the day looking at shairport, and libshairport and trying to wrap it, so I can use it to get data for the spectrum analyzer via the Air-play protocol. I was able to call it using ctypes, but it doesn&amp;rsquo;t seem discoverable.
+ I also briefly looked at Julia and dwm, to try and port dwm to Julia. It doesn&amp;rsquo;t seem like too much work, but is going to take me a while given how comfortable I&amp;rsquo;m with both Julia and C.
+ Yaron Minsky&amp;rsquo;s talk on distributed systems was a great introduction to Distributed systems.
+ After the talk, I spent a little time updating my notes from an old org-mode workshop to present it at the emacs user group meet up today.
+  Today  I hope to get the spectrum analyzer to use libshairport and be able to play music sent through Air play.
+ Spend some time talking to the emacs user group about org-mode.
+ If I have any time, after getting this to work, I may play around with the dwm port.
+  </description>
+    </item>
+    
+  </channel>
+</rss>

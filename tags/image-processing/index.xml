@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Image Processing on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/image-processing/</link>
+    <description>Recent content in Image Processing on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Sat, 13 Nov 2010 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/image-processing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Do our eyes suck at blue?</title>
+      <link>https://punchagan.muse-amuse.in/blog/do-our-eyes-suck-at-blue/</link>
+      <pubDate>Sat, 13 Nov 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/do-our-eyes-suck-at-blue/</guid>
+      <description> This is some fun I had, trying to replicate what was written in this post. I had been trying to understand what was happening here, and found this post on Hacker News very helpful.
+It is a known fact that our eyes have more cones for green and red as compared to blue. The Bayer filter used for digital camera lenses is based upon this principle. This post tries to illustrate that using the following two arguments.
+ Looking at only the blue channel of an image looks very dark. Tripling the pixel size of blue channel doesn&amp;rsquo;t cause much distortion in the final image.  Hence, our eyes suck at blue.
+Their argument is flawed, but we could try and improve a few things.
+Looking at the blue channel. This is definitely flawed, since the intensity of blue in the image they have taken may be less and hence giving us a false positive.
+We could instead gray-scale the image and use these pixel values in the 3 channels and look at the images.
+This also eliminates the problem of the image being captured through a Bayer filter.
+Here&amp;rsquo;s some python code to do the same. (uses matplotlib)
+def show_channels(I): for i in range(3): J = zeros_like(I) J[:, :, i] = I[:, :, i] figure(i) imshow(J) def show_grey_channels(I): K = average(I, axis=2) for i in range(3): J = zeros_like(I) J[:, :, i] = K figure(i+10) imshow(J)  Pixelating the blue channel Again, there was this argument of use of Bayer filter affecting the image and the like.
+What I did was to swap the channels, and then look at the images. However I swapped the channels, the image where the green channel was pixelated always looked the worst. The difference between blue and red was less noticeable, I feel.
+Here&amp;rsquo;s the code.
+def zoom(x, factor=2): rows, cols = x.shape row_stride, col_stride = x.strides view = np.lib.stride_tricks.as_strided(x, (rows, factor, cols, factor), (row_stride, 0, col_stride, 0)) return view.reshape((rows*factor, cols*factor)) def subsample(I): for i in range(3): J = I.copy() J[:, :, i] = zoom(I[::4, ::4, i], 4) figure(i) title(&amp;quot;%s channel subsampled&amp;quot; %colors[i]) imshow(J) def swap_subsample(I, k=1): for c, color in enumerate(colors): print &amp;quot;%s &amp;lt;-- %s&amp;quot; %(colors[c], colors[(c+k)%3]) for i in range(3): J = zeros_like(I) for j in range(3): J[:, :, j] = I[:, :, (j+k)%3] J[:, :, i] = zoom(I[::4, ::4, (i+k)%3], 4) figure(i+10) title(&amp;quot;%s channel subsampled&amp;quot; %colors[i]) imshow(J)  Images Here are a few images. (View them in their original size)
+  </description>
+    </item>
+    
+    <item>
+      <title>talk at GNUnify&#39; 10</title>
+      <link>https://punchagan.muse-amuse.in/blog/talk-at-gnunify-10/</link>
+      <pubDate>Sun, 28 Feb 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/talk-at-gnunify-10/</guid>
+      <description>Shantanu and I conducted a workshop on Scipy at GNUnify &amp;lsquo;10. It was intended to be an introduction to Scipy and Numpy through Image processing. We expected an audience which was python literate. But GNUnify&amp;rsquo;s schedule wasn&amp;rsquo;t too favorable for us. Ours was the first talk scheduled and we ended up getting people who only &amp;ldquo;heard&amp;rdquo; of Python, the language.
+We had planned quite a bit of stuff expecting a python literate audience. But unfortunately, we had to start almost from scratch and couldn&amp;rsquo;t do all of what we planned. Still, the workshop wasn&amp;rsquo;t too bad. Nobody left mid-way during the 2 hour workshop; nobody was dozing either. I would have liked my first talk at a FOSS event to be better, though.
+Slides and Images that we used. Shantanu&amp;rsquo;s post on the talk is here.</description>
+    </item>
+    
+  </channel>
+</rss>

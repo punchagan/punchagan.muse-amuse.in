@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ology on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/ology/</link>
+    <description>Recent content in Ology on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Mon, 04 Oct 2010 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/ology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Augmented assignment in Python</title>
+      <link>https://punchagan.muse-amuse.in/blog/augmented-assignment-in-python/</link>
+      <pubDate>Mon, 04 Oct 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/augmented-assignment-in-python/</guid>
+      <description>If you are new to Python, you should probably stop reading here. But, if you have used Python and numpy, then read on. Before, that try these bits of code.
+import numpy a = numpy.array([1,2]) a = a + 0.5j print a  The &amp;ldquo;same thing&amp;rdquo;, in a slightly different way.
+import numpy a = numpy.array([1,2]) a += 0.5j print a  Both the code blocks, look really the same, until you look carefully. Under normal circumstances a = a + b and a += b behave exactly similarly, and we really don&amp;rsquo;t need to bother about the differences between them.
+But, +=, which is an augmented assignment operator, actually tries to perform the operation in-place, unlike the other statement where + actually returns a new object which is again being referenced by the name a.
+But, when dealing with numpy arrays, this will lead to trouble. When assigning to an array, it&amp;rsquo;s dtype is not changed and hence the trouble.
+The right way to use the augmented assignment operator, would be:
+import numpy a = numpy.array([1,2], dtype=complex) a += 0.5j print a  The same thing is explained in this thread. Also, Thanks to Bhanukiran for asking me this.</description>
+    </item>
+    
+    <item>
+      <title>A GNU and a friend</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-gnu-and-a-friend/</link>
+      <pubDate>Tue, 07 Sep 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-gnu-and-a-friend/</guid>
+      <description>I now have a GNU! I bought it (a GNU soft toy) in memory of my friend swathanthran from #emacs-in. RIP swathanthran
+As a bonus, I got the chance to have a photograph with just RMS and me. Also, hoping the monetary contribution will be of some use to FSF-India.
+The thrill of getting the GNU (and the GNU itself) and shaking hands, getting photographed with RMS is dedicated to all the lafoots and specially to Voodoo, who taught me the meaning of the word &amp;ldquo;hacker&amp;rdquo;.
+Happy Hacking!
+ps: I just hope and pray nobody else does anything as stupid and shocking as what swathanthran did.</description>
+    </item>
+    
+    <item>
+      <title>org2blog on the web</title>
+      <link>https://punchagan.muse-amuse.in/blog/org2blog-on-the-web/</link>
+      <pubDate>Sun, 29 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org2blog-on-the-web/</guid>
+      <description>Well, it&amp;rsquo;s been a week of lull on my blog. Not that I&amp;rsquo;m very busy. But, just didn&amp;rsquo;t have anything to post. I was feeling jobless today and searched the web for org2blog users. Here is what I found.
+ This is a test post from org2blog
+ Posting from emacs and org-mode
+ Vim vs Emacs, or why it really doesn’t matter
+ Posting subtree from org-mode buffer (take 2)
+ Here’s a test post to wordpress for Org2blog – an Emacs plugin
+ Primeiro post usando org2blog
+ Emacs中绘图－ ditaa篇
+ org2blog on identi.ca
+ Marcel van der Boom &amp;ndash; StatusNet
+  </description>
+    </item>
+    
+    <item>
+      <title>Vimperator and Firemacs!</title>
+      <link>https://punchagan.muse-amuse.in/blog/vimperator-and-firemacs/</link>
+      <pubDate>Wed, 28 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/vimperator-and-firemacs/</guid>
+      <description>For the uninitiated, vimperator is an emacs plugin to get Firefox working with vim keybindings and firemacs 1 is for emacs keybindings.
+I&amp;rsquo;m obsessed with emacs (as should already be evident) and can&amp;rsquo;t really edit text without it&amp;rsquo;s key-bindings. There are others like me, and hence the firemacs plugin. It&amp;rsquo;s a blessing for my tribe.
+Firemacs is great, except for the one great feature that it lacks - being able to jump to links/textareas without using the mouse. I&amp;rsquo;ve seen Nishanth do it with ease, using Vimperator. I wanted to add this feature to Firemacs, by copying some code from Vimperator to Firemacs. I directly started looking at the code, but couldn&amp;rsquo;t make head or tail of it. I got a few doubts about how Vimperator works, since I&amp;rsquo;d never used it. Nishanth asked me to simply install it and try it out.
+And then we had our EUREKA! moment. Vimperator and Emacs both enabled together work seamlessly well. Two obsessed people are happy and satisfied! And hopefully many more. :D
+ Key-bindings are a religious thing, in the world of editors! ↩   </description>
+    </item>
+    
+    <item>
+      <title>Sage Days 25, Mumbai, India</title>
+      <link>https://punchagan.muse-amuse.in/blog/sage-days-25-mumbai-india/</link>
+      <pubDate>Wed, 21 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/sage-days-25-mumbai-india/</guid>
+      <description> What is &amp;lsquo;Sage Days&amp;rsquo;? Sage Days is a confluence of present and prospective SAGE Users and Developers. It is an opportunity to come together to share ideas, brainstorm and hack on Sage. Sage Days 25 is the 25th version of Sage Days, and is being organized in Mumbai, India. In order to cater to an Indian audience and scenario, this version has been tweaked slightly. Sage Days 25 has beginner level tutorials, in addition to the usual talks and sprints, to help new users get started with Sage and help promote the use of Sage in India.
+What is Sage? Sage is a free, open-source mathematics software system licensed under the GPL. It combines the power of numerous existing open-source packages into a common Python-based interface. It&amp;rsquo;s mission is to create a &amp;ldquo;viable free open source alternative to Magma, Maple, Mathematica and Matlab&amp;rdquo;. Sage has tools for a broad range of mathematical areas like Linear Algebra, Calculus, Symbolic Math, Plotting, Rings &amp;amp; Groups, Graph Theory, Number Theory and Cryptography. Essentially, &amp;ldquo;it can do anything from mapping a 12-dimensional object to calculating rainfall patterns under global warming&amp;rdquo; - as Science Daily puts it . Eager to get started? Start here. Apart from being feature rich, it&amp;rsquo;s usability is one of it&amp;rsquo;s greatest strengths. Sage Notebook, a web-interface for all the math you&amp;rsquo;ll ever want to do, is really the killer feature! As the Sage Marketing page says, &amp;ldquo;The SAGE GUI surely works on your computer box, because it just runs in Firefox!&amp;ldquo;. Try it Now!
+Why should you attend? Sage Days 25 is being attended by the creator and lead developer of Sage, Prof. William Stein. It will also be attended by other developers of Sage. This would be a great opportunity to meet and interact with them! The conference will be attended by a plethora of enthusiastic people from all over the country who use Sage or are interested in doing so. The conference will also see the presence of many mathematicians interested in software. Who knows, you may run into someone you&amp;rsquo;d want to collaborate with, for your future work! This event will be a great learning experience, if you are even remotely interested in math and software for it!
+When and Where?  Venue: IIT-Bombay, Mumbai, India Dates: August 9-12, 2010 Tentative Schedule Register Here Click here for more info  </description>
+    </item>
+    
+    <item>
+      <title>talk at GNUnify&#39; 10</title>
+      <link>https://punchagan.muse-amuse.in/blog/talk-at-gnunify-10/</link>
+      <pubDate>Sun, 28 Feb 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/talk-at-gnunify-10/</guid>
+      <description>Shantanu and I conducted a workshop on Scipy at GNUnify &amp;lsquo;10. It was intended to be an introduction to Scipy and Numpy through Image processing. We expected an audience which was python literate. But GNUnify&amp;rsquo;s schedule wasn&amp;rsquo;t too favorable for us. Ours was the first talk scheduled and we ended up getting people who only &amp;ldquo;heard&amp;rdquo; of Python, the language.
+We had planned quite a bit of stuff expecting a python literate audience. But unfortunately, we had to start almost from scratch and couldn&amp;rsquo;t do all of what we planned. Still, the workshop wasn&amp;rsquo;t too bad. Nobody left mid-way during the 2 hour workshop; nobody was dozing either. I would have liked my first talk at a FOSS event to be better, though.
+Slides and Images that we used. Shantanu&amp;rsquo;s post on the talk is here.</description>
+    </item>
+    
+    <item>
+      <title>Monikers and the Internet</title>
+      <link>https://punchagan.muse-amuse.in/blog/monikers-and-the-internet/</link>
+      <pubDate>Sat, 27 Feb 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/monikers-and-the-internet/</guid>
+      <description>Like most bloggers, I keep looking at my blogs hits once in a while. (Sometimes inspires to write better; and more often.) The post that gets most hits these days is my post on mailman, postfix, et al. But the search term that&amp;rsquo;s increasingly bringing people to my blog is &amp;ldquo;punchagan&amp;rdquo;.
+This scares me. What makes people search for me? What makes people search more often these days? Why am I scared?
+Why do people use monikers or online identities? I started off with the idea of anonymity and privacy; keeping my online identify separate from my real one. But it, obviously, is a folly to have you email id with the same handle. Now, almost anybody who knows me, also knows my online handle. They can find me anywhere and everywhere with just a few keystrokes (and Google). Also, the uniqueness of my handle doesn&amp;rsquo;t help one bit. Any search returns over 90% relevant results.
+Is it time to get lost in the crowd with a new handle? ;) Probably not. I don&amp;rsquo;t have much to hide under the covers. Let the world see &amp;ndash; who I am, who I have been; where I am, where I have been.
+Peace.</description>
+    </item>
+    
+    <item>
+      <title>numpy, pacman and me</title>
+      <link>https://punchagan.muse-amuse.in/blog/numpy-pacman-and-me/</link>
+      <pubDate>Sun, 31 Jan 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/numpy-pacman-and-me/</guid>
+      <description>I&amp;rsquo;m now officially a part of the Arch Linux community! Arch Linux is a lightweight and flexible Linux® distribution that tries to Keep It Simple.
+I have started using arch from less than a week or so. It took me a while, not too long, to realize the beauty of this distro. I was trying to tweak the settings of my org-mode&amp;rsquo;s remember (on Karmic), trying to make it work the way I liked it. After breaking my head with .emacs and lisp for a while, I realized the version of my org-mode was way different from the version of the docs, I was reading. It didn&amp;rsquo;t take long to figure out, which version of org-mode to get. As a matter of curiosity, I checked AUR for the version, and true to Arch&amp;rsquo;s reputation it was bleeding edge! I was still using Karmic, since I hadn&amp;rsquo;t got my Arch installation working the way I like it, yet. Out of laziness. sudo reboot; to hell with laziness!
+I was setting up things I regularly use, tweaking my way around. After a day or so, I find python-numpy is out of date. And to top it, an orphaned package! I didn&amp;rsquo;t feel one bit good about this. After some futile attempts to suppress my discomfort, I sat down to work.
+After an afternoon of effort, I created my first PKGBUILD. :) I now have python-numpy installed using pacman! Pleasure to join the Arch User Community! Also, thanks to lifeeth and Lynus Vaz, for the sparks.
+PS: I&amp;rsquo;m using Arch with Openbox. It&amp;rsquo;s neat! PPS: org-mode is really awesome! It&amp;rsquo;s a world in itself. life in plain text, truly!]</description>
+    </item>
+    
+    <item>
+      <title>Stress and us</title>
+      <link>https://punchagan.muse-amuse.in/blog/stress-and-us/</link>
+      <pubDate>Fri, 25 Sep 2009 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/stress-and-us/</guid>
+      <description>[Cross-posted on the FOSSEE Blog]
+Don&amp;rsquo;t tell me I didn&amp;rsquo;t warn you, if you walk into our lab sometime and mistake it for a game zone in your neighbourhood. You are indeed in &amp;ldquo;the&amp;rdquo; lab. If you came looking for Prof. Prabhu you&amp;rsquo;ll have to return. You&amp;rsquo;ll only find PR vowing to see the end of baali, for having a nice time pawning him. You won&amp;rsquo;t find me around - I&amp;rsquo;m cloaked and busy creating havoc. Unless, of course, you are the seer KD. Watch your step extremely carefully or you won&amp;rsquo;t know when and how fuchmed&amp;rsquo;s GM hit you. And don&amp;rsquo;t dare venture anywhere near madrazr, jumping all around with a shockwave, unless you are capable enjoying some real nasty shocks. Well, the team is busy in one of it&amp;rsquo;s two SB sessions per day. SB (short for Stress Buster) sessions are intense 15 minute rounds of bzflag - 3D first person tank battle game.
+Hope you didn&amp;rsquo;t start thinking, I&amp;rsquo;m just goofing off here, doing nothing at all. If it&amp;rsquo;s not already clear, SB sessions are exactly what they are called - Stress Busters. Just to refresh ourselves and get back to work, with greater force. What then, am I doing for the rest of my time?
+Mainly I&amp;rsquo;ve been developing course content that we have been working on, called Software Tools, Techniques and Practices. I have been working on a session for elementary LaTeX and basic Linux tools. I&amp;rsquo;ve also been attending classes of Digital Control and trying to Python-ize the Matlab/Scilab code that the course uses.
+But, that&amp;rsquo;s not all. I&amp;rsquo;ve helped a guy restore a Joomla site on Day-1. I screwed up a brand new installation of a server with some real skill; then expect to be screwed but get some encouragement with the words, &amp;ldquo;It was a good learning experience for us.&amp;rdquo; Seen a Debian server upgrade from Etch to Lenny in under 10 minutes. Installed an instance of twiki and struggled to configure it. Helped a Humanities Scholar with LaTeX. Attended a workshop on Instruction Design. Restored Qmail on an old Fedora 3 server. Goofed around in gimp, for a CD cover and a T-shirt design. Chipped in with bits, for mutating Ubuntu into &amp;ldquo;LivePython&amp;rdquo;. Did a bit of css and javascript tweaking&amp;hellip; The list goes on!
+Now, don&amp;rsquo;t you think we deserve the SB&amp;rsquo;s? ;)</description>
+    </item>
+    
+    <item>
+      <title>Postfix &#43; Mailman for Multiple Domains.</title>
+      <link>https://punchagan.muse-amuse.in/blog/postfix-mailman-for-multiple-domains/</link>
+      <pubDate>Wed, 05 Aug 2009 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/postfix-mailman-for-multiple-domains/</guid>
+      <description>Well, there are a hazaar tutorials on setting up Postfix and Mailman for Debian for a single domain. There were a few for doing that for multiple domains also, but nothing comprehensive, if I could say so. This link is pretty comprehensive and details all the steps for setting up Postfix for a single domain. Here is all you&amp;rsquo;ll want to know about setting up Virtual domains in Postfix.
+You only need to make a few changes for adding a second (or more) domain. You just need to add the virtual_alias_domains and add virtual_alias_maps. Here is a glimpse of how my main.cf looks:
+myhostname = mail.abc.in mydomain = abc.in mydestination = $myhostname, $mydomain, localhost.$mydomain myorigin = /etc/mailname virtual_alias_maps = hash:/etc/postfix/virtual-xyz, hash:/etc/postfix/virtual-abc, hash:/var/lib/mailman/data/virtual-mailman virtual_alias_domains = xyz.in, mail.xyz.in  virtual-xyz and virtual-abc contain the virtual aliases for each domain. Note that Postfix expects hash files and hence you need to run postmap /etc/postfix/virtual-abc each time the file is changed, to keep the hash file in sync with the text file that you edit. Also, you need to run postfix reload, each time you make changes to main.cf or master.cf
+Fairly straight forward, right? But it took me quite sometime to get it all right, since this was the first time I was doing anything with Mail Transfer Agents or the like.
+Now, onto Mailman. Well the Installation Manual of Mailman, literally has it all. Here is a look at how my mm_cfg.py looks:
+DEFAULT_EMAIL_HOST = &#39;abc.in&#39; DEFAULT_URL_HOST = &#39;mail.abc.in&#39; add_virtualhost(DEFAULT_URL_HOST, DEFAULT_EMAIL_HOST) POSTFIX_STYLE_VIRTUAL_DOMAINS=[&#39;xyz.in&#39;] add_virtualhost(&#39;mail.xyz.in&#39;, &#39;xyz.in&#39;) MTA=&#39;Postfix&#39;  The only trouble was to get mailing lists with same names on both the domains (which I couldn&amp;rsquo;t get working). I experimented with multiple mailman instances but that won&amp;rsquo;t work because the MTA can&amp;rsquo;t differentiate between the two instances of mailman. The alternative is probably to have two instances of postfix running too. But that I felt was like going too far, and gave up. [What if we wanted to add another domain to the list?!]
+Also, I had to make a few alterations to the Apache file to allow access to the mailman pages without breaking the Zope redirection that was already set-up.
+[Thanks to Shantanu and Vattam (and all the hazaar people using Postfix and Mailman and cared to document things for the sake of others, and of course Google)]</description>
+    </item>
+    
+    <item>
+      <title>FOSS talks at CDEEP</title>
+      <link>https://punchagan.muse-amuse.in/blog/foss-talks-at-cdeep/</link>
+      <pubDate>Fri, 10 Jul 2009 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/foss-talks-at-cdeep/</guid>
+      <description>I had the opportunity to attend a FOSS talk session organized by Center for Distance Education Engineering Programme (CDEEP) as a part of the National Mission on Education through ICT. The National Mission on Education through ICT has some lofty goals, which when reached will take the country ahead by leaps and bounds.
+The Mission has a budget of $1billion in the 11th Five year plan, 40% of which will be spent on content generation (all of which will be free/open source) and the rest will be spent on making available a minimum bandwidth of 1Gbps to the 30,000 odd colleges spread over India (out of which around 3000 are Engineering colleges). The mission has various projects planned and they are picking up steam rapidly. The project I will be working on, for the Adoption of Open Source in Engineering and Science Education in India, is also a part of this Mission. Prof. Kannan had kick started the session with an introduction to the National Mission on Education through ICT. The talks were all being webcast to various EduSAT centers and on the web.
+Then, Prof. Pathak talked on, why open source is important. He said, (not exactly quoting him) &amp;ldquo; It is theoritically possible for any person to learn and discover things from scratch, but there&amp;rsquo;s been only one Ekalavya in the entire history of India.&amp;rdquo; Education is a social activity and hence open access to content is absolutely vital. He mentioned various things like how IIT-B has been working on Creative Commons licensing and other things going on here. He ended the talk with a hope that soon India will move from being a net taker of Open source to a net giver to open source.
+This was followed by three talks, delivered by developers from RedHat meant for programmers who wish to contribute to FLOSS.
+The first talk was by Ramakrishna Reddy, titled 10 things a FLOSS developer should know. It was a pretty nice and balanced talk, covering a wide range of things. I would like to point out a few things, that I liked the most.
+ He clarified the term hacker as soon as he used it. He emphasized a lot on groking code; reading code for fun, looking at the code of others, reading as much code as possible&amp;hellip; He talked of muscle memory of emacsen. I liked the way he talked of people being so quick with their editors and how learning to use your tools effectively is a big plus Release often, Release early. Everybody talks of it, but he said a few words, which I liked. Some developers don&amp;rsquo;t usually release their code as early for the fear of being ridiculed. But don&amp;rsquo;t bother, &amp;ldquo;we are just small people, in the whole galaxy.&amp;rdquo;  The next talk was by Prasad Pandit on How to use Infrastructure for FOSS projects. Prasad talked of Website, Version Control, Mailing list, IRC, Bugzilla, Wiki and RSS feeds. He gave quite a few examples on how each thing is important, most of the examples being his personal experiences.
+The last talk was by Rahul Sundaram and was on Communication in a FOSS project. For a change he didn&amp;rsquo;t have slides and the reason for that, he said, is that communication in a FOSS project is casual and not having slides and walking in with a t-shirt and jeans represents that casualness which is a culture of FOSS projects&amp;rsquo; communication.
+ Be polite, but don&amp;rsquo;t be Formal. Be precise, but do provide a context to what you are saying. Don&amp;rsquo;t fear that you&amp;rsquo;ll say something foolish, which, will be archived for eternity. Mistakes are there to learn from. Not just you, but others too.  He talked of quite a lot of things, but these were the things which struck me as particularly interesting/important.
+At the end, all the participants walked out with Fedora 11 DVDs from the RedHat/Fedora guys. :D</description>
+    </item>
+    
+    <item>
+      <title>Weblogger.el configured!</title>
+      <link>https://punchagan.muse-amuse.in/blog/webloggerel-configured/</link>
+      <pubDate>Thu, 19 Mar 2009 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/webloggerel-configured/</guid>
+      <description>If you see this post, it means weblogger has been successfully configured in emacs. Emacs Rocks. \m/
+UPDATE [2010-09-02 Thu]: I now use org2blog, a small extension to emacs orgmode to post to my blog.</description>
+    </item>
+    
+    <item>
+      <title>The &#39;Academic&#39; Internet</title>
+      <link>https://punchagan.muse-amuse.in/blog/the-academic-internet/</link>
+      <pubDate>Fri, 10 Oct 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/the-academic-internet/</guid>
+      <description>Notice for the Internet Usage
+Internet Facility is provided to students for academic activities and e-mails. It is observed that few students are misusing the Internet facility by using excessive internet bandwidth for non-academic purposes. The students who are running the hubs are strictly informed to close their hubs. Computer Center will be starting official hub for the sharing of academic information and open source softwares.
+If a student is found while doing so the network facility will be blocked by Computer Center for a semester. Further, a student will be called by a disciplinary committee and a severe disciplinary action will be taken.
+ This Notice from the Computer Center is creating waves all around. This isn&amp;rsquo;t the first time, though, that the people in-charge of the Network have &amp;ldquo;acted&amp;rdquo;.
+Academic activities; wonder what it&amp;rsquo;s definition is, in their dictionaries. It surely includes the following.
+ Using Internet for &amp;lsquo;academic activities&amp;rsquo; or emails, during class-room hours makes no sense. Anything &amp;lsquo;academic&amp;rsquo; cannot have a size greater than 5 MB. Accessing version control systems ( svn, cvs et al ) cannot be classified &amp;lsquo;academic&amp;rsquo; IRC cannot teach you anything. Don&amp;rsquo;t ever dream of thinking it as &amp;lsquo;academic&amp;rsquo; to hang out on \#python or \#emacs All &amp;lsquo;academic&amp;rsquo; stuff is limited to the http(s) ports. You wouldn&amp;rsquo;t need to use any other ports, ever. Any &amp;lsquo;academic&amp;rsquo; activity fits within a span of 2 hours or can be done in blocks of 2 hours each, with gaps of 2 hours in between. &amp;lsquo;Academic&amp;rsquo; stuff doesn&amp;rsquo;t definitely contain key-words chosen by the &amp;ldquo;all-knowing&amp;rdquo; admins.  Moreover, the people in-charge who refused to allow the use of a computer in the CC as a server for on-campus repositories of GNU/Linux packages, now wish to host a &amp;lsquo;hub&amp;rsquo; for sharing open-source softwares! There&amp;rsquo;s already an official ftp server which hosts the academic info and a few useful softwares. I don&amp;rsquo;t see how a hub would be different.
+We don&amp;rsquo;t have any disciplinary committees for people smoking in hostel rooms, causing a lot of trouble for others around them, but we are going to have them for hosting hubs. ( Well, a new law banning smoking in public places in India has been passed just a few days ago. Hopefully it&amp;rsquo;ll work better than the older one, since now there&amp;rsquo;s some pressure on the people in-charge of the public place. )
+Also, it could be argued that college isn&amp;rsquo;t meant only for &amp;lsquo;academic&amp;rsquo; learning and a lots of other learning takes place here (and the hubs were definitely helping quite a bit) but I&amp;rsquo;ll leave that for another day, probably. Also, I don&amp;rsquo;t think 18+ year olds, people who are about to step into various big roles, leading the country need to be told how to make use of the facilities/resources available to them; A degree of freedom is indispensable, I believe.
+I appreciate the efforts being made to improve the network situation here and also help the students get the most ( &amp;lsquo;academically&amp;rsquo; ) out of their college experience, but I feel the situation deserves more careful handling.</description>
+    </item>
+    
+    <item>
+      <title>Software Freedom Day</title>
+      <link>https://punchagan.muse-amuse.in/blog/software-freedom-day/</link>
+      <pubDate>Sun, 21 Sep 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/software-freedom-day/</guid>
+      <description>Three Cheers to &amp;lsquo;Free Software&amp;rsquo;!
+A toast for GNU on its 25th Birthday!1
+If you intend to ask, what I did on this day, I have nothing to show. I haven&amp;rsquo;t done anything that&amp;rsquo;s tangible but yes, I have re-dedicated myself to the idea of Free Software. This post intends to shed some light on a few things (if not for the benefit of others, just as a reminder for myself)
+ Free Software is a matter of liberty, not price. I&amp;rsquo;ve often been in a position that required me to correct people. &amp;lsquo;Free Software&amp;rsquo; is software that&amp;rsquo;s free as in free speech and not free beer. For the lack of a better word in english, the word &amp;lsquo;free&amp;rsquo; which also means gratis has been used. Using the term &amp;lsquo;Libre&amp;rsquo; sometimes helps and if you are in this part of the world, &amp;ldquo;mukt&amp;rdquo; is the best word to use. Free Software2 comes along with four fundamental freedoms. To put it simply, the freedom to use, study, share and modify any software. Free Software may have the advantage of being &amp;lsquo;technically sounder&amp;rsquo;, but the philosophy is what matters the most to me. I will do whatever is possible within my capacity to spread the philosophy and the associated freedom  Be Free, My Friend!
+Here is an extract from one of Stallman&amp;rsquo;s 3 essays:
+ We must talk about Freedom
+Estimates today are that there are ten million users of GNU/Linux systems such as Debian GNU/Linux and Red Hat Linux. Free software has developed such practical advantages that users are flocking to it for purely practical reasons.
+The good consequences of this are evident: more interest in developing free software, more customers for free software businesses, and more ability to encourage companies to develop commercial free software instead of proprietary software products.
+But interest in the software is growing faster than awareness of the philosophy it is based on, and this leads to trouble. Our ability to meet the challenges and threats described above depends on the will to stand firm for freedom. To make sure our community has this will, we need to spread the idea to the new users as they come into the community.
+But we are failing to do so: the efforts to attract new users into our community are far outstripping the efforts to teach them the civics of our community. We need to do both, and we need to keep the two efforts in balance.
+  http://www.gnu.org/fry/ ↩ The Free Software Definition ↩ The GNU Project by Richard Stallman ↩   </description>
+    </item>
+    
+    <item>
+      <title>A Byte of Python</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-byte-of-python/</link>
+      <pubDate>Sun, 07 Sep 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-byte-of-python/</guid>
+      <description>This post&amp;rsquo;s been inspired by a wonderful book, &amp;ldquo;A Byte of Python&amp;rdquo;1 by Swaroop C H. The book has been revised after a gap of nearly 4 years and the wait is worth it! I thoroughly loved the book, and I&amp;rsquo;m happy to be accompanied by so many2 others3. This book has filled me with a sense of joy and pride. The pride, of being part of such a wonderful community, a beautiful crowd. Further, it is a matter of pride, the book&amp;rsquo;s been authored by an Indian - its quite rare to find such books written by people in this part of the world.
+I have loved python, the moment I started using it. There are quite a few occasions, where I did something, just because I had the power of Python with me. Python is undoubtedly amongst the best, not just as a first programming language, but to give the user a sense of &amp;ldquo;do-able-ity&amp;rdquo; and I am thoroughly enjoying it.
+&amp;gt;&amp;gt;&amp;gt; import this The Zen of Python, by Tim Peters  Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated. Flat is better than nested. Sparse is better than dense. Readability counts. Special cases aren&#39;t special enough to break the rules. Although practicality beats purity. Errors should never pass silently. Unless explicitly silenced. In the face of ambiguity, refuse the temptation to guess. There should be one-- and preferably only one --obvious way to do it. Although that way may not be obvious at first unless you&#39;re Dutch. Now is better than never. Although never is often better than *right* now. If the implementation is hard to explain, it&#39;s a bad idea. If the implementation is easy to explain, it may be a good idea. Namespaces are one honking great idea -- let&#39;s do more of those!   A Byte of Python ↩ Python - Notes &amp;ndash; Swaroop CH ↩ Book updated for Python 3000 &amp;ndash; Swaroop CH ↩   </description>
+    </item>
+    
+    <item>
+      <title>mukt.in 2008</title>
+      <link>https://punchagan.muse-amuse.in/blog/muktin-2008/</link>
+      <pubDate>Fri, 18 Jul 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/muktin-2008/</guid>
+      <description>Mukt.in is a FOSS-fest, being conducted in Hyderabad, India by the mukt.in team (a group of FOSS enthusiasts). Spread the word and Be there!
+   Venue CSE Department, Osmania University, Hyderabad, India     Date 1-3 August, 2008   Register http://mukt.in/registration.php    </description>
+    </item>
+    
+    <item>
+      <title>Mid-Term &#39;Psycho&#39;Analysis</title>
+      <link>https://punchagan.muse-amuse.in/blog/mid-term-psychoanalysis/</link>
+      <pubDate>Tue, 15 Jul 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/mid-term-psychoanalysis/</guid>
+      <description>&lt;p&gt;Its been 10 days on my sabbatical. I have done reasonably well
+during the first week, but now its getting on my nerves. I have
+realized how addicted I am to chat, IRC and the Internet. I have
+to soon find some remedies for this.&lt;/p&gt;
+
+&lt;p&gt;Well, here is the first step. I approached ELIZA (or Doctor Fill,
+that&amp;rsquo;s actually the emacs mode) , the Emacs Psychotherapist to
+help me. An enjoyable chat this one! ;)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Update Script</title>
+      <link>https://punchagan.muse-amuse.in/blog/update-script/</link>
+      <pubDate>Tue, 08 Jul 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/update-script/</guid>
+      <description>Well, this isn&amp;rsquo;t an update of how I&amp;rsquo;m doing on my sabbatical. Its just been 3 days and I&amp;rsquo;m doing pretty fine. I just finished writing a script to keep my blogs page in sync with my google-reader (well not exactly). The script parses an xml export of my google-reader-subscriptions and updates the edits the html of my unnought-blogs page. period.
+There are a couple of things I don&amp;rsquo;t like about this script.
+Firstly, I don&amp;rsquo;t want to keep exporting my google-reader-subscription each time I make changes. The script should be able to directly sync with my google-reader without me having to export the file. [I have read about the atom subscriptions feed of Google Reader, but haven&amp;rsquo;t been able to get it right.] Hopefully, I&amp;rsquo;ll be able to do it in the near future.
+Secondly, The blog author&amp;rsquo;s name is non-existent. I can&amp;rsquo;t do anything about this though.
+Also, In the process, I had the chance to look a geeky ad. I found it at the weirdest of places!
+ header: X-hacker: If you&amp;rsquo;re reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header.
+ ps :
+ The source is GPLv2 licensed. Get in touch, if you&amp;rsquo;d like to have a look.  </description>
+    </item>
+    
+    <item>
+      <title>A sabbatical</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-sabbatical/</link>
+      <pubDate>Fri, 04 Jul 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-sabbatical/</guid>
+      <description>This post, is a different one in a couple of ways.
+Firstly, I posted this from within emacs! I&amp;rsquo;m using the w3m browser within emacs to post this. I&amp;rsquo;ve started using (trying to use) emacs again. Hope to keep at it longer this time.
+Secondly, I wish to inform junta about my sabbatical for a couple of weeks. I have decided not to use IM/IRC/SocialNetworking sites for the next couple of weeks. [2008-07-06 Sun 00:00]&amp;ndash;[2008-07-19 Sat 23:59] I will, of course, be using mail and will also blog if and when I feel like. This is an experiment triggered by a few ideas from Chaitu1 and my own holiday lifestyle analysis. (Also Chaitu has volunteered to join me.) Hope to make it through and also get some valid, interesting results out of the experiment.
+Update: Firemacs add-on for firfox is very useful. I couldn&amp;rsquo;t get a decent browser for emacs that could open gmail, so I&amp;rsquo;m using Firefox with the Firemacs add-on to compose my mail. Its absolutely amazing. Believe me! [Jul 6, 2008]
+ Chaitu - Poetic Paradigm ↩   </description>
+    </item>
+    
+    <item>
+      <title>Lafoot or Lafoobot!</title>
+      <link>https://punchagan.muse-amuse.in/blog/lafoot-or-lafoobot/</link>
+      <pubDate>Mon, 26 May 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/lafoot-or-lafoobot/</guid>
+      <description>Summer&amp;rsquo;08! I&amp;rsquo;m at home, doing nothing practically. :| No Internships, No Projects, No GRE plans (a little pushing for GRE has just started from the junta around.)
+Just to kill some time and to learn some Python, I have begun to write an IRC chat bot &amp;lt;lafoobot&amp;gt; [Lafoot + Bot]. The present haven of lafoobot is #fosskelog @ irc.freenode.net. Join in, if you want to have a chat! ;) Lafoobot can presently do very few things
+ &amp;ldquo;Yoyo&amp;rdquo;, a newly joined user &amp;ldquo;Hello&amp;rdquo;/ &amp;ldquo;Yoyo&amp;rdquo;, a user or pass on a Hello/Yoyo from user to another. Gives Local time / GMT Gives a random word and its meaning [put in for the junta preparing for GRE ;)] Gives out an MOTD or a fortune when it first joins \#fosskelog Googles a search term and returns the top 5 results (This is my favourite feature and this is the reason partially for this post. &amp;ldquo;!google lafoobot&amp;rdquo; doesn&amp;rsquo;t return anything. Hopefully not anymore.)  If you have ideas for any other features or if you want to have a look at the source, comment here or join #fosskelog. lafoobot&amp;rsquo;s code is licensed under GPLv2!
+Other than this, the summer has been relatively uneventful but for the two FOSS events I attended. Yes, two events, Sat and Sun, both by Twincling (There are two different Twinclings! Don&amp;rsquo;t ask me why) Hoping to have some more action this summer!
+PS: There&amp;rsquo;s a Big discussion presently on whether lafoobot is a he or a she. ;) What do you think?</description>
+    </item>
+    
+    <item>
+      <title>Quark&#39;08 !</title>
+      <link>https://punchagan.muse-amuse.in/blog/quark08/</link>
+      <pubDate>Mon, 11 Feb 2008 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/quark08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Not so Floppix...</title>
+      <link>https://punchagan.muse-amuse.in/blog/not-so-floppix/</link>
+      <pubDate>Tue, 11 Dec 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/not-so-floppix/</guid>
+      <description>Disambiguation: The original Linux on 2 Floppies is here.
+I, post this from a remastered version of Knoppix that we named Floppix!
+It all actually began, with me deciding to do a bit of Emacs-ing at home during the winter hols but I don&amp;rsquo;t have a Linux box at home. Live-CD is the way to go! But then Emacs doesn&amp;rsquo;t \*usually\* go with Live-CDs. So I decided to get around making my own. :) [Dunnet &amp;ldquo;Dunnet Game&amp;rdquo;), an Adventure game in Emacs, played a crucial role in motivating me to go ahead!] The rest as they say is history&amp;hellip;.
+Actually, I tried a debootstrap from my Debian etch but I couldn&amp;rsquo;t manage to get the initrd working. [[http://avudem.blogspot.com &amp;ldquo;Voodoo&amp;rdquo;][I ain&amp;rsquo;t this geekish, its only that I am incapable of putting these terms in a simpler language.] After numerous futile attempt, I gave up for the time being and that&amp;rsquo;s when the genius of [Voodoo]] came in, he took a different route. Remastering Knoppix.[Modifying an existing Live-CD of Knoppix]
+I won&amp;rsquo;t get into the exact details of how we got about it. There&amp;rsquo;s a lot of online help available for that.
+A few highlights, for the curious reader&amp;hellip;
+ got rid of the default KDE and replaced it with Fluxbox. [actually Floppix = Fluxbox + Knoppix :P] added emacs, cmucl, slime, octave, linuxdcpp, vlc and others. got rid of other packages which we weren&amp;rsquo;t going to use. changed the boot message changed the default background image. removed the default boot image [ couldn&amp;rsquo;t change it as the image we chose wasn&amp;rsquo;t being properly converted to lss16 format ] tested the CD with Qemu [size of the iso got more than 700MB] removed a few other not so regularly used packages [including wine!] burnt the CD Logged in!  Now, that I&amp;rsquo;ve logged in, I realize we managed to quite a decent job. Obviously we weren&amp;rsquo;t perfect. It was the first time and done in quite a hurry. [btw, we have our end-sems going on; I&amp;rsquo;ve no exam tomorrow though] I was able to listen to music, connect to the DC, play a game of dunnet and make a blogpost! We also missed a few packages, for instance a screen shot capture program! But it ain&amp;rsquo;t too bad, still a long way to go though!
+Just hoping we manage to make it better, as we get better at it! ;)
+Here comes FloppixV0.1!
+Update [3/1/08]: I never knew that GIMP could capture screenshots! ImageMagick can do that too. I had two programs at hand and thought I had none! Here&amp;rsquo;s a Screenshot of the Floppix Desktop.
+ Picture Source [for the Background Image] : 9
+Update 2 [4/1/08]: There is already a floppy distro of Linux called Floppix. I knew about this only when some one searching for it reached my blog. Guess I should do something about this. [I&amp;rsquo;ll be able to do it only after getting back to campus,though]</description>
+    </item>
+    
+    <item>
+      <title>Telugu Rendering in Ubuntu...</title>
+      <link>https://punchagan.muse-amuse.in/blog/telugu-rendering-in-ubuntu/</link>
+      <pubDate>Wed, 11 Jul 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/telugu-rendering-in-ubuntu/</guid>
+      <description>I had problems with this and tried quite a few things to get it working&amp;hellip; [uninstalling and re-installing packages&amp;hellip; downloading fonts.. etc.. ] but couldn&amp;rsquo;t until I found help here&amp;hellip;
+[Apparently there&amp;rsquo;s a bug in the Pothana font (in Feisty)]
+[ Don&amp;rsquo;t worry if you can&amp;rsquo;t figure out what&amp;rsquo;s the big deal in linking to an already existing post.. :P]</description>
+    </item>
+    
+    <item>
+      <title>Summer or Awe-TEM!! Whatever... Forever</title>
+      <link>https://punchagan.muse-amuse.in/blog/summer-or-awe-tem-whatever-forever/</link>
+      <pubDate>Wed, 13 Jun 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/summer-or-awe-tem-whatever-forever/</guid>
+      <description>Writing from Delhi, doing my PS at NPL! One would imagine, that I am here enjoying myself; that I am enjoying thoroughly the exposure I am getting to the world of Physics at a Research Level; that I am spending each moment, inspired. But things haven&amp;rsquo;t been so rosy here&amp;hellip; until today! [All this while I had been only doing a lot of mechanical labor, very unhappily&amp;hellip;]
+Its around 12 noon, when I get a call, in the lab, from my guide asking me to come down to room no. so and so. I had no idea what that room had, or why I had been called. I enter and I am lead to another room inside. I enter and there&amp;rsquo;s a huge machine. (first look, reminded me of Vickers&amp;rsquo; Hardness Testing Machine, that we had in Lab at coll and I had a test on using it!) and its called a TEM. But when I got closer, I fell in love with it! I dunno how and why, but it looked simply amazing and extremely lovely to me [Nothing like the Vickers&amp;rsquo; machine]. A 25 to 30 year old machine, lots of controls all over it, lots of circuitry out in the open&amp;hellip; absolutely awe-inspiring..[though I knew nothing about them.]
+And then came the moment. The lights in the room were turned off, and slowly and steadily the beam intensity of the TEM was increased. Gradually the Greenish Fluoroscent Screen (displaying a sample magnified X27,000) came to life&amp;hellip; with control lights blinking here and there&amp;hellip; in the darkness of the room.It was absolutely amazing; A great feeling. Though I was in there for a very short while&amp;hellip; an absolutely unforgettable experience; and will remain so, for the rest of my life.
+Now, it doesn&amp;rsquo;t matter to me even if I don&amp;rsquo;t learn much, during the training period, I don&amp;rsquo;t mind doing any kind-of mechanical work, I don&amp;rsquo;t mind not getting any results from my work, whatever&amp;hellip; it doesn&amp;rsquo;t matter any more. This one moment; that&amp;rsquo;s all that matters.</description>
+    </item>
+    
+    <item>
+      <title>Non-e-Moments??!!</title>
+      <link>https://punchagan.muse-amuse.in/blog/non-e-moments/</link>
+      <pubDate>Fri, 13 Apr 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/non-e-moments/</guid>
+      <description>A few days back.. we [the usual gang of Ringo,9,UC,Vudum n me.. along with a lot of others who joined us later] were in the park, just relaxing and having a chat&amp;hellip; but with the others joining us [with whom I usually don&amp;rsquo;t hang around..] , the topics discussed were quite different from those that interest me&amp;hellip;and we usually talk on.. I was getting bored.. but suddenly an interesting idea popped up&amp;hellip; the funda of living on CS.. [though the tone in which they looked at the idea was different&amp;hellip; I found it interesting..]
+The ppl were criticizing a guy (don&amp;rsquo;t wanna name him :P) {who hosted wierd maps with soccer and other such stuff in it..}.. the people were imagining wild things like.. maps in which class-notes would be read out/scrolled&amp;hellip; maps where food items would be displayed at lunch time.. etc.. This might look like a funny and weird idea.. (that gave us all a nice laugh..) but it doesn&amp;rsquo;t seem ridiculous or crazy to me.. the very fact that the idea was conceived, annihilates it ridiculousness, for me. Though such a degree of dependence (and addiction??) may be an over exaggeration but&amp;hellip;
+A walk in the hostel corridors any time during the night will tell you why i say this&amp;hellip; I can see people in every room&amp;hellip; (literally every one.. and mind you I am no exception to this..) stuck to their comps doing all sorts of things&amp;hellip; [actually not a wide range.. its pretty predictable&amp;hellip; :-(] and now after my comp&amp;rsquo;s network card got burnt out (&amp;hellip;probably&amp;hellip; thanks to the lack of grounding in hostels) I can see it even more clearly&amp;hellip; that computers are ruling our lives&amp;hellip; [at this point.. I&amp;rsquo;m confused why I started writing this&amp;hellip; what&amp;rsquo;s it that&amp;rsquo;s bugging me? I&amp;rsquo;m definitely not against ppl using Comps.. for I love them&amp;hellip;]
+Is it that it pains me to see people use comps for stuff that&amp;rsquo;s not so technical? Does it hurt me that we have such &amp;ldquo;Powerful&amp;rdquo; machines before us.. and all we do with them is trivial things like chat with others or play? I don&amp;rsquo;t think so&amp;hellip; Yes, when I read the book Hackers:Heroes of the Computer Revolution, I felt ashamed of using my comp in a meek and powerless way&amp;hellip; but then I realise that they were the Hackers from the Hacker land .. and everyone can&amp;rsquo;t be one, can they? Then what&amp;rsquo;s it, that bugs me?
+I guess I miss the time we spent in the first (and a little of second) semester&amp;hellip; when very few people had comps. We had a great time&amp;hellip; doing other activities that were more physical&amp;hellip; and refreshing (than sitting in front of a comp and posting this!!).. I miss those football tourneys we had in the quadrangles.. I miss those &amp;ldquo;leg&amp;rdquo; cricket matches&amp;hellip; I long for something like the Wrestling match we [Vudum, Ravi,Thatha n me] had in my room&amp;hellip; I miss those thermo sessions with Vudum n Ravi.. I miss the tuts in Ravi&amp;rsquo;s room&amp;hellip; (mind you we sometimes studied even when there weren&amp;rsquo;t exams!!) I guess I miss a lotta things from the first sem&amp;hellip; The time at dinner and the chats in parks, are the only things that are still intact&amp;hellip; [ I wouldn&amp;rsquo;t dare forget to mention our recent trip to the woods near the lake&amp;hellip; it was awesome!! something that we&amp;rsquo;ll all cherish for life&amp;hellip;] I just hope we have more and more and such moments&amp;hellip; moments that i will cherish for life&amp;hellip; moments.. that &amp;ldquo;we&amp;rdquo; will cherish for life&amp;hellip;
+Update: I just saw Ringo&amp;rsquo;s old cd of Illayaraja songs&amp;hellip; and realised, I forgot to mention the wonderful time we [Ringo,9,Hari,UC n me..] had listening to them in Ringo&amp;rsquo;s room on a CD player&amp;hellip; and Ringo&amp;rsquo;s mouthorgan!!!
+Everyone hears what you say, Friends listen to what you say, Best friends listen to what you dont say. &amp;ndash; Anon.
+Live as if your were to die tomorrow. Learn as if you were to live forever. &amp;ndash; Johann Von Goethe</description>
+    </item>
+    
+  </channel>
+</rss>

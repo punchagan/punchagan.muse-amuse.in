@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emacs on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/emacs/</link>
+    <description>Recent content in Emacs on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 14 Sep 2017 22:26:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Emacs frame as a pop-up input</title>
+      <link>https://punchagan.muse-amuse.in/blog/emacs-frame-as-a-pop-up-input/</link>
+      <pubDate>Thu, 14 Sep 2017 22:26:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/emacs-frame-as-a-pop-up-input/</guid>
+      <description>I wanted to try using a dialog box/pop-up window as a prompt to remind me to periodically make journal entries. I had the following requirements:
+ Simple, light-weight dialog box that allows text of arbitrary length Ability to launch the dialog from the shell Ability to have some placeholder or template text, each time the dialog is shown Save the input text to a specific org-mode file Write as little code of my own, as possible, to do this  I had initially thought about using a tool like zenity, or write a simple dialog box in Python using Qt, wx or even tk, and then yank the input text at the desired location. This probably wouldn&amp;rsquo;t have turned out to be too hard, but getting things to look and work exactly the way I wanted would have required more code than I was willing to write or maintain.
+After avoiding doing this for a while, I finally realized that I could simply use Emacs with a new frame with the appropriate dimensions, and with the correct file/buffer open to the desired location. This would
+ eliminate the need for me to write the UI myself eliminate the need to do text manipulation in code, to yank it at the right place, in the right form. By directly opening up the editor at the required location, the onus is on me (as a text inputting user) to put it in, the way I want it. additionally provide me the comfort of being able to write with the full power of Emacs - keybindings and all that jazz. let me leverage elisp to do essentially whatever I want with the buffer being displayed as the dialog box.  I ended up with a command that looks something like this
+emacsclient -c -n\ -F &#39;((title . &amp;quot;Title&amp;quot;) (left . (+ 550)) (top . (+ 400)) (width . 110) (height . 12))&#39;\ -e &#39;(pc/open-journal-buffer)&#39;   This worked pretty nicely, except for the fact that with gnome-shell, the pop-up frame doesn&amp;rsquo;t always appear raised. It often gets hidden in the Emacs windows group, and the whole idea of the pop-up acting as a reminder goes for a toss! But, thanks to this Ask Ubuntu post, I could fix this pretty easily.
+emacsclient -c -n\ -F &#39;((title . &amp;quot;Title&amp;quot;) (left . (+ 550)) (top . (+ 400)) (width . 110) (height . 12))&#39;\ -e &#39;(progn (pc/open-journal-buffer) (raise-frame) (x-focus-frame (selected-frame)))&#39;  </description>
+    </item>
+    
+    <item>
+      <title>blog-admin and Nikola</title>
+      <link>https://punchagan.muse-amuse.in/blog/blog-admin-and-nikola/</link>
+      <pubDate>Sat, 21 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/blog-admin-and-nikola/</guid>
+      <description>Another post about blogging.
+blog-admin now supports Nikola, thanks to yours truly. blog-admin is an Emacs package by CodeFalling that lets you view and manage your (static site generated) blog from within inside Emacs.
+Nikola&amp;rsquo;s command line utility is pretty nifty and does a bunch of useful things. I had a few utility functions to do common tasks like create new post and deploy blog. This worked well, but moment I came across this blog-admin&amp;rsquo;s tabular view, I was sold!
+org2blog (a blogging tool I used previously) had a tracking file that kept track of all the posts I made, and I used it quite a bit for navigation &amp;ndash; thanks to org-mode&amp;rsquo;s search functionality. The tabular view of blog-admin is even better! I really like the fact that the author has tried to keep the package generic enough to support any blog, and adding support for Nikola has been quite easy.
+The filtering functionality is crude, but good enough for a start. One thing I want to add is a preview functionality for drafts. Showing some (writing) statistics would also be nice &amp;ndash; No. posts in the last month, total published posts, etc. No promises, but you may see some of these things, soon. :)</description>
+    </item>
+    
+    <item>
+      <title>Clock in and get-shit-done</title>
+      <link>https://punchagan.muse-amuse.in/blog/clock-in-and-get-shit-done/</link>
+      <pubDate>Tue, 22 Dec 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/clock-in-and-get-shit-done/</guid>
+      <description>I had setup a couple of hooks about an year ago that turn off all notifications while I&amp;rsquo;m clocking in. But, I find myself switching to the browser and jumping to twitter, out of habit. I&amp;rsquo;ve tried get-shit-done in the past to help myself break this habit. But enabling get-shit-done manually is step that quickly became a non-habit.
+So, I hooked up get-shit-done into an org-clock-in-hook. The snippet below is what I added into a function that is added to this hook.
+(with-temp-buffer (cd &amp;quot;/sudo::/&amp;quot;) (shell-command &amp;quot;HOME=/home/punchagan get-shit-done work&amp;quot;))  get-shit-done needs to be run as root, since it does things like modifying /etc/hosts and restarting networking. Just calling get-shit-done as a shell command fails with the error sudo: no tty present and no askpass program specified. I found a couple of ways to fix this. The snippet above piggy-backs on tramp to allow for a way to enter the password for sudo to use. This also means that I don&amp;rsquo;t need to enter the password, as long as the tramp connection is alive.
+For someone worried about having such an easy way of running something as root, using something like gnome-ssh-askpass as the askpass program might work better.
+(shell-command &amp;quot;SUDO_ASKPASS=\&amp;quot;/usr/lib/openssh/gnome-ssh-askpass\&amp;quot; get-shit-done work&amp;quot;)  </description>
+    </item>
+    
+    <item>
+      <title>Elfeed hook to fetch full content</title>
+      <link>https://punchagan.muse-amuse.in/blog/elfeed-hook-to-fetch-full-content/</link>
+      <pubDate>Sat, 19 Dec 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/elfeed-hook-to-fetch-full-content/</guid>
+      <description>I have started to use Pinboard&amp;rsquo;s unread tag as my to-read list. It has a bookmark-let that works pretty well for adding stuff into my &amp;ldquo;to-read&amp;rdquo; list. I then catch up on this list using elfeed and subscribing to the unread items&amp;rsquo; RSS feed. The work-flow is pretty nice for adding stuff into the list, and finding items on the list. But, when it comes to the actual reading part, the entries in the feed don&amp;rsquo;t have the actual content I want to read, and I end up opening the links in a browser.
+Inspired by a comment from FiloSottile, I realized it should be pretty easy to setup a hook that fetches the actual content to make my reading work-flow smoother. I wrote a small script, using python-readability, to fetch the page content, given a URL. This script is then hooked onto elfeed-new-entry-hook, to fetch content of for new entries as they are fetched. All the old entries can be easily fixed with a single call to elfeed-apply-hooks-now.
+(defun pc/get-url-content (url) &amp;quot;Fetches the content for a url.&amp;quot; (shell-command-to-string (format &amp;quot;~/bin/get_article.py %s&amp;quot; url))) (defun pc/get-entry-content (entry) &amp;quot;Fetches content for pinboard entries that are not tweets.&amp;quot; (interactive (let ((entry elfeed-show-entry)) (list entry))) (let ((url (elfeed-entry-link entry)) (feed-id (elfeed-deref (elfeed-entry-feed-id entry))) (content (elfeed-deref (elfeed-entry-content entry)))) (when (and (s-matches? &amp;quot;feeds.pinboard.in/&amp;quot; feed-id) (not (s-matches? &amp;quot;twitter.com/\\|pdf$\\|png$\\|jpg$&amp;quot; url)) (string-equal &amp;quot;&amp;quot; content)) (setq content (pc/get-url-content url)) (setf (elfeed-entry-content entry) (elfeed-ref content))))) (add-hook &#39;elfeed-new-entry-hook #&#39;pc/get-entry-content)  </description>
+    </item>
+    
+    <item>
+      <title>Say Howdy with Emacs!</title>
+      <link>https://punchagan.muse-amuse.in/blog/say-howdy-with-emacs/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/say-howdy-with-emacs/</guid>
+      <description>Staying in touch with people is something I&amp;rsquo;m not very good at. Since I am not on popular (among my friends/family) networks &amp;ndash; FB and Whatsapp &amp;ndash; I don&amp;rsquo;t even see random updates from people, to get some sense of being in touch.
+I recently read some old posts by Sacha Chua and was inspired by how much code she had for contact management in her old blog posts. I was inspired by this post in particular to try and be more meticulous about how I stay in touch with people. Michael Fogleman blogged about his contact management work-flow using keepintouch. It seemed to do most of what I wanted, but I wanted this to be integrated with my org-contacts-db and I felt having native elisp code would make it easier to hook up email, chat, etc. to this.
+I ended up writing a small utility called howdy to help me keep in touch with people. It currently has only a couple of features:
+ M-x howdy lets me update the last contacted timestamp for a contact. Shows me contacts that I&amp;rsquo;m out of touch in the agenda, once I add the following snippet to an agenda file.
+​* Howdy %%(howdy-howdy)   I also have a few hooks to hook up jabber messages and email to update the db. I&amp;rsquo;ve added them to howdy-hooks.el in case anybody else wants to use them. They can also be used as examples to write other hooks. Feel free to contribute other hooks or suggest improvements. The library also ships with a modest test suite, that will hopefully make it easier for others to contribute.
+I&amp;rsquo;m looking forward to experimenting with this over the next few weeks and improving it. Hopefully, it&amp;rsquo;ll help me keep in touch, better than I do now.</description>
+    </item>
+    
+    <item>
+      <title>Playing music using mpsyt from Emacs</title>
+      <link>https://punchagan.muse-amuse.in/blog/playing-music-using-mpsyt-from-emacs/</link>
+      <pubDate>Mon, 20 Apr 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/playing-music-using-mpsyt-from-emacs/</guid>
+      <description>I&amp;rsquo;ve started using the wonderful mpsyt to play any music from youtube, since I&amp;rsquo;m not really interested in the video. But, since I use emacs for chat/IRC, I end up getting youtube links into emacs and opening them opens them up in my browser. I ended up writing some elisp to play the songs from within an instance of mpsyt running inside an emacs buffer.
+(defun pc/short-url-at-point () &amp;quot;Gets the short url at point. This function is required only because `thing-at-point-url-at-point&#39; ignores urls (without a scheme) that don&#39;t start with www.&amp;quot; (let ((bounds (thing-at-point-bounds-of-url-at-point t))) (when (and bounds (&amp;lt; (car bounds) (cdr bounds))) (buffer-substring-no-properties (car bounds) (cdr bounds))))) (defun pc/mpsyt-url (url) (let ((buffer (current-buffer)) (mpsyt-proc-name &amp;quot;*mpsyt*&amp;quot;)) ;; Start a new term with *mpsyt* if there isn&#39;t one (unless (get-process mpsyt-proc-name) (when (get-buffer mpsyt-proc-name) (kill-buffer (get-buffer mpsyt-proc-name))) (ansi-term &amp;quot;mpsyt&amp;quot; &amp;quot;mpsyt&amp;quot;)) ;; Play given url in mpsyt (let ((mpsyt-proc (get-process mpsyt-proc-name))) ;; If something is already playing, stop it and play this... (term-send-string mpsyt-proc &amp;quot;\n\n\n&amp;quot;) ;; We wait for a bit, since looking for the prompt seems to fail, sometimes? (sleep-for 1) (term-send-string mpsyt-proc &amp;quot;\n&amp;quot;) ;; Actually send the command to playurl (term-simple-send (get-process mpsyt-proc-name) (format &amp;quot;playurl %s&amp;quot; url))) (switch-to-buffer buffer))) (defun pc/mpsyt-url-at-point () &amp;quot;Play the URL at point using mpsyt.&amp;quot; (interactive) (let ((url (or (url-get-url-at-point) (pc/short-url-at-point)))) (if (not url) (message &amp;quot;No URL found&amp;quot;) (message (format &amp;quot;Playing %s with mpsyt&amp;quot; url)) (pc/mpsyt-url url))))  The current version of mpsyt crashes when run from inside emacs due to a bug in the code to get the terminal size, which should be fixed once this patch is merged.
+I would&amp;rsquo;ve expected thing-at-point-url-at-point to be able to find urls even when they don&amp;rsquo;t have a schema, but it tries to guess the schema from urls and fails to work when the url starts with youtube.com instead of www.youtube.com.
+I started off using the command-line interface of mpsyt by running it using shell-command or start-process. But, it seemed useful to have a buffer of mpsyt to switch to &amp;ndash; easier to search for new music, repeating songs, etc. Not all tasks/actions are achievable through mpsyt&amp;rsquo;s command line args.
+I ended up writing more code than I thought I would have to[1]. But, I&amp;rsquo;m pretty happy with how this all works, right now.
+[1] - Isn&amp;rsquo;t it true, more often than not?</description>
+    </item>
+    
+    <item>
+      <title>org-drill for making it stick!</title>
+      <link>https://punchagan.muse-amuse.in/blog/org-drill-for-making-it-stick/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org-drill-for-making-it-stick/</guid>
+      <description>Those who read the last few posts here, would know that I have been experimenting with org-drill (a spaced repetition extension to Org mode). I have been using the system (almost) religiously for the past 2 months, and I do find that it has helped a great deal! (in some respects). I have also spent a considerable amount of time trying to reduce the friction to put new stuff into the system, and am constantly on the look out for further improvements.
+Using this system has definitely helped with retention, and I find that I can recall quite a few things I have read a few weeks ago, that I would normally have been unable to. Though, I can recall a lot of information, I have been having a feeling of &amp;ldquo;fragmentation&amp;rdquo;: the feeling of just retaining individual bits/fragments of information, while losing out on actually internalizing the knowledge; not seeing the big picture, etc.
+Wozniak (the author of super-memo) warns against learning without understanding, and memorizing before actually learning stuff. I haven&amp;rsquo;t consciously added stuff into the system that I didn&amp;rsquo;t understand (when I added it), but, later it does feel like I have lost some connections or the understanding, and am only holding onto the fragments of information.
+The problems as explained in (read: as interpreted by me from) Make it Stick appear to be:
+ The understanding (if any) at the time of adding stuff into the spaced-repetition system is untested. It may just be familiarity masquerading as understanding.
+ The lack of any spaced repetitions for the overall concept/understanding and actual repetitions only for individual bits doesn&amp;rsquo;t help retention of the understanding (even if there was any, in the first place).
+  To work around this, I&amp;rsquo;m going to try adding questions that test understanding, to the system. The Super-memo team strongly recommends keeping the drill items small and easy to answer. This may be helpful in keeping each drill session short, but I would really like to add conceptual questions to the system, and see how it goes. I hacked org-drill to allow me to type out answers, before looking at the &amp;ldquo;correct&amp;rdquo; ones. This is an adaptation of a system that a fellow Hacker Schooler uses, and shared. Also, hopefully forcing myself to type out the answer will help me get around the problem of sometimes saying &amp;ldquo;yeah I know that&amp;rdquo;, then looking at the answer only to reaffirm the feeling of familiarity, rather than actually testing myself. I&amp;rsquo;m still going to continue adding quick and short questions that test &amp;ldquo;bits of information&amp;rdquo;, though. But, hopefully the additional conceptual questions are going to tie things together and help fill in the gaps. Lets see how this goes!
+For those interested, my hacks to org-drill below. The code is really a hack, and welcome any suggestions on cleaning up the code.
+(advice-add &#39;org-drill-presentation-prompt :around &#39;pc/org-drill-presentation-prompt) (defun pc/org-drill-presentation-prompt (old-fun &amp;amp;rest fmt-and-args) &amp;quot;A presentation prompt that allows capturing answers.&amp;quot; (let ((cb (current-buffer)) (heading (nth 4 (org-heading-components))) (entry-id (org-entry-get (point) &amp;quot;ID&amp;quot;)) (input &amp;quot;&amp;quot;)) (switch-to-buffer-other-window &amp;quot;*org-capture-drill-answer*&amp;quot;) (org-mode) (insert &amp;quot;# Hit C-c C-c once you are done answering!\n&amp;quot;) (org-insert-heading-respect-content) (insert (format &amp;quot;Answer: %s&amp;quot; heading)) (org-entry-put (point) &amp;quot;QUESTION_ID&amp;quot; entry-id) (goto-char (point-max)) (insert &amp;quot; &amp;quot;) (org-time-stamp-inactive &#39;(16)) (insert &amp;quot;\n\n &amp;quot;) (while (not (and input (equal input &amp;quot;&amp;quot;))) (ignore-errors (execute-kbd-macro input)) (setq input (read-key-sequence nil))) (switch-to-buffer-other-window cb) (apply old-fun fmt-and-args))) (advice-add &#39;org-drill-reschedule :around &#39;pc/org-drill-reschedule) (defun pc/org-drill-reschedule (old-fun) &amp;quot;Calls the original reschedule, but also archives the answer&amp;quot; (prog1 (funcall old-fun) (let ((cb (current-buffer))) (switch-to-buffer-other-window &amp;quot;*org-capture-drill-answer*&amp;quot;) (pc/org-refile-to-datetree &amp;quot;drill.org_archive&amp;quot;) (message (buffer-name)) (switch-to-buffer-other-window cb) (kill-buffer &amp;quot;*org-capture-drill-answer*&amp;quot;)))) (require &#39;org-datetree) (defun pc/org-refile-to-datetree (journal) &amp;quot;Refile an entry to journal file&#39;s date-tree&amp;quot; (interactive &amp;quot;fRefile to: &amp;quot;) (let* ((journal (expand-file-name journal org-directory)) (date-string (or (org-entry-get (point) &amp;quot;TIMESTAMP_IA&amp;quot;) (org-entry-get (point) &amp;quot;TIMESTAMP&amp;quot;))) (dct (decode-time (or (and date-string (org-time-string-to-time date-string)) (current-time)))) (date (list (nth 4 dct) (nth 3 dct) (nth 5 dct)))) (org-cut-subtree) (with-current-buffer (or (find-buffer-visiting journal) (find-file-noselect journal)) (org-mode) (save-excursion (org-datetree-file-entry-under (current-kill 0) date) (bookmark-set &amp;quot;org-refile-last-stored&amp;quot;))) (message &amp;quot;Refiled to %s&amp;quot; journal)))  </description>
+    </item>
+    
+    <item>
+      <title>How I learnt to use Emacs&#39; profiler</title>
+      <link>https://punchagan.muse-amuse.in/blog/how-i-learnt-to-use-emacs-profiler/</link>
+      <pubDate>Sat, 03 Jan 2015 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/how-i-learnt-to-use-emacs-profiler/</guid>
+      <description>I learnt to use Emacs&amp;rsquo; profiler yesterday, after many hours of yak-shaving, trying to get Memacs working. Memacs is a memory extension system for Emacs written by Karl Voit, that I have been meaning to try out for a long time now. Seeing lots of review posts at the turn of the year and watching Karl&amp;rsquo;s recent Emacs Chat with Sacha Chua pushed me to try and finally set it up.
+I started writing a module to create a Memacs file &amp;ndash; an org archive file &amp;ndash; from my browser history. It was pretty easy to write, and I had it spitting out a huge file with 22k entries after about a couple of hours of work. Then I excitedly pulled up my agenda, and turned on the option to view archived entries, only to be super-disappointed. It turned out to be extremely slow! Actually, the agenda never came up with the 22k entries file that I had. At least not in 5 or so minutes, before I got impatient. The performance was unacceptable even when I reduced it to 5k entries.
+I was pretty sure it wasn&amp;rsquo;t that slow for Karl in his demo and tweeted to him, asking for a workaround. Meanwhile, I looked at his dot-emacs, but wasn&amp;rsquo;t able to dig out what was needed to speed up things. He confirmed that his performance was way better than what I was getting.
+First, I ruled out the possibility of it being because of the SSD, since clearly my CPU usage was peaking, and the task was CPU bound and not I/O. Next, I tried using the same file on a different machine (with a different version of Emacs and org-mode), and it worked blazingly fast. So, it was either the version of Emacs or org-mode that I was using.
+I should have stopped, thought clearly, and started experimenting with org version, but hindsight is 20-20. I tried Ubuntu&amp;rsquo;s pre-built Emacs and agendas were fast! I suspected my Emacs build, since I recently started building Emacs from git. I built two or three other versions of Emacs, and wasted a lot of time, before realizing that I wasn&amp;rsquo;t using the org-mode source bundled inside Emacs for the tests, and there were two &amp;ldquo;independent&amp;rdquo; variables.
+Finally, I began bisecting org-mode&amp;rsquo;s source and found that all hell broke loose with an inconspicuous change around release 8.2.6. It turns out that org-overview was broken before this, and collapsing all the trees in a newly opened org-buffer (default option) wasn&amp;rsquo;t working. Once this bug was fixed, opening huge org files would slow down by a great deal, in turn causing agenda generation to be unbearably slow.
+All I had to do was add a #+STARTUP: showeverything to the top of the file. This speeded up things by about 50 times! It turns out, I later found out, that all of this is documented on Worg. I did try a few search engine queries, but sadly none of them brought this up. Adding the following to my config, speeded up agenda generation by about 150-200 times!
+(setq org-agenda-inhibit-startup t) ;; ~50x speedup (setq org-agenda-use-tag-inheritance nil) ;; 3-4x speedup  In the course of all this debugging, I learnt how to use Emacs&amp;rsquo; profiler. The profile reports along with git bisect, eventually helped me figure out what the problem was.
+To profile the CPU usage, all you have to do is add a call like
+(profiler-start &#39;cpu) ;; or M-x profiler-start  at the place where you wish to start it. Emacs will then start collecting information about where time is being spent, by sampling every sampling-interval seconds (default 106 nanoseconds = 1 milli second).
+You can view the information being collected, at any point of time using
+(profiler-report) ;; or M-x profiler-report  The report is a nice, interactive tree with the percentage of time spent in each call. You can stop profiling by calling (profiler-stop). If you have more than one report, you can compare them by hitting = in one of the report buffers. I&amp;rsquo;m definitely going to use this for other things! (like speeding up my startup?)
+Now that I have Memacs working with reasonably fast agenda views, I&amp;rsquo;m looking forward to collecting as much personal information as I can! Thanks Karl for writing Memacs. I am going to be a pretty heavy user, I think! There seem to be a few rough edges, though, and I hope to help smoothen them out a little bit, over the next few weeks.</description>
+    </item>
+    
+    <item>
+      <title>Jabber message queue</title>
+      <link>https://punchagan.muse-amuse.in/blog/jabber-message-queue/</link>
+      <pubDate>Wed, 10 Dec 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/jabber-message-queue/</guid>
+      <description>I&amp;rsquo;ve always wanted to be able to queue up messages to send to friends, until I go online the next time. I tried using email instead of chat a few times, or just ended up staying online with a busy status.
+Finally, now that I have started using jabber-mode for chatting from within Emacs, I took out the time to write a &amp;ldquo;queuing system&amp;rdquo; for sending chat messages, similar to the mail queue for smtpmail. Instead of persisting sexps, though, I persist the messages in a JSON format and the queue is flushed every time I connect to jabber, in a jabber-post-connect-hook.
+To make the interface as similar to the interface available when I am online, I hacked completion for the to ID using email addresses in my address book (mu4e~contact-list). I really like the fact that the chat buffer opens up, and I can type and send messages like I usually do. Hitting RET after typing a message queues it up, instead of trying to send it. Smooth!
+The code is in my .emacs</description>
+    </item>
+    
+    <item>
+      <title>erc-notifications when Emacs not in focus</title>
+      <link>https://punchagan.muse-amuse.in/blog/erc-notifications-when-emacs-not-in-focus/</link>
+      <pubDate>Thu, 06 Nov 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/erc-notifications-when-emacs-not-in-focus/</guid>
+      <description>I have been trying to get ERC working with notifications. Julien Danjou&amp;rsquo;s wonderful notifications module for ERC is great, but it is annoying to get notifications even when Emacs is in focus.
+I had looked at circe-notifications, which has the feature but uses xdotool and xprop to do it. I was looking for something simpler, though&amp;hellip; and it suddenly struck me that I have an auto-save hook in Emacs that is run when I focus out of it. I wondered if I could disable and enable notifications on focus, and it worked.
+In case it is useful for somebody else -
+(add-to-list &#39;erc-modules &#39;notifications) (erc-notifications-mode) (add-hook &#39;focus-out-hook &#39;erc-notifications-enable) (add-hook &#39;focus-in-hook &#39;erc-notifications-disable)  I wonder if there are some corner cases where this doesn&amp;rsquo;t work, and that&amp;rsquo;s why the author of circe-notifications chose the tools that he did.</description>
+    </item>
+    
+    <item>
+      <title>More input sources for org-drill</title>
+      <link>https://punchagan.muse-amuse.in/blog/more-input-sources-for-org-drill/</link>
+      <pubDate>Tue, 04 Nov 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/more-input-sources-for-org-drill/</guid>
+      <description>I&amp;rsquo;ve been trying to use org-drill regularly for the last few weeks. I don&amp;rsquo;t know how well it&amp;rsquo;s been going but I have been sticking to the routine religiously. I haven&amp;rsquo;t yet really tried out incremental reading, but in an attempt to make it as easy as possible, I wanted to have a pdf-reader integration, and some kind of integration with Kindle highlights. Browser integration is pretty straight-forward, thanks to some simple java-script.
+I looked for a pdf-reader with some sort of plugin support, but I found nothing in Evince or Okular. I thought about pdfjs but it seemed slightly clunky to open pdfs in a browser, though I might shift to this if I don&amp;rsquo;t like what I finally ended up with. Good old xpdf seemed to be the only pdf reader that had some support for custom keybindings that allowed users to run external commands. With a little Python, I was able to setup a work-flow to capture snippets from xpdf, to add to org-drill. Custom key-bindings somehow don&amp;rsquo;t seem to work on xpdf bundled on Ubuntu. So, I ended up downloading and using the binary available on the xpdf site.
+For Kindle highlights support, with minor updates to Thamer Mahmoud&amp;rsquo;s clip2org, I have a simple way of getting all the &amp;ldquo;new&amp;rdquo; clippings/highlights as org-drill headlines. I haven&amp;rsquo;t really started using this, and once I do, I may end-up automating even the merging of these items into the org-drill notes file. I&amp;rsquo;m looking forward to making better use of my Kindle, with this feature!
+I don&amp;rsquo;t know if it would be useful to have more context information like section titles/chapter titles when capturing from html/pdf, but it seems like an interesting problem to try to solve.
+Also, it might be easier(?) if I probably tried to have a DE level keybinding, and some code to get selection and file name of the currently active window/application.</description>
+    </item>
+    
+    <item>
+      <title>Simple org-clock and gnome/pidgin integration</title>
+      <link>https://punchagan.muse-amuse.in/blog/simple-org-clock-and-gnomepidgin-integration/</link>
+      <pubDate>Wed, 22 Oct 2014 16:43:35 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/simple-org-clock-and-gnomepidgin-integration/</guid>
+      <description> See update below
+I have been trying to get back to using org-mode and its clocking functionality, more often than not. I used to use it a lot, a few years ago, and haven&amp;rsquo;t been using it, since I had been in my last job.
+To help with it, I decided to integrate clocking in and out with changing status on Pidgin, and turning notifications on and off in Gnome. Here&amp;rsquo;s a few lines of code that does this for me.
+(defadvice org-clock-in (after pc/org-clock-in (&amp;amp;optional select start-time)) &amp;quot;Turn gnome notifications off.&amp;quot; (dbus-send-signal :session &amp;quot;org.gnome.SessionManager&amp;quot; &amp;quot;/org/gnome/SessionManager/Presence&amp;quot; &amp;quot;org.gnome.SessionManager.Presence&amp;quot; &amp;quot;SetStatus&amp;quot; 2) (shell-command &amp;quot;purple-remote setstatus?status=unavailable&amp;quot;)) (defadvice org-clock-out (after pc/org-clock-out (&amp;amp;optional switch-to-state fail-quietly at-time)) &amp;quot;Turn gnome notifications back on.&amp;quot; (dbus-send-signal :session &amp;quot;org.gnome.SessionManager&amp;quot; &amp;quot;/org/gnome/SessionManager/Presence&amp;quot; &amp;quot;org.gnome.SessionManager.Presence&amp;quot; &amp;quot;SetStatus&amp;quot; 0) (shell-command &amp;quot;purple-remote setstatus?status=available&amp;quot;))  Update &amp;lt;2014-11-01 Sat&amp;gt; @baali tried to use my code, and it turns out it didn&amp;rsquo;t work for him, because I forgot to mention that (ad-activate &#39;org-clock-in) needs to be run, after the defadvice code. I have no idea how it worked for me, without doing that. May be because I have defadvice for other functions?
+Also, while debugging this, I found that defadvice is a deprecated way of doing this, and add-function is the way to go now. But, instead of advising the function, I decided to make use of org-clock-in-hook.
+Here is the new code.
+(defun pc/turn-off-notifications () &amp;quot;Turn gnome notifications off.&amp;quot; (dbus-send-signal :session &amp;quot;org.gnome.SessionManager&amp;quot; &amp;quot;/org/gnome/SessionManager/Presence&amp;quot; &amp;quot;org.gnome.SessionManager.Presence&amp;quot; &amp;quot;SetStatus&amp;quot; 2) (shell-command &amp;quot;purple-remote setstatus?status=unavailable&amp;quot;)) (defun pc/turn-on-notifications () &amp;quot;Turn gnome notifications back on.&amp;quot; (dbus-send-signal :session &amp;quot;org.gnome.SessionManager&amp;quot; &amp;quot;/org/gnome/SessionManager/Presence&amp;quot; &amp;quot;org.gnome.SessionManager.Presence&amp;quot; &amp;quot;SetStatus&amp;quot; 0) (shell-command &amp;quot;purple-remote setstatus?status=available&amp;quot;)) (add-hook &#39;org-clock-in-hook &#39;pc/turn-off-notifications) (add-hook &#39;org-clock-out-hook &#39;pc/turn-on-notifications)  </description>
+    </item>
+    
+    <item>
+      <title>Learning to use Org-drill</title>
+      <link>https://punchagan.muse-amuse.in/blog/learning-to-use-org-drill/</link>
+      <pubDate>Tue, 14 Oct 2014 00:07:04 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/learning-to-use-org-drill/</guid>
+      <description>Org-drill is an Org-mode extension that provides spaced-repetition and flash-card functionality. It has a wonderful documentation on Worg, but somehow I couldn&amp;rsquo;t get myself to read the whole document, and setup org-drill, until now.
+The setup is quite straight forward, once you have org-mode along with the contrib packages. Just (require &#39;org-drill), and you are all set! To add a new card, all you need to do is add a :drill: tag to the items you wish to &amp;ldquo;Org-drill&amp;rdquo;. You can start a review session with simply M-x org-drill. You will be shown flash cards, and you can rate how correct and comfortable you were, in answering the questions. Based on your responses, the cards are scheduled for review. Start another review session, whenever you need one!
+What I could only understand once I got myself to read the whole document was that:
+ The default scope of a drill session is the current file. But, you can start sessions with scopes like current tree, current directory, or a specified list of files. This is super-useful!
+ The review sessions are not automatically scheduled, based on when you schedule failed flash-cards. Scheduling the review for a card only sets a due-date for them, and effects, what you are asked in your next session.
+  Cram mode and incremental reading are also things I want to try, as I go along.
+Happy Learning!</description>
+    </item>
+    
+    <item>
+      <title>Recurse Center, 2014-08-08</title>
+      <link>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-08/</link>
+      <pubDate>Sat, 09 Aug 2014 20:56:22 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/recurse-center/recurse-center-2014-08-08/</guid>
+      <description> I spent the morning doing some white-boarding interview practice with a Jorge and Brian. I spent the rest of the day, playing with PyPy and working through a tutorial that teaches us to write a BF interpreter. I spent the Saturday revamping my Emacs config. The main issue with my config was having a &amp;ldquo;package&amp;rdquo; list, of all the packages that the configuration uses, in case we are trying to duplicate it elsewhere. I noticed that this gets out of sync, because I install packages by hand and never update this list. I wrote up some code, that keeps this list in sync with all the packages I have installed. I configured el-get to play well with my config, and am pretty happy with my setup, though I still have to add some matching/searching features with helm/ido/whatever else. I spent the Sunday writing a patch to xtab to be able to limit the number of tabs in Chromium by the memory it uses.  </description>
+    </item>
+    
+    <item>
+      <title>Org based posts in Nikola</title>
+      <link>https://punchagan.muse-amuse.in/blog/org-based-posts-in-nikola/</link>
+      <pubDate>Sun, 20 Apr 2014 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org-based-posts-in-nikola/</guid>
+      <description>Chen Bin asked me to share my Nikola+Org work-flow, and share an example post.
+The org source for any post can be found by changing the URL of a post from .html to .org.
+I don&amp;rsquo;t have much of a work-flow, because I don&amp;rsquo;t post too often, but here is what I typically do, to make a new post.
+I start off by creating a new post using
+$ nikola new_post  and then give the post a title and start editing the post in Emacs.
+I have a simple snippet that lets me insert tags, based on existing tags.
+ Once I&amp;rsquo;m happy with the content of a post, I run nikola auto to build the source and serve it locally, and see if the post &amp;ldquo;looks&amp;rdquo; reasonable, after being rendered.
+Once, I&amp;rsquo;m happy with it, I commit the post and deploy it using nikola deploy.
+I also have a plugin, that posts captured bookmarks and quotes onto the blog, with a single command. I should probably make the sources of my blog open, and push it onto GitHub.
+Update [2015-05-13 Wed]
+ I use my own plugin for Nikola which lets me write posts in org-mode. There is a similar plugin by Chen Bin, that exports posts to intermediate html, that is then used by Nikola.
+ The source for my blog is now on GitHub
+ I also have custom elisp to be able to make a new post, and deploy the site from within Emacs.
+  </description>
+    </item>
+    
+    <item>
+      <title>Org-mode Workshop</title>
+      <link>https://punchagan.muse-amuse.in/blog/org-mode-workshop/</link>
+      <pubDate>Wed, 22 Jun 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/org-mode-workshop/</guid>
+      <description>Well, I&amp;rsquo;m not sure if it&amp;rsquo;s worth writing about. I conducted my first org-mode workshop along with Prof. Venkatesh Choppella at IIIT-Hyderabad. It was a 3 hour demo+talk kind of a thing, with a small audience of about 20 people, most of whom were new to Emacs.
+We covered almost all the aspects of Org-mode after giving a brief introduction to Emacs. Outlining and note-taking part was simple and easy to understand, but the audience couldn&amp;rsquo;t really appreciate the part of keeping TODO lists and agendas and other stuff. I&amp;rsquo;m hoping, the reason was not me taking over from Venkatesh.
+I think the workshop should&amp;rsquo;ve been more hands-on and we should&amp;rsquo;ve asked people to try out stuff on the spot, instead of showing off the things possible with Emacs. They probably would&amp;rsquo;ve appreciated a few things better, that way.
+Hopefully, we will be doing more workshops on Org-mode and there are surely somethings to take away from this one. I hope at least one of the participants, gets hooked to Org-mode.
+The talk outline is here.</description>
+    </item>
+    
+    <item>
+      <title>Git powered wikis improved: My bit</title>
+      <link>https://punchagan.muse-amuse.in/blog/git-powered-wikis-improved-my-bit/</link>
+      <pubDate>Fri, 04 Feb 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/git-powered-wikis-improved-my-bit/</guid>
+      <description>I accidentally came across the blog-post Git-powered wikis improved - GitHub. And this particular paragraph caught my eye:
+ The new editor has the capability to support every markup language that GitHub Wikis support. If you&amp;rsquo;re a fan of Markdown, Textile, pod or RDoc, the function bar buttons (e.g. bold, italic, underline, etc.) will now work. We&amp;rsquo;ve even written brand new inline help for many of GitHub Wiki&amp;rsquo;s supported markup languages.
+The language definitions the editor uses are JSON-based and easy to edit. If you&amp;rsquo;d like us to support a markup language that we don&amp;rsquo;t currently support, Gollum, GitHub&amp;rsquo;s wiki software, is entirely open source &amp;ndash; fork our code and send us a pull request with changes that support your choice language.
+ I sent a quick patch for org-mode in the function bar, and it has been accepted. :)
+If not anything more, I hope, at least a couple of curious people will explore org-mode and find it useful.</description>
+    </item>
+    
+    <item>
+      <title>CHAGANTI 635888 Emacs</title>
+      <link>https://punchagan.muse-amuse.in/blog/chaganti-635888-emacs/</link>
+      <pubDate>Thu, 03 Feb 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/chaganti-635888-emacs/</guid>
+      <description>Puneeth Chaganti, hereby agrees as follows:
+Developer hereby agrees to assign and does hereby assign to FSF Developer&amp;rsquo;s copyright in changes and/or enhancements to the suite of programs known as GNU EMACS, including any accompanying documentation files and supporting files as well as the actual program code.
+ Yay! I can now write code, that can go into Org-mode and Emacs! I&amp;rsquo;m looking forward to this!</description>
+    </item>
+    
+    <item>
+      <title>Why I like Org as a markup</title>
+      <link>https://punchagan.muse-amuse.in/blog/why-i-like-org-as-a-markup/</link>
+      <pubDate>Wed, 12 Jan 2011 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/why-i-like-org-as-a-markup/</guid>
+      <description>Org-mode, as a mode, is obviously awesome. The ability to move around whole blocks of text, for re-organizing documents and the usability of tables are just two brilliant features.
+But, the org markup itself is such a cool thing. I&amp;rsquo;ve been looking at rst all day, and it&amp;rsquo;s such a pain to find out where your headings are, what level your current sub-heading is at, etc. (I&amp;rsquo;ll probably do a bit better, with some getting used to. I&amp;rsquo;m an org-addict. ;)). With org-mode it&amp;rsquo;s so intuitive! It&amp;rsquo;s so easy to find out, with just one quick look! I don&amp;rsquo;t think any other markup has this coolness! Org-mode FTW!</description>
+    </item>
+    
+    <item>
+      <title>Pandoc can now do Org</title>
+      <link>https://punchagan.muse-amuse.in/blog/pandoc-can-now-do-org/</link>
+      <pubDate>Mon, 06 Dec 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pandoc-can-now-do-org/</guid>
+      <description>Pandoc is a haskell library and a command line tool, that can convert markup from one to another and it does it pretty well. Until now it supported quite a few markups, but not orgmode. But now, Orgmode support has been added! Yay!
+But, it can only read from other formats and write to org-mode format. The other way around, is not possible, but you can do that straight from org-mode, right?
+I&amp;rsquo;ve often felt the need for an org-importer and hence decided to do something about it. I stumbled upon Pandoc, when I was moving my blog, and found it pretty neat. After, yet another request for an importer, on the org-mode mailing list, I decided to look at Pandoc. I was somehow under the impression that it was written in Python. But it turned out, I had to learn Haskell! A good excuse to learn a new language, eh? I brushed through a tutorial for a couple of days (and was blown off by the paradigm of the language) and was able to port the RST writer in Pandoc, to an Org writer. :)
+You can get the latest version from here</description>
+    </item>
+    
+    <item>
+      <title>Some fun from #org-mode</title>
+      <link>https://punchagan.muse-amuse.in/blog/some-fun-from-org-mode/</link>
+      <pubDate>Sat, 02 Oct 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/some-fun-from-org-mode/</guid>
+      <description>This is a conversation from #org-mode, published without permission from plovs, BerntH and bremner. If any of you want any of the content removed, I will do so.
+  hi all
+ hi punchagan [18:36]
+ BerntH: ever used/tried blorg or blorgit? [18:47]
+ I like the way org-publish works, but blorg exports one org file as a blog. If blorg were to be re-written on top of org-publish, how should it be done? use one file per post or just one file for the whole blog? [18:52]
+ punchagan: another option is to use ikiwiki and use the org-mode plugin to render pages. This is what i do, although only a bit of the site is in org. [19:44]
+ bremner: can I have a look at your site? [19:45]
+ sure, it ain&amp;rsquo;t pretty, but: www.cs.unb.ca/~bremner [19:46]
+ thanks. I&amp;rsquo;ll keep this in mind. [19:47]
+ I just loved the way this site looks and behaves &amp;ndash; http://julien.danjou.info/projects.html
+ well, the side bar at least is possible with ikiwiki. Other than that I suppose it is mainly a matter of css [19:48]
+ punchagan: nope [19:49]
+ ok BerntH [19:50]
+ punchagan ikiwiki does have an org-mode plugin [19:56]
+ plovs: yes, bremner told me that and I&amp;rsquo;ve seen on Worg too. :)
+ punchagan ah, yes, sorry
+ plovs: it&amp;rsquo;s alright. [19:59]
+ punchagan another possibility is org2blog, which uses wordpress
+ plovs: I&amp;rsquo;m the author of it. :D
+ lol, ik, that punchagan [20:17]
+ lol
+ plovs: were you kidding? or serious? [20:19]
+ punchagan sorry to say i was serious, but it will not happen again :-)
+ i really like org2blog, played with it yesterday
+ plovs: no. I was just wondering if you were playing around with me. :P
+ I&amp;rsquo;m happy some one thinks it is useful.
+ lol, no, i just didn&amp;rsquo;t recognized your name, although it is kind of hard to miss [20:21]
+ I hope you don&amp;rsquo;t mind, if I make this anecdote public?
+ </description>
+    </item>
+    
+    <item>
+      <title>A couple of counting functions</title>
+      <link>https://punchagan.muse-amuse.in/blog/a-couple-of-counting-functions/</link>
+      <pubDate>Fri, 17 Sep 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/a-couple-of-counting-functions/</guid>
+      <description>I had a strict character limit of 180 chars for something I was writing. I just wrote a simple function to count characters in a region or a buffer. Another function to count the words.
+(defun count-chars () &amp;quot;Count the number of chars in a buffer or region.&amp;quot; (interactive) (let* ((beg (if (region-active-p) (region-beginning) (point-min))) (end (if (region-active-p) (region-end) (point-max)))) (message (number-to-string (- end beg)))))  (defun count-words () &amp;quot;Count the number of words in a buffer or region.&amp;quot; (interactive) (let* ((beg (if (region-active-p) (region-beginning) (point-min))) (end (if (region-active-p) (region-end) (point-max))) (count 0)) (save-excursion (goto-char beg) (while (&amp;lt; (point) end) (forward-word) (setq count (1+ count)))) (message (int-to-string count))))  </description>
+    </item>
+    
+    <item>
+      <title>org/elisp - sorting list of org-links on description</title>
+      <link>https://punchagan.muse-amuse.in/blog/orgelisp-sorting-list-of-org-links-on-description/</link>
+      <pubDate>Fri, 20 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/orgelisp-sorting-list-of-org-links-on-description/</guid>
+      <description>A small utility function that I used to sort the names of people who commented on my blog.
+(defun org-get-link-desc-from-list () &amp;quot;&amp;quot;&amp;quot; Get link description of a list item containing just links &amp;quot;&amp;quot;&amp;quot; (let* ((item-beg (point)) (item-end (org-end-of-item)) (cur-item (buffer-substring-no-properties item-beg item-end))) (goto-char item-beg) (org-columns-compact-links cur-item)))  sort-lines wasn&amp;rsquo;t good enough for me, since it was sorting alphabetically and it ended up being the sorted order of the urls and not the names. This function, when used with org-sort-entries-or-items gave me what I wanted.
+Thanks to benny (on #org-mode), I also learnt the difference between let and let*.</description>
+    </item>
+    
+    <item>
+      <title>Advice - Programming in Elisp</title>
+      <link>https://punchagan.muse-amuse.in/blog/advice-programming-in-elisp/</link>
+      <pubDate>Fri, 06 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/advice-programming-in-elisp/</guid>
+      <description>Below is a mail sent by Eric Schulte to the org-mode mailing list answering a query on how to write elisp for org-mode. I am reproducing it here, since it is useful advice for me. The actual thread is here.
+The way that I learned how to program in emacs lisp was mainly using two commands `elisp-index-search&amp;rsquo; bound to `C-h e&amp;rsquo; on my system, and most importantly `describe-function&amp;rsquo; bound to `C-h f&amp;rsquo;. With `describe-function&amp;rsquo; you can look at the source code of functions whose behavior you are familiar with, you can then copy portions of the code to your scratch buffer where they can be edited and evaluated with `eval-defun&amp;rsquo; bound to `C-M-x&amp;rsquo;. Now with Babel, instead of doing this in the scratch buffer you could do this in emacs-lisp code blocks in an org file, enabling notes and hierarchical organization &amp;ndash; it can be nice to have your noodling all collected in one file for later reference.
+If you are going to do any serious work with lisp, I would emphatically recommend using paredit-mode, and becoming friends with the Sexp movement functions
+C-M-f runs the command paredit-forward C-M-b runs the command paredit-backward C-M-u runs the command backward-up-list C-M-k runs the command kill-sexp C-y runs the command yank
+They allow you to manipulate lisp code on the level of logical expressions, the utility of which can not be over stated.
+As for working with Org-mode in particular, I&amp;rsquo;d recommend looking at the documentation and source-code of Org-mode functions with `describe-function&amp;rsquo;, and then looking for how these functions are actually used in the Org-mode code base with `rgrep&amp;rsquo;.
+For a more structured learning experience, I&amp;rsquo;ve heard very good things about http://www.gnu.org/software/emacs/emacs-lisp-intro/, although I haven&amp;rsquo;t used it myself.
+Hope this helps. Happy Hacking &amp;ndash; Eric</description>
+    </item>
+    
+    <item>
+      <title>Refile to date-tree</title>
+      <link>https://punchagan.muse-amuse.in/blog/refile-to-date-tree/</link>
+      <pubDate>Fri, 30 Jul 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/refile-to-date-tree/</guid>
+      <description>Useful to refile notes to the journal file, which is a date-tree. org-refile isn&amp;rsquo;t convenient to refile stuff to a date-tree.
+(defun my/org-refile-to-journal () &amp;quot;Refile an entry to journal file&#39;s date-tree&amp;quot; (interactive) (require &#39;org-datetree) (let ((journal (expand-file-name &amp;quot;journal.org&amp;quot; org-directory)) post-date) (setq post-date (or (org-entry-get (point) &amp;quot;TIMESTAMP_IA&amp;quot;) (org-entry-get (point) &amp;quot;TIMESTAMP&amp;quot;))) (setq post-date (nthcdr 3 (parse-time-string post-date))) (setq post-date (list (cadr post-date) (car post-date) (caddr post-date))) (org-cut-subtree) (with-current-buffer (or (find-buffer-visiting journal) (find-file-noselect journal)) (save-excursion (org-datetree-file-entry-under (current-kill 0) post-date) (bookmark-set &amp;quot;org-refile-last-stored&amp;quot;))) (message &amp;quot;Refiled to %s&amp;quot; journal)) (setq this-command &#39;my/org-refile-to-journal)) (defun my/org-agenda-refile-to-journal () &amp;quot;Refile the item at point to journal.&amp;quot; (interactive) (let* ((marker (or (org-get-at-bol &#39;org-hd-marker) (org-agenda-error))) (buffer (marker-buffer marker)) (pos (marker-position marker))) (with-current-buffer buffer (save-excursion (save-restriction (widen) (goto-char marker) (org-remove-subtree-entries-from-agenda) (my/org-refile-to-journal))))) (org-agenda-redo)) (org-defkey org-agenda-mode-map (kbd &amp;quot;C-c C-S-w&amp;quot;) &#39;my/org-agenda-refile-to-journal) (org-defkey org-mode-map (kbd &amp;quot;C-c C-S-w&amp;quot;) &#39;my/org-refile-to-journal)  Enjoy!
+Update [2016-06-16 Thu] Raam Dev pointed me to an issue and a suggested fix, that I have updated the above code with.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>India on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/india/</link>
+    <description>Recent content in India on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Thu, 28 Sep 2017 00:46:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/india/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HT interactives</title>
+      <link>https://punchagan.muse-amuse.in/blog/ht-interactives/</link>
+      <pubDate>Thu, 28 Sep 2017 00:46:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/ht-interactives/</guid>
+      <description>I recently discovered the interactives by HindustanTimes, and thoroughly loved some of them. It felt like a fresh breath of air amongst all the other Indian data driven journalism that I have been coming across in the recent past.
+The visualizations are a lot more interactive than some of the other Indian publications. These remind me of NYT&amp;rsquo;s interactives, which are amongst the best you&amp;rsquo;d see, while more often than not exploring data in the Indian context. I really like that they explore a variety of ways of doing these visualizations, and don&amp;rsquo;t just fit the data into one of the many standard options available in a visualization library.
+It feels like they are willing to take their time to do these visualizations, and are willing to collect data from multiple sources, and combine multiple datasets to tell a story. I also like the fact that the visualizations and the articles are more open-ended, allowing users to interact with and explore the data, rather than trying to come up with an article full of conclusions with a click-baity title. The fact that one of the sections is called Just for Fun speaks to me.
+The data and the code used in most of these interactives is open and available on GitHub, which is nice!
+On the whole, I think they are doing pretty good work, and I shall be on the lookout for even better stuff from them. I&amp;rsquo;m sure I&amp;rsquo;ll pick up a thing or two from their work, in my projects. Hopefully, other teams doing similar work will also learn from there and produce more good stuff for greedy readers like me.</description>
+    </item>
+    
+    <item>
+      <title>Prime Ministers of India - Simple d3 timeline</title>
+      <link>https://punchagan.muse-amuse.in/blog/prime-ministers-of-india-simple-d3-timeline/</link>
+      <pubDate>Thu, 21 Sep 2017 21:25:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/prime-ministers-of-india-simple-d3-timeline/</guid>
+      <description>I have been working on a simple time-line showing the terms of Prime Ministers of India. Currently, the time-line is not very useful and only shows the duration of the term in the time0line, with some pictures, with the hover tool-tip linking to a Wikipedia page. The interactive version is here.
+A simple extension of this would be to add historical events of different types over this time-line, with links to more information on these events. I&amp;rsquo;m not entirely sure, where I&amp;rsquo;m going with this, though.
+Any ideas and suggestions are more than welcome.</description>
+    </item>
+    
+    <item>
+      <title>Google Trends, Clickbaits, and PV Sindhu</title>
+      <link>https://punchagan.muse-amuse.in/blog/google-trends-clickbaits-and-pv-sindhu/</link>
+      <pubDate>Sat, 20 Aug 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/google-trends-clickbaits-and-pv-sindhu/</guid>
+      <description>TL;DR
+ Am I saying India doesn&amp;rsquo;t have a caste problem?
+No, it&amp;rsquo;s definitely a HUGE problem!
+ Are these articles on Google Trends and Sindhu&amp;rsquo;s caste useful at all?
+Just more click-baits and no useful contribution to the discussion on caste.
+  First of all, congratulations to PV Sindhu on making it to the finals and giving the world number one a hard fight!
+This post, though, is not a celebratory one. I read this article &amp;ndash; While PV Sindhu fought hard for a medal, many Indians googled her caste &amp;ndash; by the News Minute thanks to a re-tweet by TM Krishna. I probably wouldn&amp;rsquo;t have paid much attention to it, if not for the retweet by TMK.
+Caste is a huge problem for the country, and if you still like to pretend it isn&amp;rsquo;t &amp;ndash; read this for a start. I&amp;rsquo;m not surprised that some people searched for Sindhu&amp;rsquo;s caste while she was battling it out at Rio. But, some people also searched for Badminton rules, and others for Sania Mirza! What surprises me is that the article doesn&amp;rsquo;t try to put the data in a context at all. Nor do I understand the contribution this article makes to the discussion on caste.
+ I played around a little more with these search terms and Google Trends, and here are a few things that I thought were worth sharing.
+Indian trends First of all, the article says &amp;ldquo;Many Indians&amp;rdquo;, and gives off cumulative month-wise numbers (UPDATE [2016-08-21 Sun 12:15]: which are so wrong! See Sankrant Sanu&amp;rsquo;s excellent article on India Facts). But, what does it really mean?
+I don&amp;rsquo;t know if anybody actually wrote about how many people actually followed the match, but Sindhu actually managed to get a whole lot of people interested!
+ More people searched for PV Sindhu than the daily average number of searches (not hits) for Facebook and very close to the daily number of searches for Porn &amp;ndash; two of the biggest things Internet is allegedly used for. Can you see the red line at the bottom? That is the number of people who actually searched for Sindhu&amp;rsquo;s caste &amp;ndash; a tiny blip.
+Let&amp;rsquo;s take a closer look. Here&amp;rsquo;s a plot of some of the other auto suggest terms + badminton rules &amp;amp; courts compared to Sindhu&amp;rsquo;s name.
+ Nothing other than badminton rules (which is at about 1% of max. searches) is even visible, clearly.
+So, these other terms (wiki &amp;amp; caste being auto-suggested ones) are nowhere near the actual number of searches being made for PV Sindhu&amp;rsquo;s name alone.
+Let&amp;rsquo;s get rid of the name graph to get a closer look at the other terms.
+  The maximum number of people searching for Sindhu&amp;rsquo;s caste is at about a fifth of the maximum number of people searching for badminton rules. Interpreting it is upto you. But, I&amp;rsquo;m not surprised knowing how significant caste has been in our society. Also, notice that searches for wiki and caste fall off more gradually than the searches for the rules which peak while the game is being played and watched.
+ Unsurprisingly, a bulk of the searches appear to be coming from Andhra and Telangana. Notice that the other states are searching more for the rules or her wiki page.
+    Do you notice that the red (caste), blue (wiki) and violet (images) lines following a similar trend, until the last few hours? What do you think is happening there? It&amp;rsquo;s the shitty click baits working! Look at the trends from ~8:30AM to ~12:30AM below &amp;ndash; the red has spread to other states as well!    And this is how it looks by the evening (17:00-21:00). Well done, folks! The click bait articles totally succeeded!   If you are wondering how much effect the auto suggestions are having in suggesting people to try searching for caste, I don&amp;rsquo;t think that is much because wiki and images are the other auto-suggest terms, with no such surges in the number of searches.
+Trends from the Telugu states We could see that the two Telugu states were more worried about the caste, than the rest of the country. Let&amp;rsquo;s see how abnormal they are.
+  You can definitely see the red line more prominently. In case of Andhra the peak searches for caste are at about 5% of the name searches. A statistically significant difference from the rest of the country.
+Let&amp;rsquo;s zoom in at the auto-suggest terms alone.
+  Woah, Andhra is definitely quite an aberration from the rest of the country. From about 1/5th of the maximum number of searches for rules, the maximum number of caste searches jumps to about twice. Telangana also is different, but much less so.
+Tamil Nadu&amp;rsquo;s trends below for comparison. You can&amp;rsquo;t help noticing the last few hours, can you?
+ NOTE: The trends and screen-shots for the states are slightly more recent than the others.
+Conclusion Without a context, I don&amp;rsquo;t really see the point of these &amp;ldquo;news&amp;rdquo; articles. It seems more click-bait-y than useful to me.
+If you still feel many Indians were searching for Sindhu&amp;rsquo;s caste, while she was fighting it out, go ahead and play with Google trends here. Add/remove terms, change the time and location filters. Some terms that could be interesting to add to the comparison are: Kashmir, Independence day, Facebook.
+Later, I looked at the search results and then found that this article wasn&amp;rsquo;t the only one like it. I didn&amp;rsquo;t bother to read the others, but I really hope at least some of them are talking sense. Is any of them really trying to contribute to the discussion on caste, meaningfully?
+Also, the actual search results don&amp;rsquo;t seem to give useful answers to the folks so curious about Sindhu&amp;rsquo;s caste. I hope none of these articles are trying to help them out.
+Finally, if you are using Google Trends to write an article, Danny Page has some really good advice.
+Thanks to Kamal, baali and 9 for reading and reviewing drafts of this. Errors mine, obviously.</description>
+    </item>
+    
+    <item>
+      <title>Save the Map -- Please respond</title>
+      <link>https://punchagan.muse-amuse.in/blog/save-the-map-please-respond/</link>
+      <pubDate>Sat, 28 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/save-the-map-please-respond/</guid>
+      <description>The Ministry of Home Affairs put out a draft and an RFC for a Geo-spatial bill
+ To regulate the acquisition, dissemination, publication and distribution of geospatial information of India which is likely to affect the security, sovereignty and integrity of India.
+ Even if you put aside questions about how a vetting process, for &amp;ldquo;dealing with&amp;rdquo; any geospatial information, would help with the said goals, the bill defines geospatial information so broadly that even taking a geo-tagged picture at the Taj mahal or sharing the location of your house for a meal delivery would have you breaking the law.
+A group of volunteers made Save the map which has more information on this, along with a draft response that you can send to the Ministry. Please respond before June 2nd, 2016.</description>
+    </item>
+    
+    <item>
+      <title>Selling Temples -- A How-to</title>
+      <link>https://punchagan.muse-amuse.in/blog/selling-temples-a-how-to/</link>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/selling-temples-a-how-to/</guid>
+      <description>Disclaimer: All characters appearing in this work are divine. Any resemblance to real or divine persons, living or dead, is purely intentional.
+A few days back, a couple of friends and I were discussing, how anything sells in India and how opening a restaurant is seemingly an easy way to make some quick bucks. But, now, I have a much better plan to make some big money, may be not so quickly, but definitely a lot more &amp;ndash; at least by an order of magnitude.
+Religion! Nothing sells like it, in the land of snake charmers! People will buy anything on offer. This post gives the recipe for turning a small temple in a god forsaken town, into a big place of worship that &amp;ldquo;attracts&amp;rdquo; devotees from all over the country, if not the world!
+The first task would be to zero-in on a temple. But before that, let&amp;rsquo;s define the kind of town we are interested in. Ideally, the town should be within a couple of hundred kilometers away from a city with good transport connectivity and a population at around one and a half million (There are about 20 such cities, in the country). The temple in question could piggy back on the fame of a temple nearby, if it is within about 50 kilometers of a really famous temple, but in that case, our temple would remain the second preference, for a very long time to come. But this is much easier to accomplish and arguably a quicker buck. Ideally, though, we&amp;rsquo;d prefer a location, which doesn&amp;rsquo;t have any other famous temples in the radius of about 300 kms (roughly 5-6 hours by road). It also helps if the travel to the temple for the big city is through the country side, giving a glimpse of the country side that urban Indians can only dream of connecting, the life that was once lived by their parents and grandparents, but they now only get to see in the movies. This will help us score some points with the &amp;ldquo;educated and sophisticated&amp;rdquo; urban populace.
+Now, the temple. It should be the biggest or the only one in town, though having smaller temples around helps in knitting more tales around the temple. The temple in question should be one, that the locals have tremendous faith in. You should be able to find at least a dozen people who vouch for the miraculous power of the gods in there, without trying too hard. That should be good enough, to get you going, and I believe this isn&amp;rsquo;t too hard for any random temple, anywhere in the country.
+The gods. It really doesn&amp;rsquo;t matter who the god is. He/she could either be a generalist or a specialist and that would influence the type of crowds coming in. Your god can be as specialized as you like, up to the extent of specializing in blessing people get visas to the US. Now, your god can either be an already well known god, or a not so well known incarnation of a well known god, or a new person who is soon to become god! The first type is a hard bet; the third option is somewhat high risk too, and you&amp;rsquo;ll really need to put your mind to it, to make it work. The second option is the easiest one. It always helps to have some real objects and places that can be associated with the god, and are living proof that the god once lived here and used those things. It really helps if you can give the devotees the feeling that they are doing all the things that the god in question once used to do, at the same places he/she used to do it. Type-3 gods would work well for this.
+Spread the word. This, obviously, is the most important part and the hardest one too. It&amp;rsquo;s best to start with the word of mouth. Start with family and friends and friends of friends and friends of friends of friends (read as facebook-only-friends). Pick the more religious of the lot, encourage them to visit the place, write and share blog posts/tweets/pictures/tales/stories and whatever else, with them. Encourage them to interact with the locals. I don&amp;rsquo;t think it would be necessary to make any deals with the locals. They are smart enough, wherever you go! You need to actively market your god, until a critical mass of happy devotees, has been reached. A critical mass is reached, when there are more people talking of their wishes coming true, than there are people who are still waiting for their wishes to come true. This should be too hard given that, religious people tend to believe that whatever happens, happens for the best and god has better plans for them, than their own. Slowly, you could coax one of the better writers (who is also religious?) into writing a book or two about your temple. A couple of years after selling your book, you should try and encourage one of the big TV houses to make a teleserial based on the book, and that would be it! Now, you can sit back and relax.
+While getting all of the above right is important, it is also super important to work out things with the current priest, form a temple trust, and manage other such things and to time all of it perfectly. This part of the plan is left as an exercise for the reader.
+On the whole, this is a much more fruitful exercise than setting up a restaurant, since this helps a whole economy grow around the temple. A whole bunch of things crop up, near our small town. Transportation grows by leaps and bounds, hospitals and schools grow with the population, the local vendors start earning more and get a better quality of life, and all that jazz. I guess, you get the drift.</description>
+    </item>
+    
+    <item>
+      <title>tu marathi aheska?</title>
+      <link>https://punchagan.muse-amuse.in/blog/tu-marathi-aheska/</link>
+      <pubDate>Sun, 15 Aug 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/tu-marathi-aheska/</guid>
+      <description>It&amp;rsquo;s just a co-incidence that this post is coming on Independence day.
+Last night I was in an auto with a couple of friends, and the auto couldn&amp;rsquo;t get up a slope and stopped near the edge of the slope which was leading onto a main road. We had to get down from the auto, and after a lot of fight, the auto got on top. As the driver was trying hard to get the auto moving, a guy comes over and starts talking to him in Marathi. I&amp;rsquo;m not sure if he was a traffic police. He was dressed in white, but didn&amp;rsquo;t really look like one.
+After asking a few questions, but not getting any replies, the guy asks him in Hindi, if he understands Marathi, and on getting a negative reply, starts shouting on him!
+The guy harasses the driver, asking him to handover his license and threatens him of horrible consequences, if he doesn&amp;rsquo;t do so. We tried to intervene saying, we want to leave early and stuff, but the auto refused to start. The driver asked us to leave and said he&amp;rsquo;ll take care of the matter.
+And then, today I hear people talking of national integration and stuff. I hear stuff about changing the country, getting rid of corrupt politicians and all the high ideals crap. I keep hearing all sorts of patriotic songs that I hear only twice a year. Not once more than that.
+Why is it that we talk of all this only on these two days of National importance? Why are these songs played only twice a year? Don&amp;rsquo;t we get that feeling of patriotism on other days? Isn&amp;rsquo;t patriotism a &amp;ldquo;true&amp;rdquo; feeling?
+I think, India will only take a leap in it&amp;rsquo;s progress, when that happens.</description>
+    </item>
+    
+    <item>
+      <title>Pehli Nazar</title>
+      <link>https://punchagan.muse-amuse.in/blog/pehli-nazar/</link>
+      <pubDate>Tue, 02 Mar 2010 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pehli-nazar/</guid>
+      <description>This post is my attempt to start a travelogue. I hope to capture the &amp;ldquo;All India Tour&amp;rdquo; phase of my life (as people have started to call it). I&amp;rsquo;ll try to keep these posts from becoming travel guides. There are loads of them and I surely don&amp;rsquo;t need to increment count.
+This post is after a trip to Kanpur, Agra and Sikri.
+ Trains are never on Time. The delay increases exponentially with your distance from the sourthern most tip of the country. Also, the confidence of the aam admi in this delay is proportional to the distance. Any delay less than an hour wasn&amp;rsquo;t considered to be a delay. Thanks to the fog, low visibility. If you want to travel around India, all you need is an SLR. Additionally, if you are not of Indian origin, you&amp;rsquo;ll need the &amp;ldquo;India&amp;rdquo; guide. I got bored of seeing people poring over the pages of that &amp;ldquo;blue&amp;rdquo; India book or madly clicking away on their SLRs. Whether or not you get food or water on a train, you are assured of enough &amp;ldquo;chilled&amp;rdquo; air from the slit under your window. Come what may, you shall not be deprived of this service. The trust of a person in you is inversely proportional to the difference between your ages. It is inversely proportional to the 2.718th power of the difference if you are aged between 20 and 25. I only vaguely remember what the TTE told me in my sleep, while paying the fine for not carrying a print out of our e-ticket; but, it really was something sick and senseless. The chill at a place, on the day you reach, is inversely proportional to how much people have scared/warned you. On the rest of the days, it is proportional to the square of the warm clothing you have on you. I thoroughly enjoyed the chill of Kanpur. Wonderful! The infrastructure, too good! Never expected a 50 year old campus to be so Awesome. [They have an air-strip too!] The thrill of having an ice-cream is proportional to the square of difference between the ambient temperature and the standard room temperature. Don&amp;rsquo;t ever think of celebrating your escape, without the Aalu encounter. Welcome to the land of Alu addicted men. You shall, surely, have your share. If not anything else, you shall be serverd a Capsicum or Brinjal stuffed with Aalu. Also, the quality and availability of leather seems to be proportional to the addiction to Aalu. &amp;ldquo;hawker time&amp;rdquo; - the time you spend being followed by hawkers trying to convince you to buy whatever they have. &amp;ldquo;firang-ness&amp;rdquo; - difficult to predict; a parameter that depends on the amount of branded stuff on you, stylishness of your winter wear and other unknown variableness. Your hawker time is proportional to (firang-ness) \* abs(time of day in 24 hr clock - 1400) [when, 900 &amp;lt; time &amp;lt; 1800] I understand, that, they need to make ends meet; each day of their lives. I got followed a lot. I can&amp;rsquo;t help observing. Sometimes, enjoyed being followed too.  The Taj. Simply Awe-Inspiring. As Madhu put it, &amp;ldquo;the longer you keep watching it, the more it&amp;rsquo;s beauty overwhelms you&amp;rdquo;. But, I still think, the first time is the best time to see it. It&amp;rsquo;s simply mind blowing when you get the first glimpse, after entering from the West gate.
+It&amp;rsquo;s time to stop writing when all you can see is proportionality between totally unrelated things. Here are a few pics</description>
+    </item>
+    
+    <item>
+      <title>Unitedly Independent!?</title>
+      <link>https://punchagan.muse-amuse.in/blog/unitedly-independent/</link>
+      <pubDate>Wed, 15 Aug 2007 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/unitedly-independent/</guid>
+      <description>First things first&amp;hellip;
+स्वतंत्रता दिनोत्सव की शुभकामनायें
+Wish You All a Happy Independence Day..
+స్వాతంత్ర దినోత్సవ శుభాకాంక్షలు&amp;hellip;
+[yes, I know just three of the eighteen&amp;hellip; and no foreign ones.. ]
+Every year, during this time of the year, the papers and news and blogs and all other such media, are filled with analyses, comments, opinions and all sorts of things on the progress made (and not made) by Independent India&amp;hellip;. the flavour of patriotism that was only subtle all this while, tends to grow upon us as the Day arrives and I&amp;rsquo;m no exception.
+Being an average Indian, just one amongst the Billion, the progress (or non-) is a very big issue for me to comment on and I would leave that job for the better qualified or the more courageous ones. But I wonder, I (just) wonder&amp;hellip;..
+Come August and its the beginning of a new semester, bringing along &amp;ldquo;Elections&amp;rdquo; in campus. This time is no different&amp;hellip; I can see people gearing up&amp;hellip;. campaigning has begun even before the announcement of elections or nominations&amp;hellip; and what goes on here?
+ &amp;ldquo;Dude.. I don&amp;rsquo;t need to campaign.. there&amp;rsquo;s enough guys from our state in our hostel.. so contesting= winning.. don&amp;rsquo;t worry!&amp;rdquo; &amp;ldquo;Look dude.. both of us are from the same state.. so I know you will be obviously voting for me.. but still if you want, you can have a look at my Agenda&amp;hellip; &amp;ldquo; &amp;ldquo;Hey, its not important for me to tell you my agenda&amp;hellip; its sufficient for you to know that my opponent hails from the other half of the country (North-South)where we hail from.. &amp;ldquo;People.. we need to make sure that only one person, belonging to our state contests for this post&amp;hellip; or the votes will get divided&amp;rdquo;  Where are those ideals of unity and brotherhood? Isn&amp;rsquo;t it important that the best person be chosen? Shouldn&amp;rsquo;t the abilities of a candidate be considered rather than where (s)he hails from or what tongue (s)he speaks? Isn&amp;rsquo;t it an irony, that all this happens precisely during this time, when the whole nation is celebrating the birth of an Independent India?? Shouldn&amp;rsquo;t at least the celebrations be able to evoke the emotions of brotherhood, love and equality amongst us?? Shouldn&amp;rsquo;t the fact that all of us are here with a purpose, a common goal of education, enough to get over the differences of language and origin? Shouldn&amp;rsquo;t the interests of the College and the Students overpower such minor issues??</description>
+    </item>
+    
+    <item>
+      <title>Back to the Basics!!</title>
+      <link>https://punchagan.muse-amuse.in/blog/back-to-the-basics/</link>
+      <pubDate>Sun, 03 Sep 2006 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/back-to-the-basics/</guid>
+      <description>/The National Ideals of India are Renunciation and Service. Intensify her in those channels and the rest will take care of itself. -Swami Vivekananda/</description>
+    </item>
+    
+  </channel>
+</rss>

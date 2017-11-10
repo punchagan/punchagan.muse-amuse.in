@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pycon on Noetic Nought</title>
+    <link>https://punchagan.muse-amuse.in/tags/pycon/</link>
+    <description>Recent content in Pycon on Noetic Nought</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2017</copyright>
+    <lastBuildDate>Tue, 31 May 2016 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://punchagan.muse-amuse.in/tags/pycon/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PyCon India 2016 - Propose a talk</title>
+      <link>https://punchagan.muse-amuse.in/blog/pycon-india-2016-propose-a-talk/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0530</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/pycon-india-2016-propose-a-talk/</guid>
+      <description> CFP for PyCon 2016 is open and you should propose a talk!
+There has been a lot of discussion on trying to improve the talk quality at the events. As my bit of contribution to this, below is a re-hash of some good advice from the internet on why you should give a talk, and how to submit a good proposal.
+Why?  You needn&amp;rsquo;t be an expert on a topic. If you have enough experience about something to help make the next person&amp;rsquo;s experience with it better, you are good.
+ Its a great way to find people who are interested in the same things as you are and to get to talk to them. If you are an introvert, you should definitely be speaking!
+ Proposing and giving a talk is about thinking about something hard enough to refine your thoughts, and being able to explain it to others. Its a useful skill to hone.
+  How?  Talks are entertainment. Pick a topic that you are excited about and fascinated by. Let it be a general topic that will have a significant number of people interested in it.
+ What you want the attendees to be telling their friends about your talk, after they go back. Make it the objective of your talk.
+ Submit a complete, clear and compelling proposal. Show the reviewers that you are willing to put in the effort to prepare for and to give a great talk. Here are a bunch of proposals to see and learn from.
+ Submit an outline along with your talk. Show the talk can be delivered in the given time and will be interesting. Include an indication of how much time you intend to spend on each part of your talk.
+ Choose a good title. The title is what catches the attention of your audience when they are trying to pick a talk. Avoid buzz words.
+ Get feedback. Like any writing, feedback can be helpful at all stages &amp;ndash; brainstorm while choosing topics to getting critique on the full abstract.
+ Convince the reviewers that you can give a well-rehearsed and entertaining &amp;ndash; link to previous talks you&amp;rsquo;ve given, include links to any testimonials you&amp;rsquo;ve received from your audience, etc. If you don&amp;rsquo;t have a previously recorded talk, give a small talk to your friends or colleagues and have it recorded.
+  References  PyCon US has some good advice on how to submit a proposal and most of it is generic enough for you to use for PyCon India, or any other conference.
+ These posts (1 2 and more) by Jesse Davis are so so good!
+ I also liked &amp;ldquo;The Talk on Talks&amp;rdquo; by Zach Holman.
+  </description>
+    </item>
+    
+    <item>
+      <title>Making PyCon India better (for myself)</title>
+      <link>https://punchagan.muse-amuse.in/blog/making-pycon-india-better-for-myself/</link>
+      <pubDate>Tue, 14 Oct 2014 07:53:47 -0400</pubDate>
+      
+      <guid>https://punchagan.muse-amuse.in/blog/making-pycon-india-better-for-myself/</guid>
+      <description>I&amp;rsquo;ve ranted before about PyCon not meeting my expectations, and I even skipped going to the last PyCon. Somehow, I hoped that it would be better this year, but no such thing happened.
+ I should strictly not attend any talks, at the next conference I am at. Even if the topic seems interesting, I should refrain from attending any talks, unless I know that a speaker is entertaining.
+ I should be going there to meet old friends, meet a few new people, and mostly hacking on my stuff. May be aim to show something at the lightning talks at the end of second day, based on what I did during the rest of the event.
+ Participate more actively in open spaces, and may be initiate or suggest some myself. Sprints for bug fixing, adding new features to a project may be a good way to get new developers to start contributing to FOSS projects. It would be even better to be in touch with folks before the event, and use this opportunity to iron out kinks.
+  I think the talks could be improved drastically. A lot[1][2] has been said, already. Here&amp;rsquo;s a summary of how I see it.
+ Beginner/Novice talks doesn&amp;rsquo;t mean bad talks. A talk with a good narrative, that drives home a point, that may be familiar to most of the audience, would still make a good talk. I don&amp;rsquo;t mind reading a good blog post/book on a topic I already know, because there is joy in reading/listening to &amp;ldquo;good&amp;rdquo; stuff.
+ Talks cannot be judged by titles or an abstract. Taking inspiration from PyCon US, we could
+ Ask for a video recording of a previous talk or a short home-made recording of the speaker presenting some topic.
+ Ask for a granular outline [6] along with rough timing information, instead of just an abstract.
+ Have a bunch of resources [3][4][5] available for speakers to improve on their proposals/accepted talks.
+ Have a bunch of 20 or 30 minute talks, and very few longer (45 min) talk slots.
+ Encourage speakers to try connecting their laptops and iron out &amp;ldquo;presentation&amp;rdquo; kinks on the day before their talks/lunch/other allotted times. Technical issues like fonts being too small, mics not working, adjusting the volume/other settings for the speaker, etc. can and should be fixed before hand.
+ The talk review committee could also take notes from attending some of the talks, and compare it against their notes when they accepted the talk, to improve the talk selection process. Some of it could be valuable feedback for the speakers too.
+   [1] https://plus.google.com/+sankarshanmukhopadhyay/posts/8QY4o3hiyLT
+[2] https://mail.python.org/pipermail/inpycon/2014-October/009189.html
+[3] https://us.pycon.org/2015/speaking/proposal-resources/
+[4] http://doughellmann.com/2011/10/18/how-i-review-a-pycon-talk-proposal.html
+[5] http://www.craigkerstiens.com/2012/06/19/pro-tips-for-conference-talks/
+[6] https://us.pycon.org/2015/speaking/proposal_advice/samples/SpacePug/</description>
+    </item>
+    
+  </channel>
+</rss>
