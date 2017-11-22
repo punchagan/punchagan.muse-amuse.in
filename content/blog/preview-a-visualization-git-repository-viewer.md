@@ -1,6 +1,8 @@
 ---
 title : "Preview: A visualization git repository viewer"
-draft : true
+date : 2017-11-22T10:18:00+05:30
+tags : ["blag", "visualization", "code", "clojure"]
+draft : false
 ---
 
 A few weeks ago, I was watching a talk title [Design is a Search Problem](https://www.youtube.com/watch?v=fThhbt23SGM) by
@@ -12,17 +14,17 @@ with a good design (for a data visualization) is a hard problem -- there are a
 few thumb rules and philosophical guidelines on how to come up with one, but
 there are no silver bullets to come up with a good design for every scenario.
 
-He makes the case to have a process that lets you efficiently try out a lot of
-designs to see what works, and what doesn't. In the later part of his talk he
-goes on to demo an internal tool at NYT called Preview, that they use to let
-each other view and explore each others' work. I hoped that in the two years
-since the talk was given, this tool was open-sourced, but it was not to be.
+He makes the case for a process that lets you efficiently try out a lot of
+designs to see what works and what doesn't. In the latter part of his talk he
+goes on to demo an internal tool at NYT called Preview, that they use view,
+explore and contribute to each others' work. I hoped that in the two years since
+the talk was given, this tool would've been open-sourced, but it was not to be.
 
 So, I started working on my own project, also called [Preview](https://github.com/punchagan/preview), that has a similar
-set of features as the tool described in the talk. Even if I am not working in a
+set of features to those described in the talk. Even if I am not working in a
 visualization team, I think it would be pretty useful to have such a tool to
-explore the work of other people to learn their process of coming up with a
-particular visualization/design.
+explore the work of other people to learn more about their process, when coming
+up with a visualization/design.
 
 Currently, Preview lets you keep track of all the repositories of a single
 user/organisation on GitHub. Any repository with an `index.html` file is assumed
@@ -39,6 +41,6 @@ You can also view any repository at the latest commit on any branch.
 
 {{<figure src="/ox-hugo/preview-branches.png">}}
 
-The tool is pretty new and quite brittle and/or broken right now, but already
-quite functional and useful, I think. If you do give it a spin, I'd love to hear
-your comments and feedback.
+The tool is pretty new and quite brittle right now, but already quite functional
+and useful, I think. If you do give it a spin, I'd love to hear your comments
+and feedback.
