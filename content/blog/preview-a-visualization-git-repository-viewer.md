@@ -1,8 +1,10 @@
 ---
 title : "Preview: A visualization git repository viewer"
+description : "Announcing Preview  - a tool to explore visualization related git repositories visually"
 date : 2017-11-22T10:18:00+05:30
 tags : ["blag", "visualization", "code", "clojure"]
 draft : false
+meta_img : "ox-hugo/preview-branches.png"
 ---
 
 A few weeks ago, I was watching a talk title [Design is a Search Problem](https://www.youtube.com/watch?v=fThhbt23SGM) by
