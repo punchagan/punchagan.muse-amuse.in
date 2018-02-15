@@ -13,16 +13,16 @@ active:
 
 inactive:
   - user: punchagan
+    repo: cinspect
+
+  - user: org2blog
+    repo: org2blog
+
+  - user: punchagan
     repo: howdy
 
   - user: punchagan
-    repo: statiki
-
-  - user: punchagan
     repo: gethub
-
-  - user: punchagan
-    repo: cinspect
 
   - user: getnikola
     repo: nikola
@@ -30,5 +30,11 @@ inactive:
   - user: getnikola
     repo: plugins
 
-  - user: org2blog
-    repo: org2blog
+  - user: punchagan
+    repo: statiki
+
+  - user: punchagan
+    repo: crumb
+
+  - user: punchagan
+    repo: childrens-park
