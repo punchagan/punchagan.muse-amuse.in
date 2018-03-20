@@ -1,6 +1,6 @@
 ---
 title : "Do our eyes suck at blue?"
-date : "2010-11-13T00:00:00+05:30"
+date : 2010-11-13T13:26:00+05:30
 tags : ["fun", "hack", "image-processing", "python"]
 draft : false
 ---
@@ -103,6 +103,6 @@ def swap_subsample(I, k=1):
 
 Here are a few images.  (View them in their original size)
 
-{{<figure src="../images/channels.png">}}
+{{<figure src="../../images/channels.png">}}
 
-{{<figure src="../images/subsample.png">}}
+{{<figure src="../../images/subsample.png">}}

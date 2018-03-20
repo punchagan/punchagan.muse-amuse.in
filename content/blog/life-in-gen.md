@@ -1,6 +1,6 @@
 ---
 title : "Life \"In-gen\""
-date : "2007-11-21T00:00:00+05:30"
+date : 2007-11-21T17:37:00+05:30
 tags : ["blab", "exams", "lafootgiri", "quark"]
 draft : false
 ---
@@ -43,4 +43,4 @@ Another post, with nothing concrete to say...
     dumb... here's some food for thought > The Best things in Life
     aren't Things...
 
-{{<figure src="../images/bestthingsinlife.jpg">}}
+{{<figure src="../../images/bestthingsinlife.jpg">}}

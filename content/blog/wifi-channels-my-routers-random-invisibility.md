@@ -1,6 +1,6 @@
 ---
 title : "WiFi Channels & my router's random invisibility"
-date : "2015-04-22T00:00:00+05:30"
+date : 2015-04-22T11:48:50+05:30
 tags : ["blag", "debugging", "hardware", "howto"]
 draft : false
 ---
@@ -20,7 +20,7 @@ what was going on.
 I logged onto the router and started looking at the Wireless settings in the
 hope of finding some clue, and there it was! `Wireless Channel: Auto Scan`
 
-{{<figure src="../images/auto-scan.jpg">}}
+{{<figure src="../../images/auto-scan.jpg">}}
 
 It was anybody's guess that some channels that the router uses weren't
 supported by my dad's laptop.  The restarts **sometimes** helped because the

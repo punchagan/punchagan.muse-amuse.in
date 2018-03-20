@@ -1,6 +1,6 @@
 ---
 title : "PS Ramblings"
-date : "2007-07-18T00:00:00+05:30"
+date : 2007-07-18T08:00:00+05:30
 tags : ["blab", "ps"]
 draft : false
 ---
@@ -38,6 +38,6 @@ Delhi.... (allegedly doing a Project!)
     one with it..
 -   and found this cool pic... [I guess I need to follow him.. ;)]
 
-{{<figure src="../images/ny_barking.gif">}}
+{{<figure src="../../images/ny_barking.gif">}}
 
 ps: there's a lot more... but it ain't coming up here..  :P

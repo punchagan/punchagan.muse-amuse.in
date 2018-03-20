@@ -1,6 +1,6 @@
 ---
 title : "Better styling bookmarklet"
-date : "2016-06-07T00:00:00+05:30"
+date : 2016-06-07T14:39:01+05:30
 tags : ["blag", "hack", "web"]
 draft : false
 ---
@@ -19,7 +19,7 @@ document.getElementsByTagName('body')[0].setAttribute('style', 'width: 600px')
 pages easier to read. I liked them, and modified my bookmarklet to use these
 rules now.
 
-{{<figure src="../images/better-websites.gif">}}
+{{<figure src="../../images/better-websites.gif">}}
 
 Drag and drop the link below onto your bookmarks bar if you want to use it.
 

@@ -1,6 +1,6 @@
 ---
-title : "Not so Floppix..."
-date : "2007-12-11T00:00:00+05:30"
+title : "Not so Floppix…"
+date : 2007-12-11T00:28:00+05:30
 tags : ["emacs", "lafootgiri", "ology"]
 draft : false
 ---
@@ -64,7 +64,7 @@ Update [3/1/08]: I never knew that GIMP could capture screenshots!
 ImageMagick can do that too. I had two programs at hand and
 thought I had none! Here's a Screenshot of the Floppix Desktop.
 
-{{<figure src="../images/floppix_desktop.jpg">}}
+{{<figure src="../../images/floppix_desktop.jpg">}}
 
 Picture Source [for the Background Image] : 9
 
