@@ -2,6 +2,7 @@
 title : "Where do the Children Play (in Bangalore)"
 description : "Find good Playo venues in convenient locations"
 date : 2018-02-12T13:11:00+05:30
+tags : ["blag", "sport", "hack"]
 draft : false
 meta_img : "images/playo-find.jpg"
 ---
