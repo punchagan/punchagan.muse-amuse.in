@@ -10,7 +10,6 @@ theme = "cocoa-eh"
 paginate = 10000
 summaryLength = 140
 rssLimit = 25
-googleAnalytics = "UA-21111013-1"
 canonifyURLs = true
 
 [params]
