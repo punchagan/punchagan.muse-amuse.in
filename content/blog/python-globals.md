@@ -7,8 +7,9 @@ draft: false
 
 ## TL; DR {#tl-dr}
 
--   The `global` statement tries to get the globals of the current scope where it
-    is executing
+-   The `global` statement is a parser directive to indicate that `globals` are
+    being used. When looking up `globals`, the `globals` of the current scope are
+    fetched.
 
 -   Python's `globals` are really just module-level.
 
