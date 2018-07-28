@@ -1,37 +1,33 @@
 footnoteReturnLinkContents = "↩"
-disqusShortname = "rusticreverie"
 title = "Noetic Nought"
 description = "Punch's home on the web"
 enableRobotsTXT = true
-SectionPagesMenu = "main"
 languageCode = "en-US"
 baseurl = "https://punchagan.muse-amuse.in/"
-theme = "cocoa-eh"
-paginate = 10000
-summaryLength = 140
+theme = "er"
 rssLimit = 25
 canonifyURLs = true
+copyright = "© 2018 CC-BY-SA-4.0"
+# pygments
+pygmentsCodeFences = true
+pygmentsStyle = "emacs"
+paginate = 5
+
+[menu]
+[[menu.main]]
+identifier = "blog"
+name = "blog"
+title = "blog"
+url = "/blog/"
+weight = -110
+
+[[menu.main]]
+identifier = "recurse-center"
+name = "recurse-center"
+title = "recurse-center"
+url = "/recurse-center/"
+weight = 10
 
 [params]
+mainSections = ["blog"]
 dateform = "Jan 2, 2006"
-dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-latestpostcount = 5
-hide_author = true
-highlightjs = true
-powered_by = false
-show_menu = true
-progressively = true
-social_banner="images/social_banner.jpg"
-
-author = ""
-description = ""
-
-logofile = "/images/logo.svg"
-
-copyright = "© 2018"
-copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
-
-github = "punchagan"
-twitter = "punchagan"
-email = "punchagan@muse-amuse.in"
-goodreads = "58550413-punch"
