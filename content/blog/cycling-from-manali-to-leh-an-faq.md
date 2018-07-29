@@ -1,19 +1,19 @@
 ---
-title : "Cycling from Manali to Leh - An FAQ"
-description : "Some memories, notes, tips and advice from our attempt at cycling from Manali to Leh"
-date : 2017-10-26T12:55:00+05:30
-tags : ["cycling", "himalaya", "travel", "blag", "life"]
-draft : false
-meta_img : "images/baralachala.jpg"
-best : true
+title: "Cycling from Manali to Leh - An FAQ"
+description: "Some memories, notes, tips and advice from our attempt at cycling from Manali to Leh"
+date: 2017-10-26T12:55:00+05:30
+tags: ["cycling", "himalaya", "travel", "blag", "life"]
+categories: ["best"]
+draft: false
+meta_img: "images/baralachala.jpg"
 ---
 
-{{<figure src="/images/baralachala.jpg">}}
+{{< figure src="/images/baralachala.jpg" >}}
 
 <div class="ox-hugo-toc toc">
 <div></div>
 
-## Table of Contents
+<div class="heading">Table of Contents</div>
 
 - [So, you cycled from Manali to Leh?](#so-you-cycled-from-manali-to-leh)
 - [Who is "we"?](#who-is-we)
@@ -38,6 +38,7 @@ best : true
 - [If yes, which part of the year would you do it?](#if-yes-which-part-of-the-year-would-you-do-it)
 - [If not, what other routes would you try?](#if-not-what-other-routes-would-you-try)
 - [Do you have any pictures that you can share?](#do-you-have-any-pictures-that-you-can-share)
+
 </div>
 <!--endtoc-->
 
@@ -57,7 +58,7 @@ to death. Susheel was driving along and cheering us.
 
 ## How did you decide to do this? {#how-did-you-decide-to-do-this}
 
-Vivek and I were going to Coorg with [Prats](https://www.instagram.com/pratikshasunder/) and [Addy](https://www.instagram.com/adarsh_makam/), and Prats told us a whole
+Vivek and I were going to Coorg with [Prats](https://www.instagram.com/pratikshasunder/) and [Addy](https://www.instagram.com/adarsh%5Fmakam/), and Prats told us a whole
 lot of stories of her adventures in the mountains. Not sure how bicycles came
 into the picture, but as soon as they did, both of us got really excited about
 it. This was on some sort of a bucket list for me, ever since I read [Vatsap's

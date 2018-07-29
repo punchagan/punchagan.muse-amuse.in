@@ -1,9 +1,9 @@
 ---
-title : "I love FOSS.  How do I start contributing (code)?"
-date : "2011-03-28T00:00:00+05:30"
-tags : ["contribute", "foss", "howto", "newbie"]
-draft : false
-best : true
+title: "I love FOSS.  How do I start contributing (code)?"
+date: 2011-03-28T00:34:00+05:30
+tags: ["contribute", "foss", "howto", "newbie"]
+categories: ["best"]
+draft: false
 ---
 
 ## Why this article? {#why-this-article}
@@ -56,7 +56,7 @@ absent) and will help you program better, in that language[^fn:6].
 Some projects will definitely catch your eye, while you are exploring.  Start
 using the ones that you need.  Follow them!
 
-Start with using the bleeding edge [^fn:7] software.  Bleeding edge refers
+Start with using the bleeding edge&nbsp;[^fn:7] software.  Bleeding edge refers
 to the latest sources of the project, where the active development is going
 on.  Given the continuous nature of software development, using the latest
 source,
@@ -76,7 +76,7 @@ look foolish there!  There wouldn't be one developer who doesn't have some
 embarrassing logs of stuff she said in public, in her initial days.
 
 Slowly you'll start to learn the dynamics of the community -- how things
-function, the DOs and DON'Ts, etc [^fn:8].  Also, there's a good chance
+function, the DOs and DON'Ts, etc&nbsp;[^fn:8].  Also, there's a good chance
 that the project has an active IRC channel.  If it does, hanging out there
 will give you more insights.  Contributing to the documentation, is often a
 useful step before contributing code.  Cleaning up the documentation or
@@ -86,7 +86,7 @@ understand it better.
 Next, start **acting** on Bug reports (or tiny feature requests).  Start with
 trying to reproduce the bugs and sending confirmations.  Gradually, start
 looking at the source and trying to figure out where the problem is.  Be
-patient, with this [^fn:9] .  Once you get comfortable with the code
+patient, with this&nbsp;[^fn:9].  Once you get comfortable with the code
 and the coding style, start sending code snippets and comments, explaining
 what you think might be the problem.  One fine day, you will be able to send
 a full working patch!  But, before that don't hesitate to send partial fixes.
@@ -99,7 +99,7 @@ or _module(s)_ of the project, specially in a big project.  You should pounce
 upon any issues in your favorite area.
 
 Participate in sprints.  It's not uncommon for projects to have regular
-sprints.  Make it there [^fn:10]!  Also, a couple of developers may decide
+sprints.  Make it there&nbsp;[^fn:10]!  Also, a couple of developers may decide
 to meet up on a weekend and hack.  If it's happening in your neighborhood,
 ask if you can join.  Don't be surprised, if they shout out a big YES!  You
 will definitely learn a lot, when there is help so close-by.

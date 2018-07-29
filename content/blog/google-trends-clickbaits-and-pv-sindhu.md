@@ -1,9 +1,9 @@
 ---
-title : "Google Trends, Clickbaits, and PV Sindhu"
-date : "2016-08-20T00:00:00+05:30"
-tags : ["blag", "data", "india", "internet", "news", "statistics"]
-draft : false
-best : true
+title: "Google Trends, Clickbaits, and PV Sindhu"
+date: 2016-08-20T22:59:13+05:30
+tags: ["blag", "data", "india", "internet", "news", "statistics"]
+categories: ["best"]
+draft: false
 ---
 
 TL;DR
@@ -33,7 +33,7 @@ also searched for Badminton rules, and others for Sania Mirza!  What surprises
 me is that the article doesn't try to put the data in a context at all.  Nor do
 I understand the contribution this article makes to the discussion on caste.
 
-{{<figure src="//c5.staticflickr.com/9/8541/28818616900_d8e2b33cb0_b.jpg">}}
+{{< figure src="https://c5.staticflickr.com/9/8541/28818616900%5Fd8e2b33cb0%5Fb.jpg" >}}
 
 I played around a little more with these search terms and Google Trends, and
 here are a few things that I thought were worth sharing.
@@ -49,7 +49,7 @@ mean?
 I don't know if anybody actually wrote about how many people actually followed
 the match, but Sindhu actually managed to get a whole lot of people interested!
 
-{{<figure src="//c2.staticflickr.com/9/8014/29105184025_777ac4e5d0_b.jpg">}}
+{{< figure src="https://c2.staticflickr.com/9/8014/29105184025%5F777ac4e5d0%5Fb.jpg" >}}
 
 More people searched for PV Sindhu than the daily average number of searches
 (not hits) for Facebook and very close to the daily number of searches for Porn
@@ -60,7 +60,7 @@ Sindhu's caste -- a tiny blip.
 Let's take a closer look.  Here's a plot of some of the other auto suggest
 terms + badminton rules & courts compared to Sindhu's name.
 
-{{<figure src="//c7.staticflickr.com/9/8507/28818617070_9c9fdfeb12_b.jpg">}}
+{{< figure src="https://c7.staticflickr.com/9/8507/28818617070%5F9c9fdfeb12%5Fb.jpg" >}}
 
 Nothing other than badminton rules (which is at about 1% of max. searches) is
 even visible, clearly.
@@ -70,7 +70,7 @@ the actual number of searches being made for PV Sindhu's name alone.
 
 Let's get rid of the name graph to get a closer look at the other terms.
 
-{{<figure src="//c6.staticflickr.com/9/8191/29105184165_133734e300_b.jpg">}}
+{{< figure src="https://c6.staticflickr.com/9/8191/29105184165%5F133734e300%5Fb.jpg" >}}
 
 -   The maximum number of people searching for Sindhu's caste is at about a fifth
     of the maximum number of people searching for badminton rules.  Interpreting
@@ -83,19 +83,19 @@ Let's get rid of the name graph to get a closer look at the other terms.
     Telangana. Notice that the other states are searching more for the rules or
     her wiki page.
 
-{{<figure src="//c8.staticflickr.com/9/8169/29105184295_f3e1448d10_b.jpg">}}
+{{< figure src="https://c8.staticflickr.com/9/8169/29105184295%5Ff3e1448d10%5Fb.jpg" >}}
 
 -   Do you notice that the red (caste), blue (wiki) and violet (images) lines
     following a similar trend, until the last few hours?  What do you think is
     happening there? It's the shitty click baits working!  Look at the trends from
     ~8:30AM to ~12:30AM below -- the red has spread to other states as well!
 
-{{<figure src="//c6.staticflickr.com/9/8049/29105184245_6e691d318d_b.jpg">}}
+{{< figure src="https://c6.staticflickr.com/9/8049/29105184245%5F6e691d318d%5Fb.jpg" >}}
 
 -   And this is how it looks by the evening (17:00-21:00).  Well done, folks!
     The click bait articles totally succeeded!
 
-{{<figure src="//c4.staticflickr.com/9/8144/29032147971_c9c3c13fdc_b.jpg">}}
+{{< figure src="https://c4.staticflickr.com/9/8144/29032147971%5Fc9c3c13fdc%5Fb.jpg" >}}
 
 If you are wondering how much effect the auto suggestions are having in
 suggesting people to try searching for caste, I don't think that is much
@@ -108,9 +108,9 @@ in the number of searches.
 We could see that the two Telugu states were more worried about the caste, than
 the rest of the country.  Let's see how abnormal they are.
 
-{{<figure src="//c8.staticflickr.com/9/8293/29105183935_5bc55c03b4_b.jpg">}}
+{{< figure src="https://c8.staticflickr.com/9/8293/29105183935%5F5bc55c03b4%5Fb.jpg" >}}
 
-{{<figure src="//c3.staticflickr.com/9/8395/28483785994_89f1c999e4_b.jpg">}}
+{{< figure src="https://c3.staticflickr.com/9/8395/28483785994%5F89f1c999e4%5Fb.jpg" >}}
 
 You can definitely see the red line more prominently.  In case of Andhra the
 peak searches for caste are at about 5% of the name searches.  A statistically
@@ -118,9 +118,9 @@ significant difference from the rest of the country.
 
 Let's zoom in at the auto-suggest terms alone.
 
-{{<figure src="//c7.staticflickr.com/9/8317/28818617430_bca8ed9d1a_b.jpg">}}
+{{< figure src="https://c7.staticflickr.com/9/8317/28818617430%5Fbca8ed9d1a%5Fb.jpg" >}}
 
-{{<figure src="//c4.staticflickr.com/9/8265/29105184115_a0a8e34f4b_b.jpg">}}
+{{< figure src="https://c4.staticflickr.com/9/8265/29105184115%5Fa0a8e34f4b%5Fb.jpg" >}}
 
 Woah, Andhra is definitely quite an aberration from the rest of the country.
 From about 1/5th of the maximum number of searches for rules, the maximum
@@ -130,7 +130,7 @@ but much less so.
 Tamil Nadu's trends below for comparison.  You can't help noticing the last few
 hours, can you?
 
-{{<figure src="//c3.staticflickr.com/9/8426/28818617290_eb4b3a2535_b.jpg">}}
+{{< figure src="https://c3.staticflickr.com/9/8426/28818617290%5Feb4b3a2535%5Fb.jpg" >}}
 
 **NOTE**: The trends and screen-shots for the states are slightly more recent
 than the others.
@@ -160,5 +160,5 @@ some really good advice](https://medium.com/@dannypage/stop-using-google-trends-
 
 ---
 
-Thanks to [Kamal](https://twitter.com/kamalx), [baali](https://twitter.com/baali_) and [9](https://twitter.com/cloud9trt) for reading and reviewing drafts of this.  Errors
+Thanks to [Kamal](https://twitter.com/kamalx), [baali](https://twitter.com/baali%5F) and [9](https://twitter.com/cloud9trt) for reading and reviewing drafts of this.  Errors
 mine, obviously.

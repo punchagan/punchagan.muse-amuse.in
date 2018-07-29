@@ -15,10 +15,10 @@ paginate = 5
 
 [menu]
 [[menu.main]]
-identifier = "blog"
-name = "blog"
-title = "blog"
-url = "/blog/"
+identifier = "best-posts"
+name = "Best posts"
+title = "Best posts"
+url = "/categories/best/"
 weight = -110
 
 [[menu.main]]
