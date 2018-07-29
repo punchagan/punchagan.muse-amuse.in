@@ -11,7 +11,7 @@ copyright = "© 2018 CC-BY-SA-4.0"
 # pygments
 pygmentsCodeFences = true
 pygmentsStyle = "emacs"
-paginate = 5
+paginate = 500
 
 [menu]
 [[menu.main]]
