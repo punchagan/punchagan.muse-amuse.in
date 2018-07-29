@@ -1,6 +1,6 @@
 ---
 title: "Python's globals"
-date: 2018-07-25T21:11:00+05:30
+date: 2018-07-29T09:09:00+05:30
 tags: ["python", "tests", "programming", "blag"]
 draft: false
 ---
