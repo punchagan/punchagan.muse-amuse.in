@@ -1,16 +1,13 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
+<main class="center mv4 content-width ph3">
+    <div class="f2 fw6 heading-color heading-font">404</div>
+    <p class="lh-copy post-content f4">
+        Sorry, but nothing exists here. <br>
+        Find something <a href='{{ "" | relURL }}'>interesting to read.</a>
+        <div class="suggestion"><a href="/">Loading suggestions ...</a></div>
+    </p>
+</main>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fuse.js/3.0.4/fuse.min.js"></script>
-<section class="main">
-    <div class="container f04">
-        <div class="content">
-            <div class="num">404</div>
-            <div class="detail">Sorry, this page does not exist.</div>
-            <div class="suggestion"><a href="/">Loading suggestions ...</a></div>
-        </div>
-    </div>
-</section>
-{{ partial "footer.html" . }}
-
 <script type="text/javascript">
  var maxPatternLength = 64;
  var get_search_string = function(){
@@ -33,7 +30,7 @@
  };
 
  var no_suggestions = function(){
-     document.querySelector('.suggestion > a').text = 'Visit home page';
+     document.querySelector('.suggestion').remove();
  };
 
  var show_results = function(entries) {
@@ -75,5 +72,6 @@
      show_results(results);
  } else {
      no_suggestions();
-};
+ };
 </script>
+{{ end }}
