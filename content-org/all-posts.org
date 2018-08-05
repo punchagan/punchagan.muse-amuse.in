@@ -9,15 +9,493 @@
 #+MACRO: gist #+HTML: <script src="https://gist.github.com/$1.js"></script>
 #+MACRO: soundcloud #+HTML: <iframe width="$3" height="$2" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/tracks/$1"> </iframe>
 #+MACRO: soundcloud_playlist #+HTML: <iframe width="$3" height="$2" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/playlists/$1"> </iframe>
-#+MACRO: vimeo #+HTML: <iframe src="http://player.vimeo.com/video/{vimeo_id}" width="$3" height="$2" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
-#+MACRO: youtube #+HTML: <iframe width="$3" height="$2" src="http://www.youtube.com/embed/$1?rel=0&amp;hd=1&amp;wmode=transparent"></iframe>
+#+MACRO: vimeo #+HTML: <iframe src="https://player.vimeo.com/video/{vimeo_id}" width="$3" height="$2" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
+#+MACRO: youtube #+HTML: <iframe width="$3" height="$2" src="https://www.youtube.com/embed/$1?rel=0&amp;hd=1&amp;wmode=transparent"></iframe>
+* DONE Python's globals                       :python:tests:programming:blag:
+CLOSED: [2018-07-29 Sun 09:09]
+:PROPERTIES:
+:EXPORT_FILE_NAME: python-globals
+:EXPORT_DATE: [2018-07-25 Wed 21:11]
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
+:END:
+:LOGBOOK:
+CLOCK: [2018-07-27 Fri 08:45]--[2018-07-27 Fri 09:13] =>  0:28
+CLOCK: [2018-07-26 Thu 22:30]--[2018-07-26 Thu 23:12] =>  0:42
+CLOCK: [2018-07-25 Wed 08:57]--[2018-07-25 Wed 11:30] =>  2:33
+:END:
 
-* DONE Cycling from Manali to Leh - An FAQ :cycling:himalaya:travel:blag:life:
+** TL; DR
+
+- The ~global~ statement is a parser directive to indicate that ~globals~ are
+  being used. When looking up ~globals~, the ~globals~ of the current scope are
+  fetched.
+
+- Python's ~globals~ are really just module-level.
+
+- Every function has an associated ~__globals__~ dictionary, which is the *same
+  as the module's ~__dict__~ for the module where it was defined*. This
+  ~__globals__~ dict is the name-space that is looked up when trying to fetch
+  ~globals~ within a function.
+
+- Avoid globals to make it easier to test functions
+
+** Motivation
+
+During a mentoring session I was doing recently, we ran into a problem with
+~globals~ in Python.
+
+Here is a toy example to describe what we were seeing.
+
+We had code in a module ~foo.py~ where the function ~f~ was using a global
+defined in ~main~, and we were trying to write tests for the function ~f~.
+
+#+BEGIN_SRC python
+  # foo.py
+  def f():
+      print(a)
+
+
+  def main():
+      global a
+      a = 5
+      f()
+
+  if __name__ == '__main__':
+      main()
+#+END_SRC
+
+Running this file ~foo.py~ prints out ~5~ as expected.
+
+We would now like to import ~f~ into a different module and use it.
+
+** Running ~f~ in a different module
+
+#+BEGIN_SRC python
+  # bar.py
+  from foo import f
+
+  def main():
+      f()
+
+  main()
+#+END_SRC
+
+Running the module ~bar.py~ gives us a ~NameError~, as expected. The name ~a~
+was defined in the ~main~ in ~foo.py~ which is never being run when the code is
+imported in ~bar.py~
+
+#+BEGIN_SRC python
+  Traceback (most recent call last):
+    File "bar.py", line 10, in <module>
+      main()
+    File "bar.py", line 7, in main
+      f()
+    File "foo.py", line 5, in f
+      print(a)
+  NameError: global name 'a' is not defined
+#+END_SRC
+
+** Setting a global value for ~a~
+
+We'd like to be able to run ~f~ without running ~main~ and the first fix that
+comes to mind is to set the value of ~a~ in ~bar~, and let ~f~ use that.
+
+#+BEGIN_SRC python
+  # bar.py
+  def main():
+      global a
+      a = 4
+      f()
+#+END_SRC
+
+Surprise! Nothing changes.
+
+#+BEGIN_SRC python
+  Traceback (most recent call last):
+    File "/tmp/example/bar.py", line 13, in <module>
+      main()
+    File "/tmp/example/bar.py", line 9, in main
+      f()
+    File "/tmp/example/foo.py", line 5, in f
+      print(a)
+  NameError: global name 'a' is not defined
+#+END_SRC
+
+Why doesn't this work?!
+
+** Function ~__globals__~ and the ~global~ statement
+
+The ~global~ statement is a directive to the parser, that specifies that the
+variable being assigned to is a global variable.
+
+This can be seen by looking at the disassembled code for ~f~
+
+#+BEGIN_SRC python
+  import dis
+  from foo import f
+
+  dis.dis(f)
+#+END_SRC
+
+#+BEGIN_SRC asm
+    5           0 LOAD_GLOBAL              0 (print)
+                2 LOAD_GLOBAL              1 (a)
+                4 CALL_FUNCTION            1
+                6 POP_TOP
+                8 LOAD_CONST               0 (None)
+               10 RETURN_VALUE
+#+END_SRC
+
+~globals~ for the current frame are fetched, and the value is updated in that
+dict. Each function in Python has an associated ~__globals__~ dict which is a
+reference to that module's ~__dict__~ in which the function was defined. So, in
+the case where we try to set the ~a = 4~ in ~bar.main~, the ~main~ function's
+~__globals__~ dict is being updated.
+
+#+BEGIN_SRC python
+  # bar.py
+  def main():
+      global a
+      a = 4
+      print(main.__globals__.keys())
+      print(main.__globals__['a'])
+#+END_SRC
+
+#+BEGIN_SRC python
+  dict_keys(['__name__', '__doc__', '__package__', '__loader__', '__spec__', '__annotations__', '__builtins__', '__file__', '__cached__', 'foo', 'f', 'dis', 'main', 'a'])
+  4
+#+END_SRC
+
+As you can see ~a~ is being set to ~4~, but ~f~ still doesn't see value, since
+it has it's own ~__globals__~ dictionary. Printing the ~globals~ dictionary for
+~f~ should make that clear.
+
+#+BEGIN_SRC python
+  from foo import f
+  print(f.__globals__)
+#+END_SRC
+
+If the variable ~a~ was declared in the module ~foo~ outside of any of the
+functions, it would be in ~f~'s ~__globals__~ dict when it is imported, and
+hence the name error would go away, but setting it still would not work.
+
+#+BEGIN_SRC python
+  # foo.py
+  a = 3
+
+  def f():
+      print(a)
+
+
+  def main():
+      global a
+      a = 5
+      f()
+
+  if __name__ == '__main__':
+      main()
+#+END_SRC
+
+#+BEGIN_SRC python
+  # bar.py
+  from foo import f
+
+  def main():
+      global a
+      a = 4
+      f()
+
+  main()
+#+END_SRC
+
+Running ~bar.py~ would print the value ~3~ which has been defined in ~foo.py~,
+and not ~4~.
+
+** Updating ~__globals__~
+
+To update the value of ~a~ for ~f~, we could modify it's ~globals~ dict.
+
+#+BEGIN_SRC python
+  # bar.py
+  from foo import f
+
+  def main():
+      f.__globals__['a'] = 4
+      f()
+
+  main()
+#+END_SRC
+
+** Module ~__dict__~ and monkey-patching
+
+As mentioned previously, a function's ~__globals__~ dict is a reference to the
+module's ~__dict__~ for the module where the function was defined. So, we could
+achieve the same result as above by updating ~foo.__dict__~. And setting an
+attribute on the module ~foo~ is the same as updating this dict.
+
+#+BEGIN_SRC python
+  # bar.py
+  import foo
+  from foo import f
+
+
+  def main():
+      foo.a = 4
+      f()
+#+END_SRC
+
+If you have used a library like ~mock~ to patch some code while running tests,
+this is essentially what is happening. The ~target~ module's dict is looked up
+for the specified object/function and replaced with a mock object.
+
+** Use an argument to make it testable
+
+The function ~f~ would've been much easier to test, if it took ~a~ as an
+argument, instead of using a global value. This functional approach would make
+the code easier to reason about too.
+
+#+BEGIN_SRC python
+  # foo.py
+  def f(a):
+      print(a)
+
+
+  def main():
+      a = 5
+      f(a)
+
+  if __name__ == '__main__':
+      main()
+#+END_SRC
+
+#+BEGIN_SRC python
+  # bar.py
+  from foo import f
+
+  def main():
+      a = 3
+      f(a)
+#+END_SRC
+
+* DONE Weird ISP Issue                            :blag:networking:debugging:
+CLOSED: [2018-04-12 Thu 11:09]
+:PROPERTIES:
+:EXPORT_FILE_NAME: weird-isp-issue
+:EXPORT_DATE: [2018-04-12 Thu 10:43]
+:EXPORT_DESCRIPTION: At the end of my debugging skills for a weird network issue
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
+:END:
+
+I was trying to lookup the documentation for [[http://click.pocoo.org/5/][Click]] and I got redirected to a
+page showing Werkzeug's documentation. I'd assumed it was a broken configuration
+on the server, because other subdomains like [[http://lucumr.pocoo.org][Armin's blog]] also sent me to the
+same page. I [[https://twitter.com/punchagan/status/983885853343727616][got in touch with Armin]] and he asked me if I was using [[https://www.eff.org/https-everywhere][https
+everywhere]], and that wasn't supported by the server. But, I wasn't. The next
+thing to try was to switch my ISP and check, and viola it worked!
+
+I did some debugging and figured out that in some responses the HTTP status line
+was not being sent, and the first line in the response contained =Date=. Also,
+the response seems to be correct, when I hit a hard refresh on the browser,
+which sets the =Cache-Control= header to =no-cache=. So, it looks like some
+cache in between me and the server is going nuts with this specific request.
+
+#+BEGIN_SRC sh
+  $ nc click.pocoo.org 80 < input.txt
+  Date: Thu, 12 Apr 2018 05:17:14 GMT
+  Last-Modified: Mon, 07 Apr 2014 18:35:36 GMT
+  Connection: Keep-Alive
+#+END_SRC
+
+And the =input.txt= file looks like this.
+
+#+BEGIN_SRC text
+  HEAD / HTTP/1.1
+  Host: click.pocoo.org
+  User-Agent: Mozilla/6.0 (X11; Ubuntu; Linux x86_64; rv:61.0) Gecko/20100101 Firefox/59.0
+  Accept: */*
+  Accept-Encoding: deflate, gzip
+  
+#+END_SRC
+
+Adding the line =Cache-Control: no-cache= to this input causes the problem to go
+away.
+
+#+BEGIN_SRC sh
+  $ nc click.pocoo.org 80 < input.txt
+  HTTP/1.1 301 Moved Permanently
+  Server: nginx
+  Date: Thu, 12 Apr 2018 05:30:56 GMT
+  Content-Type: text/html
+  Content-Length: 178
+  Connection: keep-alive
+  Location: http://sphinx-doc.org/
+#+END_SRC
+
+Also, I'm able to reproduce this with all the subdomains on =pocoo.org= -
+=click=, =sphinx=, =lucumr=, ... I'm not sure if it has something to do with the
+server, or if it is entirely independent of that. But, the problem does go away
+when I switch to a different network.
+
+I'm not sure what I can do next to narrow down the problem, even more. Any
+hints/tips appreciated.
+
+* DONE Where do the Children Play (in Bangalore)            :blag:sport:hack:
+CLOSED: [2018-02-12 Mon 13:11]
+:PROPERTIES:
+:EXPORT_FILE_NAME: where-do-the-children-play-in-bangalore
+:EXPORT_DATE: [2018-02-10 Sat 08:50]
+:EXPORT_DESCRIPTION: Find good Playo venues in convenient locations
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :meta_img images/playo-find.jpg
+:END:
+
+A bunch of us have recently started playing Badminton regularly (on weekends),
+in Bangalore. We use [[https://playo.co/][Playo]] to book a court to play on. But, all of us live in
+different parts of the city, and it's often difficult to find a convenient place
+to play. Often, we end up in bad courts because we don't pay enough attention to
+the ratings, while focusing on trying to find a court in a convenient location.
+
+To help make this search easier, I built a [[https://punchagan.github.io/playo-find-venue/][small web app]] that shows the venues
+from Playo on a map, and then allows you to specify the locations of players,
+and the radius (in km) that they are willing to travel. Hopefully, we end up
+finding a good court in the overlapping region. Clicking on the venue marker
+allows you to jump to the Playo booking page for that venue. The source is
+available [[https://github.com/punchagan/playo-find-venue/][here]].
+
+file:~/software/my-repos/muse-amuse.in/static/images/playo-find.jpg
+
+- I usually go with [[http://leafletjs.com/][leaflet]] when I want to do map related stuff. This is the
+  first time I used [[https://developers.google.com/maps/documentation/javascript/][Google APIs]], and it was a pretty decent experience.
+- I also ended up using the [[https://developers.google.com/url-shortener/][Google URL shortener API]] to make it easier to share
+  URLs. The entire state of the app is being saved in the URL fragment, so that
+  URLs are shareable, but it makes them long and ugly. Short URLs seemed like a
+  good workaround.
+- I got most of it working with vanilla javascript, until I started doing things
+  where I felt it would be nice to have a light-weight two-way data and view
+  binding library. I ended up trying [[http://knockoutjs.com/][knockoutjs]] for the first time, and enjoyed
+  using it.
+- The data for Playo venues is updated everyday using a [[https://docs.travis-ci.com/user/cron-jobs/][cron job that runs on
+  Travis]]. So, the ratings of venues should be pretty up-to-date.
+- But, Playo allows players to rate venues overall, and not by sport. So, it may
+  so happen that the venue is a decent one overall, and has good facilities for
+  some other sport, but the badminton courts are still bad. But, some venues are
+  badminton only, and in those cases the ratings are more useful.
+- It should be pretty easy to make the app [[https://github.com/punchagan/playo-find-venue/blob/68a39a1f0ed0e13f59a529fb28853bad360b95ba/js/places.js#L90][fetch data for other things]] like
+  restaurants/movie theaters, to make this app do more than just help find Playo
+  venues.
+
+To Moar Badminton!
+
+{{{youtube(PiiZrZTrOFY, 500, 700)}}}
+
+* DONE Preview: A visualization git repository viewer :blag:visualization:code:clojure:
+CLOSED: [2017-11-22 Wed 10:18]
+:PROPERTIES:
+:EXPORT_FILE_NAME: preview-a-visualization-git-repository-viewer
+:EXPORT_DESCRIPTION: Announcing Preview  - a tool to explore visualization related git repositories visually
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :meta_img ox-hugo/preview-branches.png
+:END:
+
+A few weeks ago, I was watching a talk title [[https://www.youtube.com/watch?v=fThhbt23SGM][Design is a Search Problem]] by
+[[https://twitter.com/mbostock][@mbostock]] of d3 fame, which he gave a couple of years ago while he was still
+working at the New York Times.
+
+Primarily, he's trying to drive home the point that the process of coming up
+with a good design (for a data visualization) is a hard problem -- there are a
+few thumb rules and philosophical guidelines on how to come up with one, but
+there are no silver bullets to come up with a good design for every scenario.
+
+He makes the case for a process that lets you efficiently try out a lot of
+designs to see what works and what doesn't. In the latter part of his talk he
+goes on to demo an internal tool at NYT called Preview, that they use view,
+explore and contribute to each others' work. I hoped that in the two years since
+the talk was given, this tool would've been open-sourced, but it was not to be.
+
+So, I started working on my own project, also called [[https://github.com/punchagan/preview][Preview]], that has a similar
+set of features to those described in the talk. Even if I am not working in a
+visualization team, I think it would be pretty useful to have such a tool to
+explore the work of other people to learn more about their process, when coming
+up with a visualization/design.
+
+Currently, Preview lets you keep track of all the repositories of a single
+user/organisation on GitHub. Any repository with an =index.html= file is assumed
+to be a repository of interest, and tracked.
+
+#+ATTR_HTML: :height 400px
+#+ATTR_ORG: :height 400
+
+[[file:~/Downloads/repo-listing.png]]
+
+It also lets you view the screenshots for a repository over all the commits in
+the repository. This is intended to be some sort of a visual version of git log.
+
+[[file:~/Downloads/screenshots-delhi-traffic-story.png]]
+
+You can also view any repository at the latest commit on any branch.
+
+file:~/Pictures/preview-branches.png
+
+The tool is pretty new and quite brittle right now, but already quite functional
+and useful, I think. If you do give it a spin, I'd love to hear your comments
+and feedback.
+
+* DONE Multiple remotes with nullmailer                    :emacs:email:hack:
+CLOSED: [2017-11-18 Sat 04:50]
+:PROPERTIES:
+:EXPORT_FILE_NAME: multiple-remotes-with-nullmailer
+:EXPORT_DESCRIPTION: Configuring nullmailer with multiple remote SMTP destinations
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
+:END:
+
+This a reference for future-me, and possibly someone pulling off an all-nighter
+trying to get =nullmailer= to use the correct "remote".
+
+** What is nullmailer and why use it?
+
+[[https://github.com/bruceg/nullmailer][Nullmailer]] is a simple mail transfer agent that can forward mail to a remote
+mail server (or a bunch of them).
+
+I use Emacs to send email, and it can be configured to talk to a remote SMTP
+server to send email. But, this blocks Emacs until the email is sent and the
+connection closed. This is annoying, and having =nullmailer= installed locally
+basically lets Emacs delegate this job without blocking.
+
+** Why multiple remotes?
+
+I have multiple email accounts, and I'd like to use the correct remote server
+for sending email based on the FROM address.
+
+I expected =nullmailer= to have some configuration to be able to specify this.
+But, it turns out that =nullmailer= just forwards the email to all the
+configured remotes [[https://github.com/bruceg/nullmailer/blob/master/src/send.cc#L382-L410][until one of them succeeds]].
+
+** How do we, then, send email from the correct remote SMTP server?
+
+Currently, I have two remotes - my personal domain (=@muse-amuse.in=) and GMail.
+
+Having GMail as the first remote in =nullmailer='s configuration wouldn't let me
+send emails from my personal domain. GMail seems to agree to send the email
+coming from =@muse-amuse.in=, but overwrite the MAIL FROM address and change it
+to my GMail address.
+
+So, =@muse-amuse.in= has to be the first remote. But, this server also seemed to
+accept and send emails with a =@gmail.com= =FROM= address. This was causing
+emails sent from my GMail ID to go into spam, as expected.
+
+I had to reconfigure this mail server to reject relaying mails that didn't
+belong to the correct domain names -- i.e., reject relaying emails which had
+=@gmail.com= in the =FROM= address.
+
+~smtpd_sender_restrictions~ had to modified to have ~reject_sender_login_reject~
+along with other values, and the ~smtpd_sender_login_maps~ had to be set to
+allow only the =@muse-amuse.in= domain. [[https://serverfault.com/questions/318334/how-to-enforce-sender-address-to-be-logged-in-userexample-org-in-postfix][This serverfault answer]] explains this in
+more detail.
+
+* DONE Cycling from Manali to Leh - An FAQ :cycling:himalaya:travel:blag:life:@best:
 CLOSED: [2017-10-26 Thu 12:55]
 :PROPERTIES:
 :EXPORT_FILE_NAME: cycling-from-manali-to-leh-an-faq
 :EXPORT_DESCRIPTION: Some memories, notes, tips and advice from our attempt at cycling from Manali to Leh
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :meta_img images/baralachala.jpg :best true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :meta_img images/baralachala.jpg
 :END:
 
 [[file:~/software/my-repos/muse-amuse.in/static/images/baralachala.jpg]]
@@ -685,11 +1163,11 @@ I just wrote a bash script that does the following, quickly -
 
 You can get it [[https://github.com/punchagan/dot-files/blob/master/bin/jupyter-server.sh][here]], if you'd like to use it.
 
-* DONE Google Trends, Clickbaits, and PV Sindhu :blag:data:india:internet:news:statistics:
+* DONE Google Trends, Clickbaits, and PV Sindhu :blag:data:india:internet:news:statistics:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: google-trends-clickbaits-and-pv-sindhu
 :EXPORT_DATE: 2016-08-20T22:59:13+05:30
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :best true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
 :END:
 
 TL;DR
@@ -1005,7 +1483,7 @@ I had a simple bookmarklet until now that just changed the width of the page.
 pages easier to read. I liked them, and modified my bookmarklet to use these
 rules now.
 
-[[file:../images/better-websites.gif]]
+[[file:../../images/better-websites.gif]]
 
 Drag and drop the link below onto your bookmarks bar if you want to use it.
 #+HTML: <p><a style="border: 0.05em dashed; padding: 0.5em;" href='javascript:void(function(){style = document.createElement("style"); document.head.appendChild(style); style.sheet.insertRule("body{ margin:40px auto; max-width:650px; line-height:1.6; font-size:18px; color:#444; padding:0 10px; }"); style.sheet.insertRule("h1,h2,h3{ line-height:1.2 }")}())'>Better website</a></p>
@@ -1923,7 +2401,7 @@ what was going on.
 I logged onto the router and started looking at the Wireless settings in the
 hope of finding some clue, and there it was! =Wireless Channel: Auto Scan=
 
-[[../images/auto-scan.jpg]]
+[[../../images/auto-scan.jpg]]
 
 It was anybody's guess that some channels that the router uses weren't
 supported by my dad's laptop.  The restarts *sometimes* helped because the
@@ -4077,11 +4555,11 @@ Love you, for being the more loving one!
 
 #+end_verse
 
-* DONE I love FOSS.  How do I start contributing (code)? :contribute:foss:howto:newbie:
+* DONE I love FOSS.  How do I start contributing (code)? :contribute:foss:howto:newbie:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: i-love-foss-how-do-i-start-contributing-code
 :EXPORT_DATE: 2011-03-28T00:34:00+05:30
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :best true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER:
 :END:
 
 
@@ -4681,10 +5159,10 @@ things.
   Here are a few images.  (View them in their original size)
 
   #+ATTR_HTML: alt="channels image" title="R G B Channels" align="center" width="400"
-  file:../images/channels.png
+  file:../../images/channels.png
 
   #+ATTR_HTML: alt="sub-sampled image" title="Sub-sampled Channels" align="center" width="400"
-  file:../images/subsample.png
+  file:../../images/subsample.png
 
 * DONE Raise windows (on current desktop) xdotool & bash :code:hack:
 :PROPERTIES:
@@ -8571,7 +9049,7 @@ Update [3/1/08]: I never knew that GIMP could capture screenshots!
 ImageMagick can do that too. I had two programs at hand and
 thought I had none! Here's a Screenshot of the Floppix Desktop.
 
-file:../images/floppix_desktop.jpg
+file:../../images/floppix_desktop.jpg
 
 Picture Source [for the Background Image] : 9
 
@@ -8629,7 +9107,7 @@ Another post, with nothing concrete to say...
   dumb... here's some food for thought > The Best things in Life
   aren't Things...
 
-file:../images/bestthingsinlife.jpg
+file:../../images/bestthingsinlife.jpg
 
 * DONE A Teen, No more. :birthday:blab:
 :PROPERTIES:
@@ -8880,7 +9358,7 @@ Delhi.... (allegedly doing a Project!)
   one with it..
 - and found this cool pic... [I guess I need to follow him.. ;)]
 
-file:../images/ny_barking.gif
+file:../../images/ny_barking.gif
 
 ps: there's a lot more... but it ain't coming up here..  :P
 
@@ -10695,6 +11173,11 @@ file:../images/macaulay.jpg
 /The National Ideals of India are Renunciation and
 Service. Intensify her in those channels and the rest will take
 care of itself.  -Swami Vivekananda/
+
+* Archive
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index.md
+:END:
 
 * Happy posts                                                    :@bookmarks:
 ** DONE What I liked 2016-09-04             :blab:blag:happy:life:
@@ -16937,6 +17420,13 @@ thunks.
 
 The day ended with burritos and game night Mafia!
 
+** RC posts
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:END:
+
+Posts I wrote during my batch at the [[https://www.recurse.com/][Recurse Center]].
+
 * Book notes                                                    :@book_notes:
 ** DONE Notes on "5 Love Languages"         :blag:book:book_notes:life:love:
 :PROPERTIES:
@@ -16984,618 +17474,6 @@ and otherwise) on the notes.
 
 [[https://farm2.staticflickr.com/1484/23781720643_a8e91c0cf8_o.jpg][https://farm2.staticflickr.com/1484/23781720643_a8e91c0cf8_o.jpg]]
 
-** DRAFT Notes on "Slight Edge"
-:PROPERTIES:
-:EXPORT_FILE_NAME: notes-on-slight-edge
-:EXPORT_DATE: [2017-08-28 Fri 20:25]
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :type book_notes
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :book_cover https://farm5.staticflickr.com/4326/36087709631_ae8096b7e6_o_d.jpg
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :book_isbn 1626340463
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :book_author Jeff Oslon
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :book_url https://www.amazon.com/Slight-Edge-Turning-Disciplines-Happiness-ebook/dp/B00GDKN3T6/
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :book_name "Slight Edge"
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :book_read "2017-07-28"
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :book_rating "5/5"
-:END:
-*** In 3 sentences
-Simple productive actions, repeated consistently over time are the *slight
-edge*, and add up to the difference between failure and success. Plant,
-cultivate, harvest is the natural progression for everything in life -- the
-cultivate step can often be quite long with no visible progress, at first. Keep
-grinding away at your daily disciplines, review them regularly in a journal or
-by checking in with a buddy/coach, and surround yourself with inspiration --
-people who have had success similar to the one you want!
-
-*** Highlights and notes from the book
-#+BEGIN_QUOTE
-the very same activities that had rescued me from failure, that had carried me
-from the failure line up to the survival line, would also rescue me from average
-and carry me from the survival line to the success line—if I would just keep
-doing them
-#+END_QUOTE
-
-We pull up our socks when we are facing failure in the face. What if there was a
-way to set our standards higher, and be able to view being average or surviving
-as failure, so we can push ourselves to the success line?
-
-#+BEGIN_QUOTE
-That’s the only reason our lives follow that roller coaster. It’s that simple.
-As soon as we get away from failure and up past the line of survival, we quit
-doing the things that got us there.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-I call them simple daily disciplines. Simple productive actions, repeated
-consistently over time. That, in a nutshell, is the slight edge.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Focusing on the actions, the what-to-dos and the how-to-do-its, is not enough,
-because it’s the attitude behind the actions that keep those actions in place.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-The first ingredient. Yes, you have to know the winning how-to actions, and you
-have to possess the winning attitudes—but what generates all that and keeps it
-all in place is your philosophy. Your philosophy is what you know, how you hold
-it, and how it affects what you do. How you think about simple, everyday things.
-That’s what this book is about.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-The formula for success is quite simple: Double your rate of failure.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Successful people fail their way to the top.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Success is the progressive realization of a worthy ideal. Successful people do
-what unsuccessful people are not willing to do. There is a natural progression
-to everything in life: plant, cultivate, harvest.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-My hope for you—my request for you—is that before you reach the last page of
-this book you will have put in place a slight edge financial plan for yourself
-so that you are consistently building your equity. Some simple daily, weekly, or
-monthly discipline that over time will buy your financial freedom.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-It’s never too late to start. It’s always too late to wait.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Simple daily disciplines—little productive actions, repeated consistently over
-time—add up to the difference between failure and success.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-The slight edge is relentless and cuts both ways: simple daily disciplines or
-simple errors in judgment, repeated consistently over time, make you or break
-you.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-People don’t consistently do those simple things for three reasons: 1) while
-they’re easy to do, they are also easy not to do; 2) you don’t see any results
-at first; 3) they seem insignificant, like they don’t matter. But they do.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-consistently repeated daily actions + time = inconquerable results.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Way back in the beginning, when you add the first few tiny, insignificant bits
-of positive action, you won’t see the scales move at all and that will frustrate
-you—if you judge your choices by the evidence of your eyes. It frustrates
-nineteen out of twenty people so much, they quit.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-The difficult is what takes a little time; the impossible is what takes a little
-longer.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-There is a natural progression to success: plant, cultivate, harvest—and the
-central step, cultivate, can only happen over the course of time.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-There is no “some day.” There’s only today. When tomorrow comes, it will be
-another today; so will the next day. They all will. There is never anything but
-today.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-“You want a miracle, Bruce? Be the miracle.”
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-How you realize happiness is by doing some simple things, and doing them every
-day.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Success doesn’t lead to happiness—it’s the other way around.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Happiness doesn’t come at the end. Happiness comes first. Albert Schweitzer put
-it beautifully: “Success is not the key to happiness. Happiness is the key to
-success.”
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-The study had analyzed some 40,000 words in over 80 million tweets, and when the
-results were overlaid with a county-by-county analysis of heart attacks, it was
-a nearly exact correlation.
-#+END_QUOTE
-
-Correlation does not imply causation, though.
-
-#+BEGIN_QUOTE
-the right philosophy → the right attitude → the right actions
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-slight edge + happy habits = success
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Every morning write down three new things you’re grateful for. Journal for two
-minutes a day about a positive experience from the past 24 hours. Meditate daily
-for a few minutes. At the start of every day, write an email to someone praising
-or thanking them. Get fifteen minutes of simple cardio exercise a day.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-I want the world to be better because I was here. I want my life, my work, my
-family to mean something. If you are not making someone else’s life better you
-are wasting your time. Your life will only become better by helping make other
-lives better.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-A single thoughtful, committed person can change the world.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-We are all having a ripple effect on others; the question is, what kind of
-ripple effect, negative or positive, do we want to have?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-What you do matters.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-If you add just 1 percent of anything—skill, knowledge, effort—per day, in a
-year it will have more than tripled. But you have to start with the 1 percent.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Where you end up in life isn’t about whether you are a good or a bad person, or
-whether or not you are deserving, or your karma, or your circumstances. It’s
-dictated by the choices you make—especially the little ones.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-There may be times when things seem to be on a steady, even keel. This is an
-illusion: in life, there is no such thing as staying in the same place. There
-are no straight lines; everything curves. If you’re not increasing, you’re
-decreasing.
-#+END_QUOTE
-
-Sounds like Entropy
-
-#+BEGIN_QUOTE
-Responsibility is declaring oneself as cause in the matter. It is a context from
-which to live one’s life.      Responsibility is not a burden, fault, praise,
-blame, credit, shame, or guilt. All these include judgments and evaluations of
-good and bad, right and wrong, or better and worse. They are not responsibility…
-     Responsibility starts with the willingness to deal with a situation from
-and with the point of view, whether at the moment realized or not, that you are
-the source of what you are, what you do, and what you have.      It is not
-“right,” or even “true,” to declare oneself as “cause” in the matter. It’s just
-empowering. By standing for yourself as cause, “what happens” shifts from
-“happening to you” to “just happening” and, ultimately, to “happening as a
-result of your being cause in the matter.”
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Let’s take an honest look at your health. Are you building it every day? The way
-you eat, the way you exercise, the kind of schedule you keep, the ways in which
-you take care of yourself—are all these building a greater feeling of health and
-vibrancy every day?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Let’s take an honest look at your level of happiness. Do you take time every day
-to notice those things you’re grateful for? Do you make a habit of looking at
-things in a positive light, rather than a negative light? Do you practice
-savoring the moment and regularly expressing your appreciation of others? Do you
-engage regularly in activities that are meaningful to you, things you do not
-because you have to but because you want to? Are you building greater happiness
-every day, or is day-to-day happiness drifting further away?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Let’s take an honest look at your friendships and close relationships. Is the
-number of friends in your life, people with whom you stay in touch, with whom
-you share meaningful exchanges and mutually enriching experiences, growing
-larger every year?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Let’s take an honest look at your personal development. Are you learning more
-about yourself, about the world around you, and about how life works every day?
-Are you learning new skills and sharpening old ones? Are you becoming a more
-capable person, one more interesting to know and valuable to be around?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Let’s take an honest look at your finances. Are you building assets and putting
-money into a long-term plan that will create true financial freedom? Is your net
-worth growing larger each year?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Let’s take an honest look at your career. Is your professional life growing
-every day? Are you moving along a path that is taking you toward greater
-accomplishment and fulfillment in your chosen occupation? Is your work growing
-not only in its financial rewards, but also in your sense of meaningful
-contribution, personal satisfaction, and respect among your peers?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-The key is, start somewhere. Wherever you can take action and begin creating
-little successes, do it. Don’t wait. The rest of your life is waiting.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-mastery is not an exalted state that lies at the end of the path; it is a state
-of mind that lies at the very beginning. Mastery is in the act of setting your
-foot on the path, not in reaching its end.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-“There is one quality which one must possess to win,” writes Napoleon Hill in
-his all-time classic Think and Grow Rich, “and that is definiteness of purpose,
-the knowledge of what one wants, and a burning desire to possess it.”
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-That pain of wanting, the burning desire to possess what you lack, is one of the
-greatest allies you have. It is a force you can harness to create whatever you
-want in your life.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-The size of the problem determines the size of the person.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Gigantic funerals are held and great crowds, even entire nations, mourn for
-those who spend their lives not worrying about what others thought.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-There are two ways to close the gap between where you are and where you want to
-be: 1) you can let go of where you are and be drawn to your goal, or 2) you can
-let go of your goal, hit the snooze button, and stay where you are.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Time may not heal all wounds, but it does bring about all change, sooner or
-later.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Invest in yourself. Sharpen your axe. Read just one chapter of an
-information-rich, inspiring book every day. Listen to fifteen minutes of a
-life-transforming audio. Take a course or seminar every few weeks or months.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Five frogs sit on a lily pad. One decides to jump off. How many are left?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Life is doing. If you aren’t doing, you’re dying.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Book smarts, street smarts. Learning by study, learning by doing. Read about it,
-apply it, see it in action, take that practical experience back to your reading,
-deepen your understanding, take that deeper understanding back to your activity…
-it’s a never-ending cycle, each aspect of learning feeding the other.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-In a journey of nearly a quarter of a million miles, the vehicle was actually on
-track for only 7,500 miles. Or to put it another way, for every half-hour the
-ship was in flight, it was on course for less than one minute.
-#+END_QUOTE
-
-This is incorrect. Spending so much time and fuel course correcting would be
-totally sub-optimal. Citation required.
-
-#+BEGIN_QUOTE
-Would you like me to give you the formula for success? It’s quite simple,
-really. Double your rate of failure.… You’re thinking of failure as the enemy of
-success. But it isn’t at all. You can be discouraged by failure—or you can learn
-from it. So go ahead and make mistakes. Make all you can. Because, remember
-that’s where you’ll find success. On the other side of failure.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-How do you determine the choices and decisions that your subconscious makes for
-you in carving out your life path? The same way you learned to tie your shoes:
-you create it first with intention, with your conscious mind, and then repeat it
-over and over, in slight-edge fashion, until it is handed off to your
-subconscious—at which point those three magic words kick in: It becomes
-automatic.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Most of your life—99.99 percent—is made up of things you do an automatic pilot.
-Which means it’s essential that you take charge of your automatic pilot’s
-training.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Whatever goals you aspire to, seek out people who have achieved the same or very
-similar goals or who are well along that path, and go camp on their doorsteps or
-do whatever you can to associate with them, emulate them, and let their grasp,
-understanding, and mastery of the subject rub off on you.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Having compassion and having direction are not mutually exclusive; they just
-take careful thought and discernment. You’re not judging those people; you’re
-simply asking yourself to be honest about whether or not those relationships are
-empowering you and helping to support your purpose and realize your dreams.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Apply the Law of Association. Create your own mastermind, a group of those who
-have chosen to live among the 5 percent, and let them support you, let them be
-the lift beneath the wings of your dreams.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-On your path of mastery onto the success curve, you are not alone. You have
-powerful allies at your disposal, four slight edge forces that, once you
-recognize them in your life, you can harness in your pursuit of your dreams,
-like four wild horses all harnessed to a single chariot. They are momentum,
-completion, reflection, and celebration.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Steady wins the race. That’s the truth of it. Because steady is what taps into
-the power of the slight edge.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-once a day for a week is better than seven times in one day, once a week: the
-daily rhythm of the thing starts to change you. It becomes part of your routine,
-and as it does, it becomes part of who you are.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-“Give yourself something to work toward—constantly.”
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Each and every incomplete thing in your life or work exerts a draining force on
-you, sucking the energy of accomplishment and success out of you as surely as a
-vampire stealing your blood. Every incomplete promise, commitment, or agreement
-saps your strength because it blocks your momentum and chokes off your ability
-to move forward, progress, or improve. Incomplete things keep calling you back
-to the past to take care of them.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Each time you do complete something, you get to move on with your luggage a
-little lighter and a bit more spring in your step.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-write down at the end of the day what you did do that day. What actions did you
-take today that made you successful? Did you read ten pages of a good book? Did
-you eat healthy food and get some good exercise? Did you engage in positive
-associations? Did you do the things you need to do to be successful in your
-business? Did you tell somebody, “I appreciate you”?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-“In each area of my life, what are the critical, simple little things that are
-easy to do, and easy not to do? Did I do them? Did I move forward? Did I ride
-the success curve?”
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-When what you didn’t improve one day is clear to you and you’re aware of it, by
-ten the next morning you’ll be hunting for self-improvements like a heat-seeking
-missile.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-“People who feel good about themselves produce good results.”
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Keep your slight edge activities, your right choices and incremental successes,
-right out in the open where you can see them and celebrate them.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-The power of momentum: steady wins the race. The power of completion: clear out
-your undones and incompletes. The power of reflection: facing the man or woman
-in the mirror. The power of celebration: catch yourself doing something right.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-the key to your success, to mastering the slight edge through the long-term
-effect of your everyday habits of thought and action, is your philosophy.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Be the frog who not only decides to jump off the lily pad but actually jumps.
-The world is rife with hesitation, the cornerstone of mediocrity.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Hope begins in the dark, the stubborn hope that if you just show up and try to
-do the right thing, the dawn will come. You wait and watch and work: you don’t
-give up.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Showing up consistently is where the magic happens.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Life is going to get you down and the funk is going to get you. Embrace it and
-fight through it and know you are not alone. Take baby steps, remember all the
-slight edge allies you have, and know that there is a path out of the funk.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Plant, cultivate, harvest. And that second comma, the one between cultivate and
-harvest, often represents a loooong period of time.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-It takes a long time to grow an old friend.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-No matter what you are trying to accomplish, you need to ask yourself, am I
-willing to put in 10,000 hours or more to get what I want?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-“I believe in the power of desire backed by faith,”
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Remember this: whatever price you pay, there’s a bigger price to pay for not
-doing it than the price for doing it. The price of neglect is much worse than
-the price of the discipline. In fact, no matter what price you pay for success,
-the price for failure is brutal by comparison. It may take five years and 10,000
-hours to put your success on track, but it takes a lifetime to fail.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-The aspect of integrity that is most applicable to the slight edge is this: what
-you do when no one is watching.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Show up. Show up consistently. Show up consistently with a positive outlook. Be
-prepared for and committed to the long haul. Cultivate a burning desire backed
-by faith. Be willing to pay the price. And do the things you’ve committed to
-doing—even when no one else is watching.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Show up: be the frog who jumps off the lily pad.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Show up consistently: keep showing up when others fade out.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Cultivate a positive outlook: see the glass as overflowing.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Be committed for the long haul: remember the 10,000-hour rule.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Cultivate a burning desire backed by faith: not hoping or wishing—knowing.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Be willing to pay the price: sometimes you have to quit the softball team.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Practice slight edge integrity: do the things you’ve committed to doing, even
-when no one else is watching.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-You must make it specific, give it a deadline, and write it down. You must look
-at it every day. You must have a plan to start with.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Write your dreams down; make them vivid and specific; give them a concrete
-timeline for realization; and you’ve taken a giant step toward making them real.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Surround yourself with it, keep your awareness in your face, look at it every
-single day. Your brain is far more complex and powerful than the biggest
-computer in the world—and your own subconscious is by far the biggest
-distraction you have.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-You have to start with a plan, but the plan you start with will not be the plan
-that gets you there.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-   “Whatever you can do or dream you can, begin it.      Boldness has genius,
-power and magic in it!”
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-The football was Lombardi’s penny. Now it’s time to find yours. What one simple,
-single, easy-to-do activity can you do, day in and day out, that will have the
-greatest impact on your health, your happiness, your relationships, your
-personal development, your finances, your career, and your impact on the world?
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-You will become as small as your controlling desire, or as great as your
-dominant aspiration.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Write out your goals and dreams, a simple starting plan, and a single daily
-discipline:
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Do one simple, daily discipline in each of these seven key areas of your
-life—your health, your happiness, your relationships, your personal development,
-your finances, your career, and your impact—that forwards your success in each
-of those areas;
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Make a habit of doing some sort of daily review of these slight edge activities,
-either through keeping a journal, a list, working with a slight edge buddy, a
-coach, or some other regular, consistent means;
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-Spend high-quality time with men and women who have achieved goals and dreams
-similar to yours; in other words, model successful mentors, teachers, and
-allies, and do it daily, weekly and monthly…
-#+END_QUOTE
-
 ** COMMENT Rating system
 - 5 :: would read again
 - 4 :: liked, would recommend
@@ -17618,78 +17496,12 @@ allies, and do it daily, weekly and monthly…
 :EXPORT_FILE_NAME: projects
 :END:
 
-This is a list of some of the projects that I have worked on in the past, or am
-currently working on.
+*** Active
+{{< projects active >}}
 
-*** Howdy
+*** Previously worked on or contributed to
 
-Inspired by [[http://sachachua.com/blog/2005/05/keeping-in-touch/][Sacha Chua]] and [[https://mwfogleman.github.io/posts/08-01-2015-emacs-can-keep-in-touch.html][Michael Fogleman]] to try to keep in touch with
-friends and family better, I built a tool to keep track of my interactions.
-
-
-*** Cows & Bulls
-
-I built this site, in memory of the best cows & bulls player I've known. It is
-a simple client-side page with javascript that works offline too.
-
-
-*** Statiki
-
-Statiki leverages free and open services and software like GitHub, TravisCI and
-Nikola to provide a means of deploying static websites, without needing any
-setup on the users' machine.
-
-
-*** GetHub
-GetHub was made for the geeks whose primary Social Network is GitHub and who
-keep checking for updates, a dozen times every hour. :)
-
-This extension was written when pop-up notifications were newly introduced into
-Chrome, and I was excited by it.  I now prefer a workspace with fewer
-distractions, and no longer use this.
-
-
-*** Nikola orgmode plugin
-
-Nikola supports multiple markup formats as input, =orgmode= being one of them.
-The support for this is added by this plugin, and this blog is generated using
-this plugin.
-
-
-*** cinspect
-=cinspect= attempts to extend Python's built-in inspect module to add
-"inspection" for Python's builtins and other objects not written in Python.  It
-uses =libclang= to parse C-code and indexes it to allow looking up the source
-of the required objects, using an =inspect=-like API.
-
-The original idea was from a friend, [[https://twitter.com/ballingt/statuses/483394809411825665][Tom Ballinger]], who also helped me design
-and test it out.
-
-
-*** Blaggregator
-
-Recursers write awesome blog posts all over the internet, and =blaggregator= is
-a Django powered site that aggregates all these posts. (You will need an RC
-login to view it).
-
-The project was originally thought of, and built by [[https://github.com/sursh][Sasha]].  I've added a bunch
-of features to it, and help with maintaining it.
-
-
-*** Nikola
-
-Nikola is a static site and blog generator written in Python that can generate
-a blog from input in many different markup formats.
-
-This website has been generated using Nikola. I use the development branch of
-Nikola and actively contribute to the development of features that I need or
-fix bugs that affect me.
-
-
-*** org2blog
-
-I no longer actively maintain =org2blog= since I don't use any Wordpress blogs,
-anymore.  If you are interested in maintaining this project, do get in touch.
+{{< projects inactive >}}
 
 ** Quotes                                                              :nav:
 :PROPERTIES:
@@ -18012,3 +17824,23 @@ brighter perspectives on life.
   didn’t settle for it. -- Mandy Hale, The Single Woman
 
 #+HTML: <script type="text/javascript" src="/js/quotes.js" async></script>
+
+* Categories
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: categories
+:END:
+
+** Best posts
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: categories/best
+:EXPORT_FILE_NAME: _index
+:END:
+
+If you want somewhere to start, you can start reading some of my best posts
+listed here.
+
+* COMMENT Local Variables
+# Local Variables:
+# org-hugo-allow-export-after-save: t
+# org-export-with-author: nil
+# End:
