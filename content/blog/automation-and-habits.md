@@ -47,3 +47,5 @@ things, she talks about Automation and some reasons for doing it.
 and how the tools we create change us, and how we change them to change us
 further. This seems a lot like the idea in this post, except at a much larger
 scale.
+
+Thanks to [Shantanu](https://baali.muse-amuse.in) for reviewing this blog post.
