@@ -12,7 +12,7 @@
 #+MACRO: vimeo #+HTML: <iframe src="https://player.vimeo.com/video/{vimeo_id}" width="$3" height="$2" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
 #+MACRO: youtube #+HTML: <iframe width="$3" height="$2" src="https://www.youtube.com/embed/$1?rel=0&amp;hd=1&amp;wmode=transparent"></iframe>
 
-* Automation and Habits                        :blag:software:tools:workflow:
+* DONE Automation and Habits                   :blag:software:tools:workflow:
 :PROPERTIES:
 :EXPORT_FILE_NAME: automation-and-habits
 :EXPORT_DATE: [2018-08-15 Wed 18:44]
@@ -502,6 +502,15 @@ CLOSED: [2017-11-18 Sat 04:50]
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER:
 :END:
 
+*UPDATE 2018-08-20*: Moved away from nullmailer
+
+I updated my OS and =nullmailer= possibly got updated, and this hack no longer
+works. I've switched to =msmtp= with a file based queue that I implemented
+myself. =msmtp= can be invoked with the =--read-recipient-from= argument, to
+choose the correct right mail server based on the from address.
+
+-----
+
 This a reference for future-me, and possibly someone pulling off an all-nighter
 trying to get =nullmailer= to use the correct "remote".
 
@@ -545,6 +554,8 @@ belong to the correct domain names -- i.e., reject relaying emails which had
 along with other values, and the ~smtpd_sender_login_maps~ had to be set to
 allow only the =@muse-amuse.in= domain. [[https://serverfault.com/questions/318334/how-to-enforce-sender-address-to-be-logged-in-userexample-org-in-postfix][This serverfault answer]] explains this in
 more detail.
+
+
 
 * DONE Cycling from Manali to Leh - An FAQ :cycling:himalaya:travel:blag:life:@best:
 CLOSED: [2017-10-26 Thu 12:55]

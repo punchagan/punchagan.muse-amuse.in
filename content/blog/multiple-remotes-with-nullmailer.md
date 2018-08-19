@@ -1,9 +1,18 @@
 ---
-title : "Multiple remotes with nullmailer"
-description : "Configuring nullmailer with multiple remote SMTP destinations"
-date : 2017-11-18T04:50:00+05:30
-tags : ["emacs", "email", "hack"]
-draft : false
+title: "Multiple remotes with nullmailer"
+description: "Configuring nullmailer with multiple remote SMTP destinations"
+date: 2017-11-18T04:50:00+05:30
+tags: ["emacs", "email", "hack"]
+draft: false
+---
+
+**UPDATE 2018-08-20**: Moved away from nullmailer
+
+I updated my OS and `nullmailer` possibly got updated, and this hack no longer
+works. I've switched to `msmtp` with a file based queue that I implemented
+myself. `msmtp` can be invoked with the `--read-recipient-from` argument, to
+choose the correct right mail server based on the from address.
+
 ---
 
 This a reference for future-me, and possibly someone pulling off an all-nighter
