@@ -63,7 +63,7 @@ and how the tools we create change us, and how we change them to change us
 further. This seems a lot like the idea in this post, except at a much larger
 scale.
 
-Thanks to [[https://baali.muse-amuse.in][Shantanu]] for reviewing this blog post.
+Thanks to [[http://baali.muse-amuse.in][Shantanu]] for reviewing this blog post.
 
 * DONE Python's globals                       :python:tests:programming:blag:
 CLOSED: [2018-07-29 Sun 09:09]
@@ -331,7 +331,7 @@ the code easier to reason about too.
       f(a)
 #+END_SRC
 
-Thanks to [[https://in.linkedin.com/in/akshaya-mukundhan][Akshaya]] and [[https://baali.muse-amuse.in][Shantanu]] for reviewing this blog post.
+Thanks to [[https://in.linkedin.com/in/akshaya-mukundhan][Akshaya]] and [[http://baali.muse-amuse.in][Shantanu]] for reviewing this blog post.
 
 * DONE Weird ISP Issue                            :blag:networking:debugging:
 CLOSED: [2018-04-12 Thu 11:09]
