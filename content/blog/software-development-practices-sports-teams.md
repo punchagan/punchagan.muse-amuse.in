@@ -1,5 +1,6 @@
 ---
 title: "Software development practices for sports teams"
+description: "Some software development practices that sports teams could adopt to be better teams"
 date: 2018-09-23T11:31:00+05:30
 tags: ["blag", "programming", "ultimate", "hack", "sport", "teams"]
 draft: false
