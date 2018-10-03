@@ -17,6 +17,7 @@ paginate = 500
     twitter = "punchagan"
     github = "punchagan"
     email = "punchagan+blog@muse-amuse.in"
+    dateform = "Jan 02, 2006"
 
 [menu]
 [[menu.main]]
