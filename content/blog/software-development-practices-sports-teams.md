@@ -197,8 +197,8 @@ support everyone on the team needs, and trust them to do the job.
 <div style="font-size:small;" class="reviewers">
   <div></div>
 
-Thanks Meghana Iyer, [Ravitheja Tetali](https://twitter.com/cloud9trt/), [Shantanu Choudhary](http://baali.muse-amuse.in/), [Vandith PSR](https://twitter.com/vandith), Varun
-Rangarajan and Vivek Krishnaswamy for reading drafts of this post and giving
+Thanks Meghana Iyer, [Ravitheja Tetali](https://twitter.com/cloud9trt/), [Shantanu Choudhary](http://baali.muse-amuse.in/), [Vandith PSR](https://twitter.com/vandith), [Varun
+Rangarajan](https://varunrn.wordpress.com/) and Vivek Krishnaswamy for reading drafts of this post and giving
 helpful suggestions.
 
 </div>
