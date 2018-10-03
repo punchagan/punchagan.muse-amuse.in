@@ -13,6 +13,11 @@ pygmentsCodeFences = true
 pygmentsStyle = "emacs"
 paginate = 500
 
+[Params]
+    twitter = "punchagan"
+    github = "punchagan"
+    email = "punchagan+blog@muse-amuse.in"
+
 [menu]
 [[menu.main]]
 identifier = "best-posts"
