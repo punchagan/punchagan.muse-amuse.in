@@ -161,3 +161,6 @@ team will thank you.
 I've only listed down some of the things that I've found helpful. But, I hope
 this serves as a good starting point. Also, do take a look at [selfcare.tech](http://selfcare.tech/) for
 more resources and advice.
+
+Thanks Akilesh Mani and [Shantanu Choudhary](<http://baali.muse-amuse.in/>) for
+reading drafts of this and giving helpful suggestions.
