@@ -2,6 +2,7 @@
 title: "Self-care tips for new developers"
 date: 2018-10-24T20:14:00+05:30
 tags: ["blag", "software", "advice", "health", "selfcare"]
+categories: ["best"]
 draft: false
 ---
 

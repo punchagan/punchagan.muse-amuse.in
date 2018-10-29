@@ -21,13 +21,6 @@ paginate = 500
 
 [menu]
 [[menu.main]]
-identifier = "best-posts"
-name = "Best posts"
-title = "Best posts"
-url = "/categories/best/"
-weight = -110
-
-[[menu.main]]
 identifier = "recurse-center"
 name = "recurse-center"
 title = "recurse-center"
