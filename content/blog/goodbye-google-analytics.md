@@ -53,7 +53,7 @@ I have the proxy of interactions on twitter or texts/emails from friends, to
 gauge how interesting a post was. But, it's useful to have some kind of
 analytics to gauge the interest and reading patterns of older posts.
 
-Given this, and the fact that I've recently been intrigued by Rust and want to
+Given this, and the fact that I've recently been intrigued by [Rust](https://www.rust-lang.org/en-US/) and want to
 learn it, I've started writing a [small Apache log analyzer in Rust](https://github.com/punchagan/weblogviz). It's just a
 toy, as of now.
 
