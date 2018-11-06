@@ -56,8 +56,8 @@ analytics to gauge the interest and reading patterns of older posts.
 
 Given this, and the fact that I've recently been intrigued by [Rust](https://www.rust-lang.org/en-US/) and want to
 learn it, I've started writing a [small Apache log analyzer in Rust](https://github.com/punchagan/weblogviz). It's just a
-toy, as of now. [goaccess](https://goaccess.io/) is a nice "real-time" log analyzer that gives some nice
-stats, if you are looking for a nicer tool.
+toy, as of now. [goaccess](https://goaccess.io/) is a nice "real-time" log analyzer that gives some
+useful stats.
 
 ---
 
