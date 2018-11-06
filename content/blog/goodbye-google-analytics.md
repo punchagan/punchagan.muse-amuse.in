@@ -1,6 +1,7 @@
 ---
 title: "Goodbye Google Analytics"
 date: 2018-11-06T21:47:00+05:30
+tags: ["blog", "blag", "rust", "philosophy", "statistics"]
 draft: false
 ---
 
