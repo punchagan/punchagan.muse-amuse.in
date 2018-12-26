@@ -311,7 +311,5 @@ for rains and land-slides, though.
 
 ## Do you have any pictures that you can share? {#do-you-have-any-pictures-that-you-can-share}
 
-{{< instagram BbJqF7elDOe hidecaption >}}
-
 You can find some pictures and videos [here](https://photos.app.goo.gl/myqR5MktArCnlj4B3). The album also includes some
 pictures from our practice rides.
