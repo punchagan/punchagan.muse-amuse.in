@@ -1,9 +1,9 @@
 ---
-title : "Emacs frame as a pop-up input"
-date : "2017-09-14T22:26:00+05:30"
-tags : ["emacs", "hack", "life", "writing", "blag"]
-draft : false
-meta_img : "images/emacs-frame.png"
+title: "Emacs frame as a pop-up input"
+date: 2017-09-14T22:26:00+05:30
+tags: ["emacs", "hack", "life", "writing", "blag"]
+draft: false
+images: ["images/emacs-frame.png"]
 ---
 
 I wanted to try using a dialog box/pop-up window as a prompt to remind me to
@@ -43,7 +43,7 @@ emacsclient -c -n\
             -e '(pc/open-journal-buffer)'
 ```
 
-{{<figure src="/images/emacs-frame.png">}}
+{{< figure src="/images/emacs-frame.png" >}}
 
 This worked pretty nicely, except for the fact that with gnome-shell, the pop-up
 frame doesn't always appear raised. It often gets hidden in the Emacs windows

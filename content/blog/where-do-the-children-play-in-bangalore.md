@@ -1,10 +1,10 @@
 ---
-title : "Where do the Children Play (in Bangalore)"
-description : "Find good Playo venues in convenient locations"
-date : 2018-02-12T13:11:00+05:30
-tags : ["blag", "sport", "hack"]
-draft : false
-meta_img : "images/playo-find.jpg"
+title: "Where do the Children Play (in Bangalore)"
+description: "Find good Playo venues in convenient locations"
+date: 2018-02-12T13:11:00+05:30
+tags: ["blag", "sport", "hack"]
+draft: false
+images: ["images/playo-find.jpg"]
 ---
 
 A bunch of us have recently started playing Badminton regularly (on weekends),
@@ -20,7 +20,7 @@ finding a good court in the overlapping region. Clicking on the venue marker
 allows you to jump to the Playo booking page for that venue. The source is
 available [here](https://github.com/punchagan/playo-find-venue/).
 
-{{<figure src="/images/playo-find.jpg">}}
+{{< figure src="/images/playo-find.jpg" >}}
 
 -   I usually go with [leaflet](http://leafletjs.com/) when I want to do map related stuff. This is the
     first time I used [Google APIs](https://developers.google.com/maps/documentation/javascript/), and it was a pretty decent experience.
