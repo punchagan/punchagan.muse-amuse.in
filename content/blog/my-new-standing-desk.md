@@ -1,9 +1,9 @@
 ---
 title: "My New Standing Desk"
 description: "I built myself a simple standing desk with furniture lying at home"
-date: 2018-12-26T11:29:00+05:30
+date: 2018-12-27T10:48:00+05:30
 tags: ["health", "hack", "blag"]
-draft: true
+draft: false
 images: ["ox-hugo/standing-desk-table.jpg"]
 ---
 
