@@ -1,6 +1,7 @@
 ---
 title: "2018 in Review"
 date: 2019-01-17T15:02:00+05:30
+tags: ["blag", "life", "blab", "annual-review", "ultimate", "programming", "writing", "goals"]
 draft: false
 ---
 
