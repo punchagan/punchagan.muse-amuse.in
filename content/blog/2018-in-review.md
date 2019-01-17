@@ -368,5 +368,5 @@ would be good starting points:
 
 ---
 
-Thanks [Kartik Krovvidi](https://twitter.com/Kar_tiktok) and [Shantanu Choudhary](http://baali.muse-amuse.in/) for reading drafts of this post,
+Thanks [Kartik Krovvidi](https://tinyurl.com/ydd4s7jd) and [Shantanu Choudhary](http://baali.muse-amuse.in/) for reading drafts of this post,
 being excited about it, and useful suggestions to make it better.
