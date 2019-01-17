@@ -39,3 +39,7 @@ assemble and disassemble. Again, I re-purposed some "furniture" lying around.
 I've been using it only for a few days now. I'll probably make another post with
 my experiences of using it. I plan to set it on the floor and use it as a squat
 desk, when I'm tired of standing. Let's see how it goes!
+
+---
+
+Thanks [Shantanu Choudhary](http://baali.muse-amuse.in/) for reading a draft of this post.

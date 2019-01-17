@@ -365,3 +365,8 @@ would be good starting points:
 
 -   Write quarterly posts to document my improved understanding of the theme -- Be
     Deliberate -- and to track progress I'm making on these goals.
+
+---
+
+Thanks [Kartik Krovvidi](https://twitter.com/kar%5Ftiktok) and [Shantanu Choudhary](http://baali.muse-amuse.in/) for reading drafts of this post,
+being excited about it, and useful suggestions to make it better.
