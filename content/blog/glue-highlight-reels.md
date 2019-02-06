@@ -136,3 +136,8 @@ Sarah has some advice on how to go about doing this in her article.
 
 The idea of "Glue highlights" replacing the (figurative) highlight reels seems
 like a very promising idea. I'd like to give this a shot, as a team!
+
+---
+
+Thanks to [Tariq](https://vimeo.com/tariqthekaekara), [Tejaa](https://twitter.com/cst2bicycle/) and [Shantanu](http://baali.muse-amuse.in) for being excited reading drafts of this
+post, and encouraging me to publish it.
