@@ -24,6 +24,7 @@ weight = 10
 [Params]
 mainSections = ["blog"]
 dateform = "Jan 2, 2006"
+webmentiondateform = "15:04:05, Jan 2 2006"
 twitter = "punchagan"
 github = "punchagan"
 email = "punchagan+blog@muse-amuse.in"
