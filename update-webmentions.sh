@@ -1,6 +1,7 @@
 #!/bin/bash
 set -ex
 
+pushd $(dirname $0)
 git pull origin master
 
 PUBLIC_DIR="public"
@@ -16,7 +17,6 @@ if [ $USING_ER_THEME -eq 0 ]; then
 fi
 
 # Build the site
-pushd $(dirname $0)
 rm -rf "${PUBLIC_DIR}"
 hugo --ignoreCache
 
