@@ -1,2 +1,10 @@
-<a href='https://twitter.com/{{.Params.twitter}}' target="_blank" class="link gray dim" rel="me">Twitter</a>
-<a href='https://github.com/{{.Params.github}}' target="_blank" class="link gray dim" rel="me">GitHub</a>
+<span class="h-card vcard">
+  <a href={{ .BaseURL }} class="link gray dim p-name u-url url author metatag" rel="me">
+        {{ .Author.name }}
+  </a> /
+  <a class="p-nickname u-email email metatag link gray dim" rel="me" href="mailto:{{ .Params.email }}">
+      email
+  </a> /
+  <a href='https://twitter.com/{{.Params.twitter}}' target="_blank" class="link gray dim" rel="me">Twitter</a> /
+  <a href='https://github.com/{{.Params.github}}' target="_blank" class="link gray dim" rel="me">GitHub</a>
+</span><br>

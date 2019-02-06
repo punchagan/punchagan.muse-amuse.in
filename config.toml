@@ -27,3 +27,7 @@ dateform = "Jan 2, 2006"
 twitter = "punchagan"
 github = "punchagan"
 email = "punchagan+blog@muse-amuse.in"
+
+[Author]
+name = "punchagan"
+nick = "punchagan"
