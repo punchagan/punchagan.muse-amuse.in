@@ -13,12 +13,6 @@ pygmentsCodeFences = true
 pygmentsStyle = "emacs"
 paginate = 500
 
-[Params]
-    twitter = "punchagan"
-    github = "punchagan"
-    email = "punchagan+blog@muse-amuse.in"
-    dateform = "Jan 02, 2006"
-
 [menu]
 [[menu.main]]
 identifier = "recurse-center"
@@ -27,6 +21,9 @@ title = "recurse-center"
 url = "/recurse-center/"
 weight = 10
 
-[params]
+[Params]
 mainSections = ["blog"]
 dateform = "Jan 2, 2006"
+twitter = "punchagan"
+github = "punchagan"
+email = "punchagan+blog@muse-amuse.in"
