@@ -1,6 +1,8 @@
 #!/bin/bash
 set -ex
 
+git pull origin master
+
 PUBLIC_DIR="public"
 GIT_URL=$(git remote get-url origin)
 
