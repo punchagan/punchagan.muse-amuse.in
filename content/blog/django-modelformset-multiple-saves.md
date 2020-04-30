@@ -19,16 +19,16 @@ The Django docs had [an example](https://docs.djangoproject.com/en/2.2/topics/fo
 use `ModelFormSet`.
 
 ```python
-def manage_authors(request):
-    AuthorFormSet = modelformset_factory(Author, fields=('name', 'title'))
-    if request.method == 'POST':
-        formset = AuthorFormSet(request.POST, request.FILES)
-        if formset.is_valid():
-            formset.save()
-            # do something.
-    else:
-        formset = AuthorFormSet()
-    return render(request, 'manage_authors.html', {'formset': formset})
+  def manage_authors(request):
+      AuthorFormSet = modelformset_factory(Author, fields=('name', 'title'))
+      if request.method == 'POST':
+          formset = AuthorFormSet(request.POST, request.FILES)
+          if formset.is_valid():
+              formset.save()
+              # do something.
+      else:
+          formset = AuthorFormSet()
+      return render(request, 'manage_authors.html', {'formset': formset})
 ```
 
 -   You create a `ModelFormSet` class using the `modelformset_factory` using the
@@ -73,10 +73,10 @@ number of forms to show, initial form count and the minimum & maximum number of
 forms to display.
 
 ```html
-<input type="hidden" name="form-TOTAL_FORMS" value="19" id="id_form-TOTAL_FORMS">
-<input type="hidden" name="form-INITIAL_FORMS" value="7" id="id_form-INITIAL_FORMS">
-<input type="hidden" name="form-MIN_NUM_FORMS" value="0" id="id_form-MIN_NUM_FORMS">
-<input type="hidden" name="form-MAX_NUM_FORMS" value="1000" id="id_form-MAX_NUM_FORMS">
+  <input type="hidden" name="form-TOTAL_FORMS" value="19" id="id_form-TOTAL_FORMS">
+  <input type="hidden" name="form-INITIAL_FORMS" value="7" id="id_form-INITIAL_FORMS">
+  <input type="hidden" name="form-MIN_NUM_FORMS" value="0" id="id_form-MIN_NUM_FORMS">
+  <input type="hidden" name="form-MAX_NUM_FORMS" value="1000" id="id_form-MAX_NUM_FORMS">
 ```
 
 Initial form count is the count of the number of forms that are pre-filled using
@@ -99,7 +99,7 @@ get updated with the newly created instances, even if they match the query that
 the queryset uses.
 
 ```python
-formset = AuthorFormSet(request.POST, request.FILES, queryset=existing_authors)
+  formset = AuthorFormSet(request.POST, request.FILES, queryset=existing_authors)
 ```
 
 `existing_authors` is a queryset that looks for a specific set of authors in the
@@ -125,19 +125,26 @@ the response of a successful `POST`.
 The code in the example in Django docs, would look something like the one below:
 
 ```python
-def manage_authors(request):
-    AuthorFormSet = modelformset_factory(Author, fields=('name', 'title'))
-    if request.method == 'POST':
-        formset = AuthorFormSet(request.POST, request.FILES)
-        if not formset.is_valid():
-            return render(request, 'manage_authors.html', {'formset': formset})
-        else:
-            formset.save()
+  def manage_authors(request):
+      AuthorFormSet = modelformset_factory(Author, fields=('name', 'title'))
+      if request.method == 'POST':
+          formset = AuthorFormSet(request.POST, request.FILES)
+          if not formset.is_valid():
+              return render(request, 'manage_authors.html', {'formset': formset})
+          else:
+              formset.save()
 
-    formset = AuthorFormSet()
-    return render(request, 'manage_authors.html', {'formset': formset})
+      formset = AuthorFormSet()
+      return render(request, 'manage_authors.html', {'formset': formset})
 ```
 
 This blog post should probably become a PR or an issue, but I'm not familiar
 with how contributing to Django works. This blog post is an attempt to
 understand the issue better, and potentially help others who get bit by it.
+
+<div style="font-size:small;" class="reviewers">
+  <div></div>
+
+Thanks to [Shantanu](http://baali.muse-amuse.in) for reading drafts of this post.
+
+</div>

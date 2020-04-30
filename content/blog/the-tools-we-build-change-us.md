@@ -48,3 +48,10 @@ Having tools around us, that are easy to use, can help us nudge ourselves in
 directions that we want to be nudged in.
 
 The tools we build can change us; if we let them.
+
+<div style="font-size:small;" class="reviewers">
+  <div></div>
+
+Thanks to Rajesh, [Ritesh](https://www.lightstalking.com/author/riteshsaini/), [Tejaa](https://tcluri.github.io/) and [Shantanu](http://baali.muse-amuse.in) for reading drafts of this post.
+
+</div>
