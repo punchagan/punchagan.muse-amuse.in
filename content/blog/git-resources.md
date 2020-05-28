@@ -2,6 +2,7 @@
 title: "My Favorite Git Resources"
 description: "Git Resources that I really like, and have shared with friends over and over"
 date: 2020-05-22T16:07:00+05:30
+tags: ["blag", "git", "software"]
 draft: false
 ---
 
