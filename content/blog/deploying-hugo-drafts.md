@@ -5,6 +5,9 @@ tags: ["blag", "hugo", "blogging", "hack"]
 draft: false
 ---
 
+**Update <span class="timestamp-wrapper"><span class="timestamp">[2020-05-31 Sun 17:23]</span></span>**: I published a [simpler workflow](/blog/deploying-hugo-drafts-simplified) for this, using
+Hugo's build options that I wasn't aware of, because they are relatively new.
+
 A few friends and I run a weekly writing club similar to [this](https://github.com/sursh/writing-club). Once we have our
 drafts ready, we usually share them for reviews, etc.
 
