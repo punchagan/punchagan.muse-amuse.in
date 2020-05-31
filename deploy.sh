@@ -15,8 +15,7 @@ fi
 
 # Publish the site (along with drafts)
 pushd $(dirname $0)
-
-publish-hugo-drafts.sh
+hugo --cleanDestinationDir -D -d "${PUBLIC_DIR}"
 
 # Push to GitHub
 pushd "${PUBLIC_DIR}"
