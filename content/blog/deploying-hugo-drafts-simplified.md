@@ -33,28 +33,37 @@ to get it to generate this extra metadata for each blog post. But that didn't
 work. The property assumes all the arguments to it are top level front matter
 keys and values, which is good enough for "normal" use cases.
 
-It could potentially be a useful contribution to `ox-hugo` to allow configuring
-the build options for a post, but there's an easier way out for now, thanks to
-the cascading of these build properties to children. Here's how I set that up:
+**EDIT <span class="timestamp-wrapper"><span class="timestamp">[2020-05-31 Sun]</span></span>**: I previously manually created the `drafts` directory with
+the `_index.md`, but Kaushal pointed me to [more docs](https://twitter.com/kaushalmodi/status/1267066389996724229), again! :) There's also an
+[issue](https://github.com/kaushalmodi/ox-hugo/issues/358) for adding an easier way to add these build options from ox-hugo.
 
-I created a `drafts` folder in my hugo `content` directory, and added the
-following content to an `_index.md` file in it.
+I created a subtree like this in my org file, that creates the
+`drafts/_index.md` file with the required front matter and build options.
 
-```conf-toml
-title: Drafts
-_build:
-  render: false
-  publishResources: false
-  list: false
-cascade:
+```org
+* Drafts
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_SECTION: drafts
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: yaml
+:END:
+
+#+begin_src yaml :front_matter_extra t
   _build:
-    render: true
+    render: false
+    publishResources: false
+    list: false
+  cascade:
+    _build:
+      render: true
+#+end_src
 ```
 
-The `_build` properties get cascaded to the children -- any files created in
-that directory -- and the properties under `cascade` overwrite the inherited
-properties. In other words, the configuration above would translate to adding
-the following to _every draft post_:
+The build options for the index page turn off publishing and showing it in
+lists. With the `cascade` option, we can get the options to all the children --
+any files created in the `drafts` directory, but also override the `render`
+option to be true. In other words, the configuration above would translate to
+adding the following to _every draft post_:
 
 ```conf-toml
 title: A How-to on Hugo Drafts

@@ -1,5 +1,6 @@
 ---
-title: Drafts
+title: "Drafts"
+draft: false
 _build:
   render: false
   publishResources: false
