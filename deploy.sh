@@ -14,7 +14,7 @@ if [ $USING_ER_THEME -eq 0 ]; then
 fi
 
 # Publish the site (along with drafts)
-pushd $(dirname $0)
+pushd "$(dirname "${0}")"
 hugo --cleanDestinationDir -D -d "${PUBLIC_DIR}"
 
 # Push to GitHub
@@ -22,7 +22,14 @@ pushd "${PUBLIC_DIR}"
 git init
 git add .
 git commit -m "Deploy to GitHub Pages"
-git push --force "${GIT_URL}" master:gh-pages
+git show --stat --oneline
+read -rp "Are you sure you want to publish these changes? [y/N] " answer
+case $answer in
+    [yY]* ) echo "Okay, just ran the cron script.";
+            git push --force "${GIT_URL}" master:gh-pages;;
+
+    * )     echo "Not deploying...";;
+esac
 popd
 
 popd
