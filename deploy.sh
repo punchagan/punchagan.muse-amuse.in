@@ -25,7 +25,7 @@ git commit -m "Deploy to GitHub Pages"
 git show --stat --oneline
 read -rp "Are you sure you want to publish these changes? [y/N] " answer
 case $answer in
-    [yY]* ) echo "Okay, just ran the cron script.";
+    [yY]* ) echo "Okay, running the deploy....";
             git push --force "${GIT_URL}" master:gh-pages;;
 
     * )     echo "Not deploying...";;
