@@ -21,7 +21,7 @@ hugo --cleanDestinationDir -D -d "${PUBLIC_DIR}"
 pushd "${PUBLIC_DIR}"
 git init
 git add .
-git commit -m "Deploy to GitHub Pages"
+git commit -m "Deploy to GitHub Pages" || true
 git show --stat --oneline
 read -rp "Are you sure you want to publish these changes? [y/N] " answer
 case $answer in
