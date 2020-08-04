@@ -107,25 +107,25 @@ These could make your `git` workflow more pleasant.
 
 ```gitconfig
 [push]
-	# Push to the branch to the same remote branch as the one we are working on,
-	# locally. This is the default in Git >= 2.0, so you may not need to set it.
-	default = simple
+  # Push to the branch to the same remote branch as the one we are working on,
+  # locally. This is the default in Git >= 2.0, so you may not need to set it.
+  default = simple
 
 [diff]
-	# You could configure a GUI tool to use here. (I haven't used one in a long
-	# time, and I don't have recommendations on what to use)
-	tool = icdiff
+  # You could configure a GUI tool to use here. (I haven't used one in a long
+  # time, and I don't have recommendations on what to use)
+  tool = icdiff
 
 [merge]
-	# Shows common ancestor in a merge conflict. Makes it easier to understand
+  # Shows common ancestor in a merge conflict. Makes it easier to understand
     # the conflict and merge, for me.
-	conflictstyle = diff3
+  conflictstyle = diff3
 
 # Never garbage collect commits/blobs that are unreachable
 # The cost of keeping this data around is negligble compared losing data
 [gc]
-	reflogExpire = never
-	reflogExpireUnreachable = never
+  reflogExpire = never
+  reflogExpireUnreachable = never
 ```
 
 

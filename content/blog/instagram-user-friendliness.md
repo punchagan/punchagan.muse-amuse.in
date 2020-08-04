@@ -216,7 +216,7 @@ newer version, and make it possible for users to see older versions too, if they
 chose to. Google Drive and Dropbox seem to do this, for instance.
 
 
-## Outtro {#outtro}
+## Outro {#outro}
 
 Instagram started off by allowing users to only post square pictures. It was
 very easy to undestand and use, even if not very accomodating of different use
