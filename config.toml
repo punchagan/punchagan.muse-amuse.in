@@ -13,6 +13,9 @@ pygmentsCodeFences = true
 pygmentsStyle = "emacs"
 paginate = 500
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [menu]
 [[menu.main]]
 identifier = "recurse-center"
