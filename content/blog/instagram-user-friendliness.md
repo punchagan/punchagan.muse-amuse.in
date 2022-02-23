@@ -23,7 +23,7 @@ user-friendly, this is a surprise.
 
 A lot of my posts this year have been video content. While posting them, I ran
 into a bunch of things that didn't "just work". For instance, in the first 3 or
-4 posts of the [Humans of TIKS](https://www.instagram.com/tiks%5Fultimate/channel/) series, every post had some thing broken, leading
+4 posts of the [Humans of TIKS](https://www.instagram.com/tiks_ultimate/channel/) series, every post had some thing broken, leading
 to a poor viewing experience.
 
 Some of my friends, though, found it surprising that I was frustrated with
@@ -236,7 +236,6 @@ more. The burden of figuring out and making the content fit the restrictions is
 left on the content-creators. This can often be frustrating.
 
 <div style="font-size:small;" class="reviewers">
-  <div></div>
 
 Thanks to [Kartik](https://balu.muse-amuse.in/), Meghana, Nitin, Pratiksha, [Ranjan](https://a-travelers-tales.blogspot.com/), [Ritesh](https://www.lightstalking.com/author/riteshsaini/), [Shantanu](http://baali.muse-amuse.in) and [Vivek](https://vkrishnaswam.github.io/)
 for reading drafts (or parts) of this post and helping by boucing off ideas.
