@@ -1,6 +1,8 @@
 #!/bin/bash
 set -ex
 
+(hugo version | grep "hugo v0.92.2") || (echo "Use hugo v0.92.2" && exit 1)
+
 PUBLIC_DIR="public"
 GIT_URL=$(git remote get-url origin)
 
