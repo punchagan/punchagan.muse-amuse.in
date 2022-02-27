@@ -28,7 +28,7 @@ git show --stat --oneline
 read -rp "Are you sure you want to publish these changes? [y/N] " answer
 case $answer in
     [yY]* ) echo "Okay, running the deploy....";
-            git push --force "${GIT_URL}" master:gh-pages;;
+            git push --force "${GIT_URL}" main:gh-pages;;
 
     * )     echo "Not deploying...";;
 esac
