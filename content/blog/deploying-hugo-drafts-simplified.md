@@ -9,7 +9,7 @@ This is a follow-up post to my last post, [Deploying Hugo Drafts](/blog/deployin
 the author of [ox-hugo](https://github.com/kaushalmodi/ox-hugo) (a tool that lets you compose in org-mode and use Hugo to
 export), let me know about the [build options](https://gohugo.io/content-management/build-options/) in Hugo.
 
-{{<tweet 1266761525286653952>}}
+{{<tweet user="kaushalmodi" id="1266761525286653952">}}
 
 The build options in Hugo let you configure building a post for different use
 cases like render a post but hide it in lists, or don't render separate pages
@@ -19,7 +19,7 @@ To use these build options for my use case -- being able to share draft post
 links with friends, without them appearing in the index page or RSS feed -- I
 just need to add the following to my draft blog posts!
 
-```conf-toml
+```toml
 _build:
   render: true
   list: false
@@ -65,7 +65,7 @@ any files created in the `drafts` directory, but also override the `render`
 option to be true. In other words, the configuration above would translate to
 adding the following to _every draft post_:
 
-```conf-toml
+```toml
 title: A How-to on Hugo Drafts
 _build:
   render: true
