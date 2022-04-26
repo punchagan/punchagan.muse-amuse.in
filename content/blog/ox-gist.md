@@ -1,6 +1,6 @@
 ---
 title: "GitHub Gists from Emacs Orgmode"
-description: "I released my first Emacs MELPA package -- [[https://melpa.org/#/ox-gist][ox-gist]] -- An Orgmode backend to export and update sub-trees and buffers to GitHub gists."
+description: "I released my first Emacs MELPA package -- ox-gist -- An Orgmode backend to export and update sub-trees and buffers to GitHub gists."
 date: 2022-04-26T12:37:00+05:30
 tags: ["blag", "emacs", "github", "hack", "programming", "orgmode"]
 draft: false
