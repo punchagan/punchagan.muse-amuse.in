@@ -2,6 +2,7 @@
 set -ex
 
 PUBLIC_DIR="public"
+DRAFTS_DIR="drafts"
 GIT_URL=$(git remote get-url origin)
 
 # Ensure theme is using our local changes
@@ -13,9 +14,14 @@ if [ $USING_ER_THEME -eq 0 ]; then
     grep -q develop themes/er/.git/HEAD
 fi
 
-# Publish the site (along with drafts)
 pushd "$(dirname "${0}")"
-hugo --cleanDestinationDir -D -d "${PUBLIC_DIR}"
+# Publish the site (along with drafts)
+hugo --cleanDestinationDir -D -d "${DRAFTS_DIR}"
+mkdir -p "${DRAFTS_DIR}/drafts"  # Ensure dir exists, even if no draft posts
+# Publish the site *without* drafts
+hugo --cleanDestinationDir -d "${PUBLIC_DIR}"
+cp -a "${DRAFTS_DIR}/drafts" "${PUBLIC_DIR}"
+rm -r "${DRAFTS_DIR}"
 
 # Push to GitHub
 pushd "${PUBLIC_DIR}"
