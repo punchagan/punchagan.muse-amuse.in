@@ -1,0 +1,24 @@
+---
+name: Share Post
+
+on:
+  push:
+    branches:
+      - main
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+jobs:
+  share_post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Share Post
+        uses: punchagan/share-post-action@main
+        env:
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+          MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
+        with:
+          base_url: "https://punchagan.muse-amuse.in"
+          announcement_template: "I wrote a new blog post: {{TITLE}}\\n{{DESCRIPTION}}\\n{{POST_URL}}\\n{{TAGS}}"
+          post_subdirectory: "blog"
