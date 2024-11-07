@@ -13,7 +13,7 @@ pygmentsCodeFences = true
 pygmentsStyle = "emacs"
 
 [pagination]
-paperSize = 500
+pagerSize = 500
 
 [markup.goldmark.renderer]
 unsafe= true
