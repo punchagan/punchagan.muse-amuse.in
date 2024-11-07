@@ -11,7 +11,9 @@ copyright = "© 2018 CC-BY-SA-4.0"
 # pygments
 pygmentsCodeFences = true
 pygmentsStyle = "emacs"
-paginate = 500
+
+[pagination]
+paperSize = 500
 
 [markup.goldmark.renderer]
 unsafe= true
@@ -32,6 +34,6 @@ twitter = "punchagan"
 github = "punchagan"
 email = "punchagan+blog@muse-amuse.in"
 
-[Author]
+[[Author]]
 name = "punchagan"
 nick = "punchagan"
