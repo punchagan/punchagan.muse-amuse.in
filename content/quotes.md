@@ -1,7 +1,7 @@
 ---
-title : "Quotes"
-tags : ["nav"]
-draft : false
+title: "Quotes"
+tags: ["nav"]
+draft: false
 ---
 
 A collection of quotes. I keep coming back to them for inspiration. Or for
@@ -27,7 +27,7 @@ brighter perspectives on life.
     Ward Beecher_
 
 -   Programs must be written for people to read, and only incidentally
-    for machines to execute. -- _Abelson & Sussman -- SICP, preface to
+    for machines to execute. -- _Abelson &amp; Sussman -- SICP, preface to
     the first edition_
 
 -   In everyone's life, at some time, our inner fire goes out. It is then burst
@@ -47,7 +47,9 @@ brighter perspectives on life.
 -   Feeling gratitude and not expressing it is like wrapping a present and not
     giving it. -- _William Arthur Ward_
 
--   Where the mind is without fear and the head held high;<br />
+-   <div class="verse">
+
+    Where the mind is without fear and the head held high;<br />
     Where knowledge is free;<br />
     Where the world has not been broken up into fragments by narrow domestic walls;<br />
     Where words come out from the depth of truth;<br />
@@ -55,6 +57,8 @@ brighter perspectives on life.
     Where the clear stream of reason has not lost its way into the dreary desert sand of dead habit;<br />
     Where the mind is led forward by Thee into ever-widening thought and action;<br />
     Into that heaven of freedom, my Father, let my country awake.<br />
+
+    </div>
 
     _Rabindranath Tagore -- Let My Country Awake_
 
@@ -158,13 +162,15 @@ brighter perspectives on life.
     great method that descends from the heavens. That these acts are simple
     doesn't mean that they are simplistic; and it hardly means that they are
     easy. They are nonetheless the fabric of greatness and, more so, of beauty in
-    any human endeavor. To ignore them is not yet to be fully human.  -- _James
-    O. Coplien, Foreword to Clean Code_
+    any human endeavor. To ignore them is not yet to be fully human.  -- /James
+    1.  Coplien, Foreword to Clean Code/
 
 -   We are all in the same boat, in a stormy sea, and we owe each other a
     terrible loyalty. -- _G.K. Chesterton_
 
 -   The road to wisdom? -- Well, it's plain and simple to express:
+
+    <div class="verse">
 
     Err<br />
     and err<br />
@@ -172,6 +178,8 @@ brighter perspectives on life.
     but less<br />
     and less<br />
     and less.<br />
+
+    </div>
 
     -- _Piet Hein (Grooks)_
 
