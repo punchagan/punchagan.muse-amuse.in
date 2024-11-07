@@ -16,10 +16,10 @@ fi
 
 pushd "$(dirname "${0}")"
 # Publish the site (along with drafts)
-hugo --cleanDestinationDir -D -d "${DRAFTS_DIR}"
+./hugo.sh --cleanDestinationDir -D -d "${DRAFTS_DIR}"
 mkdir -p "${DRAFTS_DIR}/drafts"  # Ensure dir exists, even if no draft posts
 # Publish the site *without* drafts
-hugo --cleanDestinationDir -d "${PUBLIC_DIR}"
+./hugo.sh --cleanDestinationDir -d "${PUBLIC_DIR}"
 cp -a "${DRAFTS_DIR}/drafts" "${PUBLIC_DIR}"
 rm -r "${DRAFTS_DIR}"
 
