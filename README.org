@@ -1,0 +1,14 @@
+** Build
+
+Use =hugo.sh= in local dev workflow:
+
+#+begin_src sh
+$ ./hugo.sh serve
+#+end_src
+
+The script is a way to lock Hugo version and prevent things from breaking with updates to Hugo.
+
+** Deploy
+
+Use =deploy.sh= to deploy the website! It asks for a confirmation with the
+diff. Useful in cases where the theme was changed or Hugo was updated, etc.
