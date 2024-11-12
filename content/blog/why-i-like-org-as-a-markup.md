@@ -1,8 +1,8 @@
 ---
-title : "Why I like Org as a markup"
-date : "2011-01-12T00:00:00+05:30"
-tags : ["emacs", "orgmode", "writing"]
-draft : false
+title: "Why I like Org as a markup"
+date: 2011-01-12T18:00:00+05:30
+tags: ["emacs", "orgmode", "writing"]
+draft: false
 ---
 
 Org-mode, as a mode, is obviously awesome.  The ability to move

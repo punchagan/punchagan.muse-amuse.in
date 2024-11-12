@@ -1,8 +1,8 @@
 ---
-title : "How I learnt to use Emacs' profiler"
-date : "2015-01-03T00:00:00+05:30"
-tags : ["emacs", "orgmode", "programming"]
-draft : false
+title: "How I learnt to use Emacs' profiler"
+date: 2015-01-03T02:01:17+05:30
+tags: ["emacs", "orgmode", "programming"]
+draft: false
 ---
 
 I learnt to use Emacs' profiler yesterday, after many hours of yak-shaving,
@@ -68,7 +68,7 @@ To profile the CPU usage, all you have to do is add a call like
 
 at the place where you wish to start it.  Emacs will then start collecting
 information about where time is being spent, by sampling every
-`sampling-interval` seconds (default 10<sup>6</sup> nanoseconds = 1 milli second).
+`sampling-interval` seconds (default 10^6 nanoseconds = 1 milli second).
 
 You can view the information being collected, at any point of time using
 
@@ -78,7 +78,7 @@ You can view the information being collected, at any point of time using
 
 The report is a nice, interactive tree with the percentage of time spent in
 each call. You can stop profiling by calling `(profiler-stop)`.  If you have
-more than one report, you can compare them by hitting <kbd>=</kbd> in one of the report
+more than one report, you can compare them by hitting `=` in one of the report
 buffers.  I'm definitely going to use this for other things! (like speeding up
 my startup?)
 
