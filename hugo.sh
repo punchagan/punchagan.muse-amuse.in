@@ -3,7 +3,8 @@
 set -euo pipefail
 
 # Specify the version of Hugo you want
-HUGO_VERSION="0.138.0-ad82998d54b3f9f8c2741b67356813b55b3134b9+extended"  # Freeze hugo version to avoid breakages!
+HUGO_VERSION="0.138.0"  # Freeze hugo version to avoid breakages!
+
 HUGO_BIN_DIR="./bin"
 HUGO_BIN="$HUGO_BIN_DIR/hugo"
 
@@ -27,6 +28,7 @@ download_hugo() {
 
     DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/hugo_extended_${HUGO_VERSION}_${PLATFORM}-${ARCH}.tar.gz"
 
+    echo "Download location: $DOWNLOAD_URL"
     # Download and extract Hugo
     curl -L "$DOWNLOAD_URL" -o "$HUGO_BIN_DIR/hugo.tar.gz"
     tar -xzf "$HUGO_BIN_DIR/hugo.tar.gz" -C "$HUGO_BIN_DIR"
@@ -38,7 +40,7 @@ download_hugo() {
 
 # Check if Hugo is already installed and matches the specified version
 if [ -f "$HUGO_BIN" ]; then
-    INSTALLED_VERSION=$("$HUGO_BIN" version | awk '{print $2}' | tr -d v)
+    INSTALLED_VERSION=$("$HUGO_BIN" version | awk '{print $2}' | tr -d 'v' | sed 's/-.*//')
 
     if [ "$INSTALLED_VERSION" == "$HUGO_VERSION" ]; then
         echo "Using Hugo version $HUGO_VERSION ..."
