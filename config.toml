@@ -10,6 +10,7 @@ canonifyURLs = true
 copyright = "© 2018-2024 CC-BY-SA-4.0"
 # pygments
 pygmentsCodeFences = true
+pygmentsUseClasses = true
 pygmentsStyle = "emacs"
 
 [pagination]
