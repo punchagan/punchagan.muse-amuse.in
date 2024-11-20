@@ -1,11 +1,11 @@
 ---
-title : "Not so Floppix…"
-date : 2007-12-11T00:28:00+05:30
-tags : ["emacs", "lafootgiri", "ology"]
-draft : false
+title: "Not so Floppix…"
+date: 2007-12-11T00:28:00+05:30
+tags: ["emacs", "lafootgiri", "ology"]
+draft: false
 ---
 
-**Disambiguation:** The original Linux on 2 Floppies is here.
+**Disambiguation:** The original Linux on 2 Floppies is [here](https://floppix.com/).
 
 I, post this from a remastered version of Knoppix that we named
 Floppix!
@@ -19,11 +19,10 @@ an Adventure game in Emacs, played a crucial role in motivating me
 to go ahead!] The rest as they say is history....
 
 Actually, I tried a debootstrap from my Debian etch but I couldn't
-manage to get the initrd working. [[<http://avudem.blogspot.com>
-"Voodoo"][I ain't this geekish, its only that I am incapable of
+manage to get the initrd working. [I ain't this geekish, its only that I am incapable of
 putting these terms in a simpler language.] After numerous futile
 attempt, I gave up for the time being and that's when the genius
-of [Voodoo]] came in, he took a different route. Remastering
+of [Voodoo](<http://avudem.blogspot.com "voodoo">) came in, he took a different route. Remastering
 Knoppix.[Modifying an existing Live-CD of Knoppix]
 
 I won't get into the exact details of how we got about it. There's
@@ -64,7 +63,7 @@ Update [3/1/08]: I never knew that GIMP could capture screenshots!
 ImageMagick can do that too. I had two programs at hand and
 thought I had none! Here's a Screenshot of the Floppix Desktop.
 
-{{<figure src="../../images/floppix_desktop.jpg">}}
+{{< figure src="../../images/floppix_desktop.jpg" >}}
 
 Picture Source [for the Background Image] : 9
 

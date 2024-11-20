@@ -108,3 +108,9 @@ I made a [simple helper](https://github.com/punchagan/dot-doom/blob/c45f01e6b202
 
 Now, cross-linking posts and publishing posts with cross-links are both a
 breeze. Stay tuned for the "100s of blog posts" ™ I'm going to write!
+
+<div style="font-size:small;" class="reviewers">
+
+Thanks to [Shantanu](http://baali.muse-amuse.in) and [Kamal](https://x.com/kamalx) for reading drafts of this post.
+
+</div>
