@@ -1,8 +1,8 @@
 ---
-title : "Elfeed hook to fetch full content"
-date : "2015-12-19T00:00:00+05:30"
-tags : ["blag", "elfeed", "emacs", "hack", "pinboard"]
-draft : false
+title: "Elfeed hook to fetch full content"
+date: 2015-12-19T13:42:29+05:30
+tags: ["blag", "elfeed", "emacs", "hack", "pinboard"]
+draft: false
 ---
 
 I have started to use [Pinboard](http://pinboard.in)'s `unread` tag as my to-read list.  It has a
@@ -15,7 +15,7 @@ opening the links in a browser.
 
 Inspired by a [comment from FiloSottile](https://github.com/sursh/blaggregator/pull/80#issuecomment-165849126), I realized it should be pretty easy to
 setup a hook that fetches the actual content to make my reading work-flow
-smoother. I wrote a [small script](https://github.com/punchagan/dot-files/blob/master/bin/get_article.py), using [python-readability](https://github.com/buriy/python-readability), to fetch the page
+smoother. I wrote a [small script](https://github.com/punchagan/dotfiles/blob/3285e9408b91bbf5e1c78974d003be84926f9954/bin/get_article.py), using [python-readability](https://github.com/buriy/python-readability), to fetch the page
 content, given a URL. This script is then hooked onto `elfeed-new-entry-hook`,
 to fetch content of for new entries as they are fetched.  All the old entries
 can be easily fixed with a single call to `elfeed-apply-hooks-now`.
