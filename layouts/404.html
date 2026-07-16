@@ -23,11 +23,32 @@
     try {
       const pagefind = await import('{{ "/pagefind/pagefind.js" | relURL }}');
       await pagefind.init();
-      const search = await pagefind.search(query);
-      if (!search.results.length) return;
+
+      // Pagefind wants fairly complete term overlap - a slug with one
+      // word Pagefind can't match (or a typo) can zero out the whole
+      // query. Fall back to searching each word individually and
+      // merging unique hits, so one bad word doesn't kill every result.
+      let results = (await pagefind.search(query)).results;
+      if (!results.length) {
+        const words = query.split(/\s+/).filter(Boolean);
+        const perWord = await Promise.all(
+          words.map((word) => pagefind.search(word))
+        );
+        const seen = new Set();
+        results = [];
+        for (const wordResults of perWord) {
+          for (const result of wordResults.results) {
+            if (!seen.has(result.id)) {
+              seen.add(result.id);
+              results.push(result);
+            }
+          }
+        }
+      }
+      if (!results.length) return;
 
       const entries = await Promise.all(
-        search.results.slice(0, 5).map((result) => result.data())
+        results.slice(0, 5).map((result) => result.data())
       );
 
       const container = document.getElementById('suggestions');
