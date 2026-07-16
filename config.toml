@@ -1,6 +1,5 @@
 footnoteReturnLinkContents = "↩"
 title = "Noetic Nought"
-description = "Punch's home on the web"
 enableRobotsTXT = true
 languageCode = "en-US"
 baseurl = "https://punchagan.muse-amuse.in/"
@@ -40,6 +39,7 @@ url = "/about/"
 weight = 30
 
 [Params]
+description = "Punch's home on the web"
 mainSections = ["blog"]
 dateform = "Jan 2, 2006"
 webmentiondateform = "15:04:05, Jan 2 2006"
