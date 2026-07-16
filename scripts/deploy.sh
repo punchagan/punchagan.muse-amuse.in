@@ -5,6 +5,8 @@ PUBLIC_DIR="public"
 DRAFTS_DIR="drafts"
 GIT_URL=$(git remote get-url origin)
 
+pushd "$(dirname "${0}")/.."
+
 # Ensure theme is using our local changes
 set +e
 grep theme.*\"er\" config.toml
@@ -14,7 +16,6 @@ if [ $USING_ER_THEME -eq 0 ]; then
     grep -q develop themes/er/.git/HEAD
 fi
 
-pushd "$(dirname "${0}")"
 # Publish the site (along with drafts)
 ./hugo.sh --cleanDestinationDir -D -d "${DRAFTS_DIR}"
 mkdir -p "${DRAFTS_DIR}/drafts"  # Ensure dir exists, even if no draft posts
