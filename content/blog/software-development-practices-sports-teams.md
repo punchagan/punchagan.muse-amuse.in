@@ -3,6 +3,7 @@ title: "Software development practices for sports teams"
 description: "Some software development practices that sports teams could adopt to be better teams"
 date: 2018-09-23T11:31:00+05:30
 tags: ["blag", "programming", "ultimate", "hack", "sport", "teams"]
+categories: ["best"]
 draft: false
 ---
 
@@ -99,7 +100,7 @@ Slightly longer term retrospectives would be quite useful too. If a team adopts
 the idea of sprints, each new sprint should start with a retrospective of the
 last one and planning for the next.
 
-A retrospective's participants are expected to follow the [prime directive](http://retrospectivewiki.org/index.php?title=The%5FPrime%5FDirective).
+A retrospective's participants are expected to follow the [prime directive](http://retrospectivewiki.org/index.php?title=The_Prime_Directive).
 
 > Regardless of what we discover, we understand and truly believe that everyone
 > did the best job they could, given what they knew at the time, their skills and
@@ -195,7 +196,6 @@ mentors in the team should work towards providing the environment and the
 support everyone on the team needs, and trust them to do the job.
 
 <div style="font-size:small;" class="reviewers">
-  <div></div>
 
 Thanks Meghana Iyer, [Ravitheja Tetali](https://twitter.com/cloud9trt/), [Shantanu Choudhary](http://baali.muse-amuse.in/), [Vandith PSR](https://twitter.com/vandith), [Varun
 Rangarajan](https://varunrn.wordpress.com/) and Vivek Krishnaswamy for reading drafts of this post and giving

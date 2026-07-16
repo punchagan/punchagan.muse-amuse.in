@@ -3,6 +3,7 @@ title: "Why my Elfeed index was 0 bytes"
 description: "How I lost my Elfeed database and learnt about Emacs's write-region"
 date: 2026-01-30T16:58:00+05:30
 tags: ["emacs", "blag", "elfeed", "programming"]
+categories: ["best"]
 draft: false
 ---
 

@@ -3,6 +3,7 @@ title: "An innocent query that caused Zulip downtime"
 description: "Some notes on the changes I made recently, that caused Zulip cloud to be down for a while"
 date: 2020-05-28T11:34:00+05:30
 tags: ["blag", "zulip", "python", "software"]
+categories: ["best"]
 draft: false
 ---
 
@@ -159,11 +160,15 @@ Here's the [actual commit](https://github.com/zulip/zulip/commit/ded3b0076070365
 [follow-up fix](https://github.com/zulip/zulip/commit/734d651b45542e9a1bdea10cd290637f73be30d9) too. 🙈
 
 <div style="font-size:small;" class="reviewers">
-  <div></div>
 
 Thanks to [Tim Abbott](https://web.mit.edu/tabbott/www/) and [Shantanu](http://baali.muse-amuse.in) for reading drafts of this post.
 
 </div>
 
-[^fn:1]: The pointer was used to do a [bunch of useful things](https://zulip.readthedocs.io/en/latest/subsystems/pointer.html), but we are currently in the process of [removing it](https://github.com/zulip/zulip/issues/8994).
-[^fn:2]: Zulip's code base uses a concept called [soft-deactivation](https://zulip.readthedocs.io/en/latest/subsystems/sending-messages.html#soft-deactivation) to mitigate this problem on Realms where there are a lot of users who log in very infrequently, or don't login after an initial period of activity. So, the number of rows are not exactly `M*N` in all the cases, but in the worst case they are.
+[^fn:1]: The pointer was used to do a [bunch of useful things](https://zulip.readthedocs.io/en/latest/subsystems/pointer.html), but we are
+    currently in the process of [removing it](https://github.com/zulip/zulip/issues/8994).
+[^fn:2]: Zulip's code base uses a concept called [soft-deactivation](https://zulip.readthedocs.io/en/latest/subsystems/sending-messages.html#soft-deactivation)
+    to mitigate this problem on Realms where there are a lot of users who log in
+    very infrequently, or don't login after an initial period of activity. So, the
+    number of rows are not exactly `M*N` in all the cases, but in the worst case
+    they are.

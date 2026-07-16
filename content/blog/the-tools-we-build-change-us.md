@@ -2,6 +2,7 @@
 title: "The tools we build change us"
 date: 2020-04-22T12:54:00+05:30
 tags: ["blag", "software", "tools", "workflow"]
+categories: ["best"]
 draft: false
 ---
 
@@ -50,7 +51,6 @@ directions that we want to be nudged in.
 The tools we build can change us; if we let them.
 
 <div style="font-size:small;" class="reviewers">
-  <div></div>
 
 Thanks to Rajesh, [Ritesh](https://www.lightstalking.com/author/riteshsaini/), [Tejaa](https://tcluri.github.io/) and [Shantanu](http://baali.muse-amuse.in) for reading drafts of this post.
 

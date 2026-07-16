@@ -2,6 +2,7 @@
 title: "An offline-friendly Elfeed web UI"
 date: 2026-01-07T02:31:00+05:30
 tags: ["emacs", "blag", "elfeed", "ocaml"]
+categories: ["best"]
 draft: false
 ---
 

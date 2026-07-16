@@ -3,6 +3,7 @@ title: "Been there, done that, and still doing it!"
 description: "Screwing up is a part of the job. Acknowledge mistakes, fix them, improve systems to prevent them."
 date: 2019-09-05T12:23:00+05:30
 tags: ["software", "management", "learning", "workplace", "blag"]
+categories: ["best"]
 draft: false
 ---
 
@@ -68,7 +69,7 @@ the organisation. I freaked out!
 My "[boss](https://indiaultimate.org/u/manickam-narayanan)" was again pretty calm, and asked me to write to Google to see if I
 could get them to restore the data. I looked around, and found that Google
 allowed restoring deleted accounts for 20 days! I [restored those accounts](https://support.google.com/a/answer/1397578),
-[transferred the email](https://support.google.com/a/answer/6351475?hl=en&ref%5Ftopic=6351498) and then deleted the accounts again.
+[transferred the email](https://support.google.com/a/answer/6351475?hl=en&ref_topic=6351498) and then deleted the accounts again.
 
 
 ## Learning from screw-ups {#learning-from-screw-ups}
@@ -98,12 +99,11 @@ about the whole situation.
 
 May you have screw-ups that you learn and grow from!
 
-PS: Google's [Data Migration Service](https://support.google.com/a/answer/6351475?hl=en&ref%5Ftopic=6351498) doesn't support legacy Google Suite
+PS: Google's [Data Migration Service](https://support.google.com/a/answer/6351475?hl=en&ref_topic=6351498) doesn't support legacy Google Suite
 accounts, and I ended up using [Got Your Back](https://github.com/jay0lee/got-your-back) to move email from the accounts I
 wanted to delete to the other accounts. It worked pretty smoothly!
 
 <div style="font-size:small;" class="reviewers">
-  <div></div>
 
 Thanks to Aishwarya, Meghana, [Tejaa](https://twitter.com/cst2bicycle/) and [Shantanu](http://baali.muse-amuse.in) for reading drafts of this
 post.
