@@ -1,77 +1,53 @@
 {{ define "main" }}
-<main class="center mv4 content-width ph3">
+<main data-pagefind-ignore class="center mv4 content-width ph3">
     <div class="f2 fw6 heading-color heading-font">404</div>
     <p class="lh-copy post-content f4">
         Sorry, but nothing exists here. <br>
-        Find something <a href='{{ "" | relURL }}'>interesting to read.</a>
-        <div class="suggestion"><a href="/">Loading suggestions ...</a></div>
+        Find something interesting to read from the <a href='{{ "/blog/" | relURL }}'>archive</a>, or use the search above.
+        <span id="suggestions"></span>
     </p>
 </main>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fuse.js/3.0.4/fuse.min.js"></script>
-<script type="text/javascript">
- var maxPatternLength = 64;
- var get_search_string = function(){
-     var url = document.location.href;
-     var search_string = url.replace(/.*\/(.*)/g, "$1").replace(/(.*).html/g, "$1");
-     if (search_string.length <= maxPatternLength) {
-         return search_string;
-     } else {
-         if (tipuesearch_stop_words.indexOf('html') == -1) {
-             tipuesearch_stop_words.push("html");
-         }
-         var search_terms = search_string.split('-');
-         search_terms.forEach(function(term, idx){
-             if (tipuesearch_stop_words.indexOf(term)) {
-                 search_terms.splice(idx, 1);
-             }
-         });
-         return search_terms.join('-').substring(0, 31);
-     }
- };
+<script type="module">
+  // Turns the broken URL's slug into a search query and shows the top
+  // Pagefind matches - e.g. /blog/elfeed-idnex-0-bytes/ suggests the
+  // real "elfeed index 0 bytes" post. Absent in `hugo server` dev mode
+  // (no /pagefind/ assets yet), where this just fails silently.
+  (async () => {
+    const slug = document.location.pathname
+      .replace(/\/$/, '')
+      .split('/')
+      .pop() || '';
+    const query = slug.replace(/[-_]+/g, ' ').replace(/\.html?$/i, '').trim();
+    if (!query) return;
 
- var no_suggestions = function(){
-     document.querySelector('.suggestion').remove();
- };
+    try {
+      const pagefind = await import('{{ "/pagefind/pagefind.js" | relURL }}');
+      await pagefind.init();
+      const search = await pagefind.search(query);
+      if (!search.results.length) return;
 
- var show_results = function(entries) {
-     document.querySelector('.suggestion > a').remove();
-     var suggestions = document.querySelector('.suggestion');
-     var text = document.createElement('p');
-     text.innerHTML = 'Are you looking for any of the following posts?';
-     suggestions.append(text);
+      const entries = await Promise.all(
+        search.results.slice(0, 5).map((result) => result.data())
+      );
 
-     var entries_ul = document.createElement('ul');
-     suggestions.append(entries_ul);
-     entries.forEach(function(entry){
-         var entry_li = document.createElement('li');
-         var entry_a = document.createElement('a');
-         entry_a.setAttribute('href', entry.href);
-         entry_a.text = entry.title;
-         entry_li.appendChild(entry_a);
-         entries_ul.appendChild(entry_li);
-     });
- };
+      const container = document.getElementById('suggestions');
+      const intro = document.createElement('p');
+      intro.textContent = 'Are you looking for any of the following posts?';
+      container.append(intro);
 
- var pages = [];
- {{range .Site.Pages}}
- pages.push({
-     "title": {{.Title}},
-     "content": {{.Plain}},
-     "href": {{.RelPermalink}}
- })
- {{end}}
- var options = {
-     keys: ['href'],
-     maxPatternLength: maxPatternLength,
-     threshold: 0.3
- };
- var fuse = new Fuse(pages, options);
- var results = fuse.search(get_search_string());
- results.splice(5);
- if (results.length > 0) {
-     show_results(results);
- } else {
-     no_suggestions();
- };
+      const list = document.createElement('ul');
+      entries.forEach((entry) => {
+        const item = document.createElement('li');
+        const link = document.createElement('a');
+        link.href = entry.url;
+        link.textContent = entry.meta.title;
+        item.append(link);
+        list.append(item);
+      });
+      container.append(list);
+    } catch (err) {
+      // Pagefind assets not present - nothing to suggest.
+    }
+  })();
 </script>
 {{ end }}
