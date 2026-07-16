@@ -27,4 +27,4 @@ slowly and carefully.
 I've contributed to and mentored Google Summer of Code for [Zulip](https://zulip.com) since 2018,
 and I'm now on the advisory board of the [Zulip Foundation](https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/). I did a batch at
 [Recurse Center](https://www.recurse.com/) in summer 2014 (back when it was still called Hacker School),
-and wrote [updates](/recurse-center) almost every day. I play Ultimate Frisbee competitively.
+and wrote [updates](/recurse-center/) almost every day. I play Ultimate Frisbee competitively.
