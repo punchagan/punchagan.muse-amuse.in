@@ -21,11 +21,23 @@ unsafe= true
 
 [menu]
 [[menu.main]]
-identifier = "recurse-center"
-name = "recurse-center"
-title = "recurse-center"
-url = "/recurse-center/"
+identifier = "blog"
+name = "blog"
+title = "blog"
+url = "/blog/"
 weight = 10
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+title = "tags"
+url = "/tags/"
+weight = 20
+[[menu.main]]
+identifier = "about"
+name = "about"
+title = "about"
+url = "/about/"
+weight = 30
 
 [Params]
 mainSections = ["blog"]
