@@ -20,6 +20,8 @@ pushd "$(dirname "${0}")"
 mkdir -p "${DRAFTS_DIR}/drafts"  # Ensure dir exists, even if no draft posts
 # Publish the site *without* drafts
 ./hugo.sh --cleanDestinationDir -d "${PUBLIC_DIR}"
+# Index for search before copying drafts in, so drafts never end up searchable
+./pagefind.sh --site "${PUBLIC_DIR}"
 cp -a "${DRAFTS_DIR}/drafts" "${PUBLIC_DIR}"
 rm -r "${DRAFTS_DIR}"
 
