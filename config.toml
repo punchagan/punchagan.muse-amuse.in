@@ -26,16 +26,16 @@ title = "blog"
 url = "/blog/"
 weight = 10
 [[menu.main]]
-identifier = "tags"
-name = "tags"
-title = "tags"
-url = "/tags/"
-weight = 20
-[[menu.main]]
 identifier = "about"
 name = "about"
 title = "about"
 url = "/about/"
+weight = 20
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+title = "tags"
+url = "/tags/"
 weight = 30
 
 [Params]
