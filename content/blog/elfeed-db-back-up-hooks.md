@@ -1,5 +1,6 @@
 ---
 title: "Elfeed DB backup hooks"
+description: "Quick note on my setup for backing up the Elfeed DB"
 date: 2026-01-20T23:13:00+05:30
 tags: ["elfeed", "emacs", "git", "blag"]
 draft: false

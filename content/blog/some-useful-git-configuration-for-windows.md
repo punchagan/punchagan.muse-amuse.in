@@ -1,9 +1,9 @@
 ---
 title: "Some useful Git configuration for Windows"
+description: "Some useful git configuration for windows that I learnt"
 date: 2025-01-24T01:25:00+05:30
 tags: ["git", "blag", "windows", "til"]
 draft: false
-Some: "useful git configuration for windows that I learnt"
 ---
 
 I've recently been working on Windows with a relatively involved git repository

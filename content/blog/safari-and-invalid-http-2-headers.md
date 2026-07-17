@@ -1,5 +1,6 @@
 ---
 title: "Safari and invalid HTTP/2 headers"
+description: "Safari strictly adheres to the HTTP/2 protocol and errors with invalid (HTTP/1) headers"
 date: 2026-01-16T21:37:00+05:30
 tags: ["blag", "emacs", "ocaml", "web"]
 draft: false

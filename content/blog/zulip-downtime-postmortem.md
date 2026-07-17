@@ -1,6 +1,6 @@
 ---
 title: "An innocent query that caused Zulip downtime"
-description: "Some notes on the changes I made recently, that caused Zulip cloud to be down for a while"
+description: "Notes on some changes I made recently that caused Zulip cloud to be down for a while"
 date: 2020-05-28T11:34:00+05:30
 tags: ["blag", "zulip", "python", "software"]
 categories: ["best"]

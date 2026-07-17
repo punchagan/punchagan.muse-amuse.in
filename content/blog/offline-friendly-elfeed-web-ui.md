@@ -1,5 +1,6 @@
 ---
 title: "An offline-friendly Elfeed web UI"
+description: "My service worker based offline web UI for Elfeed"
 date: 2026-01-07T02:31:00+05:30
 tags: ["emacs", "blag", "elfeed", "ocaml"]
 categories: ["best"]

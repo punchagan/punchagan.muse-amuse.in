@@ -1,5 +1,6 @@
 ---
 title: "Self-care tips for new developers"
+description: "Advice for staying sane as a developer, inspired by a conversation at PyCon India"
 date: 2018-10-24T20:14:00+05:30
 tags: ["blag", "software", "advice", "health", "selfcare"]
 categories: ["best"]
@@ -26,7 +27,7 @@ shared by everyone who has been programming professionally for a while --
 ranging from about a couple of years to many decades!
 
 In a hallway conversation, [Noufal](https://twitter.com/noufalibrahim/) was telling some of us about the [Okinawa
-martial art](https://en.wikipedia.org/wiki/Okinawan%5Fmartial%5Farts) lessons he's been taking - it was inspiring to see how seriously he
+martial art](https://en.wikipedia.org/wiki/Okinawan_martial_arts) lessons he's been taking - it was inspiring to see how seriously he
 takes the lessons. A lot of programmers that I know, who have been programming
 for a while, have other interests that they pursue quite seriously, to take time
 off from programming. It would be nice to have someone speak about mental health
@@ -85,7 +86,7 @@ make your body thank you. If you end-up working a lot from your home office,
 invest in a good chair and a table.
 
 
-## Sunlight & Exercise {#sunlight-and-exercise}
+## Sunlight &amp; Exercise {#sunlight-and-exercise}
 
 Being locked up in our office buildings all day doesn't help with how much
 exposure we get to the sun. Not getting enough sunlight regularly can effect us

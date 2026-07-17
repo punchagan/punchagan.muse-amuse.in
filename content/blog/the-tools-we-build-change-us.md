@@ -1,5 +1,6 @@
 ---
 title: "The tools we build change us"
+description: "A random thought on how the tools we build change us..."
 date: 2020-04-22T12:54:00+05:30
 tags: ["blag", "software", "tools", "workflow"]
 categories: ["best"]

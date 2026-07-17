@@ -1,6 +1,6 @@
 ---
 title: "Cycling from Manali to Leh - An FAQ"
-description: "Some memories, notes, tips and advice from our attempt at cycling from Manali to Leh"
+description: "Memories, notes, tips and advice from our attempt at cycling from Manali to Leh"
 date: 2017-10-26T12:55:00+05:30
 tags: ["cycling", "himalaya", "travel", "blag", "life"]
 categories: ["best"]
@@ -8,10 +8,9 @@ draft: false
 images: ["images/baralachala.jpg"]
 ---
 
-{{< figure src="/images/baralachala.jpg" >}}
+{{< figure src="~/software/my-repos/muse-amuse.in/static/images/baralachala.jpg" >}}
 
 <div class="ox-hugo-toc toc">
-<div></div>
 
 <div class="heading">Table of Contents</div>
 
@@ -58,7 +57,7 @@ to death. Susheel was driving along and cheering us.
 
 ## How did you decide to do this? {#how-did-you-decide-to-do-this}
 
-Vivek and I were going to Coorg with [Prats](https://www.instagram.com/pratikshasunder/) and [Addy](https://www.instagram.com/adarsh%5Fmakam/), and Prats told us a whole
+Vivek and I were going to Coorg with [Prats](https://www.instagram.com/pratikshasunder/) and [Addy](https://www.instagram.com/adarsh_makam/), and Prats told us a whole
 lot of stories of her adventures in the mountains. Not sure how bicycles came
 into the picture, but as soon as they did, both of us got really excited about
 it. This was on some sort of a bucket list for me, ever since I read [Vatsap's
@@ -177,23 +176,23 @@ climbs during this ride much less steeper than some of the Kalhatti ones.
 
 ### What we actually rode {#what-we-actually-rode}
 
-| Day | Start   | End          | Distance | Elevation gain | Comments                    |
-|-----|---------|--------------|----------|----------------|-----------------------------|
-| 0   | Kalath  | -            | -        |                | Fix cycles and acclimatize  |
-| 1   | Kalath  | Marhi        | 45km     | 1675m          | Prepare to cross Rohtang!   |
-| 2   | Marhi   | Keylong      | 80km     | -210m          | Crossed Rohtang (3970m)     |
-| 3   | Keylong | Patseo       | 48km     | +644m          | Easy ride; Deepak Tal!      |
-| 4   | Patseo  | Sarchu       | 64km     | +522m          | Crossed Baralachala(4902m)! |
-| 5   | Sarchu  | Whiskey Nala | 48km     | +465m          | Gata loops & Nakeela(4924m) |
+| Day | Start   | End          | Distance | Elevation gain | Comments                        |
+|-----|---------|--------------|----------|----------------|---------------------------------|
+| 0   | Kalath  | -            | -        |                | Fix cycles and acclimatize      |
+| 1   | Kalath  | Marhi        | 45km     | 1675m          | Prepare to cross Rohtang!       |
+| 2   | Marhi   | Keylong      | 80km     | -210m          | Crossed Rohtang (3970m)         |
+| 3   | Keylong | Patseo       | 48km     | +644m          | Easy ride; Deepak Tal!          |
+| 4   | Patseo  | Sarchu       | 64km     | +522m          | Crossed Baralachala(4902m)!     |
+| 5   | Sarchu  | Whiskey Nala | 48km     | +465m          | Gata loops &amp; Nakeela(4924m) |
 
 
 ### Original plan {#original-plan}
 
-| Day | Start  | End  | Distance | Elevation gain | Comments                                       |
-|-----|--------|------|----------|----------------|------------------------------------------------|
-| 5   | Sarchu | Pang | 73km     | +225m          | Gata-loops, Nakeela(4924m) & Lachung La(5065m) |
-| 6   | Pang   | Lato | 103km    | -530m          | Moore Plains, Tanglang La (5328m)              |
-| 7   | Lato   | Leh  | 70km     | -600m          | Lots of downhill!                              |
+| Day | Start  | End  | Distance | Elevation gain | Comments                                           |
+|-----|--------|------|----------|----------------|----------------------------------------------------|
+| 5   | Sarchu | Pang | 73km     | +225m          | Gata-loops, Nakeela(4924m) &amp; Lachung La(5065m) |
+| 6   | Pang   | Lato | 103km    | -530m          | Moore Plains, Tanglang La (5328m)                  |
+| 7   | Lato   | Leh  | 70km     | -600m          | Lots of downhill!                                  |
 
 
 ## What was a typical day during the trip, like? {#what-was-a-typical-day-during-the-trip-like}
