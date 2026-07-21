@@ -1,6 +1,5 @@
 ---
 title: "Quotes"
-tags: ["nav"]
 draft: false
 ---
 
