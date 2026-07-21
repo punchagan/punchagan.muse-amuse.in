@@ -1,0 +1,20 @@
+# Extra config layered on top of config.toml, used *only* by
+# scripts/newsletter-send.sh:
+#
+#     ./hugo.sh --config config.toml,config-newsletter.toml -d <dir>
+#
+# Kept separate so a normal build (and therefore the deployed site) never
+# emits a newsletter.json - the digest is a build artifact for emailing,
+# not a page on the site.
+
+[outputFormats.newsletter]
+# JSON rather than raw HTML so the subject line can ride along with the
+# body and the send script never has to parse HTML - see
+# layouts/index.newsletter.json.
+mediaType = "application/json"
+baseName = "newsletter"
+notAlternative = true
+
+[outputs]
+# Only the digest in this build; the rest of the site is thrown away.
+home = ["newsletter"]

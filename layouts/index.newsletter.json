@@ -1,0 +1,33 @@
+{{- /*
+  Weekly newsletter digest, emitted as JSON for scripts/newsletter-send.py:
+
+      {"subject": "...", "html": "..."}
+
+  Selection and subject live here rather than in the send script so Hugo
+  stays the one place that decides what counts as a published post - drafts
+  and future-dated posts are already excluded from .Site.RegularPages - and
+  so the script never has to parse HTML to find a subject line.
+
+  Renders nothing at all when there's nothing new since last_sent;
+  newsletter-send.py treats the missing/empty file as "skip this week".
+*/ -}}
+{{- $lastSent := "1970-01-01T00:00:00Z" -}}
+{{- with .Site.Data.newsletter -}}
+  {{- with .last_sent -}}{{- $lastSent = . -}}{{- end -}}
+{{- end -}}
+{{- $cutoff := time.AsTime $lastSent -}}
+
+{{- $posts := where (where .Site.RegularPages "Section" "blog") "Date" "gt" $cutoff -}}
+{{- $posts = $posts.ByDate -}}
+
+{{- if $posts -}}
+  {{- /* Same subject shape regardless of post count - also used as the
+         broadcast's dashboard name in newsletter-send.py, so it's a label
+         for the send, not really "about" any one post. */ -}}
+  {{- $count := len $posts -}}
+  {{- $countLabel := printf "%d posts" $count -}}
+  {{- if eq $count 1 -}}{{- $countLabel = "1 post" -}}{{- end -}}
+  {{- $subject := printf "%s - %s (%s)" $.Site.Title (now.Format "02 Jan 2006") $countLabel -}}
+  {{- $body := partial "newsletter-body.html" (dict "posts" $posts "site" .Site) -}}
+  {{- dict "subject" $subject "html" $body | jsonify -}}
+{{- end -}}

@@ -1,0 +1,34 @@
+{{- /*
+  Renders the newsletter email body. Split out of index.newsletter.json so
+  the output can be captured as a string and embedded in JSON alongside the
+  subject line.
+
+  Expects a dict: .posts (rendered in full, oldest first) and .site.
+
+  Styles are inline because email clients strip <style> blocks.
+*/ -}}
+{{- $site := .site -}}
+<div style="max-width: 620px; margin: 0 auto; padding: 0 16px; font-family: Georgia, 'Times New Roman', serif; font-size: 16px; line-height: 1.6; color: #222;">
+
+  {{- range $i, $p := .posts }}
+  {{ if $i }}<hr style="border: 0; border-top: 1px solid #ddd; margin: 40px 0;">{{ end }}
+  <h1 style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; margin: 0 0 4px;">
+    <a href="{{ $p.Permalink }}" style="color: #222; text-decoration: none;">{{ $p.Title }}</a>
+  </h1>
+  <p style="font-size: 13px; color: #777; margin: 0 0 24px;">{{ $p.Date.Format "02 Jan 2006" }}</p>
+  {{ $p.Content }}
+  {{- end }}
+
+  <p style="margin: 40px 0 0; padding-top: 24px; border-top: 1px solid #ddd; font-size: 13px; color: #777;">
+    You're getting this because you subscribed at
+    <a href="{{ $site.BaseURL }}" style="color: #777;">{{ $site.Title }}</a>.
+    {{/* Placeholder, swapped for Resend's merge tag by
+         scripts/newsletter-send.sh. The tag can't be written here directly:
+         in an href context Go's contextual autoescaping percent-encodes the
+         braces (safeHTML and safeURL both fail), and canonifyURLs would
+         rewrite a relative placeholder into an absolute URL - hence an
+         absolute .invalid URL, which both leave alone. No trim markers here:
+         they'd eat the space before the link. */}}<a href="https://unsubscribe.invalid/" style="color: #777;">Unsubscribe</a>.
+  </p>
+
+</div>

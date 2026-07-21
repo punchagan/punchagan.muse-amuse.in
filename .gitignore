@@ -2,3 +2,4 @@
 /themes/
 /.envrc
 /bin/
+/scripts/__pycache__/
