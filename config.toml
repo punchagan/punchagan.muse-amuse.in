@@ -44,6 +44,12 @@ mainSections = ["blog"]
 dateform = "Jan 2, 2006"
 github = "punchagan"
 email = "punchagan+blog@muse-amuse.in"
+# Newsletter signup form (see themes/er/layouts/partials/connect.html) -
+# posts directly to the Google Form's response endpoint, bypassing its own
+# UI (https://baali.muse-amuse.in/posts/collecting-user-feedback.html).
+signup_form_action = "https://docs.google.com/forms/d/e/1FAIpQLSeVF2TvA-Xby3MYfA115prKjPmti72H9SHn0dd4J8JUR0Gwnw/formResponse"
+signup_form_name_field = "entry.46315387"
+signup_form_email_field = "entry.789726138"
 [Params.author]
 name = "punchagan"
 nick = "punchagan"
