@@ -1,0 +1,42 @@
+---
+name: Newsletter
+
+on:
+  schedule:
+    - cron: "0 10 * * 4"     # Thursdays, 10:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out theme
+        # themes/er is gitignored here (it's a separate repo, not a
+        # submodule) - same "er" theme, same develop branch scripts/deploy.sh
+        # expects locally, just fetched fresh instead of assumed to exist.
+        run: git clone --branch develop --depth 1 https://github.com/punchagan/er themes/er
+
+      - uses: astral-sh/setup-uv@v9.0.0
+
+      - name: Send newsletter
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_SEGMENT_ID: ${{ secrets.RESEND_SEGMENT_ID }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+        run: ./scripts/newsletter-send.py --yes
+
+      - name: Commit last_sent, if it changed
+        run: |
+          if ! git diff --quiet -- data/newsletter.json; then
+            git config user.name "newsletter-bot"
+            git config user.email "actions@github.com"
+            git add data/newsletter.json
+            git commit -m "Record newsletter send"
+            git push
+          fi
