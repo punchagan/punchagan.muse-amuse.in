@@ -1,7 +1,7 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["requests"]
+# dependencies = ["requests", "html2text"]
 # ///
 """Build this week's digest and send it as a Resend broadcast.
 
@@ -56,6 +56,7 @@ import tempfile
 from datetime import datetime
 from pathlib import Path
 
+import html2text
 import requests
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -120,11 +121,21 @@ def build_digest(dry_run: bool) -> dict | None:
     # braces).
     digest["html"] = digest["html"].replace(UNSUBSCRIBE_PLACEHOLDER, UNSUBSCRIBE_MERGE_TAG)
 
+    # A plain-text alternative alongside the HTML - multipart emails tend to
+    # score better with spam filters than HTML-only. Converted from the
+    # rendered HTML (not raw markdown, which would leave literal **/[]()
+    # syntax in it) so links survive as "text (url)" instead of Hugo's
+    # .Plain, which would strip the href and keep only the anchor text.
+    converter = html2text.HTML2Text()
+    converter.body_width = 0  # don't hard-wrap - let email clients do it
+    digest["text"] = converter.handle(digest["html"])
+
     if dry_run:
         preview = REPO_ROOT / "public" / "newsletter-preview.html"
         preview.parent.mkdir(parents=True, exist_ok=True)
         preview.write_text(digest["html"])
-        print(f"Dry run - wrote preview to {preview}, no API calls made.")
+        preview.with_suffix(".txt").write_text(digest["text"])
+        print(f"Dry run - wrote preview to {preview} (and .txt), no API calls made.")
         return None
 
     return digest
@@ -216,6 +227,7 @@ def create_and_send_broadcast(
             # in the list by the same name subscribers saw.
             "name": digest["subject"],
             "html": digest["html"],
+            "text": digest["text"],
         },
     )
     broadcast_id = resp.json().get("id") if resp.ok else None
