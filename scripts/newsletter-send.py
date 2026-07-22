@@ -141,12 +141,29 @@ def build_digest(dry_run: bool) -> dict | None:
     return digest
 
 
+def mask_email(email: str) -> str:
+    """user@example.com -> u***@example.com - enough to eyeball in logs that
+    look right (right shape, right domain) without the log itself becoming
+    a leak of real subscriber addresses. This now runs in a public GitHub
+    Actions log, not just a local terminal. Fixed-width ***, not sized to
+    match the local part's length - that length is itself a (small) thing
+    about a real address that doesn't need to be in a public log either."""
+    local, _, domain = email.partition("@")
+    return f"{local[0]}***@{domain}"
+
+
 def fetch_sheet_csv(sheet_id: str) -> str:
     url = f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format=csv"
     resp = requests.get(url)  # follows redirects by default
+    # Never echo resp.text here, in any branch - it's the sheet's real
+    # content (names, emails), and this runs in a public GitHub Actions log
+    # now. Status code and length are enough to tell "it fetched garbage"
+    # from "it fetched the real sheet".
     if not resp.ok or "," not in resp.text.splitlines()[0]:
-        print(f"Failed to fetch the signup sheet as CSV (HTTP {resp.status_code}). Got:", file=sys.stderr)
-        print("\n".join(resp.text.splitlines()[:5]), file=sys.stderr)
+        print(
+            f"Failed to fetch the signup sheet as CSV: HTTP {resp.status_code}, {len(resp.text)} bytes.",
+            file=sys.stderr,
+        )
         sys.exit(1)
     return resp.text
 
@@ -172,9 +189,12 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
         # are on the Form (Name, etc.) and in what order - so find it by
         # shape, not by a fixed position that breaks the moment the Form
         # changes.
+        # Never log `rest` or the raw email - both are real submitted data
+        # (names, addresses, or arbitrary spam/honeypot content from a
+        # public form) and this runs in a public GitHub Actions log now.
         email = next((f for f in rest if EMAIL_RE.match(f)), None)
         if email is None:
-            print(f"  skip (no email-shaped field): ts=[{ts}] fields={rest}", file=sys.stderr)
+            print(f"  skip (no email-shaped field in {len(rest)} column(s)): ts=[{ts}]", file=sys.stderr)
             continue
 
         try:
@@ -182,10 +202,10 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
         except ValueError:
             row_time = None
         if row_time is None or row_time <= cutoff:
-            print(f"  skip (too old): ts=[{ts}] email={email}", file=sys.stderr)
+            print(f"  skip (too old): ts=[{ts}] email={mask_email(email)}", file=sys.stderr)
             continue
 
-        print(f"  syncing: {email} (ts={ts})", file=sys.stderr)
+        print(f"  syncing: {mask_email(email)} (ts={ts})", file=sys.stderr)
 
         # Try updating an existing contact first (this is the resubscribe
         # path - unsubscribed is set explicitly, never left to whatever an
