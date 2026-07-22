@@ -5,10 +5,11 @@
 # ///
 """Build this week's digest and send it as a Resend broadcast.
 
-Run it from anywhere; it operates on the repo it lives in. Intended to be
-run by hand after ./scripts/deploy.sh, not on a schedule - missing a week
-or occasionally sending twice is acceptable here, so there's deliberately
-no locking or retry logic.
+Run it from anywhere; it operates on the repo it lives in. Meant to be run
+either by hand after ./scripts/deploy.sh, or on a schedule via
+.github/workflows/newsletter.yml - missing a week or occasionally sending
+twice is acceptable here, so there's deliberately no locking or retry
+logic.
 
 Subscribers sign up via a Google Form; responses land in a Sheet shared
 "anyone with the link" (viewer), so no service account is needed - just
@@ -31,7 +32,8 @@ link. A row that's never resubmitted is never revisited, so an
 unsubscribe always stays put.
 
     ./scripts/newsletter-send.py --dry-run   # build + preview, no API calls
-    ./scripts/newsletter-send.py             # build, sync, create broadcast, send
+    ./scripts/newsletter-send.py             # build, sync, create broadcast, send (asks to confirm)
+    ./scripts/newsletter-send.py --yes       # same, but sends without asking (for CI)
 
 Expects RESEND_API_KEY, RESEND_SEGMENT_ID, RESEND_FROM and GOOGLE_SHEET_ID
 already in the environment - via .envrc (gitignored, direnv) locally, or
@@ -196,7 +198,9 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
     return synced
 
 
-def create_and_send_broadcast(session: requests.Session, env: dict[str, str], digest: dict) -> None:
+def create_and_send_broadcast(
+    session: requests.Session, env: dict[str, str], digest: dict, auto_confirm: bool
+) -> None:
     print("Creating broadcast...")
     resp = resend(
         session,
@@ -221,10 +225,13 @@ def create_and_send_broadcast(session: requests.Session, env: dict[str, str], di
         sys.exit(1)
 
     print(f"Created broadcast {broadcast_id} (check the Audience has the right subscribers before confirming).")
-    answer = input("Send it? [y/N] ").strip().lower()
-    if answer not in ("y", "yes"):
-        print(f"Not sending. Broadcast {broadcast_id} is saved as a draft in Resend.")
-        return
+    if auto_confirm:
+        print("--yes passed, sending without prompting.")
+    else:
+        answer = input("Send it? [y/N] ").strip().lower()
+        if answer not in ("y", "yes"):
+            print(f"Not sending. Broadcast {broadcast_id} is saved as a draft in Resend.")
+            return
 
     resp = resend(session, "POST", f"/broadcasts/{broadcast_id}/send")
     # A successful send echoes the same broadcast id back.
@@ -244,6 +251,10 @@ def create_and_send_broadcast(session: requests.Session, env: dict[str, str], di
 
 def main() -> None:
     dry_run = "--dry-run" in sys.argv[1:]
+    # For CI (GitHub Actions) - there's no stdin to prompt on. Interactive
+    # runs always still get the confirmation; this only skips it when
+    # explicitly asked to.
+    auto_confirm = "--yes" in sys.argv[1:]
 
     # Credentials are only needed for a real send - a dry run builds and
     # previews the digest without touching Resend.
@@ -264,7 +275,7 @@ def main() -> None:
                 }
             )
         sync_subscribers(session, env)
-        create_and_send_broadcast(session, env, digest)
+        create_and_send_broadcast(session, env, digest, auto_confirm)
 
 
 if __name__ == "__main__":
