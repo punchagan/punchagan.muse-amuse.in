@@ -13,7 +13,7 @@ jobs:
   send:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Check out theme
         # themes/er is gitignored here (it's a separate repo, not a
