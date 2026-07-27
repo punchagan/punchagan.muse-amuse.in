@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# Optimize staged PNGs/JPEGs before they're committed - pngquant for
+# PNGs, jpegoptim for JPEGs (plus a resize cap, since a couple of past
+# images were huge in *dimension*, not just badly compressed - see
+# 3415dda0 for the manual pass this replaces going forward).
+#
+# GIFs are left alone: lossy gifsicle compression only saved 10-20% on
+# the ones already in this repo and risked smearing the text they
+# contain - not worth doing unconditionally on every future GIF.
+#
+# Missing tools don't block the commit - they just mean this commit's
+# images go in uncompressed, same as before this hook existed.
+#
+# One-time setup (per clone): git config core.hooksPath .githooks
+set -euo pipefail
+
+MAX_WIDTH=1600
+
+have() { command -v "$1" >/dev/null 2>&1; }
+
+while IFS= read -r -d '' f; do
+  [ -f "$f" ] || continue
+  case "$f" in
+    *.png|*.PNG)
+      if have pngquant; then
+        pngquant --quality=70-90 --skip-if-larger --force --ext .png "$f"
+        git add "$f"
+      else
+        echo "pre-commit: pngquant not installed - committing $f uncompressed" >&2
+      fi
+      ;;
+    *.jpg|*.jpeg|*.JPG|*.JPEG)
+      if have convert; then
+        convert "$f" -resize "${MAX_WIDTH}x${MAX_WIDTH}>" -quality 82 "$f"
+      fi
+      if have jpegoptim; then
+        jpegoptim --max=85 --strip-all "$f" >/dev/null
+        git add "$f"
+      else
+        echo "pre-commit: jpegoptim not installed - committing $f uncompressed" >&2
+      fi
+      ;;
+  esac
+done < <(git diff --cached --name-only --diff-filter=ACM -z)
