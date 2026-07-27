@@ -16,6 +16,47 @@ if [ $USING_ER_THEME -eq 0 ]; then
     grep -q develop themes/er/.git/HEAD
 fi
 
+# The newsletter's GitHub Action, and GitHub Pages itself, both build
+# from origin's checked-out branch - not from this working tree. Make
+# sure posts and assets actually make it there before deploying,
+# otherwise the newsletter/site can silently diverge from what you
+# think you just published.
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+git fetch origin "${CURRENT_BRANCH}"
+
+set +e
+git diff --quiet -- content static
+UNSTAGED=$?
+git diff --cached --quiet -- content static
+STAGED=$?
+set -e
+UNTRACKED=$(git ls-files --others --exclude-standard -- content static)
+
+if [ $UNSTAGED -ne 0 ] || [ $STAGED -ne 0 ] || [ -n "${UNTRACKED}" ]; then
+    echo "Uncommitted changes under content/ or static/:"
+    git status --short -- content static
+    read -rp "Commit these before deploying? [y/N] " answer
+    case $answer in
+        [yY]* )
+            git add content static
+            git commit -m "Add/update posts and assets"
+            ;;
+        * )
+            echo "Continuing without committing - anything left uncommitted here won't reach origin, so the newsletter cron and the live site can end up out of sync with what you're about to publish.";;
+    esac
+fi
+
+AHEAD=$(git rev-list "origin/${CURRENT_BRANCH}..HEAD" -- content static | wc -l)
+if [ "${AHEAD}" -gt 0 ]; then
+    echo "${AHEAD} commit(s) touching content/static not yet on origin/${CURRENT_BRANCH}:"
+    git log --oneline "origin/${CURRENT_BRANCH}..HEAD" -- content static
+    read -rp "Push ${CURRENT_BRANCH} to origin now? [y/N] " push_answer
+    case $push_answer in
+        [yY]* ) git push origin "${CURRENT_BRANCH}";;
+        * ) echo "Not pushing - the newsletter cron and site build won't see these until you do.";;
+    esac
+fi
+
 # Publish the site (along with drafts)
 ./hugo.sh --cleanDestinationDir -D -d "${DRAFTS_DIR}"
 mkdir -p "${DRAFTS_DIR}/drafts"  # Ensure dir exists, even if no draft posts
