@@ -1,7 +1,7 @@
 {{- /*
-  Renders the newsletter email body. Split out of index.newsletter.json so
-  the output can be captured as a string and embedded in JSON alongside the
-  subject line.
+  Renders the newsletter email body. Split out of index.newsletter.html so
+  it can be captured as a string and reused independently of the subject
+  comment wrapped around it.
 
   Expects a dict: .posts (rendered in full, oldest first) and .site.
 
@@ -9,6 +9,13 @@
 */ -}}
 {{- $site := .site -}}
 <div style="max-width: 620px; margin: 0 auto; padding: 0 16px; font-family: Georgia, 'Times New Roman', serif; font-size: 16px; line-height: 1.6; color: #222;">
+
+  {{- /* Placeholder, swapped for Resend's merge tag by
+         scripts/newsletter-send.py - same mechanism as the unsubscribe
+         link below, kept consistent even though this one (plain body
+         text, not an attribute) could get away with writing the tag
+         directly via a quoted string literal. */}}
+  <p style="margin: 0 0 24px;">Hi __SUBSCRIBER_FIRST_NAME__,</p>
 
   {{- range $i, $p := .posts }}
   {{ if $i }}<hr style="border: 0; border-top: 1px solid #ddd; margin: 40px 0;">{{ end }}
@@ -23,11 +30,13 @@
     You're getting this because you subscribed at
     <a href="{{ $site.BaseURL }}" style="color: #777;">{{ $site.Title }}</a>.
     {{/* Placeholder, swapped for Resend's merge tag by
-         scripts/newsletter-send.py. The tag can't be written here directly:
-         in an href context Go's contextual autoescaping percent-encodes the
-         braces (safeHTML and safeURL both fail), and canonifyURLs would
-         rewrite a relative placeholder into an absolute URL - hence an
-         absolute .invalid URL, which both leave alone. No trim markers here:
+         scripts/newsletter-send.py. Writing the tag directly here
+         doesn't survive either way: raw as literal text it's a hard
+         template parse error (Go's lexer treats "{{" as an action
+         start, and a third brace breaks it); wrapped in a quoted string
+         it parses fine but partials always compile with html/template's
+         contextual autoescaping, which percent-encodes braces landing
+         inside an href attribute specifically. No trim markers here:
          they'd eat the space before the link. */}}<a href="https://unsubscribe.invalid/" style="color: #777;">Unsubscribe</a>.
   </p>
 

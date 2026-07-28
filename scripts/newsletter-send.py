@@ -68,6 +68,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 NEWSLETTER_JSON = REPO_ROOT / "data" / "newsletter.json"
 UNSUBSCRIBE_PLACEHOLDER = "https://unsubscribe.invalid/"
 UNSUBSCRIBE_MERGE_TAG = "{{{RESEND_UNSUBSCRIBE_URL}}}"
+GREETING_PLACEHOLDER = "__SUBSCRIBER_FIRST_NAME__"
+GREETING_MERGE_TAG = "{{{contact.first_name|there}}}"
 EMAIL_RE = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 # Google Forms' own timestamp column, as observed - not locale-proof, but
 # explicit and no longer guessed by a C library the way `date -d` was.
@@ -141,10 +143,13 @@ def build_digest(dry_run: bool) -> dict | None:
         digest = {"subject": match.group(1), "html": raw[match.end():]}
 
     print(f"Subject: {digest['subject']}")
-    # Swap the placeholder for Resend's merge tag; it can't be written
-    # directly in the Hugo template (Go's href autoescaping mangles the
-    # braces).
+    # Swap placeholders for Resend's actual merge tags; they can't be
+    # written directly in the template - see the comments in
+    # layouts/partials/newsletter-body.html for why (a hard parse error
+    # either way, or html/template's contextual autoescaping mangling
+    # braces inside href specifically for the unsubscribe link).
     digest["html"] = digest["html"].replace(UNSUBSCRIBE_PLACEHOLDER, UNSUBSCRIBE_MERGE_TAG)
+    digest["html"] = digest["html"].replace(GREETING_PLACEHOLDER, GREETING_MERGE_TAG)
 
     # A plain-text alternative alongside the HTML - multipart emails tend to
     # score better with spam filters than HTML-only. Converted from the
