@@ -1,3 +1,7 @@
+Source for https://punchagan.muse-amuse.in/. Public mainly so it can double
+as a working example for anyone setting up [[https://ox-hugo.scripter.co/][ox-hugo]] - not written as a
+general-purpose template for others to fork.
+
 ** Build
 
 Use =hugo.sh= in local dev workflow:
@@ -6,9 +10,89 @@ Use =hugo.sh= in local dev workflow:
 $ ./hugo.sh serve
 #+end_src
 
-The script is a way to lock Hugo version and prevent things from breaking with updates to Hugo.
+The script is a way to lock Hugo version and prevent things from breaking with
+updates to Hugo.
+
+=pagefind.sh= is the same idea, for [[https://pagefind.app/][Pagefind]] (site search) - locks its version
+the same way =hugo.sh= does for Hugo. =scripts/test-search.sh= builds the site,
+indexes it with Pagefind, and serves it locally on the same footing as
+production (no drafts, GitHub Pages' 404 fallback emulated), so search and the
+404 page's suggestions can actually be tested before deploying.
 
 ** Deploy
 
-Use =deploy.sh= to deploy the website! It asks for a confirmation with the
-diff. Useful in cases where the theme was changed or Hugo was updated, etc.
+Use =deploy.sh= to deploy the website! Before building anything, it checks that
+=content/=, =content-org/= and =static/= are committed and pushed to =origin= -
+the newsletter's GitHub Action and the =post-receive= hook on the server both
+build from what's on =origin=, not from this working tree, so anything left
+uncommitted here just silently doesn't ship. It offers to commit and push for
+you if it finds anything.
+
+It then builds the site (twice - with and without drafts, so drafts never end
+up in Pagefind's search index) and force-pushes the result to the =gh-pages=
+branch on =origin=, asking for confirmation with a diff first. Useful in cases
+where the theme was changed or Hugo was updated, etc.
+
+*** How a push actually reaches the live site
+
+=origin= is configured with two push URLs (see =git remote -v=) - a push goes
+to both:
+
+- A personal server, reached over SSH - the one that matters. A
+  =post-receive= hook there (versioned at =.githooks/post-receive=, see below)
+  checks out whatever's on =gh-pages= into the web root, which is what actually
+  serves https://punchagan.muse-amuse.in/.
+- =github.com:punchagan/punchagan.muse-amuse.in.git= - a plain mirror; this is
+  what the newsletter Action checks out from.
+
+** Scripts
+
+- =scripts/newsletter-send.py= - builds the weekly digest (via a custom Hugo
+  output format, =config-newsletter.toml= + =layouts/index.newsletter.json=,
+  layered on top of the normal config) of everything posted since
+  =data/newsletter.json='s =last_sent=, syncs subscribers from a Google
+  Form/Sheet, and sends it as a Resend broadcast. Run by hand (=--dry-run= to
+  preview, =--yes= to skip the confirmation prompt) or via the =Newsletter=
+  GitHub Action (see below). Needs =RESEND_API_KEY=, =RESEND_SEGMENT_ID=,
+  =RESEND_FROM= and =GOOGLE_SHEET_ID= in the environment - via =.envrc=
+  (gitignored, direnv) locally, or via the workflow's secrets in CI.
+- =scripts/deploy.sh= - see "Deploy" above.
+- =scripts/test-search.sh= - see "Build" above.
+
+** Git hooks (=.githooks/=)
+
+=core.hooksPath= is set to =.githooks= for this repo (one-time per clone:
+=git config core.hooksPath .githooks=) so these are versioned instead of
+living only in the untracked =.git/hooks/=:
+
+- =pre-commit= - runs =pngquant=/=jpegoptim= on staged PNGs/JPEGs (with a
+  resize cap for oversized originals) before they're committed, so images don't
+  need a separate manual optimization pass later. Missing tools don't block the
+  commit, they just mean that commit's images go in uncompressed. Deliberately
+  does nothing to GIFs - lossy =gifsicle= compression only saved 10-20% on the
+  animated GIFs already in this repo and risked smearing the text they contain.
+- =post-receive= - *not* actually run by this repo (this repo isn't bare, and
+  =core.hooksPath= here only wires up =pre-commit=). Kept here purely for
+  version control/history; the live copy that does the work lives in the
+  bare repo's =hooks/= directory on the personal server from "How a push
+  actually reaches the live site" above - update it there by hand when this
+  file changes.
+
+** GitHub Actions (=.github/workflows/=)
+
+- =newsletter.yml= - runs =scripts/newsletter-send.py --yes= on a weekly
+  cron (Thursdays), plus a manual =workflow_dispatch= trigger. Checks out
+  the theme fresh (it's gitignored here, not a submodule) since CI doesn't
+  have it. Commits =data/newsletter.json='s updated =last_sent= back after
+  a successful send.
+
+** content-org/all-posts.org
+
+A reference copy of every post in one org file, not used by the Hugo build
+itself (posts are individual =.md= files now). Kept up to date by
+=deploy.sh=, which calls Emacs (=pc/export-blog-posts= in =doom.org=, via
+=emacsclient=) to re-export it from the real source
+(=~/org/blog-posts.org=) before checking whether anything needs
+committing/pushing. If =emacsclient= can't be reached (Emacs isn't
+running), that step is skipped with a warning rather than failing the
+deploy - =content-org/= just goes stale for that run.
