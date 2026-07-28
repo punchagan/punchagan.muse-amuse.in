@@ -7,6 +7,9 @@ GIT_URL=$(git remote get-url origin)
 
 pushd "$(dirname "${0}")/.."
 
+# Refresh the (unused-by-the-build, reference-only) org copy of all posts
+emacsclient -e "(pc/export-blog-posts)" || echo "Skipping blog-posts.org export - emacsclient unreachable"
+
 # Ensure theme is using our local changes
 set +e
 grep theme.*\"er\" config.toml
