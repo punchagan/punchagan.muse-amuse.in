@@ -29,5 +29,15 @@
   {{- if eq $count 1 -}}{{- $countLabel = "1 post" -}}{{- end -}}
   {{- $subject := printf "%s - %s (%s)" $.Site.Title (now.Format "02 Jan 2006") $countLabel -}}
   {{- $body := partial "newsletter-body.html" (dict "posts" $posts "site" .Site) -}}
+  {{- /* Post content can contain raw HTML (e.g. <img src="/ox-hugo/...">
+         from ox-hugo attachments) with root-relative URLs - fine on the
+         live site, meaningless in an email with no "current page" to
+         resolve against. canonifyURLs doesn't touch raw passthrough HTML,
+         so fix it up here instead. No lookahead in Go's RE2 engine, so
+         the second group captures-and-replays whatever character follows
+         the leading slash (quote, another path segment, doesn't matter)
+         rather than asserting it isn't a second slash. */ -}}
+  {{- $base := strings.TrimSuffix "/" $.Site.BaseURL -}}
+  {{- $body = replaceRE "((?:src|href)=\")/([^/])" (printf "${1}%s/${2}" $base) $body -}}
   {{- dict "subject" $subject "html" $body | jsonify -}}
 {{- end -}}
