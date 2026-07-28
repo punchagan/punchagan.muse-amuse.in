@@ -8,10 +8,10 @@
 # the ones already in this repo and risked smearing the text they
 # contain - not worth doing unconditionally on every future GIF.
 #
-# Missing pngquant/jpegoptim blocks the commit (only if a PNG/JPEG is
-# actually staged) rather than silently letting an uncompressed image
-# through - easy to miss a warning buried in commit output, much
-# harder to miss a failed commit.
+# Missing pngquant/jpegoptim/imagemagick blocks the commit (only if a
+# PNG/JPEG is actually staged) rather than silently letting an
+# uncompressed image through - easy to miss a warning buried in commit
+# output, much harder to miss a failed commit.
 #
 # One-time setup (per clone): git config core.hooksPath .githooks
 set -euo pipefail
@@ -48,9 +48,12 @@ while IFS= read -r -d '' f; do
         echo "Install it (e.g. apt install jpegoptim) and retry, or commit with --no-verify to skip." >&2
         exit 1
       fi
-      if have convert; then
-        convert "$f" -resize "${MAX_WIDTH}x${MAX_WIDTH}>" -quality 82 "$f"
+      if ! have convert; then
+        echo "pre-commit: imagemagick (convert) is required to commit JPEGs (staged: $f)." >&2
+        echo "Install it (e.g. apt install imagemagick) and retry, or commit with --no-verify to skip." >&2
+        exit 1
       fi
+      convert "$f" -resize "${MAX_WIDTH}x${MAX_WIDTH}>" -quality 82 "$f"
       jpegoptim --max=85 --strip-all "$f" >/dev/null
       git add "$f"
       ;;
