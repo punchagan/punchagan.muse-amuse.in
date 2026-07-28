@@ -13,10 +13,9 @@ logic.
 
 Subscribers sign up via a Google Form; responses land in a Sheet shared
 "anyone with the link" (viewer), so no service account is needed - just
-the CSV export endpoint. Column A is always the Form's own submission
-timestamp; whichever other column looks like an email address is taken as
-the subscriber's address, so it doesn't matter how many other questions
-are on the Form or what order they're in.
+the CSV export endpoint. Columns are matched by the Form's actual
+headers (Timestamp, Name, Email) - if the Form's questions ever get
+renamed, this exits with an error rather than silently guessing.
 
 Sync only runs on an actual send (after the empty-digest and --dry-run
 early exits). It tracks its own cutoff - last_synced_row_timestamp in
@@ -201,14 +200,25 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
     latest_seen = cutoff
     synced = 0
 
-    for row in csv.reader(io.StringIO(csv_text)):
-        if not row:
-            continue
-        ts, rest = row[0], row[1:]
+    # Matched by the Form's actual column headers - if the Form's
+    # questions ever get renamed, fail with a clear message (and a
+    # non-zero exit, so the GitHub Action shows it as failed) rather
+    # than silently guessing at some other column.
+    reader = csv.DictReader(io.StringIO(csv_text))
+    required_columns = {"Timestamp", "Name", "Email"}
+    missing = required_columns - set(reader.fieldnames or [])
+    if missing:
+        print(
+            f"Sheet is missing expected column(s): {', '.join(sorted(missing))} "
+            f"(found: {reader.fieldnames}) - did a Form question get renamed?",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
-        if ts == "Timestamp":
-            print(f"  header: {row}", file=sys.stderr)
-            continue
+    for row in reader:
+        ts = row["Timestamp"]
+        email = row["Email"]
+        name = row["Name"]
 
         try:
             row_time = datetime.strptime(ts, FORM_TIMESTAMP_FORMAT)
@@ -221,21 +231,12 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
             print(f"  skip (already synced): ts=[{ts}]", file=sys.stderr)
             continue
 
-        # Column A is always the Form's own timestamp, but which column
-        # holds the email address depends on however many other questions
-        # are on the Form (Name, etc.) and in what order - so find it by
-        # shape, not by a fixed position that breaks the moment the Form
-        # changes.
-        # Never log `rest` or the raw email - both are real submitted data
-        # (names, addresses, or arbitrary spam/honeypot content from a
-        # public form) and this runs in a public GitHub Actions log now.
-        email = next((f for f in rest if EMAIL_RE.match(f)), None)
-        if email is None:
-            print(f"  skip (no email-shaped field in {len(rest)} column(s)): ts=[{ts}]", file=sys.stderr)
+        # Never log the raw email or name - both are real submitted data
+        # (or arbitrary spam/honeypot content from a public form) and
+        # this runs in a public GitHub Actions log now.
+        if not EMAIL_RE.match(email):
+            print(f"  skip (Email column doesn't look like an email): ts=[{ts}]", file=sys.stderr)
             continue
-        # Whatever other field isn't the email - taken as-is, no attempt
-        # to split it into first/last name.
-        name = next((f for f in rest if f and f != email), None)
 
         print(f"  syncing: {mask_email(email)} (ts={ts})", file=sys.stderr)
 
