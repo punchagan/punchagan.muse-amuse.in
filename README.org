@@ -51,10 +51,13 @@ to both:
   output format, =config-newsletter.toml= + =layouts/index.newsletter.json=,
   layered on top of the normal config) of everything posted since
   =data/newsletter.json='s =last_sent=, syncs subscribers from a Google
-  Form/Sheet, and sends it as a Resend broadcast. Run by hand (=--dry-run= to
-  preview, =--yes= to skip the confirmation prompt) or via the =Newsletter=
-  GitHub Action (see below). Needs =RESEND_API_KEY=, =RESEND_SEGMENT_ID=,
-  =RESEND_FROM= and =GOOGLE_SHEET_ID= in the environment - via =.envrc=
+  Form/Sheet (tracked by its own =last_synced_row_timestamp= marker in the
+  same file, kept in the Sheet's own timezone rather than compared against
+  =last_sent='s), and sends it as a Resend broadcast. Run by hand (=--dry-run=
+  to preview, =--yes= to skip the confirmation prompt) or via the
+  =Newsletter= GitHub Action (see below). Needs =RESEND_API_KEY=,
+  =RESEND_SEGMENT_ID=, =RESEND_FROM= and =GOOGLE_SHEET_ID= in the
+  environment - via =.envrc=
   (gitignored, direnv) locally, or via the workflow's secrets in CI.
 - =scripts/deploy.sh= - see "Deploy" above.
 - =scripts/test-search.sh= - see "Build" above.

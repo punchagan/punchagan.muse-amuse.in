@@ -19,17 +19,22 @@ the subscriber's address, so it doesn't matter how many other questions
 are on the Form or what order they're in.
 
 Sync only runs on an actual send (after the empty-digest and --dry-run
-early exits), reusing last_sent as the cutoff for "new rows" too - not a
-separate marker. That means it does nothing during a quiet week with no
-new posts, which is fine: broadcasts go out to whoever's in the segment
-at send time, not at signup time, so a subscriber ends up in the same
-first digest either way, however late their Resend contact gets created.
+early exits). It tracks its own cutoff - last_synced_row_timestamp in
+data/newsletter.json, kept in the Sheet's own timestamp format - rather
+than reusing last_sent, since last_sent is in whatever timezone the
+sending machine happens to be in (UTC from GitHub Actions, local time by
+hand), which isn't safely comparable to the Sheet's own, differently-
+timezoned timestamp column. Sync doing nothing during a quiet week with
+no new posts is fine: broadcasts go out to whoever's in the segment at
+send time, not at signup time, so a subscriber ends up in the same first
+digest either way, however late their Resend contact gets created.
 
-Every row newer than last_sent gets explicitly upserted with
+Every row newer than the stored cutoff gets explicitly upserted with
 unsubscribed=False - deliberately, not by omission - so refilling the
 form is how someone resubscribes after unsubscribing via Resend's own
-link. A row that's never resubmitted is never revisited, so an
-unsubscribe always stays put.
+link. Each row is judged by its own timestamp, not its position, so
+adding or removing unrelated rows elsewhere in the sheet never changes
+what counts as already-synced - an unsubscribe always stays put.
 
     ./scripts/newsletter-send.py --dry-run   # build + preview, no API calls
     ./scripts/newsletter-send.py             # build, sync, create broadcast, send (asks to confirm)
@@ -77,6 +82,16 @@ def read_last_sent() -> str:
 def write_last_sent(value: str) -> None:
     data = json.loads(NEWSLETTER_JSON.read_text())
     data["last_sent"] = value
+    NEWSLETTER_JSON.write_text(json.dumps(data, indent=2) + "\n")
+
+
+def read_last_synced_row_timestamp() -> str | None:
+    return json.loads(NEWSLETTER_JSON.read_text()).get("last_synced_row_timestamp")
+
+
+def write_last_synced_row_timestamp(value: str) -> None:
+    data = json.loads(NEWSLETTER_JSON.read_text())
+    data["last_synced_row_timestamp"] = value
     NEWSLETTER_JSON.write_text(json.dumps(data, indent=2) + "\n")
 
 
@@ -173,7 +188,17 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
     print("Syncing subscribers...")
     csv_text = fetch_sheet_csv(env["GOOGLE_SHEET_ID"])
 
-    cutoff = datetime.fromisoformat(read_last_sent()).replace(tzinfo=None)
+    marker = read_last_synced_row_timestamp()
+    if marker is not None:
+        cutoff = datetime.strptime(marker, FORM_TIMESTAMP_FORMAT)
+    else:
+        # No native-clock marker recorded yet (first run after it was
+        # introduced) - fall back to the old cross-clock comparison
+        # against last_sent for just this one run, so nothing
+        # already-pending gets silently dropped at the switchover. Every
+        # run after this one uses the marker instead.
+        cutoff = datetime.fromisoformat(read_last_sent()).replace(tzinfo=None)
+    latest_seen = cutoff
     synced = 0
 
     for row in csv.reader(io.StringIO(csv_text)):
@@ -183,6 +208,17 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
 
         if ts == "Timestamp":
             print(f"  header: {row}", file=sys.stderr)
+            continue
+
+        try:
+            row_time = datetime.strptime(ts, FORM_TIMESTAMP_FORMAT)
+        except ValueError:
+            print(f"  skip (unparseable timestamp): ts=[{ts}]", file=sys.stderr)
+            continue
+        latest_seen = max(latest_seen, row_time)
+
+        if row_time <= cutoff:
+            print(f"  skip (already synced): ts=[{ts}]", file=sys.stderr)
             continue
 
         # Column A is always the Form's own timestamp, but which column
@@ -196,14 +232,6 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
         email = next((f for f in rest if EMAIL_RE.match(f)), None)
         if email is None:
             print(f"  skip (no email-shaped field in {len(rest)} column(s)): ts=[{ts}]", file=sys.stderr)
-            continue
-
-        try:
-            row_time = datetime.strptime(ts, FORM_TIMESTAMP_FORMAT)
-        except ValueError:
-            row_time = None
-        if row_time is None or row_time <= cutoff:
-            print(f"  skip (too old): ts=[{ts}] email={mask_email(email)}", file=sys.stderr)
             continue
 
         print(f"  syncing: {mask_email(email)} (ts={ts})", file=sys.stderr)
@@ -229,6 +257,7 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
             )
         synced += 1
 
+    write_last_synced_row_timestamp(latest_seen.strftime(FORM_TIMESTAMP_FORMAT))
     print(f"Synced {synced} subscriber row(s).")
     return synced
 
