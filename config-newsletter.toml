@@ -4,16 +4,26 @@
 #     ./hugo.sh --config config.toml,config-newsletter.toml -d <dir>
 #
 # Kept separate so a normal build (and therefore the deployed site) never
-# emits a newsletter.json - the digest is a build artifact for emailing,
+# emits a newsletter.html - the digest is a build artifact for emailing,
 # not a page on the site.
 
 [outputFormats.newsletter]
-# JSON rather than raw HTML so the subject line can ride along with the
-# body and the send script never has to parse HTML - see
-# layouts/index.newsletter.json.
-mediaType = "application/json"
+# Raw HTML (not JSON) so Hugo's own canonifyURLs machinery absolutizes
+# root-relative src/href from post content (e.g. <img
+# src="/ox-hugo/...">) automatically - isHTML=true is what makes that
+# happen; see layouts/index.newsletter.html for how the subject line
+# rides along without a JSON wrapper.
+mediaType = "text/html"
 baseName = "newsletter"
 notAlternative = true
+isHTML = true
+# Without this, Hugo parses the template with Go's html/template engine
+# by default, which silently strips literal HTML comments from the
+# template source - including the <!-- subject: ... --> line this
+# relies on. text/template (isPlainText) does no such stripping, and
+# also does no auto-escaping, which is fine here since raw HTML is
+# exactly what we want passed through unescaped.
+isPlainText = true
 
 [outputs]
 # Only the digest in this build; the rest of the site is thrown away.

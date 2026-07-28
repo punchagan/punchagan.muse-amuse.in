@@ -48,7 +48,7 @@ to both:
 ** Scripts
 
 - =scripts/newsletter-send.py= - builds the weekly digest (via a custom Hugo
-  output format, =config-newsletter.toml= + =layouts/index.newsletter.json=,
+  output format, =config-newsletter.toml= + =layouts/index.newsletter.html=,
   layered on top of the normal config) of everything posted since
   =data/newsletter.json='s =last_sent=, syncs subscribers from a Google
   Form/Sheet (tracked by its own =last_synced_row_timestamp= marker in the

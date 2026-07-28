@@ -122,13 +122,23 @@ def build_digest(dry_run: bool) -> dict | None:
             check=True,
             stdout=subprocess.DEVNULL,
         )
-        digest_path = Path(build_dir) / "newsletter.json"
+        digest_path = Path(build_dir) / "newsletter.html"
         # Hugo writes no file at all when the template renders empty, so a
         # missing file and an empty one both mean "nothing new since last_sent".
         if not digest_path.exists() or digest_path.stat().st_size == 0:
             print(f"Nothing new since {read_last_sent()} - not sending.")
             return None
-        digest = json.loads(digest_path.read_text())
+        # Raw HTML, not JSON - subject rides along as a leading HTML
+        # comment (see layouts/index.newsletter.html) rather than a JSON
+        # wrapper, so Hugo's own canonifyURLs machinery (which only
+        # understands literal HTML quotes, not JSON-escaped ones) can
+        # absolutize root-relative src/href from post content itself.
+        raw = digest_path.read_text()
+        match = re.match(r"<!-- subject: (.*) -->\n?", raw)
+        if not match:
+            print(f"newsletter.html doesn't start with the expected subject comment: {raw[:200]!r}", file=sys.stderr)
+            sys.exit(1)
+        digest = {"subject": match.group(1), "html": raw[match.end():]}
 
     print(f"Subject: {digest['subject']}")
     # Swap the placeholder for Resend's merge tag; it can't be written
