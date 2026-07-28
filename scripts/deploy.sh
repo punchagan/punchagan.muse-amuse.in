@@ -25,6 +25,16 @@ fi
 # otherwise the newsletter/site can silently diverge from what you
 # think you just published.
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+if [ "${CURRENT_BRANCH}" != "master" ]; then
+    echo "Currently on '${CURRENT_BRANCH}', not 'master' - this would build and force-push THIS branch's content to production (gh-pages)."
+    read -rp "Continue anyway? [y/N] " branch_answer
+    case $branch_answer in
+        [yY]* ) ;;
+        * ) echo "Aborting."; exit 1;;
+    esac
+fi
+
 git fetch origin "${CURRENT_BRANCH}"
 
 set +e
