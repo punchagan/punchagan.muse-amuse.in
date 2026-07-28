@@ -1,0 +1,11 @@
+#!/bin/sh
+# Not used by this repo's own git hooks (this repo isn't bare, and
+# core.hooksPath here only wires up pre-commit) - kept here purely for
+# version control. The real copy lives at
+# ~/repos/punchagan.muse-amuse.in.git/hooks/post-receive on the
+# muse-amuse.in server, where it fires on every push to that bare repo
+# and checks out gh-pages (deploy.sh's build output) into the web root.
+# Update it there by hand when this file changes.
+
+# Check out the files
+git --work-tree=/home/punchagan/www/punchagan.muse-amuse.in --git-dir=/home/punchagan/repos/punchagan.muse-amuse.in.git checkout -f gh-pages
