@@ -54,10 +54,11 @@ to both:
   Form/Sheet (tracked by its own =last_synced_row_timestamp= marker in the
   same file, kept in the Sheet's own timezone rather than compared against
   =last_sent='s), and sends it as a Resend broadcast. Run by hand (=--dry-run=
-  to preview, =--yes= to skip the confirmation prompt) or via the
-  =Newsletter= GitHub Action (see below). Needs =RESEND_API_KEY=,
-  =RESEND_SEGMENT_ID=, =RESEND_FROM= and =GOOGLE_SHEET_ID= in the
-  environment - via =.envrc=
+  to preview, =--yes= to skip the confirmation prompt, =--test= to send for
+  real to a separate =RESEND_TEST_SEGMENT_ID= audience without syncing
+  subscribers or touching =last_sent=) or via the =Newsletter= GitHub Action
+  (see below). Needs =RESEND_API_KEY=, =RESEND_SEGMENT_ID=, =RESEND_FROM= and
+  =GOOGLE_SHEET_ID= in the environment - via =.envrc=
   (gitignored, direnv) locally, or via the workflow's secrets in CI.
 - =scripts/deploy.sh= - see "Deploy" above.
 - =scripts/test-search.sh= - see "Build" above.

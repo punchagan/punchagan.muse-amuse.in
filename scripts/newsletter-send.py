@@ -38,10 +38,20 @@ what counts as already-synced - an unsubscribe always stays put.
     ./scripts/newsletter-send.py --dry-run   # build + preview, no API calls
     ./scripts/newsletter-send.py             # build, sync, create broadcast, send (asks to confirm)
     ./scripts/newsletter-send.py --yes       # same, but sends without asking (for CI)
+    ./scripts/newsletter-send.py --test      # real send to RESEND_TEST_SEGMENT_ID only,
+                                              # no sync, no last_sent update
+
+--test is for checking the actual pipeline (rendering, personalization,
+links, images) lands correctly in a real inbox, without touching real
+subscribers or the "what's already been sent" bookkeeping: it skips
+sync_subscribers() entirely, sends to RESEND_TEST_SEGMENT_ID instead of
+RESEND_SEGMENT_ID, and never calls write_last_sent().
 
 Expects RESEND_API_KEY, RESEND_SEGMENT_ID, RESEND_FROM and GOOGLE_SHEET_ID
 already in the environment - via .envrc (gitignored, direnv) locally, or
 via a workflow's secrets: -> env: mapping in CI. Nothing here cares which.
+--test needs RESEND_TEST_SEGMENT_ID too, instead of RESEND_SEGMENT_ID and
+GOOGLE_SHEET_ID (sync doesn't run, so the Sheet is never touched).
 
 Run directly (the uv shebang resolves and installs `requests` into an
 ephemeral venv on first run - no manual pip install/venv setup needed):
@@ -288,22 +298,24 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
 
 
 def create_and_send_broadcast(
-    session: requests.Session, env: dict[str, str], digest: dict, auto_confirm: bool
+    session: requests.Session, env: dict[str, str], digest: dict, auto_confirm: bool, test_mode: bool
 ) -> None:
     print("Creating broadcast...")
+    segment_id = env["RESEND_TEST_SEGMENT_ID"] if test_mode else env["RESEND_SEGMENT_ID"]
+    subject = f"[TEST] {digest['subject']}" if test_mode else digest["subject"]
     resp = resend(
         session,
         "POST",
         "/broadcasts",
         {
-            "segment_id": env["RESEND_SEGMENT_ID"],
+            "segment_id": segment_id,
             "from": env["RESEND_FROM"],
-            "subject": digest["subject"],
+            "subject": subject,
             # "name" is purely a dashboard label ("internal reference" per
             # Resend's docs), separate from the subject line recipients see -
             # reusing the same string just means broadcasts are easy to find
             # in the list by the same name subscribers saw.
-            "name": digest["subject"],
+            "name": subject,
             "html": digest["html"],
             "text": digest["text"],
         },
@@ -332,6 +344,10 @@ def create_and_send_broadcast(
 
     print("Sent.")
 
+    if test_mode:
+        print("--test passed - not touching last_sent.")
+        return
+
     # Only after a successful send, so a failure part-way through just
     # means the same posts go out next run.
     sent_at = datetime.now().astimezone().isoformat()
@@ -341,16 +357,22 @@ def create_and_send_broadcast(
 
 def main() -> None:
     dry_run = "--dry-run" in sys.argv[1:]
+    test_mode = "--test" in sys.argv[1:]
     # For CI (GitHub Actions) - there's no stdin to prompt on. Interactive
     # runs always still get the confirmation; this only skips it when
     # explicitly asked to.
     auto_confirm = "--yes" in sys.argv[1:]
 
     # Credentials are only needed for a real send - a dry run builds and
-    # previews the digest without touching Resend.
-    env = {} if dry_run else require_env(
-        ["RESEND_API_KEY", "RESEND_SEGMENT_ID", "RESEND_FROM", "GOOGLE_SHEET_ID"]
-    )
+    # previews the digest without touching Resend. --test doesn't sync,
+    # so it needs RESEND_TEST_SEGMENT_ID instead of RESEND_SEGMENT_ID and
+    # GOOGLE_SHEET_ID.
+    if dry_run:
+        env = {}
+    elif test_mode:
+        env = require_env(["RESEND_API_KEY", "RESEND_TEST_SEGMENT_ID", "RESEND_FROM"])
+    else:
+        env = require_env(["RESEND_API_KEY", "RESEND_SEGMENT_ID", "RESEND_FROM", "GOOGLE_SHEET_ID"])
 
     digest = build_digest(dry_run)
     if digest is None:
@@ -364,8 +386,9 @@ def main() -> None:
                     "Content-Type": "application/json",
                 }
             )
-        sync_subscribers(session, env)
-        create_and_send_broadcast(session, env, digest, auto_confirm)
+        if not test_mode:
+            sync_subscribers(session, env)
+        create_and_send_broadcast(session, env, digest, auto_confirm, test_mode)
 
 
 if __name__ == "__main__":
