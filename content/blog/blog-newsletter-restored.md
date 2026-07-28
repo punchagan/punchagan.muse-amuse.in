@@ -2,7 +2,7 @@
 title: "Blog Newsletter Restored"
 description: "Mailchimp deleted my blog's newsletter account declaring it \"inactive\". I restored it using a hacked up setup."
 date: 2026-07-27T16:42:00+05:30
-tags: ["blog", "newsletter", "hack", "email"]
+tags: ["blog", "newsletter", "hack", "email", "blag"]
 draft: false
 ---
 
