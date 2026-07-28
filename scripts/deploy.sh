@@ -28,20 +28,20 @@ CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 git fetch origin "${CURRENT_BRANCH}"
 
 set +e
-git diff --quiet -- content static
+git diff --quiet -- content static content-org
 UNSTAGED=$?
-git diff --cached --quiet -- content static
+git diff --cached --quiet -- content static content-org
 STAGED=$?
 set -e
-UNTRACKED=$(git ls-files --others --exclude-standard -- content static)
+UNTRACKED=$(git ls-files --others --exclude-standard -- content static content-org)
 
 if [ $UNSTAGED -ne 0 ] || [ $STAGED -ne 0 ] || [ -n "${UNTRACKED}" ]; then
-    echo "Uncommitted changes under content/ or static/:"
-    git status --short -- content static
+    echo "Uncommitted changes under content/, static/ or content-org/:"
+    git status --short -- content static content-org
     read -rp "Commit these before deploying? [y/N] " answer
     case $answer in
         [yY]* )
-            git add content static
+            git add content static content-org
             git commit -m "Add/update posts and assets"
             ;;
         * )
@@ -49,10 +49,10 @@ if [ $UNSTAGED -ne 0 ] || [ $STAGED -ne 0 ] || [ -n "${UNTRACKED}" ]; then
     esac
 fi
 
-AHEAD=$(git rev-list "origin/${CURRENT_BRANCH}..HEAD" -- content static | wc -l)
+AHEAD=$(git rev-list "origin/${CURRENT_BRANCH}..HEAD" -- content static content-org | wc -l)
 if [ "${AHEAD}" -gt 0 ]; then
-    echo "${AHEAD} commit(s) touching content/static not yet on origin/${CURRENT_BRANCH}:"
-    git log --oneline "origin/${CURRENT_BRANCH}..HEAD" -- content static
+    echo "${AHEAD} commit(s) touching content/static/content-org not yet on origin/${CURRENT_BRANCH}:"
+    git log --oneline "origin/${CURRENT_BRANCH}..HEAD" -- content static content-org
     read -rp "Push ${CURRENT_BRANCH} to origin now? [y/N] " push_answer
     case $push_answer in
         [yY]* ) git push origin "${CURRENT_BRANCH}";;
