@@ -15,6 +15,6 @@ git checkout develop
 
 cd "${DIR}"
 git remote remove origin
-git remote add origin muse-amuse.in:~/repos/muse-amuse.in.git
-git remote set-url --add --push origin muse-amuse.in:~/repos/muse-amuse.in.git
+git remote add origin muse-amuse.in:~/repos/punchagan.muse-amuse.in.git
+git remote set-url --add --push origin muse-amuse.in:~/repos/punchagan.muse-amuse.in.git
 git remote set-url --add --push origin "git@github.com:punchagan/punchagan.muse-amuse.in.git"
