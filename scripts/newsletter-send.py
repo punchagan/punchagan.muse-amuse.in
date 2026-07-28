@@ -233,6 +233,9 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
         if email is None:
             print(f"  skip (no email-shaped field in {len(rest)} column(s)): ts=[{ts}]", file=sys.stderr)
             continue
+        # Whatever other field isn't the email - taken as-is, no attempt
+        # to split it into first/last name.
+        name = next((f for f in rest if f and f != email), None)
 
         print(f"  syncing: {mask_email(email)} (ts={ts})", file=sys.stderr)
 
@@ -243,7 +246,12 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
         # URL-safe - Google's own Form validation happens to reject
         # anything with a "/" in it today, but that's Google's behavior to
         # change, not a guarantee this code should lean on.
-        resp = resend(session, "PATCH", f"/contacts/{quote(email, safe='')}", {"unsubscribed": False})
+        resp = resend(
+            session,
+            "PATCH",
+            f"/contacts/{quote(email, safe='')}",
+            {"unsubscribed": False, "first_name": name},
+        )
         if resp.status_code != 200:
             resend(
                 session,
@@ -252,6 +260,7 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
                 {
                     "email": email,
                     "unsubscribed": False,
+                    "first_name": name,
                     "segments": [{"id": env["RESEND_SEGMENT_ID"]}],
                 },
             )
