@@ -23,7 +23,7 @@
     You're getting this because you subscribed at
     <a href="{{ $site.BaseURL }}" style="color: #777;">{{ $site.Title }}</a>.
     {{/* Placeholder, swapped for Resend's merge tag by
-         scripts/newsletter-send.sh. The tag can't be written here directly:
+         scripts/newsletter-send.py. The tag can't be written here directly:
          in an href context Go's contextual autoescaping percent-encodes the
          braces (safeHTML and safeURL both fail), and canonifyURLs would
          rewrite a relative placeholder into an absolute URL - hence an

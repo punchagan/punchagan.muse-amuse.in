@@ -1,5 +1,5 @@
 # Extra config layered on top of config.toml, used *only* by
-# scripts/newsletter-send.sh:
+# scripts/newsletter-send.py:
 #
 #     ./hugo.sh --config config.toml,config-newsletter.toml -d <dir>
 #
