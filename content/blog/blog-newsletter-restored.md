@@ -46,8 +46,13 @@ subscriber list. Unsubscribe is automatically handled by Resend and the data
 about who unsubscribed is not synced back to the spreadsheet. Thi is the only
 thing I'd be losing if a mailchimp like mishap occured again.
 
-The newsletter gets sent out every Thursday using a [GitHub action](https://github.com/punchagan/punchagan.muse-amuse.in/blob/master/.github/workflows/newsletter.yml). I wonder if
-I should automatically add the details of those I knew subscribed previously
-(but may have unsubscribed), or ask them if they'd like to be "re-subscribed".
-If you'd like to receive (at the most) weekly emails from me, containing posts
-from this blog, you can sign up [here](https://punchagan.muse-amuse.in/subscribe/).
+An important difference in how the newsletter gets generated is that the
+current workflow doesn't depend on the RSS feed. Instead, I use a custom Hugo
+[template](https://github.com/punchagan/punchagan.muse-amuse.in/blob/b6383d16b0f507b872cbdc6560377d76efbe0823/layouts/partials/newsletter-body.html) that helps to [generate](https://github.com/punchagan/punchagan.muse-amuse.in/blob/b6383d16b0f507b872cbdc6560377d76efbe0823/scripts/newsletter-send.py) the HTML email containing all the posts written
+since the last send. The newsletter gets sent out every Thursday, using a
+[GitHub action](https://github.com/punchagan/punchagan.muse-amuse.in/blob/b6383d16b0f507b872cbdc6560377d76efbe0823/.github/workflows/newsletter.yml).
+
+I wonder if I should automatically add the details of those I knew subscribed
+previously (but may have unsubscribed), or ask them if they'd like to be
+"re-subscribed". If you'd like to receive (at the most) weekly emails from me,
+containing posts from this blog, you can sign up [here](https://punchagan.muse-amuse.in/subscribe/).
