@@ -55,6 +55,7 @@ import sys
 import tempfile
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import quote
 
 import html2text
 import requests
@@ -210,8 +211,11 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
         # Try updating an existing contact first (this is the resubscribe
         # path - unsubscribed is set explicitly, never left to whatever an
         # unspecified field would default to); fall back to creating a new
-        # one.
-        resp = resend(session, "PATCH", f"/contacts/{email}", {"unsubscribed": False})
+        # one. quote() the email into the path rather than trusting it's
+        # URL-safe - Google's own Form validation happens to reject
+        # anything with a "/" in it today, but that's Google's behavior to
+        # change, not a guarantee this code should lean on.
+        resp = resend(session, "PATCH", f"/contacts/{quote(email, safe='')}", {"unsubscribed": False})
         if resp.status_code != 200:
             resend(
                 session,
