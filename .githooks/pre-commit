@@ -32,6 +32,7 @@ while IFS= read -r -d '' f; do
       # 98/99 mean pngquant deliberately skipped writing (the file's
       # already small enough, or already below the quality floor) -
       # that's success, not failure, so it shouldn't trip `set -e`.
+      before=$(wc -c <"$f")
       set +e
       pngquant --quality=70-90 --skip-if-larger --force --ext .png "$f"
       rc=$?
@@ -40,6 +41,10 @@ while IFS= read -r -d '' f; do
         echo "pre-commit: pngquant failed (exit $rc) on $f" >&2
         exit 1
       fi
+      # pngquant itself is silent unless --verbose (which is too noisy to
+      # use here) - print our own one-liner so a normal commit shows
+      # *something* happened, rather than zero feedback either way.
+      echo "pre-commit: $f: ${before} -> $(wc -c <"$f") bytes"
       git add "$f"
       ;;
     *.jpg|*.jpeg|*.JPG|*.JPEG)
@@ -54,7 +59,10 @@ while IFS= read -r -d '' f; do
         exit 1
       fi
       convert "$f" -resize "${MAX_WIDTH}x${MAX_WIDTH}>" -quality 82 "$f"
-      jpegoptim --max=85 --strip-all "$f" >/dev/null
+      # jpegoptim already prints its own before/after summary - let it
+      # through instead of throwing it away, same reasoning as the
+      # pngquant one-liner above.
+      jpegoptim --max=85 --strip-all "$f"
       git add "$f"
       ;;
   esac
