@@ -8,8 +8,10 @@
 # the ones already in this repo and risked smearing the text they
 # contain - not worth doing unconditionally on every future GIF.
 #
-# Missing tools don't block the commit - they just mean this commit's
-# images go in uncompressed, same as before this hook existed.
+# Missing pngquant/jpegoptim blocks the commit (only if a PNG/JPEG is
+# actually staged) rather than silently letting an uncompressed image
+# through - easy to miss a warning buried in commit output, much
+# harder to miss a failed commit.
 #
 # One-time setup (per clone): git config core.hooksPath .githooks
 set -euo pipefail
@@ -22,23 +24,35 @@ while IFS= read -r -d '' f; do
   [ -f "$f" ] || continue
   case "$f" in
     *.png|*.PNG)
-      if have pngquant; then
-        pngquant --quality=70-90 --skip-if-larger --force --ext .png "$f"
-        git add "$f"
-      else
-        echo "pre-commit: pngquant not installed - committing $f uncompressed" >&2
+      if ! have pngquant; then
+        echo "pre-commit: pngquant is required to commit PNGs (staged: $f)." >&2
+        echo "Install it (e.g. apt install pngquant) and retry, or commit with --no-verify to skip." >&2
+        exit 1
       fi
+      # 98/99 mean pngquant deliberately skipped writing (the file's
+      # already small enough, or already below the quality floor) -
+      # that's success, not failure, so it shouldn't trip `set -e`.
+      set +e
+      pngquant --quality=70-90 --skip-if-larger --force --ext .png "$f"
+      rc=$?
+      set -e
+      if [ $rc -ne 0 ] && [ $rc -ne 98 ] && [ $rc -ne 99 ]; then
+        echo "pre-commit: pngquant failed (exit $rc) on $f" >&2
+        exit 1
+      fi
+      git add "$f"
       ;;
     *.jpg|*.jpeg|*.JPG|*.JPEG)
+      if ! have jpegoptim; then
+        echo "pre-commit: jpegoptim is required to commit JPEGs (staged: $f)." >&2
+        echo "Install it (e.g. apt install jpegoptim) and retry, or commit with --no-verify to skip." >&2
+        exit 1
+      fi
       if have convert; then
         convert "$f" -resize "${MAX_WIDTH}x${MAX_WIDTH}>" -quality 82 "$f"
       fi
-      if have jpegoptim; then
-        jpegoptim --max=85 --strip-all "$f" >/dev/null
-        git add "$f"
-      else
-        echo "pre-commit: jpegoptim not installed - committing $f uncompressed" >&2
-      fi
+      jpegoptim --max=85 --strip-all "$f" >/dev/null
+      git add "$f"
       ;;
   esac
 done < <(git diff --cached --name-only --diff-filter=ACM -z)
