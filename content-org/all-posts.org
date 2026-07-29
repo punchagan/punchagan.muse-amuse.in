@@ -106,7 +106,7 @@ her women run kitchen. It's a 2 hour long conversation that is totally worth it!
 :EXPORT_FILE_NAME: blog-newsletter-restored
 :EXPORT_DATE: [2026-07-27 Mon 12:06]
 :CREATED:  [2026-07-27 Mon 12:06]
-:EXPORT_DESCRIPTION: Mailchimp deleted my blog's newsletter account declaring it "inactive". I restored it using a hacked up setup.
+:EXPORT_DESCRIPTION: Mailchimp deleted my blog's newsletter account declaring it "inactive". I restored it using a new Hugo template, GitHub actions and Resend.
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
 :END:
 
