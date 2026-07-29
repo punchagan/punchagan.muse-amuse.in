@@ -11,6 +11,16 @@ HUGO_BIN="$HUGO_BIN_DIR/hugo"
 # Create the bin directory if it doesn't exist
 mkdir -p "$HUGO_BIN_DIR"
 
+# macOS doesn't ship sha256sum by default (BSD userland), but does have
+# shasum - fall back to that instead of hard-requiring coreutils.
+sha256_of() {
+    if command -v sha256sum >/dev/null 2>&1; then
+        sha256sum "$1" | awk '{print $1}'
+    else
+        shasum -a 256 "$1" | awk '{print $1}'
+    fi
+}
+
 # Function to download Hugo
 download_hugo() {
     echo "Downloading Hugo version $HUGO_VERSION..."
@@ -26,11 +36,28 @@ download_hugo() {
         ARCH="arm64"
     fi
 
-    DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/hugo_extended_${HUGO_VERSION}_${PLATFORM}-${ARCH}.tar.gz"
+    ARCHIVE_NAME="hugo_extended_${HUGO_VERSION}_${PLATFORM}-${ARCH}.tar.gz"
+    DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/${ARCHIVE_NAME}"
+    # One combined checksums file covers every platform/arch in the release.
+    CHECKSUMS_URL="https://github.com/gohugoio/hugo/releases/download/v$HUGO_VERSION/hugo_${HUGO_VERSION}_checksums.txt"
 
     echo "Download location: $DOWNLOAD_URL"
-    # Download and extract Hugo
+    # Download and verify Hugo before extracting it
     curl -L "$DOWNLOAD_URL" -o "$HUGO_BIN_DIR/hugo.tar.gz"
+
+    EXPECTED_SHA=$(curl -sL "$CHECKSUMS_URL" | grep " ${ARCHIVE_NAME}\$" | awk '{print $1}')
+    if [ -z "$EXPECTED_SHA" ]; then
+        echo "Could not find a checksum for ${ARCHIVE_NAME} in $CHECKSUMS_URL - aborting." >&2
+        rm -f "$HUGO_BIN_DIR/hugo.tar.gz"
+        exit 1
+    fi
+    ACTUAL_SHA=$(sha256_of "$HUGO_BIN_DIR/hugo.tar.gz")
+    if [ "$EXPECTED_SHA" != "$ACTUAL_SHA" ]; then
+        echo "Checksum mismatch for ${ARCHIVE_NAME}: expected $EXPECTED_SHA, got $ACTUAL_SHA - aborting." >&2
+        rm -f "$HUGO_BIN_DIR/hugo.tar.gz"
+        exit 1
+    fi
+
     tar -xzf "$HUGO_BIN_DIR/hugo.tar.gz" -C "$HUGO_BIN_DIR"
     rm "$HUGO_BIN_DIR/hugo.tar.gz"
     chmod +x "$HUGO_BIN"
