@@ -15,7 +15,7 @@ everyone will go a long way, though.
 
 I've been using Instagram quite regularly from around the beginning of this
 year, posting about one video a week on an average. Previously, I used it
-primarily as a content consumer for about an year, before getting off it for
+primarily as a content consumer for about a year, before getting off it for
 quite long since it started to turn into a big time-suck. In the current stint
 of using Instagram as a content-creator, I've had quite a few frustrating user
 experiences. On a platform that comes with a giant reputation of being

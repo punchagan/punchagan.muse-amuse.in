@@ -9,7 +9,7 @@ draft: false
 I had a newsletter for this blog automatically created from the RSS feed and
 sent by Mailchimp, based on [Julia Evans' setup](https://jvns.ca/blog/2017/12/28/making-a-weekly-newsletter/). I discovered this week, thanks
 to Ringo, that sign-ups no longer worked. Upon digging further, I found out
-that my Mailchimp account was deleted over an year ago. I missed a handful of
+that my Mailchimp account was deleted over a year ago. I missed a handful of
 email reminders from them to login to the account to prevent deletion.
 
 I didn't need to tweak or change anything with the newsletter on Mailchimp once
@@ -43,14 +43,14 @@ To prevent any future data loss ala Mailchimp, I've used "[the baali trick](http
 (term coined by Claude Code) for setting up the sign-up form using a Google
 Form that write responses to a spreadsheet that gets synced to Resend's
 subscriber list. Unsubscribe is automatically handled by Resend and the data
-about who unsubscribed is not synced back to the spreadsheet. Thi is the only
+about who unsubscribed is not synced back to the spreadsheet. This is the only
 thing I'd be losing if a mailchimp like mishap occured again.
 
 An important difference in how the newsletter gets generated is that the
 current workflow doesn't depend on the RSS feed. Instead, I use a custom Hugo
-[template](https://github.com/punchagan/punchagan.muse-amuse.in/blob/b6383d16b0f507b872cbdc6560377d76efbe0823/layouts/partials/newsletter-body.html) that helps to [generate](https://github.com/punchagan/punchagan.muse-amuse.in/blob/b6383d16b0f507b872cbdc6560377d76efbe0823/scripts/newsletter-send.py) the HTML email containing all the posts written
+[template](https://github.com/punchagan/punchagan.muse-amuse.in/blob/c44a5e480d3f444724b705cb6173ba7403022bf8/layouts/partials/newsletter-body.html) that helps to [generate](https://github.com/punchagan/punchagan.muse-amuse.in/blob/c44a5e480d3f444724b705cb6173ba7403022bf8/scripts/newsletter-send.py) the HTML email containing all the posts written
 since the last send. The newsletter gets sent out every Thursday, using a
-[GitHub action](https://github.com/punchagan/punchagan.muse-amuse.in/blob/b6383d16b0f507b872cbdc6560377d76efbe0823/.github/workflows/newsletter.yml).
+[GitHub action](https://github.com/punchagan/punchagan.muse-amuse.in/blob/c44a5e480d3f444724b705cb6173ba7403022bf8/.github/workflows/newsletter.yml).
 
 I wonder if I should automatically add the details of those I knew subscribed
 previously (but may have unsubscribed), or ask them if they'd like to be
