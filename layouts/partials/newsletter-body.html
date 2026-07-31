@@ -5,7 +5,11 @@
 
   Expects a dict: .posts (rendered in full, oldest first) and .site.
 
-  Styles are inline because email clients strip <style> blocks.
+  Styles are inline, not in a <style> block. Clients do support <style>
+  fine (Gmail included) but only inside <head>, and this fragment has no
+  <html>/<head> wrapper - Gmail explicitly doesn't honor <style> dropped
+  in <body>. Inline is what actually works given that structure.
+
 */ -}}
 {{- $site := .site -}}
 <div style="max-width: 620px; margin: 0 auto; padding: 0 16px; font-family: Georgia, 'Times New Roman', serif; font-size: 16px; line-height: 1.6; color: #222;">
@@ -23,7 +27,14 @@
     <a href="{{ $p.Permalink }}" style="color: #222; text-decoration: none;">{{ $p.Title }}</a>
   </h1>
   <p style="font-size: 13px; color: #777; margin: 0 0 24px;">{{ $p.Date.Format "02 Jan 2006" }}</p>
-  {{ $p.Content }}
+  {{- /* Post content can carry raw <img> tags with hardcoded width/height
+         (Flickr embeds, old posts). Gmail's mobile client auto-fits/zooms
+         the whole message when an image's declared width exceeds the
+         screen, so strip those attributes and force width=100% to keep
+         images fluid - same fix as punchagan/patr@53b2774. */ -}}
+  {{- $content := replaceRE `\s(width|height)="[0-9]+(%|px)?"` "" $p.Content -}}
+  {{- $content = replaceRE `<img` `<img width="100%"` $content -}}
+  {{ $content | safeHTML }}
   {{- end }}
 
   <p style="margin: 40px 0 0; padding-top: 24px; border-top: 1px solid #ddd; font-size: 13px; color: #777;">
