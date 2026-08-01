@@ -1,8 +1,8 @@
 ---
-title : "JP - 19th Century Politics & 21st Century Economics"
-date : "2010-11-05T00:00:00+05:30"
-tags : ["notes", "politics"]
-draft : false
+title: "JP - 19th Century Politics & 21st Century Economics"
+date: 2010-11-05T09:49:00+05:30
+tags: ["note", "politics"]
+draft: false
 ---
 
 <object type="application/x-shockwave-flash" style="width:640px;
@@ -56,21 +56,37 @@ growth of economy, and influencing the global economy
 
 #### Dark Corners {#dark-corners}
 
-1.  Vote buying
+<!--list-separator-->
 
-    1.  Poverty, Illiteracy
+-  Vote buying
 
-    2.  Power struggle without reference to Ideologies/outcomes
+    <!--list-separator-->
 
-    3.  Only change in players, no change of outcomes
+    -  Poverty, Illiteracy
 
-2.  Freebies after election
+    <!--list-separator-->
 
-3.  Dividing based on primordial loyalties
+    -  Power struggle without reference to Ideologies/outcomes
 
-    1.  No sense that any party would make any difference
+    <!--list-separator-->
 
-        1.  Emotional Purchase is only available
+    -  Only change in players, no change of outcomes
+
+<!--list-separator-->
+
+-  Freebies after election
+
+<!--list-separator-->
+
+-  Dividing based on primordial loyalties
+
+    <!--list-separator-->
+
+    -  No sense that any party would make any difference
+
+        <!--list-separator-->
+
+        -  Emotional Purchase is only available
 
 
 #### Argument {#argument}
@@ -79,67 +95,127 @@ growth of economy, and influencing the global economy
 Economics cannot co-exist.  One of them will have to give
 way.
 
-1.  Comparison with China
+<!--list-separator-->
 
-    1.  Argument against Democracy is detrimental to economies
+-  Comparison with China
 
-        1.  Autocracy - everything bad that happened
+    <!--list-separator-->
 
-        2.  Democratization - everything good that happened
+    -  Argument against Democracy is detrimental to economies
 
-            1.  it's more than just voting
+        <!--list-separator-->
 
-            2.  in some respects China is perhaps more democratic than India
+        -  Autocracy - everything bad that happened
 
-2.  What India needs
+        <!--list-separator-->
 
-    1.  Art of democratization of our society
+        -  Democratization - everything good that happened
 
-        1.  even after we have 7700 words in the constitution on this issue
+            <!--list-separator-->
 
-        2.  We created over structured under powered local governments.
+            -  it's more than just voting
 
-        3.  recognize the merit of de-centralization
+            <!--list-separator-->
 
-            1.  link between authority and accountability
+            -  in some respects China is perhaps more democratic than India
 
-            2.  understanding of link between vote and public good
+<!--list-separator-->
 
-            3.  link between taxes and services rendered
+-  What India needs
+
+    <!--list-separator-->
+
+    -  Art of democratization of our society
+
+        <!--list-separator-->
+
+        -  even after we have 7700 words in the constitution on this issue
+
+        <!--list-separator-->
+
+        -  We created over structured under powered local governments.
+
+        <!--list-separator-->
+
+        -  recognize the merit of de-centralization
+
+            <!--list-separator-->
+
+            -  link between authority and accountability
+
+            <!--list-separator-->
+
+            -  understanding of link between vote and public good
+
+            <!--list-separator-->
+
+            -  link between taxes and services rendered
 
                 -   tax avoidance is a national sport!
 
-    2.  Rule of Law
+    <!--list-separator-->
 
-        1.  impeccable system of law normative-ly
+    -  Rule of Law
 
-        2.  weak, in practice
+        <!--list-separator-->
 
-        3.  simple elegant answers exist.
+        -  impeccable system of law normative-ly
 
-            1.  administrative forms comission
+        <!--list-separator-->
 
-        4.  Culture of VIPs, cronyism, ...
+        -  weak, in practice
 
-    3.  Fight Corruption
+        <!--list-separator-->
 
-        1.  corruption in India is Ubiquitous!
+        -  simple elegant answers exist.
 
-        2.  answers are self-evident
+            <!--list-separator-->
 
-            1.  institutional mechanisms
+            -  administrative forms comission
 
-    4.  Electoral System
+        <!--list-separator-->
 
-        1.  Proportional Representation
+        -  Culture of VIPs, cronyism, ...
 
-        2.  Presidential system
+    <!--list-separator-->
 
-        3.  Old fashioned - first past the post system needs to go
+    -  Fight Corruption
 
-            1.  One vote can change things
+        <!--list-separator-->
 
-            2.  Vote buying will continue
+        -  corruption in India is Ubiquitous!
+
+        <!--list-separator-->
+
+        -  answers are self-evident
+
+            <!--list-separator-->
+
+            -  institutional mechanisms
+
+    <!--list-separator-->
+
+    -  Electoral System
+
+        <!--list-separator-->
+
+        -  Proportional Representation
+
+        <!--list-separator-->
+
+        -  Presidential system
+
+        <!--list-separator-->
+
+        -  Old fashioned - first past the post system needs to go
+
+            <!--list-separator-->
+
+            -  One vote can change things
+
+            <!--list-separator-->
+
+            -  Vote buying will continue
 
 
 #### Challenge {#challenge}
@@ -187,21 +263,31 @@ way.
 
 #### if language is not a marker, what's the new marker? {#if-language-is-not-a-marker-what-s-the-new-marker}
 
-1.  there's nothing wrong with having markers
+<!--list-separator-->
 
-2.  some uniform principle
+-  there's nothing wrong with having markers
+
+<!--list-separator-->
+
+-  some uniform principle
 
 
 #### big city is seeking a separate state-hood {#big-city-is-seeking-a-separate-state-hood}
 
-1.  could happen with another state
+<!--list-separator-->
 
-2.  how do we resolve it?
+-  could happen with another state
+
+<!--list-separator-->
+
+-  how do we resolve it?
 
 
 #### Once these things are resolved, it doesn't matter what happens. {#once-these-things-are-resolved-it-doesn-t-matter-what-happens-dot}
 
-1.  the real answer lies in de-centralization
+<!--list-separator-->
+
+-  the real answer lies in de-centralization
 
 
 ### Rule of Law and Democracy {#rule-of-law-and-democracy}
@@ -215,7 +301,9 @@ way.
 
 #### delivery of rule of law is weak {#delivery-of-rule-of-law-is-weak}
 
-1.  we have to set that right
+<!--list-separator-->
+
+-  we have to set that right
 
 
 #### freedom and economic growth are compatible - show this to the world! {#freedom-and-economic-growth-are-compatible-show-this-to-the-world}
@@ -238,11 +326,17 @@ way.
 
 #### politicians are just another set of human beings. period. {#politicians-are-just-another-set-of-human-beings-dot-period-dot}
 
-1.  do whatever it takes to stay in power
+<!--list-separator-->
 
-2.  they are not villians
+-  do whatever it takes to stay in power
 
-    1.  political framework
+<!--list-separator-->
+
+-  they are not villians
+
+    <!--list-separator-->
+
+    -  political framework
 
 
 ## Conclusion {#conclusion}

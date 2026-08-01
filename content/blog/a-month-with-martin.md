@@ -1,7 +1,8 @@
 ---
-title : "A Month with Martin"
-date : "2013-11-10T00:00:00+05:30"
-draft : false
+title: "A Month with Martin"
+date: 2013-11-10T17:13:17+05:30
+tags: ["programming", "learning", "enthought"]
+draft: false
 ---
 
 At my [$dayjob](http://enthought.com), for the most part of October, I had the fortune of

@@ -1,7 +1,8 @@
 ---
-title : "Bloggerstock: Do-over"
-date : "2010-09-30T00:00:00+05:30"
-draft : false
+title: "Bloggerstock: Do-over"
+date: 2010-09-30T19:22:00+05:30
+tags: ["blog"]
+draft: false
 ---
 
 This post is by Dominick Mills, coming to us, thanks to

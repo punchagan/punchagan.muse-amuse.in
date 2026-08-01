@@ -1,7 +1,8 @@
 ---
-title : "Using tmux to \"screen share\""
-date : "2014-11-24T00:00:00+05:30"
-draft : false
+title: "Using tmux to \"screen share\""
+date: 2014-11-24T18:38:21+05:30
+tags: ["hack", "ssh", "emacs"]
+draft: false
 ---
 
 I wanted to pair with a friend of mine, exploring Magit mode in Emacs.  There
@@ -24,28 +25,22 @@ anyone who'd like to reproduce.
 2.  Add your server's key to authorized keys on your local machine.
 
 3.  Create a reverse tunnel from your machine to the server.
-
     ```sh
     ssh -fNR 19999:localhost:22 server_user@example.com
     ```
-
     `-R 19999` essentially forwards port 19999 on `example.com` to
     localhost's 22.  `-fN` is to say no terminal, send connection to background.
 
 4.  Your partner first ssh's to example.com and then ssh's to your laptop.
 
     On your partner's machine
-
     ```sh
     ssh server_user@example.com
     ```
-
     On the server, your partner does
-
     ```sh
     ssh your_username@localhost -p 19999
     ```
-
     Your partner is on your machine, and can run `rm -rf`!  But, hopefully
     they'll only run `tmux attach`.  Obviously, do this only with people you
     trust!

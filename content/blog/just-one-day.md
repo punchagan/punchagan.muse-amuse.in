@@ -1,9 +1,11 @@
 ---
-title : "Just one day"
-date : "2012-11-26T00:00:00+05:30"
-tags : ["friend", "life", "poem"]
-draft : false
+title: "Just one day"
+date: 2012-11-26T00:10:00+05:30
+tags: ["friends", "life", "poem"]
+draft: false
 ---
+
+<div class="verse">
 
 The ripples on the quiet lake,<br />
 twinkling stars on a moonless night,<br />
@@ -63,6 +65,8 @@ after all, wasn't it just too much action,<br />
 for just one day, for a life engulfed by ennui?<br />
 <br />
 One some day, he told himself, and walked away.<br />
+
+</div>
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Old Talk: Write Prose, Not Just Programs"
 date: 2022-06-15T09:54:00+05:30
-tags: ["talk", "pycon", "blag"]
+tags: ["talks", "pycon", "blag"]
 draft: false
 ---
 
