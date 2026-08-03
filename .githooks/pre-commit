@@ -67,3 +67,29 @@ while IFS= read -r -d '' f; do
       ;;
   esac
 done < <(git diff --cached --name-only --diff-filter=ACM -z)
+
+# Require a non-empty `description` in the front matter of any staged
+# blog post - easy to forget since older posts don't have one, but we
+# want every post from here on to have one (helps link previews / RSS
+# readers show something better than the raw title).
+missing_description=()
+while IFS= read -r -d '' f; do
+  [ -f "$f" ] || continue
+  case "$f" in
+    content/blog/*.md)
+      front_matter=$(awk '/^---$/{n++; next} n==1' "$f")
+      if ! grep -Eq '^description:[[:space:]]*"[^"]+"' <<<"$front_matter" \
+        && ! grep -Eq "^description:[[:space:]]*'[^']+'" <<<"$front_matter" \
+        && ! grep -Eq '^description:[[:space:]]+[^"'"'"'[:space:]].*$' <<<"$front_matter"; then
+        missing_description+=("$f")
+      fi
+      ;;
+  esac
+done < <(git diff --cached --name-only --diff-filter=ACM -z)
+
+if [ ${#missing_description[@]} -gt 0 ]; then
+  echo "pre-commit: missing 'description' in front matter for:" >&2
+  printf '  %s\n' "${missing_description[@]}" >&2
+  echo "Add a description, or commit with --no-verify to skip." >&2
+  exit 1
+fi
