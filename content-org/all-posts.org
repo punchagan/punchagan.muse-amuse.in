@@ -32,7 +32,7 @@
 :EXPORT_FILE_NAME: weekly-31-2026
 :EXPORT_DATE: [2026-08-04 Tue 00:12]
 :CREATED:  [2026-08-04 Tue 00:12]
-:EXPORT_DESCRIPTION: 
+:EXPORT_DESCRIPTION: Flu week with some reading and lots of screen time...
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/pouch.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
