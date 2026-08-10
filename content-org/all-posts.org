@@ -27,6 +27,65 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
+* DONE Weekly #32 (2026) :tools:growth:artificial_intelligence:llm:weekly:family:bangalore:open_source:haskell:software_development:org_mode:
+:PROPERTIES:
+:EXPORT_FILE_NAME: weekly-32-2026
+:EXPORT_DATE: [2026-08-10 Mon 11:52]
+:CREATED:  [2026-08-10 Mon 11:52]
+:EXPORT_DESCRIPTION: Recovered from the Flu, enjoying a week off from work
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
+:EXPORT_OPTIONS: H:0 tags:nil
+:END:
+** DONE Voice input for capture :weekly:org_mode:hack:
+
+I tried using the FUTO keyboard for a while, but it's not working as well as I
+would like it. And opening Orgzly and typing in a heading, and content seems
+like too much work.
+
+I created (using Claude Code) a script now that creates a voice note for me,
+which is pushed to my server and can be transcribed on my laptop using a local
+Whisper model. It doesn't work as well as I would like it because the recording
+doesn't work until Termux is in the foreground, but it seems better than what I
+had before.
+** Notes on the AI Coding Transition :llm:software_development:work:weekly:
+
+I've been trying to read through this [[https://emschwartz.me/notes-from-the-ai-coding-transition/][lovely compilation]] of articles written by
+people about how Software Development is changing with AI. I've already read
+some of the articles when they were originally published, but reading them as a
+part of this collection seems useful.
+** Pandoc - twenty-years-of-pandoc :pandoc:open_source:hack:haskell:weekly:
+
+A colleague and another friend brought to my notice that I got a shoutout in
+the [[https://pandoc.org/twenty-years-of-pandoc.html][20 years of Pandoc]] post for contributing an org mode writer.
+
+I think this was [[https://github.com/jgm/pandoc/pull/8][my first]] "open source" code contribution to a large-ish
+project. I may have contributed small documentation fixes to Org mode before
+this, but I really wanted to convert some ReST documents to Org mode, IIRC. I
+did write a [[hugo:pandoc-can-now-do-org][tiny blog post]] about it, back then! (which seems to have lost links
+over years of transitioning between different blogging systems).
+** the Hebbal Short Tunnel project :weekly:bangalore:transport:urban_planning:
+
+Rishi made a couple of videos ([[https://www.instagram.com/reel/DbnC-Y7OlP3/][Instagram]] & [[https://www.youtube.com/watch?v=Z2VY2SsKdsE][YouTube]]) about how Bengaluru's
+Hebbal Short tunnel project has already started without due process! And it
+looks like the gains from it are questionable. If you care about this
+Bangalore's landscape, see the petitioni [[https://www.change.org/p/pause-the-hebbal-short-tunnel-project-to-save-bengaluru-s-green-blue-landscape?recruiter=1380983164&recruited_by_id=1a548cc0-76cc-11f0-889c-b1b1a2c41f81&utm_source=share_petition&utm_campaign=share_petition&utm_term=share_petition&utm_medium=mobileNativeShare&share_id=Thcz2twTcn][here]].
+** Fun evening with Sid :weekly:family:
+
+I had a lot of fun jumping around with Sid and drawing some mazes for him to
+solve. Harsha and I were thinking that it would be fun to write a generator for
+mazes like these.
+** Friction is the answer to the human desire for meaning :personal_development:tools:friction:growth:artificial_intelligence:llm:weekly:
+
+I read this interesting article by Utsav on how "[[https://utsavmamoria.substack.com/p/friction-is-the-answer-to-the-human?r=6eyyp&utm_medium=ios&triedRedirect=true][Friction is the answer to the
+human desire for meaning]]". I loved the format and the pictures in the article
+and also agree with the hypothesis. I have always believed that learning is
+effortful. And I see how some of the meaning I would derive from my work seems
+to be disappearing with the use of LLMs to get things done "quickly".
+
+But, also there are some kinds of friction which isn't useful. Some friction
+could just prevent you from getting started or continuing with something and I
+think it's worth sharpening your tools to smoothen out that friction is
+something I will continue to do.
 * DONE Weekly #31 (2026) :weekly:art:ultimate:funding:book:movie:telugu:personal:life:health:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-31-2026
