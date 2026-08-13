@@ -27,7 +27,7 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
-* DONE Weekly #32 (2026) :tools:growth:artificial_intelligence:llm:weekly:family:bangalore:open_source:haskell:software_development:org_mode:
+* Weekly #32 (2026) :tools:growth:artificial_intelligence:llm:weekly:family:bangalore:open_source:haskell:software_development:org_mode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-32-2026
 :EXPORT_DATE: [2026-08-10 Mon 11:52]
@@ -36,7 +36,7 @@
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
-** DONE Voice input for capture :weekly:org_mode:hack:
+** Voice input for capture :weekly:org_mode:hack:
 
 I tried using the FUTO keyboard for a while, but it's not working as well as I
 would like it. And opening Orgzly and typing in a heading, and content seems
@@ -86,7 +86,7 @@ But, also there are some kinds of friction which isn't useful. Some friction
 could just prevent you from getting started or continuing with something and I
 think it's worth sharpening your tools to smoothen out that friction is
 something I will continue to do.
-* DONE Weekly #31 (2026) :weekly:art:ultimate:funding:book:movie:telugu:personal:life:health:
+* Weekly #31 (2026) :weekly:art:ultimate:funding:book:movie:telugu:personal:life:health:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-31-2026
 :EXPORT_DATE: [2026-08-04 Tue 00:12]
@@ -136,7 +136,7 @@ era. Here's the [[https://milaap.org/fundraisers/support-delhi-ultimate-state-te
 The wife designed a pouch for a friend's family gathering. There were some
 pieces left from their gathering which we have been trying to sell to our
 friends' circle. If you'd like one, you can get it from [[https://no-rush-art.netlify.app/shop/posham-pa-pouch/][here]].
-* DONE Weekly #30 (2026) :food:podcast:women:culture:weekly:music:fitness:protest:india:education:
+* Weekly #30 (2026) :food:podcast:women:culture:weekly:music:fitness:protest:india:education:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-30-2026
 :EXPORT_DATE: [2026-07-27 Mon 12:07]
@@ -210,7 +210,7 @@ talks about everything from girls seen as a liability in South Asia to how
 hospitality industry glorifies the image of loud and abusive chefs and
 kitchens. I was inspiring to see how passionately she talked about her work and
 her women run kitchen. It's a 2 hour long conversation that is totally worth it!
-* DONE Blog Newsletter Restored :blog:newsletter:hack:email:blag:
+* Blog Newsletter Restored :blog:newsletter:hack:email:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: blog-newsletter-restored
 :EXPORT_DATE: [2026-07-27 Mon 12:06]
@@ -267,7 +267,7 @@ I wonder if I should automatically add the details of those I knew subscribed
 previously (but may have unsubscribed), or ask them if they'd like to be
 "re-subscribed". If you'd like to receive (at the most) weekly emails from me,
 containing posts from this blog, you can sign up [[https://punchagan.muse-amuse.in/subscribe/][here]].
-* DONE Weekly #29 (2026) :sqlite:orgmode:llm:programming:movie:restaurant:weekly:life:blab:
+* Weekly #29 (2026) :sqlite:orgmode:llm:programming:movie:restaurant:weekly:life:blab:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-29-2026
 :EXPORT_DATE: [2026-07-20 Mon 17:35]
@@ -331,7 +331,7 @@ to use at home.
 We (wife and I) watched Enola Holmes 3 on OTT. We enjoyed Millie Bobby Brown's
 "'Tis I" in the previous editions of the movie and looks like some of the other
 characters also picked it up this time around!
-* DONE Weekly #28 (2026) :blab:life:weekly:google:orgmode:friends:family:food:
+* Weekly #28 (2026) :blab:life:weekly:google:orgmode:friends:family:food:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-28-2026
 :EXPORT_DATE: [2026-07-15 Wed 11:29]
@@ -455,7 +455,7 @@ the bag" pricing. The available selection of the books didn't seem compelling
 enough to spend more than a few minutes in the small hall filled to the brim
 with people. Many of whom were trying to fill up their bags to the brim, err..
 I mean the zipper, to make the most of the pricing model but [[https://www.reddit.com/r/delhi/comments/1usupo3/buyer_beware_my_bitterly_disappointing_experience/][frustrated by it]].
-* DONE Why my Elfeed index was 0 bytes :emacs:blag:elfeed:programming:@best:
+* Why my Elfeed index was 0 bytes :emacs:blag:elfeed:programming:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: elfeed-index-0-bytes
 :EXPORT_DATE: [2026-01-23 Fri 23:08]
@@ -558,7 +558,7 @@ to recover from any such corruptions of data, which I already wrote about [[hugo
 I know that any code that uses ~with-temp-file~ (or ~write-region~) could be
 affected by this, and the right fix for this may be to write to a temporary
 file and rename it. Maybe next time I lose data I'll actually fix it properly.
-* DONE Elfeed DB backup hooks :elfeed:emacs:git:blag:
+* Elfeed DB backup hooks :elfeed:emacs:git:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: elfeed-db-back-up-hooks
 :EXPORT_DATE: [2026-01-20 Tue 23:13]
@@ -605,7 +605,7 @@ I've now added some back-up for the DB, since I intend to use Elfeed regularly.
   ;; Save and backup when new entries are added
   (add-hook 'elfeed-db-update-hook #'pc/elfeed-db-save-soon)
 #+end_src
-* DONE Safari and invalid HTTP/2 headers :blag:emacs:ocaml:web:
+* Safari and invalid HTTP/2 headers :blag:emacs:ocaml:web:
 :PROPERTIES:
 :EXPORT_FILE_NAME: safari-and-invalid-http-2-headers
 :EXPORT_DATE: [2026-01-16 Fri 16:02]
@@ -640,7 +640,7 @@ the following error:
 This was causing issues for [[https://github.com/Feyorsh][@Feyorsh]] who was trying out elfeed-offline with
 Safari. Thanks for taking the time to debug the problem and for suggesting a
 fix!
-* DONE An offline-friendly Elfeed web UI :emacs:blag:elfeed:ocaml:@best:project:
+* An offline-friendly Elfeed web UI :emacs:blag:elfeed:ocaml:@best:project:
 :PROPERTIES:
 :EXPORT_FILE_NAME: offline-friendly-elfeed-web-ui
 :EXPORT_DATE: [2026-01-02 Fri 16:43]
@@ -773,7 +773,7 @@ I have been enjoying using Elfeed offline for the past couple of weeks. And I'm
 hoping I'll end up spending much more time reading in it, than fixing and
 building it. It currently definitely feels like something I built for myself,
 but I'd love to hear from others who try it out.
-* DONE Some useful Git configuration for Windows :git:blag:windows:til:
+* Some useful Git configuration for Windows :git:blag:windows:til:
 :PROPERTIES:
 :EXPORT_FILE_NAME: some-useful-git-configuration-for-windows
 :EXPORT_DATE: [2025-01-24 Fri 01:17]
@@ -805,7 +805,7 @@ repository to share this configuration with other people working on it.
 
 - [[hugo:git-resources][Git resources]] : A post with some resources to better understand git, along
   with some useful git configuration.
-* DONE Restoring a broken Ubuntu upgrade :ubuntu:linux:hack:blag:
+* Restoring a broken Ubuntu upgrade :ubuntu:linux:hack:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: restoring-broken-ubuntu-upgrade
 :EXPORT_DATE: [2024-11-07 Thu 22:37]
@@ -883,7 +883,7 @@ using them.
 #+begin_reviewers
 Thanks to [[http://baali.muse-amuse.in][Shantanu]] and [[https://x.com/kamalx][Kamal]] for reading drafts of this post.
 #+end_reviewers
-* DONE Responsive Auto Export for Org Hugo :blag:emacs:hack:writing:
+* Responsive Auto Export for Org Hugo :blag:emacs:hack:writing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: responsive-auto-export-for-org-hugo
 :EXPORT_DATE: [2024-11-08 Fri 11:49]
@@ -987,7 +987,7 @@ breeze. Stay tuned for the "100s of blog posts" ™ I'm going to write!
 #+begin_reviewers
 Thanks to [[http://baali.muse-amuse.in][Shantanu]] and [[https://x.com/kamalx][Kamal]] for reading drafts of this post.
 #+end_reviewers
-* DONE Made in 2022 :blag:software:tools:hack:
+* Made in 2022 :blag:software:tools:hack:
 :PROPERTIES:
 :EXPORT_FILE_NAME: made-in-2022
 :EXPORT_DATE: [2023-03-08 Wed 23:35]
@@ -1080,7 +1080,7 @@ I've already built a couple of small things in 2023, and I hope I am able to
 find some interesting things to do this year.
 
 Link to the [[https://punchagan.muse-amuse.in/blog/made-in-2021/][2021]] post.
-* DONE Moving from Heroku to Fly.io :heroku:python:hack:blag:
+* Moving from Heroku to Fly.io :heroku:python:hack:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: moving-from-heroku-to-fly-dot-io
 :EXPORT_DATE: [2022-11-05 Sat 16:43]
@@ -1223,7 +1223,7 @@ of features they provide.
 
 I'd like to hear stories of other people moving away from Heroku! Feel free to
 reach out!
-* DONE Old Talk: Write Prose, Not Just Programs :talks:pycon:blag:
+* Old Talk: Write Prose, Not Just Programs :talks:pycon:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: old-talk-write-prose-not-just-programs
 :EXPORT_DATE: [2022-06-15 Wed 09:15]
@@ -1248,7 +1248,7 @@ the talk video and slides on my blog. So, here they are:
 
 PS: Ironically, my blog hasn't seen much activity after giving that talk due to
 various reasons.  I've been meaning and trying to change that off-late, though.
-* DONE GitHub Gists from Emacs Orgmode :blag:emacs:github:hack:programming:orgmode:
+* GitHub Gists from Emacs Orgmode :blag:emacs:github:hack:programming:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: ox-gist
 :EXPORT_DATE: [2022-04-21 Thu 09:08]
@@ -1353,7 +1353,7 @@ the maintainers.  I'm glad I took the time out to submit this package to MELPA.
 #+begin_reviewers
 Thanks to [[http://baali.muse-amuse.in][Shantanu]] for reading drafts and helping me restructure this post.
 #+end_reviewers
-* DONE Made in 2021 :blag:software:tools:hack:
+* Made in 2021 :blag:software:tools:hack:
 :PROPERTIES:
 :EXPORT_FILE_NAME: made-in-2021
 :EXPORT_DATE: [2022-02-24 Thu 01:55]
@@ -1392,7 +1392,7 @@ PS: This post is quite late into 2022, but it's an excuse to post something to
 a blog that's not seen any updates since the middle of 2020.
 
 /Hat tip to Bryan Braun whose [[https://www.bryanbraun.com/2022/01/11/made-in-2021/][post]] inspired me to write this/
-* DONE Instagram's user-friendliness :blag:rant:tools:software:
+* Instagram's user-friendliness :blag:rant:tools:software:
 :PROPERTIES:
 :EXPORT_FILE_NAME: instagram-user-friendliness
 :EXPORT_DATE: [2020-06-24 Wed 19:36]
@@ -1614,7 +1614,7 @@ left on the content-creators. This can often be frustrating.
 Thanks to [[https://balu.muse-amuse.in/][Kartik]], Meghana, Nitin, Pratiksha, [[https://a-travelers-tales.blogspot.com/][Ranjan]], [[https://www.lightstalking.com/author/riteshsaini/][Ritesh]], [[http://baali.muse-amuse.in][Shantanu]] and [[https://vkrishnaswam.github.io/][Vivek]]
 for reading drafts (or parts) of this post and helping by boucing off ideas.
 #+end_reviewers
-* DONE Deploying Hugo Drafts, simplified :hugo:blogging:hack:emacs:blag:
+* Deploying Hugo Drafts, simplified :hugo:blogging:hack:emacs:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: deploying-hugo-drafts-simplified
 :EXPORT_DATE: [2020-05-31 Sun 16:50]
@@ -1710,7 +1710,7 @@ I'm now all set to publish draft posts without requiring to use ~rsync~ and two
 todo keyword, like before, but additionally also remove the
 ~:EXPORT_HUGO_SECTION:~ property on the subtree. This should be quite quick to
 do, or pretty easy to put into an interactive function if required.
-* DONE Deploying Hugo Drafts :blag:hugo:blogging:hack:
+* Deploying Hugo Drafts :blag:hugo:blogging:hack:
 :PROPERTIES:
 :EXPORT_FILE_NAME: deploying-hugo-drafts
 :EXPORT_DATE: [2020-05-30 Sat 14:01]
@@ -1768,7 +1768,7 @@ behaviour I want.
 
 The code above is [[https://github.com/punchagan/dotfiles/blob/3652a6be42c776c6d1771e6cd46acadb2cafe295/bin/publish-hugo-drafts.sh][here]] as a single script. [[https://github.com/punchagan/punchagan.muse-amuse.in/blob/fdc80a61e28290c1c4a48a437bc77ec3fda811f5/deploy.sh][Here]] is the full deployment script
 for my blog.
-* DONE An innocent query that caused Zulip downtime :blag:zulip:python:software:@best:
+* An innocent query that caused Zulip downtime :blag:zulip:python:software:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: zulip-downtime-postmortem
 :EXPORT_DESCRIPTION: Notes on some changes I made recently that caused Zulip cloud to be down for a while
@@ -1928,7 +1928,7 @@ Here's the [[https://github.com/zulip/zulip/commit/ded3b0076070365dddccd43d7f05f
 #+begin_reviewers
 Thanks to [[https://web.mit.edu/tabbott/www/][Tim Abbott]] and [[http://baali.muse-amuse.in][Shantanu]] for reading drafts of this post.
 #+end_reviewers
-* DONE My Favorite Git Resources :blag:git:software:
+* My Favorite Git Resources :blag:git:software:
 :PROPERTIES:
 :EXPORT_FILE_NAME: git-resources
 :EXPORT_DESCRIPTION: Git Resources that I really like, and have shared with friends over and over
@@ -2053,7 +2053,7 @@ If you have other recommendations or tools that you'd like to share with me,
 please do! Using ~git~ better, and understanding it better, is something that
 I'm always excited about. I'd also be happy to answer questions, or help you
 with specific things that you are trying to do with ~git~.
-* DONE The tools we build change us :blag:software:tools:workflow:@best:
+* The tools we build change us :blag:software:tools:workflow:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: the-tools-we-build-change-us
 :EXPORT_DATE: [2020-04-08 Wed 11:01]
@@ -2107,7 +2107,7 @@ The tools we build can change us; if we let them.
 #+begin_reviewers
 Thanks to Rajesh, [[https://www.lightstalking.com/author/riteshsaini/][Ritesh]], [[https://tcluri.github.io/][Tejaa]] and [[http://baali.muse-amuse.in][Shantanu]] for reading drafts of this post.
 #+end_reviewers
-* DONE Django ModelFormSet and multiple saves :blag:software:python:django:
+* Django ModelFormSet and multiple saves :blag:software:python:django:
 :PROPERTIES:
 :EXPORT_FILE_NAME: django-modelformset-multiple-saves
 :EXPORT_DATE: [2019-09-25 Wed 10:15]
@@ -2241,7 +2241,7 @@ understand the issue better, and potentially help others who get bit by it.
 #+begin_reviewers
 Thanks to [[http://baali.muse-amuse.in][Shantanu]] for reading drafts of this post.
 #+end_reviewers
-* DONE Been there, done that, and still doing it! :software:management:learning:workplace:blag:@best:
+* Been there, done that, and still doing it! :software:management:learning:workplace:blag:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: been-there-done-that-and-still-doing-it
 :EXPORT_DATE: [2019-08-21 Wed 10:50]
@@ -2343,7 +2343,7 @@ wanted to delete to the other accounts. It worked pretty smoothly!
 Thanks to Aishwarya, Meghana, [[https://twitter.com/cst2bicycle/][Tejaa]] and [[http://baali.muse-amuse.in][Shantanu]] for reading drafts of this
 post.
 #+end_reviewers
-* DONE Isolating flaky Django tests :python:django:tests:blag:
+* Isolating flaky Django tests :python:django:tests:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: isolating-flaky-django-tests
 :EXPORT_DATE: [2019-06-05 Wed 10:22]
@@ -2393,7 +2393,7 @@ Thanks to [[https://baali.muse-amuse.in][Shantanu Choudhary]] for nudging me to 
 drafts of this post. Thanks also to [[https://blog.zulip.org/author/tabbott/][Tim Abbott]] for making me aware of these
 tricks.
 #+end_reviewers
-* DONE Thoughts on Technical Debt :programming:blag:software:idea:
+* Thoughts on Technical Debt :programming:blag:software:idea:
 :PROPERTIES:
 :EXPORT_FILE_NAME: thoughts-on-technical-debt
 :EXPORT_DATE: [2019-04-03 Wed 11:33]
@@ -2521,7 +2521,7 @@ the issue tracker with a special tag to make it easy to find them.
 Thanks to [[https://baali.muse-amuse.in][Shantanu Choudhary]] and [[https://vkrishnaswam.github.io/][Vivek Krishnaswamy]] for reading drafts of this post
 and giving helpful suggestions.
 #+end_reviewers
-* DONE Heroku apps with custom-domain and Cloudflare SSL :programming:blag:heroku:https:security:
+* Heroku apps with custom-domain and Cloudflare SSL :programming:blag:heroku:https:security:
 :PROPERTIES:
 :EXPORT_FILE_NAME: heroku-apps-custom-domain-cloudflare-ssl
 :EXPORT_DATE: [2019-03-13 Wed 10:54]
@@ -2643,7 +2643,7 @@ app can be hosted on Heroku and we can use the certs provided for free.
 I've done this setup, or some parts of it quite a few times, but each time I
 seem to need to look up the documentation. Every time, it seems to take longer
 than it needs to! Hopefully, this post will make it quick and reproducible.
-* DONE Catch of the Year Poll on Ultiworld: A pointless exercise :ultimate:culture:community:india:politics:
+* Catch of the Year Poll on Ultiworld: A pointless exercise :ultimate:culture:community:india:politics:
 :PROPERTIES:
 :EXPORT_FILE_NAME: catch-of-the-year-poll-on-ultiworld-a-pointless-exercise
 :EXPORT_DATE: [2019-03-06 Wed 11:13]
@@ -2712,7 +2712,7 @@ all should.
 Thanks to Meghana Iyer for sharing her strong views on this Ultiworld poll and
 for reading a draft of this post. Thanks to [[https://baali.muse-amuse.in][Shantanu Choudhary]] for encouraging
 me to write this post.
-* DONE Glue Highlight Reels :ultimate:teams:culture:blag:
+* Glue Highlight Reels :ultimate:teams:culture:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: glue-highlight-reels
 :EXPORT_DATE: [2019-01-30 Wed 12:17]
@@ -2841,7 +2841,7 @@ like a very promising idea. I'd like to give this a shot, as a team!
 
 Thanks to [[https://vimeo.com/tariqthekaekara][Tariq]], [[https://twitter.com/cst2bicycle/][Tejaa]] and [[http://baali.muse-amuse.in][Shantanu]] for being excited reading drafts of this
 post, and encouraging me to publish it.
-* DONE 2018 in Review :blag:life:blab:annual_review:ultimate:programming:writing:goals:
+* 2018 in Review :blag:life:blab:annual_review:ultimate:programming:writing:goals:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2018-in-review
 :EXPORT_DATE: [2019-01-12 Sat 17:35]
@@ -3178,7 +3178,7 @@ would be good starting points:
 
 Thanks [[https://tinyurl.com/ydd4s7jd][Kartik Krovvidi]] and [[http://baali.muse-amuse.in/][Shantanu Choudhary]] for reading drafts of this post,
 being excited about it, and useful suggestions to make it better.
-* DONE My New Standing Desk :health:hack:blag:
+* My New Standing Desk :health:hack:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: my-new-standing-desk
 :EXPORT_DATE: [2018-12-26 Wed 11:29]
@@ -3222,7 +3222,7 @@ desk, when I'm tired of standing. Let's see how it goes!
 -----
 
 Thanks [[http://baali.muse-amuse.in/][Shantanu Choudhary]] for reading a draft of this post.
-* DONE Goodbye Google Analytics :blog:blag:rust:philosophy:statistics:
+* Goodbye Google Analytics :blog:blag:rust:philosophy:statistics:
 :PROPERTIES:
 :EXPORT_FILE_NAME: goodbye-google-analytics
 :EXPORT_DATE: [2018-11-05 Mon 12:20]
@@ -3282,7 +3282,7 @@ useful stats.
 Thanks [Shantanu Choudhary](http://baali.muse-amuse.in/) for prompting me to
 write this post, reading a draft of this, and giving helpful suggestions to make
 it better.
-* DONE Self-care tips for new developers :blag:software:advice:health:selfcare:@best:
+* Self-care tips for new developers :blag:software:advice:health:selfcare:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: self-care-tips-for-new-developers
 :EXPORT_DATE: [2018-10-12 Fri 08:34]
@@ -3434,7 +3434,7 @@ more resources and advice.
 
 Thanks Akilesh Mani and [Shantanu Choudhary](http://baali.muse-amuse.in/) for
 reading drafts of this and giving helpful suggestions.
-* DONE Software development practices for sports teams :blag:programming:ultimate:hack:sport:teams:@best:
+* Software development practices for sports teams :blag:programming:ultimate:hack:sport:teams:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: software-development-practices-sports-teams
 :EXPORT_DATE: [2018-08-22 Wed 11:17]
@@ -3622,7 +3622,7 @@ Thanks Meghana Iyer, [[https://twitter.com/cloud9trt/][Ravitheja Tetali]], [[htt
 Rangarajan]] and Vivek Krishnaswamy for reading drafts of this post and giving
 helpful suggestions.
 #+end_reviewers
-* DONE Automation and Habits :blag:software:tools:workflow:
+* Automation and Habits :blag:software:tools:workflow:
 :PROPERTIES:
 :EXPORT_FILE_NAME: automation-and-habits
 :EXPORT_DATE: [2018-08-15 Wed 18:44]
@@ -3674,7 +3674,7 @@ further. This seems a lot like the idea in this post, except at a much larger
 scale.
 
 Thanks to [[http://baali.muse-amuse.in][Shantanu]] for reviewing this blog post.
-* DONE Python's globals :python:tests:programming:blag:
+* Python's globals :python:tests:programming:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: python-globals
 :EXPORT_DATE: [2018-07-25 Wed 21:11]
@@ -3927,7 +3927,7 @@ the code easier to reason about too.
 #+end_src
 
 Thanks to [[https://in.linkedin.com/in/akshaya-mukundhan][Akshaya]] and [[http://baali.muse-amuse.in][Shantanu]] for reviewing this blog post.
-* DONE Weird ISP Issue :blag:networking:debugging:
+* Weird ISP Issue :blag:networking:debugging:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weird-isp-issue
 :EXPORT_DATE: [2018-04-12 Thu 10:43]
@@ -3986,7 +3986,7 @@ when I switch to a different network.
 
 I'm not sure what I can do next to narrow down the problem, even more. Any
 hints/tips appreciated.
-* DONE Where do the Children Play (in Bangalore) :blag:sport:hack:
+* Where do the Children Play (in Bangalore) :blag:sport:hack:
 :PROPERTIES:
 :EXPORT_FILE_NAME: where-do-the-children-play-in-bangalore
 :EXPORT_DATE: [2018-02-10 Sat 08:50]
@@ -4032,7 +4032,7 @@ file:~/software/my-repos/muse-amuse.in/static/images/playo-find.jpg
 To Moar Badminton!
 
 #+html: <iframe width=" 700" height=" 500" src="https://www.youtube.com/embed/PiiZrZTrOFY?rel=0&amp;hd=1&amp;wmode=transparent"></iframe>
-* DONE Preview: A visualization git repository viewer :blag:visualization:code:clojure:
+* Preview: A visualization git repository viewer :blag:visualization:code:clojure:
 :PROPERTIES:
 :EXPORT_FILE_NAME: preview-a-visualization-git-repository-viewer
 :EXPORT_DESCRIPTION: Announcing Preview  - a tool to explore visualization related git repositories visually
@@ -4081,7 +4081,7 @@ file:~/Pictures/preview-branches.png
 The tool is pretty new and quite brittle right now, but already quite functional
 and useful, I think. If you do give it a spin, I'd love to hear your comments
 and feedback.
-* DONE Multiple remotes with nullmailer :emacs:email:hack:
+* Multiple remotes with nullmailer :emacs:email:hack:
 :PROPERTIES:
 :EXPORT_FILE_NAME: multiple-remotes-with-nullmailer
 :EXPORT_DESCRIPTION: Configuring nullmailer with multiple remote SMTP destinations
@@ -4137,7 +4137,7 @@ belong to the correct domain names -- i.e., reject relaying emails which had
 along with other values, and the ~smtpd_sender_login_maps~ had to be set to
 allow only the =@muse-amuse.in= domain. [[https://serverfault.com/questions/318334/how-to-enforce-sender-address-to-be-logged-in-userexample-org-in-postfix][This serverfault answer]] explains this in
 more detail.
-* DONE Cycling from Manali to Leh - An FAQ :cycling:himalaya:travel:blag:life:@best:
+* Cycling from Manali to Leh - An FAQ :cycling:himalaya:travel:blag:life:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: cycling-from-manali-to-leh-an-faq
 :EXPORT_DESCRIPTION: Memories, notes, tips and advice from our attempt at cycling from Manali to Leh
@@ -4368,7 +4368,7 @@ for rains and land-slides, though.
 
 You can find some pictures and videos [[https://photos.app.goo.gl/myqR5MktArCnlj4B3][here]]. The album also includes some
 pictures from our practice rides.
-* DONE HT interactives :blab:writing:data:india:visualization:
+* HT interactives :blab:writing:data:india:visualization:
 :PROPERTIES:
 :EXPORT_FILE_NAME: ht-interactives
 :EXPORT_DATE: [2017-09-27 Wed 23:27]
@@ -4402,7 +4402,7 @@ On the whole, I think they are doing pretty good work, and I shall be on the
 lookout for even better stuff from them. I'm sure I'll pick up a thing or two
 from their work, in my projects. Hopefully, other teams doing similar work will
 also learn from there and produce more good stuff for greedy readers like me.
-* DONE Prime Ministers of India - Simple d3 timeline :india:visualization:blag:project:
+* Prime Ministers of India - Simple d3 timeline :india:visualization:blag:project:
 :PROPERTIES:
 :EXPORT_FILE_NAME: prime-ministers-of-india-simple-d3-timeline
 :EXPORT_DATE: [2017-09-21 Thu 21:25]
@@ -4422,7 +4422,7 @@ over this time-line, with links to more information on these events. I'm not
 entirely sure, where I'm going with this, though.
 
 Any ideas and suggestions are more than welcome.
-* DONE Emacs frame as a pop-up input :emacs:hack:life:writing:blag:
+* Emacs frame as a pop-up input :emacs:hack:life:writing:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: emacs-frame-as-a-pop-up-input
 :EXPORT_DATE: [2017-09-14 Thu 22:26]
@@ -4479,7 +4479,7 @@ But, thanks to [[https://askubuntu.com/a/288483][this Ask Ubuntu post]], I could
               -F '((title . "Title") (left . (+ 550)) (top . (+ 400)) (width . 110) (height . 12))'\
               -e '(progn (pc/open-journal-buffer) (raise-frame) (x-focus-frame (selected-frame)))'
 #+end_src
-* DONE Blog trends from word clouds :data:visualization:blog:blag:
+* Blog trends from word clouds :data:visualization:blog:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: blog-trends-from-word-clouds
 :EXPORT_DATE: [2017-09-11 Mon 22:15]
@@ -4519,7 +4519,7 @@ names, urls contributing domain names, etc.
 Also, a simple line chart of the usage of tags vs. year might give a better
 sense of the themes in the blog by year, even though it may not look as fancy as
 a word-cloud.
-* DONE 30 years of floods in India :data:visualization:climate:blag:
+* 30 years of floods in India :data:visualization:climate:blag:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 30-years-of-floods-in-india
 :EXPORT_DATE: [2017-09-03 Sun 19:01]
@@ -4587,7 +4587,7 @@ by parsing the json file.
 #+end_src
 
 The visualization code itself is about a [[https://github.com/punchagan/data-projects/blob/master/30-years-floods/viz.js][hundred odd lines of d3 code]].
-* DONE Back, Hopefully :blog:blab:writing:
+* Back, Hopefully :blog:blab:writing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: back-hopefully
 :EXPORT_DATE: [2017-09-01 Fri 22:47]
@@ -4717,7 +4717,7 @@ half of 2010, was having a smooth work-flow. My current work-flow feels pretty
 nice too, and I hope it'll reduce some of the friction in writing more posts.
 
 Onwards!
-* DONE Create a Public Jupyter Server, quickly! :blag:hack:ipython:python:
+* Create a Public Jupyter Server, quickly! :blag:hack:ipython:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: create-a-public-jupyter-server-quickly
 :EXPORT_DATE: 2016-08-25T02:13:05+05:30
@@ -4739,7 +4739,7 @@ I just wrote a bash script that does the following, quickly -
 #+html: <script src="https://gist-it.appspot.com/github/punchagan/dot-files/blob/master/bin/jupyter-server.sh"></script>
 
 You can get it [[https://github.com/punchagan/dot-files/blob/master/bin/jupyter-server.sh][here]], if you'd like to use it.
-* DONE Google Trends, Clickbaits, and PV Sindhu :blag:data:india:internet:news:statistics:@best:
+* Google Trends, Clickbaits, and PV Sindhu :blag:data:india:internet:news:statistics:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: google-trends-clickbaits-and-pv-sindhu
 :EXPORT_DATE: 2016-08-20T22:59:13+05:30
@@ -4896,7 +4896,7 @@ some really good advice]].
 
 Thanks to [[https://twitter.com/kamalx][Kamal]], [[https://twitter.com/baali_][baali]] and [[https://twitter.com/cloud9trt][9]] for reading and reviewing drafts of this.  Errors
 mine, obviously.
-* DONE Python reload and module dict :blag:python:
+* Python reload and module dict :blag:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: python-reload-and-module-dict
 :EXPORT_DATE: 2016-06-23T16:05:30+05:30
@@ -4978,7 +4978,7 @@ is, but you can trip over it if you don't know. I hit a bug and was wondering
 if there was a race condition somewhere, until I read the docs for [[https://docs.python.org/3/library/importlib.html#importlib.reload][reload]]. On
 reload, *the module dict is updated*, instead of creating a new dict. Any
 values *not redefined* in the new code for the module *remain unchanged*.
-* DONE Assist time :blab:blag:productivity:programming:time:
+* Assist time :blab:blag:productivity:programming:time:
 :PROPERTIES:
 :EXPORT_FILE_NAME: assist-time
 :EXPORT_DATE: 2016-06-14T19:58:56+05:30
@@ -5004,7 +5004,7 @@ you weren't doing something on your TODO list.  It needn't be.
 
 Taking cue from [[https://en.wikipedia.org/wiki/Assist_(football)][scorers in Football]], I decided to call this time *assist time*
 and to try to start seeing this time as (semi-)productive. Naming helps.
-* DONE Effortful things :blab:blag:learning:life:
+* Effortful things :blab:blag:learning:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: effortful-things
 :EXPORT_DATE: 2016-06-11T15:43:19+05:30
@@ -5029,7 +5029,7 @@ much hard work.
 
 You can't build muscles effortlessly. Go do those effortful things! Only if you
 care about those muscles, anyway.
-* DONE Better styling bookmarklet :blag:hack:web:
+* Better styling bookmarklet :blag:hack:web:
 :PROPERTIES:
 :EXPORT_FILE_NAME: better-styling-bookmarklet
 :EXPORT_DATE: 2016-06-07T14:39:01+05:30
@@ -5076,7 +5076,7 @@ The code in a readable format is below.
 
 
 *Update [2016-06-07 Tue]*: [[https://twitter.com/baali_][baali]] pointed me to Firefox's [[https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages][Reader View]] which works well too.
-* DONE Reading-time based scheduling :blag:hack:idea:programming:reading:
+* Reading-time based scheduling :blag:hack:idea:programming:reading:
 :PROPERTIES:
 :EXPORT_FILE_NAME: reading-time-based-scheduling
 :EXPORT_DATE: 2016-06-06T13:13:12+05:30
@@ -5100,7 +5100,7 @@ work, and may do [[https://medium.com/@fchimero/this-should-only-take-a-minute-o
 if it helps my reading habits in any way.  A quick search pointed me to [[https://chrome.google.com/webstore/detail/readism-article-reading-t/bmiolhceebkeljaikojgcoeefblcihje][this
 extension]], that can give the reading time for any page but doesn't really do
 what I want.
-* DONE Stepping AFK :blab:blag:programming:thought:
+* Stepping AFK :blab:blag:programming:thought:
 :PROPERTIES:
 :EXPORT_FILE_NAME: stepping-afk
 :EXPORT_DATE: 2016-06-03T23:51:30+05:30
@@ -5128,7 +5128,7 @@ I'm reminded of Rich Hickey's [[https://www.youtube.com/watch?v=f84n5oFoZBc][Ham
 this is a smaller/different version of it, and makes me want to try out the
 things he suggests more deliberately.  If any of you has thoughts and
 suggestions, I'd love to hear from you!
-* DONE PyCon India 2016 - Propose a talk :advice:blab:blag:conference:pycon:talks:
+* PyCon India 2016 - Propose a talk :advice:blab:blag:conference:pycon:talks:
 :PROPERTIES:
 :EXPORT_FILE_NAME: pycon-india-2016-propose-a-talk
 :EXPORT_DATE: 2016-05-31T15:40:43+05:30
@@ -5188,7 +5188,7 @@ good proposal.
 - These posts ([[https://emptysqua.re/blog/tech-talks-are-campfires-jesses-three-reasons-you-should-speak-at-pycon/][1]] [[https://emptysqua.re/blog/seven-tips-for-pycon/][2]] and [[https://emptysqua.re/blog/tag/conference-tips/][more]]) by Jesse Davis are so so good!
 
 - I also liked [[https://vimeo.com/96692937]["The Talk on Talks"]] by Zach Holman.
-* DONE Save the Map -- Please respond :blag:india:legal:maps:
+* Save the Map -- Please respond :blag:india:legal:maps:
 :PROPERTIES:
 :EXPORT_FILE_NAME: save-the-map-please-respond
 :EXPORT_DATE: 2016-05-28T20:48:30+05:30
@@ -5211,7 +5211,7 @@ have you breaking the law.
 A group of volunteers made [[http://savethemap.in][Save the map]] which has more information on this,
 along with a draft response that you can send to the Ministry.  Please respond
 before June 2nd, 2016.
-* DONE Thinking about Data Ethics :blab:blag:data:ethics:programming:
+* Thinking about Data Ethics :blab:blag:data:ethics:programming:
 :PROPERTIES:
 :EXPORT_FILE_NAME: thinking-about-data-ethics
 :EXPORT_DATE: 2016-05-25T21:06:56+05:30
@@ -5244,7 +5244,7 @@ article, whether or not you are a researcher using data.
 
 Incidentally, there is a meet-up on [[http://www.meetup.com/DataKind-Bangalore/events/231310093/][Data Ethics]] this weekend in Bangalore. I'm
 excited to learn and think more about this, and talk to others who care.
-* DONE Level-up Tools :blab:blag:learning:life:programming:
+* Level-up Tools :blab:blag:learning:life:programming:
 :PROPERTIES:
 :EXPORT_FILE_NAME: level-up-tools
 :EXPORT_DATE: 2016-05-23T21:38:14+05:30
@@ -5272,7 +5272,7 @@ method or function to use to do something.
 
 What are some such level-up tools for you? Is there a systematic approach to
 discovering tools?
-* DONE blog-admin and Nikola :blab:blag:blog:emacs:nikola:
+* blog-admin and Nikola :blab:blag:blog:emacs:nikola:
 :PROPERTIES:
 :EXPORT_FILE_NAME: blog-admin-and-nikola
 :EXPORT_DATE: 2016-05-21T20:28:07+05:30
@@ -5300,7 +5300,7 @@ The filtering functionality is crude, but good enough for a start. One thing I
 want to add is a preview functionality for drafts. Showing some (writing)
 statistics would also be nice -- No. posts in the last month, total published
 posts, etc.  No promises, but you may see some of these things, soon. :)
-* DONE Tedium in work-flows :blab:programming:user_experience:workflow:
+* Tedium in work-flows :blab:programming:user_experience:workflow:
 :PROPERTIES:
 :EXPORT_FILE_NAME: tedium-in-work-flows
 :EXPORT_DATE: 2016-05-19T16:43:37+05:30
@@ -5347,7 +5347,7 @@ things would help:
 
 I'd love to hear examples of this, and any ideas or thoughts you may have on
 identifying and fixing such things!
-* DONE Error messages and new users :blab:programming:software:user_experience:
+* Error messages and new users :blab:programming:software:user_experience:
 :PROPERTIES:
 :EXPORT_FILE_NAME: error-messages-and-new-users
 :EXPORT_DATE: 2016-05-17T12:52:36+05:30
@@ -5373,7 +5373,7 @@ development mode where developers can get all the information they need.
 If you care about your users, especially new users, make sure you spend
 sufficient time on showing human-readable messages. If possible list the
 possible causes for every error along with tips for troubleshooting.
-* DONE Deoriatal and Chandrashila :himalaya:travel:trek:
+* Deoriatal and Chandrashila :himalaya:travel:trek:
 :PROPERTIES:
 :EXPORT_FILE_NAME: deoriatal-and-chandrashila
 :EXPORT_DATE: 2016-04-18T11:15:25+05:30
@@ -5668,7 +5668,7 @@ looking forward to go on more treks. As much as I dislike harshly cold weather,
 the beauty of the mountains is just too irresistible.
 
 You can view more pictures of the trek [[https://www.flickr.com/gp/punchagan/fXP8fG][here]].
-* DONE Partial postgres db dumps for a Django app :blag:django:postgres:sql:
+* Partial postgres db dumps for a Django app :blag:django:postgres:sql:
 :PROPERTIES:
 :EXPORT_FILE_NAME: partial-postgres-db-dumps-for-a-django-app
 :EXPORT_DATE: 2016-01-10T05:39:18+05:30
@@ -5782,7 +5782,7 @@ exactly the same kind of a query that =django-fixture-magic= lets you run, and
 figure out the SQL copies that need to be done to get the requested dump. Its
 something that currently would qualify as yak-shaving, but may be a handy thing
 to have. Someone somewhere possibly already has something that does this.
-* DONE Clock in and get-shit-done :blag:emacs:orgmode:
+* Clock in and get-shit-done :blag:emacs:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: clock-in-and-get-shit-done
 :EXPORT_DATE: 2015-12-22T19:47:04+05:30
@@ -5818,7 +5818,7 @@ work better.
 #+begin_src emacs-lisp
   (shell-command "SUDO_ASKPASS=\"/usr/lib/openssh/gnome-ssh-askpass\" get-shit-done work")
 #+end_src
-* DONE Elfeed hook to fetch full content :blag:elfeed:emacs:hack:pinboard:
+* Elfeed hook to fetch full content :blag:elfeed:emacs:hack:pinboard:
 :PROPERTIES:
 :EXPORT_FILE_NAME: elfeed-hook-to-fetch-full-content
 :EXPORT_DATE: 2015-12-19T13:42:29+05:30
@@ -5861,7 +5861,7 @@ can be easily fixed with a single call to =elfeed-apply-hooks-now=.
 
   (add-hook 'elfeed-new-entry-hook #'pc/get-entry-content)
 #+end_src
-* DONE Say Howdy with Emacs! :blag:code:emacs:hack:howdy:
+* Say Howdy with Emacs! :blag:code:emacs:hack:howdy:
 :PROPERTIES:
 :EXPORT_FILE_NAME: say-howdy-with-emacs
 :EXPORT_DATE: 2015-05-28T18:39:24+05:30
@@ -5898,7 +5898,7 @@ suite, that will hopefully make it easier for others to contribute.
 
 I'm looking forward to experimenting with this over the next few weeks and
 improving it. Hopefully, it'll help me keep in touch, better than I do now.
-* DONE WiFi Channels & my router's random invisibility :blag:debugging:hardware:howto:
+* WiFi Channels & my router's random invisibility :blag:debugging:hardware:howto:
 :PROPERTIES:
 :EXPORT_FILE_NAME: wifi-channels-my-routers-random-invisibility
 :EXPORT_DATE: 2015-04-22T11:48:50+05:30
@@ -5977,7 +5977,7 @@ It looked like most of the routers nearby used channels 1 and 6, with a few 3s
 and 4s.  Assuming, most of the other routers aren't doing this "Auto Scan"
 business, I set my router to always use Channel 9, and the laptop seems to be
 happily connected, now!
-* DONE Playing music using mpsyt from Emacs :blag:emacs:mpsyt:python:
+* Playing music using mpsyt from Emacs :blag:emacs:mpsyt:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: playing-music-using-mpsyt-from-emacs
 :EXPORT_DATE: 2015-04-20T23:47:18+05:30
@@ -6053,7 +6053,7 @@ pretty happy with how this all works, right now.
 
 
 [1] - Isn't it true, more often than not?
-* DONE org-drill for making it stick! :blag:emacs:hack:hackerschool:learning:orgmode:
+* org-drill for making it stick! :blag:emacs:hack:hackerschool:learning:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: org-drill-for-making-it-stick
 :EXPORT_DATE: 2015-01-17T01:06:54+05:30
@@ -6165,7 +6165,7 @@ hack, and welcome any suggestions on cleaning up the code.
           (bookmark-set "org-refile-last-stored")))
       (message "Refiled to %s" journal)))
 #+end_src
-* DONE How I learnt to use Emacs' profiler :emacs:orgmode:programming:
+* How I learnt to use Emacs' profiler :emacs:orgmode:programming:
 :PROPERTIES:
 :EXPORT_FILE_NAME: how-i-learnt-to-use-emacs-profiler
 :EXPORT_DATE: 2015-01-03T02:01:17+05:30
@@ -6254,7 +6254,7 @@ forward to collecting as much personal information as I can!  Thanks Karl for
 writing Memacs.  I am going to be a pretty heavy user, I think!  There seem to
 be a few rough edges, though, and I hope to help smoothen them out a little
 bit, over the next few weeks.
-* DONE Jabber message queue :emacs:hack:
+* Jabber message queue :emacs:hack:
 :PROPERTIES:
 :EXPORT_FILE_NAME: jabber-message-queue
 :EXPORT_DATE: 2014-12-10T03:27:14+05:30
@@ -6277,7 +6277,7 @@ and I can type and send messages like I usually do.  Hitting ~RET~ after typing
 a message queues it up, instead of trying to send it. Smooth!
 
 The code is in my [[https://github.com/punchagan/dot-emacs/blob/master/punchagan.org#jabber][.emacs]]
-* DONE Using tmux to "screen share" :hack:ssh:emacs:
+* Using tmux to "screen share" :hack:ssh:emacs:
 :PROPERTIES:
 :EXPORT_FILE_NAME: using-tmux-to-screen-share
 :EXPORT_DATE: 2014-11-24T18:38:21+05:30
@@ -6331,7 +6331,7 @@ anyone who'd like to reproduce.
 5. Start a tmux session locally.
 
 6. Profit!
-* DONE erc-notifications when Emacs not in focus :emacs:hack:
+* erc-notifications when Emacs not in focus :emacs:hack:
 :PROPERTIES:
 :EXPORT_FILE_NAME: erc-notifications-when-emacs-not-in-focus
 :EXPORT_DATE: 2014-11-06T18:05:12+05:30
@@ -6358,7 +6358,7 @@ In case it is useful for somebody else -
 
 I wonder if there are some corner cases where this doesn't work, and that's why
 the author of circe-notifications chose the tools that he did.
-* DONE More input sources for org-drill :emacs:hack:learning:orgmode:
+* More input sources for org-drill :emacs:hack:learning:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: more-input-sources-for-org-drill
 :EXPORT_DATE: 2014-11-04T07:25:04+05:30
@@ -6394,7 +6394,7 @@ an interesting problem to try to solve.
 Also, it might be easier(?) if I probably tried to have a DE level keybinding, and
 some code to get selection and file name of the currently active
 window/application.
-* DONE Martin Fowler on Refactoring @ RubyRogues :advice:code:programming:
+* Martin Fowler on Refactoring @ RubyRogues :advice:code:programming:
 :PROPERTIES:
 :EXPORT_FILE_NAME: martin-fowler-on-refactoring-rubyrogues
 :EXPORT_DATE: 2014-10-25T19:53:25+05:30
@@ -6424,7 +6424,7 @@ Or, at least we should strive to make it so!
 
 The discussion, as always on this podcast, was very lively, pleasant and
 enjoyable! Enjoy!
-* DONE Learning about Spaced Repetition, SuperMemo, Org-drill, et al. :learning:life:memory:software:
+* Learning about Spaced Repetition, SuperMemo, Org-drill, et al. :learning:life:memory:software:
 :PROPERTIES:
 :EXPORT_FILE_NAME: learning-about-spaced-repetition-supermemo-org-drill-et-al
 :EXPORT_DATE: 2014-10-24T19:07:07+05:30
@@ -6491,7 +6491,7 @@ but if you really don't want to -- this blog post + the summary in [[http://www.
   mentally. Exercise, sleep, eat well, avoid caffeine.
 
 - Try [[http://www.supermemo.com/help/read.htm][incremental]] [[http://www.supermemo.com/articles/devour.htm][reading]], as an input source of items into your memory system.
-* DONE Simple org-clock and gnome/pidgin integration :code:emacs:orgmode:
+* Simple org-clock and gnome/pidgin integration :code:emacs:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: simple-org-clock-and-gnomepidgin-integration
 :EXPORT_DATE: 2014-10-22T16:43:35-04:00
@@ -6566,7 +6566,7 @@ Here is the new code.
   (add-hook 'org-clock-in-hook 'pc/turn-off-notifications)
   (add-hook 'org-clock-out-hook 'pc/turn-on-notifications)
 #+end_src
-* DONE Making PyCon India better (for myself) :event:pycon:
+* Making PyCon India better (for myself) :event:pycon:
 :PROPERTIES:
 :EXPORT_FILE_NAME: making-pycon-india-better-for-myself
 :EXPORT_DATE: 2014-10-14T07:53:47-04:00
@@ -6637,7 +6637,7 @@ already.  Here's a summary of how I see it.
 [5] http://www.craigkerstiens.com/2012/06/19/pro-tips-for-conference-talks/
 
 [6] https://us.pycon.org/2015/speaking/proposal_advice/samples/SpacePug/
-* DONE Learning to use Org-drill :emacs:learning:orgmode:software:
+* Learning to use Org-drill :emacs:learning:orgmode:software:
 :PROPERTIES:
 :EXPORT_FILE_NAME: learning-to-use-org-drill
 :EXPORT_DATE: 2014-10-14T00:07:04-04:00
@@ -6670,7 +6670,7 @@ that:
 Cram mode and incremental reading are also things I want to try, as I go along.
 
 Happy Learning!
-* DONE OAuth2 demystified :hackerschool:oauth2:
+* OAuth2 demystified :hackerschool:oauth2:
 :PROPERTIES:
 :EXPORT_FILE_NAME: oauth2-demystified
 :EXPORT_DATE: 2014-06-20T10:09:51-04:00
@@ -6818,7 +6818,7 @@ Also, [[https://github.com/idan/oauthlib][oauthlib]] for Python seems to be a pr
 implementation of the spec, and [[https://github.com/requests/requests-oauthlib][requests-oauthlib]] seems to wrap it
 for use with requests.  I think I'm going to use this in my future
 projects.
-* DONE Org based posts in Nikola :blog:emacs:nikola:orgmode:
+* Org based posts in Nikola :blog:emacs:nikola:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: org-based-posts-in-nikola
 :EXPORT_DATE: 2014-04-20T17:35:10+05:30
@@ -6867,7 +6867,7 @@ my blog open, and push it onto GitHub.
 
 - I also have [[https://github.com/punchagan/dot-emacs/blob/master/punchagan.org#nikola-stuff][custom elisp]] to be able to make a new post, and deploy the site
   from within Emacs.
-* DONE Let there be light, in skype! :hack:linux:
+* Let there be light, in skype! :hack:linux:
 :PROPERTIES:
 :EXPORT_FILE_NAME: let-there-be-light-in-skype
 :EXPORT_DATE: 2014-03-29T23:22:27+05:30
@@ -6892,7 +6892,7 @@ trick!  Thanks gstreamer!  Thanks v4l2loopback! :)
 Here's a convenient [[https://gist.github.com/punchagan/9859210][script]] to use it every time I need it.
 
 #+html: <script src="https://gist.github.com/9859210.js"></script>
-* DONE Scraping Google Groups :email:hack:idea:mumbai:ultimate:
+* Scraping Google Groups :email:hack:idea:mumbai:ultimate:
 :PROPERTIES:
 :EXPORT_FILE_NAME: scraping-google-groups
 :EXPORT_DATE: 2013-12-31T19:55:58+05:30
@@ -6910,7 +6910,7 @@ quite a bit, but I am not inclined to do anything about it, right
 now.  Since, everything about google groups is ajaxy, this script uses
 selenium and does things on the page, that one would do by hand.  It's
 not something that I am proud of, but it does the job!
-* DONE Cold :blab:cold:fiction:life:story:
+* Cold :blab:cold:fiction:life:story:
 :PROPERTIES:
 :EXPORT_FILE_NAME: cold
 :EXPORT_DATE: 2013-11-13T01:03:45+05:30
@@ -6964,7 +6964,7 @@ didn't matter how much below zero the mercury had gone. This wasn't the first
 night he was spending staring into the nothingness. It turned out to be the
 coldest night, in a decade. But that didn't matter to him. Nothing did. Nothing
 has, for a while now; Ever since he turned cold.
-* DONE A smarter 404 page :code:fuzzy_search:hack:js:
+* A smarter 404 page :code:fuzzy_search:hack:js:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-smarter-404-page
 :EXPORT_DATE: 2013-11-11T12:36:53+05:30
@@ -6982,7 +6982,7 @@ search plugin, and returns a list of top 5 results.  It just took me
 about an hour to write, but is pretty useful, I think.
 
 [[https://punchagan.muse-amuse.in/hack][(View source of the 404 page)]]
-* DONE A Month with Martin :programming:learning:enthought:
+* A Month with Martin :programming:learning:enthought:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-month-with-martin
 :EXPORT_DATE: 2013-11-10T17:13:17+05:30
@@ -6993,7 +6993,7 @@ pair programming with [[https://plus.google.com/114995175796183910458/posts][Mar
 experience!  To share these lessons with my colleagues, I made a small
 presentation at lunch, to my colleagues.  [[https://rawgithub.com/punchagan/340e1350fdfc766c6599/raw/ca1f5fe9bfc1cc503cd8a524e350bd29e8f5f33d/month-with-martin.html][Here are the slides]] for the
 presentation.
-* DONE Bookmarks and Quotes plugin :blog:code:nikola:orgmode:
+* Bookmarks and Quotes plugin :blog:code:nikola:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-and-quotes-plugin
 :EXPORT_DATE: 2013-10-19T20:26:13+05:30
@@ -7021,7 +7021,7 @@ make it to the main feed, though.
 - The quotes feed no longer exists!
 - The bookmarks feed doesn't really get too many updates. I use pinboard for my
   bookmarks, now.
-* DONE Blogging with Nikola and Org-mode :blog:hack:orgmode:
+* Blogging with Nikola and Org-mode :blog:hack:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: blogging-with-nikola-and-org-mode
 :EXPORT_DATE: 2013-10-16T22:40:47+05:30
@@ -7041,7 +7041,7 @@ Nikola to support posting from org files.  And then with a [[https://gist.github
 Python]], I was able to move everything over to use Nikola.
 
 Hopefully, I'll keep my blog more updated, from here on!
-* DONE Unread (8,762) :blab:fiction:wait:
+* Unread (8,762) :blab:fiction:wait:
 :PROPERTIES:
 :EXPORT_FILE_NAME: unread-8762
 :EXPORT_DATE: 2013-06-03T20:46:00+05:30
@@ -7076,7 +7076,7 @@ attention I deserved, today!  Reply, ASAP!
 
 PS: Apologies for all those emails that are still starred and
 unread, in my Inbox...
-* DONE Surat Ultimate Open :awesome:first:fun:sport:surat:ultimate:
+* Surat Ultimate Open :awesome:first:fun:sport:surat:ultimate:
 :PROPERTIES:
 :EXPORT_FILE_NAME: surat-ultimate-open
 :EXPORT_DATE: 2013-03-26T11:11:00+05:30
@@ -7224,7 +7224,7 @@ to watch, cheer and capture!
 Even if, our team won just one out of the 6 games we played, it
 was an Ultimate tourney.  Literally!  Looking forward to future
 tournaments.
-* DONE Best Practices for Scientific Computing :advice:programming:science:software:
+* Best Practices for Scientific Computing :advice:programming:science:software:
 :PROPERTIES:
 :EXPORT_FILE_NAME: best-practices-for-scientific-computing
 :EXPORT_DATE: 2012-12-24T16:21:00+05:30
@@ -7318,7 +7318,7 @@ A summary of the paper by Greg Wilson et. al., is below.
     - use pair programming when bringing someone new up to speed
       and when tackling particularly tricky problems
     - use an issue tracking tool
-* DONE cStringIO and unicode :bug:note:python:
+* cStringIO and unicode :bug:note:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: cstringio-and-unicode
 :EXPORT_DATE: 2012-12-03T21:11:00+05:30
@@ -7340,7 +7340,7 @@ Just making a note for myself:
 
 
 Or may be it's just time to move up to Python 2.7.3
-* DONE 3 tips for those shipping (commercial) apps :enthought:programming:software:tips:
+* 3 tips for those shipping (commercial) apps :enthought:programming:software:tips:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 3-tips-for-those-shipping-commercial-apps
 :EXPORT_DATE: 2012-11-28T20:56:00+05:30
@@ -7363,7 +7363,7 @@ talk today, by Deepankar Sharma.
    you add a new mode to your application, effectively adding one
    more code path to maintain.
 4. (Bonus) Beware of too much extensibility
-* DONE Just one day :friends:life:poem:
+* Just one day :friends:life:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: just-one-day
 :EXPORT_DATE: 2012-11-26T00:10:00+05:30
@@ -7435,7 +7435,7 @@ One some day, he told himself, and walked away.
 -----
 
 Inspired by a friend.
-* DONE Gustaakh Dil :love:lyrics:song:
+* Gustaakh Dil :love:lyrics:song:
 :PROPERTIES:
 :EXPORT_FILE_NAME: gustaakh-dil
 :EXPORT_DATE: 2012-11-24T19:46:00+05:30
@@ -7508,7 +7508,7 @@ it a bunch of times and think we have got it all right, here.
 मुश्किल में दिल
 (मुश्किल में दिल)
 #+end_verse
-* DONE Error: Missing one hebrew character :internet:passwords:web:
+* Error: Missing one hebrew character :internet:passwords:web:
 :PROPERTIES:
 :EXPORT_FILE_NAME: error-missing-one-hebrew-character
 :EXPORT_DATE: 2012-11-21T21:01:00+05:30
@@ -7528,7 +7528,7 @@ show the arbitrary rules you enforce on me, at the login prompt too!
 
 Sincerely,
 A frustrated-web-monkey
-* DONE Talks at PyCon India 2012 :death:python:scipy:
+* Talks at PyCon India 2012 :death:python:scipy:
 :PROPERTIES:
 :EXPORT_FILE_NAME: talks-at-pycon-india-2012
 :EXPORT_DATE: 2012-09-02T23:12:00+05:30
@@ -7554,7 +7554,7 @@ of PyCon.
 
 Sadly, John Hunter, the lead author of matplotlib, also passed
 away last week.  RIP. :(
-* DONE Browsing the streets with Firefox :bicycling:fun:
+* Browsing the streets with Firefox :bicycling:fun:
 :PROPERTIES:
 :EXPORT_FILE_NAME: browsing-the-streets-with-firefox
 :EXPORT_DATE: 2012-09-02T22:55:00+05:30
@@ -7580,7 +7580,7 @@ whole.
 I didn't time myself, but I roughly covered about 25 kms in say
 about ~2 hours.  Hoping to start riding more frequently and going
 on longer rides.
-* DONE A git-diff tip :git:version_control:
+* A git-diff tip :git:version_control:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-git-diff-tip
 :EXPORT_DATE: 2012-08-22T23:06:00+05:30
@@ -7643,7 +7643,7 @@ around using cherry-pick or the like.
   git checkout other-branch
   git cherry-pick branch1
 #+end_src
-* DONE Selling Temples -- A How-to :humour:india:people:
+* Selling Temples -- A How-to :humour:india:people:
 :PROPERTIES:
 :EXPORT_FILE_NAME: selling-temples-a-how-to
 :EXPORT_DATE: 2012-04-10T00:24:00+05:30
@@ -7748,7 +7748,7 @@ Transportation grows by leaps and bounds, hospitals and schools
 grow with the population, the local vendors start earning more and
 get a better quality of life, and all that jazz.  I guess, you get
 the drift.
-* DONE An import gotcha in Python :python:
+* An import gotcha in Python :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: an-import-gotcha-in-python
 :EXPORT_DATE: 2012-08-20T14:46:00+05:30
@@ -7821,7 +7821,7 @@ figuring out what's wrong...
 : <class 'baz.bar.B'> --> <class 'baz.bar.B'>
 : baz.bar <module 'baz.bar' from '/tmp/baz/bar.pyc'>
 : bar <module 'bar' from 'bar.pyc'>
-* DONE GitHub Cue: Recommendations for GitHub Repos :app:chrome:code:github:hack:
+* GitHub Cue: Recommendations for GitHub Repos :app:chrome:code:github:hack:
 :PROPERTIES:
 :EXPORT_FILE_NAME: github-cue-recommendations-for-github-repos
 :EXPORT_DATE: 2011-08-05T18:51:00+05:30
@@ -7863,7 +7863,7 @@ onto my server.  I settled down to the next best thing I could
 think of.
 
 I would appreciate any further ideas and suggestions.  Thanks!
-* DONE Org-mode Workshop :emacs:hyderabad:orgmode:
+* Org-mode Workshop :emacs:hyderabad:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: org-mode-workshop
 :EXPORT_DATE: 2011-06-22T21:04:00+05:30
@@ -7895,7 +7895,7 @@ are surely somethings to take away from this one.  I hope at least
 one of the participants, gets hooked to Org-mode.
 
 The talk outline is here.
-* DONE Hand in Glove :life:love:me:poem:
+* Hand in Glove :life:love:me:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: hand-in-glove
 :EXPORT_DATE: 2011-05-20T14:51:00+05:30
@@ -7933,7 +7933,7 @@ realized, I was trying to say too much. Here's another poem,
 with one part of what I wanted to say. I will not be writing
 newer poems, to say the other stuff. Perform your own Fourier
 analysis.
-* DONE Love Unvoiced :life:love:me:poem:
+* Love Unvoiced :life:love:me:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: love-unvoiced
 :EXPORT_DATE: 2011-05-20T09:31:00+05:30
@@ -7975,7 +7975,7 @@ it's written; and you, sure, read me!
 Love you, for being the more loving one!
 
 #+end_verse
-* DONE I love FOSS.  How do I start contributing (code)? :contribute:foss:howto:newbie:@best:
+* I love FOSS.  How do I start contributing (code)? :contribute:foss:howto:newbie:@best:
 :PROPERTIES:
 :EXPORT_FILE_NAME: i-love-foss-how-do-i-start-contributing-code
 :EXPORT_DATE: 2011-03-28T00:34:00+05:30
@@ -8176,7 +8176,7 @@ orgmode.  And so, org2blog was born.
 [fn:gethub] I recently wrote a Chrome extension, thanks to a friend's idea.
 Inspired by Gmail notifications, a GitHub addict wanted notifications for
 activity in GitHub.
-* DONE GetHub: Chrome Notifications for Github updates :chrome:code:first:git:software:
+* GetHub: Chrome Notifications for Github updates :chrome:code:first:git:software:
 :PROPERTIES:
 :EXPORT_FILE_NAME: gethub-chrome-notifications-for-github-updates
 :EXPORT_DATE: 2011-03-02T00:34:00+05:30
@@ -8216,7 +8216,7 @@ one-time verification fee that Google asks for.
 
 
 Happy GitHubbing!
-* DONE Git powered wikis improved: My bit :code:contribute:emacs:foss:git:orgmode:
+* Git powered wikis improved: My bit :code:contribute:emacs:foss:git:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: git-powered-wikis-improved-my-bit
 :EXPORT_DATE: 2011-02-04T17:55:00+05:30
@@ -8249,7 +8249,7 @@ been accepted.  :)
 
 If not anything more, I hope, at least a couple of curious people
 will explore org-mode and find it useful.
-* DONE CHAGANTI 635888 Emacs :contribute:emacs:fsf:orgmode:
+* CHAGANTI 635888 Emacs :contribute:emacs:fsf:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: chaganti-635888-emacs
 :EXPORT_DATE: 2011-02-03T03:46:00+05:30
@@ -8267,7 +8267,7 @@ program code.
 
 Yay! I can now write code, that can go into Org-mode and Emacs!
 I'm looking forward to this!
-* DONE Changes to Blog :blog:orgmode:python:
+* Changes to Blog :blog:orgmode:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: changes-to-blog
 :EXPORT_DATE: 2011-02-02T23:41:00+05:30
@@ -8300,7 +8300,7 @@ this.  So, the site will have no comments.  You can write to me,
 in case you've something to say to me.
 
 Adios.
-* DONE What's up with org2blog? :org2blog:wordpress:
+* What's up with org2blog? :org2blog:wordpress:
 :PROPERTIES:
 :EXPORT_FILE_NAME: whats-up-with-org2blog
 :EXPORT_DATE: 2011-01-15T11:10:00+05:30
@@ -8331,7 +8331,7 @@ to be called =org2blog= but we reference each others packages, to
 reduce the confusion, amongst users.
 
 =org2blog/wp= version 0.4 comes with the new namespace.
-* DONE Why I like Org as a markup :emacs:orgmode:writing:
+* Why I like Org as a markup :emacs:orgmode:writing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: why-i-like-org-as-a-markup
 :ID:       why-i-like-org-as-a-markup
@@ -8351,7 +8351,7 @@ your headings are, what level your current sub-heading is at, etc.
 org-addict. ;)).  With org-mode it's so intuitive!  It's so easy
 to find out, with just one quick look!  I don't think any other
 markup has this coolness! Org-mode FTW!
-* DONE To Ananthagiri :cycling:hyderabad:lafoot:
+* To Ananthagiri :cycling:hyderabad:lafoot:
 :PROPERTIES:
 :EXPORT_FILE_NAME: to-ananthagiri
 :EXPORT_DATE: 2011-01-01T08:58:00+05:30
@@ -8364,7 +8364,7 @@ I had been to Ananthagiri, near Vikarabad for a 2 day ride.  It was
 a fun ride.  Thanks to Atlanta Foundation for renting the cyles.
 Hi-fi to all the riders who made it to the ride.  A detailed
 report is [[https://lafootrix.wordpress.com/2010/12/28/to-ananthagiri-first-in-the-series/][here]].
-* DONE My talk at SciPy.in 2010 :python:scipy:
+* My talk at SciPy.in 2010 :python:scipy:
 :PROPERTIES:
 :EXPORT_FILE_NAME: my-talk-at-scipyin-2010
 :EXPORT_DATE: 2010-12-20T18:17:00+05:30
@@ -8380,7 +8380,7 @@ surprise, the talk was liked by quite a few people.  Thanks to
 Prof. Jayant Kirtane for the Bournville!
 
 Here are the [[https://github.com/punchagan/talks/blob/master/scipy.in-2010/slides/outline.pdf][talk slides]]
-* DONE MTU and file transfers :ssh:
+* MTU and file transfers :ssh:
 :PROPERTIES:
 :EXPORT_FILE_NAME: mtu-and-file-transfers
 :EXPORT_DATE: 2010-12-06T13:04:00+05:30
@@ -8408,7 +8408,7 @@ A note to self, but may benefit someone facing a similar problem.
      was with a machine between me and the server.
      Changing the =mtu= to 1492 from 1500 on the
      server, fixed the problem. :)
-* DONE Pandoc can now do Org :emacs:haskell:orgmode:
+* Pandoc can now do Org :emacs:haskell:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: pandoc-can-now-do-org
 :EXPORT_DATE: 2010-12-06T12:52:00+05:30
@@ -8438,7 +8438,7 @@ and was able to port the RST writer in Pandoc, to an Org
 writer.  :)
 
 You can get the latest version from here
-* DONE Do our eyes suck at blue? :fun:hack:image_processing:python:
+* Do our eyes suck at blue? :fun:hack:image_processing:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: do-our-eyes-suck-at-blue
 :EXPORT_DATE: 2010-11-13T13:26:00+05:30
@@ -8539,7 +8539,7 @@ Here are a few images.  (View them in their original size)
 file:../../images/channels.png
 
 file:../../images/subsample.png
-* DONE Raise windows (on current desktop) xdotool & bash :code:hack:
+* Raise windows (on current desktop) xdotool & bash :code:hack:
 :PROPERTIES:
 :EXPORT_FILE_NAME: raise-windows-on-current-desktop-xdotool-bash
 :EXPORT_DATE: 2010-11-06T14:30:00+05:30
@@ -8587,7 +8587,7 @@ it.
 [fn:dusual] dusual on twitter
 
 [fn:one-liner] Jordan's one liner
-* DONE JP - 19th Century Politics & 21st Century Economics :note:politics:
+* JP - 19th Century Politics & 21st Century Economics :note:politics:
 :PROPERTIES:
 :EXPORT_FILE_NAME: jp-19th-century-politics-21st-century-economics
 :EXPORT_DATE: 2010-11-05T09:49:00+05:30
@@ -8728,7 +8728,7 @@ country. Communications revolution is helping bring change.  The
 question is, What direction of change?  I ask of you, to make a
 difference to the way the Indian political trajectory takes
 shape.
-* DONE Raising Windows using Python :python:
+* Raising Windows using Python :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: raising-windows-using-python
 :EXPORT_DATE: 2010-11-03T23:06:00+05:30
@@ -8788,7 +8788,7 @@ Any improvements and suggestions are welcome.
 [fn:dumma] dusual on twitter
 
 [fn:xdt] xdotool - Homepage
-* DONE WP to org-mode + hyde + disqus :orgmode:wordpress:
+* WP to org-mode + hyde + disqus :orgmode:wordpress:
 :PROPERTIES:
 :EXPORT_FILE_NAME: wp-to-org-mode-hyde-disqus
 :EXPORT_DATE: 2010-10-22T14:49:00+05:30
@@ -8921,7 +8921,7 @@ are interested.  Leave a comment, if you wish. :)
 I'm just hoping to reduce the additional steps required in
 publishing to ensure it doesn't add to my already erratic
 blogging habits.
-* DONE Augmented assignment in Python :note:numpy:ology:python:
+* Augmented assignment in Python :note:numpy:ology:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: augmented-assignment-in-python
 :EXPORT_DATE: 2010-10-04T22:49:00+05:30
@@ -8972,7 +8972,7 @@ The right way to use the augmented assignment operator, would be:
 
 The same thing is explained in this thread.  Also, Thanks to
 Bhanukiran for asking me this.
-* DONE Who I am :blab:life:poem:
+* Who I am :blab:life:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: who-i-am
 :EXPORT_DATE: 2010-10-04T19:31:00+05:30
@@ -9002,7 +9002,7 @@ and all of it that I spread.
 Don't cry, when I die,
 for I never really will.
 #+end_verse
-* DONE Some fun from #org-mode :emacs:IRC:note:org2blog:orgmode:
+* Some fun from #org-mode :emacs:IRC:note:org2blog:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: some-fun-from-org-mode
 :EXPORT_DATE: 2010-10-02T20:26:00+05:30
@@ -9070,7 +9070,7 @@ want any of the content removed, I will do so.
 
 <punchagan> I hope you don't mind, if I make this anecdote public?
 #+end_quote
-* DONE Bloggerstock: Do-over :blog:
+* Bloggerstock: Do-over :blog:
 :PROPERTIES:
 :EXPORT_FILE_NAME: bloggerstock-do-over
 :EXPORT_DATE: 2010-09-30T19:22:00+05:30
@@ -9135,7 +9135,7 @@ like to thank punchagan for allowing me to feature on Rustic
 Reverie and also Bloggerstock for providing me with the opportunity to
 express myself on a fellow blogger's page.. here's a link to my page
 to view my featured blog post
-* DONE Notes from Pycon :event:python:
+* Notes from Pycon :event:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: notes-from-pycon
 :EXPORT_DATE: 2010-09-29T00:32:00+05:30
@@ -9168,7 +9168,7 @@ to catch-up with people.  Conferences should have only lightning
 talks of 10 mins and sprints.  Talks, with an extensive
 explanation of stuff that can be easily found on the web, are a
 waste of time.
-* DONE A couple of counting functions :code:emacs:
+* A couple of counting functions :code:emacs:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-couple-of-counting-functions
 :EXPORT_DATE: 2010-09-17T19:40:00+05:30
@@ -9204,7 +9204,7 @@ region or a buffer. Another function to count the words.
           (setq count (1+ count))))
       (message (int-to-string count))))
 #+end_src
-* DONE Asking vs. Figuring out :note:thought:time:
+* Asking vs. Figuring out :note:thought:time:
 :PROPERTIES:
 :EXPORT_FILE_NAME: asking-vs-figuring-out
 :EXPORT_DATE: 2010-09-15T21:13:00+05:30
@@ -9224,7 +9224,7 @@ learning more, make sense? Is it worth spending the extra time?
 I'm just talking of simple things that you could figure out by
 spending a couple of minutes of searching the web or 5 minutes of
 thinking or 10 minutes of reading a book.
-* DONE A GNU and a friend :blab:ology:
+* A GNU and a friend :blab:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-gnu-and-a-friend
 :EXPORT_DATE: 2010-09-07T00:50:00+05:30
@@ -9245,7 +9245,7 @@ Happy Hacking!
 
 ps: I just hope and pray nobody else does anything as stupid and
 shocking as what swathanthran did.
-* DONE Happy Teachers' Day! :note:
+* Happy Teachers' Day! :note:
 :PROPERTIES:
 :EXPORT_FILE_NAME: happy-teachers-day
 :EXPORT_DATE: 2010-09-05T23:44:00+05:30
@@ -9261,7 +9261,7 @@ profession! Shame!
 
 I wonder how this guy has even been able to sleep every night.
 Isn't there something called a conscience?
-* DONE Richard Stallman in IIT-Bombay :rms:software:
+* Richard Stallman in IIT-Bombay :rms:software:
 :PROPERTIES:
 :EXPORT_FILE_NAME: richard-stallman-in-iit-bombay
 :EXPORT_DATE: 2010-09-01T15:48:00+05:30
@@ -9278,7 +9278,7 @@ of users world-wide. "
 - *Date:* 6th September, 2010
 - *Time:* 8:30 P.M
 - *Venue:* PC Saxena Auditorium, IIT Bombay
-* DONE org2blog on the web :blab:list:ology:org2blog:web:
+* org2blog on the web :blab:list:ology:org2blog:web:
 :PROPERTIES:
 :EXPORT_FILE_NAME: org2blog-on-the-web
 :EXPORT_DATE: 2010-08-29T20:57:00+05:30
@@ -9305,7 +9305,7 @@ today and searched the web for org2blog users.  Here is what I found.
 - org2blog on identi.ca
 
 - Marcel van der Boom -- StatusNet
-* DONE First 100! :cycling:herohawk:mumbai:nomadic:
+* First 100! :cycling:herohawk:mumbai:nomadic:
 :PROPERTIES:
 :EXPORT_FILE_NAME: first-100
 :EXPORT_DATE: 2010-08-22T11:32:00+05:30
@@ -9387,7 +9387,7 @@ Ritesh, where to next?
 ** Photos
 
 Photos will come soon, hopefully.
-* DONE org/elisp - sorting list of org-links on description :code:emacs:note:orgmode:
+* org/elisp - sorting list of org-links on description :code:emacs:note:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: orgelisp-sorting-list-of-org-links-on-description
 :EXPORT_DATE: 2010-08-20T00:23:00+05:30
@@ -9417,7 +9417,7 @@ and not the names. This function, when used with
 
 Thanks to benny (on #org-mode), I also learnt the difference
 between =let= and =let*=.
-* DONE Contributing to FOSS :contribute:foss:howto:newbie:note:
+* Contributing to FOSS :contribute:foss:howto:newbie:note:
 :PROPERTIES:
 :EXPORT_FILE_NAME: contributing-to-foss
 :EXPORT_DATE: 2010-08-19T00:06:00+05:30
@@ -9461,7 +9461,7 @@ useful.
   expected in any of the FOSS communities, not just Ubuntu.
 
 I'd be happy to add any other links that any of you share. Thanks!
-* DONE One Hundred :note:thanks:
+* One Hundred :note:thanks:
 :PROPERTIES:
 :EXPORT_FILE_NAME: one-hundred
 :EXPORT_DATE: 2010-08-17T20:18:00+05:30
@@ -9525,7 +9525,7 @@ Thanks to everybody who took the time to comment here.
 Special thanks to niku, Rini, and ntveem for inspiring me with their
 blogs. [All three of them have moved on to better things than
 blogging.]
-* DONE Another win for them! :note:
+* Another win for them! :note:
 :PROPERTIES:
 :EXPORT_FILE_NAME: another-win-for-them
 :EXPORT_DATE: 2010-08-16T21:55:00+05:30
@@ -9543,7 +9543,7 @@ the people they are trying to stop?
 Anyway, if you are carrying a camera and are tempted to shoot in
 the railway station, go get a permission letter from the Chief
 PRO. :-/
-* DONE PyCon India '10 :conference:event:note:python:
+* PyCon India '10 :conference:event:note:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: pycon-india-10
 :EXPORT_DATE: 2010-08-16T09:28:00+05:30
@@ -9559,7 +9559,7 @@ docutils and ReST fame will be the keynote speaker!
 - RSVP here!
 
 http://in.pycon.org/2010/static/images/badges/supporter-small.png
-* DONE tu marathi aheska? :india:note:
+* tu marathi aheska? :india:note:
 :PROPERTIES:
 :EXPORT_FILE_NAME: tu-marathi-aheska
 :EXPORT_DATE: 2010-08-15T20:14:00+05:30
@@ -9603,7 +9603,7 @@ Isn't patriotism a "true" feeling?
 
 I think, India will only take a leap in it's progress, when
 that happens.
-* DONE Restoring GRUB with Grub2 :note:ubuntu:
+* Restoring GRUB with Grub2 :note:ubuntu:
 :PROPERTIES:
 :EXPORT_FILE_NAME: restoring-grub-with-grub2
 :EXPORT_DATE: 2010-08-10T19:44:00+05:30
@@ -9621,7 +9621,7 @@ on.
 
 This is the first instance when I found grub2 to be better
 than grub.
-* DONE Pair Blogging :idea:note:
+* Pair Blogging :idea:note:
 :PROPERTIES:
 :EXPORT_FILE_NAME: pair-blogging
 :EXPORT_DATE: 2010-08-08T00:05:00+05:30
@@ -9638,7 +9638,7 @@ post seems to give you greater freedom.
 
 PS: I called it pair-blogging. I don't know if it already has a
 name or if pair-blogging means something else.
-* DONE Drafting :cycling:note:technique:
+* Drafting :cycling:note:technique:
 :PROPERTIES:
 :EXPORT_FILE_NAME: drafting
 :EXPORT_DATE: 2010-08-07T13:14:00+05:30
@@ -9658,7 +9658,7 @@ Pacelines in cycling races are formed precisely for this reason.
 This page has a short summary of what drafting is all about.
 
 Should be trying this out, the next time around.
-* DONE Advice - Programming in Elisp :advice:emacs:note:programming:
+* Advice - Programming in Elisp :advice:emacs:note:programming:
 :PROPERTIES:
 :EXPORT_FILE_NAME: advice-programming-in-elisp
 :EXPORT_DATE: 2010-08-06T14:37:00+05:30
@@ -9706,7 +9706,7 @@ although I haven't used it myself.
 
 Hope this helps.  Happy Hacking -- Eric
 -----
-* DONE Lesson with RSS feeds & Wordpress :note:wordpress:
+* Lesson with RSS feeds & Wordpress :note:wordpress:
 :PROPERTIES:
 :EXPORT_FILE_NAME: lesson-with-rss-feeds-wordpress
 :EXPORT_DATE: 2010-08-04T09:07:00+05:30
@@ -9721,7 +9721,7 @@ to be caught by the feed aggregators. Then, delete your post.
 *Update*:
  This
  post also has similar advice.
-* DONE org2blog annoyance :note:org2blog:wordpress:
+* org2blog annoyance :note:org2blog:wordpress:
 :PROPERTIES:
 :EXPORT_FILE_NAME: org2blog-annoyance
 :EXPORT_DATE: 2010-08-03T03:14:00+05:30
@@ -9731,7 +9731,7 @@ I hate it when I'm trying out things with org2blog - fixing bugs
 or adding features - and my testing buffer gets posted. Why do I
 keep passing the prefix argument with C-u? I should probably
 work with a local instance of WordPress.
-* DONE Aluva to Mumbai :note:
+* Aluva to Mumbai :note:
 :PROPERTIES:
 :EXPORT_FILE_NAME: aluva-to-mumbai
 :EXPORT_DATE: 2010-08-03T02:32:00+05:30
@@ -9748,7 +9748,7 @@ best.
 
 [2010-08-15 Sun]
 *UPDATE:* A post by Nishanth is here.
-* DONE git vs. mercurial :git:
+* git vs. mercurial :git:
 :PROPERTIES:
 :EXPORT_FILE_NAME: git-vs-mercurial
 :EXPORT_DATE: 2010-08-01T19:58:00+05:30
@@ -9777,7 +9777,7 @@ make hg do this. Not as well as git does it!
 I've now decided to convert my personal repositories to git.
 
 This blog post shows how to.
-* DONE Thanks Sacha :code:emacs:note:org2blog:thanks:
+* Thanks Sacha :code:emacs:note:org2blog:thanks:
 :PROPERTIES:
 :EXPORT_FILE_NAME: thanks-sacha
 :EXPORT_DATE: 2010-07-30T06:59:00+05:30
@@ -9793,7 +9793,7 @@ Also, thanks for the two patches she sent.
 2. Cleaning up of the code that uploads images.
 
 I'm loving it!
-* DONE Change & Free flow :idea:money:note:people:
+* Change & Free flow :idea:money:note:people:
 :PROPERTIES:
 :EXPORT_FILE_NAME: change-free-flow
 :EXPORT_DATE: 2010-07-30T06:33:00+05:30
@@ -9812,7 +9812,7 @@ it, when required.  There would be a free flow and if not anything
 more, I wouldn't have to worry about it when going somewhere.
 But, I "feel" this would actually reduce the instances when both
 the parties don't have enough change with them. What do you think?
-* DONE Competition and Population :idea:note:
+* Competition and Population :idea:note:
 :PROPERTIES:
 :EXPORT_FILE_NAME: competition-and-population
 :EXPORT_DATE: 2010-07-30T06:25:00+05:30
@@ -9832,7 +9832,7 @@ a provider and make people aware of it, but often there aren't
 enough options, for others to choose from. Inevitably, the bad
 service provider is going to get some customers. What's the way
 out?
-* DONE Refile to date-tree :code:emacs:orgmode:
+* Refile to date-tree :code:emacs:orgmode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: refile-to-date-tree
 :EXPORT_DATE: 2010-07-30T05:33:00+05:30
@@ -9888,7 +9888,7 @@ Enjoy!
 
 *Update [2016-06-16 Thu]* [[https://twitter.com/raamdev][Raam Dev]] pointed me to an [[http://emacs.stackexchange.com/questions/21322/preventing-org-cut-subtree-from-appending-subsequent-cuts-to-previous-kill-ring][issue]] and a suggested fix, that
  I have updated the above code with.
-* DONE Vimperator and Firemacs! :emacs:ology:
+* Vimperator and Firemacs! :emacs:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: vimperator-and-firemacs
 :EXPORT_DATE: 2010-07-28T16:38:00+05:30
@@ -9915,7 +9915,7 @@ enabled together work seamlessly well. Two obsessed people are happy
 and satisfied! And hopefully many more. :D
 
 [fn:firemacs] Key-bindings are a religious thing, in the world of editors!
-* DONE Looking through the view finder :camera:note:
+* Looking through the view finder :camera:note:
 :PROPERTIES:
 :EXPORT_FILE_NAME: looking-through-the-view-finder
 :EXPORT_DATE: 2010-07-26T10:59:00+05:30
@@ -9939,7 +9939,7 @@ I should refrain from -
 For both of this, a film camera seems to be the solution!
 
 What say, Ritesh?
-* DONE Sage Days 25, Mumbai, India :event:math:ology:python:software:
+* Sage Days 25, Mumbai, India :event:math:ology:python:software:
 :PROPERTIES:
 :EXPORT_FILE_NAME: sage-days-25-mumbai-india
 :EXPORT_DATE: 2010-07-21T19:41:00+05:30
@@ -9990,7 +9990,7 @@ remotely interested in math and software for it!
 - Tentative Schedule
 - Register Here
 - Click here for more info
-* DONE Another 60 ... :blab:cycling:herohawk:mumbai:nomadic:
+* Another 60 ... :blab:cycling:herohawk:mumbai:nomadic:
 :PROPERTIES:
 :EXPORT_FILE_NAME: another-60
 :EXPORT_DATE: 2010-07-18T18:00:00+05:30
@@ -10066,7 +10066,7 @@ http://punchagan.files.wordpress.com/2010/07/dsc02899.jpg
 http://punchagan.files.wordpress.com/2010/07/dsc02900.jpg
 
 http://punchagan.files.wordpress.com/2010/07/dsc02898.jpg
-* DONE I'm back :blab:first:org2blog:web:
+* I'm back :blab:first:org2blog:web:
 :PROPERTIES:
 :EXPORT_FILE_NAME: im-back
 :EXPORT_DATE: 2010-07-17T18:00:00+05:30
@@ -10100,7 +10100,7 @@ A few things have changed meanwhile. A lot haven't.
 - All my posts will be made from org2blog - a little org-mode based
   client that I hacked up. Emacs and Org-mode all the way! This is the
   first post by me (and probably anybody) from org2blog!
-* DONE Hibernation :blab:
+* Hibernation :blab:
 :PROPERTIES:
 :EXPORT_FILE_NAME: hibernation
 :EXPORT_DATE: 2010-04-26T22:34:00+05:30
@@ -10113,7 +10113,7 @@ him, for the next few months atleast. He may (or not) return to
 me. I hope, he does.
 
 Bye all.
-* DONE Blogs, Feeds and Readers :blab:
+* Blogs, Feeds and Readers :blab:
 :PROPERTIES:
 :EXPORT_FILE_NAME: blogs-feeds-and-readers
 :EXPORT_DATE: 2010-04-20T22:29:00+05:30
@@ -10153,7 +10153,7 @@ remembering, it's not worth reading.
  mine). But then, there are blogs, that have over 1000 comments on
  a single post, too. Should the above quote could be changed to
  read - "If it's not worth reading, it's not worth remembering." ?
-* DONE Gateway get away :cycling:herohawk:mumbai:nomadic:
+* Gateway get away :cycling:herohawk:mumbai:nomadic:
 :PROPERTIES:
 :EXPORT_FILE_NAME: gateway-get-away
 :EXPORT_DATE: 2010-03-28T17:40:00+05:30
@@ -10257,7 +10257,7 @@ Here is a photoset
 7. digital camera
 8. rough map
 9. Geetanjali - /Tagore/
-* DONE Just another bunch :blab:life:poem:
+* Just another bunch :blab:life:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: just-another-bunch
 :EXPORT_DATE: 2010-03-18T00:41:00+05:30
@@ -10291,7 +10291,7 @@ of them are gone. The tree, knowing well,
 watches on - it won't be long before
 a new bunch springs up to sing the song.
 #+end_verse
-* DONE Super Power Play :blab:cricket:money:
+* Super Power Play :blab:cricket:money:
 :PROPERTIES:
 :EXPORT_FILE_NAME: super-power-play
 :EXPORT_DATE: 2010-03-13T17:52:00+05:30
@@ -10339,7 +10339,7 @@ this season.
 
 ps: Trying out new wordpress features of Twitter, Facebook
 announces.
-* DONE Pehli Nazar :book:camera:india:nomadic:photo:travel:
+* Pehli Nazar :book:camera:india:nomadic:photo:travel:
 :PROPERTIES:
 :EXPORT_FILE_NAME: pehli-nazar
 :EXPORT_DATE: 2010-03-02T02:07:00+05:30
@@ -10407,7 +10407,7 @@ from the West gate.
 
 It's time to stop writing when all you can see is proportionality
 between totally unrelated things.  Here are a few pics
-* DONE talk at GNUnify' 10 :image_processing:ology:python:scipy:
+* talk at GNUnify' 10 :image_processing:ology:python:scipy:
 :PROPERTIES:
 :EXPORT_FILE_NAME: talk-at-gnunify-10
 :EXPORT_DATE: 2010-02-28T20:58:00+05:30
@@ -10429,7 +10429,7 @@ event to be better, though.
 
 Slides and Images that we used.  Shantanu's post on the talk is
 here.
-* DONE Monikers and the Internet :internet:ology:
+* Monikers and the Internet :internet:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: monikers-and-the-internet
 :EXPORT_DATE: 2010-02-27T18:28:00+05:30
@@ -10458,7 +10458,7 @@ not. I don't have much to hide under the covers. Let the world see
 -- who I am, who I have been; where I am, where I have been.
 
 Peace.
-* DONE numpy, pacman and me :linux:numpy:ology:orgmode:python:
+* numpy, pacman and me :linux:numpy:ology:orgmode:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: numpy-pacman-and-me
 :EXPORT_DATE: 2010-01-31T01:14:00+05:30
@@ -10495,7 +10495,7 @@ the sparks.
 PS: I'm using Arch with Openbox. It's neat! PPS: org-mode is
 really awesome! It's a world in itself. life in plain text,
 truly!]
-* DONE Happy Makar Sankranti :blab:
+* Happy Makar Sankranti :blab:
 :PROPERTIES:
 :EXPORT_FILE_NAME: happy-makar-sankranti
 :EXPORT_DATE: 2010-01-14T09:56:00+05:30
@@ -10513,7 +10513,7 @@ ps1: Read the "Kite Runner" by Khaled Hosseini, if you haven't
 yet.
 
 ps2: This is my first post of 2010. ;)
-* DONE Shoot! :blab:camera:
+* Shoot! :blab:camera:
 :PROPERTIES:
 :EXPORT_FILE_NAME: shoot
 :EXPORT_DATE: 2009-12-23T21:40:00+05:30
@@ -10542,7 +10542,7 @@ suspected for dressing the way their fathers and mothers and
 brothers and sisters dress.
 
 Wonder when the world 'll grow up...
-* DONE Stress and us :blab:ology:stress:
+* Stress and us :blab:ology:stress:
 :PROPERTIES:
 :EXPORT_FILE_NAME: stress-and-us
 :EXPORT_DATE: 2009-09-25T03:36:00+05:30
@@ -10591,7 +10591,7 @@ design. Chipped in with bits, for mutating Ubuntu into
 goes on!
 
 Now, don't you think we deserve the SB's? ;)
-* DONE A Confession :blab:mumbai:
+* A Confession :blab:mumbai:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-confession
 :EXPORT_DATE: 2009-09-13T18:24:00+05:30
@@ -10635,7 +10635,7 @@ PS: I (infact, we - uc, sunil, 9 and me) have had my own tryst
 with the Mumbai local. Keep your head on your shoulders, while you
 are anywhere near them. They are not the trains in your local
 fair.
-* DONE Good, Bad or Human? :blab:human:life:
+* Good, Bad or Human? :blab:human:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: good-bad-or-human
 :EXPORT_DATE: 2009-08-22T17:48:00+05:30
@@ -10689,7 +10689,7 @@ world is a bad, bad place is not entirely true, if not completely
 absurd and outright wrong. The world is really a nice place, with
 "human" beings inhabiting it. The nasty surprises that you get,
 really are the surprises and not the general rule.
-* DONE Postfix + Mailman for Multiple Domains. :ology:
+* Postfix + Mailman for Multiple Domains. :ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: postfix-mailman-for-multiple-domains
 :EXPORT_DATE: 2009-08-05T01:23:00+05:30
@@ -10757,7 +10757,7 @@ that was already set-up.
 [Thanks to Shantanu and Vattam (and all the hazaar people using
 Postfix and Mailman and cared to document things for the sake of
 others, and of course Google)]
-* DONE FOSS talks at CDEEP :ology:
+* FOSS talks at CDEEP :ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: foss-talks-at-cdeep
 :EXPORT_DATE: 2009-07-10T23:08:00+05:30
@@ -10838,7 +10838,7 @@ which struck me as particularly interesting/important.
 
 At the end, all the participants walked out with Fedora 11 DVDs
 from the RedHat/Fedora guys. :D
-* DONE To do or not to do :blab:inspiration:life:poem:
+* To do or not to do :blab:inspiration:life:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: to-do-or-not-to-do
 :EXPORT_DATE: 2009-04-22T13:59:00+05:30
@@ -10876,7 +10876,7 @@ Inspired by
 1. a late-night conversation with a friend
 2. Annie Dillard, "How we spend our days is, of course, how we
    spend our lives"
-* DONE Weblogger.el configured! :emacs:ology:
+* Weblogger.el configured! :emacs:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: webloggerel-configured
 :EXPORT_DATE: 2009-03-19T17:22:00+05:30
@@ -10887,7 +10887,7 @@ configured in emacs.  Emacs Rocks. \m/
 
 *UPDATE [2010-09-02 Thu]*: I now use org2blog, a small extension to
  emacs orgmode to post to my blog.
-* DONE who am I? :blab:life:poem:
+* who am I? :blab:life:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: who-am-i
 :EXPORT_DATE: 2008-12-02T16:14:00+05:30
@@ -10923,7 +10923,7 @@ is who you are", my Master answered,
 it grows and unfurls, far and wide,
 long after you are lifeless and dead"
 #+end_verse
-* DONE arbit blab :blab:lafootgiri:life:
+* arbit blab :blab:lafootgiri:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: arbit-blab
 :EXPORT_DATE: 2008-11-26T19:36:00+05:30
@@ -11007,7 +11007,7 @@ http://imgs.xkcd.com/comics/real_programmers.png
 [fn:word] Word is not a document exchange format
 
 [fn:sicp] Structure and Interpretation of Computer Programs
-* DONE 21 :birthday:blab:song:
+* 21 :birthday:blab:song:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 21
 :EXPORT_DATE: 2008-10-15T16:42:00+05:30
@@ -11083,7 +11083,7 @@ Happy birthday!
 Happy birthday!
 Happy birthday, dear...
 #+end_verse
-* DONE The 'Academic' Internet :internet:ology:
+* The 'Academic' Internet :internet:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: the-academic-internet
 :EXPORT_DATE: 2008-10-10T22:39:00+05:30
@@ -11155,7 +11155,7 @@ I appreciate the efforts being made to improve the network
 situation here and also help the students get the most (
 'academically' ) out of their college experience, but I feel the
 situation deserves more careful handling.
-* DONE Software Freedom Day :blab:freedom:ology:software:
+* Software Freedom Day :blab:freedom:ology:software:
 :PROPERTIES:
 :EXPORT_FILE_NAME: software-freedom-day
 :EXPORT_DATE: 2008-09-21T18:23:00+05:30
@@ -11221,7 +11221,7 @@ need to keep the two efforts in balance.
 [fn:fs] The Free Software Definition
 
 [fn:rms] The GNU Project by Richard Stallman
-* DONE The Third Round. :blab:job:me:
+* The Third Round. :blab:job:me:
 :PROPERTIES:
 :EXPORT_FILE_NAME: the-third-round
 :EXPORT_DATE: 2008-09-13T17:25:00+05:30
@@ -11249,7 +11249,7 @@ If you are wondering what the point of this post is, it's nothing. It's just a
 pointer to those interested in reading further on Cleft Lip and Palate.
 
 [fn:clp] Cleft Lip and Palate -- Wikipedia
-* DONE A Byte of Python :book:ology:python:
+* A Byte of Python :book:ology:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-byte-of-python
 :EXPORT_DATE: 2008-09-07T17:08:00+05:30
@@ -11305,7 +11305,7 @@ user a sense of "do-able-ity" and I am thoroughly enjoying it.
 [fn:BoP2] Python - Notes -- Swaroop CH
 
 [fn:BoP3] Book updated for Python 3000 -- Swaroop CH
-* DONE Imbosomed! :blab:poem:
+* Imbosomed! :blab:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: imbosomed
 :EXPORT_DATE: 2008-09-06T18:49:00+05:30
@@ -11327,7 +11327,7 @@ above the skies,
 across the blues,
 within and without.
 #+end_verse
-* DONE mukt.in 2008 :fest:hyderabad:ology:
+* mukt.in 2008 :fest:hyderabad:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: muktin-2008
 :EXPORT_DATE: 2008-07-18T19:16:00+05:30
@@ -11340,7 +11340,7 @@ there!
 | Venue    | CSE Department, Osmania University, Hyderabad, India |
 | Date     | 1-3 August, 2008                                     |
 | Register | http://mukt.in/registration.php                      |
-* DONE Mid-Term 'Psycho'Analysis :blab:emacs:internet:ology:
+* Mid-Term 'Psycho'Analysis :blab:emacs:internet:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: mid-term-psychoanalysis
 :EXPORT_DATE: 2008-07-15T19:23:00+05:30
@@ -11561,7 +11561,7 @@ get it)
 On a more serious note, the Internet has become an *Integral* part
 of my life. I do sometimes think, a bit too much, but then.... the
 internet is "The Internet"!
-* DONE I wish a Wish. :birthday:blab:poem:
+* I wish a Wish. :birthday:blab:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: i-wish-a-wish
 :EXPORT_DATE: 2008-07-12T18:30:00+05:30
@@ -11599,7 +11599,7 @@ Happy Birthday, mate.
 
 my 50th post; A poem, I wrote a few weeks ago; A poem or is it doggerel?;
 Something I wrote for a chum, that gives me courage to write more.
-* DONE What is... ? :blab:life:poem:
+* What is... ? :blab:life:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-is
 :EXPORT_DATE: 2008-07-11T17:45:00+05:30
@@ -11643,7 +11643,7 @@ bring about world peace?
 
 I want my piece is all I hear.
 #+end_verse
-* DONE Update Script :ology:python:wordpress:
+* Update Script :ology:python:wordpress:
 :PROPERTIES:
 :EXPORT_FILE_NAME: update-script
 :EXPORT_DATE: 2008-07-08T20:39:00+05:30
@@ -11680,7 +11680,7 @@ header.
 ps :
 1. The source is GPLv2 licensed.
 2. Get in touch, if you'd like to have a look.
-* DONE A sabbatical :blab:emacs:IRC:ology:
+* A sabbatical :blab:emacs:IRC:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-sabbatical
 :EXPORT_DATE: 2008-07-04T19:33:00+05:30
@@ -11711,7 +11711,7 @@ also get some valid, interesting results out of the experiment.
 -----
 
 [fn:Chaitu] Chaitu - Poetic Paradigm
-* DONE The Bus, its Ours! :blab:hyderabad:
+* The Bus, its Ours! :blab:hyderabad:
 :PROPERTIES:
 :EXPORT_FILE_NAME: the-bus-its-ours
 :EXPORT_DATE: 2008-06-11T20:19:00+05:30
@@ -11756,7 +11756,7 @@ interesting observation. Some food for thought, My mom travels for
 an hour and half by bus to reach her work and she's been doing so
 since I was a kid of 5 or 6. Now I know why she's been able to do
 it for so many years, everyday!
-* DONE Lafoot or Lafoobot! :IRC:lafootgiri:ology:python:
+* Lafoot or Lafoobot! :IRC:lafootgiri:ology:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: lafoot-or-lafoobot
 :EXPORT_DATE: 2008-05-26T16:39:00+05:30
@@ -11795,7 +11795,7 @@ why) Hoping to have some more action this summer!
 
 PS: There's a Big discussion presently on whether lafoobot is a he
 or a she. ;) What do you think?
-* DONE Bills and Billboards :blab:money:work:
+* Bills and Billboards :blab:money:work:
 :PROPERTIES:
 :EXPORT_FILE_NAME: bills-and-billboards
 :EXPORT_DATE: 2008-05-20T18:30:00+05:30
@@ -11824,7 +11824,7 @@ in the air-conditioned room, puking out a few lines of code each
 day, can't this guy, sweating it out in this may heat, get a
 better deal? Isn't there something fundamentally wrong
 somewhere?
-* DONE Home Coming! :blab:lafootgiri:python:
+* Home Coming! :blab:lafootgiri:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: home-coming
 :EXPORT_DATE: 2008-05-15T23:46:00+05:30
@@ -11839,7 +11839,7 @@ Project Euler. I have done 39. [With exams going on I consider it
 good progress] I will be attempting to push off the last one
 before leaving. Here I come, Project Euler. Here I come,
 Hyderabad!
-* DONE Post-Q,W,A Post :blab:fest:quark:
+* Post-Q,W,A Post :blab:fest:quark:
 :PROPERTIES:
 :EXPORT_FILE_NAME: post-qwa-post
 :EXPORT_DATE: 2008-03-23T12:17:00+05:30
@@ -11920,7 +11920,7 @@ Back again with another khichdi of a post.
   lazier or because of something else.
 - I don't like posting accounts of events from the recent/distant
   past, but I'm doing it just to prevent my blog's death.
-* DONE Gone! :blab:death:
+* Gone! :blab:death:
 :PROPERTIES:
 :EXPORT_FILE_NAME: gone
 :EXPORT_DATE: 2008-02-23T22:42:00+05:30
@@ -11951,12 +11951,12 @@ once in a while, Chemistry Labs, Cycle rides/Walks back from
 college along with Veeru and Srinu discussing everything under the
 sun and the Krotov solving session in the park. Memories are all,
 that remain...
-* DONE Quark'08 ! :fest:ology:quark:
+* Quark'08 ! :fest:ology:quark:
 :PROPERTIES:
 :EXPORT_FILE_NAME: quark08
 :EXPORT_DATE: 2008-02-11T02:28:00+05:30
 :END:
-* DONE Not so Floppix... :emacs:lafootgiri:ology:
+* Not so Floppix... :emacs:lafootgiri:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: not-so-floppix
 :EXPORT_DATE: 2007-12-11T00:28:00+05:30
@@ -12031,7 +12031,7 @@ Update 2 [4/1/08]: There is already a floppy distro of Linux
 called Floppix. I knew about this only when some one searching for
 it reached my blog. Guess I should do something about this. [I'll
 be able to do it only after getting back to campus,though]
-* DONE Life "In-gen" :blab:exams:lafootgiri:quark:
+* Life "In-gen" :blab:exams:lafootgiri:quark:
 :PROPERTIES:
 :EXPORT_FILE_NAME: life-in-gen
 :EXPORT_DATE: 2007-11-21T17:37:00+05:30
@@ -12076,7 +12076,7 @@ Another post, with nothing concrete to say...
   aren't Things...
 
 file:../../images/bestthingsinlife.jpg
-* DONE A Teen, No more. :birthday:blab:
+* A Teen, No more. :birthday:blab:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-teen-no-more
 :EXPORT_DATE: 2007-10-16T14:32:00+05:30
@@ -12101,7 +12101,7 @@ of?
 
 Just hoping, this year gives me some wisdom, a little courage and
 a lot more love to make the most of this opportunity.
-* DONE Lost Control?? :blab:exams:lafootgiri:
+* Lost Control?? :blab:exams:lafootgiri:
 :PROPERTIES:
 :EXPORT_FILE_NAME: lost-control
 :EXPORT_DATE: 2007-09-22T13:22:00+05:30
@@ -12169,7 +12169,7 @@ btw, if this post was a total bouncer, this is for you....
 Time is the wisest Counselor.  Exams come in a close second! --
 punchagan
 #+end_quote
-* DONE Unitedly Independent!? :blab:india:politics:
+* Unitedly Independent!? :blab:india:politics:
 :PROPERTIES:
 :EXPORT_FILE_NAME: unitedly-independent
 :EXPORT_DATE: 2007-08-15T08:45:00+05:30
@@ -12219,7 +12219,7 @@ here with a purpose, a common goal of education, enough to get
 over the differences of language and origin? Shouldn't the
 interests of the College and the Students overpower such minor
 issues??
-* DONE Posts.. 2 :blab:posts:
+* Posts.. 2 :blab:posts:
 :PROPERTIES:
 :EXPORT_FILE_NAME: posts-2
 :EXPORT_DATE: 2007-07-26T20:43:00+05:30
@@ -12270,7 +12270,7 @@ Do I still need a BLOG?
 ps: Prevention of boredom-induced-insanity is the one and only
 genuine reason(known to me) for the continued existence of my
 blog.
-* DONE PS Ramblings :blab:ps:
+* PS Ramblings :blab:ps:
 :PROPERTIES:
 :EXPORT_FILE_NAME: ps-ramblings
 :EXPORT_DATE: 2007-07-18T08:00:00+05:30
@@ -12312,7 +12312,7 @@ Delhi.... (allegedly doing a Project!)
 file:../../images/ny_barking.gif
 
 ps: there's a lot more... but it ain't coming up here..  :P
-* DONE Telugu Rendering in Ubuntu... :ology:ubuntu:
+* Telugu Rendering in Ubuntu... :ology:ubuntu:
 :PROPERTIES:
 :EXPORT_FILE_NAME: telugu-rendering-in-ubuntu
 :EXPORT_DATE: 2007-07-11T12:11:00+05:30
@@ -12327,7 +12327,7 @@ help here...
 
 [ Don't worry if you can't figure out what's the big deal in
 linking to an already existing post.. :P]
-* DONE Busy without Business... :blab:freedom:ps:
+* Busy without Business... :blab:freedom:ps:
 :PROPERTIES:
 :EXPORT_FILE_NAME: busy-without-business
 :EXPORT_DATE: 2007-06-30T01:19:00+05:30
@@ -12381,7 +12381,7 @@ described, and where you do not feel forced by a need to maintain
 your position in the organization, or financial support, or so on,
 to lose your integrity. May you have that freedom.
 #+end_quote
-* DONE Posts... :blab:posts:
+* Posts... :blab:posts:
 :PROPERTIES:
 :EXPORT_FILE_NAME: posts
 :EXPORT_DATE: 2007-06-21T14:44:00+05:30
@@ -12416,7 +12416,7 @@ that I should be learning.. that I should have learnt by now??
 BTW.. why do people blog at all?? What's the whole point of
 Blogging? [Yes, I haven't still understood what it is.. even after
 about 30 posts...]
-* DONE Summer or Awe-TEM!! Whatever... Forever :blab:ology:ps:
+* Summer or Awe-TEM!! Whatever... Forever :blab:ology:ps:
 :PROPERTIES:
 :EXPORT_FILE_NAME: summer-or-awe-tem-whatever-forever
 :EXPORT_DATE: 2007-06-13T18:29:00+05:30
@@ -12456,7 +12456,7 @@ the training period, I don't mind doing any kind-of mechanical
 work, I don't mind not getting any results from my work,
 whatever... it doesn't matter any more. This one moment; that's
 all that matters.
-* DONE CET-ting their Lives??!! :blab:hyderabad:
+* CET-ting their Lives??!! :blab:hyderabad:
 :PROPERTIES:
 :EXPORT_FILE_NAME: cet-ting-their-lives
 :EXPORT_DATE: 2007-05-18T09:22:00+05:30
@@ -12542,7 +12542,7 @@ Adapt yourself to the things among which your lot has been cast
 and love sincerely the fellow creatures with whom destiny has
 ordained that you shall live. -- Richard Bach
 #+end_quote
-* DONE Alone... :blab:poem:
+* Alone... :blab:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: alone
 :EXPORT_DATE: 2007-05-10T12:38:00+05:30
@@ -12593,7 +12593,7 @@ but be prepared to walk alone in the darkness.”[11/05/07]
 “... no one is never really alone. Even when there is not other perso around, there still must be someone. Someone who made you  and therefore cares what happens to you. Someone who will help you if you do the best you can. So you're never alone. You can't be alone, no matter what you do. That's the secret of happiness, of doing things well, of everything...”
 
 -- Larry in /The Star/ by /Arthur Gordon/ [28/05/07]
-* DONE Eber-yone!?! :blab:exams:
+* Eber-yone!?! :blab:exams:
 :PROPERTIES:
 :EXPORT_FILE_NAME: eber-yone
 :EXPORT_DATE: 2007-05-06T13:37:00+05:30
@@ -12634,7 +12634,7 @@ all the great achievers... the Scientists.. the Hackers.. the
 Artists.. the Engineers... the Writers.. the Doctors.. and a lot
 of others...  I need to find something, that I would Love to work
 on.
-* DONE Unchosen Choices??! :blab:life:
+* Unchosen Choices??! :blab:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: unchosen-choices
 :EXPORT_DATE: 2007-05-02T08:30:00+05:30
@@ -12694,7 +12694,7 @@ life. This is the engineer's high privilege. -- Herbert Hoover
 What really interests me is whether God had any choice in the
 creation of the world. -- Albert Einstein
 #+end_quote
-* DONE Presentation or Tribulation?? :blab:
+* Presentation or Tribulation?? :blab:
 :PROPERTIES:
 :EXPORT_FILE_NAME: presentation-or-tribulation
 :EXPORT_DATE: 2007-04-28T05:42:00+05:30
@@ -12837,7 +12837,7 @@ this universe. -- Thomas Carlyle
 Only two things are infinite, the universe and human stupidity,
 and I'm not sure about the former. -- Albert Einstein
 #+end_quote
-* DONE A Song for a Chum... :blab:song:
+* A Song for a Chum... :blab:song:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-song-for-a-chum
 :EXPORT_DATE: 2007-04-25T06:20:00+05:30
@@ -12915,7 +12915,7 @@ Are you searching for a reason to be kind ?
 Composed by A.R.Rahman
 Lyrics by Blaaze
 Singers: A.R.Rahman and Blaaze
-* DONE Non-e-Moments??!! :blab:life:ology:
+* Non-e-Moments??!! :blab:life:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: non-e-moments
 :EXPORT_DATE: 2007-04-13T18:31:00+05:30
@@ -12990,7 +12990,7 @@ Best friends listen to what you dont say.*/ -- Anon.
 
 /*Live as if your were to die tomorrow. Learn as if you were to
 live forever.*/ -- Johann Von Goethe
-* DONE The PS-1 Ballyhoo... :blab:ps:
+* The PS-1 Ballyhoo... :blab:ps:
 :PROPERTIES:
 :EXPORT_FILE_NAME: the-ps-1-ballyhoo
 :EXPORT_DATE: 2007-04-06T17:58:00+05:30
@@ -13068,7 +13068,7 @@ wheel.  -- E.B.White/
 
 /Achievement is largely the product of steadily raising one's
 levels of aspiration and expectation.  -- Jack Nicklaus/
-* DONE A Second Blog... :ology:posts:wordpress:
+* A Second Blog... :ology:posts:wordpress:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-second-blog
 :EXPORT_DATE: 2007-04-04T11:46:00+05:30
@@ -13080,7 +13080,7 @@ levels of aspiration and expectation.  -- Jack Nicklaus/
 - I started it to know.. to compare... and to choose...
 - I started it just for fun...
 - I started it because Blogspot may soon be blocked on campus!!!
-* DONE Windows©, Doors or Homes!??! :blog:ology:rms:song:
+* Windows©, Doors or Homes!??! :blog:ology:rms:song:
 :PROPERTIES:
 :EXPORT_FILE_NAME: windowsc-doors-or-homes
 :EXPORT_DATE: 2007-04-01T19:14:00+05:30
@@ -13190,7 +13190,7 @@ system, for free".  --Linus Torvalds
 
 "The box said that I needed to have Windows 98 or better... so I
 installed Linux."  -- LinuxNewbie.org
-* DONE Andharu Mahanubhavule... Andariki Vandanamulu.. :blab:life:thanks:
+* Andharu Mahanubhavule... Andariki Vandanamulu.. :blab:life:thanks:
 :PROPERTIES:
 :EXPORT_FILE_NAME: andharu-mahanubhavule-andariki-vandanamulu
 :EXPORT_DATE: 2007-03-27T17:43:00+05:30
@@ -13255,7 +13255,7 @@ spirit.  -- Albert Schweitzer
 
 Sometimes it not the wealth you have but what's inside you that
 others need.  -- Anonymous
-* DONE Long Lost Letters.... :blab:letter:
+* Long Lost Letters.... :blab:letter:
 :PROPERTIES:
 :EXPORT_FILE_NAME: long-lost-letters
 :EXPORT_DATE: 2007-03-24T01:51:00+05:30
@@ -13311,7 +13311,7 @@ Proverb
 
 The Internet is so big, so powerful and pointless that for some
 people it is a complete substitute for life.  -- /Andrew Brown/
-* DONE Revelations.... :blab:quark:
+* Revelations.... :blab:quark:
 :PROPERTIES:
 :EXPORT_FILE_NAME: revelations
 :EXPORT_DATE: 2007-03-18T18:46:00+05:30
@@ -13364,7 +13364,7 @@ prepared mind --Louis Pasteur
 
 Quotes are nothing but inspiration for the uninspired.  -- Richard
 Kemph
-* DONE Essential-Extravagance??!! :blab:fest:life:money:
+* Essential-Extravagance??!! :blab:fest:life:money:
 :PROPERTIES:
 :EXPORT_FILE_NAME: essential-extravagance
 :EXPORT_DATE: 2007-03-10T18:06:00+05:30
@@ -13402,7 +13402,7 @@ place that we possibly could?? Can't we get together to minimize
 the difference? Join the race against nature... do your bit...
 
 This, probably, is a good place to start off...
-* DONE Mathematics and Me :blab:math:
+* Mathematics and Me :blab:math:
 :PROPERTIES:
 :EXPORT_FILE_NAME: mathematics-and-me
 :EXPORT_DATE: 2007-03-06T20:08:00+05:30
@@ -13438,7 +13438,7 @@ a real feeling as to the beauty, the deepest beauty, of nature
 ... If you want to learn about nature, to appreciate nature, it is
 necessary to understand the language that she speaks in.
 --Richard P. Feynman
-* DONE Quark 07 :fest:ology:quark:
+* Quark 07 :fest:ology:quark:
 :PROPERTIES:
 :EXPORT_FILE_NAME: quark-07
 :EXPORT_DATE: 2007-03-05T19:28:00+05:30
@@ -13460,7 +13460,7 @@ So ppl.. Quark coming up :)...
 and... blocks coming up too :(...
 
 [But why Blogspot???]
-* DONE Lisp as an Alternative to Java :lisp:ology:
+* Lisp as an Alternative to Java :lisp:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: lisp-as-an-alternative-to-java
 :EXPORT_DATE: 2007-03-02T20:26:00+05:30
@@ -13471,7 +13471,7 @@ is another of his on my blog... Look at the follow-up study
 document.. its good...
 
 *Update:* - [2010-10-11 Mon]  - Removed the article's copy.
-* DONE Popularly Unpopular?? :blab:lisp:ology:
+* Popularly Unpopular?? :blab:lisp:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: popularly-unpopular
 :EXPORT_DATE: 2007-03-01T02:43:00+05:30
@@ -13484,7 +13484,7 @@ Graham..(You can also read it @
 http://www.paulgraham.com/iflisp.html)
 
 *Update* - [2010-10-11 Mon]  - Removed the copy of the article.
-* DONE Welcome to the Un-Conference :ology:
+* Welcome to the Un-Conference :ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: welcome-to-the-un-conference
 :EXPORT_DATE: 2007-02-14T13:38:00+05:30
@@ -13519,7 +13519,7 @@ a post in your blog space... and help in telling the world about
 it...
 
 Wanna Participate?
-* DONE Planning... to save a Sem!!?? :blab:exams:life:ology:poem:
+* Planning... to save a Sem!!?? :blab:exams:life:ology:poem:
 :PROPERTIES:
 :EXPORT_FILE_NAME: planning-to-save-a-sem
 :EXPORT_DATE: 2007-02-13T18:18:00+05:30
@@ -13601,7 +13601,7 @@ Make the mighty ages
 Of eternity.
 --  Ebenezer Cobham Brewer.
 #+end_verse
-* DONE Teach Yourself Programming in Ten Years!! :lafootgiri:learning:life:ology:
+* Teach Yourself Programming in Ten Years!! :lafootgiri:learning:life:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: teach-yourself-programming-in-ten-years
 :EXPORT_DATE: 2007-02-02T09:05:00+05:30
@@ -13612,7 +13612,7 @@ Research Google I have just copied the whole essay here... also
 here's a link to the Original one...
 
 *Update:* - [2010-10-11 Mon]  - Removed the copied content
-* DONE Happy gNew Year!! :blab:lafootgiri:ology:thanks:
+* Happy gNew Year!! :blab:lafootgiri:ology:thanks:
 :PROPERTIES:
 :EXPORT_FILE_NAME: happy-gnew-year
 :EXPORT_DATE: 2007-01-01T14:38:00+05:30
@@ -13687,7 +13687,7 @@ The Hacker Ethic : Access to computers and anything which might
 teach you something about the way the world works should be
 unlimited and total. Always yield to the Hands-On Imperative! --
 Steven Levy's "Hackers : The Heroes of The Computer Revolution"
-* DONE Awe[ful] @ Science !!?!??! :blab:kids:life:ology:science:
+* Awe[ful] @ Science !!?!??! :blab:kids:life:ology:science:
 :PROPERTIES:
 :EXPORT_FILE_NAME: aweful-science
 :EXPORT_DATE: 2006-12-21T18:20:00+05:30
@@ -13766,7 +13766,7 @@ Rabindranath Tagore
 
 /Science is a wonderful thing if one does not have to earn one's
 living at it/ --Albert Einstein
-* DONE The Journey minus "The Man!" :blab:death:
+* The Journey minus "The Man!" :blab:death:
 :PROPERTIES:
 :EXPORT_FILE_NAME: the-journey-minus-the-man
 :EXPORT_DATE: 2006-12-17T19:04:00+05:30
@@ -13842,7 +13842,7 @@ him... we just love him! But I'll always miss that call of his,
 /Edit:/
 /1. 9's Post on Hari is here/
 /2. Arunodai's Post on Hari is here/
-* DONE The Joy of a 'Project!' :blab:lafootgiri:ology:project:
+* The Joy of a 'Project!' :blab:lafootgiri:ology:project:
 :PROPERTIES:
 :EXPORT_FILE_NAME: the-joy-of-a-project
 :EXPORT_DATE: 2006-11-06T13:48:00+05:30
@@ -13943,7 +13943,7 @@ I wonder if my "Engineering", will ever be a joy for me?
 
 I am looking forward to more Projects... to make engineering a joy
 for me!! [it doesn't matter even if they're self-assigned ;-) ]
-* DONE Is Disney buying MIT?? :blab:hack:ology:
+* Is Disney buying MIT?? :blab:hack:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: is-disney-buying-mit
 :EXPORT_DATE: 2006-10-25T18:26:00+05:30
@@ -13960,7 +13960,7 @@ The hacked page contained a link fake to a press release titled
 
 Later that day the MIT News Office issued a press release titled
 /MIT says "Disney buys MIT" hack revealed by low price/
-* DONE A "Free Software" Hack!! :blab:fsf:hack:ology:
+* A "Free Software" Hack!! :blab:fsf:hack:ology:
 :PROPERTIES:
 :EXPORT_FILE_NAME: a-free-software-hack
 :EXPORT_DATE: 2006-10-10T17:40:00+05:30
@@ -13994,7 +13994,7 @@ file:../images/freesoftware.hack.jpg
   FSF Associate Member
   Hacker
 #+end_example
-* DONE Back to the Basics!! :blab:india:
+* Back to the Basics!! :blab:india:
 :PROPERTIES:
 :EXPORT_FILE_NAME: back-to-the-basics
 :EXPORT_DATE: 2006-09-03T20:53:00+05:30
@@ -14027,7 +14027,7 @@ care of itself.  -Swami Vivekananda/
       render: true
 #+end_src
 * Happy posts :@bookmarks:
-** DONE What I liked 2016-09-04 :blab:blag:happy:life:
+** What I liked 2016-09-04 :blab:blag:happy:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-i-liked-2016-09-04
 :EXPORT_DATE: 2016-09-12T09:10:12+05:30
@@ -14043,7 +14043,7 @@ The [[https://www.youtube.com/results?search_query=berklee+indian+ensemble][Berk
 along with [[https://twitter.com/Sunil_santiago][Sunil]] to their performance, which we thoroughly loved.
 
 I liked some of [[https://www.youtube.com/results?search_query=chet+baker+instrumental][Chet Baker instrumentals]] that I listened to this week.
-** DONE What I liked 2016-08-28 :blab:blag:happy:life:
+** What I liked 2016-08-28 :blab:blag:happy:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-i-liked-2016-08-28
 :EXPORT_DATE: 2016-09-05T22:38:39+05:30
@@ -14069,7 +14069,7 @@ existing network service like Telegram or Facebook chat or Google hangouts.
 
 [[https://www.youtube.com/watch?v=erywPdFfORE][Falling In Love At A Coffee Shop by Landon Pigg]] is a lovely song, that I
 discovered this week.
-** DONE What I liked 2016-08-21 :blab:blag:happy:life:
+** What I liked 2016-08-21 :blab:blag:happy:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-i-liked-2016-08-21
 :EXPORT_DATE: 2016-08-29T21:58:58+05:30
@@ -14088,7 +14088,7 @@ built himself is very cool!
 
 This [[https://www.techinasia.com/millions-bank-saif-partnersbacked-gozoomo-shuts-shop-heres-happened][article]] on India's Gozoomo shutting down shop and returning VC money is
 heartening and gives me some hope about startups in India.
-** DONE What I liked 2016-08-14 :blab:blag:happy:life:
+** What I liked 2016-08-14 :blab:blag:happy:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-i-liked-2016-08-14
 :EXPORT_DATE: 2016-08-22T21:34:36+05:30
@@ -14115,7 +14115,7 @@ checkins is not starting sooner.", he writes.
 
 This Vox article on America's [[http://www.vox.com/identities/2016/8/18/12490452/wealth-gap-30-years][increasing wealth gap]] along racial lines is
 really well done and thought provoking.
-** DONE What I liked 2016-08-07 :blab:blag:happy:life:
+** What I liked 2016-08-07 :blab:blag:happy:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-i-liked-2016-08-07
 :EXPORT_DATE: 2016-08-16T17:58:24+05:30
@@ -14135,7 +14135,7 @@ This (Telugu) interview of Dr Jayaprakash Narayan is [[https://www.youtube.com/w
 YouTube recommended his [[https://www.youtube.com/watch?v=Uyr31JYwftI][conversation with Sadhguru Jaggi Vasudev]], which was
 unexpectedly insightful, and covers a wide variety of topics -- spirituality,
 religion, social organizations, politics, socialism vs. capitalism.
-** DONE What I liked 2016-07-31 :blab:blag:happy:life:
+** What I liked 2016-07-31 :blab:blag:happy:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-i-liked-2016-07-31
 :EXPORT_DATE: 2016-08-08T20:26:33+05:30
@@ -14181,7 +14181,7 @@ portrayed it.  They don't mince any words.
 -----
 
 You can find my older weekly posts like this [[https://punchagan.muse-amuse.in/tags/happy.html][here]].
-** DONE What I liked 2016-07-24 :blab:happy:life:
+** What I liked 2016-07-24 :blab:happy:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-i-liked-2016-07-24
 :EXPORT_DATE: 2016-07-31T08:42:29+05:30
@@ -14209,7 +14209,7 @@ agree. I have had similar thoughts on the other insults he talks about.
 people fail to do it, and what could help prevent these failures.
 
 [[https://twitter.com/nidsitis/status/758912332936323072/photo/1][This picture]] of kids praying at Haji Public School gave me hope.
-** DONE What I liked 2016-07-17 :blab:happy:life:
+** What I liked 2016-07-17 :blab:happy:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-i-liked-2016-07-17
 :EXPORT_DATE: 2016-07-27T23:04:01+05:30
@@ -14243,7 +14243,7 @@ Julia Evans' [[https://pbs.twimg.com/media/CnpetubXYAA-cFx.jpg][how to be a wiza
 
 I watched the movie [[http://www.imdb.com/title/tt0878804/][Blind Side]] (2009) with friends, and really liked it. SJ and
 Oher together, they are a blast!
-** DONE What I liked 2016-07-10 :blab:happy:life:
+** What I liked 2016-07-10 :blab:happy:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-i-liked-2016-07-10
 :EXPORT_DATE: 2016-07-27T22:59:18+05:30
@@ -14272,7 +14272,7 @@ you know where you are headed?".  And then let us walk across his beautiful
 nature home to the other side, where we found this [[https://slack-files.com/T0MUM6C66-F1SSJ0KC3-b85733e158][amusing sign]].
 
 Finally, this [[https://www.youtube.com/watch?v=Cm2EnrUAn8c][Nike India ad]] on Women in Sport is great!
-** DONE What I liked 2016-07-03 :blab:happy:life:
+** What I liked 2016-07-03 :blab:happy:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: what-i-liked-2016-07-03
 :EXPORT_DATE: 2016-07-27T22:58:32+05:30
@@ -14315,7 +14315,7 @@ video]].
 
 I'll try and post things that made me happy or touched my heart, each week.
 * Bookmark posts :@bookmarks:
-** DONE Bookmarks [2014/11/01]
+** Bookmarks [2014/11/01]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-11-01
 :EXPORT_DATE: 2014-11-01T01:46:45+05:30
@@ -14351,7 +14351,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 
   The blog will cover all facets of Emacs and will be suitable for beginners
   and – I hope – experts alike.
-** DONE Bookmarks [2014/10/10]
+** Bookmarks [2014/10/10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-10-10
 :EXPORT_DATE: 2014-10-10T05:24:19-04:00
@@ -14377,7 +14377,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 - [[http://alyssafrazee.com/unstructured-time.html][motivation and unstructured time: successes and failures - alyssa frazee]]
 
   some of the tactics I've tried to get myself into "working mode."
-** DONE Bookmarks [2014/08/15]
+** Bookmarks [2014/08/15]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-08-15
 :EXPORT_DATE: 2014-08-15T22:07:28-04:00
@@ -14422,7 +14422,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   from his startup each month, Bohmeyer says his life has radically changed. So
   he started “My Basic Income”, a new initiative looking to raise enough money
   to pay someone $1,300 a month for a year, no strings attached.
-** DONE Bookmarks [2014/06/10]
+** Bookmarks [2014/06/10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-06-10
 :EXPORT_DATE: 2014-06-10T19:17:43+05:30
@@ -14460,7 +14460,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   calculus. I generalize it to reading from 3 sources to learn
   anything. I also postulate a law: the 3rd source you read is the
   best.
-** DONE Bookmarks [2014/05/19]
+** Bookmarks [2014/05/19]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-05-19
 :EXPORT_DATE: 2014-05-19T12:00:08+05:30
@@ -14496,7 +14496,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   business, to self-help, to fantasy, to classic literature-y books
   that you could smartly reference at “functions,” there might just be
   something for everyone.
-** DONE Bookmarks [2014/05/04]
+** Bookmarks [2014/05/04]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-05-04
 :EXPORT_DATE: 2014-05-04T16:00:02+05:30
@@ -14536,7 +14536,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 
   My kids are not the center of my world because I love them enough
   not to allow them to be.
-** DONE Bookmarks [2014/04/29]
+** Bookmarks [2014/04/29]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-04-29
 :EXPORT_DATE: 2014-04-29T04:00:09+05:30
@@ -14579,7 +14579,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 
   What follows is a list for some of my use cases that leverage the
   power of ssh.
-** DONE Bookmarks [2014/04/11]
+** Bookmarks [2014/04/11]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-04-11
 :EXPORT_DATE: 2014-04-11T12:00:36+05:30
@@ -14603,7 +14603,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 - [[http://www.gabrielweinberg.com/blog/2011/01/on-not-hiring.html][On not hiring]]
 
   Hiring is hard. Not hiring can seem even harder, but often isn't.
-** DONE Bookmarks [2014/03/23]
+** Bookmarks [2014/03/23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-03-23
 :EXPORT_DATE: 2014-03-23T13:18:38+05:30
@@ -14646,7 +14646,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   depends what your goals are the for the project! I wrote an
   operating system in Rust to learn, and I learned a ton. It’s not
   finished, and it won’t be.
-** DONE Bookmarks [2014/03/12]
+** Bookmarks [2014/03/12]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-03-12
 :EXPORT_DATE: 2014-03-12T12:49:22+05:30
@@ -14689,7 +14689,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 
   What if everybody asked questions when they needed help? What if
   helping people was everyone’s default procrastination method?
-** DONE Bookmarks [2014/02/21]
+** Bookmarks [2014/02/21]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-02-21
 :EXPORT_DATE: 2014-02-21T21:22:35+05:30
@@ -14723,7 +14723,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   Hopefully I've convinced you that gdb a neat exploratory environment
   for learning C. You can print the evaluation of expressions, examine
   raw bytes in memory, and tinker with the type system using ptype.
-** DONE Bookmarks [2014/02/12]
+** Bookmarks [2014/02/12]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-02-12
 :EXPORT_DATE: 2014-02-12T20:02:46+05:30
@@ -14774,7 +14774,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 
   In short, it's easy to burnout. Do these 5 things, and you can
   burnout too.
-** DONE Bookmarks [2014/02/10]
+** Bookmarks [2014/02/10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-02-10
 :EXPORT_DATE: 2014-02-10T09:54:36+05:30
@@ -14833,7 +14833,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 
   “No, just you. I made this whole universe for you. With each new
   life you grow and mature and become a larger and greater intellect.”
-** DONE Bookmarks [2014/01/30]
+** Bookmarks [2014/01/30]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-01-30
 :EXPORT_DATE: 2014-01-30T15:23:15+05:30
@@ -14869,7 +14869,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   make the user happy enough to continue submitting more. The other
   part of the user interface, retrieval, serves simply to get the
   original content distributed as fast as can be reasonably expected.
-** DONE Bookmarks [2014/01/17]
+** Bookmarks [2014/01/17]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-01-17
 :EXPORT_DATE: 2014-01-17T14:13:34+05:30
@@ -14918,7 +14918,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 
   Documentation is the best way to communicate your thoughts to
   yourself.
-** DONE Bookmarks [2014/01/08]
+** Bookmarks [2014/01/08]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2014-01-08
 :EXPORT_DATE: 2014-01-08T22:42:29+05:30
@@ -14964,7 +14964,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   found solace in writing, and wrote a hard-hitting blog called
   ‘Demons’ about what took him to the edge of the cliff, and what
   happened whilst he was there.
-** DONE Bookmarks [2013/12/24]
+** Bookmarks [2013/12/24]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-12-24
 :EXPORT_DATE: 2013-12-24T11:15:00+05:30
@@ -15024,7 +15024,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   what you do or what you did or where you’re going or where you’ve
   been. You just are. You are your existence, you are your awareness,
   you are your consciousness.
-** DONE Bookmarks [2013/12/23]
+** Bookmarks [2013/12/23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-12-23
 :EXPORT_DATE: 2013-12-23T11:34:35+05:30
@@ -15092,7 +15092,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   Love at First Flight is a documentary on ultimate, or rather, why
   people play ultimate. It is a documentary for non-players that tries
   to explain our passion for the sport that we love.
-** DONE Bookmarks [2013/12/16]
+** Bookmarks [2013/12/16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-12-16
 :EXPORT_DATE: 2013-12-16T09:19:30+05:30
@@ -15133,7 +15133,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   way for a lot of people. If you're wondering WTF I'm talking about,
   watch the video. And if you recognize any of this, maybe it's time
   to think about taking some steps to look after yourself.
-** DONE Bookmarks [2013/12/10]
+** Bookmarks [2013/12/10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-12-10
 :EXPORT_DATE: 2013-12-10T11:27:21+05:30
@@ -15182,7 +15182,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 
   These are the manuscript chapters for my Linkers and Loaders,
   published by Morgan-Kaufman
-** DONE Bookmarks [2013/12/05]
+** Bookmarks [2013/12/05]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-12-05
 :EXPORT_DATE: 2013-12-05T07:26:25+05:30
@@ -15234,7 +15234,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   test against these old Python interpreters. Felix Krull maintains a
   PPA (package archive) of older Python versions that are easy to
   install on Ubuntu.
-** DONE Bookmarks [2013/12/04]
+** Bookmarks [2013/12/04]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-12-04
 :EXPORT_DATE: 2013-12-04T02:11:49+05:30
@@ -15269,7 +15269,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   code review are based on a study at Cisco Systems using SmartBear
   CodeCollaborator. They can help you ensure that your reviews both
   improve your code and make the most of your developers' time.
-** DONE Bookmarks [2013/11/29]
+** Bookmarks [2013/11/29]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-11-29
 :EXPORT_DATE: 2013-11-29T16:16:39+05:30
@@ -15313,7 +15313,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   I made this list of the high points, what's in each version of
   Python 2.x. Items with a star were introduced with a __future__
   import.
-** DONE Bookmarks [2013/11/25]
+** Bookmarks [2013/11/25]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-11-25
 :EXPORT_DATE: 2013-11-25T12:13:45+05:30
@@ -15352,7 +15352,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 - [[http://www.businessinsider.in/The-Most-Surprising-Things-About-America-According-To-An-Indian-International-Student/articleshow/22154725.cms][The Most Surprising Things About America, According To An Indian International Student | Business Insider India]]
 
   The most surprising things about America
-** DONE Bookmarks [2013/11/24]
+** Bookmarks [2013/11/24]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-11-24
 :EXPORT_DATE: 2013-11-24T22:03:02+05:30
@@ -15386,7 +15386,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   inventions of 2010.
 
   The iPad was number 34, sugru was number 22.
-** DONE Bookmarks [2013/11/20]
+** Bookmarks [2013/11/20]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-11-20
 :EXPORT_DATE: 2013-11-20T14:42:36+05:30
@@ -15435,7 +15435,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   and workflow. Hopefully, this post has given you an idea of either
   how to implement it for your team, or how to improve your existing
   workflow.
-** DONE Bookmarks [2013/11/17]
+** Bookmarks [2013/11/17]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-11-17
 :EXPORT_DATE: 2013-11-17T20:23:54+05:30
@@ -15481,7 +15481,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   Within a day of surgery Craig was up and speaking to doctors and now
   lives fully functioning without a heart. Who said science was
   boring?
-** DONE Bookmarks [2013/11/12]
+** Bookmarks [2013/11/12]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-11-12
 :EXPORT_DATE: 2013-11-12T12:13:12+05:30
@@ -15521,7 +15521,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   of Jenkins-CI plugins indicated below in this e-mail.
 
   The total number of impacted repositories should then be: 186
-** DONE Bookmarks [2013/11/09]
+** Bookmarks [2013/11/09]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-11-09
 :EXPORT_DATE: 2013-11-09T19:29:57+05:30
@@ -15564,7 +15564,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   unsupervised learning, large margin methods, probabilistic modeling,
   learning theory, etc.). It's focus is on broad applications with a
   rigorous backbone.
-** DONE Bookmarks [2013/11/04]
+** Bookmarks [2013/11/04]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-11-04
 :EXPORT_DATE: 2013-11-04T09:55:51+05:30
@@ -15629,7 +15629,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 
   These are all books that were recommended to me by various people on
   twitter, presented in no particular order. Thanks! -- @hmason
-** DONE Bookmarks [2013/10/28]
+** Bookmarks [2013/10/28]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-10-28
 :EXPORT_DATE: 2013-10-28T15:05:15+05:30
@@ -15683,7 +15683,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   between the two cities. This is Bangalore. The city offers you
   everything you need and sits back and watches while you imprudently
   pick only what you want.
-** DONE Bookmarks [2013/10/25]
+** Bookmarks [2013/10/25]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-10-25
 :EXPORT_DATE: 2013-10-25T11:06:57+05:30
@@ -15729,7 +15729,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   lane. From treading on Living Root Bridges in Cherrapunji to a bike
   ride through Ladakh, trekking through the valley of flowers in
   Himalayas to surfing in Orissa, here are some insane experiences.
-** DONE Bookmarks [2013/10/18]
+** Bookmarks [2013/10/18]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-10-18
 :EXPORT_DATE: 2013-10-18T23:22:53+05:30
@@ -15774,7 +15774,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   “aha!” moments of my adult life) was that while extroverts are
   energized by connecting and spending time with others, introverts
   need inward-focused, alone time to recharge.
-** DONE Bookmarks [2013/10/16]
+** Bookmarks [2013/10/16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-10-16
 :EXPORT_DATE: 2013-10-16T14:41:36+05:30
@@ -15834,7 +15834,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   there’s no need to define it so strictly in the first
   place. Whatever the case may be, let’s see if you’re any better at
   telling modern art from children’s drawings than the experts are!
-** DONE Bookmarks [2013/04/17]
+** Bookmarks [2013/04/17]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-04-17
 :EXPORT_DATE: 2013-04-17T23:59:59+05:30
@@ -15869,7 +15869,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   other forms to continue expressing their goals in other
   mediums. Or, they take those lessons learned and parlay them into
   a successful life, but they don't just drop them and walk away.
-** DONE Bookmarks [2013/03/14]
+** Bookmarks [2013/03/14]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-03-14
 :EXPORT_DATE: 2013-03-14T23:59:59+05:30
@@ -15907,7 +15907,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 - [[http://lurnq.com/lesson/Getting-started-with-Python-Tips-Tools-and-Resources/][Getting started with Python: Tips, Tools and Resources - Lesson in Programming]]
 
   tags: python, programming, tutorial, collection
-** DONE Bookmarks [2013/01/22]
+** Bookmarks [2013/01/22]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2013-01-22
 :EXPORT_DATE: 2013-01-22T23:59:59+05:30
@@ -15947,7 +15947,7 @@ I'll try and post things that made me happy or touched my heart, each week.
 - [[http://www.deccanherald.com/content/306814/its-all-bike.html][It’s all about the bike]]
 
   tags: travel, india, adventure, bicycling
-** DONE Bookmarks [2012/12/12]
+** Bookmarks [2012/12/12]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-12-12
 :EXPORT_DATE: 2012-12-12T23:59:59+05:30
@@ -15989,7 +15989,7 @@ I'll try and post things that made me happy or touched my heart, each week.
   tags: travel, visa, advice, bicycling
 
   If you are going in an overland trip from Asia to Europe,through central asia , here is my experience with the visas.
-** DONE Bookmarks [2012/09/18]
+** Bookmarks [2012/09/18]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-09-18
 :EXPORT_DATE: 2012-09-18T23:59:59+05:30
@@ -16034,7 +16034,7 @@ Nice feature set
 - [[http://www.codinghorror.com/blog/2004/02/recommended-reading-for-developers.html][Coding Horror: Recommended Reading for Developers]]
 
   tags: recommended, books, programming, reading, collection
-** DONE Bookmarks [2012/08/28]
+** Bookmarks [2012/08/28]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-08-28
 :EXPORT_DATE: 2012-08-28T23:59:59+05:30
@@ -16076,7 +16076,7 @@ Nice feature set
       http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Lists
 
   This is the GNU Emacs Lisp Reference Manual, corresponding to Emacs version 24.1.
-** DONE Bookmarks [2012/08/21]
+** Bookmarks [2012/08/21]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-08-21
 :EXPORT_DATE: 2012-08-21T23:59:59+05:30
@@ -16113,7 +16113,7 @@ Nice feature set
 - [[http://queue.acm.org/detail.cfm?id=2349257&ref=fullrss][A Generation Lost in the Bazaar - ACM Queue]]
 
   tags: reading, programming, analysis
-** DONE Bookmarks [2012/08/06]
+** Bookmarks [2012/08/06]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-08-06
 :EXPORT_DATE: 2012-08-06T23:59:59+05:30
@@ -16150,7 +16150,7 @@ Nice feature set
 - [[http://sachachua.com/blog/2012/07/work-is-love-made-visible/][Work is love made visible | sacha chua :: living an awesome life]]
 
      tags: poem, life, work, love, advice
-** DONE Bookmarks [2012/07/15]
+** Bookmarks [2012/07/15]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-07-15
 :EXPORT_DATE: 2012-07-15T23:59:59+05:30
@@ -16189,7 +16189,7 @@ Nice feature set
 - [[http://www.federicopereiro.com/masters/][» Read the masters :federicopereiro.com]]
 
   tags: advice, reading, programming
-** DONE Bookmarks [2012/05/12]
+** Bookmarks [2012/05/12]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-05-12
 :EXPORT_DATE: 2012-05-12T23:59:59+05:30
@@ -16232,7 +16232,7 @@ Nice feature set
   police can get them under very easy conditions. Nonetheless, it is
   a dishonest proceeding, systematically asking patients to accept
   policies they have not seen and then make false statements.
-** DONE Bookmarks [2012/04/24]
+** Bookmarks [2012/04/24]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-04-24
 :EXPORT_DATE: 2012-04-24T23:59:59+05:30
@@ -16269,7 +16269,7 @@ Nice feature set
 - [[http://dotfiles.github.com/][GitHub does dotfiles - dotfiles.github.com]]
 
   tags: git, github, linux
-** DONE Bookmarks [2012/04/12]
+** Bookmarks [2012/04/12]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-04-12
 :EXPORT_DATE: 2012-04-12T23:59:59+05:30
@@ -16314,7 +16314,7 @@ Nice feature set
 - [[http://rodrigohaenggi.com/posts/waking-up-early-10-tips-that-work/][Waking up early, 10 tips that work]]
 
   tags: life, howto, advice
-** DONE Bookmarks [2012/03/23]
+** Bookmarks [2012/03/23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-03-23
 :EXPORT_DATE: 2012-03-23T23:59:59+05:30
@@ -16354,7 +16354,7 @@ Nice feature set
 - [[http://www.hackerschool.com/about][Hacker School]]
 
   tags: hacking, howto, advice
-** DONE Bookmarks [2012/02/09]
+** Bookmarks [2012/02/09]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2012-02-09
 :EXPORT_DATE: 2012-02-09T23:59:59+05:30
@@ -16391,7 +16391,7 @@ Nice feature set
 - [[http://stackoverflow.com/questions/923486/what-are-the-best-google-tech-talks][video - What are the best Google Tech Talks? - Stack Overflow]]
 
   tags: video, technology, collection
-** DONE Bookmarks [2011/10/04]
+** Bookmarks [2011/10/04]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-10-04
 :EXPORT_DATE: 2011-10-04T23:59:59+05:30
@@ -16428,7 +16428,7 @@ Nice feature set
 - [[https://github.com/diaspora/diaspora/wiki/Git-Workflow][Git Workflow - GitHub]]
 
   tags: howto, git, newbie
-** DONE Bookmarks [2011/09/06]
+** Bookmarks [2011/09/06]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-09-06
 :EXPORT_DATE: 2011-09-06T23:59:59+05:30
@@ -16465,7 +16465,7 @@ Nice feature set
 - [[http://scipy-central.org/][SciPy Central]]
 
   tags: scipy, code, numpy, collection
-** DONE Bookmarks [2011/08/18]
+** Bookmarks [2011/08/18]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-08-18
 :EXPORT_DATE: 2011-08-18T23:59:59+05:30
@@ -16502,7 +16502,7 @@ Nice feature set
 - [[http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/][HTML5 Rocks - How Browsers Work: Behind the Scenes of Modern Web Browsers]]
 
   tags: development, software
-** DONE Bookmarks [2011/08/08]
+** Bookmarks [2011/08/08]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-08-08
 :EXPORT_DATE: 2011-08-08T23:59:59+05:30
@@ -16539,7 +16539,7 @@ Nice feature set
 - [[http://computationaltales.blogspot.com/p/posts-by-topic.html][Computational Fairy Tales: Posts by Topic]]
 
   tags: computer_science, learn
-** DONE Bookmarks [2011/07/09]
+** Bookmarks [2011/07/09]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-07-09
 :EXPORT_DATE: 2011-07-09T23:59:59+05:30
@@ -16578,7 +16578,7 @@ Nice feature set
 - [[http://lkozma.net/blog/quick-web-app-ideas/][Quick web app ideas — next big thing syndrome]]
 
   tags: programming, ideas, collection, hack
-** DONE Bookmarks [2011/05/30]
+** Bookmarks [2011/05/30]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-05-30
 :EXPORT_DATE: 2011-05-30T23:59:59+05:30
@@ -16615,7 +16615,7 @@ Nice feature set
 - [[http://mldemos.epfl.ch/][Machine Learning Demos]]
 
   tags: machine_learning, demo, learning, software
-** DONE Bookmarks [2011/05/22]
+** Bookmarks [2011/05/22]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-05-22
 :EXPORT_DATE: 2011-05-22T23:59:59+05:30
@@ -16654,7 +16654,7 @@ Nice feature set
 - [[http://matt.might.net/articles/phd-school-in-pictures/][The illustrated guide to a Ph.D.]]
 
   tags: education, research, phd
-** DONE Bookmarks [2011/05/16]
+** Bookmarks [2011/05/16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-05-16
 :EXPORT_DATE: 2011-05-16T23:59:59+05:30
@@ -16696,7 +16696,7 @@ Nice feature set
 - [[http://farside.ph.utexas.edu/teaching.html][Courses Taught By Richard Fitzpatrick At UT Austin]]
 
   tags: courses, notes, physics
-** DONE Bookmarks [2011/05/06]
+** Bookmarks [2011/05/06]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-05-06
 :EXPORT_DATE: 2011-05-06T23:59:59+05:30
@@ -16740,7 +16740,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
   tags: hardware, development, computer
 
   Braben has developed a tiny USB stick PC that has a HDMI port in one end and a USB port on the other. You plug it into a HDMI socket and then connect a keyboard via the USB port giving you a fully functioning machine running a version of Linux. The cost? $25.
-** DONE Bookmarks [2011/05/02]
+** Bookmarks [2011/05/02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-05-02
 :EXPORT_DATE: 2011-05-02T23:59:59+05:30
@@ -16780,7 +16780,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
   tags: code, work, software
 
   The neat thing about The Joel Test is that it's easy to get a quick yes or no to each question. You don't have to figure out lines-of-code-per-day or average-bugs-per-inflection-point. Give your team 1 point for each "yes" answer. The bummer about The Joel Test is that you really shouldn't use it to make sure that your nuclear power plant software is safe.
-** DONE Bookmarks [2011/04/27]
+** Bookmarks [2011/04/27]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-04-27
 :EXPORT_DATE: 2011-04-27T23:59:59+05:30
@@ -16838,7 +16838,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
   tags: work, advice, insight, howto, hack
 
   For the first couple years you make stuff, it's just not that good. It's trying to be good, it has potential, but it's not. But your taste, the thing that got you into the game, is still killer. And your taste is why your work disappoints you.
-** DONE Bookmarks [2011/04/26]
+** Bookmarks [2011/04/26]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-04-26
 :EXPORT_DATE: 2011-04-26T23:59:59+05:30
@@ -16875,7 +16875,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://haskell.org/haskellwiki/How_to_write_a_Haskell_program][How to write a Haskell program - HaskellWiki]]
 
   tags: programming, haskell, howto, tutorial
-** DONE Bookmarks [2011/04/23]
+** Bookmarks [2011/04/23]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-04-23
 :EXPORT_DATE: 2011-04-23T23:59:59+05:30
@@ -16912,7 +16912,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://tvmtalkies.com/archives/911][Listening to P Sainath | T a l k i e s]]
 
   tags: interview, society, india, development
-** DONE Bookmarks [2011/04/14]
+** Bookmarks [2011/04/14]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-04-14
 :EXPORT_DATE: 2011-04-14T23:59:59+05:30
@@ -16949,7 +16949,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://vandelaydesign.com/blog/design/wacom-tablets-tutorials/][35 Tutorials and Guides for Working With Wacom Tablets | Vandelay Design Blog]]
 
   tags: howto, drawing, tutorial
-** DONE Bookmarks [2011/04/08]
+** Bookmarks [2011/04/08]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-04-08
 :EXPORT_DATE: 2011-04-08T23:59:59+05:30
@@ -16986,7 +16986,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://www.wildbunny.co.uk/blog/2011/04/06/physics-engines-for-dummies/][Physics engines for dummies | Paul's blog@Wildbunny]]
 
   tags: software, code, physics, hack
-** DONE Bookmarks [2011/03/16]
+** Bookmarks [2011/03/16]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-03-16
 :EXPORT_DATE: 2011-03-16T23:59:59+05:30
@@ -17026,7 +17026,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://m.economictimes.com/PDAET/articleshow/7715432.cms][Government can switch off your internet if necessary-Internet-Tech-The Economic Times on Mobile]]
 
   tags: india, internet
-** DONE Bookmarks [2011/03/14]
+** Bookmarks [2011/03/14]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-03-14
 :EXPORT_DATE: 2011-03-14T23:59:59+05:30
@@ -17096,7 +17096,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
   anyone like that? I'm grateful for his ethical leadership, and
   hope one day to see him truly receive the recognition he deserves,
   for the freedom movement he launched.
-** DONE Bookmarks [2011/03/10]
+** Bookmarks [2011/03/10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-03-10
 :EXPORT_DATE: 2011-03-10T23:59:59+05:30
@@ -17139,7 +17139,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
   dating service', where the Steve's and the Chris'es of this world
   can meet up and achieve miracles that they alone would not be able
   to realize.
-** DONE Bookmarks [2011/03/06]
+** Bookmarks [2011/03/06]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-03-06
 :EXPORT_DATE: 2011-03-06T23:59:59+05:30
@@ -17176,7 +17176,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://www.boston.com/bostonglobe/ideas/articles/2011/03/06/the_power_of_lonely/?page=full][The power of lonely - The Boston Globe]]
 
   tags: life, insight, advice
-** DONE Bookmarks [2011/03/01]
+** Bookmarks [2011/03/01]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-03-01
 :EXPORT_DATE: 2011-03-01T23:59:59+05:30
@@ -17213,7 +17213,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://dev.w3.org/2006/webapi/WebNotifications/publish/Notifications.html#dfn-cancel][Web Notifications]]
 
   tags: chrome, help
-** DONE Bookmarks [2011/02/25]
+** Bookmarks [2011/02/25]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-02-25
 :EXPORT_DATE: 2011-02-25T23:59:59+05:30
@@ -17252,7 +17252,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
   tags: conference, advice, howto
 
   Conferences are the best way to quickly extend a business network and, if done correctly, attendance and the follow up is an arduous but rewarding endeavour
-** DONE Bookmarks [2011/02/20]
+** Bookmarks [2011/02/20]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-02-20
 :EXPORT_DATE: 2011-02-20T23:59:59+05:30
@@ -17291,7 +17291,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
   tags: computer, technology, law
 
   Sony is lame, and is suing me for hacking MY OWN PS3. Help me own them in court:help:
-** DONE Bookmarks [2011/02/12]
+** Bookmarks [2011/02/12]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-02-12
 :EXPORT_DATE: 2011-02-12T23:59:59+05:30
@@ -17316,7 +17316,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://www.sorting-algorithms.com/selection-sort][Selection Sort - Sorting Algorithm Animations]]
 
   tags: computer_science, visualization, algorithms
-** DONE Bookmarks [2011/02/06]
+** Bookmarks [2011/02/06]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-02-06
 :EXPORT_DATE: 2011-02-06T23:59:59+05:30
@@ -17353,7 +17353,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://www.todayifoundout.com/index.php/2010/07/how-deaf-people-think/][How Deaf People Think]]
 
   tags: thought, science, research, brain
-** DONE Bookmarks [2011/02/04]
+** Bookmarks [2011/02/04]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-02-04
 :EXPORT_DATE: 2011-02-04T23:59:59+05:30
@@ -17393,7 +17393,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://olihb.com/2011/01/23/map-of-scientific-collaboration-between-researchers/][Map of scientific collaboration between researchers | Stuff I made]]
 
   tags: science, visualization, data, research
-** DONE Bookmarks [2011/01/30]
+** Bookmarks [2011/01/30]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-01-30
 :EXPORT_DATE: 2011-01-30T23:59:59+05:30
@@ -17430,7 +17430,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://thewaronbullshit.com/2010/12/13/7-most-important-things-to-know-before-beginning-a-phd/][7 Most Important Things to Know Before Beginning a PhD « The War on Bullshit]]
 
   tags: advice, education, research
-** DONE Bookmarks [2011/01/19]
+** Bookmarks [2011/01/19]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-01-19
 :EXPORT_DATE: 2011-01-19T23:59:59+05:30
@@ -17467,7 +17467,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://aerique.blogspot.com/2011/01/baby-steps-into-genetic-programming.html][Ceci n'est pas un titre: Baby Steps into Genetic Programming]]
 
   tags: project, reading, programming, idea
-** DONE Bookmarks [2011/01/12]
+** Bookmarks [2011/01/12]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-01-12
 :EXPORT_DATE: 2011-01-12T23:59:59+05:30
@@ -17504,7 +17504,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://artofmanliness.com/2009/06/07/30-days-to-a-better-man-day-8-start-a-journal/][How and Why to Start a Journal | The Art of Manliness]]
 
   tags: life, writing
-** DONE Bookmarks [2011/01/09]
+** Bookmarks [2011/01/09]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-01-09
 :EXPORT_DATE: 2011-01-09T23:59:59+05:30
@@ -17541,7 +17541,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://matt.might.net/articles/productivity-tips-hints-hacks-tricks-for-grad-students-academics/][Productivity hints, tips, hacks and tricks for graduate students and professors]]
 
   tags: productivity, tips, work, howto, advice
-** DONE Bookmarks [2011/01/01]
+** Bookmarks [2011/01/01]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2011-01-01
 :EXPORT_DATE: 2011-01-01T23:59:59+05:30
@@ -17578,7 +17578,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[https://github.com/hmason/gitmarks][hmason/gitmarks - GitHub]]
 
   tags: git
-** DONE Bookmarks [2010/12/31]
+** Bookmarks [2010/12/31]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-12-31
 :EXPORT_DATE: 2010-12-31T23:59:59+05:30
@@ -17615,7 +17615,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://jeffhuang.com/best_paper_awards.html][Best paper awards for AAAI, CHI, KDD, SIGMOD, ICML, SIGIR, CIKM, WWW, VLDB, IJCAI, UIST]]
 
   tags: computer_science, research
-** DONE Bookmarks [2010/12/12]
+** Bookmarks [2010/12/12]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-12-12
 :EXPORT_DATE: 2010-12-12T23:59:59+05:30
@@ -17652,7 +17652,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://www.indianexpress.com/news/Rural-coordinates/723535][Rural coordinates]]
 
   tags: awesome
-** DONE Bookmarks [2010/12/06]
+** Bookmarks [2010/12/06]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-12-06
 :EXPORT_DATE: 2010-12-06T23:59:59+05:30
@@ -17689,7 +17689,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://www.stephenhobley.com/blog/2010/12/04/what-the-kinect-sensor-actually-does/][What the Kinect sensor actually does…]]
 
   tags: analysis
-** DONE Bookmarks [2010/12/02]
+** Bookmarks [2010/12/02]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-12-02
 :EXPORT_DATE: 2010-12-02T23:59:59+05:30
@@ -17726,7 +17726,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://jackcheng.tumblr.com/post/200367929/coveting-possessions-is-unhealthy-heres-how-i][Notes to Self: Coveting possessions is unhealthy. Here’s how I...]]
 
   tags: life, awesome, writing
-** DONE Bookmarks [2010/12/01]
+** Bookmarks [2010/12/01]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-12-01
 :EXPORT_DATE: 2010-12-01T23:59:59+05:30
@@ -17763,7 +17763,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://blog.penelopetrunk.com/2010/11/30/5-reasons-to-stop-trying-to-be-happy/][5 Reasons to stop trying to be happy | Penelope Trunk's Brazen Careerist]]
 
   tags: life, writing
-** DONE Bookmarks [2010/11/24]
+** Bookmarks [2010/11/24]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-24
 :EXPORT_DATE: 2010-11-24T23:59:59+05:30
@@ -17800,7 +17800,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://www.cdecl.org/][cdecl: C gibberish ↔ English]]
 
   tags: lafoot, programming, idea, hack
-** DONE Bookmarks [2010/11/21]
+** Bookmarks [2010/11/21]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-21
 :EXPORT_DATE: 2010-11-21T23:59:59+05:30
@@ -17837,7 +17837,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://sahillavingia.com/blog/2010/11/19/faking-it/][Faking it. - Sahil Lavingia]]
 
   tags: advice, startup, tips, idea
-** DONE Bookmarks [2010/11/19]
+** Bookmarks [2010/11/19]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-19
 :EXPORT_DATE: 2010-11-19T23:59:59+05:30
@@ -17874,7 +17874,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://lifehacker.com/5691647/how-to-make-a-functioning-trackpad-out-of-paper][How to Make a Functioning Trackpad Out of Paper]]
 
   tags: hardware, DIY
-** DONE Bookmarks [2010/11/15]
+** Bookmarks [2010/11/15]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-15
 :EXPORT_DATE: 2010-11-15T23:59:59+05:30
@@ -17911,7 +17911,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://blog.programmableweb.com/2010/11/10/twitter-goes-json-only-with-one-api-more-to-come/][Twitter Goes JSON-Only With One API, More to Come?]]
 
   tags: note, software
-** DONE Bookmarks [2010/11/14]
+** Bookmarks [2010/11/14]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-14
 :EXPORT_DATE: 2010-11-14T23:59:59+05:30
@@ -17948,7 +17948,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://www.hiteshagrawal.com/ffmpeg/converting-audiovideos-using-ffmpeg][FFMPEG - Converting Audio and Videos using FFMPEG]]
 
   tags: software
-** DONE Bookmarks [2010/11/12]
+** Bookmarks [2010/11/12]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-12
 :EXPORT_DATE: 2010-11-12T23:59:59+05:30
@@ -17985,7 +17985,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://cdixon.org/2010/11/10/the-interoperability-of-social-networks/][cdixon.org – chris dixon's blog / The interoperability of social networks]]
 
   tags: advice, math
-** DONE Bookmarks [2010/11/11]
+** Bookmarks [2010/11/11]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-11
 :EXPORT_DATE: 2010-11-11T23:59:59+05:30
@@ -18022,7 +18022,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://mynorthwest.com/category/news_chick_blog/20101110/Seeking-rejection-for-30-days/][Seeking rejection for 30 days - MyNorthwest.com]]
 
   tags: life, ideas, awesome
-** DONE Bookmarks [2010/11/10]
+** Bookmarks [2010/11/10]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-10
 :EXPORT_DATE: 2010-11-10T23:59:59+05:30
@@ -18059,7 +18059,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://ma.tt/2010/11/one-point-oh/][1.0 Is the Loneliest Number — Matt Mullenweg]]
 
   tags: advice, prototype, startup, ideas, awesome
-** DONE Bookmarks [2010/11/09]
+** Bookmarks [2010/11/09]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-09
 :EXPORT_DATE: 2010-11-09T23:59:59+05:30
@@ -18096,7 +18096,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://1week1project.com/post/925649367/prologue][1 week. 1 project. • Prologue]]
 
   tags: project, life, ideas, awesome, tips
-** DONE Bookmarks [2010/11/08]
+** Bookmarks [2010/11/08]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-08
 :EXPORT_DATE: 2010-11-08T23:59:59+05:30
@@ -18133,7 +18133,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://cdixon.org/2010/11/07/timing-your-startup/][cdixon.org – chris dixon's blog / Timing your startup]]
 
   tags: advice, startup, tips, time
-** DONE Bookmarks [2010/11/07]
+** Bookmarks [2010/11/07]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-07
 :EXPORT_DATE: 2010-11-07T23:59:59+05:30
@@ -18170,7 +18170,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://learnyouahaskell.com/chapters][Learn You a Haskell for Great Good! - Chapters]]
 
   tags: haskell, tutorial, reference
-** DONE Bookmarks [2010/11/06]
+** Bookmarks [2010/11/06]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-06
 :EXPORT_DATE: 2010-11-06T23:59:59+05:30
@@ -18209,7 +18209,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://www.azarask.in/blog/post/how-to-prototype-and-influence-people/][How To Prototype And Influence People « Aza on Design]]
 
   tags: awesome, prototype, startup, advice, hack
-** DONE Bookmarks [2010/11/05]
+** Bookmarks [2010/11/05]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-05
 :EXPORT_DATE: 2010-11-05T23:59:59+05:30
@@ -18246,7 +18246,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[https://github.com/arunchaganty/newsline][arunchaganty's newsline at master - GitHub]]
 
   tags: project, awesome, hack
-** DONE Bookmarks [2010/11/04]
+** Bookmarks [2010/11/04]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-04
 :EXPORT_DATE: 2010-11-04T23:59:59+05:30
@@ -18283,7 +18283,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[https://help.ubuntu.com/community/LiveCDCustomization][LiveCDCustomization - Community Ubuntu Documentation]]
 
   tags: ubuntu
-** DONE Bookmarks [2010/11/03]
+** Bookmarks [2010/11/03]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-11-03
 :EXPORT_DATE: 2010-11-03T23:59:59+05:30
@@ -18323,7 +18323,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 - [[http://dreamerofyourdreams.com/wp-content/uploads/2010/09/The-Holstee-Manifesto2.png][The-Holstee-Manifesto2.png (JPEG Image, 710x950 pixels) - Scaled (70%)]]
 
   tags: life, love, tips, awesome
-** DONE Bookmarks [2010/07/01]
+** Bookmarks [2010/07/01]
 :PROPERTIES:
 :EXPORT_FILE_NAME: bookmarks-2010-07-01
 :EXPORT_DATE: 2010-07-01T23:59:59+05:30
@@ -18375,7 +18375,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: recurse-center
 :END:
-** DONE Recurse Center, 2014-08-28
+** Recurse Center, 2014-08-28
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-28
 :EXPORT_DATE: 2014-08-29T12:24:44-04:00
@@ -18383,7 +18383,7 @@ When it comes to hacking on opensource software, none of age, gender, race, coun
 
 All good things must come to an end, and so did our batch!  We got our Hacker
 School t-shirts, and had a super fun picnic at Prospect Park.
-** DONE Recurse Center, 2014-08-27 :PIL:python:
+** Recurse Center, 2014-08-27 :PIL:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-27
 :EXPORT_DATE: 2014-08-28T09:51:30-04:00
@@ -18399,7 +18399,7 @@ School t-shirts, and had a super fun picnic at Prospect Park.
   After some playing around with trying to get rid of Python for-loops, I was
   able to use PIL's =image.tobytes= and some image cropping to get the data to
   be sent to the LEDs, and it sped up the display quite a bit.
-** DONE Recurse Center, 2014-08-26 :python:
+** Recurse Center, 2014-08-26 :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-26
 :EXPORT_DATE: 2014-08-27T10:23:27-04:00
@@ -18413,7 +18413,7 @@ School t-shirts, and had a super fun picnic at Prospect Park.
 - There were a bunch of interesting talks presented by the
   others. [[http://comparea.org]], [[https://medium.com/@vijayp/of-taxis-and-rainbows-f6bc289679a1][Taxis and Rainbows]] were the most interesting
   ones for me.
-** DONE Recurse Center, 2014-08-25
+** Recurse Center, 2014-08-25
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-25
 :EXPORT_DATE: 2014-08-26T10:21:07-04:00
@@ -18433,7 +18433,7 @@ School t-shirts, and had a super fun picnic at Prospect Park.
   a School where projects were the atom of the curriculum, instead of courses.
 
 - I'll spend some time preparing my talk for tonight's hack-and-tell.
-** DONE Recurse Center, 2014-08-24 :javascript:
+** Recurse Center, 2014-08-24 :javascript:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-24
 :EXPORT_DATE: 2014-08-25T10:23:53-04:00
@@ -18452,7 +18452,7 @@ School t-shirts, and had a super fun picnic at Prospect Park.
 
 - Spent the day with cousins at Central Park Zoo, Upper East Side River
   front.
-** DONE Recurse Center, 2014-08-20 :python:
+** Recurse Center, 2014-08-20 :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-20
 :EXPORT_DATE: 2014-08-22T22:43:04-04:00
@@ -18462,7 +18462,7 @@ School t-shirts, and had a super fun picnic at Prospect Park.
   and Co-routines.
 - Also refactored api-diff to use astroid, instead of the ast module.  Kinda
   happy with what I have, for now. May be more, later...
-** DONE Recurse Center, 2014-08-21 :jobs:python:
+** Recurse Center, 2014-08-21 :jobs:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-21
 :EXPORT_DATE: 2014-08-22T10:33:34-04:00
@@ -18476,7 +18476,7 @@ School t-shirts, and had a super fun picnic at Prospect Park.
   School.
 - A bunch of awesome thursday presentations, and job fair and awesome food by
   Chef Warren!
-** DONE Recurse Center, 2014-08-19 :python:
+** Recurse Center, 2014-08-19 :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-19
 :EXPORT_DATE: 2014-08-20T18:06:53-04:00
@@ -18489,7 +18489,7 @@ School t-shirts, and had a super fun picnic at Prospect Park.
 - I spent a little time late in the day getting class diffs working, and
   refactoring the api-diff tool to remove duplication of code between classes
   and modules. But, not very happy with the way I did it.
-** DONE Recurse Center, 2014-08-18 :elixir:python:
+** Recurse Center, 2014-08-18 :elixir:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-18
 :EXPORT_DATE: 2014-08-19T13:11:49-04:00
@@ -18503,7 +18503,7 @@ School t-shirts, and had a super fun picnic at Prospect Park.
   strings and arrays.
 - José Valim's presentation on Elixir was interesting and got me reading up a
   stuff about concurrency, and related stuff.  Thanks!
-** DONE Recurse Center, 2014-08-17 :python:
+** Recurse Center, 2014-08-17 :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-17
 :EXPORT_DATE: 2014-08-18T21:59:07-04:00
@@ -18517,7 +18517,7 @@ School t-shirts, and had a super fun picnic at Prospect Park.
 *** Saturday & Sunday
 
 I almost didn't write any code during the weekend.
-** DONE Recurse Center, 2014-08-14 :python:
+** Recurse Center, 2014-08-14 :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-14
 :EXPORT_DATE: 2014-08-15T18:09:59-04:00
@@ -18535,7 +18535,7 @@ I almost didn't write any code during the weekend.
   the evening finishing off [[http://craphound.com/homeland/][Homeland]]. It's a brilliant book, and everyone who
   cares about the Government and policies and technology MUST read it!  Thanks
   Cory.
-** DONE Recurse Center, 2014-08-13 :python:
+** Recurse Center, 2014-08-13 :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-13
 :EXPORT_DATE: 2014-08-14T11:11:59-04:00
@@ -18564,7 +18564,7 @@ I almost didn't write any code during the weekend.
   works better I suppose.
 
   I'd be interested to try this out, sometime.
-** DONE Recurse Center, 2014-08-12 :python:
+** Recurse Center, 2014-08-12 :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-12
 :EXPORT_DATE: 2014-08-13T10:30:30-04:00
@@ -18581,7 +18581,7 @@ I almost didn't write any code during the weekend.
   changes.
 - I spent some time talking to Sophia, and looking at her FTP server's
   refactored code.
-** DONE Recurse Center, 2014-08-11 :django:python:twitter:
+** Recurse Center, 2014-08-11 :django:python:twitter:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-11
 :EXPORT_DATE: 2014-08-11T11:16:08-04:00
@@ -18611,7 +18611,7 @@ I almost didn't write any code during the weekend.
   the Cracking the Code Interview book.
 - I ended up fixing some minor issues with blaggregator and am hoping that the
   long pending PR will be merged today.
-** DONE Recurse Center, 2014-08-08 :chrome:emacs:python:
+** Recurse Center, 2014-08-08 :chrome:emacs:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-08
 :EXPORT_DATE: 2014-08-09T20:56:22-04:00
@@ -18631,7 +18631,7 @@ I almost didn't write any code during the weekend.
   some matching/searching features with helm/ido/whatever else.
 - I spent the Sunday writing a patch to [[https://github.com/punchagan/xtab/tree/kill-by-memory][xtab]] to be able to limit the number of
   tabs in Chromium by the memory it uses.
-** DONE Recurse Center, 2014-08-07 :raspberry_pi:
+** Recurse Center, 2014-08-07 :raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-07
 :EXPORT_DATE: 2014-08-08T18:15:09-04:00
@@ -18652,7 +18652,7 @@ I almost didn't write any code during the weekend.
 
 - William Skeith, gave a talk on [[https://github.com/wes1138/webauth-via-ssh][using SSH keys for web-authentication]], which
   was pretty interesting.
-** DONE Recurse Center, 2014-08-06 :raspberry_pi:
+** Recurse Center, 2014-08-06 :raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-06
 :EXPORT_DATE: 2014-08-07T10:57:15-04:00
@@ -18668,7 +18668,7 @@ I almost didn't write any code during the weekend.
 - The electronics hobbyists were doing some cool stuff, and I joined them for a
   bit. We tried some cheap motion sensors, but they didn't work very well, and
   probably need to be calibrated.
-** DONE Recurse Center, 2014-08-05 :nikola:raspberry_pi:
+** Recurse Center, 2014-08-05 :nikola:raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-05
 :EXPORT_DATE: 2014-08-05T23:44:33-04:00
@@ -18685,7 +18685,7 @@ I almost didn't write any code during the weekend.
 - I sent a patch to Nikola for the lastdeploy timestamp being UTC.  I was
   hoping to work around an [[https://github.com/sursh/blaggregator/issues/56][issue]] with Blaggregator, by somehow fixing it on the
   client side, but that's probably not the right way to go about it.
-** DONE Recurse Center, 2014-08-04 :raspberry_pi:
+** Recurse Center, 2014-08-04 :raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-04
 :EXPORT_DATE: 2014-08-04T16:19:59-04:00
@@ -18699,7 +18699,7 @@ I almost didn't write any code during the weekend.
 - I tried to continue working on the bencode parser, to add support for
   dictionaries, but I couldn't get much work done before it was time for the
   Monday talk.
-** DONE Recurse Center, 2014-08-03 :C:python:raspberry_pi:
+** Recurse Center, 2014-08-03 :C:python:raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-08-03
 :EXPORT_DATE: 2014-08-04T16:10:41-04:00
@@ -18730,7 +18730,7 @@ I almost didn't write any code during the weekend.
   needs are like. Hooking it up to [[https://github.com/jasperproject/jasper-client][Jasper client]] seems like a good idea,
   right now... though I'm not sure if it would work very well, with the pi's
   audio output drowning out the voice commands.
-** DONE Recurse Center, 2014-07-31 :C:
+** Recurse Center, 2014-07-31 :C:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-31
 :EXPORT_DATE: 2014-08-01T10:38:57-04:00
@@ -18743,7 +18743,7 @@ I almost didn't write any code during the weekend.
 - I just started writing a Bencoding parser in C, but I'm having trouble
   thinking about all the memory allocations and stuff.  It feels so
   nostalgic! :P
-** DONE Recurse Center, 2014-07-30 :C:networking:
+** Recurse Center, 2014-07-30 :C:networking:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-30
 :EXPORT_DATE: 2014-07-31T08:40:16-04:00
@@ -18755,7 +18755,7 @@ I almost didn't write any code during the weekend.
 - We faced some issues with writing 0 bytes to memory, since most of the code
   was dealing with strings. I still haven't figured out how to do this,
   correctly.
-** DONE Recurse Center, 2014-07-29 :C:hack:raspberry_pi:
+** Recurse Center, 2014-07-29 :C:hack:raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-29
 :EXPORT_DATE: 2014-07-29T11:20:24-04:00
@@ -18785,7 +18785,7 @@ I almost didn't write any code during the weekend.
   last names of people or link to them, for privacy reasons.  Hacker School is
   particularly careful about not divulging information about who are at Hacker
   School each batch, and I want to keep that tradition.
-** DONE Recurse Center, 2014-07-28 :C:python:version_control:
+** Recurse Center, 2014-07-28 :C:python:version_control:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-28
 :EXPORT_DATE: 2014-07-28T22:23:39-04:00
@@ -18806,7 +18806,7 @@ I almost didn't write any code during the weekend.
 - After the talk, I am inspired to try and work through the Hacking: Art of
   exploitation, at some point. I'm beginning to feel like time at HackerSchool
   running out!
-** DONE Recurse Center, 2014-07-25 :python:vcs:
+** Recurse Center, 2014-07-25 :python:vcs:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-25
 :EXPORT_DATE: 2014-07-25T09:25:50-04:00
@@ -18824,7 +18824,7 @@ I almost didn't write any code during the weekend.
   trying to start writing and ascii backend.
 - Also, I was trying to help UC setup [[https://github.com/andrewrk/groovebasin][GrooveBasin]] on his raspberry pi, and
   helped him configure [[https://github.com/jasperproject/jasper-client][jasper]] on it.
-** DONE Recurse Center, 2014-07-24 :python:raspberry_pi:
+** Recurse Center, 2014-07-24 :python:raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-24
 :EXPORT_DATE: 2014-07-24T09:53:03-04:00
@@ -18872,7 +18872,7 @@ I almost didn't write any code during the weekend.
 
 - Also, excited to see how all the cool projects will come together in the
   party tonight!
-** DONE Recurse Center, 2014-07-23 :python:raspberry_pi:
+** Recurse Center, 2014-07-23 :python:raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-23
 :EXPORT_DATE: 2014-07-23T10:51:51-04:00
@@ -18901,7 +18901,7 @@ I almost didn't write any code during the weekend.
 
 - I feel like debugging this, will take my understanding of the
   hardware-software interface to a new level.
-** DONE Recurse Center, 2014-07-22 :learning:python:raspberry_pi:
+** Recurse Center, 2014-07-22 :learning:python:raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-22
 :EXPORT_DATE: 2014-07-22T10:46:36-04:00
@@ -18959,7 +18959,7 @@ I almost didn't write any code during the weekend.
   yesterday.
 - May be write up the whole thing, and make the code available.
 - Learn a little bit about Parsers from rntz.
-** DONE Recurse Center, 2014-07-21 :julia:orgmode:python:raspberry_pi:
+** Recurse Center, 2014-07-21 :julia:orgmode:python:raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-21
 :EXPORT_DATE: 2014-07-22T10:46:29-04:00
@@ -18992,7 +18992,7 @@ I almost didn't write any code during the weekend.
 
 - If I have any time, after getting this to work, I may play around with the
   dwm port.
-** DONE Recurse Center, 2014-07-20 :python:raspberry_pi:
+** Recurse Center, 2014-07-20 :python:raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-20
 :EXPORT_DATE: 2014-07-21T12:13:46-04:00
@@ -19039,7 +19039,7 @@ I almost didn't write any code during the weekend.
 
 - There's a whole new bunch of excited Hacker Schoolers in the space, and its
   very exciting!
-** DONE Recurse Center, 2014-07-18
+** Recurse Center, 2014-07-18
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-18
 :EXPORT_DATE: 2014-07-19T17:30:22-04:00
@@ -19049,7 +19049,7 @@ I almost didn't write any code during the weekend.
 - And then implemented an LRU
 - All of this in Julia, and it was fun.
 - I headed home early-ish, to catch up on some sleep.
-** DONE Recurse Center, 2014-07-17 :python:raspberry_pi:
+** Recurse Center, 2014-07-17 :python:raspberry_pi:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-17
 :EXPORT_DATE: 2014-07-19T16:45:12-04:00
@@ -19083,7 +19083,7 @@ I almost didn't write any code during the weekend.
   Monday, since I currently don't remember them all!  Looking at the list of
   names on the registration sheet would help!
 - The cleaned up code is [[https://gist.github.com/punchagan/90a238fedabcd88ba512][here]]
-** DONE Recurse Center, 2014-07-16
+** Recurse Center, 2014-07-16
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-16
 :EXPORT_DATE: 2014-07-17T13:57:46-04:00
@@ -19108,7 +19108,7 @@ I almost didn't write any code during the weekend.
 - I spent the night, refactoring the code to display random data on the
   LEDStrip as a display of columns.  And then also ended up cleaning up the
   setup scripts, and the way things need to be installed.
-** DONE Recurse Center, 2014-07-15
+** Recurse Center, 2014-07-15
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-15
 :EXPORT_DATE: 2014-07-16T21:54:59-04:00
@@ -19136,7 +19136,7 @@ I almost didn't write any code during the weekend.
   but most of the plugins didn't seem to have it, or the feature wasn't very
   discoverable.  I had tried writing something like that for Canopy, one or two
   years ago.  Discovering that gist mode has this feature, was awesome!
-** DONE Recurse Center, 2014-07-14 :numpy:python:
+** Recurse Center, 2014-07-14 :numpy:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-14
 :EXPORT_DATE: 2014-07-15T18:25:15-04:00
@@ -19156,7 +19156,7 @@ I almost didn't write any code during the weekend.
   index them.  They take very very long!!
 - I tried to get it working with Numpy, but getting all the headers to include
   wasn't as easy as I assumed it would be!
-** DONE Recurse Center, 2014-07-11 :python:
+** Recurse Center, 2014-07-11 :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-11
 :EXPORT_DATE: 2014-07-13T19:09:29-04:00
@@ -19185,7 +19185,7 @@ I almost didn't write any code during the weekend.
   also got rid of a couple of my bashrc aliases, and created a new [[https://github.com/punchagan/home-bin/blob/master/project][project]]
   command with completions of the directories in my project directory.  I like
   this setup, as of now.
-** DONE Recurse Center, 2014-07-10
+** Recurse Center, 2014-07-10
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-10
 :EXPORT_DATE: 2014-07-11T22:13:37-04:00
@@ -19196,7 +19196,7 @@ I almost didn't write any code during the weekend.
 - We also had a birthday celebration of one of the facilitators.
 - I also gave my first presentation at Hacker School.  I thought it was cool.
   Not sure if everyone thought it was.
-** DONE Recurse Center, 2014-07-09 :python:unicode:
+** Recurse Center, 2014-07-09 :python:unicode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-09
 :EXPORT_DATE: 2014-07-10T10:21:45-04:00
@@ -19218,7 +19218,7 @@ I almost didn't write any code during the weekend.
 - Also, updating the py-clang code to the latest version fixed the issue of
   unknown cursor kinds.
 - I may present my project in today's presentations!
-** DONE Recurse Center, 2014-07-08 :python:
+** Recurse Center, 2014-07-08 :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-08
 :EXPORT_DATE: 2014-07-09T01:24:07-04:00
@@ -19236,7 +19236,7 @@ I almost didn't write any code during the weekend.
   specified frequency.
 - I spent some time reviewing my first month here, and wrote up some notes in
   preparation for the one-on-one today with Allison.
-** DONE Recurse Center, 2014-07-07 :programming:python:thought:writing:
+** Recurse Center, 2014-07-07 :programming:python:thought:writing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-07
 :EXPORT_DATE: 2014-07-08T10:07:20-04:00
@@ -19277,7 +19277,7 @@ I almost didn't write any code during the weekend.
   some persistent format, and modify the inspect code to actually use it.
 - I will also be pairing with Kyle for a few hours on working through some of
   [[http://mitpress.mit.edu/books/audio-programming-book]]
-** DONE Recurse Center, 2014-07-06 :code:python:
+** Recurse Center, 2014-07-06 :code:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-06
 :EXPORT_DATE: 2014-07-07T23:28:39-04:00
@@ -19301,7 +19301,7 @@ guess the next step is to cache things somehow.
 
 I also added support for viewing the sources of built-in types.  It was pretty
 simple, once I had everything working with libclang.
-** DONE Recurse Center, 2014-07-02 :python:
+** Recurse Center, 2014-07-02 :python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-02
 :EXPORT_DATE: 2014-07-05T09:57:57-04:00
@@ -19316,7 +19316,7 @@ simple, once I had everything working with libclang.
   work too well with the Python's sources.
 - I later went to the New York Public Library to see [[http://www.nypl.org/press/press-release/2013/06/26/new-york-public-library-display-historic-copies-declaration-independe][a copy of the Declaration
   of Independence in Thomas Jefferson’s hand.]]
-** DONE Recurse Center, 2014-07-03 :django:python:
+** Recurse Center, 2014-07-03 :django:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-03
 :EXPORT_DATE: 2014-07-05T09:49:37-04:00
@@ -19349,7 +19349,7 @@ interesting presentations!
 - [[https://github.com/stijlist/toolmaker/][toolmaker]]
 - [[http://blog.ontoillogical.com/blog/2014/07/03/doorbot-overflow/][Building a better doorbot]]
 - [[https://github.com/buybackoff/Fredis][Fredis]]
-** DONE Recurse Center, 2014-07-01 :cpython:python:
+** Recurse Center, 2014-07-01 :cpython:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-07-01
 :EXPORT_DATE: 2014-07-02T10:04:10-04:00
@@ -19363,7 +19363,7 @@ interesting presentations!
   needs to be done to write a first cut version of something like this.  Ugly
   regexes, FTW! I have something that works for most of the stuff, it seems!
 - I also attended an interesting talk about Bit-torrent clients by an alum.
-** DONE Recurse Center, 2014-06-30 :ios:pairing:
+** Recurse Center, 2014-06-30 :ios:pairing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-30
 :EXPORT_DATE: 2014-07-01T18:42:48-04:00
@@ -19380,7 +19380,7 @@ interesting presentations!
   Programming Blog]].  I had already read up his blog post, when the talk was
   announced, and so, most of the content was known, but the Q&A session had
   some interesting suggestions on how to improve your actual writing.
-** DONE Recurse Center, 2014-06-27 :hmm:python:
+** Recurse Center, 2014-06-27 :hmm:python:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-27
 :EXPORT_DATE: 2014-06-29T09:36:32-04:00
@@ -19397,7 +19397,7 @@ interesting presentations!
 - I spent the rest of the evening reading up about Markov chains and Hidden
   Markov Models. I'm happy to finally understand what these terms mean, after
   seeing them being thrown around for so many years!
-** DONE Recurse Center, 2014-06-26 :dtmf:fft:
+** Recurse Center, 2014-06-26 :dtmf:fft:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-26
 :EXPORT_DATE: 2014-06-26T09:30:20-04:00
@@ -19417,7 +19417,7 @@ interesting presentations!
   - A web-socket based chat client
   - A Go Parser written in Go
   - ...
-** DONE Recurse Center, 2014-06-25 :fft:goals:life:
+** Recurse Center, 2014-06-25 :fft:goals:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-25
 :EXPORT_DATE: 2014-06-25T09:51:07-04:00
@@ -19445,7 +19445,7 @@ interesting presentations!
   be great to build awesome stuff (and may be the only reasonable way to form
   habits, and make friends) but I shouldn't worry too much about time running
   out. Never Graduate!
-** DONE Recurse Center, 2014-06-24 :crypto:pandas:
+** Recurse Center, 2014-06-24 :crypto:pandas:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-24
 :EXPORT_DATE: 2014-06-24T09:44:34-04:00
@@ -19489,7 +19489,7 @@ interesting presentations!
     dictionary.
 - This paper is 20 years old, and there would surely be work by others
   building on top of this, or doing it totally differently.
-** DONE Recurse Center, 2014-06-23 :conference:git:principle:
+** Recurse Center, 2014-06-23 :conference:git:principle:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-23
 :EXPORT_DATE: 2014-06-23T04:38:29-04:00
@@ -19534,7 +19534,7 @@ interesting presentations!
   - Bret Victor, [[http://vimeo.com/36579366][Inventing on Principle]] (54 min)
   - Gary Bernhardt, [[https://www.destroyallsoftware.com/talks/wat][WAT]] (4 min)
   - Guy Steele, [[https://www.youtube.com/watch?v=_ahvzDzKdB0][Growing a Language]] (53 min)
-** DONE Recurse Center, 2014-06-21
+** Recurse Center, 2014-06-21
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-21
 :EXPORT_DATE: 2014-06-22T16:16:34-04:00
@@ -19559,7 +19559,7 @@ interesting presentations!
 - I tried cleaning up the phonebook problem from Friday. It works, but
   can definitely be improved with some help from a more experienced
   Haskeller.
-** DONE Recurse Center, 2014-06-22 :audio:haskell:projects:
+** Recurse Center, 2014-06-22 :audio:haskell:projects:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-22
 :EXPORT_DATE: 2014-06-22T15:58:32-04:00
@@ -19614,7 +19614,7 @@ interesting presentations!
   and I'm still awake!
 - I also probably need to get enough sleep!
 - Looking forward to the next couple of weeks!
-** DONE Recurse Center, 2014-06-20 :haskell:jobs:oauth:
+** Recurse Center, 2014-06-20 :haskell:jobs:oauth:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-20
 :EXPORT_DATE: 2014-06-20T08:58:40-04:00
@@ -19628,7 +19628,7 @@ interesting presentations!
 - I spent the afternoon writing the blog-post on [[file:./oauth2-demystified.org][OAuth2]], and adding
   support for converting ditaa code blocks to png using Pygments.  It
   may not have been the best use of time, but anyway...
-** DONE Recurse Center, 2014-06-19
+** Recurse Center, 2014-06-19
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-19
 :EXPORT_DATE: 2014-06-19T09:53:10-04:00
@@ -19680,7 +19680,7 @@ interesting presentations!
   the most, for the next 10 weeks.
 
 - I can't believe it's already end of week 2. 10 more to go!
-** DONE Recurse Center, 2014-06-18 :elm:haskell:vm:
+** Recurse Center, 2014-06-18 :elm:haskell:vm:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-18
 :EXPORT_DATE: 2014-06-18T10:29:29-04:00
@@ -19702,7 +19702,7 @@ interesting presentations!
   ASTs.  Later in the day, I also went to the [[http://www.meetup.com/papers-we-love/events/178049922/][Papers we love]] meetup.
   The presentation and the talks were quite interesting!
 - I also started looking at [[http://elm-lang.org][Elm]] and playing with it.
-** DONE Recurse Center, 2014-06-17 :haskell:
+** Recurse Center, 2014-06-17 :haskell:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-17
 :EXPORT_DATE: 2014-06-17T10:09:08-04:00
@@ -19734,7 +19734,7 @@ interesting presentations!
   it an instance of a type class, chances are you're looking for a
   =newtype=.  And if you want to make something completely new, odds
   are good that you're looking for the =data= keyword."
-** DONE Recurse Center, 2014-06-16
+** Recurse Center, 2014-06-16
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-16
 :EXPORT_DATE: 2014-06-16T10:09:08-04:00
@@ -19761,7 +19761,7 @@ interesting presentations!
   It seems super unlikely for me to get a job (in the US), from what I
   understood from them.  So, I needn't worry too much about that and
   focus on getting better at Haskel and as a programmer in general.
-** DONE Recurse Center, 2014-06-12
+** Recurse Center, 2014-06-12
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-12
 :EXPORT_DATE: 2014-06-12T12:05:44-04:00
@@ -19788,7 +19788,7 @@ interesting presentations!
 
 I hope to continue to do some work on the tutorials during the
 weekend, and get back to it and finish them next week.
-** DONE Recurse Center, 2014-06-11 :github:haskell:idea:
+** Recurse Center, 2014-06-11 :github:haskell:idea:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-11
 :EXPORT_DATE: 2014-06-11T15:02:11-04:00
@@ -19813,7 +19813,7 @@ Real World Haskell.
   batches) that give you different statistics, and interesting
   graphs. (Use elm?) [Update: Tom is working on HS and GitHub
   integration. So, that's perfect!]
-** DONE Recurse Center, 2014-06-10 :haskell:
+** Recurse Center, 2014-06-10 :haskell:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-10
 :EXPORT_DATE: 2014-06-11T09:31:08-04:00
@@ -19849,7 +19849,7 @@ I also got a couple of ideas for small projects:
 Doing them in Python would be pretty straight forward. I will try to
 work on these things in Haskell, once I'm reasonably comfortable with
 Haskell.
-** DONE Recurse Center, 2014-06-09 :haskell:intro:
+** Recurse Center, 2014-06-09 :haskell:intro:
 :PROPERTIES:
 :EXPORT_FILE_NAME: recurse-center-2014-06-09
 :EXPORT_DATE: 2014-06-10T10:21:06-04:00
@@ -19890,7 +19890,7 @@ The day ended with burritos and game night Mafia!
 
 Posts I wrote during my batch at the [[https://www.recurse.com/][Recurse Center]].
 * Book notes :@book_notes:
-** DONE Notes on "5 Love Languages" :blag:book:book_notes:life:love:
+** Notes on "5 Love Languages" :blag:book:book_notes:life:love:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 5-love-languages
 :EXPORT_DATE: 2016-01-12T19:32:51+05:30
