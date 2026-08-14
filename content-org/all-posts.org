@@ -38,8 +38,8 @@
 :END:
 ** Voice input for capture :weekly:org_mode:hack:
 
-I tried using the FUTO keyboard for a while, but it's not working as well as I
-would like it. And opening Orgzly and typing in a heading, and content seems
+I tried using the [[https://keyboard.futo.tech/][FUTO keyboard]] for a while, but it's not working as well as I
+would like it. And opening [[https://www.orgzlyrevived.com/][Orgzly]] and typing in a heading, and content seems
 like too much work.
 
 I created (using Claude Code) a script now that creates a voice note for me,
@@ -56,7 +56,7 @@ part of this collection seems useful.
 ** Pandoc - twenty-years-of-pandoc :pandoc:open_source:hack:haskell:weekly:
 
 A colleague and another friend brought to my notice that I got a shoutout in
-the [[https://pandoc.org/twenty-years-of-pandoc.html][20 years of Pandoc]] post for contributing an org mode writer.
+the [[https://pandoc.org/twenty-years-of-pandoc.html][20 years of Pandoc]] post for contributing an org-mode writer.
 
 I think this was [[https://github.com/jgm/pandoc/pull/8][my first]] "open source" code contribution to a large-ish
 project. I may have contributed small documentation fixes to Org mode before
@@ -67,8 +67,8 @@ over years of transitioning between different blogging systems).
 
 Rishi made a couple of videos ([[https://www.instagram.com/reel/DbnC-Y7OlP3/][Instagram]] & [[https://www.youtube.com/watch?v=Z2VY2SsKdsE][YouTube]]) about how Bengaluru's
 Hebbal Short tunnel project has already started without due process! And it
-looks like the gains from it are questionable. If you care about this
-Bangalore's landscape, see the petitioni [[https://www.change.org/p/pause-the-hebbal-short-tunnel-project-to-save-bengaluru-s-green-blue-landscape?recruiter=1380983164&recruited_by_id=1a548cc0-76cc-11f0-889c-b1b1a2c41f81&utm_source=share_petition&utm_campaign=share_petition&utm_term=share_petition&utm_medium=mobileNativeShare&share_id=Thcz2twTcn][here]].
+looks like the gains from it are questionable. If you care about this part of
+Bangalore's landscape, see the petition [[https://www.change.org/p/pause-the-hebbal-short-tunnel-project-to-save-bengaluru-s-green-blue-landscape?recruiter=1380983164&recruited_by_id=1a548cc0-76cc-11f0-889c-b1b1a2c41f81&utm_source=share_petition&utm_campaign=share_petition&utm_term=share_petition&utm_medium=mobileNativeShare&share_id=Thcz2twTcn][here]].
 ** Fun evening with Sid :weekly:family:
 
 I had a lot of fun jumping around with Sid and drawing some mazes for him to
@@ -84,7 +84,7 @@ to be disappearing with the use of LLMs to get things done "quickly".
 
 But, also there are some kinds of friction which isn't useful. Some friction
 could just prevent you from getting started or continuing with something and I
-think it's worth sharpening your tools to smoothen out that friction is
+think it's worth sharpening your tools to smoothen out that friction; It's
 something I will continue to do.
 * Weekly #31 (2026) :weekly:art:ultimate:funding:book:movie:telugu:personal:life:health:
 :PROPERTIES:
