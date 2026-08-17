@@ -27,6 +27,55 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
+* Weekly #33 (2026) :cricket:family:weekly:air_quality:tools:politics:india:coffee:
+:PROPERTIES:
+:EXPORT_FILE_NAME: weekly-33-2026
+:EXPORT_DATE: [2026-08-17 Mon 13:41]
+:CREATED:  [2026-08-17 Mon 13:41]
+:EXPORT_DESCRIPTION: A Trip to Bangalore, lots of coffee and some cricket
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
+:EXPORT_OPTIONS: H:0 tags:nil
+:END:
+** Lots of Blue Tokai coffee :weekly:coffee:family:
+
+We travelled to Bangalore this week, with a cousin who stopped over in Delhi
+in-transit. I made 3 airport trips on the same day, which is quite crazy! And
+over the week also ended up having Blue Tokai's coffee 4 times which is also a
+lot more than we usually do.
+** Vienna Roast - Karma Kaapi :weekly:coffee:
+
+Helped a friend make a [[https://forms.gle/3f1nZKno4P2AHkeP9][simple form]] for folks to order his new Vienna Roast
+coffee. If you are in India, and enjoy a good coffee, give it a try!
+** Modi govt compared to a simulation :politics:india:weekly:
+
+Shantanu shared this [[https://rgrier88.github.io/modi-promises/][great visual companion]] to a paper that compares the Modi
+government's performance against simulated data generated using a weighted
+combination of data from other countries. The countries were chosen in such a
+way that the data from the past 30 years (before Modi became the PM) matches
+India's as closely as possible, and then the data for the years 2014-2020 was
+simulated.
+
+I will spare you any spoilers and let you look at the paper and/or
+visualizations yourself.
+
+I also wonder what the data for 2021-2026 would look like.
+** AQ-AWARE: Air Quality Awareness, Readiness, & Education :weekly:air_quality:health:tools:education:
+
+I found [[https://urbanemissions.info/tools/air-quality-information-awareness-for-better-planning/][this website]] that seems to have some interesting tools and information
+for Air Quality awareness and education. I haven't looked at it in detail, but
+sharing here in case others find it interesting.
+** Workout with Anup :weekly:fitness:gym:
+
+I did my first workout with [[https://www.instagram.com/stronklikebull/][Anup]], my instructor that I train with over video,
+personally at his gym. It was nice to have live feedback and cues, though I may
+have been relying on the cues much more than I should've been. I usually remind
+myself the cues before doing an exercise, but didn't do that because I had the
+luxury of Anup watching over me.
+** Cricket with the family :cricket:family:weekly:
+
+We did a family outing with the wife's extended family. Did some bowling after
+ages, with a tennis-cricket ball on the street. Also played a lot of good-old
+1-pitch-1-hand out kinda cricket. Enjoyed fielding as usual.
 * Weekly #32 (2026) :tools:growth:artificial_intelligence:llm:weekly:family:bangalore:open_source:haskell:software_development:org_mode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-32-2026
