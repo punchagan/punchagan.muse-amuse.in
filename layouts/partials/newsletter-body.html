@@ -33,7 +33,10 @@
          screen, so strip those attributes and force width=100% to keep
          images fluid - same fix as punchagan/patr@53b2774. */ -}}
   {{- $content := replaceRE `\s(width|height)="[0-9]+(%|px)?"` "" $p.Content -}}
-  {{- $content = replaceRE `<img` `<img width="100%"` $content -}}
+  {{- /* Match the site's own img border (styles.css) - hardcoded to the
+         light value since there's no dark-mode concept in an inbox, and
+         this partial only inlines styles (see comment up top). */ -}}
+  {{- $content = replaceRE `<img` `<img width="100%" style="border: 1px solid #ddd; border-radius: 4px;"` $content -}}
   {{ $content | safeHTML }}
   {{- end }}
 
