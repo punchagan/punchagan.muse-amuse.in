@@ -37,6 +37,24 @@ fi
 
 git fetch origin "${CURRENT_BRANCH}"
 
+# The newsletter GitHub Action commits "Record newsletter send" straight
+# to GitHub - but `origin` fetches from muse-amuse.in (its push goes to
+# both, its fetch only to muse-amuse.in), so that commit never shows up
+# via `git fetch origin`. Fetch the "github" remote explicitly and
+# fast-forward onto it, so we don't push local history that's missing
+# it (which would make the github half of `git push origin` a
+# non-fast-forward and fail after the muse-amuse.in half already went
+# through).
+if git remote | grep -qx github; then
+    git fetch github "${CURRENT_BRANCH}"
+    BEHIND_GITHUB=$(git rev-list "HEAD..github/${CURRENT_BRANCH}" | wc -l)
+    if [ "${BEHIND_GITHUB}" -gt 0 ]; then
+        echo "${BEHIND_GITHUB} commit(s) on github/${CURRENT_BRANCH} not in local ${CURRENT_BRANCH} (likely newsletter-bot commits):"
+        git log --oneline "HEAD..github/${CURRENT_BRANCH}"
+        git merge --ff-only "github/${CURRENT_BRANCH}"
+    fi
+fi
+
 set +e
 git diff --quiet -- content static content-org
 UNSTAGED=$?
