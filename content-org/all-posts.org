@@ -32,7 +32,7 @@
 :EXPORT_FILE_NAME: weekly-34-2026
 :EXPORT_DATE: [2026-08-24 Mon 11:58]
 :CREATED:  [2026-08-24 Mon 11:58]
-:EXPORT_DESCRIPTION: A full week in Bangalore, meeting inter-generational friends
+:EXPORT_DESCRIPTION: A full week in Bangalore; meeting inter-generational friends
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/gym-cat.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
