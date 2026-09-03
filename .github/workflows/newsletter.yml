@@ -3,7 +3,8 @@ name: Newsletter
 
 on:
   schedule:
-    - cron: "0 10 * * 4"     # Thursdays, 10:00 UTC
+    - cron: "16 16 * * 4"  # 16:16 IST on Thursday
+      timezone: 'Asia/Kolkata'
   workflow_dispatch:
 
 permissions:
