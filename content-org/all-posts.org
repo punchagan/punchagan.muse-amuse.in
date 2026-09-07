@@ -27,6 +27,53 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
+* Weekly #36 (2026) :weekly:birthday:friends:family:health:doctors:fitness:conversations:llm:software_development:design:
+:PROPERTIES:
+:EXPORT_FILE_NAME: weekly-36-2026
+:EXPORT_DATE: [2026-09-07 Mon 22:18]
+:CREATED:  [2026-09-07 Mon 22:18]
+:EXPORT_DESCRIPTION: L&A's birthday becomes an excuse to bake; More cleans and high-pulls by myself
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/caoo-l-a.jpg")
+:EXPORT_OPTIONS: H:0 tags:nil
+:END:
+** AI things this week :weekly:llm:software_development:design:
+
+A friend shared [[https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world][this article]] which had some interesting ideas on how to make
+designs that don't look like run-of-the-mill AI designs.
+
+And a colleauge shared [[https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/][this article]] through which I learnt of some weird ways
+to exploit Claude Code. The bottom-line being that be wary when running Claude
+in the auto mode (which is now the default mode). Use an isolated environment!
+** Doctors who treat you like a person :health:doctors:fitness:conversations:weekly:
+
+
+We (the wife and I) happened to be at Dr. Rajat Chauhan's [[https://www.drrajatchauhan.com/back-2-fitness-clinic][clinic]] for a quick
+check-up. It's such a pleasure every time to meet him. This session we chatted
+about the wife's writing journey, her illustrations, self-publishing vs
+publishing with someone like Penguin, the economics of writing and making a
+living through it, AI generated books, etc.
+
+I wish we had more doctors like him who treated patients like people, and not
+just a heap of flesh and bones. I'd highly recommend him if you are in NCR and
+need any ortho consultations!
+
+Also, on that note, we finally were able to finish formatting a short novella
+that the wife has written, and were able to send it out to a potential editor
+from a publishing group. Let's see how that goes!
+** More cleans and high-pulls
+I've been continuing to make slow and steady progress on my cleans (and
+high-pulls) this week, with 3 sessions that I managed to squeeze in. I haven't
+gotten as much feedback as I'd have liked, but I think I'm figuring things out
+and getting better at this.
+** L & A's Birthday :weekly:birthday:friends:family:
+
+[[file:~/Pictures/caoo-l-a.jpg]]
+
+L&A have turned 3 this weekend, and they are at our place with their Parents.
+It's been a whirlwind weekend, and there's going to be another week full of it!
+Shreya & Sid also were here with their parents to celebrate. I got to bake the
+Chocolate Almond Olive Oil Cake after a long time, and it turned out well --
+all the kids gave it a thumbs-up.
 * Weekly #35 (2026) :weekly:restaurant:bangalore:languages:brain:ultimate:family:kids:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-35-2026
