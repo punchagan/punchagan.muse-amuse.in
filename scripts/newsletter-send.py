@@ -263,6 +263,10 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
             print(f"  skip (Email column doesn't look like an email): ts=[{ts}]", file=sys.stderr)
             continue
 
+        elif email.endswith("example.com"):
+            print(f"  skip (example.com address): {email} (ts={ts})", file=sys.stderr)
+            continue
+
         print(f"  syncing: {mask_email(email)} (ts={ts})", file=sys.stderr)
 
         # Try updating an existing contact first (this is the resubscribe
