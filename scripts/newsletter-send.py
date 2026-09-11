@@ -121,7 +121,9 @@ def require_env(names: list[str]) -> dict[str, str]:
     return env
 
 
-def resend(session: requests.Session, method: str, path: str, body: dict | None = None) -> requests.Response:
+def resend(
+    session: requests.Session, method: str, path: str, body: dict | None = None
+) -> requests.Response:
     return session.request(method, f"https://api.resend.com{path}", json=body)
 
 
@@ -129,7 +131,13 @@ def build_digest(dry_run: bool) -> dict | None:
     print("Building digest...")
     with tempfile.TemporaryDirectory() as build_dir:
         subprocess.run(
-            ["./hugo.sh", "--config", "config.toml,config-newsletter.toml", "-d", build_dir],
+            [
+                "./hugo.sh",
+                "--config",
+                "config.toml,config-newsletter.toml",
+                "-d",
+                build_dir,
+            ],
             cwd=REPO_ROOT,
             check=True,
             stdout=subprocess.DEVNULL,
@@ -148,9 +156,12 @@ def build_digest(dry_run: bool) -> dict | None:
         raw = digest_path.read_text()
         match = re.match(r"<!-- subject: (.*) -->\n?", raw)
         if not match:
-            print(f"newsletter.html doesn't start with the expected subject comment: {raw[:200]!r}", file=sys.stderr)
+            print(
+                f"newsletter.html doesn't start with the expected subject comment: {raw[:200]!r}",
+                file=sys.stderr,
+            )
             sys.exit(1)
-        digest = {"subject": match.group(1), "html": raw[match.end():]}
+        digest = {"subject": match.group(1), "html": raw[match.end() :]}
 
     print(f"Subject: {digest['subject']}")
     # Swap placeholders for Resend's actual merge tags; they can't be
@@ -158,7 +169,9 @@ def build_digest(dry_run: bool) -> dict | None:
     # layouts/partials/newsletter-body.html for why (a hard parse error
     # either way, or html/template's contextual autoescaping mangling
     # braces inside href specifically for the unsubscribe link).
-    digest["html"] = digest["html"].replace(UNSUBSCRIBE_PLACEHOLDER, UNSUBSCRIBE_MERGE_TAG)
+    digest["html"] = digest["html"].replace(
+        UNSUBSCRIBE_PLACEHOLDER, UNSUBSCRIBE_MERGE_TAG
+    )
     digest["html"] = digest["html"].replace(GREETING_PLACEHOLDER, GREETING_MERGE_TAG)
 
     # A plain-text alternative alongside the HTML - multipart emails tend to
@@ -260,7 +273,10 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
         # (or arbitrary spam/honeypot content from a public form) and
         # this runs in a public GitHub Actions log now.
         if not EMAIL_RE.match(email):
-            print(f"  skip (Email column doesn't look like an email): ts=[{ts}]", file=sys.stderr)
+            print(
+                f"  skip (Email column doesn't look like an email): ts=[{ts}]",
+                file=sys.stderr,
+            )
             continue
 
         elif email.endswith("example.com"):
@@ -302,10 +318,16 @@ def sync_subscribers(session: requests.Session, env: dict[str, str]) -> int:
 
 
 def create_and_send_broadcast(
-    session: requests.Session, env: dict[str, str], digest: dict, auto_confirm: bool, test_mode: bool
+    session: requests.Session,
+    env: dict[str, str],
+    digest: dict,
+    auto_confirm: bool,
+    test_mode: bool,
 ) -> None:
     print("Creating broadcast...")
-    segment_id = env["RESEND_TEST_SEGMENT_ID"] if test_mode else env["RESEND_SEGMENT_ID"]
+    segment_id = (
+        env["RESEND_TEST_SEGMENT_ID"] if test_mode else env["RESEND_SEGMENT_ID"]
+    )
     subject = f"[TEST] {digest['subject']}" if test_mode else digest["subject"]
     resp = resend(
         session,
@@ -330,13 +352,17 @@ def create_and_send_broadcast(
         print(resp.text, file=sys.stderr)
         sys.exit(1)
 
-    print(f"Created broadcast {broadcast_id} (check the Audience has the right subscribers before confirming).")
+    print(
+        f"Created broadcast {broadcast_id} (check the Audience has the right subscribers before confirming)."
+    )
     if auto_confirm:
         print("--yes passed, sending without prompting.")
     else:
         answer = input("Send it? [y/N] ").strip().lower()
         if answer not in ("y", "yes"):
-            print(f"Not sending. Broadcast {broadcast_id} is saved as a draft in Resend.")
+            print(
+                f"Not sending. Broadcast {broadcast_id} is saved as a draft in Resend."
+            )
             return
 
     resp = resend(session, "POST", f"/broadcasts/{broadcast_id}/send")
@@ -356,7 +382,9 @@ def create_and_send_broadcast(
     # means the same posts go out next run.
     sent_at = datetime.now().astimezone().isoformat()
     write_last_sent(sent_at)
-    print(f"Updated {NEWSLETTER_JSON.relative_to(REPO_ROOT)} last_sent to {sent_at} - commit it.")
+    print(
+        f"Updated {NEWSLETTER_JSON.relative_to(REPO_ROOT)} last_sent to {sent_at} - commit it."
+    )
 
 
 def main() -> None:
@@ -376,7 +404,9 @@ def main() -> None:
     elif test_mode:
         env = require_env(["RESEND_API_KEY", "RESEND_TEST_SEGMENT_ID", "RESEND_FROM"])
     else:
-        env = require_env(["RESEND_API_KEY", "RESEND_SEGMENT_ID", "RESEND_FROM", "GOOGLE_SHEET_ID"])
+        env = require_env(
+            ["RESEND_API_KEY", "RESEND_SEGMENT_ID", "RESEND_FROM", "GOOGLE_SHEET_ID"]
+        )
 
     digest = build_digest(dry_run)
     if digest is None:
