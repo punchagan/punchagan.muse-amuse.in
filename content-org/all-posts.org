@@ -27,6 +27,64 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
+* Weekly #37 (2026) :weekly:newsletter:hack:zoom:bookmarklets:writing:art:talk:
+:PROPERTIES:
+:EXPORT_FILE_NAME: weekly-37-2026
+:EXPORT_DATE: [2026-09-15 Tue 22:42]
+:CREATED:  [2026-09-15 Tue 22:42]
+:EXPORT_DESCRIPTION: More time with A&L, Zoom chat replay bookmarklet, etc.
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/until-next-time.jpg")
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
+:EXPORT_OPTIONS: H:0 tags:nil
+:END:
+** More time with A & L
+
+A & L were here along with Ringo & Ash for the whole of this week. It was a lot
+of fun and bonding, with some ups and downs. 1D and Sunil also were able to
+make short visits, which was great. It feels like suddenly everyone decided to
+ensure our annual quota friend visits are fully used up before the year ends.
+
+[[file:~/Pictures/until-next-time.jpg]]
+** Workouts
+
+I got in two sessions of gym workouts this week, which I was pretty happy with,
+given A & L were around. I also got a lot of indoor running behind them! My
+high pulls seem to have gotten better, but cleans need more work. I'm hoping to
+work on more focused drills to improve the technique for getting under the bar.
+** Utsav's talk on long-form writing :writing:art:talk:weekly:
+
+I missed watching the talk live, but caught up on [[https://drive.google.com/drive/u/0/folders/1jYIp4riyc0K3kI9JbW4MeMGu4mEv5_7L][this]] excellent presentation
+by Utsav on his process for long-form writing. Lots of nice sketches/paintings
+to accompany the presentation. It seemed like everyone attending it live also
+enjoyed it a lot, from the chat transcripts made available.
+** Plugin to replay zoom chat transcript :weekly:hack:zoom:bookmarklets:
+To enjoy the banter in the talk I mentioned above, I created a [[https://punchagan.github.io/bookmarklets/#zoom-chat-replay][bookmarklet]] that
+allows me to watch the transcript of any zoom recording replayed alongside the
+video, when they are both uploaded to Google Drive with public access
+permissions.
+
+I started writing it by hand as an exercise in not using any AI assistance, but
+I ran out of time allotted and wanted nicer looking UI and better UX for the
+replay which Claude was able to help finish, for me. Writing the code to parse
+the chat transcript (by hand) took longer than expected because of
+inconsistencies in the transcript that Zoom generated.
+** Blog newsletter needed a fix :weekly:newsletter:
+
+I had a spam sign-up on the newsletter, but hadn't had the time to remove it
+before the newsletter scheduled time. The send failed because the email ID was
+an @example.com email address. Resend catches these and refuses to broadcast
+(send) to an audience that includes such an email ID.
+
+#+begin_src json
+  {
+    "statusCode": 422,
+    "message": "The audience you are sending contains a contact with an email address ending in `@example.com`. Please use our testing email address instead. See our documentation for more information.",
+    "name": "validation_error"
+  }
+#+end_src
+
+I manually sent out this edition, and fixed the sign-up processing code to
+ignore these kinds of emails for the future.
 * Weekly #36 (2026) :weekly:birthday:friends:family:health:doctors:fitness:conversations:llm:software_development:design:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-36-2026
@@ -88,7 +146,7 @@ We returned to Delhi, and had a chance to meet Sid & Shreya over the weekend.
 Frisbee throwing and catching with Sid was fun, though he had more fun trying
 to get the Frisbee stuck in the trees and trying to retrieve it. Shreya finally
 seemed comfortable to come to me! xD
-** Habits
+** Workouts
 I managed to get in 3 sessions at the gym this week, and a run, but no games.
 It was nice to have Anup around, who pushed me to lift as heavy as possible and
 I hit some squat PRs. :)
