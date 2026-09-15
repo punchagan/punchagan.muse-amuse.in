@@ -34,7 +34,6 @@
 :CREATED:  [2026-09-15 Tue 22:42]
 :EXPORT_DESCRIPTION: More time with A&L, Zoom chat replay bookmarklet, etc.
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/until-next-time.jpg")
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
 ** More time with A & L
