@@ -27,6 +27,90 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
+* Weekly #38 (2026) :weekly:newsletter:vibe_coding:llm:artificial_intelligence:
+:PROPERTIES:
+:EXPORT_FILE_NAME: weekly-38-2026
+:EXPORT_DATE: [2026-09-23 Wed 13:40]
+:CREATED:  [2026-09-23 Wed 13:40]
+:EXPORT_DESCRIPTION: LLMs as stochastic parrots and some earworms as distraction
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
+:EXPORT_OPTIONS: H:0 tags:nil
+:END:
+
+[[file:~/Pictures/brics-sunset.jpg]]
+** Glorified Stochastic Parrots with powerful tools :weekly:llm:artificial_intelligence:
+
+I enjoyed reading this [[https://ploum.net/2026-09-09-ai_policy.html][post by Ploum]] where they descibe their own personal AI
+policy -- essentially refusing to interact with anything produced using these
+Stochastic parrots and their creators. I've been seeing more and more posts
+like these, recently.
+
+#+begin_quote
+The direct consequence of my choice is that I will refuse to interact with
+humans who take pride in making themselves a meat interface between me and the
+algorithm they’ve chosen to replace their free will. '
+#+end_quote
+
+[[https://martinfowler.com/articles/2026-dont-like-llms.html][Martin Fowler]] thinks out loud and shares his feelings about LLMs, on a similar
+note. He mentions that he choses not to interact with them, and seems to be
+particularly annoyed by their pretense to be human.
+
+#+begin_quote
+One of my most successful life-hacks is to avoid people I don’t like or don’t
+trust. I decline to interact with them socially, and make a deliberate effort
+to avoid working with them too, even if they are doing much that is beneficial.
+I feel that hanging out with pleasant, capable people, the people with
+integrity, has made my life a far better one. Hence my visceral dislike of
+interacting with an LLM that’s not just making a pretense of being human, but
+also posing as the kind of human I walk away from.
+#+end_quote
+
+A colleague (M) who has also recently started to use these AI via chat
+interfaces seemed tired of talking to bots that sound like arrogant humans.
+Another colleague (S) and I talked about this a few times, and last week he
+shared [[https://www.youtube.com/watch?v=fB_lklm7xgU&t=1766s][this talk]] exploring different ways that humans and AI could collaborate
+which had some cool ideas.
+
+I had the opportunity to learn about LLM harnesses a little bit last week, and
+it helped me see even more clearly how the "AI" that we are currently obsessed
+with is just glorified text prediction machines to which we, as a society,
+decided it's a good idea to give access to any and every tool out there! And
+then we make a hue and cry about them being a risk and breaching systems and
+attacking whatever it is that they are "attacking". The point Carl makes here
+about simply [[https://youtube.com/watch?v=9tr7Mby62bo][treating AI like we treat other software]] would be sufficient to
+put an end to a bunch of the alarm all around.
+
+Finally, this [[https://youtube.com/watch?v=N2a1J0UPeL4][in-class rant]] by an IISc professor resonated with me. These are
+the kinds of questions I grapple with often these days.
+** Saa's newsletter's private web archive :weekly:newsletter:vibe_coding:
+
+I setup the web archive for Saa's private newsletter. She had not been
+comfortable making the writing available publicily online, but had been wanting
+a way to share links of the writing with people (she trusted). The latest
+edition needed to have links to the old parts of a series, and so we setup a
+private web archive using Netlify's functions and Identity (auth)
+functionality. Not sure if any of the new readers actually went back to the old
+editions, but a private web archive now exists.
+** Breakfast with Mala :weekly:
+
+Saa's writer friend [[https://www.instagram.com/needlestosaymore/p/DdiI3xinwUR/][Mala]] visited us over for breakfast on her way back home
+from Morocco. She seemed to enjoy the Dosa and Chutney as much as we enjoyed
+her stories! Mala and I also ended up having a connect through UD (Delhi/Mumbai
+Ultimate).
+** Workouts
+
+I was only able to get in two workouts, but my cleans have started to feel
+better. But, I'm still awaiting feedback on them from my coach, before I
+celebrate.
+** Earworms left behind by friends
+
+Ringo, Ash and the kids left on Monday. I shared a picture from the airport in
+[[hugo:weekly-37-2026][my last weekly]]. They left behind a few ear worms for us, though.
+
+- [[https://music.youtube.com/watch?v=OJr6XQaQwnU][Tere Paas Main]] from Main Vapas Aunga
+- [[https://music.youtube.com/watch?v=1n13FVRtVxs][Hum Tere Pyaar Mein Saara Aalam]] by Lata
+- [[https://music.youtube.com/watch?v=TdXqbBIdBTU][Lakdi Ki Kathi]] from Masoom
+- and the most earworm-y, [[https://music.youtube.com/watch?v=zySaOMmL34Y][Wheels on the Bus]] by CoComelon
 * Weekly #37 (2026) :weekly:newsletter:hack:zoom:bookmarklets:writing:art:talk:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-37-2026
