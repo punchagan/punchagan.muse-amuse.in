@@ -81,6 +81,21 @@ AHEAD=$(git rev-list "origin/${CURRENT_BRANCH}..HEAD" -- content static content-
 if [ "${AHEAD}" -gt 0 ]; then
     echo "${AHEAD} commit(s) touching content/static/content-org not yet on origin/${CURRENT_BRANCH}:"
     git log --oneline "origin/${CURRENT_BRANCH}..HEAD" -- content static content-org
+
+    # Catch a post with an inline figure but no `images:` front matter (used
+    # for og:image) - easy to forget, e.g. the TODO left in weekly-37.
+    CHANGED_POSTS=$(git diff --name-only "origin/${CURRENT_BRANCH}..HEAD" -- 'content/blog/*.md')
+    for post in ${CHANGED_POSTS}; do
+        if [ -f "${post}" ] && grep -q '{{< *figure' "${post}" && ! grep -qE '^images:\s*\[.+\]' "${post}"; then
+            echo "${post} has an image but no 'images:' front matter set (used for og:image)."
+            read -rp "Continue publishing without og:image metadata set? [y/N] " image_answer
+            case $image_answer in
+                [yY]* ) ;;
+                * ) echo "Aborting."; exit 1;;
+            esac
+        fi
+    done
+
     read -rp "Push ${CURRENT_BRANCH} to origin now? [y/N] " push_answer
     case $push_answer in
         [yY]* ) git push origin "${CURRENT_BRANCH}";;
