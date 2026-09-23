@@ -40,19 +40,19 @@
 [[file:~/Pictures/brics-sunset.jpg]]
 ** Glorified Stochastic Parrots with powerful tools :weekly:llm:artificial_intelligence:
 
-I enjoyed reading this [[https://ploum.net/2026-09-09-ai_policy.html][post by Ploum]] where they descibe their own personal AI
+I enjoyed reading this [[https://ploum.net/2026-09-09-ai_policy.html][post by Ploum]] where they describe their own personal AI
 policy -- essentially refusing to interact with anything produced using these
-Stochastic parrots and their creators. I've been seeing more and more posts
-like these, recently.
+Stochastic parrots and creators who take pride in it. I've been seeing more and
+more posts like these, recently.
 
 #+begin_quote
 The direct consequence of my choice is that I will refuse to interact with
 humans who take pride in making themselves a meat interface between me and the
-algorithm they’ve chosen to replace their free will. '
+algorithm they’ve chosen to replace their free will.
 #+end_quote
 
 [[https://martinfowler.com/articles/2026-dont-like-llms.html][Martin Fowler]] thinks out loud and shares his feelings about LLMs, on a similar
-note. He mentions that he choses not to interact with them, and seems to be
+note. He mentions that he chooses not to interact with them, and seems to be
 particularly annoyed by their pretense to be human.
 
 #+begin_quote
@@ -86,14 +86,14 @@ to let them save us some time. It seems like we haven't learnt anything from
 giving away our data carelessly to the previous edition of big-tech companies
 and their ad networks!
 
-Anyway, ...
+Anyhow...
 
 This [[https://youtube.com/watch?v=N2a1J0UPeL4][in-class rant]] by an IISc professor resonated with me. These are the kinds
 of questions I grapple with often these days.
 ** Saa's newsletter's private web archive :weekly:newsletter:vibe_coding:
 
 I setup the web archive for Saa's private newsletter. She had not been
-comfortable making the writing available publicily online, but had been wanting
+comfortable making the writing available publicly online, but had been wanting
 a way to share links of the writing with people (she trusted). The latest
 edition needed to have links to the old parts of a series, and so we setup a
 private web archive using Netlify's functions and Identity (auth)
