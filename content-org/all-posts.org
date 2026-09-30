@@ -46,7 +46,7 @@ is.
 
 I do wonder how to do Open Source these days. Is Open Sourcing any of my tiny
 utilities of use any more? Is it for other people or just for AI to be trained
-on, for writing home-grown utitilies for others?
+on, for writing home-grown utilities for others?
 ** Enjoying programming / work
 
 I found [[https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705][this Haskell discourse post]] on "How to keep enjoying programming in a
@@ -88,14 +88,15 @@ prints, etc., is quite messy. Now that the website is sort of up and running,
 it made sense to have a way to keep track of art and to make it easy to
 upload/publish web quality copies to the website.
 
-It's still a WIP, but already seems useful. I've
+It's still a WIP, but already seems useful. I've been able to push an updated
+site with all the displayed images tracked in this tool.
 ** Grounding groundwater: Spatialities of dispossession in the Kaveri Delta, India :weekly:water:kaveri:india:research:
 
-Read [[https://link.springer.com/article/10.1007/s10040-026-03148-6][this paper]] by a friend, her first single-author paper! and Creative
-Commons Licensed too. It wasn't hard to follow and I particularly enjoyed the
-use of diary entries to emphasize and certain points like the importance we
-give to surface water vs ground water, and the use of every inch of land
-available for irrigation.
+Read [[https://link.springer.com/article/10.1007/s10040-026-03148-6][this paper]] by a friend, her first single-author paper, and Creative
+Commons Licensed too! It wasn't hard to follow and I particularly enjoyed the
+use of diary entries to emphasize certain points like the importance we give to
+surface water vs ground water, and the use of every inch of land available for
+irrigation.
 ** Birthdays
 
 [[file:~/Pictures/double-rainbow.jpg]]
