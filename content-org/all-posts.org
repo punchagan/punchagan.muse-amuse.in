@@ -10,6 +10,80 @@
 #+macro: soundcloud_playlist #+HTML: <iframe width="$3" height="$2" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http://api.soundcloud.com/playlists/$1"> </iframe>
 #+macro: vimeo #+HTML: <iframe src="https://player.vimeo.com/video/{vimeo_id}" width="$3" height="$2" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
 #+macro: youtube #+HTML: <iframe width="$3" height="$2" src="https://www.youtube.com/embed/$1?rel=0&amp;hd=1&amp;wmode=transparent"></iframe>
+* README
+:PROPERTIES:
+:ID:       blog-post-readme
+:END:
+** Org hugo optimizations
+
+1. The ID on this subtree is added to speed up org-hugo exports, since it
+   looks up org-id-locations if no org-ids are present.
+
+2. Set =org-hugo--preprocess-buffer= (in Local Variables or temporarily) to be
+   able to link other posts using org links; But, the export is much slower in
+   those cases.
+** How to make draft posts
+- Write the post in the [[file:draft-blog-posts.org][draft-blog-posts.org]] file
+- Use DRAFT keywords
+- IMPORTANT: Don't use tags!!
+- Set ~EXPORT_HUGO_SECTION~ to ~drafts~
+* Weekly #40 (2026) :weekly:workouts:llm:agentic_programming:software_development:artificial_intelligence:comics:
+:PROPERTIES:
+:EXPORT_FILE_NAME: weekly-40-2026
+:EXPORT_DATE: [2026-10-05 Mon 20:35]
+:CREATED:  [2026-10-05 Mon 20:35]
+:EXPORT_DESCRIPTION: AI Delulu, coding minions and cute art
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/yukata-willow.jpg")
+:EXPORT_OPTIONS: H:0 tags:nil
+:END:
+
+A quick short weekly, this time.
+** AI Delulu, minions and more
+
+Watched this [[https://www.youtube.com/watch?v=vDjW_dRyKXY][Ruby conf talk by DHH]] (shared by Voodoo) on how things are amazing
+for him, and how he's excited about not having to write a single line of code
+by hand, and yet building everything he can think of!
+
+It is great to be able to build things that we previously didn't have time to
+build or wouldn't care to do. But, what about my own understanding and
+learning? I have been building away more of Saa's art CMS, and it has been nice
+making a bunch of progress on it. Most of it is regular CRUD stuff that
+would've seemed like busywork to me if I had to write it all by hand. So, I'm
+definitely excited about the "things I'm not writing" (courtesy: DHH). I can
+also get Claude to write some experimental throwaway scripts to see if there's
+a way to categorize pieces for sale into different tiers based on how much
+"detail" there is, in them, for instance. It would've taken me long enough to
+write this by hand that, it probably would've remained a fun experiment to try
+for a long time if I had no code writing minions.
+
+But, did I learn any new colour theory ideas/concepts, or how vector PDFs store
+data as opposed to raster ones, or anything like that, which I would've if I
+wrote this by hand? Hell no!
+** Bookaroo Children's Lit Fest
+
+We attended the Bookaroo Children's Literature Festival along with Sid, Shreya
+and their parents for a couple of hours on Saturday. It was a hot day, but
+there were lots of school kids (in and not in uniforms) there. I wasn't
+expecting to see a big crowd, but for a change something I was happy about.
+
+We spent most of our time at the [[https://www.bookaroo.in/speaker/illustrators-quarter-aaryama-anupam-asuma-shikhant-clockwise-from-left][Illustrator's Quarter]] and bought a bunch of
+small zines and art by [[https://www.instagram.com/vivid_bharty/][Asuma Noor]].
+** Yukatas with Saa's art
+
+The Yukatas with Saa's art are finally ready after everything has aligned (read
+the dressmaker has found the time) to finish making them. And all the kids who
+have tried them so far look really cute in them!
+
+[[file:~/Pictures/yukata-willow.jpg]]
+
+Is this note only here for the pretty picture (not taken by me)? xD
+
+If you'd like to get one of these, though, let me know!
+** Habits
+
+The cleans practice has become a small part of what I do, these days. Back to
+the usual suspects like squatting and dead-lifts. I was able to go in 3 days,
+this week. Uphill barefoot runs on the treadmill are a new entry into the plan.
 * Weekly #39 (2026) :weekly:india:research:workouts:llm:agentic_programming:software_development:artificial_intelligence:open_source:community:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-39-2026
@@ -105,23 +179,6 @@ It was a birthday weekend! We celebrated Shreya turning one, along with her
 mom's birthday which people almost seemed to forget. And Shreya is now a
 one-year old who can eat all kinds of things, it looks like. She was relishing
 the taste of french fries and got really mad once their supply stopped. xD
-* README
-:PROPERTIES:
-:ID:       blog-post-readme
-:END:
-** Org hugo optimizations
-
-1. The ID on this subtree is added to speed up org-hugo exports, since it
-   looks up org-id-locations if no org-ids are present.
-
-2. Set =org-hugo--preprocess-buffer= (in Local Variables or temporarily) to be
-   able to link other posts using org links; But, the export is much slower in
-   those cases.
-** How to make draft posts
-- Write the post in the [[file:draft-blog-posts.org][draft-blog-posts.org]] file
-- Use DRAFT keywords
-- IMPORTANT: Don't use tags!!
-- Set ~EXPORT_HUGO_SECTION~ to ~drafts~
 * Weekly #38 (2026) :weekly:newsletter:vibe_coding:llm:artificial_intelligence:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-38-2026
