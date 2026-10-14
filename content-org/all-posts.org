@@ -27,6 +27,54 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
+* Weekly #41 (2026) :internet:weekly:fitness:ultimate:artificial_intelligence:software_development:llm:art:hyderabad:family:friends:
+:PROPERTIES:
+:EXPORT_FILE_NAME: weekly-41-2026
+:EXPORT_DATE: [2026-10-14 Wed 14:44]
+:CREATED:  [2026-10-14 Wed 14:44]
+:EXPORT_DESCRIPTION: Not sure how I managed to do the weekly, this week
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/framed-art.jpg")
+:EXPORT_OPTIONS: H:0 tags:nil
+:END:
+** Art gallery and Orange and Olive pop-up :weekly:art:hyderabad:family:friends:
+
+[[file:~/Pictures/framed-art.jpg]]
+
+
+Ash and Saa's art gallery is happening in ISB, Hyderabad, next weekend. And a
+lot of this week was spent planning and organizing for it. If you're reading
+this and would like to attend, [[mailto:punchagan+blog@muse-amuse.in][write]] to me!
+
+Orange and Olive Co. is also a part of the gallery and is doing some
+pre-ordered bakes for others! If you're in Hyderabad, and would like to order,
+you can do so from [[https://orangeandoliveco.in/orders/hyderabad-2026-oct.html?v=1][here]]!
+** AI development :weekly:artificial_intelligence:software_development:llm:
+
+I've continued to use Claude to build the art mangement CMS, this week, using
+the art gallery as a use case for things needed in it. It is taking shape quite
+well, I must say. I could avoid a lot of the page layout, etc., thanks to this
+tool! I would really have struggled to get high resolution files of everything
+exported from the reMarkable and changing paper dimensions, etc., otherwise.
+
+At work, in discussions with my team, more people have expressed the opinion
+that Claude can be quite useful once you have expertise in an area, and want
+"minions" that you can guide to get the code writing work done. But, it's
+detrimental to actually building that expertise in areas that one doesn't have
+it. An idea that came up was to perhaps have two phases, and deliberately shift
+phases between learning / building expertise and code generation.
+** Fitness and Sport :fitness:ultimate:
+
+I was able to get in 3 sessions, with only one session incorporating any cleans practice. Uphill barefoot runs continue to be fun. I also got in a session of Ultimate, with a practice match against Hawabaaz. It was a bad throwing day, but fun overall.
+** Weeklies on the Internet :internet:weekly:
+
+I had a couple of people reach out to me over the last week or so, in response
+to my weeklies. I knew I had a handful of loyal readers in my friends and
+family, and I didn't think anyone else would bother with them. But, looks like
+the internet still does have humans reading it and "stumbling" on random blog
+posts. Or maybe just AI agents send people to places that might be interesting?
+** Delhi protests
+I've not been able to follow everything that's been happening, but things have
+turned up a notch from the June/July protests, looks like.
 * Weekly #40 (2026) :weekly:workouts:llm:agentic_programming:software_development:artificial_intelligence:comics:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-40-2026
