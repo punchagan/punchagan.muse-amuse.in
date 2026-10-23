@@ -27,6 +27,100 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
+* Weekly #42 (2026) :llm:artificial_intelligence:weekly:art:hyderabad:family:friends:
+:PROPERTIES:
+:EXPORT_FILE_NAME: weekly-42-2026
+:EXPORT_DATE: [2026-10-22 Thu 18:11]
+:CREATED:  [2026-10-22 Thu 18:11]
+:EXPORT_DESCRIPTION: The week of the art-gallery!
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/art-gallery-hyd.jpg")
+:EXPORT_OPTIONS: H:0 tags:nil
+:END:
+** The art gallery
+
+We pulled it off! Thanks to lots of help from a lot of people. [[https://www.instagram.com/spectralzen/][Ash]] and [[https://norush.ing/][Saa]]'s
+art gallery with a guest appearance by Tanav accompanied by a bunch of
+addictive bakes from [[https://www.instagram.com/orangeandoliveco][Orange & Olive Co.]]
+
+This was v2 of the art gallery we did in spring this year, in our living room.
+The idea was to make v2 bigger and better. And also to get Ash back to making
+art after her maternity break. Home prints became professional framed prints on
+nice paper (aka Natural Evolution ivory). The living room was supposed to
+become Vandith's living room, but eventually became the common area in the
+housing tower for personal events, and the nicely maintained outdoor garden.
+And 40-50 people became over triple that number, based on Vandith's estimates.
+
+The framed art with transparent acrylic sheet on top meant we had to be really
+mindful of the lighting. And we couldn't fix the indoor lighting without
+investing a lot of time, energy and money on improving the lighting. By a
+stroke of luck, we stumbled on the idea of doing it outdoors, and there was no
+looking back! We were able to find some nice easels on a quick commerce site,
+that friends also bought a couple, since the dark store near us ran out of
+them.
+
+[[file:~/Pictures/art-gallery-hyd.jpg]]
+
+The weather gods came with their own plans, the next morning, though. We woke
+up to cloudy skies and the weather predictions that changed a lot from the
+previous evening. Sigh!
+
+Saa refused to move her art indoors given how poorly the framed art fared in
+the indoor lighting. She also had the luxury of them being framed prints. We
+decided to take the risk, and it paid off! The rain predictions were so wrong,
+and there wasn't a drop of rain. I wish we didn't have to be constantly
+stressed and looking up at the clouds, etc., through the day, though. We still
+had to arrange for some lighting for the outdoors post sunset. We arranged for
+some lights, but we didn't have a chance to test it the previous night, or be
+able to fix it while there were people looking at the art. We could've done
+better here.
+
+Inviting people who were more than a degree or two of separation meant a lot
+more stress as organizers. It went from being a cozy home event to something
+where we cared about making things as proper as we possibly could. I didn't
+enjoy this part of organizing the whole thing, but I'm glad it went off well. I
+only realized later that I didn't get to engage enough with the art itself. I
+barely got a chance to take a closer look at Ash's work. I did engage a little
+with Tanav's work, while helping with the bakes which were next to his tables.
+
+A bunch of features that I prodded Claude to build into chitreM (the CMS for
+art gallery management) came in handy. We were quickly able to change paper
+sizes, layouts, etc for the caption cards, for instance, to make the
+accompanying stories that Saa had written for each art piece. People connected
+with the writing and stories as much as, if not more than the art. One person
+even left a note about how thoughtful the "inspirations note" was and connected
+with the thought about how a well-rested person is going to inhabit the world
+differently from someone who isn't. It was heart-warming to see people engaging
+so deeply with everything she put out there. Some people were also excited
+about the Yukata she was wearing with her own art on it.
+
+Both [[https://www.instagram.com/spectralzen/][Ash]] and [[https://norush.ing/][Saa]] were also able to sell some of their work to friends or family
+of friends. Reach out to them, if you'd like to buy yourself some art!
+** Another revolution...
+
+... around the sun, I've completed this week. I don't know if I should be
+feeling any different with another year added to the age column, but I don't
+seem to. I had a nice quiet celebration with some friends and Saa, bringing in
+the day. And a nice ordered-in dinner at home with my parents. Pretty good!
+
+And it turns out, it was in week 42. :)
+** AI's decision-making and alignment :llm:artificial_intelligence:weekly:
+
+This [[https://zachlandes.com/trolley-problem/][interactive article]] on Jev's decision making in the trolly problem was a
+thought-provoking read. What decisions would you want to leave to an LLM to
+make? What information and what level of confidence would one need on how it
+works, to let an LLM make a choice for you?
+
+#+begin_quote
+First, no one should be asking an AI to rule on life or death (although I fear
+that is coming, regardless). Second, for critical decisions, there are useful
+lessons here that we can take to building with decision models. Knowing these
+models’ decision-making is inconsistently aligned with human preferences tells
+us we can’t just trust their decisions out of the box.
+#+end_quote
+** Workouts
+I was only able to get in two sessions at the gym, not counting all the running
+around needed for the gallery setup! I was hoping to get a game of Frisbee or
+Badminton, but it was not to be.
 * Weekly #41 (2026) :internet:weekly:fitness:ultimate:artificial_intelligence:software_development:llm:art:hyderabad:family:friends:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-41-2026
