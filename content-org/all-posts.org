@@ -27,7 +27,7 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
-* Weekly #43 (2026) :weekly:art:watercolor:comedy:life:
+* Weekly #43 (2026) :weekly:art:watercolor:comedy:life:fitness:movie:family:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-43-2026
 :EXPORT_DATE: [2026-10-28 Wed 23:14]
