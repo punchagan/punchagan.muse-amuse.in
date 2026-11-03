@@ -27,6 +27,64 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
+* Weekly #44 (2026) :women:pcod:health:comedy:weekly:movie:love:cooking:tamil:violence:caste:gender:
+:PROPERTIES:
+:EXPORT_FILE_NAME: weekly-44-2026
+:EXPORT_DATE: [2026-11-03 Tue 18:17]
+:CREATED:  [2026-11-03 Tue 18:17]
+:EXPORT_DESCRIPTION: The week before Diwali, when you can breathe clean and enjoy the outdoors
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/sky-plane-winter.jpg")
+:EXPORT_OPTIONS: H:0 tags:nil
+:END:
+** Delhi and AQI
+
+[[file:~/Pictures/sky-plane-winter.jpg]]
+
+We had a couple of quite rainy days in Delhi in the middle of the week. And
+thanks to that, we had some clear skies and pleasant weather, even if it's
+going to last only a few more days since Diwali is round the corner. Surprise,
+surprise, it was already pretty bad by Sat/Sun.
+** Movies & More
+
+We watched Sumukhi Suresh's stand-up special [[https://www.imdb.com/title/tt14179106/][Hoemonal (2026)]]. She has some
+great observations in this set, and her use of her body and actions to animate
+the scene are so memorable.
+
+I watched [[https://www.imdb.com/title/tt38915678/][Dorothy (2026)]] after a recommendation from Ringo. It pokes at some
+deep questions around gender, masculinity and violence that our species
+subjects each other to, intentionally or not. While doing so, it comes with a
+generous dose of violence like you'd expect from a contemporary Tamil movie.
+Here's a summary with no spoilers, by Ringo:
+
+#+begin_quote
+violence, love, friendship, violence, caste hate, violence, love, gender hate,
+violence, love, friendship, violence, woman, love love, violence, breakdown,
+revolt, reveal, acceptance, violence, violence, denial, acceptance, love, love,
+reveal, fin.
+#+end_quote
+
+I enjoyed watching [[https://www.imdb.com/title/tt0481141/][No Reservations (2007)]] with Saa, even if it was a movie she
+had already watched. It's funny how much we identify ourselves with the work we
+do. It's going to be interesting to see how all this evolves in the age of AI.
+** DTDC and perishables
+
+We sent some of our friends some bakes and they all arrived pretty delayed in a
+broken state. I ended up going through DTDC's [[https://www.dtdc.com/terms/][terms]] in some detail to see what
+could be done to cut losses, but it looks like there's not scope for much. I
+guess we'll simply avoid using them in future, at least for shipping food.
+** Workouts
+
+Got in 4 days, this week! And worked on improving my deadlifts based on the
+feedback last week. Got more feedback on squats and parallel bar dips to work
+on, though. :) Bracing my core well enough seems like the general underlying
+problem across all the feedback.
+
+Also managed to attend one session of Ultimate. We played against GK Psychos
+and they showed us everything we need to work on, as a team.
+** Work
+
+Got a long standing [[https://github.com/ocaml/dune/pull/15381][PR]] of mine on ~ocaml/dune~ finally merged. It's a big
+relief that I can now move onto other bits of work.
 * Weekly #43 (2026) :weekly:art:watercolor:comedy:life:fitness:movie:family:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-43-2026
