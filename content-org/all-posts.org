@@ -27,6 +27,44 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
+* Weekly #45 (2026) :festival:family:fitness:blaggregator:
+:PROPERTIES:
+:EXPORT_FILE_NAME: weekly-45-2026
+:EXPORT_DATE: [2026-11-10 Tue 12:35]
+:CREATED:  [2026-11-10 Tue 12:35]
+:EXPORT_DESCRIPTION: A short note on the Diwali week
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/salted-caramel.jpg")
+:EXPORT_OPTIONS: H:0 tags:nil
+:END:
+** Diwali Chocolates
+
+We (Saa and I) helped Pushp pack 65 boxes of chocolates for a Diwali order.
+(Another 35 were packed without our help). It seemed to have taken way longer
+than we expected it would. But, each additional step, however small, adds up!
+
+Here's some pretty pictures! Let me know if you'd like to get one for yourself,
+or gift it to someone (in NCR).
+
+[[file:~/Pictures/chocolate-boxes.jpg]]
+
+[[file:~/Pictures/salted-caramel.jpg]]
+** Screen printing Saa's art
+
+Read-up about how screen printing is done, while trying to decide on a vendor
+to print some bags with Saa's art for family. Printo folks did a decent job
+with it, despite it being quite hard to communicate with them and zero down on
+them. Their review step, confirming whether a picture would work with screen
+printing, only comes after making the full payment, which is a pain. Things
+might have been easier if we were dealing in person, I suppose.
+** Bunch of Blaggregator updates
+
+I ended up making a [[https://github.com/recursecenter/blaggregator/blob/0f85819d71a1906f68bc3feafcb44f20f8ce62fb/CHANGES.md#2026-11][bunch of updates]] to Blaggregator after many years,
+including merging a [[https://github.com/recursecenter/blaggregator/pull/190][year old PR]] that I had forgotten about. Hopefully, simple
+maintenance like migrating to newer versions of packages and such should be
+easier with LLMs!
+** Workouts
+This was a particularly bad week. I only got one gym session in. And Diwali
+week meant lots of bad eating and bad air, noise, etc.
 * Weekly #44 (2026) :women:pcod:health:comedy:weekly:movie:love:cooking:tamil:violence:caste:gender:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-44-2026
@@ -258,7 +296,10 @@ it. An idea that came up was to perhaps have two phases, and deliberately shift
 phases between learning / building expertise and code generation.
 ** Fitness and Sport :fitness:ultimate:
 
-I was able to get in 3 sessions, with only one session incorporating any cleans practice. Uphill barefoot runs continue to be fun. I also got in a session of Ultimate, with a practice match against Hawabaaz. It was a bad throwing day, but fun overall.
+I was able to get in 3 sessions, with only one session incorporating any cleans
+practice. Uphill barefoot runs continue to be fun. I also got in a session of
+Ultimate, with a practice match against Hawabaaz. It was a bad throwing day,
+but fun overall.
 ** Weeklies on the Internet :internet:weekly:
 
 I had a couple of people reach out to me over the last week or so, in response
