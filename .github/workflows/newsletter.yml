@@ -3,7 +3,7 @@ name: Newsletter
 
 on:
   schedule:
-    - cron: "10 10 * * 4"  # 10:10 IST on Thursday
+    - cron: "10 10 * * 3"  # 10:10 IST on Wednesday
       timezone: 'Asia/Kolkata'
   workflow_dispatch:
 
