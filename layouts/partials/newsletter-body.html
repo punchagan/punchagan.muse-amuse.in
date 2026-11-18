@@ -37,6 +37,23 @@
          light value since there's no dark-mode concept in an inbox, and
          this partial only inlines styles (see comment up top). */ -}}
   {{- $content = replaceRE `<img` `<img width="100%" style="border: 1px solid #ddd; border-radius: 4px;"` $content -}}
+  {{- /* A plain org list of image links (one per <li>, see e.g. weekly
+         posts) is styled on the site (styles.css) as a horizontal
+         scroll row, which email clients can't reliably do anyway.
+         Strip the <ul>/<li> wrapper here instead, so the gallery falls
+         back to plain stacked figures - real content lists (e.g. movie
+         recs) start each <li> with a <p>, not a <figure>, so they're
+         untouched by this. */ -}}
+  {{- $content = replaceRE `<li>\s*<figure` "<figure" $content -}}
+  {{- $content = replaceRE `</figure>\s*</li>` "</figure>" $content -}}
+  {{- $content = replaceRE `<ul>\s*<figure` "<figure" $content -}}
+  {{- $content = replaceRE `</figure>\s*</ul>` "</figure>" $content -}}
+  {{- /* Match the site's own figcaption styling (styles.css) - the
+         figure shortcode's `title` wraps in an <h4>, which would
+         otherwise fall back to the email client's bold default
+         heading style instead of reading as a caption. */ -}}
+  {{- $content = replaceRE `<figcaption>` `<figcaption style="text-align: center; margin-top: 0.5em;">` $content -}}
+  {{- $content = replaceRE `<h4>` `<h4 style="font-size: 0.9em; font-weight: 400; color: #777; margin: 0;">` $content -}}
   {{ $content | safeHTML }}
   {{- end }}
 
