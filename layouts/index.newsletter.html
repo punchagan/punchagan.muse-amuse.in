@@ -28,13 +28,13 @@
 {{- $posts = $posts.ByDate -}}
 
 {{- if $posts -}}
-  {{- /* Same subject shape regardless of post count - also used as the
-         broadcast's dashboard name in newsletter-send.py, so it's a label
-         for the send, not really "about" any one post. */ -}}
+  {{- /* Generic subject for multi-post digests - also used as the
+         broadcast's dashboard name in newsletter-send.py. */ -}}
   {{- $count := len $posts -}}
-  {{- $countLabel := printf "%d posts" $count -}}
-  {{- if eq $count 1 -}}{{- $countLabel = "1 post" -}}{{- end -}}
-  {{- $subject := printf "%s - %s (%s)" $.Site.Title (now.Format "02 Jan 2006") $countLabel -}}
+  {{- $subject := printf "%s - %s (%d posts)" $.Site.Title (now.Format "02 Jan 2006") $count -}}
+  {{- /* A single post: its title is a better subject than the generic
+         label (weekly titles carry a one-line teaser). */ -}}
+  {{- if eq $count 1 -}}{{- $subject = (index $posts 0).Title -}}{{- end -}}
   {{- $body := partial "newsletter-body.html" (dict "posts" $posts "site" .Site) -}}
 <!-- subject: {{ $subject }} -->
 {{ $body }}
