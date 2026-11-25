@@ -1,0 +1,32 @@
+{{- /*
+  Overrides Hugo's built-in figure shortcode (same params: src, alt, title,
+  caption, link) with two differences:
+
+  - Emits the image's intrinsic width/height plus an --ar (aspect ratio)
+    custom property on the figure. styles.css uses --ar to lay galleries
+    out as justified rows (no JS), and the width/height attrs reserve space
+    so the page doesn't jump while images load.
+  - The `width`/`height` params are deliberately ignored. A fixed width="300"
+    made every photo a thumbnail on the site; sizing is now done in CSS
+    (full column width, capped in height). The newsletter strips these
+    attributes anyway (see newsletter-body.html).
+
+  Clicking an image opens the full-size file.
+*/ -}}
+{{- $src := .Get "src" -}}
+{{- $w := 0 -}}{{- $h := 0 -}}
+{{- $file := path.Join "static" $src -}}
+{{- if and (strings.HasPrefix $src "/") (os.FileExists $file) -}}
+  {{- $c := images.Config $file -}}
+  {{- $w = $c.Width }}{{ $h = $c.Height -}}
+{{- end -}}
+<figure{{ if and $w $h }} style="--ar: {{ printf "%.3f" (div (float $w) $h) }}"{{ end }}>
+  {{- with .Get "link" }}<a href="{{ . }}">{{ else }}<a href="{{ $src }}">{{ end -}}
+  <img src="{{ $src }}"
+    {{- with .Get "alt" }} alt="{{ . }}"{{ end -}}
+    {{- if and $w $h }} width="{{ $w }}" height="{{ $h }}"{{ end }} loading="lazy">
+  </a>
+  {{- with (.Get "title" | default (.Get "caption")) }}
+  <figcaption>{{ if $.Get "title" }}<h4>{{ . }}</h4>{{ else }}{{ . | markdownify }}{{ end }}</figcaption>
+  {{- end }}
+</figure>
