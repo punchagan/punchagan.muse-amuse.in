@@ -68,14 +68,22 @@ while IFS= read -r -d '' f; do
   esac
 done < <(git diff --cached --name-only --diff-filter=ACM -z)
 
-# Require a non-empty `description` in the front matter of any staged
-# blog post - easy to forget since older posts don't have one, but we
-# want every post from here on to have one (helps link previews / RSS
-# readers show something better than the raw title).
+# Require every staged blog post to carry a one-line summary: a non-empty
+# `description` in the front matter, or - for weeklies - a teaser in the
+# title itself ("Weekly #48: <teaser>"), which replaces the description
+# there. The title is what feed readers, the browser tab, search results,
+# and the newsletter show, so it's the better place for it. Helps link
+# previews / post lists show something better than the raw title.
 missing_description=()
 while IFS= read -r -d '' f; do
   [ -f "$f" ] || continue
   case "$f" in
+    content/blog/weekly-*.md)
+      front_matter=$(awk '/^---$/{n++; next} n==1' "$f")
+      if ! grep -Eq '^title:[[:space:]]*"Weekly #[0-9]+: [^"]+"' <<<"$front_matter"; then
+        missing_description+=("$f (weekly: title should look like \"Weekly #N: <teaser>\")")
+      fi
+      ;;
     content/blog/*.md)
       front_matter=$(awk '/^---$/{n++; next} n==1' "$f")
       if ! grep -Eq '^description:[[:space:]]*"[^"]+"' <<<"$front_matter" \
@@ -88,7 +96,7 @@ while IFS= read -r -d '' f; do
 done < <(git diff --cached --name-only --diff-filter=ACM -z)
 
 if [ ${#missing_description[@]} -gt 0 ]; then
-  echo "pre-commit: missing 'description' in front matter for:" >&2
+  echo "pre-commit: missing 'description' (or weekly title teaser) in front matter for:" >&2
   printf '  %s\n' "${missing_description[@]}" >&2
   echo "Add a description, or commit with --no-verify to skip." >&2
   exit 1
