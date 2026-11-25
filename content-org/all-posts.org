@@ -27,13 +27,12 @@
 - Use DRAFT keywords
 - IMPORTANT: Don't use tags!!
 - Set ~EXPORT_HUGO_SECTION~ to ~drafts~
-* Weekly #47 (2026) :weekly:til:society:learning:science:artificial_intelligence:llm:security:math:humanity:himalaya:
+* Weekly #47: More time in the hills, with magpies, monkeys and math news :weekly:til:society:learning:science:artificial_intelligence:llm:security:math:humanity:himalaya:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-47-2026
 :EXPORT_DATE: [2026-11-24 Tue 11:43]
 :CREATED:  [2026-11-24 Tue 11:43]
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/peaks-w47.jpg")
-:EXPORT_DESCRIPTION: Another week in the mountains while the Riemann Hypothesis was proved
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
 ** More time in the hills
@@ -103,12 +102,11 @@ interspersed with [[https://youtu.be/GWduYiBrvOA][Dands]], pistol squats, pull-u
 Also, consider supporting [[https://www.justplayfoundation.org/keep-showing-up][Just.Play]], who help children from migrant communities
 in Bangalore return to learning. You could cancel your Zee5/SunNxT subscription
 and get this, instead, as 9 said.
-* Weekly #46 (2026) :weekly:himalaya:fitness:family:community:
+* Weekly #46: A trip with Sid and Shreya to the mountains :weekly:himalaya:fitness:family:community:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-46-2026
 :EXPORT_DATE: [2026-11-18 Wed 12:34]
 :CREATED:  [2026-11-18 Wed 12:34]
-:EXPORT_DESCRIPTION: A trip with Sid and Shreya to the mountains!
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/sunset-trees.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -163,12 +161,11 @@ the gym on a single day!
 I got in a bunch of walks/strolls/jogs through the woods towards the end of the
 week. Sid kept me on my toes for most of the weekend. Does carrying him and
 running around count as a workout?
-* Weekly #45 (2026) :festival:family:fitness:blaggregator:weekly:
+* Weekly #45: Diwali chocolates, screen-printed bags and Blaggregator :festival:family:fitness:blaggregator:weekly:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-45-2026
 :EXPORT_DATE: [2026-11-10 Tue 12:35]
 :CREATED:  [2026-11-10 Tue 12:35]
-:EXPORT_DESCRIPTION: A short note on the Diwali week
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/salted-caramel.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -201,12 +198,11 @@ easier with LLMs!
 ** Workouts
 This was a particularly bad week. I only got one gym session in. And Diwali
 week meant lots of bad eating and bad air, noise, etc.
-* Weekly #44 (2026) :women:pcod:health:comedy:weekly:movie:love:cooking:tamil:violence:caste:gender:
+* Weekly #44: Rain, clean-ish air, bakes broken in transit :women:pcod:health:comedy:weekly:movie:love:cooking:tamil:violence:caste:gender:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-44-2026
 :EXPORT_DATE: [2026-11-03 Tue 18:17]
 :CREATED:  [2026-11-03 Tue 18:17]
-:EXPORT_DESCRIPTION: The week before Diwali, when you can breathe clean and enjoy the outdoors
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/sky-plane-winter.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -259,12 +255,11 @@ and they showed us everything we need to work on, as a team.
 
 Got a long standing [[https://github.com/ocaml/dune/pull/15381][PR]] of mine on ~ocaml/dune~ finally merged. It's a big
 relief that I can now move onto other bits of work.
-* Weekly #43 (2026) :weekly:art:watercolor:comedy:life:fitness:movie:family:
+* Weekly #43: Post-gallery recovery, pet-love movies and an alien party :weekly:art:watercolor:comedy:life:fitness:movie:family:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-43-2026
 :EXPORT_DATE: [2026-10-28 Wed 23:14]
 :CREATED:  [2026-10-28 Wed 23:14]
-:EXPORT_DESCRIPTION: Sid's art and some pet bonding movies
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/sid-art.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -301,12 +296,11 @@ The week went in recovering from all the running around (which doesn't count as
 workout?) post the gallery. But, I was able to squeeze in some treadmill
 running and 1 session in the gym. I did get some critical comments on my
 Deadlift form that I'll need to work on. Again, no sport this week too. :(
-* Weekly #42 (2026) :llm:artificial_intelligence:weekly:art:hyderabad:family:friends:
+* Weekly #42: The week of the art-gallery! :llm:artificial_intelligence:weekly:art:hyderabad:family:friends:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-42-2026
 :EXPORT_DATE: [2026-10-22 Thu 18:11]
 :CREATED:  [2026-10-22 Thu 18:11]
-:EXPORT_DESCRIPTION: The week of the art-gallery!
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/art-gallery-hyd.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -395,12 +389,11 @@ us we can’t just trust their decisions out of the box.
 I was only able to get in two sessions at the gym, not counting all the running
 around needed for the gallery setup! I was hoping to get a game of Frisbee or
 Badminton, but it was not to be.
-* Weekly #41 (2026) :internet:weekly:fitness:ultimate:artificial_intelligence:software_development:llm:art:hyderabad:family:friends:
+* Weekly #41: Art gallery prep, and learning vs generating code :internet:weekly:fitness:ultimate:artificial_intelligence:software_development:llm:art:hyderabad:family:friends:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-41-2026
 :EXPORT_DATE: [2026-10-14 Wed 14:44]
 :CREATED:  [2026-10-14 Wed 14:44]
-:EXPORT_DESCRIPTION: Not sure how I managed to do the weekly, this week
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/framed-art.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -446,12 +439,11 @@ posts. Or maybe just AI agents send people to places that might be interesting?
 ** Delhi protests
 I've not been able to follow everything that's been happening, but things have
 turned up a notch from the June/July protests, looks like.
-* Weekly #40 (2026) :weekly:workouts:llm:agentic_programming:software_development:artificial_intelligence:comics:
+* Weekly #40: AI Delulu, coding minions and cute art :weekly:workouts:llm:agentic_programming:software_development:artificial_intelligence:comics:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-40-2026
 :EXPORT_DATE: [2026-10-05 Mon 20:35]
 :CREATED:  [2026-10-05 Mon 20:35]
-:EXPORT_DESCRIPTION: AI Delulu, coding minions and cute art
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/yukata-willow.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -503,12 +495,11 @@ If you'd like to get one of these, though, let me know!
 The cleans practice has become a small part of what I do, these days. Back to
 the usual suspects like squatting and dead-lifts. I was able to go in 3 days,
 this week. Uphill barefoot runs on the treadmill are a new entry into the plan.
-* Weekly #39 (2026) :weekly:india:research:workouts:llm:agentic_programming:software_development:artificial_intelligence:open_source:community:
+* Weekly #39: LLMs and community; an art CMS and Shreya turns one :weekly:india:research:workouts:llm:agentic_programming:software_development:artificial_intelligence:open_source:community:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-39-2026
 :EXPORT_DATE: [2026-09-29 Tue 19:45]
 :CREATED:  [2026-09-29 Tue 19:45]
-:EXPORT_DESCRIPTION: LLMs and community; Birthdays and community; Frisbee and community
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/double-rainbow.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -598,12 +589,11 @@ It was a birthday weekend! We celebrated Shreya turning one, along with her
 mom's birthday which people almost seemed to forget. And Shreya is now a
 one-year old who can eat all kinds of things, it looks like. She was relishing
 the taste of french fries and got really mad once their supply stopped. xD
-* Weekly #38 (2026) :weekly:newsletter:vibe_coding:llm:artificial_intelligence:
+* Weekly #38: Stochastic parrots and earworms left behind by friends :weekly:newsletter:vibe_coding:llm:artificial_intelligence:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-38-2026
 :EXPORT_DATE: [2026-09-23 Wed 13:40]
 :CREATED:  [2026-09-23 Wed 13:40]
-:EXPORT_DESCRIPTION: LLMs as stochastic parrots and some earworms as distraction
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/brics-sunset.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -690,12 +680,11 @@ Ringo, Ash and the kids left on Monday. I shared a picture from the airport in
 - [[https://music.youtube.com/watch?v=1n13FVRtVxs][Hum Tere Pyaar Mein Saara Aalam]] by Lata
 - [[https://music.youtube.com/watch?v=TdXqbBIdBTU][Lakdi Ki Kathi]] from Masoom
 - and the most earworm-y, [[https://music.youtube.com/watch?v=zySaOMmL34Y][Wheels on the Bus]] by CoComelon
-* Weekly #37 (2026) :weekly:newsletter:hack:zoom:bookmarklets:writing:art:talk:
+* Weekly #37: Using up our annual quota of friend visits :weekly:newsletter:hack:zoom:bookmarklets:writing:art:talk:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-37-2026
 :EXPORT_DATE: [2026-09-15 Tue 22:42]
 :CREATED:  [2026-09-15 Tue 22:42]
-:EXPORT_DESCRIPTION: More time with A&L, Zoom chat replay bookmarklet, etc.
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/until-next-time.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -747,12 +736,11 @@ an @example.com email address. Resend catches these and refuses to broadcast
 
 I manually sent out this edition, and fixed the sign-up processing code to
 ignore these kinds of emails for the future.
-* Weekly #36 (2026) :weekly:birthday:friends:family:health:doctors:fitness:conversations:llm:software_development:design:
+* Weekly #36: L&A's birthday is an excuse to bake, and more cleans :weekly:birthday:friends:family:health:doctors:fitness:conversations:llm:software_development:design:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-36-2026
 :EXPORT_DATE: [2026-09-07 Mon 22:18]
 :CREATED:  [2026-09-07 Mon 22:18]
-:EXPORT_DESCRIPTION: L&A's birthday becomes an excuse to bake; More cleans and high-pulls by myself
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/caoo-l-a.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -794,12 +782,11 @@ It's been a whirlwind weekend, and there's going to be another week full of it!
 Shreya & Sid also were here with their parents to celebrate. I got to bake the
 Chocolate Almond Olive Oil Cake after a long time, and it turned out well --
 all the kids gave it a thumbs-up.
-* Weekly #35 (2026) :weekly:restaurant:bangalore:languages:brain:ultimate:family:kids:
+* Weekly #35: Squat PRs and a Kannada spelling bug :weekly:restaurant:bangalore:languages:brain:ultimate:family:kids:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-35-2026
 :EXPORT_DATE: [2026-08-31 Mon 19:07]
 :CREATED:  [2026-08-31 Mon 19:07]
-:EXPORT_DESCRIPTION: Another week in Bangalore with great gym sessions
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/gym-cat-friday.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -846,12 +833,11 @@ same, which changed the meaning from something like eat in joy to sorrows and
 joys. This bug should've been easy to spot even for people who cannot read
 Kannada if you paid attention to the different syllables in English vs similar
 looking letters in Kannada.
-* Weekly #34 (2026) :feminism:comedy:india:weekly:plain_text_accounting:tutorial:tech:relationships:school:friends:
+* Weekly #34: A week in Bangalore: friends, their kids and 4 gym days :feminism:comedy:india:weekly:plain_text_accounting:tutorial:tech:relationships:school:friends:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-34-2026
 :EXPORT_DATE: [2026-08-24 Mon 11:58]
 :CREATED:  [2026-08-24 Mon 11:58]
-:EXPORT_DESCRIPTION: A full week in Bangalore; meeting inter-generational friends
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/gym-cat.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -945,12 +931,11 @@ Some of my friends have started a school called [[https://otesha.in/][Otesha]]. 
 school viewing for curious parents. They invited me over since I was in
 Bangalore, but I couldn't fit it into my plans. Do check out their website and
 share it with anyone in and around Mysore!
-* Weekly #33 (2026) :cricket:family:weekly:air_quality:tools:politics:india:coffee:
+* Weekly #33: A trip to Bangalore, lots of coffee and some cricket :cricket:family:weekly:air_quality:tools:politics:india:coffee:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-33-2026
 :EXPORT_DATE: [2026-08-17 Mon 13:41]
 :CREATED:  [2026-08-17 Mon 13:41]
-:EXPORT_DESCRIPTION: A Trip to Bangalore, lots of coffee and some cricket
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -994,12 +979,11 @@ luxury of Anup watching over me.
 We did a family outing with the wife's extended family. Did some bowling after
 ages, with a tennis-cricket ball on the street. Also played a lot of good-old
 1-pitch-1-hand out kinda cricket. Enjoyed fielding as usual.
-* Weekly #32 (2026) :tools:growth:artificial_intelligence:llm:weekly:family:bangalore:open_source:haskell:software_development:org_mode:
+* Weekly #32: Recovered from the flu, enjoying a week off from work :tools:growth:artificial_intelligence:llm:weekly:family:bangalore:open_source:haskell:software_development:org_mode:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-32-2026
 :EXPORT_DATE: [2026-08-10 Mon 11:52]
 :CREATED:  [2026-08-10 Mon 11:52]
-:EXPORT_DESCRIPTION: Recovered from the Flu, enjoying a week off from work
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -1053,12 +1037,11 @@ But, also there are some kinds of friction which isn't useful. Some friction
 could just prevent you from getting started or continuing with something and I
 think it's worth sharpening your tools to smoothen out that friction; It's
 something I will continue to do.
-* Weekly #31 (2026) :weekly:art:ultimate:funding:book:movie:telugu:personal:life:health:
+* Weekly #31: Flu week with some reading and lots of screen time :weekly:art:ultimate:funding:book:movie:telugu:personal:life:health:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-31-2026
 :EXPORT_DATE: [2026-08-04 Tue 00:12]
 :CREATED:  [2026-08-04 Tue 00:12]
-:EXPORT_DESCRIPTION: Flu week with some reading and lots of screen time...
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :images '("ox-hugo/pouch.jpg")
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -1103,12 +1086,11 @@ era. Here's the [[https://milaap.org/fundraisers/support-delhi-ultimate-state-te
 The wife designed a pouch for a friend's family gathering. There were some
 pieces left from their gathering which we have been trying to sell to our
 friends' circle. If you'd like one, you can get it from [[https://no-rush-art.netlify.app/shop/posham-pa-pouch/][here]].
-* Weekly #30 (2026) :food:podcast:women:culture:weekly:music:fitness:protest:india:education:
+* Weekly #30: Gen-Z protests, a restored newsletter and Asma Khan :food:podcast:women:culture:weekly:music:fitness:protest:india:education:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-30-2026
 :EXPORT_DATE: [2026-07-27 Mon 12:07]
 :CREATED:  [2026-07-27 Mon 12:07]
-:EXPORT_DESCRIPTION: Education protests, Asma Khan, Email newsletter, etc.
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -1234,11 +1216,10 @@ I wonder if I should automatically add the details of those I knew subscribed
 previously (but may have unsubscribed), or ask them if they'd like to be
 "re-subscribed". If you'd like to receive (at the most) weekly emails from me,
 containing posts from this blog, you can sign up [[https://punchagan.muse-amuse.in/subscribe/][here]].
-* Weekly #29 (2026) :sqlite:orgmode:llm:programming:movie:restaurant:weekly:life:blab:
+* Weekly #29: Reading Naur, org-mode setup tweaks :sqlite:orgmode:llm:programming:movie:restaurant:weekly:life:blab:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-29-2026
 :EXPORT_DATE: [2026-07-20 Mon 17:35]
-:EXPORT_DESCRIPTION: The second one; Getting used to writing weeklies while tweaking the tooling...
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
@@ -1298,11 +1279,10 @@ to use at home.
 We (wife and I) watched Enola Holmes 3 on OTT. We enjoyed Millie Bobby Brown's
 "'Tis I" in the previous editions of the movie and looks like some of the other
 characters also picked it up this time around!
-* Weekly #28 (2026) :blab:life:weekly:google:orgmode:friends:family:food:
+* Weekly #28: First weekly! Keep Android Open, GSoC and nitroplasts :blab:life:weekly:google:orgmode:friends:family:food:
 :PROPERTIES:
 :EXPORT_FILE_NAME: weekly-28-2026
 :EXPORT_DATE: [2026-07-15 Wed 11:29]
-:EXPORT_DESCRIPTION: First weekly; Hopefully, I'll able keep doing this!
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: 
 :EXPORT_OPTIONS: H:0 tags:nil
 :END:
